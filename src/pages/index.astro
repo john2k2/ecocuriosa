@@ -1,0 +1,282 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import AdBanner from '../components/AdBanner.astro';
+
+const allArticles = await getCollection('articles');
+const sortedArticles = allArticles.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const featuredArticle = sortedArticles.find((a) => a.data.featured) || sortedArticles[0];
+const recentArticles = sortedArticles.filter((a) => a !== featuredArticle).slice(0, 9);
+
+const biomes = [
+  {
+    name: 'Fauna Fascinante',
+    slug: 'fauna-fascinante',
+    desc: 'Adaptaciones térmicas, etología salvaje y supervivencia extrema.',
+    count: allArticles.filter((a) => a.data.category === 'fauna-fascinante').length,
+    borderTone: '#946c07',
+    bgBadge: '#f4efe4',
+    textBadge: '#92400e',
+  },
+  {
+    name: 'Especies Marinas',
+    slug: 'especies-marinas',
+    desc: 'Bioluminiscencia abisal, fauna de fosa y arrecifes simbióticos.',
+    count: allArticles.filter((a) => a.data.category === 'especies-marinas').length,
+    borderTone: '#0369a1',
+    bgBadge: '#eaf3ec',
+    textBadge: '#0369a1',
+  },
+  {
+    name: 'Fenómenos Naturales',
+    slug: 'fenomenos-naturales',
+    desc: 'Fuerzas atmosféricas, geología activa y anomalías planetarias.',
+    count: allArticles.filter((a) => a.data.category === 'fenomenos-naturales').length,
+    borderTone: '#063b1e',
+    bgBadge: '#eaf3ec',
+    textBadge: '#063b1e',
+  },
+  {
+    name: 'Ciencia Curiosa',
+    slug: 'ciencia-curiosa',
+    desc: 'Respuestas físicas y biológicas a enigmas cotidianos del entorno.',
+    count: allArticles.filter((a) => a.data.category === 'ciencia-curiosa').length,
+    borderTone: '#785405',
+    bgBadge: '#f4efe4',
+    textBadge: '#785405',
+  },
+];
+---
+
+<BaseLayout
+  title="EcoCuriosa - Revista de Expedición &amp; Ciencias Naturales"
+  description="Enciclopedia de expedición científica sobre biodiversidad, adaptaciones zoológicas y fenómenos planetarios explicados con rigor documental."
+>
+  <!-- Portada Editorial Monumental: Frontispicio de Expedición -->
+  <section class="bg-[#052212] text-[#fbf9f4] py-12 sm:py-20 border-b border-[#08301a]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        
+        <!-- Columna Izquierda: Editorial y Título de Frontispicio -->
+        <div class="lg:col-span-7">
+          <h1 class="font-serif font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.12] mb-6 text-[#fbf9f4]">
+            Crónicas y misterios de la biodiversidad planetaria.
+          </h1>
+          
+          <p class="text-lg sm:text-xl text-[#d0ded5] leading-relaxed max-w-2xl mb-8 font-light">
+            Una enciclopedia digital concebida para responder a las preguntas más fascinantes sobre la vida animal, los ecosistemas vírgenes y las fuerzas físicas de la Tierra con rigor de naturalista.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 text-sm font-semibold">
+            <a
+              href="#archivo"
+              class="px-6 py-3.5 rounded-md bg-[#063b1e] hover:bg-[#0e4b2a] text-[#fbf9f4] border border-[#135933] transition-colors inline-flex items-center gap-2 shadow-xs"
+            >
+              <span>Consultar Monografías</span>
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+            <a
+              href="/sobre-nosotros"
+              class="px-5 py-3.5 text-[#c59b27] hover:text-[#fbf9f4] transition-colors"
+            >
+              Metodología y Fuentes &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna Derecha: Lámina Científica Grabada y Ficha Documental -->
+        <div class="lg:col-span-5">
+          <div class="group relative bg-[#08301a] rounded-lg border border-[#135933] p-5 sm:p-6 shadow-xl transition-all duration-200 hover:border-[#c59b27] focus-within:ring-2 focus-within:ring-[#c59b27] focus-within:ring-offset-2 focus-within:ring-offset-[#052212]">
+            <!-- Foliado de Archivo Superior -->
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-[#135933] text-xs font-semibold text-[#c59b27]">
+              <span class="tracking-wide">LÁMINA I · ARCHIVO BOTÁNICO-ZOOLÓGICO</span>
+              <span class="text-[#fbf9f4] font-normal">Lat. 35°N · Alt. 4,200m</span>
+            </div>
+
+            <!-- Lámina Grabada Ilustrada -->
+            <div class="relative aspect-[16/11] mb-4 overflow-hidden rounded-md bg-[#052212]" tabindex="-1" aria-hidden="true">
+              <img
+                src="/images/articles/leopardo-de-las-nieves-montana.jpg"
+                alt="Fotografía de un leopardo de las nieves en una cresta rocosa helada en el Himalaya"
+                width="800"
+                height="550"
+                loading="eager"
+                decoding="async"
+                class="w-full h-full object-cover"
+              />
+              <span class="absolute bottom-2 left-2 text-xs px-2.5 py-1 rounded-sm bg-[#052212]/90 text-[#c59b27] font-semibold tracking-wide">
+                ESPÉCIMEN REF. PAN-UNC-01
+              </span>
+            </div>
+
+            <!-- Ficha Documental de Campo -->
+            <div class="pt-3 border-t border-[#135933] text-xs">
+              <div class="flex items-center justify-between mb-2">
+                <h2 class="font-serif italic text-base text-[#fbf9f4] font-semibold group-hover:text-[#c59b27] transition-colors">
+                  <a href="/fauna-fascinante/leopardo-de-las-nieves-adaptaciones-frio-extremo" class="after:absolute after:inset-0 after:z-10 focus:outline-none">
+                    Panthera uncia
+                  </a>
+                </h2>
+                <span class="text-xs tracking-wide font-semibold text-[#c59b27]">Mamífero · Carnívoro</span>
+              </div>
+              <p class="text-[#eaf3ec] text-xs leading-relaxed mb-3">
+                Fisiología de conservación calórica: cavidades nasales ensanchadas y masa muscular adaptada a hipoxia extrema en la meseta tibetana.
+              </p>
+              <div class="flex items-center justify-between pt-2 border-t border-[#135933]/60 text-xs text-[#a3b8ad]">
+                <span>Monografía verificada</span>
+                <span tabindex="-1" aria-hidden="true" class="text-[#c59b27] group-hover:underline font-semibold inline-flex items-center gap-1">
+                  Abrir registro de campo &rarr;
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cuerpo de Contenido Principal -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+    
+    <!-- Anuncio de Encabezado (AdSense) -->
+    <AdBanner layout="header" slotId="" className="mb-14" />
+
+    <!-- Portada Principal: Investigación Destacada -->
+    {featuredArticle && (
+      <section id="archivo" class="mb-20 scroll-mt-24">
+        <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-[#e6e2d8]">
+          <h2 class="font-serif font-bold text-2xl sm:text-3xl sm:leading-snug text-[#063b1e] tracking-tight">
+            Investigación Central de Portada
+          </h2>
+          <span class="text-xs font-semibold uppercase text-[#946c07] tracking-widest">
+            Edición Actual
+          </span>
+        </div>
+        <ArticleCard
+          title={featuredArticle.data.title}
+          description={featuredArticle.data.description}
+          slug={featuredArticle.slug}
+          category={featuredArticle.data.category}
+          pubDate={featuredArticle.data.pubDate}
+          image={featuredArticle.data.image}
+          imageAlt={featuredArticle.data.imageAlt}
+          featured={true}
+          body={featuredArticle.body}
+        />
+      </section>
+    )}
+
+    <!-- Cuadernos Temáticos de Biomas (Mosaico de Expedición) -->
+    <section class="mb-20">
+      <div class="mb-8 pb-3 border-b border-[#e6e2d8]">
+        <h2 class="font-serif font-bold text-2xl sm:text-3xl sm:leading-snug text-[#063b1e] tracking-tight mb-1">
+          Archivos por Bioma y Disciplina
+        </h2>
+        <p class="text-sm text-[#5a605c]">
+          Cuatro expediciones continuas a través del reino animal, los abismos marinos y la atmósfera.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {biomes.map((b) => (
+          <a
+            href={`/${b.slug}`}
+            class="p-6 rounded-lg bg-white border border-[#e6e2d8] hover:border-[#063b1e] hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] focus-visible:ring-offset-2 transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-semibold uppercase px-2.5 py-1 rounded"
+                  style={`background-color: ${b.bgBadge}; color: ${b.textBadge};`}
+                >
+                  {b.count} Documentos
+                </span>
+                <span class="text-xs text-[#946c07] font-semibold">Índice</span>
+              </div>
+              
+              <h3 class="font-serif font-bold text-xl text-[#141715] mb-2 hover:text-[#063b1e] transition-colors">
+                {b.name}
+              </h3>
+              <p class="text-xs text-[#5a605c] leading-relaxed mb-6">
+                {b.desc}
+              </p>
+            </div>
+            
+            <div class="pt-4 border-t border-[#e6e2d8] flex items-center justify-between text-xs font-semibold text-[#063b1e]">
+              <span>Consultar archivo</span>
+              <span>&rarr;</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Últimos Despachos y Ensayos -->
+    {recentArticles.length > 0 && (
+      <section class="mb-20">
+        <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-[#e6e2d8]">
+          <h2 class="font-serif font-bold text-2xl sm:text-3xl sm:leading-snug text-[#063b1e] tracking-tight">
+            Despachos y Monografías Recientes
+          </h2>
+          <span class="text-xs text-[#5a605c]">
+            Actualizado semanalmente
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {recentArticles.map((article) => (
+            <ArticleCard
+              title={article.data.title}
+              description={article.data.description}
+              slug={article.slug}
+              category={article.data.category}
+              pubDate={article.data.pubDate}
+              image={article.data.image}
+              imageAlt={article.data.imageAlt}
+              body={article.body}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Bloque de Anuncio Inferior (AdSense) -->
+    <AdBanner layout="footer" slotId="" className="my-14" />
+
+    <!-- Manifiesto de Rigor Científico (Pergamino Claro) -->
+    <section class="bg-[#f4efe4] rounded-lg p-8 sm:p-14 border border-[#e6e2d8]">
+      <div class="max-w-3xl">
+        <h2 class="font-serif font-bold text-2xl sm:text-4xl mb-4 leading-snug sm:leading-snug text-[#063b1e]">
+          Ciencia verificada y respeto por el tiempo del lector.
+        </h2>
+        <p class="text-base text-[#141715]/85 leading-relaxed mb-8 font-light">
+          EcoCuriosa rechaza el contenido inflado por algoritmos. Cada monografía responde directamente a la pregunta de investigación en su primer párrafo, con citas biológicas contrastadas y láminas botánicas y zoológicas con descripciones semánticas.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 text-sm font-semibold">
+          <a
+            href="/sobre-nosotros"
+            class="bg-[#063b1e] hover:bg-[#042613] text-[#fbf9f4] px-6 py-3.5 rounded-md transition-colors shadow-xs"
+          >
+            Metodología y Fuentes
+          </a>
+          <a
+            href="/contacto"
+            class="text-[#946c07] hover:text-[#063b1e] px-4 py-3.5 transition-colors inline-flex items-center gap-1 font-semibold"
+          >
+            <span>Consultar con el equipo</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

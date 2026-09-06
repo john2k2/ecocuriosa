@@ -1,0 +1,40 @@
+---
+interface Props {
+  slotId?: string;
+  format?: 'auto' | 'horizontal' | 'rectangle';
+  layout?: 'in-article' | 'header' | 'footer' | 'sidebar';
+  className?: string;
+}
+
+const {
+  slotId = '',
+  format = 'auto',
+  layout = 'in-article',
+  className = '',
+} = Astro.props;
+
+// Cambia esta constante cuando tengas tu código de AdSense aprobado (ej. 'ca-pub-XXXXXXXXXXXXX')
+// Mantener en blanco durante la fase inicial y de revisión para una presentación limpia
+const ADSENSE_CLIENT_ID = '';
+const isAdSenseActive = Boolean(ADSENSE_CLIENT_ID && slotId);
+---
+
+{isAdSenseActive ? (
+  <div class={`ad-container my-6 text-center overflow-hidden ${className}`}>
+    <span class="text-xs tracking-widest uppercase text-stone-400 block mb-1">Publicidad</span>
+    <ins
+      class="adsbygoogle block"
+      style="display:block"
+      data-ad-client={ADSENSE_CLIENT_ID}
+      data-ad-slot={slotId}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    ></ins>
+    <script is:inline>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+) : (
+  <!-- Espacio de anuncio listo para activación una vez aprobada la cuenta de AdSense -->
+  <div class={`hidden ad-placeholder ${className}`} data-ad-slot={slotId || 'placeholder'}></div>
+)}

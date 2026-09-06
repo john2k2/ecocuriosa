@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Sobre Nosotros"
+  description="Conoce al equipo editorial y la misión educativa de EcoCuriosa, enciclopedia digital sobre biodiversidad y ciencia."
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="bg-white rounded-lg p-6 sm:p-10 border border-[#e6e2d8] shadow-xs article-prose">
+      <h1 class="font-serif font-bold text-3xl sm:text-4xl text-[#063b1e] mb-4 leading-tight sm:leading-snug">
+        Sobre EcoCuriosa
+      </h1>
+      <p class="text-lg text-[#0e4b2a] font-medium mb-8 pb-4 border-b border-[#e6e2d8]">
+        Pasión por la biodiversidad, rigor en la divulgación y curiosidad por los misterios de nuestro planeta.
+      </p>
+
+      <h2>Nuestra Misión</h2>
+      <p>
+        <strong>EcoCuriosa</strong> nació en 2026 con un propósito claro: hacer accesible la ciencia de la naturaleza a todo tipo de públicos, sin sacrificar la exactitud científica ni perder el sentido de fascinación que despierta el mundo vivo.
+      </p>
+      <p>
+        Creemos que para proteger nuestro entorno y apreciar la biodiversidad global, primero es necesario comprenderla. Por ello, desglosamos fenómenos complejos, adaptaciones evolutivas insólitas y ecosistemas amenazados en lecturas claras, estructuradas y bellamente ilustradas.
+      </p>
+
+      <h2>Principios Editoriales</h2>
+      <ul>
+        <li>
+          <strong>Rigor y Verificación:</strong> Nos apoyamos en publicaciones académicas, informes de la UICN (Unión Internacional para la Conservación de la Naturaleza) y fuentes científicas contrastadas.
+        </li>
+        <li>
+          <strong>Claridad y Accesibilidad:</strong> Explicamos conceptos complejos en lenguaje cercano y directo, estructurado para responder con rapidez y profundidad a las preguntas del lector.
+        </li>
+        <li>
+          <strong>Independencia y Transparencia:</strong> Nuestra línea editorial se mantiene autónoma, ofreciendo información honesta orientada siempre a la experiencia del usuario.
+        </li>
+      </ul>
+
+      <h2>El Equipo Editorial</h2>
+      <p>
+        Nuestro equipo está compuesto por entusiastas de la biología, divulgadores científicos y redactores especializados en medio ambiente. Cada artículo es minuciosamente redactado y revisado para asegurar que cumple con los más altos estándares de calidad, accesibilidad web y utilidad para nuestros lectores.
+      </p>
+
+      <div class="border-t border-[#e6e2d8] pt-8 mt-10 not-prose">
+        <h3 class="font-serif font-bold text-[#063b1e] text-xl mb-2">¿Tienes una propuesta o corrección?</h3>
+        <p class="text-sm text-[#444a46] mb-4 leading-relaxed max-w-2xl">
+          Valoramos enormemente la retroalimentación de nuestra comunidad de lectores y naturalistas. Si detectas alguna errata o deseas sugerir un tema para nuestra enciclopedia, estaremos encantados de escucharte.
+        </p>
+        <a
+          href="/contacto"
+          class="inline-flex items-center gap-2 bg-[#063b1e] hover:bg-[#042613] text-[#fbf9f4] text-sm font-semibold px-5 py-2.5 rounded-md transition-colors shadow-xs"
+        >
+          <span>Escribir al Equipo Editorial</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,109 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import AdBanner from '../../components/AdBanner.astro';
+
+export async function getStaticPaths() {
+  const categoryInfo = [
+    {
+      slug: 'fauna-fascinante',
+      name: 'Fauna Fascinante',
+      description: 'Explora el comportamiento, adaptaciones insólitas y supervivencia de las especies animales terrestres más asombrosas del planeta.',
+      badgeBg: '#f4efe4',
+      badgeText: '#92400e',
+    },
+    {
+      slug: 'especies-marinas',
+      name: 'Especies Marinas',
+      description: 'Sumérgete en los misterios de los océanos, arrecifes de coral y criaturas abisales que pueblan las profundidades acuáticas.',
+      badgeBg: '#eaf3ec',
+      badgeText: '#0369a1',
+    },
+    {
+      slug: 'fenomenos-naturales',
+      name: 'Fenómenos Naturales',
+      description: 'Comprende el origen y la magnitud de los eventos geológicos, meteorológicos y atmosféricos más impresionantes de la Tierra.',
+      badgeBg: '#eaf3ec',
+      badgeText: '#063b1e',
+    },
+    {
+      slug: 'ciencia-curiosa',
+      name: 'Ciencia Curiosa',
+      description: 'Preguntas fascinantes, paradojas naturales y explicaciones científicas a dudas cotidianas que todos nos hemos planteado alguna vez.',
+      badgeBg: '#f4efe4',
+      badgeText: '#785405',
+    },
+  ];
+
+  return categoryInfo.map((cat) => ({
+    params: { category: cat.slug },
+    props: { cat },
+  }));
+}
+
+const { cat } = Astro.props;
+const categorySlug = Astro.params.category;
+
+const allArticles = await getCollection('articles', (entry) => {
+  return entry.data.category === categorySlug;
+});
+
+const sortedArticles = allArticles.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout
+  title={`${cat.name} - Cuaderno de Campo`}
+  description={cat.description}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-18">
+    
+    <!-- Encabezado de la Categoría -->
+    <header class="max-w-3xl mb-14 pb-8 border-b border-[#e6e2d8]">
+      <div class="flex items-center gap-2 mb-4">
+        <span
+          class="text-xs font-semibold uppercase px-3 py-1 rounded-sm"
+          style={`background-color: ${cat.badgeBg}; color: ${cat.badgeText};`}
+        >
+          Cuaderno de Campo
+        </span>
+        <span class="text-xs text-[#5a605c]">• {sortedArticles.length} Monografías</span>
+      </div>
+
+      <h1 class="font-serif font-bold text-4xl sm:text-5xl text-[#063b1e] tracking-tight mb-4">
+        {cat.name}
+      </h1>
+      <p class="text-lg text-[#444a46] leading-relaxed font-light">
+        {cat.description}
+      </p>
+    </header>
+
+    <AdBanner layout="header" slotId="" className="mb-12" />
+
+    <!-- Mosaico de Monografías -->
+    <h2 class="sr-only">Monografías de {cat.name}</h2>
+    {sortedArticles.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {sortedArticles.map((article) => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            slug={article.slug}
+            category={article.data.category}
+            pubDate={article.data.pubDate}
+            image={article.data.image}
+            imageAlt={article.data.imageAlt}
+            body={article.body}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 bg-white rounded-lg border border-[#e6e2d8]">
+        <p class="text-[#5a605c] text-sm">Archivos en proceso de catalogación.</p>
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

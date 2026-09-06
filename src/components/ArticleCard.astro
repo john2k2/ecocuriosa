@@ -1,0 +1,136 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  category: string;
+  pubDate: Date;
+  image: string;
+  imageAlt: string;
+  featured?: boolean;
+  body?: string;
+  readingMinutes?: number;
+}
+
+const {
+  title,
+  description,
+  slug,
+  category,
+  pubDate,
+  image,
+  imageAlt,
+  featured = false,
+  body,
+  readingMinutes,
+} = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat('es-ES', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+}).format(pubDate);
+
+const categoryNames: Record<string, string> = {
+  'fauna-fascinante': 'Fauna Fascinante',
+  'especies-marinas': 'Especies Marinas',
+  'fenomenos-naturales': 'Fenómenos Naturales',
+  'ciencia-curiosa': 'Ciencia Curiosa',
+};
+
+const categoryTheme: Record<string, { badgeBg: string; badgeText: string }> = {
+  'fauna-fascinante': { badgeBg: '#f4efe4', badgeText: '#92400e' },
+  'especies-marinas': { badgeBg: '#eaf3ec', badgeText: '#0369a1' },
+  'fenomenos-naturales': { badgeBg: '#eaf3ec', badgeText: '#063b1e' },
+  'ciencia-curiosa': { badgeBg: '#f4efe4', badgeText: '#785405' },
+};
+
+const categoryLabel = categoryNames[category] || category;
+const theme = categoryTheme[category] || { badgeBg: '#eaf3ec', badgeText: '#063b1e' };
+const articleUrl = `/${category}/${slug}`;
+
+// Cálculo dinámico de tiempo de lectura real (basado en cuerpo completo o resumen a 180 palabras/min)
+let estimatedMinutes: number;
+if (typeof readingMinutes === 'number') {
+  estimatedMinutes = readingMinutes;
+} else if (body && body.trim().length > 0) {
+  const wordCount = body.split(/\s+/).filter(Boolean).length;
+  estimatedMinutes = Math.max(2, Math.round(wordCount / 180));
+} else if (description && description.trim().length > 0) {
+  const wordCount = description.split(/\s+/).filter(Boolean).length;
+  estimatedMinutes = Math.max(3, Math.min(6, Math.round(wordCount / 7) + 1));
+} else {
+  estimatedMinutes = 4;
+}
+const readingTime = `Lectura de ${estimatedMinutes} min`;
+---
+
+<article
+  class={`group relative flex flex-col bg-white rounded-lg border border-[#e6e2d8] overflow-hidden transition-all duration-200 hover:border-[#063b1e] hover:shadow-md focus-within:ring-2 focus-within:ring-[#063b1e] focus-within:ring-offset-2 focus-within:border-[#063b1e] ${
+    featured ? 'lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center' : ''
+  }`}
+>
+  <!-- Marco de Imagen (Fijo y nítido, sin zoom artificial de hover) -->
+  <div class={`relative bg-[#efece3] ${featured ? 'lg:col-span-7 aspect-[16/10]' : 'aspect-[16/10]'}`}>
+    <div class="block w-full h-full" tabindex="-1" aria-hidden="true">
+      <img
+        src={image}
+        alt={imageAlt}
+        width="800"
+        height="500"
+        loading={featured ? 'eager' : 'lazy'}
+        decoding="async"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    <span
+      class="absolute top-3 left-3 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded shadow-xs"
+      style={`background-color: ${theme.badgeBg}; color: ${theme.badgeText};`}
+    >
+      {categoryLabel}
+    </span>
+    <span
+      tabindex="-1"
+      aria-hidden="true"
+      class="absolute top-3 right-3 text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-[#141715]/75 text-[#fbf9f4] backdrop-blur-xs"
+    >
+      LÁM. EXP
+    </span>
+  </div>
+
+  <!-- Información y Cuerpo Editorial -->
+  <div class={`flex flex-col flex-1 p-6 justify-between ${featured ? 'lg:col-span-5' : ''}`}>
+    <div>
+      <div class="flex items-center gap-2 text-xs text-[#5a605c] mb-3">
+        <time datetime={pubDate.toISOString()}>{formattedDate}</time>
+        <span>•</span>
+        <span>{readingTime}</span>
+      </div>
+
+      <h3 class={`font-serif font-bold text-[#141715] tracking-tight leading-snug sm:leading-snug mb-3 group-hover:text-[#063b1e] transition-colors ${
+        featured ? 'text-2xl sm:text-3xl' : 'text-xl'
+      }`}>
+        <a href={articleUrl} class="after:absolute after:inset-0 after:z-10 focus:outline-none">
+          {title}
+        </a>
+      </h3>
+
+      <p class="text-sm text-[#444a46] line-clamp-3 leading-relaxed mb-4">
+        {description}
+      </p>
+    </div>
+
+    <div class="pt-4 border-t border-[#e6e2d8] flex items-center justify-between">
+      <span
+        tabindex="-1"
+        aria-hidden="true"
+        class="text-xs font-semibold text-[#063b1e] group-hover:text-[#946c07] transition-colors inline-flex items-center gap-1.5"
+      >
+        Explorar investigación
+        <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </span>
+    </div>
+  </div>
+</article>

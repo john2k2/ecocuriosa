@@ -1,0 +1,71 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import SEO from '../components/SEO.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article';
+  pubDate?: Date;
+  author?: string;
+}
+
+const {
+  title,
+  description,
+  image,
+  type = 'website',
+  pubDate,
+  author,
+} = Astro.props;
+
+// Código de AdSense global: una vez aprobado tu sitio, coloca aquí tu ID (ej: 'ca-pub-XXXXXXXXXXXXXX')
+const ADSENSE_PUBLISHER_ID = '';
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Metaetiquetas SEO y Schema.org -->
+    <SEO
+      title={title}
+      description={description}
+      image={image}
+      type={type}
+      pubDate={pubDate}
+      author={author}
+    />
+
+    <!-- Google AdSense Script (Se activa cuando agregues tu Publisher ID) -->
+    {ADSENSE_PUBLISHER_ID && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
+        crossorigin="anonymous"
+      ></script>
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-[#063b1e] focus:text-[#fbf9f4] focus:rounded-md">Saltar al contenido principal</a>
+    <Navbar />
+    
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

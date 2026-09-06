@@ -1,0 +1,78 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  canonicalURL?: string;
+  type?: 'website' | 'article';
+  pubDate?: Date;
+  author?: string;
+}
+
+const {
+  title,
+  description,
+  image = '/images/og-default.webp',
+  canonicalURL = Astro.url.href,
+  type = 'website',
+  pubDate,
+  author = 'Equipo Editorial EcoCuriosa',
+} = Astro.props;
+
+const siteName = 'EcoCuriosa | Enciclopedia de Naturaleza y Ciencia';
+const fullTitle = title.includes('EcoCuriosa') ? title : `${title} | EcoCuriosa`;
+const fullImageURL = new URL(image, Astro.site).href;
+
+const schemaData = type === 'article' ? {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "image": fullImageURL,
+  "datePublished": pubDate ? pubDate.toISOString() : new Date().toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": author
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EcoCuriosa",
+    "logo": {
+      "@type": "ImageObject",
+      "url": new URL('/images/logo.webp', Astro.site).href
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL
+  }
+} : {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "EcoCuriosa",
+  "url": Astro.site?.href,
+  "description": description
+};
+---
+
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={fullImageURL} />
+<meta property="og:site_name" content="EcoCuriosa" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={fullTitle} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={fullImageURL} />
+
+<!-- Structured Data (Schema.org) -->
+<script type="application/ld+json" set:html={JSON.stringify(schemaData)} />

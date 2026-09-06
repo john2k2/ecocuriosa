@@ -1,0 +1,24 @@
+# Build output & dependencies
+node_modules/
+dist/
+.astro/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Agent & CLI caches
+.gemini/
+.agent/
+.agents/
+.claude/
+.cursor/
+.codex/
+.grok/
+.opencode/
+.impeccable/config.local.json

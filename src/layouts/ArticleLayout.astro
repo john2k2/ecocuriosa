@@ -1,0 +1,140 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import AdBanner from '../components/AdBanner.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  category: string;
+  pubDate: Date;
+  author: string;
+  image: string;
+  imageAlt: string;
+  tags?: string[];
+}
+
+const {
+  title,
+  description,
+  category,
+  pubDate,
+  author,
+  image,
+  imageAlt,
+  tags = [],
+} = Astro.props;
+
+const categoryNames: Record<string, string> = {
+  'fauna-fascinante': 'Fauna Fascinante',
+  'especies-marinas': 'Especies Marinas',
+  'fenomenos-naturales': 'Fenómenos Naturales',
+  'ciencia-curiosa': 'Ciencia Curiosa',
+};
+
+const categoryLabel = categoryNames[category] || category;
+const categoryUrl = `/${category}`;
+
+const formattedDate = new Intl.DateTimeFormat('es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(pubDate);
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  type="article"
+  pubDate={pubDate}
+  author={author}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    
+    <!-- Migas de pan (Breadcrumbs) limpias para navegación -->
+    <nav class="flex items-center gap-2 text-xs text-[#5a605c] mb-8" aria-label="Migas de pan">
+      <a href="/" class="hover:text-[#063b1e] transition-colors">Inicio</a>
+      <span>/</span>
+      <a href={categoryUrl} class="hover:text-[#063b1e] transition-colors font-medium">{categoryLabel}</a>
+      <span>/</span>
+      <span class="text-[#141715] truncate max-w-xs">{title}</span>
+    </nav>
+
+    <!-- Encabezado del artículo (Sin kickers ni eyebrows prohibidos por el Craft Floor) -->
+    <header class="mb-10 text-left">
+      <h1 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-[#063b1e] tracking-tight leading-[1.12] mb-6">
+        {title}
+      </h1>
+
+      <p class="text-xl sm:text-2xl text-[#141715]/85 leading-relaxed font-sans font-light mb-8 max-w-[70ch]">
+        {description}
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 py-4 border-y border-[#e6e2d8] text-xs text-[#5a605c]">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-[#063b1e] text-white flex items-center justify-center font-serif font-bold text-sm">
+            {author.charAt(0)}
+          </div>
+          <span class="font-semibold text-[#141715]">{author}</span>
+        </div>
+        <span>•</span>
+        <time datetime={pubDate.toISOString()}>{formattedDate}</time>
+        <span>•</span>
+        <span class="text-[#946c07] font-semibold">Revisión Científica Rigurosa</span>
+      </div>
+    </header>
+
+    <!-- Imagen Principal con Encuadre de Expedición -->
+    <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">
+      <img
+        src={image}
+        alt={imageAlt}
+        loading="eager"
+        decoding="async"
+        class="w-full aspect-[16/9] object-cover"
+      />
+      {imageAlt && (
+        <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
+          <span class="font-semibold text-[#063b1e]">Lámina de Observación:</span> {imageAlt}
+        </figcaption>
+      )}
+    </figure>
+
+    <!-- Bloque de Anuncio Superior (AdSense) -->
+    <AdBanner layout="in-article" slotId="" className="my-10" />
+
+    <!-- Contenido en Prosa Editorial -->
+    <div class="article-prose">
+      <slot />
+    </div>
+
+    <!-- Bloque de Anuncio Inferior (AdSense) -->
+    <AdBanner layout="in-article" slotId="" className="my-12" />
+
+    <!-- Etiquetas (Tags) de campo -->
+    {tags.length > 0 && (
+      <div class="mt-12 pt-6 border-t border-[#e6e2d8] flex flex-wrap items-center gap-2">
+        <span class="text-xs font-semibold uppercase text-[#5a605c] tracking-wide">Índice temático:</span>
+        {tags.map((tag) => (
+          <span class="bg-[#efece3] text-[#141715] text-xs px-3 py-1 rounded transition-colors">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <!-- Caja de Autor y Acreditación de Campo (E-E-A-T) -->
+    <section class="mt-12 p-8 bg-[#f4efe4] rounded-lg border border-[#e6e2d8] flex items-start gap-5">
+      <div class="w-14 h-14 rounded bg-[#063b1e] text-[#fbf9f4] flex-shrink-0 flex items-center justify-center font-serif font-bold text-2xl shadow-sm">
+        E
+      </div>
+      <div>
+        <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Comité Editorial de EcoCuriosa</h2>
+        <p class="text-sm text-[#444a46] leading-relaxed">
+          Nuestras monografías y artículos de campo se basan en investigaciones de zoología, biología marina y geofísica contrastadas con fuentes académicas internacionales. Nuestro compromiso es acercar la ciencia con honestidad, descartando mitos y respetando el rigor natural.
+        </p>
+      </div>
+    </section>
+
+  </article>
+</BaseLayout>
