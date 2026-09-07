@@ -80,7 +80,7 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
         <span>•</span>
-        <span class="text-[#946c07] font-semibold">Revisión Científica Rigurosa</span>
+        <a href="/metodologia" class="text-[#946c07] font-semibold hover:underline">Revisión editorial</a>
       </div>
     </header>
 
@@ -131,7 +131,12 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       <div>
         <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Comité Editorial de EcoCuriosa</h2>
         <p class="text-sm text-[#444a46] leading-relaxed">
-          Nuestras monografías y artículos de campo se basan en investigaciones de zoología, biología marina y geofísica contrastadas con fuentes académicas internacionales. Nuestro compromiso es acercar la ciencia con honestidad, descartando mitos y respetando el rigor natural.
+          Estas monografías son divulgación de ciencias naturales: contrastamos las afirmaciones principales con literatura de zoología, biología marina y geofísica. No son artículos con revisión por pares ni incluyen aún una bibliografía al pie.
+        </p>
+        <p class="text-sm mt-3">
+          <a href="/metodologia" class="text-[#063b1e] hover:text-[#946c07] font-semibold underline">
+            Ver metodología y fuentes &rarr;
+          </a>
         </p>
       </div>
     </section>
