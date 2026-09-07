@@ -26,6 +26,10 @@ const {
 
 // Código de AdSense global: una vez aprobado tu sitio, coloca aquí tu ID (ej: 'ca-pub-XXXXXXXXXXXXXX')
 const ADSENSE_PUBLISHER_ID = '';
+
+// Token de Cloudflare Web Analytics: Dashboard de Cloudflare → Analytics & Logs → Web Analytics → "Add a site".
+// No es secreto (queda visible en el HTML); Cloudflare lo vincula al hostname ecocuriosa.com.
+const CLOUDFLARE_WEB_ANALYTICS_TOKEN = '';
 ---
 
 <!doctype html>
@@ -58,6 +62,15 @@ const ADSENSE_PUBLISHER_ID = '';
         async
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
         crossorigin="anonymous"
+      ></script>
+    )}
+
+    <!-- Cloudflare Web Analytics (Se activa cuando agregues tu token) -->
+    {CLOUDFLARE_WEB_ANALYTICS_TOKEN && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: CLOUDFLARE_WEB_ANALYTICS_TOKEN })}
       ></script>
     )}
   </head>
