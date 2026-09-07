@@ -4,7 +4,7 @@ description: "Física de partículas explicada paso a paso: colisiones de electr
 category: "fenomenos-naturales"
 pubDate: 2026-08-21
 author: "Dr. Fernando Ibáñez (Astrofísico)"
-image: "/images/articles/auroras-boreales-cielo.jpg"
+image: "/images/articles/auroras-boreales-cielo.webp"
 imageAlt: "Cielo nocturno polar teñido de cortinas ondulantes de luz verde esmeralda y violeta sobre un lago congelado."
 tags:
   - atmosfera

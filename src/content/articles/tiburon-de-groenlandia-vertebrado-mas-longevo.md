@@ -4,7 +4,7 @@ description: "Metabolismo ultralento, aguas gélidas y un tejido celular resiste
 category: "especies-marinas"
 pubDate: 2026-08-14
 author: "Dr. Marcos Peñaloza (Oceanógrafo)"
-image: "/images/articles/tiburon-de-groenlandia.jpg"
+image: "/images/articles/tiburon-de-groenlandia.webp"
 imageAlt: "Tiburón de Groenlandia de piel grisácea y movimientos lentos nadando bajo una gruesa capa de hielo ártico."
 tags:
   - tiburones

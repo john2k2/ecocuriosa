@@ -4,7 +4,7 @@ description: "Hasta 260 noches al año de descargas eléctricas continuas: la or
 category: "fenomenos-naturales"
 pubDate: 2026-08-22
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/relampago-del-catatumbo.jpg"
+image: "/images/articles/relampago-del-catatumbo.webp"
 imageAlt: "Múltiples rayos eléctricos bifurcándose e iluminando nubes de tormenta densas sobre las aguas del lago Maracaibo."
 tags:
   - meteorologia

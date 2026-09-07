@@ -4,7 +4,7 @@ description: "Reacciones luciferina-luciferasa y órganos fotóforos: cómo los 
 category: "especies-marinas"
 pubDate: 2026-08-19
 author: "Dr. Marcos Peñaloza (Oceanógrafo)"
-image: "/images/articles/pez-linterna-bioluminiscente.jpg"
+image: "/images/articles/pez-linterna-bioluminiscente.webp"
 imageAlt: "Pez linterna abisal con su apéndice bioluminiscente brillando con luz esmeralda en medio del abismo negro."
 tags:
   - bioluminiscencia

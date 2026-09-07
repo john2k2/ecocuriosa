@@ -4,7 +4,7 @@ description: "No solo cambia de textura y color: el Thaumoctopus mimicus adopta 
 category: "especies-marinas"
 pubDate: 2026-08-15
 author: "Laura S. Méndez (Bióloga Marina)"
-image: "/images/articles/pulpo-mimo-camuflaje.jpg"
+image: "/images/articles/pulpo-mimo-camuflaje.webp"
 imageAlt: "Pulpo mimo en el fondo arenoso de Indonesia transformando la disposición de sus brazos para imitar las espinas de un pez león."
 tags:
   - cefalopodos

@@ -4,7 +4,7 @@ description: "Descubre las asombrosas adaptaciones anatómicas y térmicas que p
 category: "fauna-fascinante"
 pubDate: 2026-08-05
 author: "Dr. Alejandro Morales (Biólogo Evolutivo)"
-image: "/images/articles/leopardo-de-las-nieves-montana.jpg"
+image: "/images/articles/leopardo-de-las-nieves-montana.webp"
 imageAlt: "Ilustración detallada de un leopardo de las nieves con denso pelaje gris moteado sobre una cresta rocosa helada en el Himalaya."
 tags:
   - fauna

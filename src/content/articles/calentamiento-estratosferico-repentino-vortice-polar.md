@@ -4,7 +4,7 @@ description: "Dinámica de fluidos en la alta atmósfera: el debilitamiento de l
 category: "fenomenos-naturales"
 pubDate: 2026-08-26
 author: "Dra. Carmen Rivas (Meteoróloga)"
-image: "/images/articles/vortice-polar-estratosfera.jpg"
+image: "/images/articles/vortice-polar-estratosfera.webp"
 imageAlt: "Esquema atmosférico del planeta Tierra mostrando el anillo del vórtice polar deformándose y desplazando aire frío hacia el sur."
 tags:
   - climatologia

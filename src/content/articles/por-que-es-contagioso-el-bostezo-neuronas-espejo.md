@@ -4,7 +4,7 @@ description: "Neurociencia del reflejo imitativo: por qué ver o escuchar a algu
 category: "ciencia-curiosa"
 pubDate: 2026-08-31
 author: "Dra. Sofía Alarcón (Neurobióloga)"
-image: "/images/articles/bostezo-contagioso-neurociencia.jpg"
+image: "/images/articles/bostezo-contagioso-neurociencia.webp"
 imageAlt: "Representación artística de las conexiones neuronales que se iluminan en el córtex cerebral ante el estímulo de un bostezo ajeno."
 tags:
   - neurociencia

@@ -4,7 +4,7 @@ description: "Cómo el hipocampo y la corteza cerebral del elefante les permiten
 category: "fauna-fascinante"
 pubDate: 2026-08-09
 author: "Dr. Alejandro Morales (Biólogo Evolutivo)"
-image: "/images/articles/memoria-elefante-africano.jpg"
+image: "/images/articles/memoria-elefante-africano.webp"
 imageAlt: "Manada de elefantes africanos guiada por una matriarca anciana atravesando una llanura de sabana hacia un abrevadero lejano."
 tags:
   - etologia

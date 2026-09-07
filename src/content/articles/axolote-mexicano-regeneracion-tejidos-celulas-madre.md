@@ -4,7 +4,7 @@ description: "El anfibio que no envejece y es capaz de reconstruir extremidades,
 category: "fauna-fascinante"
 pubDate: 2026-08-10
 author: "Carlos V. Ortega (Herpetólogo)"
-image: "/images/articles/axolote-mexicano-regeneracion.jpg"
+image: "/images/articles/axolote-mexicano-regeneracion.webp"
 imageAlt: "Axolote rosa nadando en agua dulce con sus branquias externas plumosas extendidas y ojos oscuros atentos."
 tags:
   - anfibios

@@ -4,7 +4,7 @@ description: "A través del estado de criptobiosis, los osos de agua resisten ra
 category: "fauna-fascinante"
 pubDate: 2026-08-12
 author: "Dra. Elena Ramos (Microbióloga)"
-image: "/images/articles/oso-tardigrado-microscopio.jpg"
+image: "/images/articles/oso-tardigrado-microscopio.webp"
 imageAlt: "Ilustración científica en microscopía electrónica de un tardígrado desplazándose sobre una capa de musgo húmedo."
 tags:
   - microbiologia

@@ -4,7 +4,7 @@ description: "Análisis de la microestructura del borde de ataque de las plumas 
 category: "fauna-fascinante"
 pubDate: 2026-08-06
 author: "Laura S. Méndez (Ornitóloga)"
-image: "/images/articles/vuelo-silencioso-buho-real.jpg"
+image: "/images/articles/vuelo-silencioso-buho-real.webp"
 imageAlt: "Primer plano esquemático de las plumas desflecadas de las alas de un búho disipando las ondas de fricción del aire durante el vuelo nocturno."
 tags:
   - aves

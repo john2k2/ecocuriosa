@@ -4,7 +4,7 @@ description: "Lejos de ser un arma de combate, el famoso colmillo del narval es 
 category: "especies-marinas"
 pubDate: 2026-08-17
 author: "Dr. Marcos Peñaloza (Oceanógrafo)"
-image: "/images/articles/narval-colmillo-artico.jpg"
+image: "/images/articles/narval-colmillo-artico.webp"
 imageAlt: "Grupo de narvales asomando sus largos colmillos espirales a través de una grieta en la banquisa helada del Ártico."
 tags:
   - cetaceos

@@ -4,7 +4,7 @@ description: "Ojos del tamaño de platos de comida, sangre azul a base de cobre 
 category: "especies-marinas"
 pubDate: 2026-08-13
 author: "Dr. Marcos Peñaloza (Oceanógrafo)"
-image: "/images/articles/calamar-gigante-abisal.jpg"
+image: "/images/articles/calamar-gigante-abisal.webp"
 imageAlt: "Calamar gigante sumergido en las profundidades marinas oscuras con tenues reflejos azulados y ojos enormes adaptados a la penumbra."
 tags:
   - oceano
