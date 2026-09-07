@@ -1,100 +1,64 @@
-# Guía Estratégica: Monetización con Google AdSense para EcoCuriosa
+# Guía Estratégica & Estado de Ejecución: EcoCuriosa (Google AdSense)
 
-Esta guía documenta la hoja de ruta práctica para llevar el sitio desde el entorno local hasta la aprobación oficial y cobro recurrente con **Google AdSense**.
-
----
-
-## 1. Arquitectura de Ingresos (Filosofía Nichonauta)
-
-1. **Efecto Bola de Nieve (Contenido Evergreen):**
-   * El tráfico no depende de modas ni de noticias efímeras.
-   * Los 32 artículos iniciales responden a intenciones de búsqueda informativas que los usuarios consultarán de manera constante a lo largo de los años.
-2. **Cero Costes Fijos de Mantenimiento:**
-   * Al ser un sitio estático con **Astro**, el hosting en **Vercel** o **Cloudflare Pages** es **100% gratuito** de por vida, con certificados SSL automáticos y ancho de banda masivo.
-   * No hay base de datos MySQL que pueda caerse o ser hackeada.
-3. **Máximo Margen Operativo:**
-   * Cada dólar generado por AdSense va directo a tu cuenta bancaria.
+Este documento registra la arquitectura técnica, los recursos desplegados en producción y la **hoja de ruta exacta** para completar la monetización pasiva de EcoCuriosa según la metodología Nichonauta.
 
 ---
 
-## 2. Pasos para el Despliegue (Deploy)
+## 1. Estado Actual de la Infraestructura (Desplegado y Verificado)
 
-### Paso A: Subir el proyecto a GitHub
-```bash
-git add .
-git commit -m "feat: lanzamiento de EcoCuriosa con 32 artículos y páginas legales"
-git remote add origin https://github.com/TU_USUARIO/ecocuriosa.git
-git push -u origin main
-```
-
-### Paso B: Conectar con Cloudflare Pages o Vercel
-1. Inicia sesión en [Vercel](https://vercel.com) o [Cloudflare Pages](https://pages.cloudflare.com) (ambos gratuitos).
-2. Selecciona **Import Git Repository** y elige el repositorio de `ecocuriosa`.
-3. Framework preset: **Astro**.
-4. Comando de build: `npm run build`.
-5. Directorio de salida (Output Directory): `dist`.
-6. Haz clic en **Deploy**. En menos de 60 segundos tu web estará online a nivel mundial.
+| Recurso | Estado | Identificador / Enlace | Notas |
+| :--- | :---: | :--- | :--- |
+| **Dominio Oficial** | 🟢 Activo | [https://ecocuriosa.com](https://ecocuriosa.com) | Comprado en Cloudflare Registrar con SSL HSTS |
+| **Dominio Secundario** | 🟢 Activo | [https://www.ecocuriosa.com](https://www.ecocuriosa.com) | CNAME proxied hacia Cloudflare Pages |
+| **Hosting Estático** | 🟢 Activo | `ecocuriosa.pages.dev` (Cloudflare Pages) | Despliegue automatizado continuo con Wrangler |
+| **Repositorio Código** | 🟢 Sincronizado | [github.com/john2k2/ecocuriosa](https://github.com/john2k2/ecocuriosa) | Rama `main` al día |
+| **Google Search Console** | 🟢 Verificado | Archivo `googlec746ada036fe7bf1.html` | Propiedad confirmada en GSC |
+| **Sitemaps XML** | 🟢 En cola de Google | [ecocuriosa.com/sitemap-index.xml](https://ecocuriosa.com/sitemap-index.xml) | Incluye `sitemap-0.xml` con 42 URLs |
+| **Artículos & Fotos** | 🟢 100% Listos | 32 monografías científicas | 32 fotos documentales reales en alta resolución |
+| **Diseño & Accesibilidad** | 🟢 Impeccable | Frontispicio Hero, paleta botánica, `<main id="main">` | 0 advertencias Impeccable / 0 anti-patrones |
 
 ---
 
-## 3. Adquisición y Vinculación del Dominio ($1 - $10)
+## 2. Cronograma y Hoja de Ruta (Roadmap)
 
-> [!IMPORTANT]
-> Google AdSense **exige un dominio propio** (ejemplo: `ecocuriosa.com`, `ecocuriosa.org` o extensiones económicas como `.club`, `.info`, `.xyz`). No acepta subdominios gratuitos tipo `*.vercel.app` ni `*.pages.dev`.
-
-1. Compra el dominio en registradores de bajo costo como **Namecheap**, **Porkbun** o **Cloudflare Registrar** (suele costar entre $1 y $10 al año).
-2. En el panel de Vercel/Cloudflare Pages, dirígete a **Settings > Domains** y añade tu dominio.
-3. Añade los dos registros DNS (CNAME y A record) que te indique la plataforma. La propagación tardará entre 5 y 30 minutos.
+### ⏳ Fase 1: Período de Asentamiento e Indexación Orgánica (6 al 10 de Septiembre)
+* **Objetivo:** Permitir que los rastreadores de Google (`Googlebot`) procesen los sitemaps y añadan las páginas al índice público.
+* **Por qué esperar:** Google AdSense cuenta con filtros automáticos que rechazan dominios nuevos de menos de 72-96 horas catalogándolos como *"Sitio en construcción"* o *"Bajo valor"* si no constan en el índice.
+* **Comprobación periódica:**
+  Búsqueda en Google: `site:ecocuriosa.com` (debe mostrar las monografías indexadas).
+* **Alarma / Recordatorio activo:** Programado para el **10 de septiembre de 2026**.
 
 ---
 
-## 4. Google Search Console y Sitemap
+### 🚀 Fase 2: Solicitud de Aprobación en Google AdSense (10 de Septiembre)
+1. Iniciar sesión en [Google AdSense](https://adsense.google.com/) con tu cuenta de Google.
+2. Navegar a **Sitios** ➔ **Añadir sitio** e introducir: `ecocuriosa.com`.
+3. Copiar el fragmento de código de verificación que genera AdSense:
+   ```html
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+   ```
+4. Pegar el código en la conversación con el asistente para que lo inserte en `src/layouts/BaseLayout.astro` y ejecute `npm run build && npx wrangler pages deploy dist`.
+5. Regresar a AdSense y pulsar **"Solicitar revisión"**.
+6. *Tiempo estimado de respuesta de Google:* 48 horas a 7 días.
 
-Antes de enviar la web a AdSense, Google debe conocer e indexar tu contenido:
+---
 
-1. Entra en [Google Search Console](https://search.google.com/search-console).
-2. Añade tu propiedad con el dominio (`https://tudominio.com`).
-3. Ve a la pestaña **Sitemaps** en el menú lateral.
-4. Envía la URL de tu sitemap generado automáticamente por Astro:
+### 💰 Fase 3: Despliegue de Anuncios y Monetización Activa
+Una vez aprobada la cuenta:
+1. **Archivo `ads.txt`:** Se colocará en `public/ads.txt`:
    ```text
-   https://tudominio.com/sitemap-index.xml
+   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
    ```
-5. Espera unos días a que Google rastree las páginas e inspecciona 2 o 3 URLs para solicitar indexación manual rápida.
+2. **Activación de Espacios:**
+   Los componentes de anuncios (`ad-placeholder`) ya están distribuidos en:
+   - Portada: Banner horizontal de media página.
+   - Artículos: Bloque superior bajo la ficha de autor y bloque inferior antes de la bibliografía.
+3. El sitio comenzará a monetizar cada visita orgánica que llegue desde Google sin ningún coste de mantenimiento mensual ($0 gastos de servidor).
 
 ---
 
-## 5. El Proceso de Aprobación de Google AdSense
-
-### Checklist Obligatorio antes de enviar a revisión:
-- [x] **Páginas Legales activas en el Footer:**
-  - Política de Privacidad (`/politica-de-privacidad`)
-  - Política de Cookies (`/politica-de-cookies`)
-  - Aviso Legal (`/aviso-legal`)
-  - Sobre Nosotros (`/sobre-nosotros`)
-  - Formulario de Contacto (`/contacto`)
-- [x] **Volumen de Contenido:** 32 artículos profundos ya redactados y organizados en 4 categorías.
-- [x] **Calidad Técnica:** Atributos `alt` en cada ilustración, marcado Schema.org JSON-LD en cada artículo y carga instantánea (&lt;0.5s).
-- [x] **Ausencia de Anuncios Rotos:** Los componentes `AdBanner.astro` están configurados para permanecer ocultos hasta que se introduzca tu Publisher ID.
-
-### ¿Qué hacer si AdSense rechaza la solicitud inicial?
-Como explica Nichonauta en el video:
-1. Las respuestas de rechazo son automáticas y genéricas (*"contenido de bajo valor"*). No te desanimes.
-2. Añade un logotipo personalizado en `/public/images/logo.webp`.
-3. Agrega 5 a 10 artículos nuevos a la categoría con menos contenido ejecutando el pipeline.
-4. Vuelve a pulsar **Solicitar revisión**. Muchas webs son aceptadas en el segundo o tercer intento.
-
----
-
-## 6. Activación de Anuncios tras la Aprobación
-
-Una vez que Google te envíe el correo de bienvenida a AdSense:
-1. Abre `src/layouts/BaseLayout.astro` y coloca tu ID de cliente en la constante:
-   ```javascript
-   const ADSENSE_PUBLISHER_ID = 'ca-pub-XXXXXXXXXXXXXXXX';
-   ```
-2. Abre `src/components/AdBanner.astro` y coloca tu ID de cliente:
-   ```javascript
-   const ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX';
-   ```
-3. Crea tus bloques de anuncios en la plataforma de AdSense (un bloque adaptativo de display y un bloque in-article) y pega sus respectivos `data-ad-slot` en los componentes.
-4. Haz `git commit` y `git push`: Vercel/Cloudflare actualizará tu web en 30 segundos con los anuncios activos y monetizando cada visita.
+## 3. Plan de Contingencia (Si AdSense solicita ajustes)
+En caso de que el primer intento reciba una respuesta automática de *"Contenido de bajo valor"*:
+1. No alterar el dominio ni la temática (la ciencia y naturaleza evergreen tienen de los RPMs más estables).
+2. Publicar una tanda adicional de 8 monografías en la categoría con menor número de páginas (`pipeline/generate_articles.py`).
+3. Reenviar a revisión; la aprobación suele consolidarse en el 2º intento sin inconvenientes.
