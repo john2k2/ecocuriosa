@@ -79,14 +79,16 @@
     line-height: 1.35;
   }
 
-  .article-prose a {
+  /* Same exclusion pattern as Tailwind Typography: .not-prose cancels
+     descendant selectors, so CTAs nested in article-prose keep their utilities. */
+  .article-prose :where(a):not(:where(.not-prose, .not-prose *)) {
     color: var(--jungle-deep);
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
-  .article-prose a:hover {
+  .article-prose :where(a):not(:where(.not-prose, .not-prose *)):hover {
     color: var(--brass-accent);
   }
 
