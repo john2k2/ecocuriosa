@@ -11,6 +11,7 @@ interface Props {
   type?: 'website' | 'article';
   pubDate?: Date;
   author?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   type = 'website',
   pubDate,
   author,
+  noindex = false,
 } = Astro.props;
 
 // Código de AdSense global: una vez aprobado tu sitio, coloca aquí tu ID (ej: 'ca-pub-XXXXXXXXXXXXXX')
@@ -47,6 +49,7 @@ const ADSENSE_PUBLISHER_ID = '';
       type={type}
       pubDate={pubDate}
       author={author}
+      noindex={noindex}
     />
 
     <!-- Google AdSense Script (Se activa cuando agregues tu Publisher ID) -->

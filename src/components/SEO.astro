@@ -7,6 +7,7 @@ interface Props {
   type?: 'website' | 'article';
   pubDate?: Date;
   author?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   type = 'website',
   pubDate,
   author = 'Equipo Editorial EcoCuriosa',
+  noindex = false,
 } = Astro.props;
 
 const siteName = 'EcoCuriosa | Enciclopedia de Naturaleza y Ciencia';
@@ -57,7 +59,8 @@ const schemaData = type === 'article' ? {
 
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
-<link rel="canonical" href={canonicalURL} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+{!noindex && <link rel="canonical" href={canonicalURL} />}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />

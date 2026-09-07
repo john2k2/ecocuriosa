@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const cuadernos = [
+  { name: 'Fauna Fascinante', href: '/fauna-fascinante' },
+  { name: 'Especies Marinas', href: '/especies-marinas' },
+  { name: 'Fenómenos Naturales', href: '/fenomenos-naturales' },
+  { name: 'Ciencia Curiosa', href: '/ciencia-curiosa' },
+];
+---
+
+<BaseLayout
+  title="Página no encontrada"
+  description="Este sendero no figura en el archivo de EcoCuriosa. Vuelve al inicio o consulta los cuadernos de campo."
+  noindex={true}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+    <div class="bg-white rounded-lg p-6 sm:p-10 border border-[#e6e2d8] shadow-xs">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xs font-semibold uppercase px-3 py-1 rounded-sm bg-[#f4efe4] text-[#92400e]">
+          Error 404
+        </span>
+        <span class="text-xs text-[#5a605c]">Registro no catalogado</span>
+      </div>
+
+      <h1 class="font-serif font-bold text-3xl sm:text-4xl text-[#063b1e] mb-4 leading-tight sm:leading-snug">
+        Expedición no encontrada
+      </h1>
+      <p class="text-lg text-[#444a46] leading-relaxed mb-8 pb-6 border-b border-[#e6e2d8] font-light">
+        El sendero que buscas no figura en el archivo de EcoCuriosa. La dirección puede estar incompleta o el documento puede haber cambiado de ubicación.
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-sm font-semibold mb-10">
+        <a
+          href="/"
+          class="px-6 py-3.5 rounded-md bg-[#063b1e] hover:bg-[#042613] text-[#fbf9f4] transition-colors shadow-xs"
+        >
+          Volver al inicio
+        </a>
+        <a
+          href="/sobre-nosotros"
+          class="text-[#946c07] hover:text-[#063b1e] px-4 py-3.5 transition-colors inline-flex items-center gap-1"
+        >
+          <span>Metodología y fuentes</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+
+      <h2 class="font-serif font-bold text-[#063b1e] text-xl mb-3">
+        Consultar cuadernos de campo
+      </h2>
+      <p class="text-sm text-[#5a605c] mb-4 leading-relaxed">
+        Si llegaste aquí buscando una monografía, prueba con uno de los archivos temáticos.
+      </p>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {cuadernos.map((cuaderno) => (
+          <li>
+            <a
+              href={cuaderno.href}
+              class="flex items-center justify-between px-4 py-3 rounded-md border border-[#e6e2d8] hover:border-[#063b1e] hover:bg-[#eaf3ec] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] focus-visible:ring-offset-2 transition-colors text-sm font-semibold text-[#063b1e]"
+            >
+              <span>{cuaderno.name}</span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</BaseLayout>
