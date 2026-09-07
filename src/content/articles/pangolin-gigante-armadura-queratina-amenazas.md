@@ -4,7 +4,7 @@ description: "Explora la armadura biológica del mamífero más traficado del mu
 category: "fauna-fascinante"
 pubDate: 2026-08-08
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/pangolin-gigante-armadura.jpg"
+image: "/images/articles/pangolin-gigante-armadura.webp"
 imageAlt: "Pangolín enroscado en una esfera perfecta mostrando sus escamas romboidales protectoras de queratina pura."
 tags:
   - mamiferos

@@ -4,7 +4,7 @@ description: "Los felinos no ronronean solo por placer: la vibración continua d
 category: "ciencia-curiosa"
 pubDate: 2026-09-05
 author: "Dra. Sofía Alarcón (Zoóloga)"
-image: "/images/articles/ronroneo-felino-acustica.jpg"
+image: "/images/articles/ronroneo-felino-acustica.webp"
 imageAlt: "Gato doméstico descansando plácidamente mientras emite vibraciones corporales representadas como suaves ondas sinusoidales."
 tags:
   - veterinaria

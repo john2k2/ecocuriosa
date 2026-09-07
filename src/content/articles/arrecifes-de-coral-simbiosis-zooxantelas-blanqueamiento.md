@@ -4,7 +4,7 @@ description: "Cómo la simbiosis con las microalgas zooxantelas crea las estruct
 category: "especies-marinas"
 pubDate: 2026-08-16
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/arrecife-coral-zooxantelas.jpg"
+image: "/images/articles/arrecife-coral-zooxantelas.webp"
 imageAlt: "Primer plano macroscópico de pólipos de coral ramificados con colores vibrantes alimentándose bajo corrientes marinas transparentes."
 tags:
   - corales

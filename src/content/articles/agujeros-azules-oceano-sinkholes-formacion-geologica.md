@@ -4,7 +4,7 @@ description: "Cómo las oscilaciones del nivel del mar en las eras glaciales exc
 category: "fenomenos-naturales"
 pubDate: 2026-08-25
 author: "Dr. Marcos Peñaloza (Oceanógrafo)"
-image: "/images/articles/agujero-azul-belice.jpg"
+image: "/images/articles/agujero-azul-belice.webp"
 imageAlt: "Vista aérea circular del Gran Agujero Azul con su contorno turquesa rodeado de arrecifes de coral vivos en Belice."
 tags:
   - geologia

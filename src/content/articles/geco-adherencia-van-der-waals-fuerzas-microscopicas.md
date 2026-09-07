@@ -4,7 +4,7 @@ description: "Ni pegamento ni ventosas: millones de filamentos microscópicos ll
 category: "fauna-fascinante"
 pubDate: 2026-08-11
 author: "Laura S. Méndez (Bióloga)"
-image: "/images/articles/geco-patas-adherencia.jpg"
+image: "/images/articles/geco-patas-adherencia.webp"
 imageAlt: "Detalle microscópico de las almohadillas digitales de un geco mostrando las microfibras ramificadas que generan adhesión molecular."
 tags:
   - fisica

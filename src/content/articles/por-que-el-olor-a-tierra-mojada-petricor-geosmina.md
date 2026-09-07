@@ -4,7 +4,7 @@ description: "La geosmina producida por bacterias del suelo (Actinomyces) y los 
 category: "ciencia-curiosa"
 pubDate: 2026-09-04
 author: "Dra. Elena Ramos (Bioquímica)"
-image: "/images/articles/petricor-gotas-lluvia-tierra.jpg"
+image: "/images/articles/petricor-gotas-lluvia-tierra.webp"
 imageAlt: "Gota de lluvia impactando contra la tierra húmeda liberando microaerosoles iluminados por un rayo de sol suave."
 tags:
   - quimica

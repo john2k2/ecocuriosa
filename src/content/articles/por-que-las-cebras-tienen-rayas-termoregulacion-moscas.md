@@ -4,7 +4,7 @@ description: "Experimentos ópticos modernos desvelan que el patrón blanco y ne
 category: "ciencia-curiosa"
 pubDate: 2026-09-03
 author: "Dr. Alejandro Morales (Biólogo Evolutivo)"
-image: "/images/articles/cebra-rayas-optica.jpg"
+image: "/images/articles/cebra-rayas-optica.webp"
 imageAlt: "Primer plano geométrico de las rayas diagonales de una cebra creando un contraste óptico bajo el sol de la sabana."
 tags:
   - zoologia

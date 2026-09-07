@@ -4,7 +4,7 @@ description: "Inversión de las corrientes convectivas: por qué estas espectacu
 category: "fenomenos-naturales"
 pubDate: 2026-08-27
 author: "Dra. Carmen Rivas (Meteoróloga)"
-image: "/images/articles/nubes-mammatus-cielo.jpg"
+image: "/images/articles/nubes-mammatus-cielo.webp"
 imageAlt: "Cielo cubierto de protuberancias globulares doradas y azuladas colgando de la base de una gran nube de tormenta."
 tags:
   - meteorologia

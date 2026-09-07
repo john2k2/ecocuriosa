@@ -4,7 +4,7 @@ description: "Las plantas no tienen cerebro pero cuentan los días fríos median
 category: "ciencia-curiosa"
 pubDate: 2026-09-01
 author: "Dra. Elena Ramos (Bióloga Celular)"
-image: "/images/articles/vernalizacion-plantas-brote.jpg"
+image: "/images/articles/vernalizacion-plantas-brote.webp"
 imageAlt: "Pequeño brote verde emergiendo con vigor a través de una fina capa de escarcha matutina primaveral."
 tags:
   - botanica

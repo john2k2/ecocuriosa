@@ -4,7 +4,7 @@ description: "El dinoflagelado Noctiluca scintillans convierte la energía del o
 category: "fenomenos-naturales"
 pubDate: 2026-08-23
 author: "Laura S. Méndez (Bióloga)"
-image: "/images/articles/mar-de-ardora-playa.jpg"
+image: "/images/articles/mar-de-ardora-playa.webp"
 imageAlt: "Orilla de una playa nocturna rompiendo en espuma azul fluorescente brillante bajo un cielo estrellado."
 tags:
   - bioluminiscencia

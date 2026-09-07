@@ -4,7 +4,7 @@ description: "Punto de ebullición dependiente de la presión hidrostática: la 
 category: "fenomenos-naturales"
 pubDate: 2026-08-28
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/geiser-erupcion-vapor.jpg"
+image: "/images/articles/geiser-erupcion-vapor.webp"
 imageAlt: "Impresionante columna vertical de agua hirviente y vapor blanco elevándose hacia el cielo desde una cuenca geotérmica humeante."
 tags:
   - geotermia

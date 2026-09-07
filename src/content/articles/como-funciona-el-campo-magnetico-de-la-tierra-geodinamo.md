@@ -4,7 +4,7 @@ description: "A 3.000 kilómetros bajo nuestros pies, un océano de hierro líqu
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
 author: "Dr. Fernando Ibáñez (Geofísico)"
-image: "/images/articles/campo-magnetico-geodinamo.jpg"
+image: "/images/articles/campo-magnetico-geodinamo.webp"
 imageAlt: "Corte transversal esquemático de la Tierra mostrando el núcleo fundido en rotación y las líneas magnéticas envolventes que desvían la radiación solar."
 tags:
   - geofisica

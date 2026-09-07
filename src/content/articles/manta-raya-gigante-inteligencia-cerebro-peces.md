@@ -4,7 +4,7 @@ description: "Investigaciones cognitivas recientes revelan que las mantas gigant
 category: "especies-marinas"
 pubDate: 2026-08-20
 author: "Laura S. Méndez (Bióloga Marina)"
-image: "/images/articles/manta-raya-gigante.jpg"
+image: "/images/articles/manta-raya-gigante.webp"
 imageAlt: "Manta raya gigante con sus alas pectorales desplegadas planeando elegantemente sobre una estación de limpieza en el arrecife."
 tags:
   - ictiologia

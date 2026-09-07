@@ -4,7 +4,7 @@ description: "Rocas de cientos de kilos que se desplazan dejando surcos misterio
 category: "fenomenos-naturales"
 pubDate: 2026-08-24
 author: "Dr. Fernando Ibáñez (Geofísico)"
-image: "/images/articles/piedras-rodantes-racetrack.jpg"
+image: "/images/articles/piedras-rodantes-racetrack.webp"
 imageAlt: "Roca solitaria sobre el lecho de arcilla agrietada del Valle de la Muerte dejando una larga huella recta detrás de su trayecto."
 tags:
   - geologia

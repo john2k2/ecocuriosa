@@ -4,7 +4,7 @@ description: "Las asombrosas dimensiones y exigencias metabólicas del animal m�
 category: "especies-marinas"
 pubDate: 2026-08-18
 author: "Dra. Sofía Alarcón (Zoóloga Marina)"
-image: "/images/articles/ballena-azul-gigante.jpg"
+image: "/images/articles/ballena-azul-gigante.webp"
 imageAlt: "Perfil hidrodinámico monumental de una ballena azul surcando aguas oceánicas profundas con el kril rodeando su mandíbula."
 tags:
   - cetaceos

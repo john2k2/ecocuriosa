@@ -4,7 +4,7 @@ description: "A diferencia del mito popular, los camaleones no mezclan pigmentos
 category: "fauna-fascinante"
 pubDate: 2026-08-07
 author: "Carlos V. Ortega (Herpetólogo)"
-image: "/images/articles/camaleon-pantera-nanocristales.jpg"
+image: "/images/articles/camaleon-pantera-nanocristales.webp"
 imageAlt: "Camaleón pantera sobre una rama tropical mostrando un gradiente de iridiscencia entre verde esmeralda y turquesa brillante."
 tags:
   - reptiles
