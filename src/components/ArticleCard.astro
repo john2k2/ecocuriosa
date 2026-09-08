@@ -71,7 +71,6 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
     featured ? 'lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center' : ''
   }`}
 >
-  <!-- Marco de Imagen (Fijo y nítido, sin zoom artificial de hover) -->
   <div class={`relative bg-[#efece3] ${featured ? 'lg:col-span-7 aspect-[16/10]' : 'aspect-[16/10]'}`}>
     <div class="block w-full h-full" tabindex="-1" aria-hidden="true">
       <img
@@ -95,11 +94,10 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
       aria-hidden="true"
       class="absolute top-3 right-3 text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-[#141715]/75 text-[#fbf9f4] backdrop-blur-xs"
     >
-      LÁM. EXP
+      REGISTRO
     </span>
   </div>
 
-  <!-- Información y Cuerpo Editorial -->
   <div class={`flex flex-col flex-1 p-6 justify-between ${featured ? 'lg:col-span-5' : ''}`}>
     <div>
       <div class="flex items-center gap-2 text-xs text-[#5a605c] mb-3">

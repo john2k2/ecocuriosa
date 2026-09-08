@@ -61,7 +61,6 @@ const sortedArticles = allArticles.sort(
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-18">
     
-    <!-- Encabezado de la Categoría -->
     <header class="max-w-3xl mb-14 pb-8 border-b border-[#e6e2d8]">
       <div class="flex items-center gap-2 mb-4">
         <span
@@ -83,7 +82,6 @@ const sortedArticles = allArticles.sort(
 
     <AdBanner layout="header" slotId={ADSENSE_SLOTS.categoryHeader} className="mb-12" />
 
-    <!-- Mosaico de Monografías -->
     <h2 class="sr-only">Monografías de {cat.name}</h2>
     {sortedArticles.length > 0 ? (
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

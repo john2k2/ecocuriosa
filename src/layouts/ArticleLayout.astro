@@ -53,7 +53,6 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
 >
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
     
-    <!-- Migas de pan (Breadcrumbs) limpias para navegación -->
     <nav class="flex items-center gap-2 text-xs text-[#5a605c] mb-8" aria-label="Migas de pan">
       <a href="/" class="hover:text-[#063b1e] transition-colors">Inicio</a>
       <span>/</span>
@@ -62,7 +61,6 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       <span class="text-[#141715] truncate max-w-xs">{title}</span>
     </nav>
 
-    <!-- Encabezado del artículo (Sin kickers ni eyebrows prohibidos por el Craft Floor) -->
     <header class="mb-10 text-left">
       <h1 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-[#063b1e] tracking-tight leading-[1.12] mb-6">
         {title}
@@ -82,11 +80,10 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
         <span>•</span>
-        <span class="text-[#946c07] font-semibold">Ficha editorial</span>
+        <span class="text-[#946c07] font-semibold">Ficha documental</span>
       </div>
     </header>
 
-    <!-- Imagen Principal con Encuadre de Expedición -->
     <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">
       <img
         src={image}
@@ -102,18 +99,14 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       )}
     </figure>
 
-    <!-- Bloque de Anuncio Superior (AdSense) -->
     <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleTop} className="my-10" />
 
-    <!-- Contenido en Prosa Editorial -->
     <div class="article-prose">
       <slot />
     </div>
 
-    <!-- Bloque de Anuncio Inferior (AdSense) -->
     <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleBottom} className="my-12" />
 
-    <!-- Etiquetas (Tags) de campo -->
     {tags.length > 0 && (
       <div class="mt-12 pt-6 border-t border-[#e6e2d8] flex flex-wrap items-center gap-2">
         <span class="text-xs font-semibold uppercase text-[#5a605c] tracking-wide">Índice temático:</span>
@@ -125,15 +118,14 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       </div>
     )}
 
-    <!-- Caja de Autor y Acreditación de Campo (E-E-A-T) -->
     <section class="mt-12 p-8 bg-[#f4efe4] rounded-lg border border-[#e6e2d8] flex items-start gap-5">
       <div class="w-14 h-14 rounded bg-[#063b1e] text-[#fbf9f4] flex-shrink-0 flex items-center justify-center font-serif font-bold text-2xl shadow-sm">
         E
       </div>
       <div>
-        <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Comité Editorial de EcoCuriosa</h2>
+        <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Equipo Editorial EcoCuriosa</h2>
         <p class="text-sm text-[#444a46] leading-relaxed">
-          Publicamos divulgación sobre zoología, biología marina y geofísica con un compromiso de claridad, corrección y mejora continua. Las correcciones y fuentes recomendadas pueden enviarse al equipo editorial.
+          Monografía revisada y documentada siguiendo el protocolo de divulgación científica de EcoCuriosa. Si detectas alguna actualización taxonómica, física o empírica, puedes contactar con nuestro equipo editorial para su revisión.
         </p>
       </div>
     </section>
