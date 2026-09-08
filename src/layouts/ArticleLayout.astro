@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import AdBanner from '../components/AdBanner.astro';
+import { ADSENSE_SLOTS } from '../config/ads';
 
 interface Props {
   title: string;
@@ -35,6 +36,7 @@ const categoryLabel = categoryNames[category] || category;
 const categoryUrl = `/${category}`;
 
 const formattedDate = new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'UTC',
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -80,7 +82,7 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
         <span>•</span>
-        <span class="text-[#946c07] font-semibold">Revisión Científica Rigurosa</span>
+        <span class="text-[#946c07] font-semibold">Ficha editorial</span>
       </div>
     </header>
 
@@ -101,7 +103,7 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
     </figure>
 
     <!-- Bloque de Anuncio Superior (AdSense) -->
-    <AdBanner layout="in-article" slotId="" className="my-10" />
+    <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleTop} className="my-10" />
 
     <!-- Contenido en Prosa Editorial -->
     <div class="article-prose">
@@ -109,7 +111,7 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
     </div>
 
     <!-- Bloque de Anuncio Inferior (AdSense) -->
-    <AdBanner layout="in-article" slotId="" className="my-12" />
+    <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleBottom} className="my-12" />
 
     <!-- Etiquetas (Tags) de campo -->
     {tags.length > 0 && (
@@ -131,7 +133,7 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       <div>
         <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Comité Editorial de EcoCuriosa</h2>
         <p class="text-sm text-[#444a46] leading-relaxed">
-          Nuestras monografías y artículos de campo se basan en investigaciones de zoología, biología marina y geofísica contrastadas con fuentes académicas internacionales. Nuestro compromiso es acercar la ciencia con honestidad, descartando mitos y respetando el rigor natural.
+          Publicamos divulgación sobre zoología, biología marina y geofísica con un compromiso de claridad, corrección y mejora continua. Las correcciones y fuentes recomendadas pueden enviarse al equipo editorial.
         </p>
       </div>
     </section>

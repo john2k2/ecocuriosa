@@ -21,7 +21,6 @@ const {
   noindex = false,
 } = Astro.props;
 
-const siteName = 'EcoCuriosa | Enciclopedia de Naturaleza y Ciencia';
 const fullTitle = title.includes('EcoCuriosa') ? title : `${title} | EcoCuriosa`;
 const fullImageURL = new URL(image, Astro.site).href;
 
@@ -78,4 +77,4 @@ const schemaData = type === 'article' ? {
 <meta property="twitter:image" content={fullImageURL} />
 
 <!-- Structured Data (Schema.org) -->
-<script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schemaData)} />

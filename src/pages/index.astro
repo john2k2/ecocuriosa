@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import AdBanner from '../components/AdBanner.astro';
+import { ADSENSE_SLOTS } from '../config/ads';
 
 const allArticles = await getCollection('articles');
 const sortedArticles = allArticles.sort(
@@ -129,7 +130,7 @@ const biomes = [
                 Fisiología de conservación calórica: cavidades nasales ensanchadas y masa muscular adaptada a hipoxia extrema en la meseta tibetana.
               </p>
               <div class="flex items-center justify-between pt-2 border-t border-[#135933]/60 text-xs text-[#a3b8ad]">
-                <span>Monografía verificada</span>
+                  <span>Monografía destacada</span>
                 <span tabindex="-1" aria-hidden="true" class="text-[#c59b27] group-hover:underline font-semibold inline-flex items-center gap-1">
                   Abrir registro de campo &rarr;
                 </span>
@@ -147,7 +148,7 @@ const biomes = [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
     
     <!-- Anuncio de Encabezado (AdSense) -->
-    <AdBanner layout="header" slotId="" className="mb-14" />
+    <AdBanner layout="header" slotId={ADSENSE_SLOTS.homeHeader} className="mb-14" />
 
     <!-- Portada Principal: Investigación Destacada -->
     {featuredArticle && (
@@ -163,7 +164,7 @@ const biomes = [
         <ArticleCard
           title={featuredArticle.data.title}
           description={featuredArticle.data.description}
-          slug={featuredArticle.slug}
+          slug={featuredArticle.id}
           category={featuredArticle.data.category}
           pubDate={featuredArticle.data.pubDate}
           image={featuredArticle.data.image}
@@ -236,7 +237,7 @@ const biomes = [
             <ArticleCard
               title={article.data.title}
               description={article.data.description}
-              slug={article.slug}
+              slug={article.id}
               category={article.data.category}
               pubDate={article.data.pubDate}
               image={article.data.image}
@@ -249,13 +250,13 @@ const biomes = [
     )}
 
     <!-- Bloque de Anuncio Inferior (AdSense) -->
-    <AdBanner layout="footer" slotId="" className="my-14" />
+    <AdBanner layout="footer" slotId={ADSENSE_SLOTS.homeFooter} className="my-14" />
 
     <!-- Manifiesto de Rigor Científico (Pergamino Claro) -->
     <section class="bg-[#f4efe4] rounded-lg p-8 sm:p-14 border border-[#e6e2d8]">
       <div class="max-w-3xl">
         <h2 class="font-serif font-bold text-2xl sm:text-4xl mb-4 leading-snug sm:leading-snug text-[#063b1e]">
-          Ciencia verificada y respeto por el tiempo del lector.
+          Ciencia para explorar y respeto por el tiempo del lector.
         </h2>
         <p class="text-base text-[#141715]/85 leading-relaxed mb-8 font-light">
           EcoCuriosa rechaza el contenido inflado por algoritmos. Cada monografía responde directamente a la pregunta de investigación en su primer párrafo, con citas biológicas contrastadas y láminas botánicas y zoológicas con descripciones semánticas.

@@ -26,6 +26,7 @@ const {
 } = Astro.props;
 
 const formattedDate = new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'UTC',
   year: 'numeric',
   month: 'short',
   day: 'numeric',

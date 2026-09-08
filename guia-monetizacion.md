@@ -37,7 +37,7 @@ Este documento registra la arquitectura técnica, los recursos desplegados en pr
    ```html
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
    ```
-4. Pegar el código en la conversación con el asistente para que lo inserte en `src/layouts/BaseLayout.astro` y ejecute `npm run build && npx wrangler pages deploy dist`.
+4. En Cloudflare Pages, configurar `PUBLIC_ADSENSE_CLIENT_ID` con el valor `ca-pub-…` y los IDs de bloque asignados por AdSense: `PUBLIC_ADSENSE_SLOT_HOME_HEADER`, `PUBLIC_ADSENSE_SLOT_HOME_FOOTER`, `PUBLIC_ADSENSE_SLOT_CATEGORY_HEADER`, `PUBLIC_ADSENSE_SLOT_ARTICLE_TOP` y `PUBLIC_ADSENSE_SLOT_ARTICLE_BOTTOM`. El siguiente despliegue activará solo los espacios que tengan ambos valores.
 5. Regresar a AdSense y pulsar **"Solicitar revisión"**.
 6. *Tiempo estimado de respuesta de Google:* 48 horas a 7 días.
 

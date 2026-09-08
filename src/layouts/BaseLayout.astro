@@ -2,6 +2,7 @@
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import SEO from '../components/SEO.astro';
+import { ADSENSE_CLIENT_ID } from '../config/ads';
 import '../styles/global.css';
 
 interface Props {
@@ -24,8 +25,6 @@ const {
   noindex = false,
 } = Astro.props;
 
-// Código de AdSense global: una vez aprobado tu sitio, coloca aquí tu ID (ej: 'ca-pub-XXXXXXXXXXXXXX')
-const ADSENSE_PUBLISHER_ID = 'ca-pub-4559843439616138';
 ---
 
 <!doctype html>
@@ -52,11 +51,12 @@ const ADSENSE_PUBLISHER_ID = 'ca-pub-4559843439616138';
       noindex={noindex}
     />
 
-    <!-- Google AdSense Script (Se activa cuando agregues tu Publisher ID) -->
-    {ADSENSE_PUBLISHER_ID && (
+    <!-- Google AdSense Script (se activa mediante PUBLIC_ADSENSE_CLIENT_ID) -->
+    {ADSENSE_CLIENT_ID && (
       <script
+        is:inline
         async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
         crossorigin="anonymous"
       ></script>
     )}

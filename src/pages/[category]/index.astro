@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import AdBanner from '../../components/AdBanner.astro';
+import { ADSENSE_SLOTS } from '../../config/ads';
 
 export async function getStaticPaths() {
   const categoryInfo = [
@@ -80,7 +81,7 @@ const sortedArticles = allArticles.sort(
       </p>
     </header>
 
-    <AdBanner layout="header" slotId="" className="mb-12" />
+    <AdBanner layout="header" slotId={ADSENSE_SLOTS.categoryHeader} className="mb-12" />
 
     <!-- Mosaico de Monografías -->
     <h2 class="sr-only">Monografías de {cat.name}</h2>
@@ -90,7 +91,7 @@ const sortedArticles = allArticles.sort(
           <ArticleCard
             title={article.data.title}
             description={article.data.description}
-            slug={article.slug}
+            slug={article.id}
             category={article.data.category}
             pubDate={article.data.pubDate}
             image={article.data.image}

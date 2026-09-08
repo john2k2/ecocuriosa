@@ -1,4 +1,6 @@
 ---
+import { ADSENSE_CLIENT_ID } from '../config/ads';
+
 interface Props {
   slotId?: string;
   format?: 'auto' | 'horizontal' | 'rectangle';
@@ -13,14 +15,11 @@ const {
   className = '',
 } = Astro.props;
 
-// Cambia esta constante cuando tengas tu código de AdSense aprobado (ej. 'ca-pub-XXXXXXXXXXXXX')
-// Mantener en blanco durante la fase inicial y de revisión para una presentación limpia
-const ADSENSE_CLIENT_ID = '';
 const isAdSenseActive = Boolean(ADSENSE_CLIENT_ID && slotId);
 ---
 
 {isAdSenseActive ? (
-  <div class={`ad-container my-6 text-center overflow-hidden ${className}`}>
+  <div class={`ad-container my-6 text-center overflow-hidden ${className}`} data-ad-layout={layout}>
     <span class="text-xs tracking-widest uppercase text-stone-400 block mb-1">Publicidad</span>
     <ins
       class="adsbygoogle block"
@@ -35,6 +34,5 @@ const isAdSenseActive = Boolean(ADSENSE_CLIENT_ID && slotId);
     </script>
   </div>
 ) : (
-  <!-- Espacio de anuncio listo para activación una vez aprobada la cuenta de AdSense -->
-  <div class={`hidden ad-placeholder ${className}`} data-ad-slot={slotId || 'placeholder'}></div>
+  <div class={`hidden ad-placeholder ${className}`} data-ad-layout={layout} data-ad-slot={slotId || 'placeholder'}></div>
 )}
