@@ -1,3 +1,13 @@
+# Defensa base para todas las páginas. La CSP limita únicamente vectores que
+# no interfieren con AdSense, fuentes externas ni Cloudflare Insights.
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Content-Security-Policy: base-uri 'self'; object-src 'none'; frame-ancestors 'self'; upgrade-insecure-requests
+
 # Assets con hash de contenido generados por Astro: nunca cambian, caché de 1 año
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable

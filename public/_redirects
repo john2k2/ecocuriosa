@@ -1,2 +1,5 @@
 /googlec746ada036fe7bf1.html /googlec746ada036fe7bf1.html 200
 /sitemap.xml /sitemap-index.xml 301
+# El host www debe redirigirse además en una Redirect Rule de Cloudflare: el
+# manifiesto de rutas estáticas no puede garantizar una redirección por host
+# cuando el sitio se entrega mediante un Worker.

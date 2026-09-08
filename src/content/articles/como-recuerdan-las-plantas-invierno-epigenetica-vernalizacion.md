@@ -4,7 +4,7 @@ description: "Comprende la vernalización, el silenciamiento epigenético del ge
 category: "ciencia-curiosa"
 pubDate: 2026-09-01
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/vernalizacion-plantas-invierno.webp"
+image: "/images/articles/vernalizacion-plantas-brote.webp"
 imageAlt: "Brote verde de una planta invernal emergiendo a través de una fina capa de nieve y escarcha en primavera"
 tags:
   - botanica

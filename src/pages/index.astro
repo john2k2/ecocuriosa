@@ -121,7 +121,7 @@ const biomes = [
                 <span class="text-xs tracking-wide font-semibold text-[#c59b27]">Mamífero · Carnívoro</span>
               </div>
               <p class="text-[#eaf3ec] text-xs leading-relaxed mb-3">
-                Fisiología de conservación calórica: cavidades nasales ensanchadas y masa muscular adaptada a hipoxia extrema en la meseta tibetana.
+                Pelaje denso, patas anchas y una cola larga: un felino adaptado al frío, la nieve y las pendientes de Asia Central.
               </p>
               <div class="flex items-center justify-between pt-2 border-t border-[#135933]/60 text-xs text-[#a3b8ad]">
                   <span>Monografía destacada</span>
@@ -141,30 +141,6 @@ const biomes = [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
     
     <AdBanner layout="header" slotId={ADSENSE_SLOTS.homeHeader} className="mb-14" />
-
-    {featuredArticle && (
-      <section id="archivo" class="mb-20 scroll-mt-24">
-        <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-[#e6e2d8]">
-          <h2 class="font-serif font-bold text-2xl sm:text-3xl sm:leading-snug text-[#063b1e] tracking-tight">
-            Investigación Central de Portada
-          </h2>
-          <span class="text-xs font-semibold uppercase text-[#946c07] tracking-widest">
-            Edición Actual
-          </span>
-        </div>
-        <ArticleCard
-          title={featuredArticle.data.title}
-          description={featuredArticle.data.description}
-          slug={featuredArticle.id}
-          category={featuredArticle.data.category}
-          pubDate={featuredArticle.data.pubDate}
-          image={featuredArticle.data.image}
-          imageAlt={featuredArticle.data.imageAlt}
-          featured={true}
-          body={featuredArticle.body}
-        />
-      </section>
-    )}
 
     <section class="mb-20">
       <div class="mb-8 pb-3 border-b border-[#e6e2d8]">
@@ -211,7 +187,7 @@ const biomes = [
     </section>
 
     {recentArticles.length > 0 && (
-      <section class="mb-20">
+      <section id="archivo" class="mb-20 scroll-mt-24">
         <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-[#e6e2d8]">
           <h2 class="font-serif font-bold text-2xl sm:text-3xl sm:leading-snug text-[#063b1e] tracking-tight">
             Despachos y Monografías Recientes
@@ -246,7 +222,7 @@ const biomes = [
           Ciencia para explorar y respeto por el tiempo del lector.
         </h2>
         <p class="text-base text-[#141715]/85 leading-relaxed mb-8 font-light">
-          EcoCuriosa rechaza el contenido inflado por algoritmos. Cada monografía responde directamente a la pregunta de investigación en su primer párrafo, con citas biológicas contrastadas y láminas botánicas y zoológicas con descripciones semánticas.
+          EcoCuriosa prioriza respuestas claras antes que volumen. Cada monografía aborda su pregunta central desde el primer párrafo; las fuentes y la fecha de revisión aparecen en los artículos que ya han pasado la verificación editorial.
         </p>
         <div class="flex flex-wrap items-center gap-4 text-sm font-semibold">
           <a

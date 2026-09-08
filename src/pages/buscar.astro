@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const articles = (await getCollection('articles'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((article) => ({
+    title: article.data.title,
+    description: article.data.description,
+    category: article.data.category,
+    slug: article.id,
+    tags: article.data.tags,
+  }));
+
+const initialQuery = Astro.url.searchParams.get('q')?.trim() || '';
+---
+
+<BaseLayout
+  title="Buscar en EcoCuriosa"
+  description="Encuentra explicaciones de ciencias naturales, biodiversidad, océanos y fenómenos de la Tierra en EcoCuriosa."
+>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+    <header class="max-w-3xl mb-10">
+      <h1 class="font-serif text-4xl sm:text-5xl font-bold tracking-tight text-[#063b1e]">Busca una pregunta natural</h1>
+      <p class="mt-4 text-lg leading-relaxed text-[#444a46]">Explora el archivo por especie, fenómeno, concepto o palabra clave.</p>
+    </header>
+
+    <form class="flex flex-col gap-3 sm:flex-row" role="search">
+      <label class="sr-only" for="search-input">Buscar en EcoCuriosa</label>
+      <input id="search-input" name="q" value={initialQuery} autocomplete="off" placeholder="Ej.: auroras, axolote, presión atmosférica" class="min-h-12 flex-1 rounded-md border border-[#b8beb8] bg-white px-4 text-[#141715] outline-none placeholder:text-[#5a605c] focus:border-[#063b1e] focus:ring-2 focus:ring-[#063b1e]/25" />
+      <button class="min-h-12 rounded-md bg-[#063b1e] px-6 font-semibold text-[#fbf9f4] transition-colors hover:bg-[#042613] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] focus-visible:ring-offset-2" type="submit">Buscar</button>
+    </form>
+
+    <p id="search-status" class="mt-7 text-sm text-[#5a605c]" role="status" aria-live="polite"></p>
+    <ul id="search-results" class="mt-6 grid gap-4" aria-label="Resultados de búsqueda"></ul>
+    <noscript><p class="mt-6 text-sm text-[#5a605c]">Activa JavaScript para filtrar el archivo. También puedes explorar las categorías desde el menú.</p></noscript>
+  </section>
+</BaseLayout>
+
+<script is:inline define:vars={{ articles, initialQuery }}>
+  const input = document.querySelector('#search-input');
+  const form = document.querySelector('form[role="search"]');
+  const status = document.querySelector('#search-status');
+  const results = document.querySelector('#search-results');
+
+  const normalise = (value) => value
+    .toLocaleLowerCase('es')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+
+  const render = (query) => {
+    const terms = normalise(query).split(/\s+/).filter(Boolean);
+    const matches = terms.length === 0
+      ? articles
+      : articles.filter((article) => {
+        const searchable = normalise([article.title, article.description, article.category, ...article.tags].join(' '));
+        return terms.every((term) => searchable.includes(term));
+      });
+
+    status.textContent = terms.length === 0
+      ? `Explora las ${articles.length} monografías del archivo.`
+      : `${matches.length} ${matches.length === 1 ? 'resultado' : 'resultados'} para “${query}”.`;
+
+    results.replaceChildren(...matches.map((article) => {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      const category = document.createElement('span');
+      const title = document.createElement('h2');
+      const description = document.createElement('p');
+
+      link.href = `/${article.category}/${article.slug}`;
+      link.className = 'block rounded-lg border border-[#e6e2d8] bg-white p-5 transition-colors hover:border-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e]';
+      category.className = 'text-xs font-semibold uppercase tracking-wide text-[#946c07]';
+      category.textContent = article.category.replaceAll('-', ' ');
+      title.className = 'mt-2 font-serif text-xl font-bold leading-snug text-[#141715]';
+      title.textContent = article.title;
+      description.className = 'mt-2 text-sm leading-relaxed text-[#5a605c]';
+      description.textContent = article.description;
+
+      link.append(category, title, description);
+      item.append(link);
+      return item;
+    }));
+
+    if (matches.length === 0) {
+      const empty = document.createElement('li');
+      empty.className = 'rounded-lg border border-[#e6e2d8] bg-[#f4efe4] p-6 text-sm text-[#444a46]';
+      empty.textContent = 'No encontramos esa combinación. Prueba una especie, fenómeno o término más general.';
+      results.replaceChildren(empty);
+    }
+  };
+
+  input?.addEventListener('input', () => render(input.value.trim()));
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const query = input?.value.trim() || '';
+    const url = new URL(window.location.href);
+    if (query) url.searchParams.set('q', query); else url.searchParams.delete('q');
+    window.history.replaceState({}, '', url);
+    render(query);
+  });
+  render(initialQuery);
+</script>

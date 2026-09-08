@@ -4,7 +4,7 @@ description: "Descubre cómo Thaumoctopus mimicus adopta la forma, color y patro
 category: "especies-marinas"
 pubDate: 2026-08-15
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/pulpo-mimo-fondo-marino.webp"
+image: "/images/articles/pulpo-mimo-camuflaje.webp"
 imageAlt: "Pulpo mimo adaptando la morfología de sus tentáculos para simular a una serpiente marina sobre un fondo de arena volcánica"
 tags:
   - cefalopodos

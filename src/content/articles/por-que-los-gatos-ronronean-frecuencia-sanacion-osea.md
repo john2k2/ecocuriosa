@@ -4,7 +4,7 @@ description: "Comprende el oscilador neural central laríngeo del ronroneo, la p
 category: "ciencia-curiosa"
 pubDate: 2026-09-05
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/ronroneo-gato-acustica.webp"
+image: "/images/articles/ronroneo-felino-acustica.webp"
 imageAlt: "Gato doméstico atigrado descansando plácidamente con los ojos entornados y vibración perceptible en el cuello"
 tags:
   - gatos

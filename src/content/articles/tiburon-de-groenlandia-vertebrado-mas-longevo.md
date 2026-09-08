@@ -4,7 +4,7 @@ description: "Análisis del metabolismo criogénico y la datación por radiocarb
 category: "especies-marinas"
 pubDate: 2026-08-14
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/tiburon-groenlandia-abisal.webp"
+image: "/images/articles/tiburon-de-groenlandia.webp"
 imageAlt: "Tiburón de Groenlandia desplazándose lentamente por las aguas gélidas y oscuras del océano Ártico"
 tags:
   - elasmobranquios

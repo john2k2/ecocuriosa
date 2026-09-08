@@ -6,7 +6,12 @@ interface Props {
   canonicalURL?: string;
   type?: 'website' | 'article';
   pubDate?: Date;
+  modifiedDate?: Date;
   author?: string;
+  category?: string;
+  tags?: string[];
+  sources?: { title: string; url: string }[];
+  pageType?: 'website' | 'collection' | 'about';
   noindex?: boolean;
 }
 
@@ -17,42 +22,98 @@ const {
   canonicalURL = Astro.url.href,
   type = 'website',
   pubDate,
+  modifiedDate,
   author = 'Equipo Editorial EcoCuriosa',
+  category,
+  tags = [],
+  sources = [],
+  pageType = 'website',
   noindex = false,
 } = Astro.props;
 
 const fullTitle = title.includes('EcoCuriosa') ? title : `${title} | EcoCuriosa`;
 const fullImageURL = new URL(image, Astro.site).href;
+const siteURL = Astro.site?.href || 'https://ecocuriosa.com/';
+const organizationId = new URL('/#organization', siteURL).href;
+const websiteId = new URL('/#website', siteURL).href;
+const categoryNames: Record<string, string> = {
+  'fauna-fascinante': 'Fauna Fascinante',
+  'especies-marinas': 'Especies Marinas',
+  'fenomenos-naturales': 'Fenómenos Naturales',
+  'ciencia-curiosa': 'Ciencia Curiosa',
+};
+const isEditorialTeam = author === 'Equipo Editorial EcoCuriosa';
 
-const schemaData = type === 'article' ? {
-  "@context": "https://schema.org",
+const organization = {
+  "@type": "Organization",
+  "@id": organizationId,
+  "name": "EcoCuriosa",
+  "url": siteURL,
+  "description": "Enciclopedia digital independiente de divulgación científica sobre biodiversidad, océanos, geología y fenómenos naturales.",
+  "logo": {
+    "@type": "ImageObject",
+    "url": new URL('/images/logo.webp', siteURL).href
+  },
+  "email": "privacidad@ecocuriosa.com",
+  "knowsAbout": ["Biodiversidad", "Ciencias naturales", "Océanos", "Geología", "Divulgación científica"]
+};
+
+const website = {
+  "@type": "WebSite",
+  "@id": websiteId,
+  "url": siteURL,
+  "name": "EcoCuriosa",
+  "publisher": { "@id": organizationId },
+  "inLanguage": "es",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${siteURL}buscar?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const page = {
+  "@type": pageType === 'about' ? 'AboutPage' : pageType === 'collection' ? 'CollectionPage' : 'WebPage',
+  "@id": canonicalURL,
+  "url": canonicalURL,
+  "name": fullTitle,
+  "description": description,
+  "isPartOf": { "@id": websiteId },
+  "inLanguage": "es"
+};
+
+const article = type === 'article' ? {
   "@type": "Article",
+  "@id": `${canonicalURL}#article`,
   "headline": title,
   "description": description,
   "image": fullImageURL,
-  "datePublished": pubDate ? pubDate.toISOString() : new Date().toISOString(),
-  "author": {
-    "@type": "Person",
-    "name": author
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "EcoCuriosa",
-    "logo": {
-      "@type": "ImageObject",
-      "url": new URL('/images/logo.webp', Astro.site).href
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": canonicalURL
-  }
-} : {
+  "datePublished": pubDate?.toISOString(),
+  ...(modifiedDate ? { "dateModified": modifiedDate.toISOString() } : {}),
+  "inLanguage": "es",
+  "isAccessibleForFree": true,
+  "articleSection": category ? categoryNames[category] || category : undefined,
+  "keywords": tags.join(', ') || undefined,
+  "author": isEditorialTeam
+    ? { "@type": "Organization", "name": author, "url": siteURL }
+    : { "@type": "Person", "name": author },
+  "publisher": { "@id": organizationId },
+  "mainEntityOfPage": { "@id": canonicalURL },
+  ...(sources.length ? { "citation": sources.map((source) => source.url) } : {})
+} : undefined;
+
+const breadcrumbs = type === 'article' && category ? {
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": siteURL },
+    { "@type": "ListItem", "position": 2, "name": categoryNames[category] || category, "item": new URL(`/${category}`, siteURL).href },
+    { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
+  ]
+} : undefined;
+
+const schemaData = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "EcoCuriosa",
-  "url": Astro.site?.href,
-  "description": description
+  "@graph": [organization, website, page, ...(article ? [article] : []), ...(breadcrumbs ? [breadcrumbs] : [])]
 };
 ---
 

@@ -12,17 +12,26 @@ tags:
   - adaptacion
   - himalaya
 featured: true
+sources:
+  - title: "Snow Leopard Behavior"
+    publisher: "Snow Leopard Trust"
+    url: "https://snowleopard.org/snow-leopard-facts/behavior/"
+  - title: "Genomic and physiological evidence on high-altitude adaptation in the snow leopard"
+    publisher: "Proceedings of the National Academy of Sciences"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/"
+reviewedDate: 2026-09-08
+reviewedBy: "Equipo Editorial EcoCuriosa"
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El leopardo de las nieves (*Panthera uncia*) prospera en altitudes de hasta 5.500 metros gracias a cavidades nasales ensanchadas que precalientan el aire glacial antes de llegar a los pulmones, una concentración eritrocitaria excepcional para captar oxígeno en hipoxia severa, un pelaje denso de hasta 12 cm de espesor y una cola muscular de casi un metro que funciona como estabilizador giroscópico y abrigo facial durante el reposo.
+> **Respuesta Rápida a la Búsqueda:** El leopardo de las nieves (*Panthera uncia*) vive en montañas frías y escarpadas de Asia Central. Su pelaje denso, patas anchas, cola larga y una conducta adaptada a terrenos rocosos reducen la pérdida de calor y favorecen el desplazamiento en nieve y pendientes. Las adaptaciones fisiológicas a la altitud siguen siendo objeto de investigación; conviene evitar atribuir una cifra única a su capacidad respiratoria sin una fuente específica.
 
 ---
 
 ## 1. Fisiología de la Hipoxia en la Meseta Tibetana
 
-Vivir por encima de los 4.000 metros de altitud somete a cualquier mamífero a dos presiones selectivas implacables: temperaturas que caen habitualmente por debajo de los -40 °C y una presión parcial de oxígeno que apenas alcanza el 50% de la registrada a nivel del mar. Para sobrevivir en estos canchales escarpados del Himalaya, el macizo de Altai y la cordillera de Kunlun, *Panthera uncia* ha experimentado modificaciones genómicas sustanciales en genes reguladores del transporte de oxígeno como el EPAS1 y el EGLN1.
+Vivir por encima de los 4.000 metros exige afrontar frío intenso, terreno inestable y menor disponibilidad de oxígeno. Los estudios genómicos han investigado variantes relacionadas con la vida en altitud, pero no respaldan convertir una sola característica anatómica o sanguínea en una explicación completa de su supervivencia.
 
-A diferencia de otros grandes félidos como el león o el tigre, la caja torácica del leopardo de las nieves es desproporcionadamente ancha y profunda, albergando pulmones con una superficie alveolar un 30% superior a la esperada para un felino de su masa corporal (32 a 55 kg). Sus glóbulos rojos son más pequeños pero notablemente más numerosos, optimizando la viscosidad sanguínea y garantizando un suministro continuo de oxígeno a los tejidos musculares durante persecuciones vertiginosas por pendientes con desniveles superiores al 60%.
+Por eso, las comparaciones muy precisas sobre la superficie pulmonar, el número de glóbulos rojos o el rendimiento de salto deben acompañarse de una investigación primaria que las mida. En divulgación científica es más fiel explicar la adaptación como una combinación de anatomía, comportamiento, genética y hábitat.
 
 ---
 

@@ -2,6 +2,13 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const sourceSchema = z.object({
+  title: z.string(),
+  url: z.url(),
+  publisher: z.string().optional(),
+  accessedDate: z.date().optional(),
+});
+
 const articlesCollection = defineCollection({
   loader: glob({ base: './src/content/articles', pattern: '**/*.md' }),
   schema: z.object({
@@ -12,8 +19,16 @@ const articlesCollection = defineCollection({
     author: z.string().default('Equipo Editorial EcoCuriosa'),
     image: z.string(),
     imageAlt: z.string(),
+    imageCredit: z.string().optional(),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
+    /**
+     * Every source must be an editorially checked, direct URL. A model may
+     * suggest candidates but must never populate this field without review.
+     */
+    sources: z.array(sourceSchema).default([]),
+    reviewedDate: z.date().optional(),
+    reviewedBy: z.string().optional(),
   }),
 });
 

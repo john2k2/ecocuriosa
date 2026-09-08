@@ -4,7 +4,7 @@ description: "Descubre la física microscópica que permite a los gecos adherirs
 category: "fauna-fascinante"
 pubDate: 2026-08-11
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/geco-adherencia-cristal.webp"
+image: "/images/articles/geco-patas-adherencia.webp"
 imageAlt: "Detalle en macrofotografía de las laminillas adhesivas de la pata de un geco posado sobre una lámina de vidrio limpia"
 tags:
   - reptiles

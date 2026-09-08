@@ -14,7 +14,23 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await render(article);
+const allArticles = await getCollection('articles');
+const { Content, headings } = await render(article);
+const relatedArticles = allArticles
+  .filter((candidate) => candidate.id !== article.id)
+  .map((candidate) => ({
+    article: candidate,
+    sharedTags: candidate.data.tags.filter((tag) => article.data.tags.includes(tag)).length,
+  }))
+  .filter(({ article: candidate, sharedTags }) => candidate.data.category === article.data.category || sharedTags > 0)
+  .sort((a, b) => b.sharedTags - a.sharedTags || b.article.data.pubDate.valueOf() - a.article.data.pubDate.valueOf())
+  .slice(0, 3)
+  .map(({ article: candidate }) => ({
+    title: candidate.data.title,
+    description: candidate.data.description,
+    category: candidate.data.category,
+    slug: candidate.id,
+  }));
 ---
 
 <ArticleLayout
@@ -26,6 +42,11 @@ const { Content } = await render(article);
   image={article.data.image}
   imageAlt={article.data.imageAlt}
   tags={article.data.tags}
+  sources={article.data.sources}
+  reviewedDate={article.data.reviewedDate}
+  reviewedBy={article.data.reviewedBy}
+  headings={headings}
+  relatedArticles={relatedArticles}
 >
   <Content />
 </ArticleLayout>

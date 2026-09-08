@@ -12,6 +12,11 @@ interface Props {
   image: string;
   imageAlt: string;
   tags?: string[];
+  sources?: { title: string; url: string; publisher?: string; accessedDate?: Date }[];
+  reviewedDate?: Date;
+  reviewedBy?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+  relatedArticles?: { title: string; description: string; category: string; slug: string }[];
 }
 
 const {
@@ -23,6 +28,11 @@ const {
   image,
   imageAlt,
   tags = [],
+  sources = [],
+  reviewedDate,
+  reviewedBy,
+  headings = [],
+  relatedArticles = [],
 } = Astro.props;
 
 const categoryNames: Record<string, string> = {
@@ -41,6 +51,13 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
   month: 'long',
   day: 'numeric',
 }).format(pubDate);
+const formattedReviewDate = reviewedDate && new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'UTC',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(reviewedDate);
+const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 ---
 
 <BaseLayout
@@ -49,7 +66,11 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
   image={image}
   type="article"
   pubDate={pubDate}
+  modifiedDate={reviewedDate}
   author={author}
+  category={category}
+  tags={tags}
+  sources={sources}
 >
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
     
@@ -79,8 +100,12 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
         </div>
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
-        <span>•</span>
-        <span class="text-[#946c07] font-semibold">Ficha documental</span>
+        {formattedReviewDate && (
+          <>
+            <span>•</span>
+            <span>Revisado: {formattedReviewDate}</span>
+          </>
+        )}
       </div>
     </header>
 
@@ -99,6 +124,21 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       )}
     </figure>
 
+    {tocHeadings.length > 1 && (
+      <nav class="mb-10 rounded-lg border border-[#e6e2d8] bg-[#f4efe4] p-5 sm:p-6" aria-label="Índice del artículo">
+        <h2 class="font-serif text-xl font-bold text-[#063b1e] mb-3">En este artículo</h2>
+        <ol class="space-y-2 text-sm text-[#444a46]">
+          {tocHeadings.map((heading) => (
+            <li class={heading.depth === 3 ? 'pl-4' : ''}>
+              <a class="underline decoration-[#c59b27]/70 underline-offset-4 hover:text-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm" href={`#${heading.slug}`}>
+                {heading.text}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
     <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleTop} className="my-10" />
 
     <div class="article-prose">
@@ -106,6 +146,25 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
     </div>
 
     <AdBanner layout="in-article" slotId={ADSENSE_SLOTS.articleBottom} className="my-12" />
+
+    {sources.length > 0 && (
+      <section class="mt-12 pt-8 border-t border-[#e6e2d8]" aria-labelledby="fuentes-title">
+        <h2 id="fuentes-title" class="font-serif text-2xl font-bold text-[#063b1e] mb-4">Fuentes y revisión</h2>
+        <p class="text-sm text-[#5a605c] leading-relaxed mb-5">
+          Las fuentes enlazadas respaldan la investigación editorial. Las afirmaciones cuantitativas o que pueden cambiar se revisan antes de actualizar este artículo.
+        </p>
+        <ul class="space-y-3 text-sm">
+          {sources.map((source) => (
+            <li>
+              <a class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm" href={source.url} rel="noopener noreferrer" target="_blank">
+                {source.title}
+              </a>
+              {source.publisher && <span class="text-[#5a605c]"> · {source.publisher}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     {tags.length > 0 && (
       <div class="mt-12 pt-6 border-t border-[#e6e2d8] flex flex-wrap items-center gap-2">
@@ -118,14 +177,29 @@ const formattedDate = new Intl.DateTimeFormat('es-ES', {
       </div>
     )}
 
+    {relatedArticles.length > 0 && (
+      <section class="mt-14 pt-8 border-t border-[#e6e2d8]" aria-labelledby="continua-title">
+        <h2 id="continua-title" class="font-serif text-2xl font-bold text-[#063b1e] mb-5">Continúa la exploración</h2>
+        <div class="grid gap-4 sm:grid-cols-3">
+          {relatedArticles.map((related) => (
+            <a href={`/${related.category}/${related.slug}`} class="rounded-lg border border-[#e6e2d8] bg-white p-5 transition-colors hover:border-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e]">
+              <span class="block text-xs font-semibold uppercase tracking-wide text-[#946c07] mb-2">{categoryNames[related.category] || related.category}</span>
+              <h3 class="font-serif font-bold leading-snug text-[#141715]">{related.title}</h3>
+              <p class="mt-2 text-xs leading-relaxed text-[#5a605c]">{related.description}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <section class="mt-12 p-8 bg-[#f4efe4] rounded-lg border border-[#e6e2d8] flex items-start gap-5">
       <div class="w-14 h-14 rounded bg-[#063b1e] text-[#fbf9f4] flex-shrink-0 flex items-center justify-center font-serif font-bold text-2xl shadow-sm">
         E
       </div>
       <div>
-        <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">Equipo Editorial EcoCuriosa</h2>
+        <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">{reviewedBy || 'Equipo Editorial EcoCuriosa'}</h2>
         <p class="text-sm text-[#444a46] leading-relaxed">
-          Monografía revisada y documentada siguiendo el protocolo de divulgación científica de EcoCuriosa. Si detectas alguna actualización taxonómica, física o empírica, puedes contactar con nuestro equipo editorial para su revisión.
+          Esta monografía sigue el protocolo editorial de EcoCuriosa. Si detectas una actualización taxonómica, física o empírica, puedes escribirnos para abrir una revisión documentada.
         </p>
       </div>
     </section>

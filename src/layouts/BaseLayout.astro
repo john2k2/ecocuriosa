@@ -11,7 +11,12 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   pubDate?: Date;
+  modifiedDate?: Date;
   author?: string;
+  category?: string;
+  tags?: string[];
+  sources?: { title: string; url: string }[];
+  pageType?: 'website' | 'collection' | 'about';
   noindex?: boolean;
 }
 
@@ -21,7 +26,12 @@ const {
   image,
   type = 'website',
   pubDate,
+  modifiedDate,
   author,
+  category,
+  tags,
+  sources,
+  pageType = 'website',
   noindex = false,
 } = Astro.props;
 
@@ -47,7 +57,12 @@ const {
       image={image}
       type={type}
       pubDate={pubDate}
+      modifiedDate={modifiedDate}
       author={author}
+      category={category}
+      tags={tags}
+      sources={sources}
+      pageType={pageType}
       noindex={noindex}
     />
 
