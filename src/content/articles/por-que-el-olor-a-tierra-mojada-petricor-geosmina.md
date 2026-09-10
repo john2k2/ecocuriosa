@@ -11,6 +11,13 @@ tags:
   - olores
   - lluvia
   - evolucion
+sources:
+  - title: "Raindrops and the aerosolization of soil"
+    publisher: "Nature Communications"
+    url: "https://doi.org/10.1038/ncomms7083"
+  - title: "Geosmin biosynthesis"
+    publisher: "Nature Chemical Biology / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/"
 featured: false
 ---
 

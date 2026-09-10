@@ -11,6 +11,13 @@ tags:
   - magnetismo
   - tierra
   - astronomia
+sources:
+  - title: "Introduction to Geomagnetism"
+    publisher: "U.S. Geological Survey"
+    url: "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
+  - title: "Earth's Magnetosphere"
+    publisher: "NASA Science"
+    url: "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/"
 featured: false
 ---
 

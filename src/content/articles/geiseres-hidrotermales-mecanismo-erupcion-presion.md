@@ -11,6 +11,13 @@ tags:
   - termodinamica
   - vulcanologia
   - hidrotermal
+sources:
+  - title: "Yellowstone's Active Hydrothermal System"
+    publisher: "U.S. Geological Survey"
+    url: "https://www.usgs.gov/volcanoes/yellowstone/science/yellowstones-active-hydrothermal-system"
+  - title: "How Geysers Work"
+    publisher: "National Park Service"
+    url: "https://www.nps.gov/features/yell/tours/fountainpaint/geyser_works.htm"
 featured: false
 ---
 

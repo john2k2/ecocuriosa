@@ -11,6 +11,13 @@ tags:
   - evolucion
   - optica
   - entomologia
+sources:
+  - title: "The function of zebra stripes"
+    publisher: "Nature Communications"
+    url: "https://doi.org/10.1038/ncomms4535"
+  - title: "Zebra stripes do not cool zebras"
+    publisher: "Scientific Reports / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/"
 featured: false
 ---
 

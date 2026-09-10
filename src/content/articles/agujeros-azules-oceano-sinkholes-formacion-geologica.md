@@ -11,6 +11,13 @@ tags:
   - oceanografia
   - espeleologia
   - paleoclima
+sources:
+  - title: "Exploring Blue Holes"
+    publisher: "NOAA Ocean Exploration"
+    url: "https://oceanexplorer.noaa.gov/expedition/20blue-holes/"
+  - title: "Great Blue Hole sedimentary record"
+    publisher: "The Depositional Record"
+    url: "https://doi.org/10.1002/dep2.70021"
 featured: false
 ---
 

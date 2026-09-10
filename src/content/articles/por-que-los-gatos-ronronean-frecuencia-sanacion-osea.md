@@ -11,6 +11,13 @@ tags:
   - acustica
   - fisiologia
   - veterinaria
+sources:
+  - title: "Domestic cat larynges can produce purring frequencies"
+    publisher: "Current Biology"
+    url: "https://doi.org/10.1016/j.cub.2023.09.014"
+  - title: "How cats purr"
+    publisher: "Current Biology"
+    url: "https://doi.org/10.1016/j.cub.2023.10.033"
 featured: false
 ---
 

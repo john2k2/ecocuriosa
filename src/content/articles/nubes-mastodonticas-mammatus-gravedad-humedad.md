@@ -11,6 +11,13 @@ tags:
   - nubes
   - tormentas
   - atmosfera
+sources:
+  - title: "Mammatus"
+    publisher: "National Weather Service"
+    url: "https://forecast.weather.gov/glossary.php?word=MAMMATUS"
+  - title: "International Cloud Atlas: supplementary features"
+    publisher: "World Meteorological Organization"
+    url: "https://cloudatlas.wmo.int/es/clouds-supplementary-features-and-genera-most-frequently-occur-table.html"
 featured: false
 ---
 

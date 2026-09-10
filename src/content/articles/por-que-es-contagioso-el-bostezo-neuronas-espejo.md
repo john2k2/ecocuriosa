@@ -11,6 +11,13 @@ tags:
   - psicologia
   - evolucion
   - etologia
+sources:
+  - title: "Yawn Contagion and Empathy"
+    publisher: "PLOS ONE / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3233580/"
+  - title: "The thermoregulatory theory of yawning"
+    publisher: "Frontiers in Evolutionary Neuroscience / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3534187/"
 featured: false
 ---
 

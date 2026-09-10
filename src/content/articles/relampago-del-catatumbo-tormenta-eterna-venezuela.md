@@ -11,6 +11,13 @@ tags:
   - rayos
   - clima
   - venezuela
+sources:
+  - title: "Lightning activity over Lake Maracaibo"
+    publisher: "Journal of Atmospheric and Solar-Terrestrial Physics"
+    url: "https://doi.org/10.1016/j.jastp.2012.01.013"
+  - title: "Recent analysis of lightning activity in the Lake Maracaibo region"
+    publisher: "Journal of Geophysical Research: Atmospheres"
+    url: "https://doi.org/10.1029/2025JD044030"
 featured: false
 ---
 

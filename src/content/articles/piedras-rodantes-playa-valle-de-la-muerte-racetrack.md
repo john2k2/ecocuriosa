@@ -11,6 +11,13 @@ tags:
   - valle-de-la-muerte
   - fisica
   - climatologia
+sources:
+  - title: "The Racetrack"
+    publisher: "National Park Service"
+    url: "https://www.nps.gov/deva/planyourvisit/the-racetrack.htm"
+  - title: "Sliding Rocks at Racetrack Playa, Death Valley National Park"
+    publisher: "PLOS ONE"
+    url: "https://doi.org/10.1371/journal.pone.0105948"
 featured: false
 ---
 

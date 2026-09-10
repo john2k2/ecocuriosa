@@ -11,6 +11,13 @@ tags:
   - epigenetica
   - genetica
   - primavera
+sources:
+  - title: "Vernalization and epigenetic regulation of FLC"
+    publisher: "Nature Genetics"
+    url: "https://doi.org/10.1038/ng.3712"
+  - title: "Vernalization and epigenetic memory"
+    publisher: "PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/"
 featured: false
 ---
 

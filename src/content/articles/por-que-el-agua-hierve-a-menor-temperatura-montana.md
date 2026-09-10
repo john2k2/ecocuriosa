@@ -11,6 +11,13 @@ tags:
   - quimica
   - altitud
   - cocina-cientifica
+sources:
+  - title: "Water: thermochemical data"
+    publisher: "NIST Chemistry WebBook"
+    url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=224"
+  - title: "U.S. Standard Atmosphere, 1976"
+    publisher: "NASA Technical Reports Server"
+    url: "https://ntrs.nasa.gov/api/citations/19930090991/downloads/19930090991.pdf"
 featured: false
 ---
 

@@ -11,6 +11,13 @@ tags:
   - geofisica
   - astronomia
   - sol
+sources:
+  - title: "Auroras"
+    publisher: "NASA Science"
+    url: "https://science.nasa.gov/sun/auroras/"
+  - title: "Aurora"
+    publisher: "NOAA Space Weather Prediction Center"
+    url: "https://www.swpc.noaa.gov/sites/default/files/images/u2/Aurora.pdf"
 featured: false
 ---
 

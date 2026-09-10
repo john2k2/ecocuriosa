@@ -11,6 +11,13 @@ tags:
   - fisica
   - cielo
   - luz
+sources:
+  - title: "Why Is the Sky Blue?"
+    publisher: "National Weather Service"
+    url: "https://www.weather.gov/fgz/SkyBlue"
+  - title: "Why Is the Sky Blue?"
+    publisher: "NASA Space Place"
+    url: "https://spaceplace.nasa.gov/blue-sky/en/"
 featured: false
 ---
 

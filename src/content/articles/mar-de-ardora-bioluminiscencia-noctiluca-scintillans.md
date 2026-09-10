@@ -11,6 +11,13 @@ tags:
   - dinoflagelados
   - oceanografia
   - playas
+sources:
+  - title: "Bioluminescence"
+    publisher: "NOAA Ocean Exploration"
+    url: "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/"
+  - title: "Noctiluca scintillans and the ecology of bioluminescence"
+    publisher: "PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/"
 featured: false
 ---
 

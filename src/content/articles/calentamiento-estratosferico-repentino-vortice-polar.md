@@ -11,6 +11,13 @@ tags:
   - vortice-polar
   - climatologia
   - invierno
+sources:
+  - title: "Understanding the Arctic Polar Vortex"
+    publisher: "NOAA Climate"
+    url: "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex"
+  - title: "Sudden stratospheric warmings"
+    publisher: "Reviews of Geophysics"
+    url: "https://doi.org/10.1029/2020RG000708"
 featured: false
 ---
 
