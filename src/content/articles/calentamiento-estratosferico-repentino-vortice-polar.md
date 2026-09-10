@@ -80,7 +80,7 @@ El calentamiento acelerado del Ártico (amplificación ártica) reduce la difere
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Un calentamiento estratosférico repentino puede alterar el vórtice polar y, en algunos casos, influir después en el tiempo de superficie. No toda alteración produce una ola de frío local: el pronóstico exige considerar la evolución de toda la atmósfera.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of the Atmospheric Sciences (Charlton & Polvani, A New Look at Stratospheric Sudden Warmings)*

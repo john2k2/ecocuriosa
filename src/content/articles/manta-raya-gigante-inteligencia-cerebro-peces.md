@@ -80,7 +80,7 @@ La pesca dirigida y accidental con redes de deriva para comercializar ilegalment
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La manta gigante merece atención por su ecología y vulnerabilidad, no por analogías apresuradas con la inteligencia humana. Los estudios de conducta y fisiología abren preguntas útiles, pero deben diferenciar observación, interpretación y evidencia concluyente.
 
 ### Referencias y Literatura Científica Consultada
 * *Brain, Behavior and Evolution (Ari & Correia, Brain size and body organization in mobulid rays)*

@@ -80,7 +80,7 @@ Sí. Se han documentado piedras deslizantes similares en varias playas secas de 
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las piedras de Racetrack Playa se desplazan cuando coinciden agua somera, hielo fino y viento. Esa explicación se apoya en observaciones directas de ese lugar; no convierte cualquier roca con una huella en el mismo fenómeno.
 
 ### Referencias y Literatura Científica Consultada
 * *PLOS ONE (Norris et al., Sliding Rocks on Racetrack Playa, Death Valley National Park)*

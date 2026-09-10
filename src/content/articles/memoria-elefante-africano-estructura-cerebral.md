@@ -80,7 +80,7 @@ Poseen corpúsculos de Pacini ultra-densos en las almohadillas de las patas y en
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las matriarcas mayores pueden aportar conocimiento social relevante a sus grupos, como muestran experimentos de reproducción de sonidos. Esa evidencia es más interesante que el mito de una memoria infinita y refuerza el valor de proteger estructuras sociales de larga duración.
 
 ### Referencias y Literatura Científica Consultada
 * *Frontiers in Neuroanatomy (Herculano-Houzel et al.)*

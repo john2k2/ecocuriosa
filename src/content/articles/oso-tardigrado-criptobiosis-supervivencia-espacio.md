@@ -81,7 +81,7 @@ Científicos del Centro RIKEN en Japón han transferido el gen de la proteína D
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Los tardígrados toleran condiciones extremas solo bajo especies, estados y duraciones concretas. La criptobiosis y proteínas protectoras son campos activos de investigación, no pruebas de invulnerabilidad ni soluciones listas para medicina o viajes espaciales humanos.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature Communications (Hashimoto et al., Extremotolerant Tardigrade Genome)*

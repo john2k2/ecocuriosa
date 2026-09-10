@@ -80,7 +80,7 @@ El géiser Steamboat en Yellowstone: cuando entra en erupción mayor, lanza colu
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Un géiser necesita una combinación poco común de calor, agua y conductos que retengan presión. Cada sistema hidrotermal tiene su propia geometría y química, por eso sus intervalos y temperaturas no se pueden convertir en una regla universal.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of Volcanology and Geothermal Research (Hurwitz et al., The physics of geysers)*

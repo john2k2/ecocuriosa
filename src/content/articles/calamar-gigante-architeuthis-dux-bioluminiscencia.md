@@ -80,7 +80,7 @@ El macho carece de hectocótilo especializado y utiliza un espermatóforo alarga
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Cada observación de *Architeuthis dux* ayuda a reemplazar relatos de monstruos por evidencia del océano profundo. Aun así, muchas afirmaciones sobre sus rutas, tamaño o conducta siguen siendo hipótesis porque observarlo en libertad es extraordinariamente difícil.
 
 ### Referencias y Literatura Científica Consultada
 * *Proceedings of the Royal Society B (Nilsson et al., Giant Eyes of Giant Squid)*

@@ -82,7 +82,7 @@ A la llamada línea de Armstrong (aproximadamente 19.000 metros de altitud), don
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La menor presión a mayor altitud baja el punto de ebullición y cambia los tiempos de cocción. No hay una temperatura única para cada montaña: la presión meteorológica, la altura exacta y el método de cocción también importan.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of Chemical Education (The Clausius-Clapeyron Equation and Phase Changes)*

@@ -80,7 +80,7 @@ Críticamente amenazado. La contaminación del agua en Xochimilco, la desecació
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El axolote es un modelo excepcional para estudiar regeneración en tetrápodos, no una receta trasladable de forma inmediata a la medicina humana. La conservación de sus poblaciones y la investigación del blastema son dos partes inseparables de lo que aún podemos aprender de la especie.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Nowoshilow et al., The Axolotl Genome)*

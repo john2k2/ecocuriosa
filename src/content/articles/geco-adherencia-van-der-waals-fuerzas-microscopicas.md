@@ -80,7 +80,7 @@ La NASA ha desarrollado pinzas robóticas biomiméticas tipo geco para atrapar b
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las setas y espátulas del geco permiten un contacto íntimo con las superficies y aprovechan fuerzas intermoleculares. La biomímesis puede inspirarse en ese sistema, pero los números de adhesión y su desempeño cambian según especie, superficie y condiciones.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Autumn et al., Adhesive force of a single gecko foot-hair)*

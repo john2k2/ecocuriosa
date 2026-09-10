@@ -81,7 +81,7 @@ En Marte, la atmósfera es muy delgada pero está cargada de polvo fino rico en 
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La dispersión de Rayleigh explica por qué el cielo suele verse azul y por qué el Sol se enrojece cerca del horizonte. En presencia de bruma, humo o polvo también intervienen aerosoles, de modo que el color final depende de la atmósfera real.
 
 ### Referencias y Literatura Científica Consultada
 * *Philosophical Magazine (Lord Rayleigh, On the light from the sky, its polarization and colour)*

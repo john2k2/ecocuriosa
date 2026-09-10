@@ -80,7 +80,7 @@ Emiten vocalizaciones de baja frecuencia (infrasonidos de 10 a 40 Hz) que alcanz
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Medir el ritmo cardíaco de una ballena azul en libertad abre una ventana poco común a la fisiología de un animal gigantesco. El resultado describe un individuo y una situación concreta, por lo que las cifras deben leerse como evidencia valiosa, no como una constante de toda la especie.
 
 ### Referencias y Literatura Científica Consultada
 * *Proceedings of the National Academy of Sciences (Goldbogen et al., Extreme bradycardia in blue whales)*

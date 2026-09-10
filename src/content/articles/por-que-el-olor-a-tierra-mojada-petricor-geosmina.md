@@ -79,7 +79,7 @@ Porque las ráfagas de viento del frente de salida de la tormenta (*gust front*)
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El petricor combina compuestos y aerosoles liberados cuando llueve sobre un suelo seco; la geosmina es una parte importante, pero no la única. Su intensidad cambia con el suelo, los microorganismos y la lluvia, por eso no tiene una explicación universal de una sola molécula.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Bear & Thomas, Nature of Argillaceous Odour / Petrichor)*

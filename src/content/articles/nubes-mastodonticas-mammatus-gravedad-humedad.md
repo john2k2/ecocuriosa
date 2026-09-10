@@ -80,7 +80,7 @@ Sí. Ocasionalmente se observan estructuras mammatus en la base de nubes altocú
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las nubes mammatus son un rasgo visual de ciertas nubes, no una alarma fiable de tornado o tormenta severa. Su forma ayuda a estudiar mezclas de aire, humedad y estabilidad, pero el riesgo meteorológico debe evaluarse con pronósticos y avisos oficiales.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of the Atmospheric Sciences (Schultz et al., The Mysteries of Mammatus Clouds)*

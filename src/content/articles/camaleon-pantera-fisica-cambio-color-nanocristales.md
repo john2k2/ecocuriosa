@@ -80,7 +80,7 @@ La reorganización física de los nanocristales ocurre con asombrosa velocidad: 
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+En el camaleón pantera, los iridóforos y sus cristales de guanina ayudan a explicar cambios de color observados en esa especie. El color animal combina mecanismos estructurales y pigmentarios, por lo que no debe reducirse a un único interruptor nanotecnológico.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature Communications (Teyssier et al., Photonic Crystals in Chameleons)*

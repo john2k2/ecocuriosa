@@ -81,7 +81,7 @@ Especies como tortugas marinas, palomas mensajeras, tiburones y aves migratorias
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El geodinamo del núcleo externo crea un campo cambiante que interactúa con el viento solar y forma la magnetosfera. Es una protección importante, pero no un escudo absoluto: sus variaciones se investigan y miden continuamente.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Glatzmaier & Roberts, A three-dimensional self-consistent computer simulation of a geomagnetic field reversal)*

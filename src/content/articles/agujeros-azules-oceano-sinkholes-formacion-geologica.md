@@ -80,7 +80,7 @@ Porque cuenta con un arco submarino o túnel de conexión con el mar abierto a 5
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Los agujeros azules son sistemas kársticos inundados, no un único tipo de ecosistema con una historia idéntica. Comparar su geología, agua subterránea y sedimentos permite reconstruir cambios ambientales, siempre distinguiendo los datos de cada sitio de las generalizaciones.
 
 ### Referencias y Literatura Científica Consultada
 * *Scientific Reports (Deepest blue hole in the world: Dragon Hole)*

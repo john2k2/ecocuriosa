@@ -80,7 +80,7 @@ En las aguas gélidas del Atlántico Norte y el océano Glacial Ártico, alreded
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La datación del cristalino situó al tiburón de Groenlandia entre los vertebrados más longevos conocidos, con márgenes de incertidumbre amplios. Resolver su reproducción, crecimiento y fisiología requiere más evidencia que repetir una cifra redonda de cuatrocientos años.
 
 ### Referencias y Literatura Científica Consultada
 * *Science (Nielsen et al., Eye lens radiocarbon reveals extreme longevity in Greenland shark)*

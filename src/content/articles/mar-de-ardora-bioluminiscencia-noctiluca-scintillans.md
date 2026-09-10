@@ -80,7 +80,7 @@ Porque depende de una combinación efímera de factores: temperatura del agua en
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El mar de ardora surge de organismos bioluminiscentes y condiciones ambientales específicas; no toda marea roja brilla ni toda floración tiene el mismo riesgo. Observarlo es fascinante, pero requiere respetar los avisos locales sobre calidad del agua y vida marina.
 
 ### Referencias y Literatura Científica Consultada
 * *Limnology and Oceanography*

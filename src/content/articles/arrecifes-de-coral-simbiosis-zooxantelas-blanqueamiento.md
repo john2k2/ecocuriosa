@@ -82,7 +82,7 @@ Sí. Por la noche extienden sus tentáculos cargados de nematocistos (células u
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene muchos arrecifes. No todos los corales responden igual ni todo evento termina en muerte, pero reducir el estrés térmico y local aumenta las posibilidades de recuperación.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Hughes et al., Spatial and temporal patterns of mass bleaching)*

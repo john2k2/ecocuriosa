@@ -80,7 +80,7 @@ Dependen de respiraderos naturales en la banquisa llamados polinias y grietas ab
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El colmillo del narval es un diente con una estructura extraordinaria y funciones que todavía se investigan. Presentar sus posibles capacidades sensoriales como hipótesis evita convertir un estudio limitado en una certeza sobre todos los narvales y todos los océanos.
 
 ### Referencias y Literatura Científica Consultada
 * *The Anatomical Record (Nweeia et al., Sensory features of the narwhal tusk)*

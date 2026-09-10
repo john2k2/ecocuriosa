@@ -80,7 +80,7 @@ Los animales (incluyendo mamíferos y humanos) compartimos los complejos PRC2 de
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La “memoria” de invierno es una metáfora útil para cambios moleculares de la vernalización, no una memoria consciente. Los mecanismos dependen de la especie y el genotipo, y muestran cómo una señal ambiental puede ajustar el momento de floración.
 
 ### Referencias y Literatura Científica Consultada
 * *Science (Whittaker & Dean, The FLC locus: a platform for epigenetic memory in plants)*

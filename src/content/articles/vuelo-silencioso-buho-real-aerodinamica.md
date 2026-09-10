@@ -80,7 +80,7 @@ Porque su propia audición estereofónica asimétrica es tan precisa que necesit
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las plumas de los búhos reducen ruido en ciertas condiciones gracias a sus bordes y superficie especializados. Gran parte de la evidencia detallada proviene de la lechuza común, por lo que no se debe prometer silencio absoluto ni trasladar cada medida sin más al búho real.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of Experimental Biology*

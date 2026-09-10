@@ -80,7 +80,7 @@ Casi nunca con mordisco directo. Los leones suelen manipular la esfera durante h
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las escamas de queratina del pangolín son una adaptación mecánica notable, pero no una razón para que sean comercializadas. No existe evidencia médica que justifique su uso: la conservación depende de reducir el tráfico y proteger el hábitat.
 
 ### Referencias y Literatura Científica Consultada
 * *Current Biology*

@@ -80,7 +80,7 @@ Es nativo de las aguas cálidas del Indo-Pacífico tropical, con avistamientos f
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El pulpo mimo demuestra una flexibilidad corporal extraordinaria, respaldada por observaciones de varios modelos de imitación. El repertorio exacto y el motivo de cada postura siguen abiertos a estudio, por lo que las listas virales no sustituyen la evidencia de campo.
 
 ### Referencias y Literatura Científica Consultada
 * *Proceedings of the Royal Society of London B (Norman, Finn & Tregenza, Dynamic Mimicry in an Indo-Malayan Octopus)*
