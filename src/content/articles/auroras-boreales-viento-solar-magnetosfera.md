@@ -37,7 +37,7 @@ La magnetosfera terrestre desvía la gran mayoría de estas partículas solares 
 
 1. **Colisión Inelástica y Excitación Electrónica:** Cuando un electrón solar de alta energía choca contra un átomo de la alta atmósfera a más de 100 km de altitud, transfiere su energía cinética a los electrones orbitales del gas, promoviéndolos a estados energéticos cuánticos superiores excitados transitorios.
 
-2. **El Resplandor Verde Esmeralda del Oxígeno Atómico (557,7 nm):** Al decaer desde el estado excitado $^1S$ al estado $^1D$, el oxígeno atómico neutro a altitudes de entre 100 y 200 km emite un fotón en la longitud de onda de 557,7 nanómetros (verde amarillento). Dado que el ojo humano es biológicamente más sensible a esta frecuencia lumínica, el verde es el color dominante en más del 80% de las auroras visibles.
+2. **El resplandor verde del oxígeno:** Una de las emisiones más comunes proviene del oxígeno atómico cerca de 557,7 nanómetros, en una franja aproximada de 100 a 200 km de altitud. El verde suele destacar para el observador, pero el color e intensidad dependen de la energía de las partículas, la altitud y las condiciones de cada aurora.
 
 3. **El Rojo de Gran Altitud (630,0 nm) y el Púrpura del Nitrógeno:** A altitudes superiores a 250-400 km, la densidad atmosférica es tan baja que los átomos de oxígeno excitados pueden tardar hasta 110 segundos en desexcitarse sin colisionar con otras moléculas, emitiendo una tenue luz roja profunda (630 nm). Por debajo de los 100 km, las moléculas de nitrógeno ionizado ($N_2^+$) y neutro ($N_2$) producen bordes inferiores de color magenta, carmesí y violeta brillante en auroras muy energéticas.
 
@@ -80,7 +80,7 @@ Sí. La sonda espacial Juno de la NASA ha fotografiado colosales auroras ultravi
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+Las auroras hacen visible una interacción entre el Sol, el campo magnético terrestre y la alta atmósfera. Sus colores no son una estadística fija: cambian con la altura, los gases y la actividad geomagnética del episodio observado.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of Geophysical Research: Space Physics*

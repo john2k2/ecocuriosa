@@ -1,6 +1,6 @@
 ---
-title: "El Fin del Misterio de las Rayas de las Cebras: Ni Camuflaje ni Identidad"
-description: "Descubre cómo los experimentos con luz polarizada y tábanos desmintieron siglos de mitos sobre las rayas de Equus quagga."
+title: "Por qué las cebras tienen rayas: la evidencia sobre moscas y otras hipótesis"
+description: "Qué muestran los experimentos sobre rayas, tábanos y termorregulación, y qué preguntas evolutivas siguen abiertas."
 category: "ciencia-curiosa"
 pubDate: 2026-09-03
 author: "Equipo Editorial EcoCuriosa"
@@ -39,7 +39,7 @@ Durante el siglo XX se propusieron cuatro grandes hipótesis: camuflaje por disr
 
 2. **Fallo del Sistema de Frenado Óptico en el Tábano:** Estudios con cámaras de alta velocidad demostraron que los tábanos vuelan hacia las cebras atraídos por su calor y olor, pero al acercarse a menos de un metro sufren una ilusión óptica geométrica: son incapaces de calibrar la velocidad de aproximación y la distancia de la superficie. En lugar de desacelerar y posarse suavemente, chocan de frente contra el pelaje a gran velocidad o rebotan sin poder picar.
 
-3. **Experimentos de Campo con Caballos 'Disfrazados':** En 2019, investigadores colocaron mantas con patrones rayados de cebra, mantas negras uniformes y mantas blancas sobre caballos domésticos normales en el mismo cercado. Los tábanos se posaron con normalidad sobre la cabeza descubierta de los caballos, pero las picaduras sobre la manta rayada se redujeron en más de un 80% en comparación con las mantas monocromáticas.
+3. **Experimentos de campo con caballos cubiertos:** Estudios con mantas rayadas en caballos aportan evidencia de que los tábanos aterrizan con menos éxito sobre patrones similares a las rayas de cebra. El tamaño del efecto y las condiciones dependen del experimento; no debe trasladarse como una cifra universal a todas las especies y ambientes.
 
 ### Evaluación Experimental de las Cuatro Hipótesis sobre las Rayas de la Cebra
 
@@ -58,7 +58,7 @@ Durante el siglo XX se propusieron cuatro grandes hipótesis: camuflaje por disr
   * **Realidad científica contrastada:** Análisis de agudeza visual de grandes felinos demostró que a más de 50 metros de distancia, en la penumbra en la que cazan los leones, los ojos felinos ven a la cebra como una silueta gris uniforme sin rayas perceptibles; el león ataca guiado por el sonido y el olor.
 
 * **Mito 2:** La clásica pregunta infantil de si las cebras son blancas con rayas negras o negras con rayas blancas.
-  * **Realidad científica contrastada:** La embriología molecular y la genética del desarrollo han zanjado el debate de forma definitiva: el embrión de cebra es completamente negro. En las etapas tardías de gestación, la expresión de genes de melanocitos se silencia e inhibe de forma espacial mediante inhibidores químicos, dando lugar a las franjas blancas desprovistas de melanina.
+  * **Matiz científico:** Las rayas surgen de patrones espaciales de pigmentación durante el desarrollo. Las simplificaciones “blanca con rayas negras” o “negra con rayas blancas” no sustituyen esa biología del desarrollo ni explican por sí solas su función evolutiva.
 
 ---
 
@@ -80,7 +80,7 @@ Sí. En Japón, científicos del Centro de Investigación Agrícola de Aichi pin
 
 ## Conclusión y Fuentes Documentales
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+La evidencia experimental apoya que las rayas interfieren con las moscas picadoras, pero no obliga a descartar toda función adicional. Presentar esa conclusión como una explicación única y definitiva sería ir más allá de los estudios disponibles.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature Communications (Caro et al., The function of zebra stripes)*
