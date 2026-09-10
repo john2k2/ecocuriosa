@@ -12,7 +12,14 @@ const missingReview = [];
 const missingImages = [];
 const boilerplateConclusions = [];
 const emptyReferenceLists = [];
+const invalidSources = [];
+const editorialRiskFlags = [];
 const sharedConclusion = 'El análisis científico de este fenómeno evidencia la importancia del método empírico';
+const highRiskPatterns = [
+  { label: 'promesa de salud', pattern: /\b(cura|curan|curar|regenera(?:ción|r)?|repara(?:r|ción)?|terapia|tratamiento)\b/iu },
+  { label: 'absoluto editorial', pattern: /\b(siempre|nunca|únic[oa]|definitiv[oa]|sin duda|demuestra que)\b/iu },
+  { label: 'autoridad o récord absoluto', pattern: /\b(el|la) (más|mayor) [^.!?\n]{0,60}\b(del mundo|de la Tierra|que existe)\b/iu },
+];
 
 for (const filename of filenames) {
   const article = await readFile(path.join(articlesDirectory, filename), 'utf8');
@@ -20,6 +27,7 @@ for (const filename of filenames) {
   const image = frontmatter.match(/^image:\s*["']?([^"'\n]+)["']?\s*$/m)?.[1];
   const hasSources = /^sources:\s*\n\s+-\s+title:/m.test(frontmatter);
   const hasReview = /^reviewedDate:/m.test(frontmatter) && /^reviewedBy:/m.test(frontmatter);
+  const sourceBlocks = [...frontmatter.matchAll(/^\s+-\s+title:\s*["']?(.+?)["']?\s*\n\s+publisher:\s*["']?(.+?)["']?\s*\n\s+url:\s*["']?(.+?)["']?\s*$/gm)];
 
   if (!hasSources) missingSources.push(filename);
   if (!hasReview) missingReview.push(filename);
@@ -37,6 +45,14 @@ for (const filename of filenames) {
       missingImages.push(`${filename} (${image})`);
     }
   }
+
+  if (hasSources && (!sourceBlocks.length || sourceBlocks.some(([, title, publisher, url]) => !title.trim() || !publisher.trim() || !/^https:\/\//.test(url.trim())))) {
+    invalidSources.push(filename);
+  }
+
+  const body = article.slice(article.indexOf('---', 4) + 3);
+  const matchedRisks = highRiskPatterns.filter(({ pattern }) => pattern.test(body)).map(({ label }) => label);
+  if (matchedRisks.length) editorialRiskFlags.push({ filename, flags: matchedRisks });
 }
 
 const report = [
@@ -46,6 +62,8 @@ const report = [
   `Imágenes faltantes: ${missingImages.length}`,
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
+  `Fuentes con formato incompleto: ${invalidSources.length}`,
+  `Artículos con lenguaje de riesgo para revisión: ${editorialRiskFlags.length}`,
 ];
 
 const findings = {
@@ -57,6 +75,8 @@ const findings = {
   missingReview,
   boilerplateConclusions,
   emptyReferenceLists,
+  invalidSources,
+  editorialRiskFlags,
 };
 
 if (json) {
@@ -67,6 +87,8 @@ if (json) {
   if (missingReview.length) console.log(`Pendientes de revisión: ${missingReview.join(', ')}`);
   if (boilerplateConclusions.length) console.log(`Conclusiones repetidas: ${boilerplateConclusions.join(', ')}`);
   if (emptyReferenceLists.length) console.log(`Referencias vacías: ${emptyReferenceLists.join(', ')}`);
+  if (invalidSources.length) console.error(`Fuentes con formato incompleto: ${invalidSources.join(', ')}`);
+  if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
 }
 
@@ -74,7 +96,8 @@ if (missingImages.length || (strict && (
   missingSources.length ||
   missingReview.length ||
   boilerplateConclusions.length ||
-  emptyReferenceLists.length
+  emptyReferenceLists.length ||
+  invalidSources.length
 ))) {
   process.exitCode = 1;
 }

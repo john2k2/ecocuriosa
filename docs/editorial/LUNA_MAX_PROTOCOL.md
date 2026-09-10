@@ -32,7 +32,7 @@ Artículos internos que no debes canibalizar: [URLs].
 1. **Research:** Luna entrega un brief basado en métricas de Search Console/Cloudflare de solo lectura.
 2. **Fact-check:** una persona aprueba cada fuente de la tabla del brief.
 3. **Draft:** Luna prepara un cambio local con estado `draft`; cada afirmación de riesgo mantiene su cita.
-4. **Quality gate:** `pnpm content:audit -- --strict`, compilación, chequeo de enlaces y revisión visual.
+4. **Quality gate:** `pnpm content:audit -- --strict`, compilación, chequeo de enlaces y revisión visual. Los avisos de promesas de salud, absolutos o récords se revisan uno por uno; no se silencian añadiendo una cita genérica.
 5. **Approval:** una persona asigna revisor, fecha real y decide publicar.
 6. **Monitor:** Luna compara impresiones, CTR, scroll, retorno y RPM solo después de acumular datos; recomienda actualizaciones, no publica en lote.
 
