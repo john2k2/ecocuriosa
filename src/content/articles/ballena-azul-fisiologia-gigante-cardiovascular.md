@@ -1,6 +1,6 @@
 ---
-title: "La Fisiología de la Ballena Azul: Un Corazón de 180 Kilos y Arterias Colosales"
-description: "Explora el sistema cardiovascular colosal de Balaenoptera musculus, la bradicardia por inmersión y la biomecánica del animal más grande que ha existido."
+title: "La fisiología de la ballena azul: qué revelan sus inmersiones y su corazón"
+description: "Qué se ha medido sobre el ritmo cardíaco de la ballena azul durante las inmersiones y los límites de esos datos."
 category: "especies-marinas"
 pubDate: 2026-08-18
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** La ballena azul (*Balaenoptera musculus*) es el mayor animal que ha existido en la historia del planeta, alcanzando hasta 30 metros de longitud y 190 toneladas de peso. Su corazón, del tamaño de un automóvil pequeño, pesa cerca de 180 kg y bombea hasta 220 litros de sangre por latido a través de una aorta de 23 cm de diámetro interno. Durante sus inmersiones profundas en busca de krill, reduce su ritmo cardíaco de forma extrema desde 35 latidos por minuto en superficie hasta solo 2 latidos por minuto en el fondo.
+> **Respuesta rápida:** La ballena azul es el animal de mayor masa conocido. Un estudio con un macho monitorizado registró una marcada reducción del ritmo cardíaco durante inmersiones: los resultados ayudan a entender su fisiología, pero no son una medida fija para todos los individuos.
 
 ---
 

@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Los peces abisales de la familia Myctophidae (peces linterna) y Stomiidae (peces demonio) producen luz biológica propia mediante órganos especializados llamados fotóforos. Más del 75% de las especies de la zona de medianoche oceánica (entre 200 y 1.000 metros) utilizan esta bioluminiscencia luciferina-luciferasa para el contrasombreado (eliminar su silueta frente a la débil luz cenital), atraer presas en la oscuridad y emitir destellos de reconocimiento específico entre machos y hembras.
+> **Respuesta rápida:** Los peces linterna (Myctophidae) incluyen muchas especies con fotóforos y adaptaciones a la poca luz. La bioluminiscencia es muy común en el océano profundo, pero sus mecanismos, profundidad y funciones varían entre especies; algunos sistemas dependen de bacterias simbiontes.
 
 ---
 

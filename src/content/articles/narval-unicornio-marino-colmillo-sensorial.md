@@ -1,6 +1,6 @@
 ---
-title: "El Narval y su Colmillo Helicoidal: Un Radar Sensorial en Aguas Heladas"
-description: "Descubre la verdadera función biofísica del colmillo del narval: un diente canino hiperdesarrollado con millones de terminaciones nerviosas sensoriales."
+title: "El narval y su colmillo: qué se sabe de este diente singular"
+description: "Qué indican los estudios sobre el colmillo helicoidal del narval y por qué sus funciones siguen siendo objeto de investigación."
 category: "especies-marinas"
 pubDate: 2026-08-17
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El colmillo del narval (*Monodon monoceros*) no es un cuerno defensivo para combatir ni un ariete para perforar témpanos, sino el diente canino superior izquierdo modificado de forma helicoidal que puede alcanzar hasta 3 metros de longitud. Es un órgano sensorial extraordinario: carece de esmalte protector externo y su dentina es porosa, albergando más de 10 millones de terminaciones nerviosas que conectan directamente con el cerebro, permitiéndole medir con precisión variaciones en la salinidad, temperatura y presión del agua ártica.
+> **Respuesta rápida:** El colmillo del narval es normalmente un diente superior izquierdo alargado y helicoidal. Su estructura contiene túbulos dentinarios y se ha investigado su posible función sensorial, pero esa evidencia no permite afirmar que mida con precisión todas las condiciones del océano en libertad.
 
 ---
 

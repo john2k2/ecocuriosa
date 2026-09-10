@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Los corales formadores de arrecifes son animales sésiles (cnidarios) que dependen de una endosimbiosis mutualista obligada con microalgas dinoflageladas de la familia Symbiodiniaceae (zooxantelas). Las algas fotosintetizan en el interior de los tejidos del pólipo y le transfieren hasta el 90% de sus compuestos carbonados (azúcares y aminoácidos), con los cuales el coral secreta su esqueleto de carbonato de calcio ($CaCO_3$). Cuando la temperatura del agua aumenta 1 °C por encima del umbral estacional, el estrés térmico desestabiliza el fotosistema de las algas, obligando al coral a expulsarlas y provocando el temido blanqueamiento.
+> **Respuesta rápida:** Muchos corales constructores de arrecifes viven en simbiosis con algas de la familia Symbiodiniaceae. Bajo estrés, incluido el térmico, pueden perder simbiontes o pigmentos y verse blancos. El blanqueamiento no significa muerte inmediata: la recuperación depende de la especie, el tiempo y las condiciones ambientales.
 
 ---
 

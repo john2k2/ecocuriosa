@@ -1,6 +1,6 @@
 ---
-title: "El Tiburón de Groenlandia: El Secreto del Vertebrado que Vive 400 Años"
-description: "Análisis del metabolismo criogénico y la datación por radiocarbono en el cristalino del tiburón de Groenlandia, el vertebrado más longevo del planeta."
+title: "El tiburón de Groenlandia: longevidad estimada de siglos"
+description: "Qué reveló la datación por radiocarbono sobre Somniosus microcephalus y qué incertidumbres persisten sobre su biología."
 category: "especies-marinas"
 pubDate: 2026-08-14
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El tiburón de Groenlandia (*Somniosus microcephalus*) es el vertebrado más longevo de la Tierra, con una esperanza de vida estimada de entre 272 y más de 400 años. Alcanza la madurez sexual a los 150 años y su extrema longevidad se debe a un metabolismo hiper-ralentizado por las aguas árticas (-1 °C a 4 °C), una tasa de crecimiento de apenas 1 cm al año y la acumulación celular de óxido de trimetilamina (TMAO) y urea, que estabilizan sus proteínas e impiden la formación de cristales de hielo intracelular.
+> **Respuesta rápida:** El tiburón de Groenlandia (*Somniosus microcephalus*) figura entre los vertebrados más longevos conocidos. Un estudio de radiocarbono estimó una edad de 392 ± 120 años para el ejemplar más grande de su muestra; no es una edad exacta ni explica por sí sola todos los mecanismos de longevidad.
 
 ---
 

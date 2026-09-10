@@ -1,6 +1,6 @@
 ---
-title: "Architeuthis Dux: La Vida en la Oscuridad Total del Calamar Gigante"
-description: "Explora la anatomía y estrategias de supervivencia de Architeuthis dux en la zona mesopelágica a más de 1.000 metros de profundidad."
+title: "Architeuthis dux: qué se sabe del calamar gigante"
+description: "Observaciones y estudios sobre el calamar gigante, sus grandes ojos y las incertidumbres de vivir en el océano profundo."
 category: "especies-marinas"
 pubDate: 2026-08-13
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El calamar gigante (*Architeuthis dux*) puede alcanzar hasta 13 metros de longitud total en hembras y habita en la zona mesopelágica y batipelágica (entre 400 y 1.200 metros de profundidad). Sobrevive en la oscuridad y frío extremos gracias a los ojos más grandes del reino animal (hasta 30 cm de diámetro con pupilas gigantes diseñadas para detectar la bioluminiscencia desplazada de cachalotes en movimiento), sangre azul basada en hemocianina rica en cobre y flotabilidad neutra proporcionada por cloruro de amonio en sus tejidos.
+> **Respuesta rápida:** *Architeuthis dux* es un cefalópodo escasamente observado en libertad. Filmaciones y estudios anatómicos muestran ojos excepcionalmente grandes y aportan hipótesis sobre su visión profunda; su distribución, tamaño máximo y comportamiento no se conocen con la misma precisión en todos los casos.
 
 ---
 

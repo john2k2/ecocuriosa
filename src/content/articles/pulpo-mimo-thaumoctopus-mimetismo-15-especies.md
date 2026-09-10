@@ -1,6 +1,6 @@
 ---
-title: "El Pulpo Mimo: El Genio Marino Capaz de Imitar a 15 Especies Distintas"
-description: "Descubre cómo Thaumoctopus mimicus adopta la forma, color y patrones natatorios de peces león, serpientes marinas y lenguados tóxicos."
+title: "El pulpo mimo: camuflaje dinámico y modelos que puede imitar"
+description: "Qué observaron los estudios sobre Thaumoctopus mimicus y por qué las listas populares de imitaciones requieren cautela."
 category: "especies-marinas"
 pubDate: 2026-08-15
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El pulpo mimo (*Thaumoctopus mimicus*) es el único animal conocido capaz de imitar no solo el color y la textura de su entorno, sino la forma tridimensional, el comportamiento dinámico y el patrón locomotor de hasta 15 especies marinas diferentes. Habita en fondos arenosos poco profundos de Indonesia y el Pacífico tropical, seleccionando estratégicamente qué animal venenoso simular (como peces león, serpientes de mar o lenguados tóxicos) en función del depredador específico que lo amenace.
+> **Respuesta rápida:** *Thaumoctopus mimicus* puede modificar postura, color y movimiento de formas llamativas. Las observaciones de campo respaldan varios modelos posibles, pero no prueban una lista fija de quince especies ni permiten atribuir cada elección a una intención cognitiva concreta.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "La Manta Raya Gigante: El Cerebro más Grande y Complejo de los Peces"
-description: "Explora la sorprendente inteligencia, autoconciencia y adaptaciones térmicas cerebrales de Mobula birostris, la reina de los océanos abiertos."
+title: "La manta raya gigante: comportamiento, cerebro y preguntas abiertas"
+description: "Qué se conoce sobre Mobula birostris, sus comportamientos y los límites de las afirmaciones sobre inteligencia animal."
 category: "especies-marinas"
 pubDate: 2026-08-20
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** La manta raya gigante (*Mobula birostris*) posee el cerebro más grande en masa y el mayor cociente de encefalización entre todos los peces conocidos del planeta (hasta diez veces superior al del tiburón ballena). Exhibe comportamientos cognitivos avanzados como la autoconciencia en pruebas de espejo, navegación geoespacial a mar abierto mediante campos electromagnéticos, comunicación táctil y una red térmica de vasos sanguíneos (*rete mirabile*) que mantiene caliente su encéfalo durante inmersiones a aguas gélidas de más de 1.000 metros.
+> **Respuesta rápida:** La manta raya gigante (*Mobula birostris*) es una especie pelágica de gran tamaño con comportamientos complejos. Algunos estudios exploran su respuesta a espejos y la termorregulación craneal, pero no prueban por sí solos autoconciencia ni una explicación única de su comportamiento.
 
 ---
 
