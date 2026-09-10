@@ -149,9 +149,11 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
 
     {sources.length > 0 && (
       <section class="mt-12 pt-8 border-t border-[#e6e2d8]" aria-labelledby="fuentes-title">
-        <h2 id="fuentes-title" class="font-serif text-2xl font-bold text-[#063b1e] mb-4">Fuentes y revisión</h2>
+        <h2 id="fuentes-title" class="font-serif text-2xl font-bold text-[#063b1e] mb-4">{reviewedDate ? 'Fuentes y revisión' : 'Fuentes para consultar'}</h2>
         <p class="text-sm text-[#5a605c] leading-relaxed mb-5">
-          Las fuentes enlazadas respaldan la investigación editorial. Las afirmaciones cuantitativas o que pueden cambiar se revisan antes de actualizar este artículo.
+          {reviewedDate
+            ? 'Las fuentes enlazadas respaldan la revisión editorial registrada en esta ficha.'
+            : 'Las fuentes enlazadas permiten consultar la investigación utilizada. La fecha de revisión se muestra únicamente después de una comprobación editorial específica.'}
         </p>
         <ul class="space-y-3 text-sm">
           {sources.map((source) => (
@@ -199,7 +201,9 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
       <div>
         <h2 class="font-serif font-bold text-[#063b1e] text-lg mb-1.5">{reviewedBy || 'Equipo Editorial EcoCuriosa'}</h2>
         <p class="text-sm text-[#444a46] leading-relaxed">
-          Esta monografía sigue el protocolo editorial de EcoCuriosa. Si detectas una actualización taxonómica, física o empírica, puedes escribirnos para abrir una revisión documentada.
+          {reviewedDate
+            ? 'Esta monografía cuenta con una revisión editorial registrada. Si detectas una actualización taxonómica, física o empírica, puedes escribirnos para abrir una nueva revisión documentada.'
+            : 'Esta monografía incluye fuentes para consulta. Si detectas una actualización taxonómica, física o empírica, puedes escribirnos para abrir una revisión documentada.'}
         </p>
       </div>
     </section>
