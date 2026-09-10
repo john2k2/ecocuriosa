@@ -80,12 +80,8 @@ La combinación de pelo interdigital grueso que genera fricción mecánica, garr
 
 ---
 
-## Conclusión y Fuentes Documentales
+## Conclusión: adaptación sin una explicación única
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+El leopardo de las nieves no depende de un único “superpoder” para vivir en altura. Su supervivencia combina aislamiento térmico, desplazamiento sobre terreno nevado, comportamiento esquivo y adaptaciones fisiológicas que siguen siendo objeto de estudio. Por eso las cifras muy exactas sobre saltos, respiración o anatomía deben leerse con cautela si no remiten a una medición concreta.
 
-### Referencias y Literatura Científica Consultada
-* *Journal of Mammalogy*
-* *Nature Ecology & Evolution (Panthera uncia Genome Consortium)*
-* *IUCN Red List of Threatened Species*
-* *Snow Leopard Trust Field Reports*
+Las fuentes enlazadas de Snow Leopard Trust y el estudio genómico publicado en *PNAS* permiten distinguir la historia natural conocida de las hipótesis que aún se investigan. Para su estado de conservación y cifras de población, conviene consultar siempre la evaluación vigente de la UICN antes de afirmar un número.
