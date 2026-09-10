@@ -11,6 +11,13 @@ tags:
   - longevidad
   - artico
   - fisiologia
+sources:
+  - title: "Eye lens radiocarbon reveals centuries of longevity in the Greenland shark"
+    publisher: "Science / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract"
+  - title: "Assessing the reproductive biology of the Greenland shark"
+    publisher: "Journal of Fish Biology / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7540863/"
 featured: false
 ---
 

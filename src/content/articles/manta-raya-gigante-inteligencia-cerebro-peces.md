@@ -11,6 +11,13 @@ tags:
   - neurociencia
   - inteligencia-animal
   - oceanografia
+sources:
+  - title: "Giant Manta Ray"
+    publisher: "NOAA Fisheries"
+    url: "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+  - title: "Contingency checking and self-directed behaviors in giant manta rays"
+    publisher: "Journal of Ethology"
+    url: "https://doi.org/10.1007/s10164-016-0462-z"
 featured: false
 ---
 

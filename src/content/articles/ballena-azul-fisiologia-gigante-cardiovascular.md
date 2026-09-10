@@ -11,6 +11,13 @@ tags:
   - fisiologia
   - biodiversidad
   - oceanografia
+sources:
+  - title: "Extreme bradycardia and tachycardia in the world’s largest animal"
+    publisher: "Proceedings of the National Academy of Sciences / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/"
+  - title: "Why whales are big but not bigger"
+    publisher: "Science / NOAA Repository"
+    url: "https://repository.library.noaa.gov/view/noaa/53258"
 featured: false
 ---
 

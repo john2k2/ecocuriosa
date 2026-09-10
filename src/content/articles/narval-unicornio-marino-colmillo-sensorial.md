@@ -11,6 +11,13 @@ tags:
   - artico
   - neurobiologia
   - evolucion
+sources:
+  - title: "Narwhal"
+    publisher: "NOAA Fisheries"
+    url: "https://www.fisheries.noaa.gov/species/narwhal"
+  - title: "Sensory ability in the narwhal tooth organ system"
+    publisher: "Smithsonian Profiles"
+    url: "https://profiles.si.edu/display/sro_119183"
 featured: false
 ---
 

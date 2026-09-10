@@ -11,6 +11,13 @@ tags:
   - simbiosis
   - cambio-climatico
   - oceanografia
+sources:
+  - title: "What is coral bleaching?"
+    publisher: "NOAA Ocean Service"
+    url: "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+  - title: "Coral bleaching from a single cell perspective"
+    publisher: "ISME Journal / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/"
 featured: false
 ---
 

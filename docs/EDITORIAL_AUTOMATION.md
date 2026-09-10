@@ -7,6 +7,7 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 - [Plantilla de brief](./editorial/ARTICLE_BRIEF_TEMPLATE.md)
 - [Estándar de evidencia](./editorial/SOURCE_QUALITY_STANDARD.md)
 - [Protocolo de Luna Max](./editorial/LUNA_MAX_PROTOCOL.md)
+- [Hoja de ruta editorial y de crecimiento](./EDITORIAL_GROWTH_ROADMAP.md)
 
 ## Cadencia propuesta
 

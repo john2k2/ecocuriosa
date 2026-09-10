@@ -11,6 +11,13 @@ tags:
   - abisal
   - oceanografia
   - bioluminiscencia
+sources:
+  - title: "First-ever observations of a live giant squid in the wild"
+    publisher: "Proceedings of the Royal Society B / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1559985/"
+  - title: "Giant Squid"
+    publisher: "Smithsonian Ocean"
+    url: "https://ocean.si.edu/ocean-life/invertebrates/giant-squid"
 featured: false
 ---
 

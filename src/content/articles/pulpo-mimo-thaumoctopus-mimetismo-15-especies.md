@@ -11,6 +11,13 @@ tags:
   - etologia
   - evolucion
   - mimetismo
+sources:
+  - title: "Dynamic mimicry in an Indo-Malayan octopus"
+    publisher: "Proceedings of the Royal Society B / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/"
+  - title: "The Talented Mimic Octopus"
+    publisher: "American Museum of Natural History"
+    url: "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior"
 featured: false
 ---
 

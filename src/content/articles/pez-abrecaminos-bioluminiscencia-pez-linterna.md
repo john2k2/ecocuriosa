@@ -11,6 +11,13 @@ tags:
   - bioluminiscencia
   - abisal
   - fotoforos
+sources:
+  - title: "Seeing in the deep-sea: visual adaptations in lanternfishes"
+    publisher: "Royal Society Open Science / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/"
+  - title: "What is bioluminescence?"
+    publisher: "NOAA Ocean Exploration"
+    url: "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/"
 featured: false
 ---
 
