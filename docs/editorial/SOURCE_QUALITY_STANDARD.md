@@ -12,6 +12,7 @@ No se usan como fuente editorial: textos generados por IA, agregadores sin autor
 ## Reglas de trazabilidad
 
 - Cada URL se abre y se comprueba antes de incluirla.
+- Cada artículo necesita como mínimo dos fuentes HTTPS trazables; cuando el tema es científico, al menos una debe ser una fuente primaria, una revisión o un organismo especializado.
 - Las cifras, fechas, estados de conservación y afirmaciones de salud necesitan una fuente específica y, cuando sea posible, una fecha de acceso.
 - Si la evidencia es incierta o controvertida, el artículo debe decirlo explícitamente y representar más de una fuente.
 - Una lista de nombres de revistas no equivale a bibliografía. Cada referencia debe enlazarse.

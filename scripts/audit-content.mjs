@@ -13,6 +13,7 @@ const missingImages = [];
 const boilerplateConclusions = [];
 const emptyReferenceLists = [];
 const invalidSources = [];
+const insufficientSources = [];
 const editorialRiskFlags = [];
 const sharedConclusion = 'El análisis científico de este fenómeno evidencia la importancia del método empírico';
 const highRiskPatterns = [
@@ -49,6 +50,7 @@ for (const filename of filenames) {
   if (hasSources && (!sourceBlocks.length || sourceBlocks.some(([, title, publisher, url]) => !title.trim() || !publisher.trim() || !/^https:\/\//.test(url.trim())))) {
     invalidSources.push(filename);
   }
+  if (sourceBlocks.length > 0 && sourceBlocks.length < 2) insufficientSources.push(filename);
 
   const bodyOffset = article.indexOf('---', 4) + 3;
   const body = article.slice(bodyOffset);
@@ -71,6 +73,7 @@ const report = [
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
   `Fuentes con formato incompleto: ${invalidSources.length}`,
+  `Artículos con menos de dos fuentes: ${insufficientSources.length}`,
   `Artículos con lenguaje de riesgo para revisión: ${editorialRiskFlags.length}`,
 ];
 
@@ -84,6 +87,7 @@ const findings = {
   boilerplateConclusions,
   emptyReferenceLists,
   invalidSources,
+  insufficientSources,
   editorialRiskFlags,
 };
 
@@ -96,6 +100,7 @@ if (json) {
   if (boilerplateConclusions.length) console.log(`Conclusiones repetidas: ${boilerplateConclusions.join(', ')}`);
   if (emptyReferenceLists.length) console.log(`Referencias vacías: ${emptyReferenceLists.join(', ')}`);
   if (invalidSources.length) console.error(`Fuentes con formato incompleto: ${invalidSources.join(', ')}`);
+  if (insufficientSources.length) console.error(`Menos de dos fuentes: ${insufficientSources.join(', ')}`);
   if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
 }
@@ -105,7 +110,8 @@ if (missingImages.length || (strict && (
   missingReview.length ||
   boilerplateConclusions.length ||
   emptyReferenceLists.length ||
-  invalidSources.length
+  invalidSources.length ||
+  insufficientSources.length
 ))) {
   process.exitCode = 1;
 }
