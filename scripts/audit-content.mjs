@@ -50,9 +50,17 @@ for (const filename of filenames) {
     invalidSources.push(filename);
   }
 
-  const body = article.slice(article.indexOf('---', 4) + 3);
-  const matchedRisks = highRiskPatterns.filter(({ pattern }) => pattern.test(body)).map(({ label }) => label);
-  if (matchedRisks.length) editorialRiskFlags.push({ filename, flags: matchedRisks });
+  const bodyOffset = article.indexOf('---', 4) + 3;
+  const body = article.slice(bodyOffset);
+  const flags = highRiskPatterns.flatMap(({ label, pattern }) => {
+    const match = body.match(pattern);
+    if (!match || match.index === undefined) return [];
+    const absoluteIndex = bodyOffset + match.index;
+    const line = article.slice(0, absoluteIndex).split('\n').length;
+    const sourceLine = article.split('\n')[line - 1]?.trim() ?? '';
+    return [{ label, line, excerpt: sourceLine.slice(0, 180) }];
+  });
+  if (flags.length) editorialRiskFlags.push({ filename, flags });
 }
 
 const report = [
@@ -88,7 +96,7 @@ if (json) {
   if (boilerplateConclusions.length) console.log(`Conclusiones repetidas: ${boilerplateConclusions.join(', ')}`);
   if (emptyReferenceLists.length) console.log(`Referencias vacías: ${emptyReferenceLists.join(', ')}`);
   if (invalidSources.length) console.error(`Fuentes con formato incompleto: ${invalidSources.join(', ')}`);
-  if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.join('; ')})`).join(', ')}`);
+  if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
 }
 
