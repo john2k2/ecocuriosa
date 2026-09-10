@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Tras más de 150 años de especulaciones científicas que atribuían las rayas de las cebras al camuflaje visual contra leones, la termorregulación por microcorrientes de aire o el reconocimiento social, rigurosos experimentos de campo multidispositivos han demostrado la causa evolutiva primaria: la protección contra insectos parásitos hematófagos (tábanos de la familia Tabanidae y moscas tsé-tsé). Las rayas blancas y negras alternas distorsionan la polarización de la luz que los insectos utilizan para aterrizar, provocando que fallen su aproximación visual y colisionen o sigan de largo.
+> **Respuesta rápida:** Experimentos de campo apoyan que las rayas pueden dificultar el aterrizaje de moscas picadoras. Esa evidencia es relevante para la evolución de las rayas, pero no establece una causa única ni descarta otras funciones en todos los ambientes.
 
 ---
 
@@ -29,7 +29,7 @@ featured: false
 
 El llamativo pelaje rayado de las tres especies vivientes de cebras (*Equus quagga*, *Equus zebra* y *Equus grevyi*) desconcertó a los grandes naturalistas del siglo XIX. Charles Darwin consideraba que el patrón no encajaba fácilmente con su teoría de selección natural para el camuflaje críptico, mientras que Alfred Russel Wallace argumentaba que las rayas podían confundir a los leones en la maleza durante el crepúsculo.
 
-Durante el siglo XX se propusieron cuatro grandes hipótesis: camuflaje por disrupción de silueta contra depredadores, efecto de deslumbramiento óptico en manada (*motion dazzle*), reconocimiento individual entre congéneres y refrigeración térmica por convección diferencial entre las franjas negras calientes y blancas frías. Sin embargo, en la última década, investigaciones dirigidas por el profesor Tim Caro (Universidad de California, Davis) y biólogos de la Universidad de Bristol sometieron cada teoría a pruebas empíricas cuantitativas concluyentes.
+Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento, efectos visuales y termorregulación. Estudios recientes han comparado algunas de ellas; los resultados deben leerse según el diseño experimental y no como un cierre definitivo de toda la discusión evolutiva.
 
 ---
 
@@ -45,17 +45,17 @@ Durante el siglo XX se propusieron cuatro grandes hipótesis: camuflaje por disr
 
 | Hipótesis Evaluada | Mecanismo Propuesto | Veredicto Científico Actual |
 | :--- | :--- | :--- |
-| Repelencia de tábanos y moscas | Disrupción de polarización y fallo de aterrizaje | Confirmada (Respaldada por evidencia empírica contundente) |
-| Termorregulación térmica | Microcorrientes de convección negro/blanco | Descartada (Termografía infrarroja no muestra ventaja térmica) |
-| Camuflaje ante leones y hienas | Confusión visual nocturna y maleza | Descartada (Los carnívoros cazan por olfato y oído en la noche) |
-| Reconocimiento social / Manada | Identificación visual de parentesco | Secundaria (Équidos sin rayas se reconocen con igual precisión) |
+| Moscas picadoras | Dificultad de aterrizaje sobre patrones rayados | Apoyada por experimentos concretos |
+| Termorregulación | Diferencias entre franjas | Un ensayo no halló ventaja de enfriamiento; requiere cautela |
+| Camuflaje | Visión de depredadores | No explica por sí sola todas las observaciones |
+| Reconocimiento social | Señales visuales entre individuos | Posible función adicional, aún debatida |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que las rayas confunden la visión del león haciéndole creer que la cebra es gigante.
-  * **Realidad científica contrastada:** Análisis de agudeza visual de grandes felinos demostró que a más de 50 metros de distancia, en la penumbra en la que cazan los leones, los ojos felinos ven a la cebra como una silueta gris uniforme sin rayas perceptibles; el león ataca guiado por el sonido y el olor.
+  * **Matiz científico:** La eficacia de cualquier patrón visual depende de distancia, luz, movimiento y del sistema visual del observador. No basta una sola explicación para resolver la función evolutiva de las rayas.
 
 * **Mito 2:** La clásica pregunta infantil de si las cebras son blancas con rayas negras o negras con rayas blancas.
   * **Matiz científico:** Las rayas surgen de patrones espaciales de pigmentación durante el desarrollo. Las simplificaciones “blanca con rayas negras” o “negra con rayas blancas” no sustituyen esa biología del desarrollo ni explican por sí solas su función evolutiva.
@@ -66,7 +66,7 @@ Durante el siglo XX se propusieron cuatro grandes hipótesis: camuflaje por disr
 
 ### ¿Por qué los caballos y burros no desarrollaron rayas?
 
-Porque las cebras evolucionaron en África subsahariana, el epicentro geográfico con la mayor concentración y persistencia histórica de moscas tsé-tsé (*Glossina*) y tábanos portadores de enfermedades letales para los équidos (como el tripanosoma y la anemia infecciosa equina).
+La distribución de las rayas es el resultado de historia evolutiva, ambiente y selección; los insectos picadores son una hipótesis con evidencia, pero no sustituyen un análisis de todos esos factores.
 
 ### ¿Son las rayas de cada cebra únicas como una huella digital?
 

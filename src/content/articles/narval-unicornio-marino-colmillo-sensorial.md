@@ -27,17 +27,17 @@ featured: false
 
 ## 1. La Anomalía Odontológica de los Océanos Polares
 
-En casi todos los mamíferos terrestres y marinos, los dientes presentan una estructura protectora típica: un núcleo interno pulpar vascularizado e inervado, envuelto por una capa intermedia de dentina y protegido externamente por una coraza de esmalte mineral hiper-duro que aísla los nervios del contacto térmico y químico del exterior. En el narval ocurre exactamente lo contrario: su diente está estructurado 'de adentro hacia afuera'.
+Los dientes de mamíferos tienen pulpa, dentina y, normalmente, esmalte. El colmillo del narval es inusual por su dentina expuesta y su patrón helicoidal; describirlo no requiere asumir que todos sus rasgos tengan una función conocida.
 
-Estudios microtomográficos dirigidos por la Escuela de Medicina Dental de Harvard y el Instituto Smithsoniano demostraron que el colmillo del narval macho (y de aproximadamente el 15% de las hembras) presenta una espiral levógira continua que crece durante toda la vida. Su superficie externa no tiene esmalte; en su lugar, millones de canales microscópicos abiertos (túbulos dentinarios) atraviesan la dentina comunicando el agua marina fría directamente con las fibras sensoriales del nervio trigémino central.
+Estudios anatómicos describen túbulos dentinarios y han explorado una posible función sensorial. La evidencia disponible procede de muestras limitadas y no justifica cifras universales de terminaciones nerviosas, proporción de hembras con colmillo o una dirección de espiral presentada como absoluta.
 
 ---
 
 ## 2. Neurobiología Sensorial y Función Etológica
 
-1. **Quimiorrecepción y Monitoreo de Salinidad:** Cuando el agua marina se congela en el Ártico para formar banquisa, la salmuera es expulsada hacia abajo, incrementando bruscamente la salinidad del agua líquida subyacente. El colmillo detecta estas alteraciones iónicas en cuestión de segundos, alertando a la manada sobre la proximidad de congelamiento superficial para evitar quedar atrapados bajo el hielo sin acceso a aire.
+1. **Hipótesis sensorial:** Los túbulos del colmillo han motivado experimentos sobre sensibilidad a condiciones del agua. Eso no demuestra que los narvales midan con precisión salinidad, presión o temperatura en libertad.
 
-2. **Percepción de Gradientes Barométricos y Térmicos:** Las terminaciones nerviosas son sensibles a fluctuaciones térmicas de fracciones de grado Celsius y a gradientes de presión hidrostática, ayudando a los narvales a orientarse durante sus inmersiones abisales de hasta 1.800 metros de profundidad en busca de fletanes negros y calamares polares.
+2. **Inmersiones:** Los narvales realizan inmersiones profundas, pero sus máximos reportados cambian entre estudios y contextos. Una profundidad observada no identifica por sí sola la función del colmillo.
 
 3. **Señalización Sexual y 'Tusking' Táctil:** Aunque se ha observado a machos frotando sus colmillos en la superficie (*tusking*), este comportamiento no es un duelo a muerte violento. Investigaciones recientes sugieren que es un intercambio de información táctil y sensorial mutua, así como una señal visual de dimorfismo sexual para indicar aptitud física y calidad genética ante las hembras.
 
@@ -45,10 +45,10 @@ Estudios microtomográficos dirigidos por la Escuela de Medicina Dental de Harva
 
 | Parámetro Físico | Medición Típica | Relevancia Neurofisiológica |
 | :--- | :--- | :--- |
-| Longitud máxima del colmillo | 2,4 a 3,0 metros | Representa hasta el 60% de la longitud corporal |
-| Densidad de túbulos dentinarios | Hasta 10 millones de canales abiertos | Conexión hidrodinámica directa con el nervio trigémino |
-| Sentido de la espiral externa | Siempre levógiro (hacia la izquierda) | Resistencia aerodinámica y torsión elástica |
-| Flexibilidad angular máxima | Hasta 30 cm de deflexión sin fractura | Tolerancia a impactos mecánicos en el hielo |
+| Estructura | Diente superior habitualmente izquierdo y helicoidal | Rasgo anatómico distintivo |
+| Dentina | Presenta túbulos dentinarios | Objeto de investigación sensorial |
+| Longitud y forma | Varían entre individuos | No deben convertirse en una regla de función |
+| Comportamiento | Varias funciones propuestas | La evidencia aún es incompleta |
 
 ---
 

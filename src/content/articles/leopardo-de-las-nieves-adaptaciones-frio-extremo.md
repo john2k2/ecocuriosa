@@ -37,20 +37,20 @@ Por eso, las comparaciones muy precisas sobre la superficie pulmonar, el número
 
 ## 2. Mecanismos Anatómicos de Aislamiento y Biomecánica
 
-1. **Precalentamiento Nasofaríngeo:** Las fosas nasales del leopardo son excepcionalmente anchas y están provistas de cornetes nasales hipertrofiados ricamente vascularizados. Al inhalar aire a -30 °C, la sangre capilar transfiere calor de forma instantánea, humedeciendo y elevando la temperatura del flujo aéreo a valores cercanos a la temperatura corporal antes de que entre en contacto con el árbol bronquial.
+1. **Pelaje y patas:** El pelaje denso y las patas anchas se describen como adaptaciones anatómicas útiles para frío, nieve y terreno rocoso. Las medidas precisas requieren estudios específicos por población.
 
-2. **Estratificación del Pelaje y Almohadillas:** Su manto presenta una doble capa: un subpelo lanoso ultrafino y comprimido de hasta 5 cm de espesor, cubierto por pelos de guarda hidrófugos de hasta 12 cm. En las plantas de las garras, las almohadillas digitales están completamente recubiertas de pelo denso, lo que previene el congelamiento tisular, amplía la superficie de apoyo sobre la nieve blanda y amortigua el impacto en saltos de hasta 15 metros.
+2. **Cola y equilibrio:** La cola larga participa en el equilibrio y puede cubrir el rostro cuando descansa. Es una observación de historia natural, no una medición directa de aislamiento térmico en cada condición.
 
-3. **La Cola como Timón y Acumulador Térmico:** Con una longitud media de entre 80 y 105 cm, la cola muscular contiene depósitos estratégicos de tejido adiposo y vértebras caudales reforzadas. En carrera actúa como contrapeso cinético para virar bruscamente en precipicios rocosos; al acostarse, el felino la enrolla alrededor del hocico y los ojos, creando una cámara de microclima caliente con el aire exhalado.
+3. **Fisiología en estudio:** La vida en altitud combina anatomía, comportamiento y genética. El estudio de hemoglobina citado advierte contra dar por demostrada una adaptación bioquímica simple o completa.
 
 ### Parámetros Biométricos y Adaptativos de Panthera uncia
 
 | Parámetro Fisiológico | Medición Documentada | Significado Adaptativo |
 | :--- | :--- | :--- |
-| Rango altitudinal habitual | 3.000 a 5.500 msnm | Zona de canchales glaciares y tundra alpina |
-| Espesor máximo de pelaje | 100 a 120 mm | Resistencia térmica pasiva ante vientos de 100 km/h |
-| Longitud de la cola | 80 a 105 cm (75-90% cuerpo) | Equilibrio giroscópico y protección facial |
-| Salto horizontal registrado | Hasta 15 metros | Caza de ungulados en desfiladeros verticales |
+| Pelaje | Denso y adaptado a climas fríos | Aislamiento, con variación individual y estacional |
+| Patas | Anchas y cubiertas de pelo | Tracción y apoyo en nieve y roca |
+| Cola | Larga y robusta | Equilibrio y cobertura durante el descanso |
+| Fisiología de altitud | En investigación | No debe resumirse en una sola cifra o mecanismo |
 
 ---
 
@@ -60,7 +60,7 @@ Por eso, las comparaciones muy precisas sobre la superficie pulmonar, el número
   * **Realidad científica contrastada:** No puede rugir. La estructura de su aparato hioides carece de la lámina de cartílago elástico que permite vibraciones resonantes profundas en el género *Panthera*. En su lugar, emite vocalizaciones agudas de contacto, resoplidos no amenazantes conocidos como *chuffing* y gemidos territoriales.
 
 * **Mito 2:** Se afirma que es un cazador agresivo que ataca con frecuencia a los seres humanos en los pasos de montaña.
-  * **Realidad científica contrastada:** Es uno de los grandes depredadores más esquivos del planeta. No existe un solo registro histórico documentado de un ataque no provocado de leopardo de las nieves a personas en estado salvaje; su conducta predilecta ante la presencia humana es el mimetismo estático y la retirada cautelosa.
+  * **Matiz científico:** Es una especie esquiva y los encuentros con personas son poco frecuentes. La conducta cambia con el contexto, por lo que las afirmaciones absolutas sobre ataques o ausencia de ataques deben evitarse sin un registro exhaustivo.
 
 ---
 
@@ -72,7 +72,7 @@ Sus presas predilectas son ungulados de gran porte adaptados a la montaña, prin
 
 ### ¿Cuántos ejemplares sobreviven actualmente en libertad?
 
-La UICN estima una población global de entre 4.000 y 6.500 individuos adultos distribuidos en 12 países de Asia Central. La especie se encuentra catalogada como 'Vulnerable' debido a la fragmentación del hábitat, la caza furtiva por su piel y el conflicto con pastores locales.
+Las estimaciones de población y categoría de conservación pueden cambiar. Consulta la evaluación vigente de la UICN antes de usar una cifra o categoría concreta.
 
 ### ¿Cómo logran no resbalar en placas de hielo pulido?
 

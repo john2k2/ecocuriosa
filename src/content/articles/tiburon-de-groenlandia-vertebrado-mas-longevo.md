@@ -27,9 +27,9 @@ featured: false
 
 ## 1. El Descubrimiento del Cristalino Ocular y el Radiocarbono
 
-Determinar la edad de los tiburones suele realizarse contando las bandas periódicas de crecimiento en sus vértebras calcificadas, al igual que los anillos de un árbol. Sin embargo, el esqueleto de *Somniosus microcephalus* es enteramente cartilaginoso y blando, sin láminas minerales evidentes. En 2016, un estudio pionero liderado por biólogos marinos de la Universidad de Copenhague resolvió el enigma analizando el cristalino del ojo mediante datación por radiocarbono (carbono 14).
+La edad de muchos tiburones se estima con estructuras de crecimiento, pero el tiburón de Groenlandia requiere otros métodos. Un estudio de 2016 analizó el cristalino mediante radiocarbono, una aproximación que ofrece estimaciones con intervalos amplios.
 
-El núcleo del cristalino ocular se forma durante el desarrollo embrionario en el vientre materno y está compuesto por proteínas cristalinas inertes que nunca se renuevan ni experimentan recambio metabólico a lo largo de la vida del animal. Al medir la concentración residual de radiocarbono originado por los ensayos nucleares atmosféricos de la década de 1950, los investigadores fecharon a una hembra de 5 metros de longitud en 392 ± 120 años de edad, confirmando que había nacido a principios del siglo XVII.
+El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar datación por radiocarbono. Para el ejemplar más grande de la muestra, el estudio estimó 392 ± 120 años: el margen impide fijar un año de nacimiento exacto.
 
 ---
 
@@ -37,18 +37,18 @@ El núcleo del cristalino ocular se forma durante el desarrollo embrionario en e
 
 1. **Anticongelantes Celulares Naturales (TMAO y Urea):** Para no congelarse en aguas con temperaturas de -1,5 °C y soportar profundidades de hasta 2.200 metros, los tejidos del tiburón acumulan concentraciones masivas de urea y óxido de trimetilamina (TMAO). Esta última molécula es un potente estabilizador osmótico que contrarresta el efecto desnaturalizante de la urea y preserva la conformación tridimensional de las enzimas catalíticas.
 
-2. **La Velocidad de Crucero más Lenta del Océano:** Su frecuencia cardíaca es de apenas un latido cada 12 segundos y su velocidad de desplazamiento de crucero no supera los 1,2 km/h (0,3 m/s), una de las más bajas jamás medidas en cualquier pez activo. Esta bradicardia fisiológica extrema reduce el estrés oxidativo celular y la tasa de mutaciones espontáneas del ADN al mínimo absoluto.
+2. **Metabolismo y longevidad:** Las aguas frías y la fisiología de la especie se investigan como posibles factores de su longevidad. No existe una medición única de frecuencia cardíaca o velocidad que explique por sí sola su envejecimiento.
 
-3. **Madurez Sexual Tardía a los 150 Años:** Las hembras no comienzan a reproducirse hasta que superan los 4 metros de longitud, proceso que requiere aproximadamente un siglo y medio de crecimiento pausado. Su período de gestación se estima en entre 8 y 18 años, depositando camadas de crías vivas completamente formadas pero con una tasa de reclutamiento poblacional extraordinariamente frágil.
+3. **Reproducción incierta:** La madurez, gestación y fecundidad siguen teniendo incertidumbres importantes. Esa falta de datos hace especialmente relevante evitar cifras cerradas al describir la vulnerabilidad de la especie.
 
 ### Parámetros Demográficos y Fisiológicos de Somniosus microcephalus
 
 | Variable Biológica | Valor Cuantificado | Implicación Ecológica |
 | :--- | :--- | :--- |
-| Esperanza de vida máxima estimada | 392 ± 120 años (hasta ~400 años) | Vertebrado más longevo conocido por la ciencia |
-| Edad de primera madurez sexual | 150 ± 20 años en hembras | Alta vulnerabilidad ante la pesca comercial histórica |
-| Tasa de crecimiento lineal anual | 0,5 a 1,0 cm por año | Metabolismo basal ultra-conservador |
-| Temperatura media de hábitat | -1,6 °C a +4 °C | Criopreservación natural de funciones metabólicas |
+| Longevidad | Estimaciones de siglos mediante radiocarbono | Entre los vertebrados más longevos conocidos |
+| Reproducción | Con incertidumbres relevantes | Importante para su conservación |
+| Hábitat | Atlántico Norte y Ártico, con inmersiones profundas | Depende de región y estación |
+| Fisiología | En investigación | No equivale a “criopreservación” |
 
 ---
 
@@ -68,9 +68,9 @@ El núcleo del cristalino ocular se forma durante el desarrollo embrionario en e
 
 Aprovechan que las focas polares duermen en el agua o en huecos de respiración en el hielo marino para acercarse sin generar turbulencias perceptibles, succionándolas con un movimiento mandibular repentino de presión negativa.
 
-### ¿Tienen cáncer los tiburones de Groenlandia a lo largo de 400 años?
+### ¿Qué se sabe sobre cáncer y longevidad?
 
-Exhiben una incidencia extraordinariamente baja de neoplasias gracias a vías reforzadas de reparación del ADN celular y a la acción del TMAO, convirtiéndose en un modelo de investigación de vanguardia sobre senescencia celular y medicina antienvejecimiento.
+La longevidad de la especie no prueba una baja incidencia de cáncer ni mecanismos de reparación del ADN aplicables a personas. Se necesitan datos específicos antes de hacer esas afirmaciones.
 
 ### ¿Dónde se distribuyen geográficamente?
 

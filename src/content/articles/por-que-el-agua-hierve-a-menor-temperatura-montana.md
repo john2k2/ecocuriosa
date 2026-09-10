@@ -35,9 +35,9 @@ La ebullición se distingue de la evaporación superficial ordinaria en un aspec
 
 ## 2. La Ecuación Barométrica y la Relación de Clausius-Clapeyron
 
-1. **La Caída Exponencial de la Presión Atmosférica:** La atmósfera terrestre se vuelve exponencialmente menos densa con la altitud siguiendo la fórmula barométrica: por cada 300 metros de ascenso vertical, el punto de ebullición del agua desciende aproximadamente 1 °C. En ciudades situadas a gran altitud como Bogotá (2.640 m) o La Paz (3.640 m), el agua hierve a 91 °C y 87 °C respectivamente.
+1. **Presión y altitud:** La presión atmosférica disminuye en promedio al ganar altura, y el punto de ebullición disminuye con ella. No existe una regla exacta por cada número fijo de metros: la presión local y el tiempo meteorológico también cambian el valor.
 
-2. **La Paradoja de Cocinar en Altitud (Menor Temperatura = Mayor Tiempo):** Aunque el agua comience a burbujear con fuerza y rapidez en la montaña, ese hervor no significa que esté 'más caliente'. Debido a que el agua líquida no puede superar su temperatura de ebullición local a presión abierta, cocer alimentos como legumbres, arroz o patatas tarda hasta tres o cuatro veces más tiempo, o resulta físicamente imposible sin una olla a presión.
+2. **Cocinar en altitud:** Que el agua hierva no significa que alcance la misma temperatura que al nivel del mar. Algunos alimentos pueden requerir más tiempo o un método que aumente la presión, pero el resultado depende de la receta, el recipiente y la presión local.
 
 3. **La Olla a Presión como Solución Tecnológica Inversa:** El principio inverso se aplica en las ollas express domésticas: al sellar herméticamente el recipiente, el vapor confinado eleva la presión interna a unas 2 atmósferas (200 kPa), forzando al agua a hervir a 120 °C - 122 °C, lo que acelera las reacciones de desnaturalización proteica y cocción química en un 70%.
 
@@ -57,10 +57,10 @@ La ebullición se distingue de la evaporación superficial ordinaria en un aspec
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que si el agua hierve con burbujas más grandes y violentas, la comida se cocinará más rápido.
-  * **Realidad científica contrastada:** Falso mito culinario. Lo que cocina los alimentos es la temperatura del líquido que desnaturaliza las proteínas y descompone el almidón, no el movimiento de las burbujas; si el agua hierve a 80 °C en la montaña, un huevo duro nunca llegará a cuajar por completo.
+  * **Matiz científico:** La temperatura del líquido es determinante para la cocción; el tamaño de las burbujas no mide por sí solo el calor. Ajustar tiempo y método a la presión local es más fiable que aplicar una regla universal.
 
 * **Mito 2:** Se asume que hervir agua en alta montaña garantiza la esterilización biológica en el mismo tiempo que en la costa.
-  * **Realidad científica contrastada:** A 71-80 °C mueren muchas bacterias vegetativas, pero esporas bacterianas resistentes (como las de *Clostridium botulinum*) sobreviven a esa temperatura; en montañismo de gran altitud se recomienda mantener el hervor durante al menos 3 a 5 minutos adicionales para asegurar la potabilidad.
+  * **Precaución sanitaria:** La seguridad del agua depende del patógeno, la temperatura, el tiempo y la calidad inicial. Para decisiones de potabilidad o emergencia, consulta las recomendaciones actualizadas de la autoridad sanitaria local en vez de basarte en una cifra genérica de este artículo.
 
 ---
 
