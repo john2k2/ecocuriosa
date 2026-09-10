@@ -1,6 +1,6 @@
 ---
-title: "El Pangolín Gigante: Anatomía de la Única Armadura Viviente de Queratina"
-description: "Descubre cómo las escamas de queratina compactada protegen al mamífero más traficado del mundo ante los mayores depredadores de la sabana africana."
+title: "El pangolín gigante: escamas de queratina y conservación"
+description: "Qué se sabe sobre las escamas de Smutsia gigantea y por qué el tráfico ilegal amenaza a los pangolines."
 category: "fauna-fascinante"
 pubDate: 2026-08-08
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Las escamas del pangolín gigante (*Smutsia gigantea*) son la única armadura córnea móvil presente en mamíferos modernos. Constituyen hasta el 20% del peso corporal del animal y están formadas por queratina $\beta$ altamente mineralizada con enlaces disulfuro que resisten fuerzas de mordedura de más de 400 kg de presión, cerrándose en una esfera hermética con bordes cortantes que frustra a leones, leopardos y hienas.
+> **Respuesta rápida:** El pangolín gigante (*Smutsia gigantea*) pertenece al único grupo de mamíferos actuales cubierto por grandes escamas de queratina. Sus escamas son una defensa física, pero las cifras de dureza, masa o resistencia deben depender de la especie y del estudio; no justifican ningún uso medicinal.
 
 ---
 
@@ -54,8 +54,8 @@ Microestructuralmente, cada escama está compuesta por múltiples láminas compa
 
 ## 3. Desmintiendo Mitos Comunes
 
-* **Mito 1:** Se difunde en mercados ilegales que las escamas de pangolín poseen propiedades medicinales que curan dolencias crónicas.
-  * **Realidad científica contrastada:** Cero fundamento científico. Análisis espectrográficos y bioquímicos demuestran que las escamas contienen exactamente la misma queratina estructural que las uñas humanas, sin ningún principio activo farmacológico.
+* **Mito 1:** Se difunde en mercados ilegales que las escamas de pangolín poseen propiedades medicinales.
+  * **Realidad científica contrastada:** No existe evidencia clínica que justifique usar escamas de pangolín para tratar enfermedades. Su composición queratinosa no respalda esas afirmaciones y el comercio pone en riesgo a las especies.
 
 * **Mito 2:** Se cree que el pangolín puede arrojar sus escamas como proyectiles ante una amenaza.
   * **Realidad científica contrastada:** Falso mito de viajeros antiguos. Las escamas están firmemente ancladas al estrato dérmico vascularizado y solo se mudan individualmente por desgaste o traumatismo grave.
@@ -72,9 +72,9 @@ Debido a la demanda ilegal de sus escamas para la medicina tradicional en Asia O
 
 Toman baños de barro y frotan su cuerpo contra troncos resinosos; también se colocan sobre hormigueros permitiendo que las hormigas devoren los ácaros antes de sacudirse enérgicamente.
 
-### ¿Un león adulto puede morder y matar a un pangolín enrollado?
+### ¿Las escamas protegen al pangolín de cualquier depredador?
 
-Casi nunca con mordisco directo. Los leones suelen manipular la esfera durante horas sin éxito hasta frustrarse y abandonarla. Solo si consiguen empujarlo a un foso de agua o si el pangolín se debilita por asfixia pueden tener éxito.
+No. Enrollarse reduce la exposición de las partes blandas, pero el éxito de esa defensa depende del contexto y no elimina otros riesgos, especialmente la pérdida de hábitat y la captura humana.
 
 ---
 

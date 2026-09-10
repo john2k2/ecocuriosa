@@ -1,6 +1,6 @@
 ---
-title: "Los Tardígrados: El Animal Microscópico que Sobrevive al Vacío del Espacio"
-description: "Explora los mecanismos moleculares de la criptobiosis que permiten a los tardígrados resistir el cero absoluto, la radiación y el vacío exterior."
+title: "Tardígrados y criptobiosis: límites de su resistencia extrema"
+description: "Qué muestran los estudios sobre anhidrobiosis, radiación y exposición espacial en tardígrados, sin mitos de invulnerabilidad."
 category: "fauna-fascinante"
 pubDate: 2026-08-12
 author: "Equipo Editorial EcoCuriosa"
@@ -21,7 +21,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Los tardígrados u osos de agua resisten temperaturas desde -272 °C hasta +150 °C, presiones de más de 6.000 atmósferas y el vacío del espacio gracias a la criptobiosis (anhidrobiosis). Al deshidratarse, reducen su contenido de agua del 85% a menos del 2%, paralizan su metabolismo detectable al 0% y vitrifican su interior celular mediante proteínas Dsup exclusivas que envuelven su ADN, formando un escudo físico contra la radiación ionizante y el daño oxidativo.
+> **Respuesta rápida:** Algunas especies de tardígrados toleran desecación, radiación o exposición espacial bajo condiciones experimentales específicas. En anhidrobiosis intervienen varias proteínas y mecanismos; los rangos de tolerancia no son universales y no significan que el animal sea invulnerable.
 
 ---
 
@@ -39,7 +39,7 @@ En respuesta a la desecación, el tardígrado repliega sus ocho extremidades hac
 
 2. **La Proteína Dsup (Damage Suppressor):** Para sobrevivir a dosis de radiación gamma mil veces superiores a las letales para los humanos, poseen una proteína nuclear exclusiva denominada Dsup. Esta molécula se une de forma compacta a la doble hélice de ADN formando una coraza electrostática que apantalla físicamente a los ácidos nucleicos de los radicales libres hidroxilo producidos por los rayos cósmicos.
 
-3. **Rehidratación y Reparación Enzimática Ultrarrápida:** Al entrar en contacto con una sola gota de agua líquida, el biovidrio citoplasmático se disuelve en minutos. Las bombas de iones reanudan el gradiente electroquímico celular y enzimas de reparación del ADN como las ligasas corrigen cualquier rotura residual en los cromosomas antes de que el animal comience a alimentarse y reproducirse con normalidad.
+3. **Rehidratación:** Al recuperar agua, un tardígrado que sobrevive a la desecación puede retomar actividad. El ritmo, los daños y la recuperación dependen de la especie, del tiempo en estado seco y de las condiciones del experimento; no hay una reparación instantánea garantizada.
 
 ### Límites Fisicoquímicos de Supervivencia del Tardígrado en Criptobiosis
 
@@ -47,7 +47,7 @@ En respuesta a la desecación, el tardígrado repliega sus ocho extremidades hac
 | :--- | :--- | :--- |
 | Temperatura mínima extrema | -272,8 °C (a 0,3 K del cero absoluto) | Letal a < 28 °C de hipotermia corporal |
 | Temperatura máxima extrema | +150 °C durante varios minutos | Desnaturalización proteica a > 42 °C |
-| Resistencia a la presión hidrostática | 6.000 megapascales (6 veces la Fosa Marianas) | Rotura de órganos a > 3-4 atmósferas |
+| Resistencia a la presión hidrostática | Depende de especie, estado y ensayo | No debe compararse con la fosa de las Marianas sin comprobar unidades y condiciones |
 | Resistencia a radiación ionizante | 5.000 a 6.000 Gray de rayos X | Dosis letal 50% en humanos = 4 a 5 Gray |
 | Supervivencia en el vacío espacial | 10 días en órbita terrestre baja (Misión FOTON-M3) | Asfixia y ebullición de fluidos en < 15 seg |
 
@@ -75,7 +75,7 @@ Poseen un par de estiletes bucales retráctiles afilados con los que perforan la
 
 ### ¿Qué aplicaciones biotecnológicas se investigan con sus proteínas?
 
-Científicos del Centro RIKEN en Japón han transferido el gen de la proteína Dsup a células humanas en cultivo, logrando aumentar su tolerancia a la radiación en un 40%, lo que abre puertas a la conservación de vacunas sin cadena de frío y protección celular en tratamientos oncológicos.
+Las proteínas protectoras se estudian en sistemas experimentales. Esa investigación no prueba todavía aplicaciones clínicas, conservación de vacunas o protección durante tratamientos médicos.
 
 ---
 
