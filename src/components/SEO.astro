@@ -119,8 +119,8 @@ const schemaData = {
 
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
-{noindex && <meta name="robots" content="noindex, nofollow" />}
-{!noindex && <link rel="canonical" href={canonicalURL} />}
+{noindex && <meta name="robots" content="noindex, follow" />}
+<link rel="canonical" href={canonicalURL} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />
@@ -131,11 +131,11 @@ const schemaData = {
 <meta property="og:site_name" content="EcoCuriosa" />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalURL} />
-<meta property="twitter:title" content={fullTitle} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={fullImageURL} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalURL} />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={fullImageURL} />
 
 <!-- Structured Data (Schema.org) -->
 <script is:inline type="application/ld+json" set:html={JSON.stringify(schemaData)} />

@@ -158,4 +158,23 @@
     padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--border-fossil);
   }
+
+  /* Evita que los slots de AdSense desplacen la lectura cuando cargan.
+     Solo existen cuando se configura un slot real, por lo que no deja huecos
+     durante la revisión de la cuenta. */
+  .ad-container[data-ad-layout='header'] {
+    min-height: 100px;
+  }
+
+  .ad-container[data-ad-layout='in-article'],
+  .ad-container[data-ad-layout='footer'] {
+    min-height: 250px;
+  }
+
+  @media (max-width: 639px) {
+    .ad-container[data-ad-layout='in-article'],
+    .ad-container[data-ad-layout='footer'] {
+      min-height: 180px;
+    }
+  }
 }

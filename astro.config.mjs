@@ -9,7 +9,11 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   integrations: [
-    sitemap(),
+    sitemap({
+      // Los resultados internos no aportan una página editorial única a Google.
+      // Se mantienen accesibles para lectores, pero fuera del sitemap.
+      filter: (page) => !page.endsWith('/buscar/') && !page.endsWith('/buscar'),
+    }),
     {
       name: 'alias-sitemap-xml',
       hooks: {
