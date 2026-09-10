@@ -28,6 +28,8 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 
 No se debe programar una creación masiva diaria: con el inventario actual, mejorar y citar las monografías existentes tiene más valor que ampliar el volumen.
 
+La verificación de GitHub ejecuta la auditoría no estricta, `astro check` y el build en cada cambio. La CI evita regresiones de formato o compilación; no sustituye la comprobación humana de las afirmaciones.
+
 ## Flujo obligatorio
 
 1. Elegir tema desde consultas e impresiones reales de Search Console, no desde volumen de palabras clave aislado.
