@@ -11,6 +11,13 @@ tags:
   - genetica
   - medicina
   - mexico
+sources:
+  - title: "The axolotl genome and the evolution of key tissue formation regulators"
+    publisher: "Nature"
+    url: "https://www.nature.com/articles/nature25458"
+  - title: "The axolotl limb blastema"
+    publisher: "Regeneration / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/"
 featured: false
 ---
 

@@ -16,8 +16,8 @@ sources:
   - title: "Snow Leopard Behavior"
     publisher: "Snow Leopard Trust"
     url: "https://snowleopard.org/snow-leopard-facts/behavior/"
-  - title: "Genomic and physiological evidence on high-altitude adaptation in the snow leopard"
-    publisher: "Proceedings of the National Academy of Sciences"
+  - title: "Genetically based low oxygen affinities of felid hemoglobins"
+    publisher: "Journal of Experimental Biology / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/"
 reviewedDate: 2026-09-08
 reviewedBy: "Equipo Editorial EcoCuriosa"

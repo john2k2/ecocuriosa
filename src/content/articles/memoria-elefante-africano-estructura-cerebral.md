@@ -11,6 +11,13 @@ tags:
   - neurociencia
   - etologia
   - africa
+sources:
+  - title: "Matriarchs as repositories of social knowledge in African elephants"
+    publisher: "Science / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/11313492/"
+  - title: "Extreme expansion of the olfactory receptor gene repertoire in African elephants"
+    publisher: "Genome Research / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4158756/"
 featured: false
 ---
 

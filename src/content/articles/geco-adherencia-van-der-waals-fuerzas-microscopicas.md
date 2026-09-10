@@ -11,6 +11,13 @@ tags:
   - fisica
   - nanotecnologia
   - biomimesis
+sources:
+  - title: "Adhesive force of a single gecko foot-hair"
+    publisher: "Nature / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/10864324/"
+  - title: "Adhesion and friction in gecko toe attachment and detachment"
+    publisher: "Proceedings of the National Academy of Sciences / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/17148600/"
 featured: false
 ---
 

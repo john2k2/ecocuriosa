@@ -11,6 +11,13 @@ tags:
   - optica
   - nanotecnologia
   - madagascar
+sources:
+  - title: "Photonic crystals cause active colour change in chameleons"
+    publisher: "Nature Communications / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/"
+  - title: "The panther chameleon"
+    publisher: "Muséum national d’Histoire naturelle"
+    url: "https://www.mnhn.fr/en/the-panther-chameleon"
 featured: false
 ---
 

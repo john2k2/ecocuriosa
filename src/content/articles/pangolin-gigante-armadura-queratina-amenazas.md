@@ -11,6 +11,13 @@ tags:
   - anatomia
   - conservacion
   - africa
+sources:
+  - title: "Structure and mechanical behaviors of protective armored pangolin scales"
+    publisher: "Journal of the Mechanical Behavior of Biomedical Materials / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/26703230/"
+  - title: "Giant Pangolin (Smutsia gigantea)"
+    publisher: "American Society of Mammalogists"
+    url: "https://www.mammaldiversity.org/taxon/1005800/"
 featured: false
 ---
 

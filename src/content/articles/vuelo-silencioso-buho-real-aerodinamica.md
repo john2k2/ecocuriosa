@@ -11,6 +11,13 @@ tags:
   - acustica
   - biomimesis
   - depredadores
+sources:
+  - title: "The three-dimensional shape of serrations at barn owl wings"
+    publisher: "Journal of Anatomy / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/"
+  - title: "Aeroacoustics of Silent Owl Flight"
+    publisher: "Annual Review of Fluid Mechanics"
+    url: "https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436"
 featured: false
 ---
 

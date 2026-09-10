@@ -11,6 +11,13 @@ tags:
   - astrobiologia
   - criptobiosis
   - evolucion
+sources:
+  - title: "Tardigrades survive exposure to space in low Earth orbit"
+    publisher: "Current Biology"
+    url: "https://doi.org/10.1016/j.cub.2008.06.048"
+  - title: "The tardigrade damage suppressor protein binds to nucleosomes"
+    publisher: "eLife"
+    url: "https://doi.org/10.7554/eLife.47682"
 featured: false
 ---
 
