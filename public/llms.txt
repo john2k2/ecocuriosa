@@ -1,11 +1,12 @@
 # EcoCuriosa
 
-> Enciclopedia digital independiente en español sobre biodiversidad, océanos, geología y ciencia cotidiana. El contenido se publica con autoría editorial, fecha y fuentes enlazadas cuando han sido verificadas.
+> Enciclopedia digital independiente en español sobre biodiversidad, océanos, geología y ciencia cotidiana. Los artículos incluyen fuentes enlazadas; la fecha de revisión aparece únicamente cuando se registra una comprobación editorial específica.
 
 ## Páginas principales
 
 - [Inicio](https://ecocuriosa.com/): Archivo editorial y acceso a las categorías.
 - [Sobre EcoCuriosa](https://ecocuriosa.com/sobre-nosotros): Propósito editorial, metodología y contacto.
+- [Metodología editorial](https://ecocuriosa.com/metodologia-editorial): Selección de fuentes, límites de la evidencia, correcciones, IA e imágenes.
 - [Fauna fascinante](https://ecocuriosa.com/fauna-fascinante): Adaptaciones y comportamiento animal.
 - [Especies marinas](https://ecocuriosa.com/especies-marinas): Océanos, arrecifes y fauna abisal.
 - [Fenómenos naturales](https://ecocuriosa.com/fenomenos-naturales): Atmósfera, geología y física terrestre.
