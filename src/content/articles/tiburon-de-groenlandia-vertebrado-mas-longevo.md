@@ -104,6 +104,8 @@ En aguas del Atlántico Norte y del Ártico. La distribución observada cambia s
 
 ---
 
+Para comparar estrategias de vida en grandes vertebrados marinos, continúa con [la fisiología de la ballena azul](/especies-marinas/ballena-azul-fisiologia-gigante-cardiovascular/) y [las preguntas abiertas sobre la manta raya gigante](/especies-marinas/manta-raya-gigante-inteligencia-cerebro-peces/).
+
 ## Conclusión y Fuentes Documentales
 
 La datación del cristalino situó al tiburón de Groenlandia entre los vertebrados más longevos conocidos, con márgenes de incertidumbre amplios. Resolver su reproducción, crecimiento y fisiología requiere más evidencia que repetir una cifra redonda de cuatrocientos años.

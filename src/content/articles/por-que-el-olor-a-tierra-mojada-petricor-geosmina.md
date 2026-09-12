@@ -97,6 +97,8 @@ Porque las ráfagas de viento del frente de salida de la tormenta (*gust front*)
 
 ---
 
+El transporte de partículas y humedad también ayuda a entender [por qué vemos el cielo azul y los atardeceres rojos](/ciencia-curiosa/por-que-el-cielo-es-azul-dispersion-rayleigh/) y [cómo se forman las nubes mammatus](/fenomenos-naturales/nubes-mastodonticas-mammatus-gravedad-humedad/).
+
 ## Conclusión y Fuentes Documentales
 
 El petricor combina compuestos y aerosoles liberados cuando llueve sobre un suelo seco; la geosmina es una parte importante, pero no la única. Su intensidad cambia con el suelo, los microorganismos y la lluvia, por eso no tiene una explicación universal de una sola molécula.

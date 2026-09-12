@@ -94,6 +94,8 @@ NOAA identifica la pesca dirigida y la captura incidental como amenazas principa
 
 ---
 
+Para poner su tamaño y vulnerabilidad en contexto, compara [la longevidad estimada del tiburón de Groenlandia](/especies-marinas/tiburon-de-groenlandia-vertebrado-mas-longevo/) con [las adaptaciones cardiovasculares de la ballena azul](/especies-marinas/ballena-azul-fisiologia-gigante-cardiovascular/).
+
 ## Conclusión y Fuentes Documentales
 
 La manta gigante merece atención por su ecología y vulnerabilidad, no por analogías apresuradas con la inteligencia humana. Las cifras más útiles de esta ficha indican su tamaño, rango de profundidad, amenazas y límites de población; la conducta frente a un espejo sigue siendo una pregunta experimental, no una etiqueta concluyente.

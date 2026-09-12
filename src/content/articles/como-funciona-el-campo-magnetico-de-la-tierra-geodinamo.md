@@ -105,6 +105,8 @@ Diversos animales muestran sensibilidad al campo magnético, pero los sensores y
 
 ---
 
+Para seguir la relación entre el entorno espacial y los fenómenos luminosos, puedes consultar [cómo se forman las auroras boreales](/fenomenos-naturales/auroras-boreales-viento-solar-magnetosfera/) y [qué explica la actividad eléctrica del Catatumbo](/fenomenos-naturales/relampago-del-catatumbo-tormenta-eterna-venezuela/).
+
 ## Conclusión y Fuentes Documentales
 
 El geodinamo del núcleo externo crea un campo cambiante que interactúa con el viento solar y forma la magnetosfera. Es una protección importante, pero no un escudo absoluto: sus variaciones se investigan y miden continuamente.

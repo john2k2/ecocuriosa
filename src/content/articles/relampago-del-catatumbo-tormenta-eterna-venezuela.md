@@ -83,6 +83,8 @@ Su pico máximo ocurre en los meses de septiembre y octubre (temporada de lluvia
 
 ---
 
+Para ampliar la física de la atmósfera, puedes comparar esta convección regional con [las auroras producidas por el viento solar](/fenomenos-naturales/auroras-boreales-viento-solar-magnetosfera/) y [las nubes mammatus](/fenomenos-naturales/nubes-mastodonticas-mammatus-gravedad-humedad/).
+
 ## Conclusión y Fuentes Documentales
 
 El Catatumbo destaca por su combinación de geografía y convección, no por un mecanismo mágico o continuo. Las fuentes citadas permiten consultar estudios de actividad eléctrica regional; las comparaciones y cifras deben conservar siempre su período y método de observación.

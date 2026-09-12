@@ -97,6 +97,8 @@ A la llamada línea de Armstrong, donde la presión es tan baja que el agua pued
 
 ---
 
+La presión también cambia lo que observamos en otros entornos: puedes continuar con [el mecanismo de los géiseres hidrotermales](/fenomenos-naturales/geiseres-hidrotermales-mecanismo-erupcion-presion/) y [las capas de agua de los agujeros azules](/fenomenos-naturales/agujeros-azules-oceano-sinkholes-formacion-geologica/).
+
 ## Conclusión y Fuentes Documentales
 
 La menor presión a mayor altitud baja el punto de ebullición y cambia los tiempos de cocción. No hay una temperatura única para cada montaña: la presión meteorológica, la altura exacta y el método de cocción también importan.

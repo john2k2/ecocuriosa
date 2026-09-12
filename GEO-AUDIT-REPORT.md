@@ -101,7 +101,7 @@ La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la únic
 
 ### Citabilidad para IA — 72/100
 
-Los artículos tienen respuesta rápida, encabezados, tablas/FAQ en el cuerpo, enlaces internos y referencias visibles. La estructura es fácil de extraer y `llms.txt` enlaza la metodología. Para subir la puntuación: escribir respuestas de 40–80 palabras con hecho, alcance y límite; conectar cada afirmación importante con una fuente concreta; y añadir análisis propio en vez de resumir varias fuentes.
+Los artículos tienen respuesta rápida, encabezados, tablas/FAQ en el cuerpo, enlaces internos y referencias visibles. Las siete páginas prioritarias ya incorporan dos enlaces contextuales dentro del texto; las otras 25 conservan tarjetas relacionadas y quedan pendientes de una selección editorial específica. La estructura es fácil de extraer y `llms.txt` enlaza la metodología. Para subir la puntuación: escribir respuestas de 40–80 palabras con hecho, alcance y límite; conectar cada afirmación importante con una fuente concreta; y añadir análisis propio en vez de resumir varias fuentes.
 
 Nota de alcance: Google Search indica que `llms.txt` no es una señal especial de posicionamiento; aquí se conserva como índice auxiliar para otras herramientas, no como sustituto de HTML, enlaces y sitemap.
 

@@ -110,6 +110,8 @@ Se ha observado en aguas cálidas del Indo-Pacífico y sobre fondos sedimentario
 
 ---
 
+La comparación con otros cambios de apariencia puede ayudarte a separar mecanismo y comportamiento: revisa [el cambio de color del camaleón pantera](/fauna-fascinante/camaleon-pantera-fisica-cambio-color-nanocristales/) y [la adherencia microscópica del gecko](/fauna-fascinante/geco-adherencia-van-der-waals-fuerzas-microscopicas/).
+
 ## Conclusión y Fuentes Documentales
 
 El pulpo mimo demuestra una flexibilidad corporal extraordinaria, respaldada por observaciones de varios modelos de imitación. El repertorio exacto y el motivo de cada postura siguen abiertos a estudio, por lo que las listas virales no sustituyen la evidencia de campo.
