@@ -1681,3 +1681,87 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://www.sciencedirect.com/science/article/pii/S0967063721000777
     use: unobtrusive autonomous camera platforms and opportunistic Architeuthis dux encounters; preserve partial size estimates and observation bias
+  - id: axolotl-regeneration-key-proteins-uam-2024
+    authority: Universidad Autónoma Metropolitana / Del Moral-Morales et al.
+    domain: regeneration-biology
+    evidenceType: peer-reviewed-primary
+    url: https://produccion.siia.unam.mx/Publicaciones/ProdCientif/PublicacionFrw.aspx?id=659557&scopus=0
+    use: blastema transcriptomic responses and tissue remodeling in Ambystoma mexicanum; preserve timepoints and distinguish associations from therapeutic causality
+  - id: axolotl-xochimilco-conservation-unam-2024
+    authority: Universidad Nacional Autónoma de México
+    domain: conservation-ecology
+    evidenceType: institutional-explainer
+    url: https://www.dgcs.unam.mx/boletin/bdboletin/2024_787.html
+    use: contamination, warming and introduced-fish pressures in Xochimilco; 2025 forecast is time-bound and not a current wild-population census
+  - id: cetacean-heart-rate-scaling-2021
+    authority: Philosophical Transactions of the Royal Society B / PMC
+    domain: marine-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8200651/
+    use: scaling of breathing and heart rate across cetaceans; captive and comparative context, not direct validation of a universal blue-whale value
+  - id: hawaii-coral-bleaching-proteins-2025
+    authority: Communications Earth & Environment / Nature
+    domain: coral-reef-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s43247-025-02167-7
+    use: candidate protein signatures associated with resilience in Montipora capitata under Hawaiian laboratory conditions; do not generalize to every reef
+  - id: hawaii-coral-recovery-acidification-2024
+    authority: Communications Earth & Environment / Nature
+    domain: coral-reef-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s43247-024-01672-5
+    use: recovery of two Hawaiian coral species after natural thermal stress under controlled acidification; retain site, species and 2014-15 study limits
+  - id: greenland-shark-cardiac-aging-2026
+    authority: Aging Cell / PubMed
+    domain: marine-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/42024652/
+    use: fibrosis, lipofuscin and oxidative-stress markers in Greenland shark hearts; not an age estimate, maximum-longevity proof or anti-aging recipe
+  - id: pangolin-trafficking-genetic-hotspots-plos-2026
+    authority: PLOS Biology
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003762
+    use: targeted sequencing and geographic assignment of degraded pangolin DNA; route and species snapshot, not a global census or Smutsia gigantea estimate
+  - id: pangolin-cites-usfws-proposal-2025
+    authority: U.S. Fish and Wildlife Service / Federal Register
+    domain: conservation-policy
+    evidenceType: institutional-report
+    url: https://www.govinfo.gov/content/pkg/FR-2025-06-17/pdf/FR-2025-06-17.pdf
+    use: U.S. regulatory proposal and CITES Appendix I context; preserve jurisdiction and proposal status, not a substitute for legal advice or full CITES text
+  - id: owl-wing-noise-suppression-bubo-2012
+    authority: Journal of Bionic Engineering / ScienceDirect
+    domain: animal-flight
+    evidenceType: peer-reviewed-primary
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1672652911601091
+    use: serrations, fringe and surface effects in Bubo bubo wing-feather experiments; laboratory mechanism, not proof of total silence in free flight
+  - id: owl-leading-edge-serrations-pubmed-2024
+    authority: Bioinspiration & Biomimetics / PubMed
+    domain: animal-flight
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/38569525/
+    use: particle-image-velocimetry model of barn-owl leading-edge serrations in turbulence; do not transfer species or model results to Bubo bubo universally
+  - id: tardigrade-temperature-ultrastructure-2024
+    authority: Scientific Reports / Nature
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s41598-024-55295-z
+    use: heat-shock proteins and cell ultrastructure in Paramacrobiotus experimentalis across active and tun states; retain species and protocol dependence
+  - id: tardigrade-cysteine-chemobiosis-2024
+    authority: PLOS ONE
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295062
+    use: reversible cysteine oxidation in tun formation of Hypsibius exemplaris; mechanism is model-specific and does not establish invulnerability
+  - id: lanternfish-photophore-speciation-pubmed-2014
+    authority: Marine Biology / PubMed
+    domain: deep-sea-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/24771948/
+    use: species-specific photophore patterns and possible recognition or counterillumination roles; morphology alone does not prove universal communication
+  - id: lanternfish-counterillumination-photophores-2020
+    authority: Proceedings of the Royal Society B / Nova Southeastern University
+    domain: deep-sea-biology
+    evidenceType: peer-reviewed-primary
+    url: https://nsuworks.nova.edu/occ_facarticles/1077/
+    use: eye-facing photophores as a counterillumination reference in sampled stomiiform fishes; preserve taxonomic and sample limits, not all myctophids

@@ -242,7 +242,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 279 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 293 entradas, 72 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -286,3 +286,18 @@ La segunda consulta de Luna añadió diez fuentes no duplicadas para reforzar pi
 | Ballena azul | [PNAS/PubMed: dinámica cardíaca de rorcuales](https://pubmed.ncbi.nlm.nih.gov/42507932/) | Biologging durante alimentación en una muestra mixta; no fija una frecuencia cardíaca universal para la ballena azul. |
 | Narval | [Frontiers in Marine Science: uso del colmillo](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1518605/full) | Observaciones con drones en una región; “juego” e intención son inferencias, no hechos universales. |
 | Corales | [NOAA: supervivencia tras blanqueamiento en Hawái](https://www.fisheries.noaa.gov/resource/peer-reviewed-research/survivorship-and-growth-corals-hawaii-two-years-post-bleaching) · [NOAA/AOML: amenazas al coral](https://www.aoml.noaa.gov/threats-to-coral/) | Seguimiento de 2.150 colonias y contexto fisiológico; conservar taxones, profundidad, duración y umbral regional. |
+
+### Fuentes nuevas de Luna Max para la revisión prioritaria — 12 de septiembre
+
+Estas catorce fuentes amplían la investigación de las fichas con más riesgo de sobreafirmación. Son candidatas: antes de citar, la persona editora debe abrir el texto, enlazar cada afirmación con su evidencia y registrar el alcance en el brief.
+
+| Tema | Fuente candidata | Pregunta people-first | Límite obligatorio |
+| --- | --- | --- | --- |
+| Ajolote | [Proteínas clave para regeneración (UAM)](https://produccion.siia.unam.mx/Publicaciones/ProdCientif/PublicacionFrw.aspx?id=659557&scopus=0) · [Presiones en Xochimilco (UNAM)](https://www.dgcs.unam.mx/boletin/bdboletin/2024_787.html) | ¿Qué señales aparecen durante la regeneración y qué amenaza al ajolote silvestre? | Transcriptómica y contexto local; asociaciones no son terapia, y un pronóstico no es un censo actual. |
+| Ballena azul | [Escalado de frecuencia cardíaca en cetáceos](https://pmc.ncbi.nlm.nih.gov/articles/PMC8200651/) | ¿Qué puede y qué no puede medir un registro cardíaco de una ballena? | Comparación fisiológica con contexto cautivo; no fija un valor universal para la especie. |
+| Corales | [Firmas proteicas de resiliencia](https://www.nature.com/articles/s43247-025-02167-7) · [Recuperación y acidificación](https://www.nature.com/articles/s43247-024-01672-5) | ¿Por qué algunos corales se recuperan de un estrés térmico y otros no? | Ensayos de Hawái con especies y periodos concretos; no extrapolar a todos los arrecifes. |
+| Tiburón de Groenlandia | [Resiliencia frente al envejecimiento cardíaco](https://pubmed.ncbi.nlm.nih.gov/42024652/) | ¿Qué significa “resistir el envejecimiento” en un tiburón? | Marcadores cardíacos no son datación de edad ni receta de longevidad. |
+| Pangolines | [Secuenciación para focos de tráfico](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003762) · [Propuesta regulatoria estadounidense](https://www.govinfo.gov/content/pkg/FR-2025-06-17/pdf/FR-2025-06-17.pdf) | ¿Cómo ayuda el ADN a detectar tráfico y qué cambia una norma? | Muestra, especies, rutas y jurisdicción limitadas; no es un censo mundial ni asesoría legal. |
+| Búho real | [Plumas y supresión de ruido](https://www.sciencedirect.com/science/article/abs/pii/S1672652911601091) · [Serraciones del borde de ataque](https://pubmed.ncbi.nlm.nih.gov/38569525/) | ¿Qué parte del vuelo silencioso se ha medido de verdad? | Resultados de laboratorio y modelos; no afirmar silencio total ni mezclar *Bubo bubo* con otras especies. |
+| Tardígrados | [Temperatura y ultraestructura celular](https://www.nature.com/articles/s41598-024-55295-z) · [Oxidación de cisteína en tun](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295062) | ¿Qué estado y qué especie explican una tolerancia concreta? | El mecanismo depende de especie, estado y protocolo; no equivale a invulnerabilidad espacial. |
+| Peces linterna | [Fotóforos y especiación](https://pubmed.ncbi.nlm.nih.gov/24771948/) · [Fotóforos orientados al ojo](https://nsuworks.nova.edu/occ_facarticles/1077/) | ¿Cómo produce luz un pez profundo y qué función se ha observado? | Anatomía y muestras de estomiiformes; la conducta no se generaliza a todos los peces linterna. |
