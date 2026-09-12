@@ -30,7 +30,7 @@ Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no dem
 
 - Revisar 8 artículos de la cola, empezando por salud, conservación, clima, récords y cifras experimentales.
 - Abrir cada fuente; marcar qué afirmación respalda, con qué especie, muestra, fecha, lugar y método. Eliminar cifras que no tengan correspondencia concreta.
-- Resolver las 6 advertencias heurísticas actuales solo cuando la lectura humana confirme que son un problema; no silenciarlas con una cita genérica.
+- Resolver cualquier advertencia heurística que aparezca solo después de confirmar el problema con lectura humana; el auditor actual devuelve 0 y no se debe silenciar una alerta con una cita genérica.
 - Registrar `reviewedDate` y `reviewedBy` únicamente después de la comprobación real de texto, fuentes y activo visual.
 
 **Salida:** 8 artículos revisados de verdad, auditoría local sin imágenes/fuentes faltantes y una cola que conserva pendientes explícitos.
@@ -129,7 +129,7 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 114 entradas y la biblioteca 34 briefs. Las familias nuevas más útiles son:
+El catálogo actual contiene 125 entradas y la biblioteca 38 briefs. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.
