@@ -54,9 +54,10 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 1. **Cerrar la revisión editorial antes de escalar.** `pnpm content:audit` registra 31 artículos sin `reviewedDate`/`reviewedBy`; el auditor no detecta advertencias heurísticas después de la corrección preliminar, pero eso no reemplaza la lectura humana. Abrir la cola en [`docs/editorial/CONTENT_REVIEW_QUEUE.md`](docs/editorial/CONTENT_REVIEW_QUEUE.md), comprobar cada afirmación cuantitativa y rellenar la fecha solo después de una revisión real.
 2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
 3. **Completar el perfil de pagos solo con datos reales del titular.** El nombre legal, país, dirección postal, información fiscal y beneficiario deben coincidir con la cuenta y poder verificarse. Esta operación es manual y no debe pasar por el repositorio ni por Luna; consultar [perfil de pagos](https://support.google.com/adsense/answer/7363450?hl=es), [dirección válida](https://support.google.com/adsense/answer/13863682?hl=es) y [PIN](https://support.google.com/adsense/answer/157667?hl=es). Completarlo no garantiza aprobación editorial ni ingresos.
-4. **Configurar los bloques publicitarios después de la aprobación.** El cliente `ca-pub-4559843439616138` está en el HTML, pero los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. No inventar IDs: copiarlos desde AdSense y redeplegar.
+4. **Configurar los bloques publicitarios después de la aprobación.** Los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. El publisher ID se conserva en `ads.txt` y en el meta de verificación, mientras el runtime pesado de AdSense no se descarga sin un slot real. No inventar IDs: copiarlos desde AdSense y redeplegar.
 5. **Usar la medición sin sobreinterpretarla.** Search Console ya está conectado y muestra una primera señal de 112 impresiones, 0 clics, CTR 0 % y posición media 14 en los últimos 3 meses; el volumen es todavía demasiado pequeño para prometer crecimiento. Cloudflare aporta señales de entrega y experiencia, pero no sustituye Search Console, Analytics ni RPM.
 6. **Reducir ruido de escaneo sin tocar contenido.** En la misma ventana aparecieron 337 solicitudes a `/wp-admin/install.php` y numerosos `wp-includes`, `xmlrpc.php` y `/.env.live`, todos inexistentes en este sitio Astro. El 12/09/2026 se validó en modo seco y se creó en el ruleset WAF personalizado de zona `1ca747d3ba174ff6b0208f21dc3df446` una regla de bloqueo estándar para cinco rutas exactas (`/wp-admin/install.php`, `/wp-login.php`, `/xmlrpc.php`, `/.env` y `/.env.live`). No afecta artículos, categorías, recursos ni imágenes; las cinco rutas responden 403 en producción. El ruleset administrado gratuito sigue activo.
+7. **Revisar JavaScript Detections de Cloudflare antes de cerrar el rendimiento.** La zona gratuita tiene `enable_js: true` y `fight_mode: false`; el script invisible de detección aparece en el laboratorio y añade latencia. Desactivarlo podría mejorar el primer render, pero es un cambio de seguridad que requiere decisión explícita y una nueva medición antes/después.
 
 ### Línea base de Cloudflare — 6–12 de septiembre de 2026
 
@@ -115,6 +116,23 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 ### GEO técnico — 92/100
 
 La entrega de producción verificada incluye HTML SSR, canonicales, Open Graph/Twitter, sitemap, `robots.txt` permisivo, `llms.txt`, HSTS, `nosniff`, referrer policy, CSP base, caché de assets y redirección `www`→apex. `astro check` terminó con 0 errores/avisos/sugerencias y el build genera 45 páginas. Falta medir Core Web Vitals con usuarios reales después de activar anuncios.
+
+#### Medición de laboratorio reproducible — 12/09/2026
+
+Se ejecutó Lighthouse CLI en una emulación móvil contra la portada publicada. El
+resultado es una señal de laboratorio, no un P75 de usuarios reales ni un dato
+de Search Console:
+
+| Estado | Rendimiento | FCP | LCP | CLS | TBT | Observación |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Producción antes de la optimización | 41/100 | 4,4 s | 7,8 s | 0 | 670 ms | AdSense se descargaba sin slots y Cloudflare inyectaba JavaScript de detección |
+| Producción después de retirar ese runtime | 84/100 | 3,3 s | 3,3 s | 0 | 0 ms | 96 imágenes intactas; el coste restante dominante es la red externa |
+| Control local con tipografías locales | 97/100 | 2,0 s | 2,1 s | 0,001 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
+
+La ejecución posterior a la mejora dejó SEO y accesibilidad en 100/100. La
+medición final de campo queda pendiente de datos RUM suficientes y de repetir el
+ensayo cuando AdSense tenga slots aprobados; no se debe presentar esta tabla
+como garantía de Core Web Vitals.
 
 ### Schema y datos estructurados — 82/100
 
@@ -194,7 +212,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - La segunda búsqueda enfocada de Luna Max añadió 25 fuentes no duplicadas y una priorización de siete oportunidades ligadas a consultas observadas (`geosmina`, tiburón de Groenlandia, geodinamo, pulpo mimo, leopardo de las nieves, pangolín gigante y Catatumbo). La tanda siguiente añadió diez fuentes no duplicadas para axolote, cebras, tardígrados, ballena azul, narval y corales; la búsqueda del 12/09 añadió doce para mantas, elefantes, pangolines, peces linterna, géiseres, nubes mammatus, auroras y calamar gigante; esta revisión añadió catorce para ajolote, ballena azul, corales, tiburón de Groenlandia, pangolines, búho real, tardígrados y peces linterna; y la verificación oficial añadió cuatro controles de Google sobre IA, imágenes, snippets y preparación de AdSense. Se conservan como candidatos con alcance y límites; no se añadieron citas automáticas a artículos publicados.
 - El pipeline histórico quedó aislado: se retiraron los seeds heredados con copy y autoría no verificados; `pipeline/generate_articles.py` ahora exige un brief JSON estructurado de Luna Max y solo genera borradores en `docs/editorial/drafts/`, mientras `pipeline/generate_images.py` deriva su manifiesto del frontmatter curado y solo genera activos fuera de `public/`. Ambos rechazan destinos publicados y colisiones.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.
-- Producción muestreada: portada, artículos con referencias trazables, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, imágenes, redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages. El despliegue de Pages `edf9b174-de75-4a78-b27e-cf9d648e268a`, generado desde el commit `91f38ad69d3e14f5a5cbfc4903c5d80cee295269`, terminó con build y deploy exitosos y mantiene los alias `https://ecocuriosa.com` y `https://www.ecocuriosa.com`.
+- Producción muestreada: portada, artículos con referencias trazables, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, las 96 imágenes (`jpg`, `svg` y `webp`), redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages. El despliegue de Pages `ecdcfe58-8484-403c-8322-c95371a507c7`, generado desde el commit `aeba4f5ee6b60ea24ff5e41c81be2801c8cb47c3`, terminó con build y deploy exitosos y mantiene los alias `https://ecocuriosa.com` y `https://www.ecocuriosa.com`; el commit de optimización de AdSense está en despliegue y se actualizará aquí tras su verificación.
 - Pendiente de conexión externa: estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Search Console ya tiene una primera instantánea, pero la cobertura de indexación está procesándose y no hay datos de Core Web Vitals. Cloudflare tiene una instantánea API agregada; la cuenta conserva tres configuraciones RUM antiguas que requieren revisión manual antes de cualquier limpieza. La regla WAF de rutas exactas quedó activa y verificada en producción sin interferir con las rutas válidas.
 
 ## Apéndice: rutas representativas

@@ -21,6 +21,8 @@ Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón 
 
 La lectura autenticada más reciente conserva la misma señal (actualizada hace unas 5 horas). Las consultas con mayor exposición son `geodinamo` (11 impresiones), `pulpo mimo` (8), `geodinamo terrestre` (2), `architeuthis dux` (2) y `relampago de catatumbo` (2). Por página, lideran la URL de geodinamo (23 impresiones), la guía de ebullición en altura (17 sumando sus variantes con y sin barra), el pulpo mimo (9), la manta raya (5) y el artículo del leopardo de las nieves (4). Las variantes sin barra devuelven 308 hacia la URL canónica; no se deben crear duplicados para ellas.
 
+**Rendimiento de laboratorio (12/09/2026):** Lighthouse móvil contra producción pasó de 41/100 (FCP 4,4 s, LCP 7,8 s, TBT 670 ms) a 84/100 (FCP 3,3 s, LCP 3,3 s, TBT 0 ms) al evitar el runtime de AdSense cuando no hay slots configurados. Un control local con tipografías alojadas en el mismo dominio alcanzó 97/100 (FCP 2,0 s, LCP 2,1 s, CLS 0,001). Son mediciones de laboratorio; el criterio de salida sigue siendo P75 de usuarios reales.
+
 **Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 0 clics y una muestra de 112 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
 ## Secuencia de 30 días

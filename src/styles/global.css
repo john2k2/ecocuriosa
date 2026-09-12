@@ -1,6 +1,33 @@
 @config '../../tailwind.config.mjs';
 @import 'tailwindcss';
 
+/* Tipografías editoriales alojadas en el mismo dominio para evitar una
+   dependencia de red bloqueante durante el primer render. Los archivos
+   corresponden a los subconjuntos Latin de Albert Sans y Literata. */
+@font-face {
+  font-family: 'Albert Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/albert-sans-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/literata-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/literata-italic-latin.woff2') format('woff2');
+}
+
 @layer base {
   :root {
     --bg-canvas: #fbf9f4;
