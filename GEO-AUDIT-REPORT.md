@@ -140,6 +140,7 @@ de Search Console:
 | Producción antes de la optimización | 41/100 | 4,4 s | 7,8 s | 0 | 670 ms | AdSense se descargaba sin slots y Cloudflare inyectaba JavaScript de detección |
 | Producción después de retirar ese runtime | 84/100 | 3,3 s | 3,3 s | 0 | 0 ms | 96 imágenes intactas; el coste restante dominante era la red externa |
 | Producción actual con tipografías locales y nombres versionados (mediana actualizada de 3 ejecuciones) | 98/100 | 1,1 s | 1,9 s | 0 | 130 ms | Corridas 92/98/99; 120,9 KB de tipografías; SEO y accesibilidad 100/100; Best Practices 81/100 por tres avisos de APIs obsoletas en JavaScript Detections de Cloudflare |
+| Verificación posterior a procedencia y metadatos (mediana de 3 ejecuciones) | 96/100 | 1,7 s | 2,4 s | 0 | 126 ms | Corridas 95/98/96; SEO y accesibilidad 100/100; Best Practices 81/100 por el mismo script gestionado de JavaScript Detections |
 | Control local con tipografías locales (mediana de 3 ejecuciones) | 99/100 | 1,5 s | 2,1 s | 0 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
 
 La primera tanda dejó SEO y accesibilidad en 100/100 y rendimiento entre 94
