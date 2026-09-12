@@ -10,7 +10,8 @@
     "astro": "ASTRO_TELEMETRY_DISABLED=1 astro",
     "content:audit": "node scripts/audit-content.mjs",
     "content:source-audit": "node scripts/audit-source-catalog.mjs",
-    "content:link-audit": "node scripts/audit-internal-links.mjs"
+    "content:link-audit": "node scripts/audit-internal-links.mjs",
+    "content:llms-audit": "node scripts/audit-llms.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
