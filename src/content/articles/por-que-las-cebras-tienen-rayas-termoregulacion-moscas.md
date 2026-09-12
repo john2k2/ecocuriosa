@@ -93,7 +93,6 @@ Hay experimentos con ganado y caballos cubiertos con patrones rayados que inform
 La evidencia experimental apoya que las rayas interfieren con las moscas picadoras, pero no obliga a descartar toda función adicional. Presentar esa conclusión como una explicación única y firme sería ir más allá de los estudios disponibles.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature Communications (Caro et al., The function of zebra stripes)*
-* *PLOS ONE (Benefits of zebra stripes against biting flies)*
-* *Journal of Experimental Biology*
-* *Proceedings of the Royal Society B*
+- [The function of zebra stripes](https://doi.org/10.1038/ncomms4535) — *Nature Communications*; hipótesis y pruebas sobre rayas.
+- [Zebra stripes do not cool zebras](https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/) — *Scientific Reports* / PubMed Central; prueba térmica negativa.
+- [Zebra stripes, biting flies and horse blankets](https://doi.org/10.1371/journal.pone.0223447) — *PLOS ONE*; aterrizaje de tábanos bajo condiciones concretas.

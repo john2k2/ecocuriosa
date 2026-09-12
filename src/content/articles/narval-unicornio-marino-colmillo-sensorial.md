@@ -88,7 +88,5 @@ Necesitan acceder a aguas abiertas para respirar y pueden utilizar polinias o gr
 El colmillo del narval es un diente con una estructura extraordinaria y funciones que todavía se investigan. Presentar sus posibles capacidades sensoriales como hipótesis evita convertir un estudio limitado en una certeza sobre todos los narvales y todos los océanos.
 
 ### Referencias y Literatura Científica Consultada
-* *The Anatomical Record (Nweeia et al., Sensory features of the narwhal tusk)*
-* *Marine Mammal Science*
-* *Royal Society Open Science*
-* *Arctic Journal*
+- [Narwhal](https://www.fisheries.noaa.gov/species/narwhal) — NOAA Fisheries; biología, distribución y conservación.
+- [Sensory ability in the narwhal tooth organ system](https://profiles.si.edu/display/sro_119183) — Smithsonian Profiles; estructura sensorial propuesta.

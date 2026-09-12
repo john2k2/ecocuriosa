@@ -28,4 +28,5 @@ jobs:
       - run: pnpm astro check
       - run: pnpm build
       - run: pnpm content:source-render-audit
+      - run: pnpm content:reference-audit
       - run: pnpm content:link-audit

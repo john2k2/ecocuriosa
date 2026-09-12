@@ -88,7 +88,5 @@ Una menor emisión puede disminuir el enmascaramiento de sonidos de presas y apo
 Las plumas de algunos búhos reducen ruido en ciertas condiciones gracias a su forma, flexibilidad y porosidad. Gran parte de la evidencia detallada de esta ficha proviene de la lechuza común, por lo que no se debe trasladar cada medida al búho real ni prometer silencio absoluto.
 
 ### Referencias y Literatura Científica Consultada
-* *Journal of Experimental Biology*
-* *AIAA Journal (Bio-inspired Noise Reduction)*
-* *Bioinspiration & Biomimetics*
-* *Proceedings of the Royal Society B*
+- [The three-dimensional shape of serrations at barn owl wings](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) — *Journal of Anatomy* / PubMed Central; morfología de serraciones en lechuza común.
+- [Aeroacoustics of Silent Owl Flight](https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436) — *Annual Review of Fluid Mechanics*; mediciones, modelos y diferencias entre especies.

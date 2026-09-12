@@ -11,6 +11,7 @@
     "content:audit": "node scripts/audit-content.mjs",
     "content:source-audit": "node scripts/audit-source-catalog.mjs",
     "content:source-render-audit": "node scripts/audit-source-rendering.mjs",
+    "content:reference-audit": "node scripts/audit-article-references.mjs",
     "content:link-audit": "node scripts/audit-internal-links.mjs",
     "content:llms-audit": "node scripts/audit-llms.mjs"
   },

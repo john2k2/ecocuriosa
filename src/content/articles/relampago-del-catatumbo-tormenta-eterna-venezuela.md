@@ -88,7 +88,5 @@ Su pico máximo ocurre en los meses de septiembre y octubre (temporada de lluvia
 El Catatumbo destaca por su combinación de geografía y convección, no por un mecanismo mágico o continuo. Las fuentes citadas permiten consultar estudios de actividad eléctrica regional; las comparaciones y cifras deben conservar siempre su período y método de observación.
 
 ### Referencias y Literatura Científica Consultada
-* *Bulletin of the American Meteorological Society (Albrecht et al., Where Are the Lightning Hotspots on Earth?)*
-* *Journal of Geophysical Research: Atmospheres*
-* *NASA Earth Observatory*
-* *Universidad del Zulia Centro de Modelado Científico*
+- [Lightning activity over Lake Maracaibo](https://doi.org/10.1016/j.jastp.2012.01.013) — *Journal of Atmospheric and Solar-Terrestrial Physics*; actividad eléctrica observada en la región.
+- [Recent analysis of lightning activity in the Lake Maracaibo region](https://doi.org/10.1029/2025JD044030) — *Journal of Geophysical Research: Atmospheres*; análisis reciente con alcance temporal y regional.

@@ -89,7 +89,5 @@ En Marte, el polvo suspendido y una atmósfera tenue cambian el color aparente d
 La dispersión de Rayleigh explica por qué el cielo suele verse azul y por qué el Sol se enrojece cerca del horizonte. En presencia de bruma, humo o polvo también intervienen aerosoles, de modo que el color final depende de la atmósfera real.
 
 ### Referencias y Literatura Científica Consultada
-* *Philosophical Magazine (Lord Rayleigh, On the light from the sky, its polarization and colour)*
-* *Applied Optics (Bucholtz, Rayleigh scattering calculations for the terrestrial atmosphere)*
-* *NASA Langley Atmospheric Science Data Center*
-* *American Journal of Physics*
+- [Why Is the Sky Blue?](https://www.weather.gov/fgz/SkyBlue) — National Weather Service; explicación de dispersión atmosférica.
+- [Why Is the Sky Blue?](https://spaceplace.nasa.gov/blue-sky/en/) — NASA Space Place; introducción divulgativa al fenómeno.

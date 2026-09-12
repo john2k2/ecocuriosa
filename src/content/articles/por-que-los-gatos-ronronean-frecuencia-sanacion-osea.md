@@ -105,6 +105,7 @@ La evidencia reciente sitúa una parte importante del ronroneo en las propiedade
 ### Fuentes consultadas
 
 - [Current Biology: laringes de gatos domésticos](https://doi.org/10.1016/j.cub.2023.09.014)
+- [Current Biology: cómo ronronean los gatos](https://doi.org/10.1016/j.cub.2023.10.033)
 - [PubMed: mecanismos neurales y mecánicos](https://pubmed.ncbi.nlm.nih.gov/4644061/)
 - [Wiley: comparación entre félidos](https://doi.org/10.1111/j.1469-7998.1991.tb04749.x)
 - [PubMed: conducta de solicitud](https://pubmed.ncbi.nlm.nih.gov/39808933/)

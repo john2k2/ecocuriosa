@@ -109,7 +109,7 @@ En aguas del Atlántico Norte y del Ártico. La distribución observada cambia s
 La datación del cristalino situó al tiburón de Groenlandia entre los vertebrados más longevos conocidos, con márgenes de incertidumbre amplios. Resolver su reproducción, crecimiento y fisiología requiere más evidencia que repetir una cifra redonda de cuatrocientos años.
 
 ### Referencias y Literatura Científica Consultada
-* *Science (Nielsen et al., Eye lens radiocarbon reveals extreme longevity in Greenland shark)*
-* *Nature Ecology & Evolution*
-* *Physiological and Biochemical Zoology*
-* *Polar Biology*
+- [Eye lens radiocarbon reveals centuries of longevity in the Greenland shark](https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract) — *Science* / PubMed; datación por radiocarbono e intervalo de incertidumbre.
+- [Assessing the reproductive biology of the Greenland shark](https://pmc.ncbi.nlm.nih.gov/articles/PMC7540863/) — *Journal of Fish Biology* / PubMed Central; reproducción y vacíos de conocimiento.
+- [The Greenland shark genome](https://doi.org/10.1073/pnas.2601272123) — *PNAS*; genoma y rutas celulares candidatas.
+- [How long do Greenland sharks live?](https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412) — NOAA Ocean Service; contexto divulgativo del método.

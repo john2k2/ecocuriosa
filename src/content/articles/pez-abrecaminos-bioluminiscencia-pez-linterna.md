@@ -89,7 +89,5 @@ Porque el agua de mar absorbe rápidamente las longitudes de onda rojas, amarill
 La bioluminiscencia organiza gran parte de las interacciones del océano profundo, pero no sigue un único mecanismo ni una profundidad fija. Entender cada especie y su ambiente evita simplificar un ecosistema que todavía conocemos de manera fragmentaria.
 
 ### Referencias y Literatura Científica Consultada
-* *Science (Widder, Bioluminescence in the Ocean)*
-* *Annual Review of Marine Science*
-* *Deep Sea Research Part II*
-* *Integrative and Comparative Biology*
+- [Seeing in the deep-sea: visual adaptations in lanternfishes](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/) — *Royal Society Open Science* / PubMed Central; adaptaciones visuales de peces linterna.
+- [What is bioluminescence?](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) — NOAA Ocean Exploration; mecanismos generales de bioluminiscencia marina.

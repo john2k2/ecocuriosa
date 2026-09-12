@@ -102,7 +102,7 @@ Porque las ráfagas de viento del frente de salida de la tormenta (*gust front*)
 El petricor combina compuestos y aerosoles liberados cuando llueve sobre un suelo seco; la geosmina es una parte importante, pero no la única. Su intensidad cambia con el suelo, los microorganismos y la lluvia, por eso no tiene una explicación universal de una sola molécula.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature (Bear & Thomas, Nature of Argillaceous Odour / Petrichor)*
-* *Nature Communications (Jung et al., Aerosol generation by raindrop impact on soil)*
-* *Applied and Environmental Microbiology (Geosmin production by Streptomyces)*
-* *Chemical & Engineering News*
+- [Raindrops and the aerosolization of soil](https://doi.org/10.1038/ncomms7083) — *Nature Communications*; aerosoles generados por gotas sobre suelo.
+- [Geosmin biosynthesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/) — revisión en PubMed Central; producción microbiana de geosmina.
+- [The human odorant receptor OR11A1 detects geosmin](https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515) — *Journal of Agricultural and Food Chemistry*; receptor estudiado en laboratorio.
+- [The human odorant receptor OR11A1 detects geosmin (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11261619/) — texto disponible en PubMed Central.

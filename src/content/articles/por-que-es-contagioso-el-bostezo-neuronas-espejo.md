@@ -90,7 +90,5 @@ No. Un bostezo contagioso —o su ausencia— no diagnostica condiciones de salu
 El bostezo contagioso es un buen ejemplo de una conducta común con mecanismos todavía abiertos a discusión. Las fuentes citadas describen hipótesis y hallazgos concretos; no convierten el fenómeno en un test de personalidad, salud o empatía.
 
 ### Referencias y Literatura Científica Consultada
-* *Neuroscience & Biobehavioral Reviews (Gallup, The thermoregulatory hypothesis of yawning)*
-* *PLOS ONE (Yawn contagious susceptibility and empathy in humans)*
-* *Cognitive Brain Research*
-* *Physiology & Behavior*
+- [Yawn Contagion and Empathy](https://pmc.ncbi.nlm.nih.gov/articles/PMC3233580/) — revisión de contagio del bostezo y empatía.
+- [The thermoregulatory theory of yawning](https://pmc.ncbi.nlm.nih.gov/articles/PMC3534187/) — hipótesis termorreguladora y límites de la evidencia.

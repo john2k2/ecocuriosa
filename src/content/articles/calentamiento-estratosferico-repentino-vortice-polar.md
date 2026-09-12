@@ -88,7 +88,5 @@ La relación sigue siendo una cuestión de investigación. NOAA señala que los 
 Un calentamiento estratosférico repentino puede alterar el vórtice polar y, en algunos casos, influir después en el tiempo de superficie. La evidencia es probabilística y dependiente del caso: el pronóstico exige considerar la evolución de toda la atmósfera y no convertir una señal estratosférica en una predicción local automática.
 
 ### Referencias y Literatura Científica Consultada
-* *Journal of the Atmospheric Sciences (Charlton & Polvani, A New Look at Stratospheric Sudden Warmings)*
-* *Quarterly Journal of the Royal Meteorological Society*
-* *Bulletin of the American Meteorological Society*
-* *ECMWF European Centre for Medium-Range Weather Forecasts Technical Reports*
+- [Understanding the Arctic Polar Vortex](https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex) — NOAA Climate; diferencia entre vórtice y tiempo en superficie.
+- [Sudden stratospheric warmings](https://doi.org/10.1029/2020RG000708) — *Reviews of Geophysics*; revisión de dinámica y definición del fenómeno.

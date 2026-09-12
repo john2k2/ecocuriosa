@@ -109,8 +109,8 @@ Muestra un repertorio genético amplio relacionado con el olfato. Es una base pa
 Las matriarcas mayores pueden aportar conocimiento social relevante a sus grupos, y la neuroanatomía ofrece un contexto para estudiarlo. La conclusión responsable no es una memoria infinita, sino una combinación de experiencia, aprendizaje y organización cerebral que debe medirse en cada población y contexto.
 
 ### Referencias y Literatura Científica Consultada
-* *Frontiers in Neuroanatomy (Herculano-Houzel et al.)*
-* *Science (Social Complexity and Matriarch Memory)*
-* *Animal Cognition*
-* *Proceedings of the National Academy of Sciences*
-* *Gerontology (Building an Elephant Brain Database)*
+- [Matriarchs as repositories of social knowledge in African elephants](https://pubmed.ncbi.nlm.nih.gov/11313492/) — *Science* / PubMed; conocimiento social de matriarcas.
+- [Extreme expansion of the olfactory receptor gene repertoire in African elephants](https://pmc.ncbi.nlm.nih.gov/articles/PMC4158756/) — *Genome Research* / PubMed Central; comparación genómica del olfato.
+- [The elephant brain in numbers](https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/) — *Frontiers in Neuroanatomy* / PubMed Central; neuronas y distribución cerebelosa.
+- [Aging: What We Can Learn From Elephants](https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/) — *Frontiers in Aging Neuroscience* / PubMed Central; revisión de vínculos y memoria.
+- [Building an Elephant Brain Database](https://pmc.ncbi.nlm.nih.gov/articles/PMC11693083/) — repositorio post mortem de 23 elefantes; no prueba directa de inteligencia.

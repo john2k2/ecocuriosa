@@ -96,7 +96,6 @@ Se han construido prototipos robóticos inspirados en gecos para manipulación e
 Las setas y espátulas del geco permiten un contacto íntimo con las superficies y aprovechan fuerzas intermoleculares. La biomímesis puede inspirarse en ese sistema, pero los números de adhesión y su desempeño cambian según especie, superficie y condiciones.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature (Autumn et al., Adhesive force of a single gecko foot-hair)*
-* *PNAS (Mechanisms of van der Waals adhesion)*
-* *Langmuir Surface Chemistry*
-* *Nano Letters*
+- [Adhesive force of a single gecko foot-hair](https://pubmed.ncbi.nlm.nih.gov/10864324/) — estudio primario; fuerza medida en una sola seta.
+- [Adhesion and friction in gecko toe attachment and detachment](https://pubmed.ncbi.nlm.nih.gov/17148600/) — estudio biomecánico sobre adhesión y desprendimiento.
+- [Gecko adhesion is unaffected by atmosphere](https://doi.org/10.1073/pnas.192252799) — *PNAS*; condiciones atmosféricas ensayadas.

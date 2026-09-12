@@ -90,7 +90,5 @@ Los animales (incluyendo mamíferos y humanos) compartimos los complejos PRC2 de
 La “memoria” de invierno es una metáfora útil para cambios moleculares de la vernalización, no una memoria consciente. Los mecanismos dependen de la especie y el genotipo, y muestran cómo una señal ambiental puede ajustar el momento de floración.
 
 ### Referencias y Literatura Científica Consultada
-* *Science (Whittaker & Dean, The FLC locus: a platform for epigenetic memory in plants)*
-* *Nature (Hepworth et al., Antagonistic non-coding RNAs regulate FLC)*
-* *Genes & Development*
-* *Annual Review of Plant Biology*
+- [Vernalization and epigenetic regulation of FLC](https://doi.org/10.1038/ng.3712) — *Nature Genetics*; regulación de FLC durante la vernalización.
+- [Vernalization and epigenetic memory](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/) — revisión en PubMed Central; memoria estacional y límites del modelo.

@@ -93,7 +93,6 @@ Sí. Por la noche extienden sus tentáculos cargados de nematocistos (células u
 El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene muchos arrecifes. La mejor lectura combina mecanismos celulares, observación de colonias y series satelitales fechadas: no todos los corales responden igual y el calor detectado no equivale automáticamente a mortalidad.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature (Hughes et al., Spatial and temporal patterns of mass bleaching)*
-* *Science (Coral Reefs Under Rapid Climate Change)*
-* *NOAA Coral Reef Watch*
-* *Limnology and Oceanography*
+- [What is coral bleaching?](https://oceanservice.noaa.gov/facts/coral_bleach.html) — NOAA Ocean Service; definición, estrés y recuperación.
+- [Coral bleaching from a single cell perspective](https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/) — *ISME Journal* / PubMed Central; mecanismos celulares.
+- [Current Global Bleaching: Status Update & Data Submission](https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php) — NOAA Coral Reef Watch; actualización fechada del evento global.

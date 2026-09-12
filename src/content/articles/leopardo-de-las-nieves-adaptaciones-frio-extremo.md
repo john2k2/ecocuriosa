@@ -86,3 +86,7 @@ La combinación de pelo interdigital grueso que genera fricción mecánica, garr
 El leopardo de las nieves no depende de un único “superpoder” para vivir en altura. Su supervivencia combina aislamiento térmico, desplazamiento sobre terreno nevado, comportamiento esquivo y adaptaciones fisiológicas que siguen siendo objeto de estudio. Por eso las cifras muy exactas sobre saltos, respiración o anatomía deben leerse con cautela si no remiten a una medición concreta.
 
 Las fuentes enlazadas de Snow Leopard Trust y el estudio genómico publicado en *PNAS* permiten distinguir la historia natural conocida de las hipótesis que aún se investigan. Para su estado de conservación y cifras de población, conviene consultar siempre la evaluación vigente de la UICN antes de afirmar un número.
+
+### Referencias y Literatura Científica Consultada
+- [Snow Leopard Behavior](https://snowleopard.org/snow-leopard-facts/behavior/) — Snow Leopard Trust; conducta e historia natural.
+- [Genetically based low oxygen affinities of felid hemoglobins](https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/) — *Journal of Experimental Biology* / PubMed Central; comparación fisiológica de felinos.

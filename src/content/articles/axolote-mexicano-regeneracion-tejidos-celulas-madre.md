@@ -93,7 +93,6 @@ Críticamente amenazado. La contaminación del agua en Xochimilco, la desecació
 El axolote es un modelo excepcional para estudiar regeneración en tetrápodos, no una receta trasladable de forma inmediata a la medicina humana. La conservación de sus poblaciones y la investigación del blastema son dos partes inseparables de lo que aún podemos aprender de la especie.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature (Nowoshilow et al., The Axolotl Genome)*
-* *Developmental Biology*
-* *Science Translational Medicine*
-* *Cell Stem Cell*
+- [The axolotl genome and the evolution of key tissue formation regulators](https://www.nature.com/articles/nature25458) — *Nature*; genoma y reguladores de desarrollo.
+- [The axolotl limb blastema](https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/) — *Regeneration* / PubMed Central; evidencia experimental del blastema.
+- [Axolotl conservation and population context](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/) — literatura revisada por pares / PubMed Central; conservación y amenazas.

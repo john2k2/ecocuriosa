@@ -88,7 +88,5 @@ Las proteínas protectoras se estudian en sistemas experimentales. Esa investiga
 Los tardígrados toleran condiciones extremas solo bajo especies, estados y duraciones concretas. El experimento espacial y el estudio de Dsup son evidencias distintas: uno trata de organismos desecados y otro de células en laboratorio. Ninguno prueba invulnerabilidad ni una solución lista para medicina o viajes espaciales humanos.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature Communications (Hashimoto et al., Extremotolerant Tardigrade Genome)*
-* *Astrobiology Journal (TARDIS Space Experiment)*
-* *Cell Reports*
-* *Zoological Journal of the Linnean Society*
+- [Tardigrades survive exposure to space in low Earth orbit](https://doi.org/10.1016/j.cub.2008.06.048) — *Current Biology*; dos especies desecadas en órbita baja.
+- [The tardigrade damage suppressor protein binds to nucleosomes](https://doi.org/10.7554/eLife.47682) — *eLife*; Dsup de *Ramazzottius varieornatus* en células y ensayos bioquímicos.

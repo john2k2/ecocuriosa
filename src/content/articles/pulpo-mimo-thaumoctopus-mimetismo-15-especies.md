@@ -115,7 +115,8 @@ Se ha observado en aguas cálidas del Indo-Pacífico y sobre fondos sedimentario
 El pulpo mimo demuestra una flexibilidad corporal extraordinaria, respaldada por observaciones de varios modelos de imitación. El repertorio exacto y el motivo de cada postura siguen abiertos a estudio, por lo que las listas virales no sustituyen la evidencia de campo.
 
 ### Referencias y Literatura Científica Consultada
-* *Proceedings of the Royal Society of London B (Norman, Finn & Tregenza, Dynamic Mimicry in an Indo-Malayan Octopus)*
-* *Marine Biology*
-* *Journal of Evolutionary Biology*
-* *Ethology*
+- [Dynamic mimicry in an Indo-Malayan octopus](https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/) — *Proceedings of the Royal Society B*; observación de mimetismo dinámico.
+- [The Talented Mimic Octopus](https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior) — American Museum of Natural History; contexto de historia natural.
+- [Neural control of cephalopod camouflage](https://doi.org/10.1016/j.cub.2023.08.095) — *Current Biology*; control neural de camuflaje en cefalópodos.
+- [Dynamic skin behaviors in cephalopods](https://www.sciencedirect.com/science/article/pii/S0959438824000382) — revisión comparativa; límites taxonómicos.
+- [Dynamic pigmentary and structural coloration within cephalopod chromatophore organs](https://pmc.ncbi.nlm.nih.gov/articles/PMC6397165/) — *Journal of Morphology* / PubMed Central; pigmentos y coloración.

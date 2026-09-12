@@ -88,7 +88,5 @@ El cambio puede ser rápido, pero su duración y el patrón final dependen del e
 En el camaleón pantera, los iridóforos y sus cristales de guanina ayudan a explicar cambios de color observados en esa especie. El color animal combina mecanismos estructurales y pigmentarios, por lo que no debe reducirse a un único interruptor nanotecnológico.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature Communications (Teyssier et al., Photonic Crystals in Chameleons)*
-* *Scientific American*
-* *Journal of Herpetology*
-* *PNAS Physical Sciences*
+- [Photonic crystals cause active colour change in chameleons](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/) — *Nature Communications* / PubMed Central; nanocristales y cambio estructural de color.
+- [The panther chameleon](https://www.mnhn.fr/en/the-panther-chameleon) — Muséum national d’Histoire naturelle; historia natural y rasgos de la especie.

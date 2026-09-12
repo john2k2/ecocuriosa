@@ -102,7 +102,6 @@ A la llamada línea de Armstrong, donde la presión es tan baja que el agua pued
 La menor presión a mayor altitud baja el punto de ebullición y cambia los tiempos de cocción. No hay una temperatura única para cada montaña: la presión meteorológica, la altura exacta y el método de cocción también importan.
 
 ### Referencias y Literatura Científica Consultada
-* *Journal of Chemical Education (The Clausius-Clapeyron Equation and Phase Changes)*
-* *NIST Chemistry WebBook (Water Thermophysical Properties)*
-* *High Altitude Medicine & Biology*
-* *Physics Today*
+- [Water: thermochemical data](https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=224) — NIST Chemistry WebBook; propiedades termofísicas del agua.
+- [U.S. Standard Atmosphere, 1976](https://ntrs.nasa.gov/api/citations/19930090991/downloads/19930090991.pdf) — NASA Technical Reports; relación entre presión y altitud.
+- [Water Purification](https://www.nps.gov/cany/planyourvisit/waterpurification.htm) — National Park Service; orientación sobre desinfección y altitud.

@@ -99,8 +99,6 @@ NOAA identifica la pesca dirigida y la captura incidental como amenazas principa
 La manta gigante merece atención por su ecología y vulnerabilidad, no por analogías apresuradas con la inteligencia humana. Las cifras más útiles de esta ficha indican su tamaño, rango de profundidad, amenazas y límites de población; la conducta frente a un espejo sigue siendo una pregunta experimental, no una etiqueta concluyente.
 
 ### Referencias y Literatura Científica Consultada
-* *Brain, Behavior and Evolution (Ari & Correia, Brain size and body organization in mobulid rays)*
-* *Journal of Ethology (Contingency Checking and Mirror Exposure in Manta Rays)*
-* *PLOS ONE (Thermal biology and satellite tracking of giant manta rays)*
-* *Journal of Animal Ecology (Cranial endothermy in mobulid rays)*
-* *IUCN Shark Specialist Group*
+- [Giant Manta Ray](https://www.fisheries.noaa.gov/species/giant-manta-ray) — NOAA Fisheries; tamaño, buceo, amenazas y estado legal.
+- [Contingency checking and self-directed behaviors in giant manta rays](https://doi.org/10.1007/s10164-016-0462-z) — *Journal of Ethology*; conducta frente a espejo en condiciones experimentales.
+- [Cranial endothermy in mobulid rays](https://pubmed.ncbi.nlm.nih.gov/39434239/) — *Journal of Animal Ecology* / PubMed; propuesta sobre termorregulación craneal.

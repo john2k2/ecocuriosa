@@ -71,7 +71,5 @@ No. La muestra principal fue un solo macho y el propio estudio presenta el resul
 Medir el ritmo cardíaco de una ballena azul en libertad abre una ventana poco común a la fisiología de un animal gigantesco. La evidencia más sólida de este artículo es un perfil ECG de un macho durante inmersiones de alimentación; separar ese dato de las extrapolaciones evita convertir una observación excepcional en una regla universal.
 
 ### Referencias y Literatura Científica Consultada
-* *Proceedings of the National Academy of Sciences (Goldbogen et al., Extreme bradycardia in blue whales)*
-* *Journal of Experimental Biology*
-* *Science (Biomechanics of Baleen Whale Lunge Feeding)*
-* *Royal Ontario Museum Curatorial Reports*
+- [Extreme bradycardia and tachycardia in the world’s largest animal](https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/) — *Proceedings of the National Academy of Sciences* / PubMed Central; ECG y profundidad de un macho libre.
+- [Why whales are big but not bigger](https://repository.library.noaa.gov/view/noaa/53258) — *Science* / NOAA Repository; contexto comparativo sobre tamaño y límites fisiológicos.

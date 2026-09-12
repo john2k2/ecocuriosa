@@ -110,7 +110,7 @@ Diversos animales muestran sensibilidad al campo magnético, pero los sensores y
 El geodinamo del núcleo externo crea un campo cambiante que interactúa con el viento solar y forma la magnetosfera. Es una protección importante, pero no un escudo absoluto: sus variaciones se investigan y miden continuamente.
 
 ### Referencias y Literatura Científica Consultada
-* *Nature (Glatzmaier & Roberts, A three-dimensional self-consistent computer simulation of a geomagnetic field reversal)*
-* *Reviews of Modern Physics*
-* *USGS Geomagnetism Program*
-* *Geophysical Research Letters*
+- [Introduction to Geomagnetism](https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism) — USGS; mediciones y conceptos básicos del campo terrestre.
+- [Earth’s Magnetosphere](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/) — NASA; magnetosfera y protección frente al entorno espacial.
+- [Satellite magnetic data reveal interannual waves in Earth’s core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *Geophysical Research Letters* / PubMed Central; inferencias a partir de datos satelitales.
+- [Swarm unveils magnetic waves deep down](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) — ESA; explicación de la misión y sus mediciones.

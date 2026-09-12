@@ -107,7 +107,7 @@ El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condi
 - una frase depende de una cifra, récord, promesa médica o categoría de conservación sin alcance;
 - aparecen fuentes duplicadas, texto replicado o una conclusión genérica;
 - falta autor, licencia, alt, crédito, fecha real de revisión o enlace interno;
-- `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:source-render-audit` o `pnpm content:link-audit` falla;
+- `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:source-render-audit`, `pnpm content:reference-audit` o `pnpm content:link-audit` falla;
 - el borrador intenta publicar, crear un commit automáticamente o escribir en AdSense;
 - la experiencia móvil o el CLS empeoran al probar anuncios.
 

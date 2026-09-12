@@ -94,7 +94,7 @@ No. Enrollarse reduce la exposición de las partes blandas, pero también permit
 Las escamas de queratina del pangolín son una adaptación mecánica notable, pero no un producto medicinal. La mejor evidencia de conservación combina historia natural, estudios mecánicos y registros de comercio; distinguir esos alcances evita presentar una cifra de laboratorio o un decomiso como si describiera a toda la especie.
 
 ### Referencias y Literatura Científica Consultada
-* *Current Biology*
-* *Acta Biomaterialia (Mechanical properties of pangolin scales)*
-* *TRAFFIC International Wildlife Trade Reports*
-* *IUCN Pangolin Specialist Group*
+- [Structure and mechanical behaviors of protective armored pangolin scales](https://pubmed.ncbi.nlm.nih.gov/26703230/) — *Journal of the Mechanical Behavior of Biomedical Materials* / PubMed; ensayos mecánicos de escamas.
+- [Giant Pangolin (*Smutsia gigantea*)](https://www.mammaldiversity.org/taxon/1005800/) — American Society of Mammalogists; taxonomía e historia natural.
+- [The global trafficking of Pangolins: Seizures and Trafficking Routes from 2010–2015](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) — TRAFFIC / IUCN SSC; decomisos y rutas en ese periodo.
+- [Listing of pangolins in the Appendices](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf) — CITES Animals Committee; contexto de listado y nomenclatura.
