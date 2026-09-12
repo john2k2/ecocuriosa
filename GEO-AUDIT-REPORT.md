@@ -9,7 +9,7 @@
 
 ## Resumen ejecutivo
 
-EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos tienen al menos dos referencias HTTPS, pero solo 1 de 32 registra una revisión humana y 13 artículos siguen generando advertencias de lenguaje que deben comprobarse.
+EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada y 13 artículos siguen generando advertencias de lenguaje que deben comprobarse. La auditoría de formato no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
 
 La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en 21 fichas. Quedan 11 activos raster heredados cuyo origen/licencia todavía debe documentarse antes de escalar la publicación.
 
@@ -24,6 +24,20 @@ La auditoría visual también detectó activos que no correspondían con su art�
 | Schema y datos estructurados | 82/100 | 10% | 8,2 |
 | Optimización por plataforma | 25/100 | 10% | 2,5 |
 | **GEO Score provisional** |  |  | **57,7 → 58/100** |
+
+## Objetivos de puntuación y evidencia de salida
+
+Las metas siguientes son umbrales operativos para mejorar el sitio, no promesas de posiciones ni de aprobación. Cada aumento exige evidencia nueva y no se obtiene solo cambiando una etiqueta.
+
+| Área prioritaria | Línea base observada | Meta operativa | Evidencia que permite marcarla |
+| --- | ---: | ---: | --- |
+| SEO técnico / infraestructura | 87/100 | 92/100 | CWV reales medidos, enlaces internos sin huérfanas, sitemap/redirects estables y cero regresiones en CI |
+| Diseño, navegación y móvil | Bueno | Excelente medible | prueba móvil de rutas clave, navegación de teclado, contraste y CLS sin deterioro al activar anuncios |
+| Indexación | Google ya encuentra el sitio | Cobertura controlada | Search Console con sitemap enviado, exclusiones justificadas y cero errores críticos de indexación |
+| AdSense técnico | Preparado | Aprobado y medido | aprobación de la cuenta, CMP probado, slots reales y RPM/visibilidad/CLS documentados |
+| E-E-A-T / calidad editorial | 44/100 | 75/100 antes de escalar | 32 revisiones humanas reales, autoría/perfil verificable, fuentes específicas, correcciones trazables y derechos de imagen documentados |
+
+El cuello de botella para acercarse a estas metas es E-E-A-T, no agregar más volumen. Las políticas de Google recomiendan contenido original y centrado en personas, y las políticas de Publisher restringen páginas copiadas, reescritas o generadas sin revisión/curación humana.
 
 ## Problemas críticos
 
@@ -62,7 +76,7 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 
 ### Contenido y E-E-A-T — 56/100
 
-Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 13 advertencias para revisión, no las trata como infracciones confirmadas. La cola editorial es la puerta de salida antes de automatizar más contenido.
+ Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 13 advertencias para revisión, no las trata como infracciones confirmadas. La cola editorial es la puerta de salida antes de automatizar más contenido.
 
 ### GEO técnico — 92/100
 

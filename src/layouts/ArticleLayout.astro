@@ -12,6 +12,9 @@ interface Props {
   image: string;
   imageAlt: string;
   imageCredit?: string;
+  imageLicense?: string;
+  imageCreator?: string;
+  imageLicensePage?: string;
   tags?: string[];
   sources?: { title: string; url: string; publisher?: string; accessedDate?: Date }[];
   reviewedDate?: Date;
@@ -29,6 +32,9 @@ const {
   image,
   imageAlt,
   imageCredit,
+  imageLicense,
+  imageCreator,
+  imageLicensePage,
   tags = [],
   sources = [],
   reviewedDate,
@@ -46,6 +52,7 @@ const categoryNames: Record<string, string> = {
 
 const categoryLabel = categoryNames[category] || category;
 const categoryUrl = `/${category}`;
+const authorUrl = author === 'Equipo Editorial EcoCuriosa' ? '/sobre-nosotros/' : undefined;
 
 const formattedDate = new Intl.DateTimeFormat('es-ES', {
   timeZone: 'UTC',
@@ -73,6 +80,10 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
   category={category}
   tags={tags}
   sources={sources}
+  imageCredit={imageCredit}
+  imageLicense={imageLicense}
+  imageCreator={imageCreator}
+  imageLicensePage={imageLicensePage}
 >
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
     
@@ -98,7 +109,13 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
           <div class="w-8 h-8 rounded bg-[#063b1e] text-white flex items-center justify-center font-serif font-bold text-sm">
             {author.charAt(0)}
           </div>
-          <span class="font-semibold text-[#141715]">{author}</span>
+          {authorUrl ? (
+            <a href={authorUrl} rel="author" class="font-semibold text-[#141715] underline decoration-[#c59b27]/70 underline-offset-4 hover:text-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm">
+              {author}
+            </a>
+          ) : (
+            <span class="font-semibold text-[#141715]">{author}</span>
+          )}
         </div>
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
@@ -123,6 +140,11 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
         <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
           <span class="font-semibold text-[#063b1e]">Lámina de Observación:</span> {imageAlt}
           {imageCredit && <span class="block mt-1 text-[#738a7d]">Crédito: {imageCredit}</span>}
+          {imageLicense && (
+            <a class="block mt-1 text-[#738a7d] underline underline-offset-2 hover:text-[#063b1e]" href={imageLicense} rel="noopener noreferrer" target="_blank">
+              Ver licencia de la imagen
+            </a>
+          )}
         </figcaption>
       )}
     </figure>

@@ -1,0 +1,105 @@
+# Biblioteca de inspiración editorial y fuentes primarias
+
+**Versión:** 12 de septiembre de 2026  
+**Propósito:** convertir investigación pública y confiable en briefs originales para EcoCuriosa, sin copiar artículos ni publicar automáticamente.
+
+Esta biblioteca no es una cola de publicaciones ni una bibliografía universal. Cada ficha es una **oportunidad de investigación**: antes de redactar, el editor debe abrir la fuente, comprobar su fecha y alcance, localizar el estudio o conjunto de datos que respalda cada afirmación y registrar las URLs concretas en el frontmatter del artículo.
+
+El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml). Sus entradas son candidatas y no deben copiarse automáticamente al campo `sources`.
+
+## Cómo usarla
+
+1. Luna Max propone como máximo cinco oportunidades y las ordena con datos reales de Search Console, no con volumen de palabras clave inventado.
+2. El editor elige una sola pregunta, comprueba las fuentes y decide qué aportación propia habrá: un diagrama, una comparación, un mapa, una explicación paso a paso o una entrevista atribuida.
+3. Se redacta una respuesta breve con alcance y límite de evidencia; las hipótesis permanecen etiquetadas como hipótesis.
+4. No se completa `reviewedDate` ni `reviewedBy` hasta que una persona responsable haya revisado el texto, las fuentes y la imagen.
+
+## Fuentes de referencia para descubrir temas
+
+| Fuente primaria o institucional | Qué permite investigar | Señal de calidad que aporta | URL directa |
+| --- | --- | --- | --- |
+| NOAA Ocean Exploration — bioluminiscencia | Luz producida por organismos, funciones posibles y preguntas todavía abiertas | Programa científico público; distingue hechos de incertidumbres | https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/ |
+| NOAA Ocean Exploration — luz en el océano | Zonas fótica, crepuscular y afótica, sensibilidad visual y transferencia de alimento | Explicación con rangos de profundidad y contexto oceanográfico | https://oceanexplorer.noaa.gov/ocean-fact/light-distributed/ |
+| NOAA Ocean Exploration — zona crepuscular | Adaptaciones y exploración de la zona mesopelágica | Bitácora de expedición con observaciones y autoría | https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex1903-logs-july6/ |
+| NASA Earth Observatory — Life on Earth | Vegetación, ciclos de carbono, agua, fauna y cambios observados por satélite | Archivo de observación de la Tierra con responsables identificables | https://science.nasa.gov/earth/earth-observatory/topics/life-on-earth/ |
+| NASA Science — auroras | Viento solar, magnetosfera, colores y ciencia ciudadana | Explica mecanismo, misión y límites de observación | https://science.nasa.gov/sun/auroras/ |
+| NASA Science — viento solar | Partículas, reconexión magnética, auroras y efectos tecnológicos | Fuente institucional para física Sol-Tierra | https://science.nasa.gov/sun/what-is-the-solar-wind/ |
+| NASA Science — magnetosfera | Escudo magnético, cinturones de Van Allen y clima espacial | Conecta fenómeno visible con riesgo tecnológico sin alarmismo | https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/ |
+| USGS — temas de peligros naturales | Sismos, volcanes, deslizamientos, tsunamis, sumideros y geomagnetismo | Catálogo oficial de datos, métodos y riesgos | https://www.usgs.gov/mission-areas/natural-hazards/science/science-topics |
+| USGS — ciencia del agua | Monitoreo, ecosistemas acuáticos, sequías y calidad del agua | Datos y métodos de una agencia geológica pública | https://www.usgs.gov/mission-areas/water-resources/science/ |
+| NASA Earth Observatory — archivo de biodiversidad | Cambios de hábitat, floraciones algales y fauna vistos desde el espacio | Permite explicar método de observación, no solo el resultado | https://science.nasa.gov/earth/earth-observatory/topics/life-on-earth/ |
+| IUCN Red List | Estado de conservación, distribución, amenazas y nivel de incertidumbre | Registro global especializado; obliga a citar la evaluación de cada taxón | https://nrl.iucnredlist.org/ |
+| PubMed Central — regeneración animal | Comparación entre hidras, planarias, peces, salamandras y mamíferos | Revisión científica de mecanismos y límites; no promete aplicaciones médicas | https://pmc.ncbi.nlm.nih.gov/articles/PMC11072743/ |
+| PubMed Central — base celular de la regeneración | Progenitores, blastema y diferencias entre especies | Revisión académica con referencias rastreables | https://pmc.ncbi.nlm.nih.gov/articles/PMC3139400/ |
+| PubMed Central — pérdida de regeneración | Por qué la regeneración cambia entre linajes y tejidos | Presenta incertidumbres evolutivas y límites del modelo animal | https://pmc.ncbi.nlm.nih.gov/articles/PMC10922877/ |
+| Smithsonian Open Access | Colecciones, especímenes y recursos visuales reutilizables | Metadatos y condiciones de uso consultables por activo | https://www.si.edu/openaccess |
+| NASA Brand Center — imágenes y medios | Reglas para usar material de NASA y diferenciar marca, crédito y licencia | Política institucional de uso, no una licencia universal | https://www.nasa.gov/nasa-brand-center/images-and-media/ |
+| Creative Commons — guía para periodistas | Atribución, enlace a licencia y registro de procedencia | Guía de la organización que mantiene las licencias CC | https://creativecommons.org/wp-content/uploads/2023/05/AJournalistsGuideToCreativeCommons2023_1.0.pdf |
+| Creative Commons — deed CC BY 4.0 | Condiciones concretas de atribución, enlace y cambios | Texto legal legible; comprobar siempre la licencia del activo real | https://creativecommons.org/licenses/by/4.0/ |
+
+## Políticas que deben acompañar cada brief
+
+| Tema | Fuente oficial | Aplicación en EcoCuriosa |
+| --- | --- | --- |
+| Contenido útil y autoría | [Google: contenido útil](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=es) | Respuesta propia, autoría visible, experiencia o análisis demostrable |
+| IA generativa | [Google: IA generativa](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) | Luna asiste; la persona comprueba exactitud, calidad y valor añadido |
+| Contenido replicado o de bajo valor | [Política de contenido replicado](https://support.google.com/publisherpolicies/answer/11190248?hl=es) y [contenido sin valor editorial](https://support.google.com/publisherpolicies/answer/11112688?hl=es) | No publicar reescrituras automáticas ni páginas creadas solo para anuncios |
+| Autor en datos estructurados | [Article](https://developers.google.com/search/docs/appearance/structured-data/article?hl=es) y [ProfilePage](https://developers.google.com/search/docs/appearance/structured-data/profile-page?hl=es) | Usar `Person`/`Organization` real, visible y enlazado a su perfil |
+| Datos estructurados honestos | [Directrices de datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/sd-policies?hl=es) | El JSON-LD debe describir contenido visible; no garantiza rich results |
+| FAQ | [Cambios de FAQ de Google](https://developers.google.com/search/blog/2023/08/howto-faq-changes) | Mantener FAQ solo cuando ayuda al lector; no prometer un resultado enriquecido |
+| Derechos de imágenes | [Metadatos de licencia](https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata), [IPTC](https://iptc.org/news/iptc-publishes-metadata-guidance-for-ai-generated-synthetic-media/) y [C2PA](https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html) | Guardar creador, licencia, crédito y procedencia; etiquetar imágenes sintéticas |
+
+## Banco inicial de oportunidades
+
+Las siguientes ideas son **briefs candidatos**, no artículos aprobados. Las consultas son hipótesis de intención que deben validarse en Search Console antes de priorizar.
+
+| Prioridad inicial | Pregunta editorial diferenciada | Categoría | Evidencia de partida | Aportación propia obligatoria | Riesgo a controlar |
+| --- | --- | --- | --- | --- | --- |
+| Alta | ¿Qué funciones puede tener la bioluminiscencia y qué sigue sin saberse? | Especies marinas | NOAA bioluminiscencia + un estudio primario específico por especie | Diagrama enzima/sustrato y tabla función–evidencia–incertidumbre | No convertir una hipótesis adaptativa en función demostrada |
+| Alta | ¿Qué cambia entre la zona fótica, crepuscular y afótica? | Especies marinas | NOAA luz oceánica + datos de profundidad de una expedición | Corte vertical del océano con unidades y fuentes | No tratar límites de profundidad como fronteras idénticas en todos los océanos |
+| Alta | ¿Cómo estudian los satélites una floración algal sin “ver” cada alga? | Ciencia curiosa | NASA Earth Observatory + datos ambientales institucionales | Flujo método → señal → validación en campo | No atribuir causalidad a una imagen satelital aislada |
+| Alta | ¿Por qué una aurora es una señal de clima espacial? | Fenómenos naturales | NASA auroras + viento solar + magnetosfera | Diagrama Sol–magnetosfera–atmósfera y glosario | Separar belleza visual de riesgos tecnológicos reales |
+| Alta | ¿Qué puede y qué no puede regenerar un animal? | Fauna fascinante | Revisiones PMC sobre regeneración | Matriz por especie, tejido y evidencia | No presentar regeneración animal como terapia humana |
+| Media | ¿Por qué la regeneración cambia entre linajes? | Ciencia curiosa | Revisión PMC sobre pérdida/evolución de regeneración | Árbol comparativo con límites y preguntas abiertas | Distinguir hipótesis evolutiva de consenso |
+| Media | ¿Cómo se investiga un sumidero, un deslizamiento o un volcán? | Fenómenos naturales | USGS temas de peligros | Checklist visual de observación, medición y aviso | No dar instrucciones de seguridad sin organismo local |
+| Media | ¿Qué mide realmente una estación de agua? | Ciencia curiosa | USGS ciencia del agua | Infografía de caudal, calidad y ecosistema | No extrapolar un punto de medición a toda una cuenca |
+| Media | ¿Cómo se decide si una especie está amenazada? | Fauna fascinante | Evaluación concreta de IUCN por taxón | Lectura guiada de distribución, tendencia y amenazas | Citar la evaluación vigente, no una categoría recordada |
+| Media | ¿Qué hay de científico en explorar la zona crepuscular? | Especies marinas | NOAA bitácora mesopelágica + fuente académica | Diario de expedición que separe observación e interpretación | No usar lenguaje de “mundo alienígena” como afirmación biológica |
+| Baja | ¿Cómo se convierte una colección de museo en una historia visual? | Ciencia curiosa | Smithsonian Open Access + ficha de espécimen | Ficha de procedencia, licencia y contexto | Registrar licencia del activo concreto, no solo del portal |
+| Baja | ¿Qué significa realmente “imagen de NASA”? | Metodología editorial | NASA Brand Center + licencia del activo | Ejemplo de crédito correcto/incorrecto | No asumir que todo lo alojado en NASA es libre de cualquier uso |
+
+## Formato mínimo de un brief derivado
+
+```yaml
+status: research
+workingTitle: "..."
+readerQuestion: "..."
+searchIntent: informational
+sourceCandidates:
+  - url: "https://..."
+    institution: "..."
+    evidenceType: primary|review|dataset|institutional
+    supports: "Afirmación exacta que podría respaldar"
+    checkedBy: null
+    checkedDate: null
+originalContribution: "Diagrama, comparación, dato propio o experiencia atribuida"
+imagePlan: "original-illustration|licensed-photo|commissioned-photo"
+uncertainties: []
+internalLinks: []
+humanApproval: pending
+```
+
+## Reglas de seguridad editorial
+
+- Una página general sirve para descubrir temas; la cita del artículo debe enlazar el estudio, registro o ficha concreta que respalda la frase.
+- Las fuentes de IA, agregadores, resultados de búsqueda y redes sociales no son evidencia editorial.
+- Una referencia no valida automáticamente todo el párrafo: el editor conserva la relación afirmación → fuente → alcance.
+- Para salud, conservación, récords, clima actual o seguridad, se exige lenguaje prudente y revisión humana reciente.
+- Una ilustración generada puede explicar un proceso; no se presenta como fotografía de una especie, lugar o evento real.
+- La automatización prepara opciones y borradores locales. No inventa autores, revisiones, licencias, resultados ni citas, y nunca publica sin aprobación explícita.
+
+## Registro de mantenimiento
+
+| Fecha | Cambio | Responsable | Evidencia |
+| --- | --- | --- | --- |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales y 12 briefs candidatos | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |

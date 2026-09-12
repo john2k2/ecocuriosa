@@ -3,6 +3,10 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  imageCredit?: string;
+  imageLicense?: string;
+  imageCreator?: string;
+  imageLicensePage?: string;
   canonicalURL?: string;
   type?: 'website' | 'article';
   pubDate?: Date;
@@ -19,6 +23,10 @@ const {
   title,
   description,
   image = '/images/og-default.webp',
+  imageCredit,
+  imageLicense,
+  imageCreator,
+  imageLicensePage,
   canonicalURL = Astro.url.href,
   type = 'website',
   pubDate,
@@ -36,8 +44,17 @@ const fullTitle = title.includes('EcoCuriosa') ? title : `${title} | EcoCuriosa`
 const socialImage = image.endsWith('.svg') ? image.replace(/\.svg$/i, '.webp') : image;
 const socialImageURL = new URL(socialImage, Astro.site).href;
 const siteURL = Astro.site?.href || 'https://ecocuriosa.com/';
+const imageObject = {
+  "@type": "ImageObject",
+  "url": socialImageURL,
+  ...(imageCredit ? { "creditText": imageCredit } : {}),
+  ...(imageLicense ? { "license": imageLicense } : {}),
+  ...(imageCreator ? { "creator": imageCreator } : {}),
+  ...(imageLicensePage ? { "acquireLicensePage": imageLicensePage } : {})
+};
 const organizationId = new URL('/#organization', siteURL).href;
 const websiteId = new URL('/#website', siteURL).href;
+const editorialProfileURL = new URL('/sobre-nosotros/', siteURL).href;
 const categoryNames: Record<string, string> = {
   'fauna-fascinante': 'Fauna Fascinante',
   'especies-marinas': 'Especies Marinas',
@@ -89,7 +106,7 @@ const article = type === 'article' ? {
   "@id": `${canonicalURL}#article`,
   "headline": title,
   "description": description,
-  "image": socialImageURL,
+  "image": imageObject,
   "datePublished": pubDate?.toISOString(),
   ...(modifiedDate ? { "dateModified": modifiedDate.toISOString() } : {}),
   "inLanguage": "es",
@@ -97,7 +114,7 @@ const article = type === 'article' ? {
   "articleSection": category ? categoryNames[category] || category : undefined,
   "keywords": tags.join(', ') || undefined,
   "author": isEditorialTeam
-    ? { "@type": "Organization", "name": author, "url": siteURL }
+    ? { "@type": "Organization", "name": author, "url": editorialProfileURL }
     : { "@type": "Person", "name": author },
   "publisher": { "@id": organizationId },
   "mainEntityOfPage": { "@id": canonicalURL },

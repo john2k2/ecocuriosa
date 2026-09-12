@@ -1,0 +1,189 @@
+# Catálogo de fuentes candidatas para investigación editorial.
+# Revisado: 2026-09-12. Una entrada aquí no equivale a una cita verificada:
+# el editor debe abrir la página y registrar la fuente concreta en el artículo.
+version: 1
+checkedDate: '2026-09-12'
+entries:
+  - id: google-helpful-content
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: policy
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=es
+    use: people-first content, authorship, first-hand experience, originality
+  - id: google-ai-optimization-guide
+    authority: Google Search Central
+    domain: seo-geo
+    evidenceType: guidance
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+    use: non-generic answers and original value for AI features in Search
+  - id: google-generative-ai-content
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: guidance
+    url: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
+    use: safe use of generative AI with accuracy, quality and spam controls
+  - id: adsense-eligibility
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/9724?hl=es
+    use: original, high-quality content and audience requirement
+  - id: adsense-replicated-content
+    authority: Google Publisher Policies
+    domain: monetization
+    evidenceType: policy
+    url: https://support.google.com/publisherpolicies/answer/11190248?hl=es
+    use: copied, rewritten or auto-generated content without manual value
+  - id: adsense-no-editorial-content
+    authority: Google Publisher Policies
+    domain: monetization
+    evidenceType: policy
+    url: https://support.google.com/publisherpolicies/answer/11112688?hl=es
+    use: low-value pages and content generated without review or curation
+  - id: adsense-ad-placement
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/1282097?hl=es
+    use: distinguish ads from navigation and editorial content
+  - id: google-article-schema
+    authority: Google Search Central
+    domain: schema
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/article?hl=es
+    use: Article author, dates, image and publisher markup
+  - id: google-profile-page-schema
+    authority: Google Search Central
+    domain: schema
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/profile-page?hl=es
+    use: real, visible author or organization profile pages
+  - id: google-organization-schema
+    authority: Google Search Central
+    domain: schema
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/organization?hl=es
+    use: organization identity, logo and real external profiles
+  - id: google-structured-data-policies
+    authority: Google Search Central
+    domain: schema
+    evidenceType: policy
+    url: https://developers.google.com/search/docs/appearance/structured-data/sd-policies?hl=es
+    use: visible, relevant and non-misleading structured data
+  - id: google-faq-update
+    authority: Google Search Central
+    domain: seo-geo
+    evidenceType: update
+    url: https://developers.google.com/search/blog/2023/08/howto-faq-changes
+    use: decide whether FAQ is useful content, never as a guaranteed rich result
+  - id: noaa-bioluminescence
+    authority: NOAA Ocean Exploration
+    domain: marine-biology
+    evidenceType: institutional-explainer
+    url: https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/
+    use: chemical light, functions and open questions
+  - id: noaa-ocean-light
+    authority: NOAA Ocean Exploration
+    domain: marine-biology
+    evidenceType: institutional-explainer
+    url: https://oceanexplorer.noaa.gov/ocean-fact/light-distributed/
+    use: photic, twilight and aphotic zones
+  - id: noaa-twilight-zone
+    authority: NOAA Ocean Exploration
+    domain: marine-biology
+    evidenceType: expedition-log
+    url: https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex1903-logs-july6/
+    use: observations and taxonomy in the mesopelagic zone
+  - id: nasa-life-on-earth
+    authority: NASA Earth Observatory
+    domain: earth-observation
+    evidenceType: institutional-archive
+    url: https://science.nasa.gov/earth/earth-observatory/topics/life-on-earth/
+    use: biodiversity, vegetation, water and satellite observations
+  - id: nasa-auroras
+    authority: NASA Science
+    domain: heliophysics
+    evidenceType: institutional-explainer
+    url: https://science.nasa.gov/sun/auroras/
+    use: aurora mechanism, missions and citizen science
+  - id: nasa-solar-wind
+    authority: NASA Science
+    domain: heliophysics
+    evidenceType: institutional-explainer
+    url: https://science.nasa.gov/sun/what-is-the-solar-wind/
+    use: solar wind, magnetosphere and space weather
+  - id: nasa-magnetosphere
+    authority: NASA Science
+    domain: heliophysics
+    evidenceType: institutional-explainer
+    url: https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/
+    use: magnetic shielding and technology impacts
+  - id: usgs-natural-hazards
+    authority: U.S. Geological Survey
+    domain: geoscience
+    evidenceType: institutional-catalog
+    url: https://www.usgs.gov/mission-areas/natural-hazards/science/science-topics
+    use: earthquakes, volcanoes, landslides, tsunamis and sinkholes
+    accessNote: USGS puede devolver 403 a clientes automatizados; abrir y verificar en un navegador normal
+  - id: usgs-water-science
+    authority: U.S. Geological Survey
+    domain: hydrology
+    evidenceType: institutional-catalog
+    url: https://www.usgs.gov/mission-areas/water-resources/science/
+    use: water monitoring, aquatic biology and ecosystem health
+    accessNote: USGS puede devolver 403 a clientes automatizados; abrir y verificar en un navegador normal
+  - id: iucn-red-list
+    authority: IUCN
+    domain: conservation
+    evidenceType: assessment-database
+    url: https://nrl.iucnredlist.org/
+    use: current status, distribution, threats and uncertainty per taxon
+    accessNote: el sitio público puede devolver 403 a clientes automatizados; citar la evaluación individual del taxón tras verificarla en navegador
+  - id: pmc-regeneration-transcriptomics
+    authority: PubMed Central
+    domain: comparative-biology
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11072743/
+    use: mechanisms and diversity of animal regeneration
+  - id: pmc-cellular-regeneration
+    authority: PubMed Central
+    domain: comparative-biology
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3139400/
+    use: progenitors, blastema and lineage restrictions
+  - id: pmc-regenerative-loss
+    authority: PubMed Central
+    domain: comparative-biology
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10922877/
+    use: evolution and limits of regeneration
+  - id: google-image-license-metadata
+    authority: Google Search Central
+    domain: image-rights
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata?hl=es
+    use: license, creator, credit and acquisition metadata for licensed images
+  - id: iptc-synthetic-media
+    authority: IPTC
+    domain: image-rights
+    evidenceType: metadata-guidance
+    url: https://iptc.org/news/iptc-publishes-metadata-guidance-for-ai-generated-synthetic-media/
+    use: label trained-algorithmic media in XMP/IPTC workflows
+  - id: c2pa-content-credentials
+    authority: C2PA
+    domain: image-rights
+    evidenceType: technical-standard
+    url: https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html
+    use: provenance, tools and edits for generated or composited media
+  - id: creative-commons-journalist-guide
+    authority: Creative Commons
+    domain: image-rights
+    evidenceType: licensing-guidance
+    url: https://creativecommons.org/wp-content/uploads/2023/05/AJournalistsGuideToCreativeCommons2023_1.0.pdf
+    use: attribution and linking the human-readable license
+  - id: creative-commons-by-deed
+    authority: Creative Commons
+    domain: image-rights
+    evidenceType: licensing-guidance
+    url: https://creativecommons.org/licenses/by/4.0/
+    use: concrete CC BY 4.0 attribution conditions; verify the asset's actual license

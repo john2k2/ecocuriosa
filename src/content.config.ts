@@ -7,6 +7,8 @@ const sourceSchema = z.object({
   url: z.url(),
   publisher: z.string().optional(),
   accessedDate: z.date().optional(),
+  evidenceType: z.enum(['primary', 'review', 'dataset', 'institutional', 'secondary']).optional(),
+  scope: z.string().optional(),
 });
 
 const articlesCollection = defineCollection({
@@ -20,6 +22,9 @@ const articlesCollection = defineCollection({
     image: z.string(),
     imageAlt: z.string(),
     imageCredit: z.string().optional(),
+    imageLicense: z.url().optional(),
+    imageCreator: z.string().optional(),
+    imageLicensePage: z.url().optional(),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     /**

@@ -2,6 +2,8 @@
 
 Este documento complementa el flujo de [automatización editorial](./EDITORIAL_AUTOMATION.md). Su objetivo no es maximizar el número de URLs, sino elevar la utilidad, confianza y capacidad de monetización de EcoCuriosa de forma medible.
 
+Las oportunidades de nuevos temas deben salir de la [biblioteca de inspiración editorial](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md) y del [catálogo de fuentes](./editorial/SOURCE_CATALOG.yml), y solo pasan a publicación cuando una consulta real y una revisión humana justifican el brief.
+
 ## Condición de salida antes de escalar contenido
 
 El archivo existente debe alcanzar estas condiciones antes de publicar a más de un artículo semanal:
@@ -21,7 +23,7 @@ No se debe cambiar una fecha de revisión solo para mejorar el sitemap o la apar
 
 ### Semanas 1–2: cerrar deuda y riesgos
 
-1. Añadir fuentes visibles a los 32 artículos y corregir enlaces/títulos de fuente incorrectos.
+1. Abrir las referencias de los 32 artículos, corregir enlaces/títulos incorrectos y dejar la fuente concreta visible para cada afirmación importante.
 2. Reescribir las conclusiones repetidas y eliminar cifras o causalidades sin respaldo.
 3. Priorizar salud, bienestar animal, conservación y clima: requieren lenguaje especialmente preciso.
 4. Registrar revisión real por artículo, sin usar a Luna como autor o revisor humano ficticio.

@@ -4,6 +4,8 @@ Luna con razonamiento **Max** puede acelerar investigación, esquemas, borradore
 
 Los documentos operativos que convierten este principio en una puerta de calidad son:
 
+- [Catálogo de fuentes para automatizaciones](./editorial/SOURCE_CATALOG.yml)
+- [Biblioteca de inspiración y briefs](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md)
 - [Plantilla de brief](./editorial/ARTICLE_BRIEF_TEMPLATE.md)
 - [Estándar de evidencia](./editorial/SOURCE_QUALITY_STANDARD.md)
 - [Protocolo de Luna Max](./editorial/LUNA_MAX_PROTOCOL.md)

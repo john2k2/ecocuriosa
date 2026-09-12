@@ -67,7 +67,7 @@ for (const filename of filenames) {
 
 const report = [
   `Artículos auditados: ${filenames.length}`,
-  `Con fuentes verificables: ${filenames.length - missingSources.length}/${filenames.length}`,
+  `Con fuentes registradas en frontmatter: ${filenames.length - missingSources.length}/${filenames.length}`,
   `Con revisión editorial: ${filenames.length - missingReview.length}/${filenames.length}`,
   `Imágenes faltantes: ${missingImages.length}`,
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,

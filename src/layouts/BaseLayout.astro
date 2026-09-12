@@ -16,6 +16,10 @@ interface Props {
   category?: string;
   tags?: string[];
   sources?: { title: string; url: string }[];
+  imageCredit?: string;
+  imageLicense?: string;
+  imageCreator?: string;
+  imageLicensePage?: string;
   pageType?: 'website' | 'collection' | 'about';
   noindex?: boolean;
   adsEnabled?: boolean;
@@ -32,6 +36,10 @@ const {
   category,
   tags,
   sources,
+  imageCredit,
+  imageLicense,
+  imageCreator,
+  imageLicensePage,
   pageType = 'website',
   noindex = false,
   adsEnabled = true,
@@ -64,6 +72,10 @@ const {
       category={category}
       tags={tags}
       sources={sources}
+      imageCredit={imageCredit}
+      imageLicense={imageLicense}
+      imageCreator={imageCreator}
+      imageLicensePage={imageLicensePage}
       pageType={pageType}
       noindex={noindex}
     />
