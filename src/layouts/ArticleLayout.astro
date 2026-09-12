@@ -171,6 +171,22 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
       )}
     </header>
 
+    {sources.length > 0 && (
+      <aside class="mb-10 rounded-lg border border-[#e6e2d8] bg-[#fbf9f4] p-5 sm:p-6" aria-labelledby="fuentes-clave-title">
+        <h2 id="fuentes-clave-title" class="text-xs font-semibold uppercase tracking-wide text-[#5a605c] mb-3">Fuentes clave de esta explicación</h2>
+        <ul class="grid gap-3 sm:grid-cols-2 text-sm">
+          {sources.slice(0, 2).map((source) => (
+            <li>
+              <a class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm" href={source.url} rel="noopener noreferrer" target="_blank">
+                {source.title}
+              </a>
+              {source.publisher && <span class="block mt-1 text-xs text-[#738a7d]">{source.publisher}</span>}
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
     <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">
       <picture class="block w-full">
         {isSvgImage && <source type="image/svg+xml" srcset={image} />}
