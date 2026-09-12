@@ -31,6 +31,8 @@ Preguntas de decisión:
 
 Una cifra agregada de Cloudflare no equivale a audiencia orgánica. Contrastar siempre con Search Console o Analytics antes de decidir un tema editorial.
 
+Las pruebas de laboratorio (por ejemplo, un test puntual de Lighthouse o PageSpeed) sirven para detectar regresiones, pero no sustituyen los Core Web Vitals de usuarios reales. Registrar la herramienta, fecha, dispositivo y URL si se usa una prueba de laboratorio.
+
 ## Calidad y actualización
 
 | Artículo | Motivo de revisión | Fuente abierta | Corrección necesaria | Responsable | Estado |

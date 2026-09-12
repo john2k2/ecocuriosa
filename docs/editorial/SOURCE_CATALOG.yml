@@ -46,6 +46,12 @@ entries:
     evidenceType: guidance
     url: https://support.google.com/adsense/answer/1282097?hl=es
     use: distinguish ads from navigation and editorial content
+  - id: adsense-cookies
+    authority: Google AdSense
+    domain: privacy
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/7549925?hl=es
+    use: disclose advertising cookies and personalization controls
   - id: google-article-schema
     authority: Google Search Central
     domain: schema
@@ -76,6 +82,18 @@ entries:
     evidenceType: update
     url: https://developers.google.com/search/blog/2023/08/howto-faq-changes
     use: decide whether FAQ is useful content, never as a guaranteed rich result
+  - id: cloudflare-web-analytics
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/web-analytics/about/
+    use: privacy-first real-user analytics and page performance measurement
+  - id: cloudflare-core-web-vitals
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/
+    use: LCP, INP and CLS definitions, percentiles and filters
   - id: noaa-bioluminescence
     authority: NOAA Ocean Exploration
     domain: marine-biology

@@ -36,6 +36,7 @@ El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOUR
 | NASA Brand Center — imágenes y medios | Reglas para usar material de NASA y diferenciar marca, crédito y licencia | Política institucional de uso, no una licencia universal | https://www.nasa.gov/nasa-brand-center/images-and-media/ |
 | Creative Commons — guía para periodistas | Atribución, enlace a licencia y registro de procedencia | Guía de la organización que mantiene las licencias CC | https://creativecommons.org/wp-content/uploads/2023/05/AJournalistsGuideToCreativeCommons2023_1.0.pdf |
 | Creative Commons — deed CC BY 4.0 | Condiciones concretas de atribución, enlace y cambios | Texto legal legible; comprobar siempre la licencia del activo real | https://creativecommons.org/licenses/by/4.0/ |
+| Cloudflare Web Analytics | Métricas de usuarios reales y privacidad de la medición | Documentación del proveedor; útil para interpretar LCP, INP y CLS sin confundir laboratorio con RUM | https://developers.cloudflare.com/web-analytics/about/ |
 
 ## Políticas que deben acompañar cada brief
 
@@ -48,6 +49,7 @@ El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOUR
 | Datos estructurados honestos | [Directrices de datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/sd-policies?hl=es) | El JSON-LD debe describir contenido visible; no garantiza rich results |
 | FAQ | [Cambios de FAQ de Google](https://developers.google.com/search/blog/2023/08/howto-faq-changes) | Mantener FAQ solo cuando ayuda al lector; no prometer un resultado enriquecido |
 | Derechos de imágenes | [Metadatos de licencia](https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata), [IPTC](https://iptc.org/news/iptc-publishes-metadata-guidance-for-ai-generated-synthetic-media/) y [C2PA](https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html) | Guardar creador, licencia, crédito y procedencia; etiquetar imágenes sintéticas |
+| Rendimiento y privacidad de analítica | [Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/about/) y [Core Web Vitals](https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/) | Medir usuarios reales; no confundir una prueba puntual con datos de audiencia |
 
 ## Banco inicial de oportunidades
 
