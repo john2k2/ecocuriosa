@@ -48,7 +48,7 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 1. **Cerrar la revisión editorial antes de escalar.** `pnpm content:audit` registra 31 artículos sin `reviewedDate`/`reviewedBy` y 10 advertencias heurísticas de lenguaje absoluto, salud o récords. Abrir la cola en [`docs/editorial/CONTENT_REVIEW_QUEUE.md`](docs/editorial/CONTENT_REVIEW_QUEUE.md), comprobar cada afirmación cuantitativa y rellenar la fecha solo después de una revisión real.
 2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
 3. **Configurar los bloques publicitarios después de la aprobación.** El cliente `ca-pub-4559843439616138` está en el HTML, pero los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. No inventar IDs: copiarlos desde AdSense y redeplegar.
-4. **Conectar medición real.** Search Console y Cloudflare no están disponibles como cuentas autenticadas en esta auditoría. Sin consultas, impresiones, CTR, países, dispositivos, LCP, INP, CLS y RPM no es responsable prometer crecimiento ni elegir keywords.
+4. **Conectar medición real.** El beacon de Cloudflare Web Analytics está activo en producción, pero Search Console y el panel de Cloudflare no están disponibles como cuentas autenticadas en esta auditoría. Sin consultas, impresiones, CTR, países, dispositivos, LCP, INP, CLS y RPM no es responsable prometer crecimiento ni elegir keywords.
 
 ## Prioridad media
 
@@ -152,7 +152,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm build`: 45 páginas estáticas generadas correctamente.
 - `SOURCE_CATALOG.yml`: YAML válido con 54 entradas y 12 oportunidades editoriales en la biblioteca. La comprobación HTTP inicial de las 30 entradas originales obtuvo 26 respuestas 200; USGS e IUCN limitan clientes automatizados con 403 y el PDF de Creative Commons requiere abrirse en navegador. Esas entradas quedan marcadas para verificación humana, no se tratan como enlaces rotos.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.
-- Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap y redirección `www`.
+- Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages.
 - Pendiente de conexión externa: métricas privadas de Search Console/Cloudflare, estado final de CMP en AdSense, aprobación de cuenta y creación de slots.
 
 ## Apéndice: rutas representativas
