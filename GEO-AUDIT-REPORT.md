@@ -150,6 +150,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes; 0 conclusiones repetidas; 13 advertencias para revisión.
 - `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
 - `pnpm build`: 45 páginas estáticas generadas correctamente.
+- `SOURCE_CATALOG.yml`: YAML válido con 30 entradas y 12 oportunidades editoriales en la biblioteca. La comprobación HTTP obtuvo 26 respuestas 200; USGS e IUCN limitan clientes automatizados con 403 y el PDF de Creative Commons requiere abrirse en navegador. Esas entradas quedan marcadas para verificación humana, no se tratan como enlaces rotos.
 - Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap y redirección `www`.
 - Pendiente de conexión externa: métricas privadas de Search Console/Cloudflare, estado final de CMP en AdSense, aprobación de cuenta y creación de slots.
 
