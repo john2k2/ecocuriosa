@@ -71,7 +71,7 @@ export default defineConfig({
     sitemap({
       // Los resultados internos no aportan una página editorial única a Google.
       // Se mantienen accesibles para lectores, pero fuera del sitemap.
-      filter: (page) => !page.endsWith('/buscar/') && !page.endsWith('/buscar'),
+      filter: (page) => !page.endsWith('/buscar/') && !page.endsWith('/buscar') && !page.endsWith('/rss.xml'),
       serialize: (item) => {
         const lastmod = articleLastModified.get(item.url);
         return lastmod ? { ...item, lastmod } : item;

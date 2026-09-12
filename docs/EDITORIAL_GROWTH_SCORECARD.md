@@ -7,7 +7,7 @@
 
 | Área | Línea base observada | Meta operativa | Evidencia necesaria para marcarla como lograda |
 | --- | ---: | ---: | --- |
-| SEO técnico / infraestructura | 87/100 | 92/100 | Sitemap enviado y revisado en Search Console, cero enlaces internos rotos, canonical consistente, datos estructurados válidos y P75 de Core Web Vitals comprobado con usuarios reales |
+| SEO técnico / infraestructura | 87/100 | 92/100 | Sitemap y feed RSS enviados/revisados cuando corresponda, cero enlaces internos rotos, canonical consistente, datos estructurados válidos y P75 de Core Web Vitals comprobado con usuarios reales |
 | Diseño, navegación y móvil | Bueno | Excelente medible | Pruebas en móvil y escritorio de las rutas principales, teclado completo, contraste revisado y CLS estable antes/después de activar anuncios |
 | Indexación | Sitemap correcto; cobertura aún procesándose | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
