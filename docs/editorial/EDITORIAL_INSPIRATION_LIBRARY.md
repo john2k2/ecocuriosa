@@ -177,6 +177,25 @@ Estas entradas complementan las fichas existentes con datos primarios o instituc
 | Fuentes hidrotermales | [NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/education/hydrothermal-vents-volcanoes/) · [campos de la Dorsal Central India](https://repository.library.noaa.gov/view/noaa/32606) | Diagrama agua–calor–química y comparación de un descubrimiento real | Mantener separados mecanismo general, región, taxones y fecha de muestreo |
 | Clima espacial | [NASA: efectos de tormentas solares](https://science.nasa.gov/blogs/science-news/2026/07/15/new-nasa-study-says-possibly-no-limit-to-solar-storm-effects/) | Explicar qué significa una hipótesis sobre límites de respuesta magnetosférica | Resultado provisional; no convertirlo en pronóstico de una tormenta extrema |
 
+### Fuentes nuevas para la siguiente tanda de investigación — 12 de septiembre
+
+Luna Max añadió doce fuentes no duplicadas para reforzar las piezas con más deuda de evidencia. Son candidatas de investigación: requieren abrir la ficha, comprobar la relación afirmación → fuente y conservar el alcance antes de citarlas.
+
+| Tema | Fuente candidata | Brief people-first | Límite obligatorio |
+| --- | --- | --- | --- |
+| Manta raya | [Cranial endothermy in mobulid rays](https://pubmed.ncbi.nlm.nih.gov/39434239/) | ¿Cómo puede mantenerse caliente el cerebro de una manta en aguas frías? | Mecanismo propuesto; no prueba cognición ni rendimiento en libertad |
+| Manta raya | [Effect of diver presence on juvenile manta ray behavior](https://doi.org/10.3390/drones9110781) | ¿Qué cambia en la conducta de juveniles cuando se acercan buceadores? | Nursery, juveniles y muestra concreta; no generalizar a toda la especie |
+| Elefantes | [Long-term social memory for zoo keepers](https://doi.org/10.1002/zoo.21871) | ¿Qué significa realmente que un elefante “no olvide”? | Dos animales en cautividad y respuesta indicativa; no memoria ilimitada |
+| Elefantes | [Building an Elephant Brain Database](https://pmc.ncbi.nlm.nih.gov/articles/PMC11693083/) | ¿Qué puede medir una base de cerebros de elefante y qué no? | 23 especímenes y MRI post mortem; no prueba directa de inteligencia |
+| Pangolines | [Pangolin genomes and conservation resources](https://doi.org/10.1093/molbev/msad190) | ¿Por qué la diversidad genética importa además de contar individuos? | Inferencias dependientes del muestreo; no censo poblacional actual |
+| Pangolines | [Chromosome-level assemblies and inbreeding](https://pubmed.ncbi.nlm.nih.gov/39947250/) | ¿Cómo puede el ADN orientar rescates sin mezclar poblaciones? | Individuos y poblaciones analizadas no cubren todo el rango |
+| Peces linterna | [Variation in lanternfish photophore structure](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310976) | ¿Por qué no existe un único “órgano linterna” en el océano profundo? | Anatomía comparativa; la función conductual requiere observación directa |
+| Géiseres | [First instrumentally detected hydrothermal explosion in Yellowstone](https://www.usgs.gov/publications/first-instrumentally-detected-hydrothermal-explosion-yellowstone-national-park) | ¿Qué diferencia una explosión hidrotermal de una erupción? | Evento localizado; no predice todos los géiseres ni actividad volcánica futura |
+| Respiraderos hidrotermales | [Microbial sulfate reduction along Arctic mid-ocean ridges](https://repository.library.noaa.gov/view/noaa/61171) | ¿Cómo se sostiene vida microbiana sin luz solar? | Dorsales árticas y sedimentos concretos; no extrapolar a todos los respiraderos |
+| Nubes mammatus | [Mammatus as a response to cloud-base radiative heating](https://journals.ametsoc.org/view/journals/atsc/67/12/2010jas3513.1.xml) | ¿Por qué una nube mammatus no tiene una sola explicación? | Modelización idealizada; combinar con evaporación y descenso de hidrometeoros |
+| Auroras | [GOLD observations of the 2024 Gannon superstorm](https://repository.library.noaa.gov/view/noaa/68704) | ¿Qué revela una tormenta G5 sobre la termosfera? | Un evento extremo; no describe cualquier aurora ordinaria |
+| Calamar gigante | [Unobtrusive camera platforms for large deep-sea squid](https://www.sciencedirect.com/science/article/pii/S0967063721000777) | ¿Cómo observar un calamar gigante sin perseguirlo? | Avistamientos oportunistas y tamaños parciales; no récord universal |
+
 ### Fuentes de derechos y transparencia añadidas
 
 Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:
@@ -221,7 +240,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 267 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 279 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 

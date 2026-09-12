@@ -1609,3 +1609,75 @@ entries:
     evidenceType: institutional-explainer
     url: https://www.aoml.noaa.gov/threats-to-coral/
     use: stress, symbiont loss and recovery context; treat the approximate 1 °C threshold as regional guidance, not a universal law
+  - id: manta-cranial-endothermy-2024
+    authority: Journal of Animal Ecology / PubMed
+    domain: marine-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/39434239/
+    use: proposed cranial endothermy in mobulid rays; do not infer cognitive performance or universal cold adaptation
+  - id: manta-diver-behavior-drones-2025
+    authority: Drones / MDPI
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.3390/drones9110781
+    use: drone observations of juvenile manta responses to diver presence in a nursery; preserve sample, habitat and observational limits
+  - id: elephant-keeper-social-memory-2024
+    authority: Zoo Biology / Wiley
+    domain: animal-cognition
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1002/zoo.21871
+    use: indicative long-term recognition of familiar keepers in two captive elephants; do not turn n=2 into unlimited memory
+  - id: elephant-brain-database-2024
+    authority: Indiana University, Mount Sinai and George Washington University / PubMed Central
+    domain: comparative-neuroanatomy
+    evidenceType: research-dataset
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11693083/
+    use: brain specimens and MRI data from 23 elephants; resource for structure and aging, not direct proof of memory or intelligence
+  - id: pangolin-genomes-mbe-2023
+    authority: Molecular Biology and Evolution / Oxford Academic
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1093/molbev/msad190
+    use: comparative genomes across eight extant pangolin species; preserve sampling and distinguish genomic inference from population census
+  - id: pangolin-inbreeding-gigascience-2025
+    authority: GigaScience / PubMed
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/39947250/
+    use: chromosome-level assemblies and inbreeding estimates for Chinese and Malayan pangolins; retain analyzed individuals and populations
+  - id: lanternfish-photophores-plos-2024
+    authority: PLOS ONE
+    domain: deep-sea-biology
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310976
+    use: comparative photophore structure across Myctophidae; anatomy does not by itself prove a single behavioral function
+  - id: yellowstone-hydrothermal-explosion-usgs-2025
+    authority: USGS
+    domain: geothermal-hazards
+    evidenceType: institutional-report
+    url: https://www.usgs.gov/publications/first-instrumentally-detected-hydrothermal-explosion-yellowstone-national-park
+    use: instrumentally detected Yellowstone hydrothermal explosion on 2024-04-15; distinguish it from magmatic eruption and avoid forecasting
+  - id: arctic-ridge-microbial-sulfate-noaa-2024
+    authority: NOAA Repository / Frontiers in Marine Science
+    domain: hydrothermal-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/61171
+    use: microbial sulfate reduction linked to hydrothermal activity along Arctic mid-ocean ridges; preserve sediment and regional limits
+  - id: mammatus-radiative-heating-jas-2010
+    authority: Journal of the Atmospheric Sciences
+    domain: atmospheric-physics
+    evidenceType: peer-reviewed-primary
+    url: https://journals.ametsoc.org/view/journals/atsc/67/12/2010jas3513.1.xml
+    use: idealized modeling of cloud-base radiative heating alongside evaporation and hydrometeor descent; not a single settled mechanism
+  - id: gold-thermosphere-gannon-superstorm-noaa-2024
+    authority: NOAA / NASA GOLD / Geophysical Research Letters
+    domain: space-weather
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/68704
+    use: satellite observations of the 10–12 May 2024 G5 storm response in the thermosphere; do not generalize to ordinary auroras
+  - id: large-deep-sea-squid-platforms-2021
+    authority: Deep-Sea Research Part I / ScienceDirect
+    domain: deep-sea-observation
+    evidenceType: peer-reviewed-primary
+    url: https://www.sciencedirect.com/science/article/pii/S0967063721000777
+    use: unobtrusive autonomous camera platforms and opportunistic Architeuthis dux encounters; preserve partial size estimates and observation bias

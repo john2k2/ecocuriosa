@@ -19,6 +19,10 @@ Las cuatro piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón
 
 **Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
 
+La lectura autenticada más reciente conserva la misma señal (actualizada hace unas 5 horas). Las consultas con mayor exposición son `geodinamo` (11 impresiones), `pulpo mimo` (8), `geodinamo terrestre` (2), `architeuthis dux` (2) y `relampago de catatumbo` (2). Por página, lideran la URL de geodinamo (23 impresiones), la guía de ebullición en altura (17 sumando sus variantes con y sin barra), el pulpo mimo (9), la manta raya (5) y el artículo del leopardo de las nieves (4). Las variantes sin barra devuelven 308 hacia la URL canónica; no se deben crear duplicados para ellas.
+
+**Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 0 clics y una muestra de 112 impresiones, no es válido prometer crecimiento ni inferir RPM.
+
 ## Secuencia de 30 días
 
 ### Días 1–7 — cumplimiento y medición
@@ -133,7 +137,7 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 267 entradas y la biblioteca 64 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; la tanda siguiente añadió diez fuentes para seis clústeres de revisión. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene 279 entradas y la biblioteca 64 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; la tanda siguiente añadió diez fuentes para seis clústeres de revisión y la búsqueda del 12/09 añadió doce fuentes para ocho temas de evidencia. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.
