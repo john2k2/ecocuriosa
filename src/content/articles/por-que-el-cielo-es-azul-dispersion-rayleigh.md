@@ -80,7 +80,7 @@ Porque los aerosoles y gases de una erupción o un incendio modifican la transmi
 
 ### ¿De qué color es el cielo en Marte?
 
-En Marte, el polvo suspendido y una atmósfera tenue cambian el color del cielo y de los atardeceres. Las observaciones de misiones muestran tonos anaranjados o rojizos durante el día y un resplandor más azulado cerca del Sol al ocaso; el aspecto depende del lugar y de la carga de polvo.
+En Marte, el polvo suspendido y una atmósfera tenue cambian el color aparente del cielo y de los atardeceres. Las observaciones de las misiones no son idénticas entre lugares ni momentos: el aspecto depende del tamaño y la carga de polvo, la iluminación y el procesamiento de cada imagen.
 
 ---
 

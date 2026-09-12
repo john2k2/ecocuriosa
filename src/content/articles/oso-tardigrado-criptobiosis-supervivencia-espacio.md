@@ -63,7 +63,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
   * **Realidad científica contrastada:** No hay evidencia de un origen extraterrestre. Son animales terrestres del grupo de los ecdisozoos; la investigación espacial estudia su tolerancia, no su procedencia.
 
 * **Mito 2:** Se cree que un tardígrado activo en el agua resiste el calor y el frío de la misma manera que en estado seco.
-  * **Realidad científica contrastada:** En estado hidratado activo mueren si la temperatura del agua supera los 37-40 °C o si se congela súbitamente sin tiempo para sintetizar sus proteínas protectoras.
+  * **Realidad científica contrastada:** En estado hidratado activo no tienen la misma tolerancia que en anhidrobiosis. El calor, el frío y la velocidad de cambio pueden ser letales, y el umbral depende de la especie y del protocolo experimental.
 
 ---
 

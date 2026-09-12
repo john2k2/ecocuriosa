@@ -68,7 +68,7 @@ El repertorio de receptores olfativos también es amplio. El estudio genómico c
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se dice que los elefantes tienen cementerios secretos donde van a morir conscientemente.
-  * **Realidad científica contrastada:** Mito romántico sin base real. Los elefantes ancianos con los molares desgastados se congregan instintivamente en zonas pantanosas de vegetación blanda y agua fácil de ingerir, muriendo allí de vejez o inanición natural con el paso del tiempo.
+  * **Realidad científica contrastada:** No hay evidencia sólida de un ritual universal de “cementerios”. Los restos pueden concentrarse donde el terreno, el agua o la vegetación favorecen que los animales se reúnan, pero esa observación no demuestra una intención consciente de acudir a morir.
 
 * **Mito 2:** Se dice que un número elevado de neuronas demuestra por sí solo una inteligencia superior.
   * **Realidad científica contrastada:** El estudio celular muestra una distribución muy distinta a la humana: casi todas las neuronas están en el cerebelo. El conteo es una pieza de evidencia, no una escala universal de inteligencia.

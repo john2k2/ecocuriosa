@@ -61,7 +61,7 @@ En el experimento del espejo se observaron movimientos dirigidos al reflejo que 
   * **Realidad científica contrastada:** NOAA distingue a las mantas de las rayas con aguijón: las mantas se alimentan por filtración y no tienen el aguijón caudal típico de esas rayas.
 
 * **Mito 2:** El mito de que saltan fuera del agua para aplastar a barcos pequeños o buceadores.
-  * **Realidad científica contrastada:** Sus espectaculares saltos de hasta 2 metros sobre la superficie del agua son maniobras para desparasitarse mediante el impacto del agua, señales acústicas de comunicación grupal de largo alcance o rituales de cortejo, sin ninguna intención agresiva.
+  * **Realidad científica contrastada:** Se han observado saltos, pero la función concreta puede variar y no hay base para atribuirles una intención agresiva universal. Una observación de superficie no basta para explicar toda la conducta de la especie.
 
 ---
 

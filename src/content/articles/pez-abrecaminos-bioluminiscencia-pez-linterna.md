@@ -1,5 +1,5 @@
 ---
-title: "Peces Abisales y Bioluminiscencia: La Batalla de Luz en la Zona de Medianoche"
+title: "Peces linterna y bioluminiscencia: la batalla de luz en la zona de medianoche"
 description: "Descubre cómo algunos peces linterna y dragones negros usan la bioluminiscencia para cazar, camuflarse o comunicarse en el abismo marino."
 category: "especies-marinas"
 pubDate: 2026-08-19
@@ -50,8 +50,6 @@ Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosist
 
 ### Sistemas Fotónicos en Peces Abisales Bioluminiscentes
 
-| Familia / Especie | Longitud de Onda Dominante | Estrategia Ecológica |
-| :--- | :--- | :--- |
 | Grupo | Rasgo descrito | Límite de la inferencia |
 | :--- | :--- | :--- |
 | Peces linterna (Myctophidae) | Fotóforos y adaptaciones visuales a poca luz | Cambian entre especies y regiones |
