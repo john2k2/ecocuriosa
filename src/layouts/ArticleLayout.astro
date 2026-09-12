@@ -143,6 +143,14 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
           </>
         )}
       </div>
+
+      {sources.length > 0 && (
+        <p class="mt-4 text-xs text-[#5a605c]">
+          <a href="#fuentes-title" class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm">
+            Consultar {sources.length} {sources.length === 1 ? 'fuente' : 'fuentes'} y límites de evidencia
+          </a>
+        </p>
+      )}
     </header>
 
     <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">

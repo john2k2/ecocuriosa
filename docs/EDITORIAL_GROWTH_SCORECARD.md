@@ -11,7 +11,7 @@
 | Diseño, navegación y móvil | Bueno | Excelente medible | Pruebas en móvil y escritorio de las rutas principales, teclado completo, contraste revisado y CLS estable antes/después de activar anuncios |
 | Indexación | Sitemap correcto; cobertura aún procesándose | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
-| E-E-A-T / calidad editorial | 44/100 | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
+| E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense.
 
@@ -148,4 +148,4 @@ Cada entrada sigue siendo una pista de investigación, no una cita aprobada. La 
 - El artículo añade una promesa médica, un récord o una cifra universal sin evidencia primaria/institucional.
 - El rendimiento móvil o la experiencia de lectura empeora después de añadir anuncios.
 
-Este scorecard complementa [`GEO-AUDIT-REPORT.md`](../GEO-AUDIT-REPORT.md), [`EDITORIAL_INSPIRATION_LIBRARY.md`](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md), [`LUNA_MAX_PROTOCOL.md`](./editorial/LUNA_MAX_PROTOCOL.md) y el [`LUNA_MAX_AUTOMATION_RUNBOOK.md`](./editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md).
+Este scorecard complementa [`GEO-AUDIT-REPORT.md`](../GEO-AUDIT-REPORT.md), [`EDITORIAL_GROWTH_ROADMAP.md`](./EDITORIAL_GROWTH_ROADMAP.md), [`EDITORIAL_INSPIRATION_LIBRARY.md`](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md), [`LUNA_MAX_PROTOCOL.md`](./editorial/LUNA_MAX_PROTOCOL.md) y el [`LUNA_MAX_AUTOMATION_RUNBOOK.md`](./editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md).
