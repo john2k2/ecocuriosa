@@ -15,6 +15,8 @@ EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegaci�
 
 La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en las 32 fichas. Las 11 referencias raster heredadas sin crédito también se sustituyeron por ilustraciones SVG originales; las 32 fichas usan ahora ilustraciones con procedencia editorial explícita. Los 32 JPG originales se conservaron además como respaldo, sin activarlos como fotografía documental hasta verificar derechos y correspondencia.
 
+La política de privacidad también distingue ahora entre Web Analytics sin datos personales y los registros técnicos que puede procesar la infraestructura. No se declara que una dirección IP sea automáticamente anónima ni se atribuyen prácticas de retención que no estén verificadas; el titular puede solicitar información por el canal de privacidad.
+
 ### Desglose de puntuación
 
 | Categoría | Puntuación | Peso | Aporte ponderado |

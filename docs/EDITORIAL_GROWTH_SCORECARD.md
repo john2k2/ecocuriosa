@@ -148,4 +148,4 @@ Cada entrada sigue siendo una pista de investigación, no una cita aprobada. La 
 - El artículo añade una promesa médica, un récord o una cifra universal sin evidencia primaria/institucional.
 - El rendimiento móvil o la experiencia de lectura empeora después de añadir anuncios.
 
-Este scorecard complementa [`GEO-AUDIT-REPORT.md`](../GEO-AUDIT-REPORT.md), [`EDITORIAL_GROWTH_ROADMAP.md`](./EDITORIAL_GROWTH_ROADMAP.md) y [`LUNA_MAX_PROTOCOL.md`](./editorial/LUNA_MAX_PROTOCOL.md).
+Este scorecard complementa [`GEO-AUDIT-REPORT.md`](../GEO-AUDIT-REPORT.md), [`EDITORIAL_INSPIRATION_LIBRARY.md`](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md) y [`LUNA_MAX_PROTOCOL.md`](./editorial/LUNA_MAX_PROTOCOL.md).

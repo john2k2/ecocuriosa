@@ -1,6 +1,6 @@
 ---
-title: "El Escudo Invisible del Planeta: Cómo Funciona el Efecto Geodinamo Terrestre"
-description: "Comprende la convección de hierro líquido en el núcleo externo, las fuerzas de Coriolis y las inversiones magnéticas que protegen la vida en la Tierra."
+title: "Geodinamo terrestre: cómo se genera el campo magnético de la Tierra"
+description: "Qué es la geodinamo terrestre, cómo se mueve el metal líquido del núcleo externo y por qué el campo magnético cambia sin ser un escudo absoluto."
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
 author: "Equipo Editorial EcoCuriosa"
