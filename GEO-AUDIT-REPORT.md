@@ -133,15 +133,16 @@ de Search Console:
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | Producción antes de la optimización | 41/100 | 4,4 s | 7,8 s | 0 | 670 ms | AdSense se descargaba sin slots y Cloudflare inyectaba JavaScript de detección |
 | Producción después de retirar ese runtime | 84/100 | 3,3 s | 3,3 s | 0 | 0 ms | 96 imágenes intactas; el coste restante dominante era la red externa |
-| Producción actual con tipografías locales (mediana de 3 ejecuciones) | 89/100 | 1,9 s | 2,8 s | 0 | 300 ms | Sin Google Fonts remoto; Cloudflare sigue aportando una pequeña capa externa |
+| Producción actual con tipografías locales y nombres versionados (mediana de 3 ejecuciones) | 96/100 | 1,7 s | 2,4 s | 0 | 123 ms | 120,9 KB de tipografías; SEO y accesibilidad 100/100; Best Practices 81/100 por tres avisos de APIs obsoletas en JavaScript Detections de Cloudflare |
 | Control local con tipografías locales (mediana de 3 ejecuciones) | 99/100 | 1,5 s | 2,1 s | 0 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
 
-La ejecución posterior a la mejora dejó SEO y accesibilidad en 100/100. Las
-tres ejecuciones de producción oscilaron entre 84 y 91/100, por lo que se
-conserva la mediana y no el mejor resultado. La medición final de campo queda
-pendiente de datos RUM suficientes y de repetir el ensayo cuando AdSense tenga
-slots aprobados; no se debe presentar esta tabla como garantía de Core Web
-Vitals.
+La ejecución final dejó SEO y accesibilidad en 100/100 y rendimiento entre 94
+y 97/100. Best Practices quedó en 81/100 por avisos emitidos por el script
+gestionado de JavaScript Detections de Cloudflare; no es código propio del
+sitio. La medición final de campo queda pendiente de datos RUM suficientes y
+de repetir el ensayo cuando AdSense tenga slots aprobados; no se debe presentar
+esta tabla como garantía de Core Web Vitals. Desactivar esa detección es una
+decisión de seguridad pendiente y no se hizo automáticamente.
 
 ### Schema y datos estructurados — 82/100
 
@@ -212,7 +213,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes, 0 respaldos WebP faltantes, 0 imágenes sin texto alternativo y 0 sin crédito/procedencia; 0 conclusiones repetidas; 0 advertencias heurísticas. La auditoría ahora bloquea nuevos activos sin `imageAlt`, `imageCredit` o respaldo WebP cuando el original es SVG.
 - `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
 - `pnpm build`: 45 páginas estáticas generadas correctamente.
-- `pnpm content:link-audit`: 46 documentos HTML y 110 enlaces/recursos internos comprobados (incluye `srcset` de las imágenes); 0 rutas faltantes y 0 rutas HTML sin barra final. El control de canonicals quedó integrado en `.github/workflows/content-quality.yml`.
+- `pnpm content:link-audit`: 46 documentos HTML y 111 enlaces/recursos internos comprobados (incluye `srcset` de las imágenes y el preload de la fuente crítica); 0 rutas faltantes y 0 rutas HTML sin barra final. El control de canonicals quedó integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:source-render-audit`: las 32 fichas construidas exponen las 96 URLs de fuente del frontmatter como enlaces visibles en el HTML; 0 rutas de artículo ausentes y 0 fuentes omitidas. El control quedó integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:reference-audit`: las 96 fuentes del frontmatter también aparecen como enlaces exactos en el cuerpo de sus artículos (96/96); el control evita bibliografías genéricas o fuentes registradas que el lector no pueda rastrear.
 - `pnpm content:llms-audit`: 32/32 artículos sincronizados con `public/llms.txt`, 0 entradas faltantes/desactualizadas, 0 URLs no canónicas y 0 duplicadas; el control quedó integrado en `.github/workflows/content-quality.yml`.
@@ -221,7 +222,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - La segunda búsqueda enfocada de Luna Max añadió 25 fuentes no duplicadas y una priorización de siete oportunidades ligadas a consultas observadas (`geosmina`, tiburón de Groenlandia, geodinamo, pulpo mimo, leopardo de las nieves, pangolín gigante y Catatumbo). La tanda siguiente añadió diez fuentes no duplicadas para axolote, cebras, tardígrados, ballena azul, narval y corales; la búsqueda del 12/09 añadió doce para mantas, elefantes, pangolines, peces linterna, géiseres, nubes mammatus, auroras y calamar gigante; esta revisión añadió catorce para ajolote, ballena azul, corales, tiburón de Groenlandia, pangolines, búho real, tardígrados y peces linterna; y la verificación oficial añadió cuatro controles de Google sobre IA, imágenes, snippets y preparación de AdSense. Se conservan como candidatos con alcance y límites; no se añadieron citas automáticas a artículos publicados.
 - El pipeline histórico quedó aislado: se retiraron los seeds heredados con copy y autoría no verificados; `pipeline/generate_articles.py` ahora exige un brief JSON estructurado de Luna Max y solo genera borradores en `docs/editorial/drafts/`, mientras `pipeline/generate_images.py` deriva su manifiesto del frontmatter curado y solo genera activos fuera de `public/`. Ambos rechazan destinos publicados y colisiones.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.
-- Producción muestreada: portada, artículos con referencias trazables, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, las 96 imágenes (`jpg`, `svg` y `webp`), las tres tipografías locales, redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages. El despliegue de Pages `3e27672c-b050-4313-80da-73e92f441617`, generado desde el commit `2cd75cd7b8af81fd1c7cb9c14fd5befb5a43528f`, terminó con build y deploy exitosos y mantiene los alias `https://ecocuriosa.com` y `https://www.ecocuriosa.com`.
+- Producción muestreada: portada, artículos con referencias trazables, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, las 96 imágenes (`jpg`, `svg` y `webp`), las tres tipografías locales, redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages. El despliegue de Pages `e64235d1-b583-4654-8e94-ab49e0be9cd4`, generado desde el commit `4080844815d6ac7de669cbfa90931908d91cf6ff`, terminó con build y deploy exitosos y mantiene los alias `https://ecocuriosa.com` y `https://www.ecocuriosa.com`.
 - Pendiente de conexión externa: estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Search Console ya tiene una primera instantánea, pero la cobertura de indexación está procesándose y no hay datos de Core Web Vitals. Cloudflare tiene una instantánea API agregada; la cuenta conserva tres configuraciones RUM antiguas que requieren revisión manual antes de cualquier limpieza. La regla WAF de rutas exactas quedó activa y verificada en producción sin interferir con las rutas válidas.
 
 ## Apéndice: rutas representativas
