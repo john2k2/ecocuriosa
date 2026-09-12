@@ -2071,3 +2071,63 @@ entries:
     evidenceType: troubleshooting
     url: https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors
     use: test redirect chains, availability, soft 404, 404/410/301 states and render-blocking resources for author and correction pages
+  - id: google-ai-features
+    authority: Google Search Central
+    domain: ai-search
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/ai-features
+    use: keep indexable text, internal links, page experience, images and coherent structured data for AI Overviews and AI Mode; there is no special AI markup
+  - id: google-preferred-sources
+    authority: Google Search Central
+    domain: ai-search
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/preferred-sources
+    use: evaluate a voluntary deep link that lets readers add the complete EcoCuriosa domain as a preferred source where Google supports that feature
+  - id: google-discover-core-update-2026
+    authority: Google Search Central
+    domain: discover
+    evidenceType: announcement
+    url: https://developers.google.com/search/blog/2026/02/discover-core-update
+    use: guide people-first Discover briefs toward original, useful, timely work with descriptive headlines and relevant imagery; never treat an update notice as a ranking formula
+  - id: google-gen-ai-performance-reports-2026
+    authority: Google Search Central
+    domain: search-measurement
+    evidenceType: announcement
+    url: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports
+    use: record first-party visibility by URL, country, device, date, Search generative features and Discover when the report is available in the property
+  - id: google-ranking-systems-guide
+    authority: Google Search Central
+    domain: ranking-systems
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+    use: replace a single authority score with page- and topic-level audits of helpfulness, originality, links, sources and user experience
+  - id: crossref-research-integrity-metadata
+    authority: Crossref and DataCite
+    domain: scholarly-metadata
+    evidenceType: guidance
+    url: https://www.crossref.org/publications/guide-metadata-research-integrity/
+    use: checklist for contributors, roles, affiliations, funding, versions, corrections, references and stewardship when a scholarly record is justified
+  - id: crossref-data-software-citation
+    authority: Crossref
+    domain: reproducibility
+    evidenceType: documentation
+    url: https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/data-citation/
+    use: relate an article to a dataset, software or supplement with persistent identifiers and visible references when those resources support a claim
+  - id: datacite-metadata-schema-47
+    authority: DataCite
+    domain: research-metadata
+    evidenceType: standard
+    url: https://schema.datacite.org/
+    use: model creators, resource type, dates, versions, licences and related identifiers for datasets, observations and supplementary assets
+  - id: ror-registry
+    authority: Research Organization Registry
+    domain: affiliations
+    evidenceType: registry
+    url: https://ror.org/registry/
+    use: normalize verified institutions and funders in future author or source records; never infer a person’s expertise from an organization ID
+  - id: icmje-authors-contributors
+    authority: ICMJE
+    domain: authorship
+    evidenceType: guidance
+    url: https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+    use: separate human authorship, contributor roles, final approval and responsibility, and declare AI assistance without listing AI as an author

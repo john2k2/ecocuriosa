@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 344 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 354 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -381,6 +381,23 @@ Luna identificó estas referencias para reforzar la confianza sin fabricar crede
 | Calidad de anuncios | [Límites de publicación de anuncios](https://support.google.com/adsense/answer/9437976?hl=es) | Monitorizar anomalías de tráfico y detener escalado si hay una limitación | No ofrece umbrales ni plazos garantizados |
 | HTML | [Google: metadatos de página válidos](https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata) | Preflight para evitar que un elemento inválido invalide title, canonical o JSON-LD posteriores | Mejora legibilidad técnica, no autoridad editorial |
 | Rastreo | [Google: errores de rastreo](https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors) | Verificar estados, soft 404, cadenas de redirección y render de páginas de confianza | Rastreo no equivale a indexación ni ranking |
+
+### Nueva ronda de Luna Max: autoridad, Discover y procedencia — 12 de septiembre
+
+Estas diez referencias completan los huecos de autoridad y medición sin prometer posiciones. Se mantienen como inspiración hasta que una persona confirme que el caso aplica a una publicación concreta.
+
+| Área | Fuente oficial | Aplicación posible | Límite |
+| --- | --- | --- | --- |
+| IA en Search | [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features) | Priorizar HTML visible, enlaces, imágenes, experiencia y datos coherentes; no crear un “marcado para IA” inventado | No garantiza rastreo, indexación ni aparición en AI Overviews |
+| Fuente preferida | [Google: Preferred sources](https://developers.google.com/search/docs/appearance/preferred-sources) | Probar un deeplink voluntario para que un lector añada el dominio completo como fuente preferida | Depende de la disponibilidad de la función y de la elección del usuario |
+| Discover | [Google: actualización principal de Discover de febrero de 2026](https://developers.google.com/search/blog/2026/02/discover-core-update) | Briefs originales, útiles y oportunos, con titulares descriptivos e imágenes relevantes | Es un anuncio de actualización, no una fórmula de ranking |
+| Medición IA | [Google: informes de rendimiento de Search generative AI](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) | Registrar impresiones por URL, país, dispositivo y fecha cuando el informe aparezca en la propiedad | Mide visibilidad, no calidad ni causalidad |
+| Sistemas de ranking | [Google: guía de sistemas de ranking](https://developers.google.com/search/docs/appearance/ranking-systems-guide) | Sustituir una puntuación única por auditorías por página y clúster temático | No es una lista determinista ni exhaustiva |
+| Integridad | [Crossref/DataCite: metadatos para integridad de investigación](https://www.crossref.org/publications/guide-metadata-research-integrity/) | Checklist de roles, afiliación, versiones, correcciones, referencias y responsable | Orientado a registros académicos; adaptar a divulgación web |
+| Datos y software | [Crossref: citación de datos y software](https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/data-citation/) | Exigir identificadores persistentes y relaciones visibles cuando un artículo use datos o código | El depósito Crossref/DOI es condicional |
+| Datasets | [DataCite Metadata Schema 4.7](https://schema.datacite.org/) | Modelar creador, versión, licencia y relaciones de datasets o material suplementario | Estándar de metadatos, no señal SEO directa |
+| Afiliaciones | [ROR Registry](https://ror.org/registry/) | Normalizar instituciones verificadas en perfiles y futuras fichas académicas | Un ID institucional no prueba pericia personal |
+| Autoría | [ICMJE: autores y colaboradores](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) | Separar autor humano, roles, aprobación final y responsabilidad; declarar asistencia de IA | Recomendación editorial para publicaciones médicas, no obligación universal |
 
 ### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
 

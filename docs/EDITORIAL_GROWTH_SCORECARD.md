@@ -19,6 +19,8 @@ El sitemap generado incluye ahora una entrada de imagen WebP para cada una de la
 
 La plantilla de artículo reserva ahora la proporción real de las láminas activas (1200×750, `8/5`) en lugar de declarar una altura 16:9 que recortaba la ilustración; la auditoría de imagen mantiene el umbral de 1200 px como puerta de publicación.
 
+El control `content:generated-metadata-audit` recorre el HTML de `dist` después del build y exige, para las páginas indexables, idioma español, título, descripción de 50–160 caracteres, canonical HTTPS único, Open Graph y JSON-LD; excluye únicamente el archivo de verificación de Search Console.
+
 El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.
 
 El auditor de contenido también bloquea activos que no estén declarados como originales o creados para EcoCuriosa cuando les falten creador, licencia y página de licencia HTTPS. Las ilustraciones actuales conservan su crédito editorial; una fotografía o imagen de terceros debe completar esos tres campos antes de entrar en producción.
@@ -162,7 +164,7 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 344 entradas y la biblioteca 84 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones y preparación de AdSense. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene 354 entradas y la biblioteca 84 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

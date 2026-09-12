@@ -30,6 +30,7 @@ jobs:
       - run: pnpm content:llms-audit
       - run: pnpm astro check
       - run: pnpm build
+      - run: pnpm content:generated-metadata-audit
       - run: pnpm content:rss-audit
       - run: pnpm content:image-sitemap-audit
       - run: pnpm content:source-render-audit
