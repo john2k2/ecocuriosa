@@ -7,7 +7,7 @@
 
 > Este GEO Score es una línea base operativa, no una predicción de posiciones ni una aprobación de AdSense. Las categorías que necesitan datos de terceros se puntúan de forma conservadora porque las menciones de marca y los Core Web Vitals de campo siguen sin conexión; ahora se incorporaron instantáneas autenticadas de Search Console y Cloudflare.
 
-El plan ejecutable con responsables, umbrales, contrato de Luna Max y criterios de detención está en [`docs/EDITORIAL_GROWTH_SCORECARD.md`](docs/EDITORIAL_GROWTH_SCORECARD.md).
+El plan ejecutable con responsables, umbrales, contrato de Luna Max y criterios de detención está en [`docs/EDITORIAL_GROWTH_SCORECARD.md`](docs/EDITORIAL_GROWTH_SCORECARD.md) y el runbook operativo en [`docs/editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md`](docs/editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md).
 
 ## Resumen ejecutivo
 
