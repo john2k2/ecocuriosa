@@ -63,7 +63,7 @@ Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cua
   * **Realidad científica contrastada:** NOAA los sitúa en capas distintas: el vórtice es estratosférico y el chorro polar está en la troposfera.
 
 * **Mito 2:** Se piensa que si hay vórtice polar hace frío en todo el planeta a la vez.
-  * **Realidad científica contrastada:** La rotura del vórtice produce un patrón dipolo o trípode: mientras algunas regiones sufren fríos glaciares extremos (ej. Europa Central o el este de EE.UU.), otras regiones como Groenlandia, Alaska o el propio Ártico experimentan anomalías térmicas cálidas inauditas con temperaturas decenas de grados por encima de la media.
+  * **Realidad científica contrastada:** La respuesta puede ser desigual: algunas regiones experimentan episodios fríos, mientras otras registran anomalías cálidas; la magnitud y distribución dependen del episodio y de la circulación regional. No se puede convertir la rotura en un patrón térmico universal.
 
 ---
 

@@ -39,7 +39,7 @@ Las metas siguientes son umbrales operativos para mejorar el sitio, no promesas 
 | Diseño, navegación y móvil | Bueno | Excelente medible | prueba móvil de rutas clave, navegación de teclado, contraste y CLS sin deterioro al activar anuncios |
 | Indexación | Google ya encuentra el sitio | Cobertura controlada | Search Console con sitemap enviado, exclusiones justificadas y cero errores críticos de indexación |
 | AdSense técnico | Preparado | Aprobado y medido | aprobación de la cuenta, CMP probado, slots reales y RPM/visibilidad/CLS documentados |
-| E-E-A-T / calidad editorial | 44/100 | 75/100 antes de escalar | 32 revisiones humanas reales, autoría/perfil verificable, fuentes específicas, correcciones trazables y derechos de imagen documentados |
+| E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas reales, autoría/perfil verificable, fuentes específicas, correcciones trazables y derechos de imagen documentados |
 
 El cuello de botella para acercarse a estas metas es E-E-A-T, no agregar más volumen. Las políticas de Google recomiendan contenido original y centrado en personas, y las políticas de Publisher restringen páginas copiadas, reescritas o generadas sin revisión/curación humana.
 
