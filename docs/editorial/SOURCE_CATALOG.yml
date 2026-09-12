@@ -28,6 +28,18 @@ entries:
     evidenceType: policy
     url: https://support.google.com/adsense/answer/9724?hl=es
     use: original, high-quality content and audience requirement
+  - id: adsense-program-policies
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/48182?hl=es
+    use: publisher-policy boundaries, invalid activity and restricted content
+  - id: adsense-landing-page-quality
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/1348727?hl=es
+    use: relevant original content, transparency and navigation for ad landing pages
   - id: adsense-replicated-content
     authority: Google Publisher Policies
     domain: monetization
