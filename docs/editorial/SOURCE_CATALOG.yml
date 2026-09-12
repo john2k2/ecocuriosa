@@ -1039,3 +1039,195 @@ entries:
     evidenceType: peer-reviewed-review
     url: https://doi.org/10.1093/biolinnean/blab138
     use: comparative silent-flight and facial-disc analysis across 147 owl species
+  - id: depositional-record-blue-hole-2025
+    authority: The Depositional Record
+    domain: marine-geology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1002/dep2.70021
+    use: sedimentary record of the Great Blue Hole; verify site, dates and methods before reuse
+  - id: noaa-coral-bleach-facts-plain-url
+    authority: NOAA Ocean Service
+    domain: marine-ecology
+    evidenceType: institutional-explainer
+    url: https://oceanservice.noaa.gov/facts/coral_bleach.html
+    use: heat stress, symbiont loss and the distinction between bleaching and mortality
+  - id: pmc-coral-symbiosis-5955907
+    authority: ISME Journal / PubMed Central
+    domain: marine-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/
+    use: cellular coral symbiosis and bleaching mechanisms; keep species and experiment scope explicit
+  - id: noaa-swpc-aurora-guide
+    authority: NOAA Space Weather Prediction Center
+    domain: space-weather
+    evidenceType: institutional-guide
+    url: https://www.swpc.noaa.gov/sites/default/files/images/u2/Aurora.pdf
+    use: aurora mechanism and observing guidance; distinguish a guide from a local forecast
+  - id: nature-axolotl-genome-25458
+    authority: Nature
+    domain: regenerative-biology
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/nature25458
+    use: axolotl genome and tissue-formation regulators; do not extrapolate to human regeneration
+  - id: pmc-axolotl-blastema-4895312
+    authority: Regeneration / PubMed Central
+    domain: regenerative-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/
+    use: axolotl limb blastema and positional information; preserve experimental limits
+  - id: noaa-blue-whale-physiology-53258
+    authority: Science / NOAA Repository
+    domain: marine-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/53258
+    use: body-size constraints in whales; state the comparative sample and model assumptions
+  - id: reviews-geophysics-polar-vortex-2020
+    authority: Reviews of Geophysics
+    domain: atmospheric-science
+    evidenceType: peer-reviewed-review
+    url: https://doi.org/10.1029/2020RG000708
+    use: sudden stratospheric warmings and uncertain surface impacts; avoid deterministic forecasts
+  - id: pubmed-gecko-setae-10864324
+    authority: Nature / PubMed
+    domain: animal-physics
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/10864324/
+    use: adhesive force of a single gecko foot-hair; retain the single-hair experimental scope
+  - id: pubmed-gecko-attachment-17148600
+    authority: Proceedings of the National Academy of Sciences / PubMed
+    domain: animal-physics
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/17148600/
+    use: gecko toe attachment and detachment; distinguish measured adhesion from simplified popular explanations
+  - id: snow-leopard-trust-behaviour
+    authority: Snow Leopard Trust
+    domain: conservation
+    evidenceType: institutional-profile
+    url: https://snowleopard.org/snow-leopard-facts/behavior/
+    use: species behaviour context for Panthera uncia; verify date and regional scope
+  - id: pmc-snow-leopard-haemoglobin-4528707
+    authority: Journal of Experimental Biology / PubMed Central
+    domain: comparative-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/
+    use: felid haemoglobin oxygen affinity; do not turn comparative physiology into a universal altitude limit
+  - id: journal-ethology-manta-self-directed-2016
+    authority: Journal of Ethology
+    domain: animal-behaviour
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1007/s10164-016-0462-z
+    use: contingency checking and self-directed behaviours in giant manta rays; observations do not prove human-like intelligence
+  - id: pmc-noctiluca-ecology-7351363
+    authority: PubMed Central
+    domain: marine-microbiology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/
+    use: Noctiluca scintillans ecology and bioluminescence; keep region and bloom conditions explicit
+  - id: pubmed-elephant-matriarchs-11313492
+    authority: Science / PubMed
+    domain: animal-behaviour
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/11313492/
+    use: social knowledge associated with elephant matriarchs; avoid claims of perfect memory or maps
+  - id: pmc-elephant-olfactory-receptors-4158756
+    authority: Genome Research / PubMed Central
+    domain: comparative-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4158756/
+    use: African-elephant olfactory receptor repertoire; do not equate gene counts with behaviour
+  - id: smithsonian-narwhal-tooth-sensory-119183
+    authority: Smithsonian Profiles
+    domain: marine-biology
+    evidenceType: institutional-research
+    url: https://profiles.si.edu/display/sro_119183
+    use: sensory ability in the narwhal tooth organ system; distinguish anatomical evidence from function in the wild
+  - id: pubmed-pangolin-scales-26703230
+    authority: Journal of the Mechanical Behavior of Biomedical Materials / PubMed
+    domain: comparative-anatomy
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/26703230/
+    use: structure and mechanical behaviour of pangolin scales; keep species and material-testing conditions visible
+  - id: mammal-diversity-pangolin-1005800
+    authority: American Society of Mammalogists
+    domain: taxonomy
+    evidenceType: institutional-database
+    url: https://www.mammaldiversity.org/taxon/1005800/
+    use: taxonomic profile for Smutsia gigantea; check current taxonomy before publication
+  - id: pmc-lanternfish-vision-5312020
+    authority: Royal Society Open Science / PubMed Central
+    domain: deep-sea-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/
+    use: visual adaptations in lanternfishes; separate species, depth and measured traits
+  - id: nist-water-thermochemical-data
+    authority: NIST Chemistry WebBook
+    domain: physical-chemistry
+    evidenceType: institutional-dataset
+    url: https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=224
+    use: thermochemical reference for water; cite the property and conditions actually used
+  - id: nasa-standard-atmosphere-19930090991
+    authority: NASA Technical Reports Server
+    domain: atmospheric-science
+    evidenceType: technical-report
+    url: https://ntrs.nasa.gov/api/citations/19930090991/downloads/19930090991.pdf
+    use: standard-atmosphere pressure relationships; distinguish a model atmosphere from every mountain
+  - id: pmc-geosmin-biosynthesis-3013058
+    authority: Nature Chemical Biology / PubMed Central
+    domain: microbial-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/
+    use: geosmin biosynthesis; petrichor is a mixture and not synonymous with one compound
+  - id: pmc-yawn-contagion-empathy-3233580
+    authority: PLOS ONE / PubMed Central
+    domain: comparative-neuroscience
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3233580/
+    use: yawn contagion and empathy hypotheses; preserve the correlational and sample limits
+  - id: pmc-yawn-thermoregulation-3534187
+    authority: Frontiers in Evolutionary Neuroscience / PubMed Central
+    domain: comparative-neuroscience
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3534187/
+    use: thermoregulatory yawn hypothesis; label it as a hypothesis rather than settled mechanism
+  - id: nature-zebra-stripes-function-2014
+    authority: Nature Communications
+    domain: evolutionary-biology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/ncomms4535
+    use: competing zebra-stripe hypotheses; identify species and experimental setting
+  - id: pmc-zebra-stripes-cooling-6008466
+    authority: Scientific Reports / PubMed Central
+    domain: evolutionary-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/
+    use: test of stripe cooling hypothesis; do not state a single adaptive function as settled
+  - id: current-biology-cat-purring-2023-10-033
+    authority: Current Biology
+    domain: comparative-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.cub.2023.10.033
+    use: domestic-cat purring mechanisms; separate frequency observations from therapeutic claims
+  - id: pubmed-greenland-shark-longevity-27516602
+    authority: Science / PubMed
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract
+    use: radiocarbon age estimates in Greenland sharks; report uncertainty and sample assumptions
+  - id: pmc-greenland-shark-reproduction-7540863
+    authority: Journal of Fish Biology / PubMed Central
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7540863/
+    use: reproductive biology of Greenland sharks; do not infer a global population trend
+  - id: pmc-owl-wing-serrations-3162239
+    authority: Journal of Anatomy / PubMed Central
+    domain: aeroacoustics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/
+    use: three-dimensional serration shape in barn-owl wings; preserve species and measurement scope
+  - id: annual-review-owl-flight-2018
+    authority: Annual Review of Fluid Mechanics
+    domain: aeroacoustics
+    evidenceType: peer-reviewed-review
+    url: https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436
+    use: comparative aeroacoustics of silent owl flight; avoid claiming every owl is completely silent
