@@ -90,6 +90,12 @@ const organization = {
     "url": new URL('/images/logo.webp', siteURL).href
   },
   "email": "privacidad@ecocuriosa.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "consultas editoriales y privacidad",
+    "email": "contacto@ecocuriosa.com",
+    "availableLanguage": "es"
+  },
   "knowsAbout": ["Biodiversidad", "Ciencias naturales", "Océanos", "Geología", "Divulgación científica"]
 };
 
@@ -114,7 +120,8 @@ const page = {
   "name": fullTitle,
   "description": description,
   "isPartOf": { "@id": websiteId },
-  "inLanguage": "es"
+  "inLanguage": "es",
+  ...(pageType === 'about' ? { "mainEntity": { "@id": organizationId } } : {})
 };
 
 const article = type === 'article' ? {
