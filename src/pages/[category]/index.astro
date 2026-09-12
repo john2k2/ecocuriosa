@@ -51,7 +51,7 @@ const allArticles = await getCollection('articles', (entry) => {
 });
 
 const sortedArticles = allArticles.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
 );
 ---
 

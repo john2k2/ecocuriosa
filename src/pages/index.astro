@@ -7,7 +7,7 @@ import { ADSENSE_SLOTS } from '../config/ads';
 
 const allArticles = await getCollection('articles');
 const sortedArticles = allArticles.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
 );
 
 const featuredArticle = sortedArticles.find((a) => a.data.featured) || sortedArticles[0];
