@@ -123,6 +123,10 @@ manual están en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_
 
 La entrega de producción verificada incluye HTML SSR, canonicales, Open Graph/Twitter, sitemap, `robots.txt` permisivo, `llms.txt`, HSTS, `nosniff`, referrer policy, CSP base, caché de assets y redirección `www`→apex. `astro check` terminó con 0 errores/avisos/sugerencias y el build genera 45 páginas. Falta medir Core Web Vitals con usuarios reales después de activar anuncios.
 
+La tarjeta visual de la portada ahora deriva imagen, título, categoría, descripción
+y enlace del artículo que tenga `featured: true`; así una futura rotación editorial
+no puede dejar una ficha destacada desincronizada.
+
 #### Medición de laboratorio reproducible — 12/09/2026
 
 Se ejecutó Lighthouse CLI en una emulación móvil contra la portada publicada. El

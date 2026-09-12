@@ -12,6 +12,19 @@ const sortedArticles = allArticles.sort(
 
 const featuredArticle = sortedArticles.find((a) => a.data.featured) || sortedArticles[0];
 const recentArticles = sortedArticles.filter((a) => a !== featuredArticle).slice(0, 9);
+const featuredImage = featuredArticle?.data.image ?? '/images/og-default.svg';
+const featuredImageWebp = featuredImage.toLowerCase().endsWith('.svg')
+  ? featuredImage.replace(/\.svg$/i, '.webp')
+  : featuredImage;
+const featuredIsSvg = featuredImage.toLowerCase().endsWith('.svg');
+const featuredCategoryLabel = featuredArticle
+  ? {
+      'fauna-fascinante': 'Fauna fascinante',
+      'especies-marinas': 'Especie marina',
+      'fenomenos-naturales': 'Fenómeno natural',
+      'ciencia-curiosa': 'Ciencia curiosa',
+    }[featuredArticle.data.category] ?? 'Archivo'
+  : 'Archivo';
 
 const biomes = [
   {
@@ -98,11 +111,11 @@ const biomes = [
 
             <div class="relative aspect-[16/11] mb-4 overflow-hidden rounded-md bg-[#052212]">
               <picture class="block w-full h-full">
-                <source type="image/svg+xml" srcset="/images/articles/leopardo-de-las-nieves-montana.svg" />
-                <source type="image/webp" srcset="/images/articles/leopardo-de-las-nieves-montana.webp" />
+                {featuredIsSvg && <source type="image/svg+xml" srcset={featuredImage} />}
+                {featuredIsSvg && <source type="image/webp" srcset={featuredImageWebp} />}
                 <img
-                  src="/images/articles/leopardo-de-las-nieves-montana.webp"
-                  alt="Ilustración editorial de un leopardo de las nieves en una cresta rocosa del Himalaya"
+                  src={featuredImageWebp}
+                  alt={featuredArticle?.data.imageAlt ?? 'Ilustración editorial de una investigación de EcoCuriosa'}
                   width="800"
                   height="550"
                   loading="eager"
@@ -119,14 +132,14 @@ const biomes = [
             <div class="pt-3 border-t border-[#135933] text-xs">
               <div class="flex items-center justify-between mb-2">
                 <h2 class="font-serif italic text-base text-[#fbf9f4] font-semibold group-hover:text-[#c59b27] transition-colors">
-                  <a href="/fauna-fascinante/leopardo-de-las-nieves-adaptaciones-frio-extremo/" class="after:absolute after:inset-0 after:z-10 focus:outline-none">
-                    Panthera uncia
+                  <a href={featuredArticle ? `/${featuredArticle.data.category}/${featuredArticle.id}/` : '/'} class="after:absolute after:inset-0 after:z-10 focus:outline-none">
+                    {featuredArticle?.data.title ?? 'Archivo destacado'}
                   </a>
                 </h2>
-                <span class="text-xs tracking-wide font-semibold text-[#c59b27]">Mamífero · Carnívoro</span>
+                <span class="text-xs tracking-wide font-semibold text-[#c59b27]">{featuredCategoryLabel}</span>
               </div>
               <p class="text-[#eaf3ec] text-xs leading-relaxed mb-3">
-                Pelaje denso, patas anchas y una cola larga: un felino adaptado al frío, la nieve y las pendientes de Asia Central.
+                {featuredArticle?.data.description ?? 'Una investigación seleccionada del archivo editorial de EcoCuriosa.'}
               </p>
               <div class="flex items-center justify-between pt-2 border-t border-[#135933]/60 text-xs text-[#a3b8ad]">
                   <span>Monografía destacada</span>
