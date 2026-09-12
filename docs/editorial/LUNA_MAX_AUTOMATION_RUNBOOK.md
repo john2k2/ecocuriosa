@@ -3,7 +3,7 @@
 **Versión:** 12 de septiembre de 2026  
 **Estado:** diseño listo para revisión; no crea publicaciones ni modifica la cuenta de AdSense.
 
-Este runbook complementa [`LUNA_MAX_PROTOCOL.md`](./LUNA_MAX_PROTOCOL.md), el [scorecard de crecimiento](../EDITORIAL_GROWTH_SCORECARD.md) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md). Su objetivo es convertir señales reales de búsqueda en investigación y borradores revisables, manteniendo la decisión editorial y la publicación en manos de una persona.
+Este runbook complementa [`LUNA_MAX_PROTOCOL.md`](./LUNA_MAX_PROTOCOL.md), el [scorecard de crecimiento](../EDITORIAL_GROWTH_SCORECARD.md) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md). Su objetivo es convertir señales reales de búsqueda en investigación y borradores revisables, manteniendo la decisión editorial y la publicación en manos de una persona. Los estados `203` y `403` de una comprobación automática se interpretan según el [snapshot de acceso a fuentes](./SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y requieren apertura manual, no descarte automático.
 
 ## Resultado que debe producir cada ciclo
 

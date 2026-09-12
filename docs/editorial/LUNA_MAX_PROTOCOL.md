@@ -1,6 +1,6 @@
 # Protocolo de Luna Max: investigación editorial sin publicación automática
 
-Luna consulta [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md) únicamente para descubrir oportunidades. El catálogo no es una lista de citas aprobadas: la persona responsable abre la fuente concreta antes de aceptar cualquier afirmación.
+Luna consulta [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md) únicamente para descubrir oportunidades. El catálogo no es una lista de citas aprobadas: la persona responsable abre la fuente concreta antes de aceptar cualquier afirmación. Si una URL devuelve `203` o `403` a una comprobación automatizada, debe consultarse el [snapshot de acceso a fuentes](./SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y abrirse manualmente; ese estado no autoriza a descartarla ni a aprobarla.
 
 ## Roles separados
 
