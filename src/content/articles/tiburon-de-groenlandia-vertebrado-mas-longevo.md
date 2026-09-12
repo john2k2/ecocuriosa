@@ -3,6 +3,7 @@ title: "El tiburón de Groenlandia: longevidad estimada de siglos"
 description: "Qué reveló la datación por radiocarbono sobre Somniosus microcephalus y qué incertidumbres persisten sobre su biología."
 category: "especies-marinas"
 pubDate: 2026-08-14
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/tiburon-de-groenlandia.svg"
 imageAlt: "Ilustración editorial sobre la longevidad y el metabolismo del tiburón de Groenlandia"

@@ -3,6 +3,7 @@ title: "Geodinamo terrestre: cómo se genera el campo magnético de la Tierra"
 description: "Qué es la geodinamo terrestre, cómo se mueve el metal líquido del núcleo externo y por qué el campo magnético cambia sin ser un escudo absoluto."
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/campo-magnetico-geodinamo.svg"
 imageAlt: "Ilustración editorial del campo magnético terrestre desviando partículas cargadas del viento solar"

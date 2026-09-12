@@ -3,6 +3,7 @@ title: "Geosmina y petricor: por qué huele la tierra mojada"
 description: "Cómo la geosmina, los aceites vegetales y los aerosoles del suelo contribuyen al olor a tierra mojada, sin reducir el petricor a una sola molécula."
 category: "ciencia-curiosa"
 pubDate: 2026-09-04
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/petricor-gotas-lluvia-tierra.svg"
 imageAlt: "Ilustración editorial de una gota de lluvia sobre tierra seca y microaerosoles"

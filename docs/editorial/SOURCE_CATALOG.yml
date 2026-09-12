@@ -1549,3 +1549,63 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://doi.org/10.1016/j.jhazmat.2025.138007
     use: geosmin variation in sediments and microbial communities in Lake Chaohu; do not generalize a lake study to every rain event
+  - id: axolotl-movement-xochimilco-plos-2025
+    authority: PLOS ONE
+    domain: conservation-biology
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314257
+    use: movement ecology of captive-bred axolotls in Xochimilco and an artificial wetland; preserve the two-site and captive-animal limits
+  - id: unam-axolotl-xochimilco-2025
+    authority: Universidad Nacional Autónoma de México
+    domain: conservation-context
+    evidenceType: institutional-report
+    url: https://www.dgcs.unam.mx/boletin/bdboletin/2025_865.html
+    use: refuge, biofilter and conservation-program context for Xochimilco; not an independent abundance estimate
+  - id: zebra-stripes-tabanid-plos-2019
+    authority: PLOS ONE
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210831
+    use: close-range behavior of tabanid flies around zebras and horses; retain the tested species and conditions
+  - id: zebra-stripes-flies-scirep-2022
+    authority: Scientific Reports
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s41598-022-22333-7
+    use: short-range repulsion experiments with zebra and equid skins; do not infer a complete evolutionary explanation
+  - id: tardigrade-dna-repair-radiation-2024
+    authority: Current Biology
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.cub.2024.03.019
+    use: radiation response and DNA-repair pathways in Hypsibius exemplaris; do not equate laboratory radiation tolerance with universal space survival
+  - id: tardigrade-cryptobiosis-habitat-gradient-2024
+    authority: Organisms Diversity & Evolution
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1007/s13127-024-00660-z
+    use: habitat-gradient evidence that cryptobiotic ability depends on state and environment; retain local sampling limits
+  - id: rorqual-cardiac-dynamics-pnas-2026
+    authority: Proceedings of the National Academy of Sciences
+    domain: marine-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/42507932/
+    use: biologging of cardiac dynamics during feeding in rorquals, including blue whales; not a universal blue-whale heart-rate value
+  - id: narwhal-tusk-foraging-frontiers-2025
+    authority: Frontiers in Marine Science
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1518605/full
+    use: drone observations of narwhal tusk use in foraging and exploration; preserve region, surface-observation and inference limits
+  - id: hawaii-coral-survivorship-noaa-2025
+    authority: NOAA Fisheries
+    domain: coral-reef-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://www.fisheries.noaa.gov/resource/peer-reviewed-research/survivorship-and-growth-corals-hawaii-two-years-post-bleaching
+    use: two-year survivorship and growth after bleaching in Hawaiʻi; preserve taxon, depth, heat history and 2,150-colony sample limits
+  - id: noaa-threats-to-coral
+    authority: NOAA Atlantic Oceanographic and Meteorological Laboratory
+    domain: coral-reef-ecology
+    evidenceType: institutional-explainer
+    url: https://www.aoml.noaa.gov/threats-to-coral/
+    use: stress, symbiont loss and recovery context; treat the approximate 1 °C threshold as regional guidance, not a universal law

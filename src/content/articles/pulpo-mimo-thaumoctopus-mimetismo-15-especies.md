@@ -3,6 +3,7 @@ title: "El pulpo mimo: camuflaje dinámico y modelos que puede imitar"
 description: "Qué observaron los estudios sobre Thaumoctopus mimicus y por qué las listas populares de imitaciones requieren cautela."
 category: "especies-marinas"
 pubDate: 2026-08-15
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/pulpo-mimo-camuflaje.svg"
 imageAlt: "Ilustración editorial de un pulpo mimo cambiando la forma de sus tentáculos"

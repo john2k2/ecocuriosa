@@ -28,6 +28,12 @@ const articlesCollection = defineCollection({
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     /**
+     * Date of a substantive text/source update. This is distinct from
+     * reviewedDate: an update may be published while human review metadata
+     * remains pending.
+     */
+    updatedDate: z.date().optional(),
+    /**
      * Sources are direct, structured URLs shown to readers. A model may
      * suggest candidates, but only a person can verify their correspondence
      * with the article and record reviewedDate/reviewedBy.

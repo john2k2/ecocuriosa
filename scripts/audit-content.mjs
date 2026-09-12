@@ -17,6 +17,8 @@ const boilerplateConclusions = [];
 const emptyReferenceLists = [];
 const invalidSources = [];
 const insufficientSources = [];
+const invalidDates = [];
+const incompleteReview = [];
 const editorialRiskFlags = [];
 const descriptionQualityFlags = [];
 const sharedConclusion = 'El análisis científico de este fenómeno evidencia la importancia del método empírico';
@@ -41,11 +43,24 @@ for (const filename of filenames) {
   const imageCredit = frontmatter.match(/^imageCredit:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
   const description = frontmatter.match(/^description:\s*["'](.+)["']\s*$/m)?.[1] ?? '';
   const hasSources = /^sources:\s*\n\s+-\s+title:/m.test(frontmatter);
-  const hasReview = /^reviewedDate:/m.test(frontmatter) && /^reviewedBy:/m.test(frontmatter);
+  const hasReviewedDate = /^reviewedDate:/m.test(frontmatter);
+  const hasReviewedBy = /^reviewedBy:/m.test(frontmatter);
+  const hasReview = hasReviewedDate && hasReviewedBy;
+  const pubDateRaw = frontmatter.match(/^pubDate:\s*['"]?([^'"\n]+)['"]?\s*$/m)?.[1]?.trim();
+  const updatedDateRaw = frontmatter.match(/^updatedDate:\s*['"]?([^'"\n]+)['"]?\s*$/m)?.[1]?.trim();
   const sourceBlocks = [...frontmatter.matchAll(/^\s+-\s+title:\s*["']?(.+?)["']?\s*\n\s+publisher:\s*["']?(.+?)["']?\s*\n\s+url:\s*["']?(.+?)["']?\s*$/gm)];
 
   if (!hasSources) missingSources.push(filename);
   if (!hasReview) missingReview.push(filename);
+  if (hasReviewedDate !== hasReviewedBy) incompleteReview.push(filename);
+  if (updatedDateRaw) {
+    const pubTime = pubDateRaw ? Date.parse(pubDateRaw) : NaN;
+    const updatedTime = Date.parse(updatedDateRaw);
+    const now = Date.now();
+    if (!Number.isFinite(updatedTime) || !Number.isFinite(pubTime) || updatedTime < pubTime || updatedTime > now + 86_400_000) {
+      invalidDates.push({ filename, pubDate: pubDateRaw ?? null, updatedDate: updatedDateRaw });
+    }
+  }
   if (description.length < 80 || description.length > 160) {
     descriptionQualityFlags.push({ filename, length: description.length });
   }
@@ -111,6 +126,8 @@ const report = [
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
   `Fuentes con formato incompleto: ${invalidSources.length}`,
   `Artículos con menos de dos fuentes: ${insufficientSources.length}`,
+  `Fechas de actualización inválidas: ${invalidDates.length}`,
+  `Revisiones incompletas (fecha o responsable ausente): ${incompleteReview.length}`,
   `Descripciones fuera de 80–160 caracteres: ${descriptionQualityFlags.length}`,
   `Artículos con lenguaje de riesgo para revisión: ${editorialRiskFlags.length}`,
 ];
@@ -129,6 +146,8 @@ const findings = {
   emptyReferenceLists,
   invalidSources,
   insufficientSources,
+  invalidDates,
+  incompleteReview,
   descriptionQualityFlags,
   editorialRiskFlags,
 };
@@ -143,6 +162,8 @@ if (json) {
   if (emptyReferenceLists.length) console.log(`Referencias vacías: ${emptyReferenceLists.join(', ')}`);
   if (invalidSources.length) console.error(`Fuentes con formato incompleto: ${invalidSources.join(', ')}`);
   if (insufficientSources.length) console.error(`Menos de dos fuentes: ${insufficientSources.join(', ')}`);
+  if (invalidDates.length) console.error(`Fechas de actualización inválidas: ${invalidDates.map(({ filename }) => filename).join(', ')}`);
+  if (incompleteReview.length) console.error(`Revisiones incompletas: ${incompleteReview.join(', ')}`);
   if (descriptionQualityFlags.length) console.log(`Descripciones fuera de rango: ${descriptionQualityFlags.map(({ filename, length }) => `${filename} (${length})`).join(', ')}`);
   if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
@@ -158,6 +179,8 @@ if (missingImages.length || missingImageVariants.length || missingImageAlt.lengt
   emptyReferenceLists.length ||
   invalidSources.length ||
   insufficientSources.length ||
+  invalidDates.length ||
+  incompleteReview.length ||
   descriptionQualityFlags.length ||
   missingImageAlt.length ||
   missingImageCredit.length

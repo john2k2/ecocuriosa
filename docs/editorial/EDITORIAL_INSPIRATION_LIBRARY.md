@@ -221,7 +221,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 257 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 267 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -252,3 +252,16 @@ Luna contrastó las consultas anteriores con fuentes nuevas y no duplicadas. Est
 | Alta | `pangolín gigante`: ¿cómo se detecta una especie casi invisible? | `giant-pangolin-kenya-range-extension`, `giant-pangolin-senegal-rediscovery-kent`, `giant-pangolin-congo-population-structure-2024` | Mapa de cámaras, madrigueras y genética | Registros puntuales no equivalen a población estable ni rango global |
 | Alta | `relámpago de Catatumbo`: ¿qué cambia al medir récord, densidad y frecuencia? | `nasa-bams-lightning-hotspots`, `nasa-earthdata-maracaibo-beacon`, `luz-catatumbo-electroatmospheric-model` | Mapa lago–relieve–sensor con unidad y periodo | No decir “tormenta eterna”; el modelo de LUZ es una hipótesis contextual |
 | Muy alta | `geosmina`/`petricor`: ¿cómo llega una molécula al receptor OR11A1? | `geosmin-or11a1-acs-2024`, `geosmin-or11a1-pmc11261619`, `leibniz-geosmin-receptor-2024`, `geosmin-chaohu-sediments-2025` | Cadena suelo/lluvia → aerosol → receptor, separando in vitro y campo | OR11A1 no explica todo el petricor; Chaohu es un lago concreto |
+
+### Fuentes nuevas para la siguiente tanda de revisión — 12 de septiembre
+
+La segunda consulta de Luna añadió diez fuentes no duplicadas para reforzar piezas existentes. Son candidatas de investigación, no citas aprobadas: la persona editora debe abrirlas, comprobar el texto y decidir si el alcance encaja antes de copiarlas al frontmatter.
+
+| Clúster | Fuente candidata | Uso acotado y límite |
+| --- | --- | --- |
+| Axolote | [PLOS ONE: movimiento de axolotes criados en Xochimilco](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314257) · [UNAM: refugios y conservación de Xochimilco](https://www.dgcs.unam.mx/boletin/bdboletin/2025_865.html) | Supervivencia/movimiento en dos sitios y contexto de conservación; no es un censo de la población silvestre. |
+| Cebras | [PLOS ONE: tábanos alrededor de cebras y caballos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210831) · [Scientific Reports: repelencia a corta distancia](https://www.nature.com/articles/s41598-022-22333-7) | Apoya la hipótesis de aterrizaje de moscas bajo condiciones concretas; no demuestra una causa evolutiva única. |
+| Tardígrados | [Current Biology: reparación de ADN tras radiación](https://doi.org/10.1016/j.cub.2024.03.019) · [Organisms Diversity & Evolution: gradiente de criptobiosis](https://doi.org/10.1007/s13127-024-00660-z) | Distingue especie, estado y ambiente; no convierte ensayos de laboratorio en invulnerabilidad espacial. |
+| Ballena azul | [PNAS/PubMed: dinámica cardíaca de rorcuales](https://pubmed.ncbi.nlm.nih.gov/42507932/) | Biologging durante alimentación en una muestra mixta; no fija una frecuencia cardíaca universal para la ballena azul. |
+| Narval | [Frontiers in Marine Science: uso del colmillo](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1518605/full) | Observaciones con drones en una región; “juego” e intención son inferencias, no hechos universales. |
+| Corales | [NOAA: supervivencia tras blanqueamiento en Hawái](https://www.fisheries.noaa.gov/resource/peer-reviewed-research/survivorship-and-growth-corals-hawaii-two-years-post-bleaching) · [NOAA/AOML: amenazas al coral](https://www.aoml.noaa.gov/threats-to-coral/) | Seguimiento de 2.150 colonias y contexto fisiológico; conservar taxones, profundidad, duración y umbral regional. |

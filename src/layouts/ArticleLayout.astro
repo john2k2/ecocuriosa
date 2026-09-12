@@ -16,6 +16,7 @@ interface Props {
   imageCreator?: string;
   imageLicensePage?: string;
   tags?: string[];
+  updatedDate?: Date;
   sources?: {
     title: string;
     url: string;
@@ -44,6 +45,7 @@ const {
   imageLicensePage,
   tags = [],
   sources = [],
+  updatedDate,
   reviewedDate,
   reviewedBy,
   headings = [],
@@ -80,6 +82,16 @@ const formattedReviewDate = reviewedDate && new Intl.DateTimeFormat('es-ES', {
   month: 'long',
   day: 'numeric',
 }).format(reviewedDate);
+const formattedUpdatedDate = updatedDate && new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'UTC',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(updatedDate);
+const modifiedDate = [updatedDate, reviewedDate]
+  .filter((date): date is Date => Boolean(date))
+  .sort((a, b) => a.valueOf() - b.valueOf())
+  .at(-1);
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 const isSvgImage = image.toLowerCase().endsWith('.svg');
 const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
@@ -92,7 +104,7 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
   imageAlt={imageAlt}
   type="article"
   pubDate={pubDate}
-  modifiedDate={reviewedDate}
+  modifiedDate={modifiedDate}
   author={author}
   category={category}
   tags={tags}
@@ -136,6 +148,12 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
         </div>
         <span>•</span>
         <time datetime={pubDate.toISOString()}>{formattedDate}</time>
+        {formattedUpdatedDate && (
+          <>
+            <span>•</span>
+            <span>Actualizado: {formattedUpdatedDate}</span>
+          </>
+        )}
         {formattedReviewDate && (
           <>
             <span>•</span>
