@@ -31,7 +31,7 @@ La verificación posterior al refuerzo de procedencia (tres ejecuciones nuevas: 
 
 **Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 0 clics y una muestra de 112 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
-Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas. Las 25 restantes no se enlazan automáticamente: se añadirán solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
+Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; ocho artículos acercan además enlaces directos a afirmaciones concretas. Las 24 restantes no se enlazan automáticamente: se añadirán solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
 
 ## Secuencia de 30 días
 
