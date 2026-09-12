@@ -1,6 +1,6 @@
 # Registro inicial de fuentes editoriales confiables
 
-Este registro es una biblioteca de partida para investigar. No autoriza a citar una fuente sin abrirla ni confirma que respalde una afirmación concreta. Cada artículo conserva sus propias URLs verificadas en el frontmatter. Para automatizaciones, usa el catálogo [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml); para ideas de artículos, intención de búsqueda y activos visuales consulta también la [biblioteca de inspiración editorial](./EDITORIAL_INSPIRATION_LIBRARY.md).
+Este registro es una biblioteca de partida para investigar. No autoriza a citar una fuente sin abrirla ni confirma que respalde una afirmación concreta. Cada artículo conserva sus propias URLs registradas en el frontmatter; solo una revisión humana puede confirmar su correspondencia y marcar la ficha como revisada. Para automatizaciones, usa el catálogo [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml); para ideas de artículos, intención de búsqueda y activos visuales consulta también la [biblioteca de inspiración editorial](./EDITORIAL_INSPIRATION_LIBRARY.md).
 
 ## Ciencia, biología y salud
 

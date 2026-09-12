@@ -24,6 +24,15 @@ revisión editorial ni prueba que una afirmación haya sido verificada.
   real y el responsable real (`reviewedDate` y `reviewedBy`) y volver a ejecutar
   `pnpm content:audit -- --strict`, `pnpm build` y `pnpm astro check`.
 
+## Orden de revisión recomendado
+
+La prioridad combina riesgo de cifras, conservación/salud/clima, desajuste de especie y potencial de confianza. No autoriza a marcar ninguna fila por anticipado.
+
+1. **Primera tanda (alto riesgo):** `ballena-azul-fisiologia-gigante-cardiovascular`, `manta-raya-gigante-inteligencia-cerebro-peces`, `memoria-elefante-africano-estructura-cerebral`, `pangolin-gigante-armadura-queratina-amenazas`, `arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento`, `calentamiento-estratosferico-repentino-vortice-polar`, `vuelo-silencioso-buho-real-aerodinamica`, `oso-tardigrado-criptobiosis-supervivencia-espacio` y `pez-abrecaminos-bioluminiscencia-pez-linterna`.
+2. **Segunda tanda (cifras y alcance):** `agujeros-azules-oceano-sinkholes-formacion-geologica`, `como-funciona-el-campo-magnetico-de-la-tierra-geodinamo`, `geco-adherencia-van-der-waals-fuerzas-microscopicas`, `narval-unicornio-marino-colmillo-sensorial`, `relampago-del-catatumbo-tormenta-eterna-venezuela`, `por-que-las-cebras-tienen-rayas-termoregulacion-moscas`, `por-que-los-gatos-ronronean-frecuencia-sanacion-osea`, `mar-de-ardora-bioluminiscencia-noctiluca-scintillans` y `calamar-gigante-architeuthis-dux-bioluminiscencia`.
+3. **Tercera tanda (método y contexto):** `nubes-mastodonticas-mammatus-gravedad-humedad`, `geiseres-hidrotermales-mecanismo-erupcion-presion`, `auroras-boreales-viento-solar-magnetosfera`, `camaleon-pantera-fisica-cambio-color-nanocristales`, `como-recuerdan-las-plantas-invierno-epigenetica-vernalizacion`, `por-que-el-olor-a-tierra-mojada-petricor-geosmina`, `pulpo-mimo-thaumoctopus-mimetismo-15-especies`, `piedras-rodantes-playa-valle-de-la-muerte-racetrack` y `por-que-el-cielo-es-azul-dispersion-rayleigh`.
+4. **Cierre:** `axolote-mexicano-regeneracion-tejidos-celulas-madre`, `por-que-es-contagioso-el-bostezo-neuronas-espejo`, `por-que-el-agua-hierve-a-menor-temperatura-montana` y `tiburon-de-groenlandia-vertebrado-mas-longevo`, comprobando que las cautelas y cifras fechadas hayan quedado visibles.
+
 ## Matriz de control
 
 | Slug | Categoría | Fuentes abiertas | Afirmaciones/cifras contrastadas | Imagen/licencia revisada | Enlaces internos | Editor responsable | Fecha real | Decisión |
