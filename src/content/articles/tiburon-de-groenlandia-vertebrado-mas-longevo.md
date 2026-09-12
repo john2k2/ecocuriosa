@@ -4,8 +4,9 @@ description: "Qué reveló la datación por radiocarbono sobre Somniosus microce
 category: "especies-marinas"
 pubDate: 2026-08-14
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/tiburon-de-groenlandia.webp"
-imageAlt: "Tiburón de Groenlandia desplazándose lentamente por las aguas gélidas y oscuras del océano Ártico"
+image: "/images/articles/tiburon-de-groenlandia.svg"
+imageAlt: "Ilustración editorial sobre la longevidad y el metabolismo del tiburón de Groenlandia"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - elasmobranquios
   - longevidad

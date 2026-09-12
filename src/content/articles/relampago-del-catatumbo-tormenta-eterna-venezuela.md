@@ -4,8 +4,9 @@ description: "Qué se conoce sobre la convección, el relieve y la actividad de 
 category: "fenomenos-naturales"
 pubDate: 2026-08-22
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/relampago-del-catatumbo.webp"
-imageAlt: "Múltiples rayos eléctricos bifurcándose e iluminando nubes de tormenta densas sobre las aguas del lago Maracaibo"
+image: "/images/articles/relampago-del-catatumbo.svg"
+imageAlt: "Ilustración editorial sobre las tormentas eléctricas del relámpago del Catatumbo"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - meteorologia
   - rayos

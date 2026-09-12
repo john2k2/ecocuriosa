@@ -4,8 +4,9 @@ description: "Comprende la termodinámica del punto de ebullición dependiente d
 category: "fenomenos-naturales"
 pubDate: 2026-08-28
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/geiser-erupcion-vapor.webp"
-imageAlt: "Chorro vertical de agua hirviendo y vapor emergiendo con violencia de un géiser hidrotermal en un paisaje volcánico"
+image: "/images/articles/geiser-erupcion-vapor.svg"
+imageAlt: "Ilustración editorial sobre la presión y las erupciones de un géiser hidrotermal"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - geologia
   - termodinamica

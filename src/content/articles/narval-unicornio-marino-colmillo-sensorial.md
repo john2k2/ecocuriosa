@@ -4,8 +4,9 @@ description: "Qué indican los estudios sobre el colmillo helicoidal del narval 
 category: "especies-marinas"
 pubDate: 2026-08-17
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/narval-colmillo-artico.webp"
-imageAlt: "Grupo de narvales asomando sus largos colmillos espiralados en un canal entre bloques de hielo ártico"
+image: "/images/articles/narval-colmillo-artico.svg"
+imageAlt: "Ilustración editorial sobre el colmillo sensorial del narval"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - cetaceos
   - artico

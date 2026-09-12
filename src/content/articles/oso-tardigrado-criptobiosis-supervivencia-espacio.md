@@ -4,8 +4,9 @@ description: "Qué muestran los estudios sobre anhidrobiosis, radiación y expos
 category: "fauna-fascinante"
 pubDate: 2026-08-12
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/oso-tardigrado-microscopio.webp"
-imageAlt: "Imagen microscópica electrónica de barrido de un tardígrado sobre un fondo vegetal acuático"
+image: "/images/articles/oso-tardigrado-microscopio.svg"
+imageAlt: "Ilustración editorial sobre la criptobiosis y la resistencia del tardígrado"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - microbiologia
   - astrobiologia

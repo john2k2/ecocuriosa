@@ -4,8 +4,9 @@ description: "Observaciones y estudios sobre el calamar gigante, sus grandes ojo
 category: "especies-marinas"
 pubDate: 2026-08-13
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/calamar-gigante-abisal.webp"
-imageAlt: "Ilustración científica de un calamar gigante con tentáculos extendidos en la oscuridad abisal del océano profundo"
+image: "/images/articles/calamar-gigante-abisal.svg"
+imageAlt: "Ilustración editorial sobre el calamar gigante en la zona batipelágica"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - cefalopodos
   - abisal

@@ -4,8 +4,9 @@ description: "A nivel del mar el agua hierve a 100 °C, pero en la cima del Ever
 category: "ciencia-curiosa"
 pubDate: 2026-08-30
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/ebullicion-agua-montana.webp"
-imageAlt: "Olla con agua en ebullición sobre una hornilla portátil en un campamento de alta montaña nevada"
+image: "/images/articles/ebullicion-agua-montana.svg"
+imageAlt: "Ilustración editorial sobre la ebullición del agua a gran altitud"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - termodinamica
   - quimica

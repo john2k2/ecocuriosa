@@ -4,8 +4,9 @@ description: "Comprende la biología de Noctiluca scintillans, los dinoflagelado
 category: "fenomenos-naturales"
 pubDate: 2026-08-23
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/mar-de-ardora-playa.webp"
-imageAlt: "Olas rompiendo en la orilla de una playa nocturna iluminadas con un resplandor azul celeste bioluminiscente"
+image: "/images/articles/mar-de-ardora-playa.svg"
+imageAlt: "Ilustración editorial sobre la bioluminiscencia del mar de ardora"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - bioluminiscencia
   - dinoflagelados

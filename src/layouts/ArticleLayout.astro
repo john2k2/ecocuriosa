@@ -11,6 +11,7 @@ interface Props {
   author: string;
   image: string;
   imageAlt: string;
+  imageCredit?: string;
   tags?: string[];
   sources?: { title: string; url: string; publisher?: string; accessedDate?: Date }[];
   reviewedDate?: Date;
@@ -27,6 +28,7 @@ const {
   author,
   image,
   imageAlt,
+  imageCredit,
   tags = [],
   sources = [],
   reviewedDate,
@@ -120,6 +122,7 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
       {imageAlt && (
         <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
           <span class="font-semibold text-[#063b1e]">Lámina de Observación:</span> {imageAlt}
+          {imageCredit && <span class="block mt-1 text-[#738a7d]">Crédito: {imageCredit}</span>}
         </figcaption>
       )}
     </figure>

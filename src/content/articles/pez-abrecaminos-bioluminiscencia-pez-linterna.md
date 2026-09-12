@@ -4,8 +4,9 @@ description: "Descubre cómo los peces linterna y dragones negros dominan la bio
 category: "especies-marinas"
 pubDate: 2026-08-19
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/pez-linterna-bioluminiscente.webp"
-imageAlt: "Pez linterna abisal con fotóforos ventrales encendidos emitiendo una luz azulada tenue en el fondo del mar"
+image: "/images/articles/pez-linterna-bioluminiscente.svg"
+imageAlt: "Ilustración editorial sobre los fotóforos y la bioluminiscencia de los peces linterna"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - peces
   - bioluminiscencia

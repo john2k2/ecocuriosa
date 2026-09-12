@@ -13,9 +13,9 @@ Este documento registra la arquitectura técnica, los recursos desplegados en pr
 | **Hosting Estático** | 🟢 Activo | `ecocuriosa.pages.dev` (Cloudflare Pages) | Despliegue automatizado continuo con Wrangler |
 | **Repositorio Código** | 🟢 Sincronizado | [github.com/john2k2/ecocuriosa](https://github.com/john2k2/ecocuriosa) | Rama `main` al día |
 | **Google Search Console** | 🟢 Verificado | Archivo `googlec746ada036fe7bf1.html` | Propiedad confirmada en GSC |
-| **Sitemaps XML** | 🟢 En cola de Google | [ecocuriosa.com/sitemap-index.xml](https://ecocuriosa.com/sitemap-index.xml) | Incluye `sitemap-0.xml` con 42 URLs |
-| **Artículos & Fotos** | 🟢 100% Listos | 32 monografías científicas | 32 fotos documentales reales en alta resolución |
-| **Diseño & Accesibilidad** | 🟢 Impeccable | Frontispicio Hero, paleta botánica, `<main id="main">` | 0 advertencias Impeccable / 0 anti-patrones |
+| **Sitemaps XML** | 🟢 Publicado | [ecocuriosa.com/sitemap-index.xml](https://ecocuriosa.com/sitemap-index.xml) | `sitemap-0.xml` contiene 43 URLs indexables; `/buscar/` queda fuera |
+| **Artículos & recursos visuales** | 🟡 En revisión | 32 monografías científicas | 32 imágenes referenciadas; 21 tienen crédito explícito y 11 activos heredados requieren licencia |
+| **Diseño & Accesibilidad** | 🟢 Verificado | Frontispicio Hero, paleta botánica, `<main id="main">` | `astro check` sin errores; revisar de nuevo al activar anuncios |
 
 ---
 
@@ -23,7 +23,7 @@ Este documento registra la arquitectura técnica, los recursos desplegados en pr
 
 ### ⏳ Fase 1: Período de Asentamiento e Indexación Orgánica (6 al 10 de Septiembre)
 * **Objetivo:** Permitir que los rastreadores de Google (`Googlebot`) procesen los sitemaps y añadan las páginas al índice público.
-* **Por qué esperar:** Google AdSense cuenta con filtros automáticos que rechazan dominios nuevos de menos de 72-96 horas catalogándolos como *"Sitio en construcción"* o *"Bajo valor"* si no constan en el índice.
+* **Por qué esperar:** Google revisa el sitio completo y puede tardar varios días o, en algunos casos, entre 2 y 4 semanas. El correo recibido indica que la revisión está en curso; no es una aprobación ni un rechazo.
 * **Comprobación periódica:**
   Búsqueda en Google: `site:ecocuriosa.com` (debe mostrar las monografías indexadas).
 * **Alarma / Recordatorio activo:** Programado para el **10 de septiembre de 2026**.
@@ -39,7 +39,7 @@ Este documento registra la arquitectura técnica, los recursos desplegados en pr
    ```
 4. En Cloudflare Pages, configurar `PUBLIC_ADSENSE_CLIENT_ID` con el valor `ca-pub-…` y los IDs de bloque asignados por AdSense: `PUBLIC_ADSENSE_SLOT_HOME_HEADER`, `PUBLIC_ADSENSE_SLOT_HOME_FOOTER`, `PUBLIC_ADSENSE_SLOT_CATEGORY_HEADER`, `PUBLIC_ADSENSE_SLOT_ARTICLE_TOP` y `PUBLIC_ADSENSE_SLOT_ARTICLE_BOTTOM`. El siguiente despliegue activará solo los espacios que tengan ambos valores.
 5. Regresar a AdSense y pulsar **"Solicitar revisión"**.
-6. *Tiempo estimado de respuesta de Google:* 48 horas a 7 días.
+6. *Tiempo estimado de respuesta de Google:* normalmente unos días; en algunos casos, 2–4 semanas.
 
 ---
 
@@ -53,7 +53,7 @@ Una vez aprobada la cuenta:
    Los componentes de anuncios (`ad-placeholder`) ya están distribuidos en:
    - Portada: Banner horizontal de media página.
    - Artículos: Bloque superior bajo la ficha de autor y bloque inferior antes de la bibliografía.
-3. El sitio comenzará a monetizar cada visita orgánica que llegue desde Google sin ningún coste de mantenimiento mensual ($0 gastos de servidor).
+3. El sitio podrá monetizar cuando la cuenta esté aprobada, los slots tengan IDs válidos y el consentimiento regional esté configurado. No se garantiza un ingreso concreto ni un volumen de tráfico.
 
 ---
 

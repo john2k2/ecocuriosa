@@ -4,8 +4,9 @@ description: "Análisis de la microestructura del borde de ataque de las plumas 
 category: "fauna-fascinante"
 pubDate: 2026-08-06
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/vuelo-silencioso-buho-real.webp"
-imageAlt: "Primer plano esquemático de las plumas de las alas de un búho disipando las ondas de fricción del aire durante el vuelo"
+image: "/images/articles/vuelo-silencioso-buho-real.svg"
+imageAlt: "Ilustración editorial sobre la aerodinámica de las plumas del búho real"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - aves
   - acustica

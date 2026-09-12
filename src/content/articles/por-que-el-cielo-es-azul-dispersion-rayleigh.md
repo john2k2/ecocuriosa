@@ -4,8 +4,9 @@ description: "La luz solar parece blanca, pero viaja en todas las longitudes de 
 category: "ciencia-curiosa"
 pubDate: 2026-08-29
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/dispersion-rayleigh-cielo-azul.webp"
-imageAlt: "Haz de luz solar incidiendo sobre las moléculas atmosféricas y dispersando rayos azules mientras los tonos cálidos atraviesan el horizonte"
+image: "/images/articles/dispersion-rayleigh-cielo-azul.svg"
+imageAlt: "Ilustración editorial sobre la dispersión de Rayleigh que vuelve azul al cielo"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - optica
   - fisica

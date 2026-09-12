@@ -5,7 +5,8 @@ category: "fauna-fascinante"
 pubDate: 2026-08-10
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/axolote-mexicano-regeneracion.webp"
-imageAlt: "Axolote rosa nadando en agua dulce con sus branquias externas plumosas extendidas y ojos oscuros atentos"
+imageAlt: "Ilustración editorial de un axolote mexicano en agua dulce con sus branquias externas visibles"
+imageCredit: "Ilustración generada para EcoCuriosa"
 tags:
   - anfibios
   - genetica

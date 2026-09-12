@@ -4,8 +4,9 @@ description: "Comprende la interacción entre la estratosfera y la troposfera, l
 category: "fenomenos-naturales"
 pubDate: 2026-08-26
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/vortice-polar-estratosfera.webp"
-imageAlt: "Gráfico meteorológico de vientos circumpolares en la estratosfera debilitándose y bifurcándose en vórtices secundarios"
+image: "/images/articles/vortice-polar-estratosfera.svg"
+imageAlt: "Ilustración editorial sobre el calentamiento estratosférico repentino y el vórtice polar"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - meteorologia
   - vortice-polar

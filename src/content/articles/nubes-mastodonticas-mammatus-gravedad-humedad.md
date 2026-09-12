@@ -4,8 +4,9 @@ description: "Explora la termodinámica de la convección descendente y el enfri
 category: "fenomenos-naturales"
 pubDate: 2026-08-27
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/nubes-mammatus-cielo.webp"
-imageAlt: "Bolsas globulares de nubes mammatus colgando iluminadas por una luz crepuscular dorada y cobriza tras una tormenta"
+image: "/images/articles/nubes-mammatus-cielo.svg"
+imageAlt: "Ilustración editorial sobre la formación de nubes mammatus"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - meteorologia
   - nubes

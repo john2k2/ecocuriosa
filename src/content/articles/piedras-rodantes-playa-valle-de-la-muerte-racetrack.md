@@ -4,8 +4,9 @@ description: "Descubre cómo la física del hielo flotante y el viento suave des
 category: "fenomenos-naturales"
 pubDate: 2026-08-24
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/piedras-rodantes-racetrack.webp"
-imageAlt: "Bloque de roca dolomita con un surco largo y continuo tallado en la arcilla agrietada de Racetrack Playa"
+image: "/images/articles/piedras-rodantes-racetrack.svg"
+imageAlt: "Ilustración editorial sobre las piedras rodantes de Racetrack Playa"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - geologia
   - valle-de-la-muerte

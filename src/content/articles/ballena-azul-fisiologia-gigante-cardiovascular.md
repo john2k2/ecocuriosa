@@ -4,8 +4,9 @@ description: "Qué se ha medido sobre el ritmo cardíaco de la ballena azul dura
 category: "especies-marinas"
 pubDate: 2026-08-18
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/ballena-azul-gigante.webp"
-imageAlt: "Ballena azul emergiendo hacia la superficie con el dorso y espiráculo visibles en mar abierto"
+image: "/images/articles/ballena-azul-gigante.svg"
+imageAlt: "Ilustración editorial sobre la fisiología y el corazón de la ballena azul"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - cetaceos
   - fisiologia

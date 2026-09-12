@@ -4,8 +4,9 @@ description: "Qué se conoce sobre Mobula birostris, sus comportamientos y los l
 category: "especies-marinas"
 pubDate: 2026-08-20
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/manta-raya-gigante.webp"
-imageAlt: "Manta raya gigante planeando grácilmente sobre un fondo coralino con las aletas cefálicas desplegadas"
+image: "/images/articles/manta-raya-gigante.svg"
+imageAlt: "Ilustración editorial sobre el cerebro y la conducta de la manta raya gigante"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - elasmobranquios
   - neurociencia

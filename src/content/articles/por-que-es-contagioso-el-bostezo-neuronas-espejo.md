@@ -4,8 +4,9 @@ description: "Lo que se ha investigado sobre el bostezo contagioso, la familiari
 category: "ciencia-curiosa"
 pubDate: 2026-08-31
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/bostezo-contagioso-neurociencia.webp"
-imageAlt: "Retrato en primer plano de una persona bostezando con los ojos cerrados ilustrando el contagio psicológico visual"
+image: "/images/articles/bostezo-contagioso-neurociencia.svg"
+imageAlt: "Ilustración editorial sobre el contagio del bostezo y la atención social"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - neurociencia
   - psicologia

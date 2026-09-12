@@ -1,0 +1,152 @@
+# GEO Audit Report: EcoCuriosa
+
+**Audit date:** 12 de septiembre de 2026  
+**URL:** https://ecocuriosa.com  
+**Tipo de sitio:** Publisher / enciclopedia editorial de divulgación científica  
+**Páginas analizadas:** 45 rutas estáticas construidas; 43 indexables en el sitemap y 2 `noindex` (búsqueda y 404)
+
+> Este GEO Score es una línea base operativa, no una predicción de posiciones ni una aprobación de AdSense. Las categorías que necesitan datos de terceros se puntúan de forma conservadora porque no hay una conexión autenticada a Search Console, Cloudflare Web Analytics ni un escáner de menciones de marca en este entorno.
+
+## Resumen ejecutivo
+
+EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos tienen al menos dos referencias HTTPS, pero solo 1 de 32 registra una revisión humana y 13 artículos siguen generando advertencias de lenguaje que deben comprobarse.
+
+La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en 21 fichas. Quedan 11 activos raster heredados cuyo origen/licencia todavía debe documentarse antes de escalar la publicación.
+
+### Desglose de puntuación
+
+| Categoría | Puntuación | Peso | Aporte ponderado |
+|---|---:|---:|---:|
+| Citabilidad para IA | 72/100 | 25% | 18,0 |
+| Autoridad de marca | 20/100 | 20% | 4,0 |
+| Contenido y E-E-A-T | 56/100 | 20% | 11,2 |
+| GEO técnico | 92/100 | 15% | 13,8 |
+| Schema y datos estructurados | 82/100 | 10% | 8,2 |
+| Optimización por plataforma | 25/100 | 10% | 2,5 |
+| **GEO Score provisional** |  |  | **57,7 → 58/100** |
+
+## Problemas críticos
+
+No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en las rutas clave, `www` redirige al dominio canónico, los rastreadores no están bloqueados y el build no tiene errores.
+
+## Alta prioridad
+
+1. **Cerrar la revisión editorial antes de escalar.** `pnpm content:audit` registra 31 artículos sin `reviewedDate`/`reviewedBy` y 13 advertencias de lenguaje absoluto, salud o récords. Abrir la cola en [`docs/editorial/CONTENT_REVIEW_QUEUE.md`](docs/editorial/CONTENT_REVIEW_QUEUE.md), comprobar cada afirmación cuantitativa y rellenar la fecha solo después de una revisión real.
+2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
+3. **Configurar los bloques publicitarios después de la aprobación.** El cliente `ca-pub-4559843439616138` está en el HTML, pero los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. No inventar IDs: copiarlos desde AdSense y redeplegar.
+4. **Conectar medición real.** Search Console y Cloudflare no están disponibles como cuentas autenticadas en esta auditoría. Sin consultas, impresiones, CTR, países, dispositivos, LCP, INP, CLS y RPM no es responsable prometer crecimiento ni elegir keywords.
+
+## Prioridad media
+
+- Añadir un perfil de autor real y verificable cuando el responsable autorice nombre, experiencia y enlace; mientras tanto, mantener la firma colectiva y no inventar credenciales.
+- Completar la bitácora de licencias para los 11 WebP heredados sin `imageCredit`; conservar URL, licencia, autor, fecha de descarga y hash. No reutilizar imágenes encontradas sin permiso.
+- Revisar que la política de privacidad describa exactamente las herramientas activas: ahora no hay Analytics instalado en el código, aunque el texto habla de cookies analíticas.
+- Usar datos de Search Console para crear cuatro guías pilar y mejorar páginas con muchas impresiones/CTR bajo antes de crear nuevas variantes.
+- Considerar FAQ estructurada solo cuando las preguntas y respuestas estén verificadas y visibles; no añadir Schema por volumen.
+
+## Prioridad baja
+
+- Crear tarjetas sociales específicas para las guías pilar y un canal de distribución sostenible (newsletter, YouTube o redes) después de estabilizar el flujo editorial.
+- Añadir RSS o un feed editorial si se decide mantenerlo actualizado.
+- Revisar periódicamente el contraste visual, navegación de teclado y experiencia móvil tras activar anuncios.
+
+## Análisis por categoría
+
+### Citabilidad para IA — 72/100
+
+Los artículos tienen respuesta rápida, encabezados, tablas/FAQ en el cuerpo, enlaces internos y referencias visibles. La estructura es fácil de extraer y `llms.txt` enlaza la metodología. Para subir la puntuación: escribir respuestas de 40–80 palabras con hecho, alcance y límite; conectar cada afirmación importante con una fuente concreta; y añadir análisis propio en vez de resumir varias fuentes.
+
+### Autoridad de marca — 20/100
+
+La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara, pero no se midieron menciones independientes, perfiles sociales, Wikipedia, Reddit, YouTube ni enlaces editoriales. El objetivo no es fabricar señales: es publicar piezas originales, conseguir colaboraciones atribuibles y mantener una identidad de autor verificable.
+
+### Contenido y E-E-A-T — 56/100
+
+Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 13 advertencias para revisión, no las trata como infracciones confirmadas. La cola editorial es la puerta de salida antes de automatizar más contenido.
+
+### GEO técnico — 92/100
+
+La entrega de producción verificada incluye HTML SSR, canonicales, Open Graph/Twitter, sitemap, `robots.txt` permisivo, `llms.txt`, HSTS, `nosniff`, referrer policy, CSP base, caché de assets y redirección `www`→apex. `astro check` terminó con 0 errores/avisos/sugerencias y el build genera 45 páginas. Falta medir Core Web Vitals con usuarios reales después de activar anuncios.
+
+### Schema y datos estructurados — 82/100
+
+Se emiten `Organization`, `WebSite` con `SearchAction`, `WebPage`/`CollectionPage`, `Article` y `BreadcrumbList`. El artículo incluye fechas, autor, publisher, imagen y citas. No se añadieron `sameAs`, `Person` ni `FAQPage` porque faltan datos públicos autorizados o un contrato de preguntas/respuestas que garantice exactitud.
+
+### Optimización por plataforma — 25/100
+
+La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero no hay datos de rendimiento por plataforma ni distribución externa medida. Las acciones de mayor retorno son: Search Console para consultas reales, páginas de respuesta directa, enlaces editoriales legítimos y una cadencia sostenible de distribución.
+
+## Quick wins de esta semana
+
+1. Completar el perfil de pagos de AdSense con datos verdaderos de Argentina y conservar la información fiscal/bancaria fuera del repositorio.
+2. Confirmar la CMP de Google y las URLs de privacidad/cookies dentro de AdSense; probar aceptar, rechazar y gestionar opciones.
+3. Conectar Search Console y Cloudflare Web Analytics y guardar solo agregados mensuales.
+4. Revisar los primeros 8 artículos de la cola y corregir cualquier cifra, promesa médica, conservación o récord sin respaldo.
+5. Crear los bloques AdSense en la cuenta, cargar sus IDs en Cloudflare Pages solo después de la aprobación y verificar CLS en móvil.
+
+## Plan de 30 días
+
+### Semana 1 — medición y cumplimiento
+
+- [ ] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console.
+- [ ] Activar y probar el mensaje de consentimiento de Google para EEE/Reino Unido/Suiza.
+- [ ] Conectar Cloudflare Web Analytics y registrar la línea base de LCP, INP, CLS, páginas vistas, rutas y países.
+- [ ] Confirmar el titular legal y las declaraciones de cookies con asesoría aplicable; no publicar datos personales sin autorización.
+
+### Semana 2 — calidad editorial
+
+- [ ] Revisar 8 artículos prioritarios usando la cola y el estándar de fuentes.
+- [ ] Documentar créditos/licencias de los 11 WebP heredados o reemplazarlos por ilustraciones propias.
+- [ ] Corregir las 13 advertencias que sigan siendo materialmente problemáticas.
+
+### Semana 3 — búsqueda y recorrido
+
+- [ ] Elegir oportunidades por impresiones, CTR, posición y país reales.
+- [ ] Crear una guía pilar por clúster y enlazarla con 3–5 artículos relacionados.
+- [ ] Mejorar títulos/extractos de páginas con impresiones altas y CTR bajo; no cambiar fechas sin cambio sustancial.
+
+### Semana 4 — monetización controlada
+
+- [ ] Si AdSense aprueba, configurar los cinco slots y comprobar que `ads.txt` coincide con el publisher ID.
+- [ ] Empezar con un bloque tras la introducción y otro al final de artículos largos; nunca junto a navegación ni antes de la respuesta principal.
+- [ ] Medir RPM, cobertura, viewability, páginas por sesión y CLS durante 14 días antes de aumentar densidad.
+
+## Flujo seguro para Luna Max
+
+```text
+Métricas agregadas y consultas reales (solo lectura)
+        ↓
+Luna Max: oportunidad + brief + fuentes candidatas + tabla de afirmaciones
+        ↓
+Editor: abre cada fuente, decide el ángulo y aprueba derechos de imagen
+        ↓
+Luna Max: borrador local marcado como draft; nunca publica
+        ↓
+Editor: comprueba afirmación por afirmación, añade análisis y fecha real
+        ↓
+Auditoría: content:audit + astro check + build + revisión visual móvil
+        ↓
+Publicación humana y medición posterior
+```
+
+La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exacta y alcance de cada fuente; declarar incertidumbre; y rechazar cualquier afirmación sin respaldo. Para imágenes: generar diagramas o ilustraciones originales para procesos y usar fotografías solo con licencia documentada para especies/lugares reales. No raspar, no transformar material encontrado sin permiso y no presentar una imagen generada como observación documental.
+
+## Verificación ejecutada
+
+- `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes; 0 conclusiones repetidas; 13 advertencias para revisión.
+- `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
+- `pnpm build`: 45 páginas estáticas generadas correctamente.
+- Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap y redirección `www`.
+- Pendiente de conexión externa: métricas privadas de Search Console/Cloudflare, estado final de CMP en AdSense, aprobación de cuenta y creación de slots.
+
+## Apéndice: rutas representativas
+
+| URL | Tipo | Hallazgo |
+|---|---|---|
+| `/` | Portada | H1, descripción, WebSite/Organization y navegación; slots aún sin IDs |
+| `/fauna-fascinante/` | Colección | 8 artículos, enlaces internos y schema CollectionPage |
+| `/fauna-fascinante/leopardo-de-las-nieves-adaptaciones-frio-extremo/` | Artículo revisado | Article, BreadcrumbList, fuentes y fecha de revisión |
+| `/metodologia-editorial/` | Confianza | Fuentes, límites, IA, imágenes y correcciones |
+| `/politica-de-privacidad/` | Legal | Sin script AdSense después del ajuste |
+| `/buscar/` | Utilidad | `noindex, follow`, fuera del sitemap |
+| `/robots.txt` / `/ads.txt` | Infraestructura | 200 en producción; sitemap y publisher ID declarados |

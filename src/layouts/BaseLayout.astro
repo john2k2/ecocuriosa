@@ -18,6 +18,7 @@ interface Props {
   sources?: { title: string; url: string }[];
   pageType?: 'website' | 'collection' | 'about';
   noindex?: boolean;
+  adsEnabled?: boolean;
 }
 
 const {
@@ -33,6 +34,7 @@ const {
   sources,
   pageType = 'website',
   noindex = false,
+  adsEnabled = true,
 } = Astro.props;
 
 ---
@@ -66,7 +68,7 @@ const {
       noindex={noindex}
     />
 
-    {ADSENSE_CLIENT_ID && (
+    {adsEnabled && ADSENSE_CLIENT_ID && (
       <script
         is:inline
         async

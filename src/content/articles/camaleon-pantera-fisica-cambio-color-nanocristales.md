@@ -4,8 +4,9 @@ description: "A diferencia del mito popular, los camaleones no mezclan pigmentos
 category: "fauna-fascinante"
 pubDate: 2026-08-07
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/camaleon-pantera-nanocristales.webp"
-imageAlt: "Camaleón pantera sobre una rama tropical mostrando un gradiente de iridiscencia entre verde esmeralda y turquesa brillante"
+image: "/images/articles/camaleon-pantera-nanocristales.svg"
+imageAlt: "Ilustración editorial sobre los nanocristales de guanina del camaleón pantera"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - reptiles
   - optica
