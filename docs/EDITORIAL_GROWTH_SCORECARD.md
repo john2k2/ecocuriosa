@@ -9,11 +9,13 @@
 | --- | ---: | ---: | --- |
 | SEO técnico / infraestructura | 87/100 | 92/100 | Sitemap enviado y revisado en Search Console, cero enlaces internos rotos, canonical consistente, datos estructurados válidos y P75 de Core Web Vitals comprobado con usuarios reales |
 | Diseño, navegación y móvil | Bueno | Excelente medible | Pruebas en móvil y escritorio de las rutas principales, teclado completo, contraste revisado y CLS estable antes/después de activar anuncios |
-| Indexación | Google encuentra el sitio | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
+| Indexación | Sitemap correcto; cobertura aún procesándose | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
 | E-E-A-T / calidad editorial | 44/100 | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense.
+
+**Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
 
 ## Secuencia de 30 días
 
@@ -21,7 +23,7 @@ Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no dem
 
 - El titular termina en AdSense el perfil legal, fiscal y de pagos con datos verdaderos y una dirección postal donde pueda recibir el PIN. No se guardan documentos, identificaciones, datos bancarios ni contraseñas en el repositorio.
 - Se publica y prueba el mensaje de Privacy & messaging para EEE, Reino Unido y Suiza en los tres estados: aceptar, rechazar y gestionar opciones. La política de privacidad y la de cookies deben describir exactamente las herramientas activas.
-- Se confirma en Search Console el sitemap `https://ecocuriosa.com/sitemap-index.xml` y se exporta una primera tabla con consulta, página, país, dispositivo, impresiones, clics, CTR y posición.
+- Se confirma en Search Console el sitemap `https://ecocuriosa.com/sitemap-index.xml` (correcto, 43 páginas descubiertas) y se conserva una primera tabla con consulta, página, país, dispositivo, impresiones, clics, CTR y posición.
 - Se conserva la línea base agregada de Cloudflare separando `requests`, `pageViews` y visitas RUM. No se usa una solicitud de bot como si fuera audiencia.
 
 **Salida:** una captura o exportación fechada de Search Console, una comprobación CMP y un registro de decisión; si falta una de estas pruebas, no se declara “medición conectada”.

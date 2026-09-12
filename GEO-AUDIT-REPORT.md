@@ -5,7 +5,7 @@
 **Tipo de sitio:** Publisher / enciclopedia editorial de divulgación científica  
 **Páginas analizadas:** 45 rutas estáticas construidas; 43 indexables en el sitemap y 2 `noindex` (búsqueda y 404)
 
-> Este GEO Score es una línea base operativa, no una predicción de posiciones ni una aprobación de AdSense. Las categorías que necesitan datos de terceros se puntúan de forma conservadora porque Search Console y las menciones de marca siguen sin conexión autenticada; ahora sí se incorporó una instantánea de Cloudflare Edge Analytics y Web Analytics mediante API.
+> Este GEO Score es una línea base operativa, no una predicción de posiciones ni una aprobación de AdSense. Las categorías que necesitan datos de terceros se puntúan de forma conservadora porque las menciones de marca y los Core Web Vitals de campo siguen sin conexión; ahora se incorporaron instantáneas autenticadas de Search Console y Cloudflare.
 
 El plan ejecutable con responsables, umbrales, contrato de Luna Max y criterios de detención está en [`docs/EDITORIAL_GROWTH_SCORECARD.md`](docs/EDITORIAL_GROWTH_SCORECARD.md).
 
@@ -51,7 +51,7 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
 3. **Completar el perfil de pagos solo con datos reales del titular.** El nombre legal, país, dirección postal, información fiscal y beneficiario deben coincidir con la cuenta y poder verificarse. Esta operación es manual y no debe pasar por el repositorio ni por Luna; consultar [perfil de pagos](https://support.google.com/adsense/answer/7363450?hl=es), [dirección válida](https://support.google.com/adsense/answer/13863682?hl=es) y [PIN](https://support.google.com/adsense/answer/157667?hl=es). Completarlo no garantiza aprobación editorial ni ingresos.
 4. **Configurar los bloques publicitarios después de la aprobación.** El cliente `ca-pub-4559843439616138` está en el HTML, pero los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. No inventar IDs: copiarlos desde AdSense y redeplegar.
-5. **Cerrar la medición que todavía falta.** Cloudflare ya está consultable por API y dejó una línea base de siete días (ver la sección siguiente), pero Search Console sigue pendiente. Sin consultas, impresiones, CTR, posición y cobertura de Search Console no es responsable prometer crecimiento ni elegir keywords; los datos de Cloudflare son señales de entrega y no sustituyen Search Console, Analytics ni RPM.
+5. **Usar la medición sin sobreinterpretarla.** Search Console ya está conectado y muestra una primera señal de 112 impresiones, 0 clics, CTR 0 % y posición media 14 en los últimos 3 meses; el volumen es todavía demasiado pequeño para prometer crecimiento. Cloudflare aporta señales de entrega y experiencia, pero no sustituye Search Console, Analytics ni RPM.
 6. **Reducir ruido de escaneo sin tocar contenido.** En la misma ventana aparecieron 337 solicitudes a `/wp-admin/install.php` y numerosos `wp-includes`, `xmlrpc.php` y `/.env.live`, todos inexistentes en este sitio Astro. La cuenta/plan de Cloudflare respondió que permite 0 reglasets WAF personalizados por API, por lo que no se forzó una regla que pudiera dejar una configuración incompleta; el ruleset administrado gratuito sigue activo. Si el panel habilita una Custom Rule, el candidato seguro es bloquear únicamente esas rutas inexistentes.
 
 ### Línea base de Cloudflare — 6–12 de septiembre de 2026
@@ -67,6 +67,12 @@ La consulta se hizo con [Cloudflare GraphQL Analytics](https://developers.cloudf
 | Redirecciones 301/308 | 2.840 (25,3%) | Revisar patrones de barra final y host; `www` ya llega al apex |
 | Países con más solicitudes | US, HK, SG, DE, AU | Mezcla de bots y usuarios; no orientar contenido por país todavía |
 | Eventos RUM de la configuración Pages | 81 `pageloads`, 44 `visits` | Señal pequeña; 73 eventos desktop y 8 mobile |
+
+### Línea base de Google Search Console — 12 de septiembre de 2026
+
+La propiedad autenticada `https://ecocuriosa.com/` ya está disponible. En el informe de rendimiento web, con ventana de 3 meses y última actualización indicada como hace 5 horas, aparecen 112 impresiones, 0 clics, CTR medio de 0 % y posición media 14. Las consultas con más impresiones fueron `geodinamo` (11), `pulpo mimo` (8), `geodinamo terrestre` (2), `architeuthis dux` (2) y `relampago de catatumbo` (2). La pestaña de países concentra impresiones en México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6); los dispositivos se reparten entre móvil (58) y ordenador (54).
+
+Search Console registra 32 páginas en la tabla de páginas; algunas impresiones todavía apuntan a variantes sin barra final, que deben seguir redirigiendo una sola vez al canonical con barra. Los dos sitemaps enviados (`/sitemap-0.xml` y `/sitemap-index.xml`) figuran como **Correcto** y con 43 páginas descubiertas. El informe de indexación aún indica que está procesando datos; no se debe traducir “43 descubiertas” en “43 indexadas”. HTTPS muestra 29 válidas y 0 no válidas; Breadcrumbs, 16 válidas y 0 no válidas; Core Web Vitals todavía no tiene datos.
 
 La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la única que coincide con los tres hosts de producción. Se observan además tres configuraciones antiguas de auto-instalación; no se borraron porque la producción entrega un solo beacon y eliminarlas sería una acción destructiva sin beneficio demostrado. Conviene revisarlas en el panel cuando haya tiempo, manteniendo una sola configuración canónica.
 
@@ -114,7 +120,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 1. Completar el perfil de pagos de AdSense solo con un nombre, país, domicilio y datos fiscales verdaderos que puedas demostrar y donde puedas recibir el PIN; no elegir Argentina únicamente por nacionalidad ni inventar datos, y conservar la información fiscal/bancaria fuera del repositorio.
 2. Confirmar la CMP de Google y las URLs de privacidad/cookies dentro de AdSense; probar aceptar, rechazar y gestionar opciones.
-3. Conectar Search Console y revisar la configuración RUM canónica de Cloudflare; guardar solo agregados mensuales y conservar separados edge requests, RUM visits y métricas orgánicas.
+3. Revisar mensualmente Search Console y la configuración RUM canónica de Cloudflare; guardar solo agregados y conservar separados edge requests, RUM visits y métricas orgánicas.
 4. Revisar los primeros 8 artículos de la cola y corregir cualquier cifra, promesa médica, conservación o récord sin respaldo.
 5. Crear los bloques AdSense en la cuenta, cargar sus IDs en Cloudflare Pages solo después de la aprobación y verificar CLS en móvil.
 
@@ -122,9 +128,9 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 ### Semana 1 — medición y cumplimiento
 
-- [ ] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console.
+- [x] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console; figura como correcto con 43 páginas descubiertas.
 - [ ] Activar y probar el mensaje de consentimiento de Google para EEE/Reino Unido/Suiza.
-- [x] Registrar la línea base inicial de Cloudflare Edge Analytics y Web Analytics (6–12 de septiembre); quedan pendientes Search Console y una muestra de Core Web Vitals reales.
+- [x] Registrar las líneas base iniciales de Cloudflare Edge Analytics/Web Analytics (6–12 de septiembre) y Search Console (12 de septiembre); queda pendiente una muestra de Core Web Vitals reales.
 - [ ] Revisar en el panel las tres configuraciones RUM antiguas de auto-instalación y conservar una sola configuración canónica sin borrar hasta confirmar el beacon de Pages.
 - [ ] Confirmar el titular legal y las declaraciones de cookies con asesoría aplicable; no publicar datos personales sin autorización.
 
@@ -136,7 +142,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 ### Semana 3 — búsqueda y recorrido
 
-- [ ] Elegir oportunidades por impresiones, CTR, posición y país reales.
+- [x] Capturar la primera tabla de oportunidades por impresiones, CTR, posición, país y dispositivo; todavía no hay volumen suficiente para conclusiones fuertes.
 - [ ] Crear una guía pilar por clúster y enlazarla con 3–5 artículos relacionados.
 - [ ] Mejorar títulos/extractos de páginas con impresiones altas y CTR bajo; no cambiar fechas sin cambio sustancial.
 
@@ -176,7 +182,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `SOURCE_CATALOG.yml`: YAML válido con 205 entradas y cobertura de las 83 URLs citadas por los artículos; la biblioteca mantiene 55 oportunidades editoriales (incluye las 32 fuentes citadas por artículos que ahora quedan disponibles para futuras propuestas). La comprobación HTTP inicial de las 30 entradas originales obtuvo 26 respuestas 200; USGS e IUCN limitan clientes automatizados con 403 y el PDF de Creative Commons requiere abrirse en navegador. Las fichas siguen siendo candidatas hasta que una persona abra y compruebe la fuente concreta; no se tratan como enlaces rotos solo por una limitación automatizada.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.
 - Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap, redirección `www` y beacon de Cloudflare Web Analytics inyectado por Pages.
-- Pendiente de conexión externa: métricas privadas de Search Console, estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Cloudflare ya tiene una instantánea API agregada; la cuenta conserva tres configuraciones RUM antiguas que requieren revisión manual antes de cualquier limpieza.
+- Pendiente de conexión externa: estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Search Console ya tiene una primera instantánea, pero la cobertura de indexación está procesándose y no hay datos de Core Web Vitals. Cloudflare tiene una instantánea API agregada; la cuenta conserva tres configuraciones RUM antiguas que requieren revisión manual antes de cualquier limpieza.
 
 ## Apéndice: rutas representativas
 
