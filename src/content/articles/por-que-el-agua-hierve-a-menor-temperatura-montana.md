@@ -3,6 +3,7 @@ title: "Por Qué el Agua Hierve a Menos de 100 °C en la Montaña: Presión y Eb
 description: "La temperatura de ebullición baja cuando disminuye la presión atmosférica; por eso cocinar y purificar agua requiere ajustar el método a la altitud."
 category: "ciencia-curiosa"
 pubDate: 2026-08-30
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/ebullicion-agua-montana.svg"
 imageAlt: "Ilustración editorial sobre la ebullición del agua a gran altitud"
@@ -23,6 +24,12 @@ sources:
     url: "https://ntrs.nasa.gov/api/citations/19930090991/downloads/19930090991.pdf"
     evidenceType: "institutional"
     scope: "Relación de presión atmosférica y altitud en una atmósfera estándar"
+  - title: "Water Purification"
+    publisher: "National Park Service"
+    url: "https://www.nps.gov/cany/planyourvisit/waterpurification.htm"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Orientación de ebullición para agua de consumo a distintas alturas; no sustituye el tratamiento de contaminantes químicos"
 featured: false
 ---
 
@@ -47,6 +54,11 @@ La ebullición se distingue de la evaporación superficial ordinaria en un aspec
 3. **La olla a presión como solución tecnológica inversa:** Al sellar el recipiente, aumenta la presión interna y el agua puede alcanzar una temperatura de ebullición mayor que en una olla abierta. El valor exacto depende de la válvula y del modelo; por eso no conviene prometer un porcentaje universal de aceleración.
 
 ### Punto de Ebullición del Agua en Diferentes Altitudes del Planeta
+
+Los valores de esta tabla son aproximaciones calculadas a partir de una
+atmósfera estándar y de los datos de presión de vapor del NIST; la presión
+meteorológica local, la temperatura del aire y el modelo de olla pueden cambiar
+el resultado. No son mediciones universales para cada ciudad o montaña.
 
 | Ubicación Geográfica | Altitud sobre el Mar | Presión Barométrica Media | Punto de Ebullición del Agua |
 | :--- | :--- | :--- | :--- |

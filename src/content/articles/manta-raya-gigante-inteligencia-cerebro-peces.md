@@ -3,6 +3,7 @@ title: "La manta raya gigante: comportamiento, cerebro y preguntas abiertas"
 description: "Qué se conoce sobre Mobula birostris, sus comportamientos y los límites de las afirmaciones sobre inteligencia animal."
 category: "especies-marinas"
 pubDate: 2026-08-20
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/manta-raya-gigante.svg"
 imageAlt: "Ilustración editorial sobre el cerebro y la conducta de la manta raya gigante"
@@ -23,6 +24,12 @@ sources:
     url: "https://doi.org/10.1007/s10164-016-0462-z"
     evidenceType: "primary"
     scope: "Conducta frente a un espejo en condiciones experimentales; no prueba por sí sola autoconciencia"
+  - title: "Cranial endothermy in mobulid rays: Evolutionary and ecological implications of a thermogenic brain"
+    publisher: "Journal of Animal Ecology / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/39434239/"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Propuesta teórica sobre un cerebro termogénico en mobúlidos; no demuestra rendimiento cognitivo ni adaptación universal al frío"
 featured: false
 ---
 
@@ -41,6 +48,12 @@ La pregunta interesante no es si la especie puede medirse con una etiqueta de �
 ## 2. Buceo y conducta observada
 
 NOAA resume un rango de uso de profundidad amplio: las mantas pueden alimentarse a menos de 10 metros, realizar inmersiones de unos 200–450 metros y llegar a superar los 1.000 metros según la región y la disponibilidad de presas. La profundidad no es fija y depende de la temporada, la termoclina y el plancton.
+
+Una publicación de 2025 propone que el cerebro grande y metabólicamente costoso
+de los mobúlidos podría contribuir a mantener una temperatura craneal más
+estable en aguas frías. Es una hipótesis evolutiva apoyada en anatomía y
+modelización, no una medición directa de la temperatura cerebral de cada manta;
+por eso no permite deducir inteligencia ni rendimiento cognitivo.
 
 En el experimento del espejo se observaron movimientos dirigidos al reflejo que fueron compatibles con una comprobación de contingencia. Ese resultado es valioso para estudiar conducta, pero no demuestra por sí solo que la manta posea una autoconciencia equivalente a la humana ni explica toda su ecología.
 
@@ -89,4 +102,5 @@ La manta gigante merece atención por su ecología y vulnerabilidad, no por anal
 * *Brain, Behavior and Evolution (Ari & Correia, Brain size and body organization in mobulid rays)*
 * *Journal of Ethology (Contingency Checking and Mirror Exposure in Manta Rays)*
 * *PLOS ONE (Thermal biology and satellite tracking of giant manta rays)*
+* *Journal of Animal Ecology (Cranial endothermy in mobulid rays)*
 * *IUCN Shark Specialist Group*

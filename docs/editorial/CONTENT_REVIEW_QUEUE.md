@@ -7,6 +7,7 @@ revisión editorial ni prueba que una afirmación haya sido verificada.
 
 ## Instrucciones de uso
 
+- Para cada artículo, copiar [`ARTICLE_REVIEW_TEMPLATE.md`](./ARTICLE_REVIEW_TEMPLATE.md) y conservar la ficha fuera de los datos sensibles del repositorio o enlazarla desde el cambio de revisión.
 - Cada fila debe revisarse contra las fuentes enlazadas en el frontmatter y en
   la sección **Referencias** del artículo. Abrir las fuentes y contrastar las
   afirmaciones concretas, cifras, fechas y límites antes de marcar la casilla.

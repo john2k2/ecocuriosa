@@ -15,7 +15,7 @@
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense.
 
-Las cuatro piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón de Groenlandia` y `pulpo mimo`) muestran ahora `updatedDate` y `dateModified` porque tuvieron cambios sustanciales de texto y fuentes. Ese campo no equivale a `reviewedDate`: la revisión humana del archivo sigue siendo una puerta independiente.
+Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) muestran ahora `updatedDate` y `dateModified` porque tuvieron cambios sustanciales de texto y fuentes. Ese campo no equivale a `reviewedDate`: la revisión humana del archivo sigue siendo una puerta independiente.
 
 **Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
 
@@ -40,6 +40,7 @@ La lectura autenticada más reciente conserva la misma señal (actualizada hace 
 - Abrir cada fuente; marcar qué afirmación respalda, con qué especie, muestra, fecha, lugar y método. Eliminar cifras que no tengan correspondencia concreta.
 - Resolver cualquier advertencia heurística que aparezca solo después de confirmar el problema con lectura humana; el auditor actual devuelve 0 y no se debe silenciar una alerta con una cita genérica.
 - Registrar `reviewedDate` y `reviewedBy` únicamente después de la comprobación real de texto, fuentes y activo visual.
+- Usar la [ficha de revisión editorial](editorial/ARTICLE_REVIEW_TEMPLATE.md) para conservar la relación afirmación → fuente y dejar explícitos los límites antes de aprobar.
 
 **Salida:** 8 artículos revisados de verdad, auditoría local sin imágenes/fuentes faltantes y una cola que conserva pendientes explícitos.
 

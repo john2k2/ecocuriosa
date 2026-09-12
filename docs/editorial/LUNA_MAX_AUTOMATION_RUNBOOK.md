@@ -78,7 +78,26 @@ La automatización debe comprobar que cada SVG tenga una variante WebP, `imageAl
 
 ### Salvaguarda del pipeline histórico
 
-Los scripts de `pipeline/` contienen un catálogo de investigación antiguo y no deben regenerar el sitio publicado. `generate_articles.py` escribe únicamente en `docs/editorial/drafts/`, no acepta `src/content/articles` como destino, se detiene ante colisiones y deja `sources`, `reviewedDate` y `reviewedBy` pendientes. `generate_images.py` crea SVG solo en `docs/editorial/drafts/assets/`, nunca sobrescribe `public/images/articles` ni activos existentes y exige `imageAlt`. Antes de llevar un borrador al sitio, el editor debe añadir fuentes estructuradas, procedencia/licencia de imagen, variante WebP y revisión humana.
+El catálogo histórico de temas y autores fue retirado del flujo para que no
+pueda reintroducir afirmaciones no verificadas. `generate_articles.py` exige
+un JSON de briefs de Luna Max mediante `--input`, valida HTTPS, tipo de
+evidencia, alcance, límites, niveles de certeza y `humanCheck: pending`, y
+escribe únicamente en `docs/editorial/drafts/`. Se detiene ante colisiones y
+nunca acepta `src/content/articles` como destino ni permite `sources`,
+`reviewedDate`, `reviewedBy` o `publish: true` en un brief nuevo.
+
+Ejemplo de ejecución después de que Luna entregue un archivo revisable:
+
+```text
+python3 pipeline/generate_articles.py --input /ruta/briefs.json --output-dir docs/editorial/drafts
+```
+
+`generate_images.py` deriva títulos, categorías, imágenes y `imageAlt` del
+frontmatter curado actual; crea SVG solo en `docs/editorial/drafts/assets/`,
+nunca sobrescribe `public/images/articles` ni activos existentes y exige
+`imageAlt`. Antes de llevar un borrador al sitio, el editor debe añadir
+fuentes estructuradas, procedencia/licencia de imagen, variante WebP y
+revisión humana.
 
 ## Puertas de calidad y detención
 

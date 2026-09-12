@@ -3,6 +3,7 @@ title: "La Memoria del Elefante Africano: ¿Mito o Prodigio Neurológico?"
 description: "Explora la neuroanatomía del elefante y la evidencia sobre cómo la experiencia de las matriarcas puede aportar conocimiento social y ecológico a la manada."
 category: "fauna-fascinante"
 pubDate: 2026-08-09
+updatedDate: 2026-09-12
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/memoria-elefante-africano.svg"
 imageAlt: "Ilustración editorial de una manada de elefantes africanos liderada por una matriarca"
@@ -33,6 +34,12 @@ sources:
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/"
     evidenceType: "review"
     scope: "Síntesis sobre vínculos sociales, memoria y conocimiento ecológico en elefantes"
+  - title: "Building an Elephant Brain Database"
+    publisher: "Gerontological Society of America / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11693083/"
+    accessedDate: 2026-09-12
+    evidenceType: "dataset"
+    scope: "Repositorio post mortem con tejidos y datos de 23 elefantes; no prueba directa de inteligencia ni de memoria individual"
 featured: false
 ---
 
@@ -53,6 +60,12 @@ Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un
 Los experimentos de McComb y colaboradores mostraron que las matriarcas mayores podían aportar conocimiento social útil: respondían de forma distinta a llamadas familiares y desconocidas. Revisiones posteriores describen a las hembras de más edad como repositorios de información social y ecológica para la familia. Eso respalda la importancia de la experiencia, pero no establece una cifra universal de supervivencia, una distancia fija de escucha o un mapa mental idéntico en todas las manadas.
 
 El repertorio de receptores olfativos también es amplio. El estudio genómico citado en esta ficha sirve para hablar de potencial sensorial, no para afirmar que cada elefante recuerde cientos de firmas químicas durante toda su vida.
+
+La base de cerebros de elefante iniciada por investigadores de Indiana,
+Mount Sinai y George Washington reúne tejidos post mortem de 23 individuos y,
+cuando es posible, imágenes de resonancia. Es un recurso para estudiar
+envejecimiento y estructura cerebral; sus datos no sustituyen un experimento
+de memoria ni permiten extrapolar una medición a todas las poblaciones.
 
 ### Comparativa Neurobiológica: Elefante Africano vs. Ser Humano
 
@@ -100,3 +113,4 @@ Las matriarcas mayores pueden aportar conocimiento social relevante a sus grupos
 * *Science (Social Complexity and Matriarch Memory)*
 * *Animal Cognition*
 * *Proceedings of the National Academy of Sciences*
+* *Gerontology (Building an Elephant Brain Database)*
