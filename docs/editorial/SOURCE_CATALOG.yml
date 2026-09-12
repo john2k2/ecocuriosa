@@ -1909,3 +1909,33 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://wrap.warwick.ac.uk/id/eprint/135205/
     use: accepted-manuscript record and abstract for field attraction of Folsomia candida to Streptomyces volatiles; preserve the tested species, strains and laboratory/field distinction rather than generalizing to all petrichor
+  - id: google-url-inspection-api
+    authority: Google Search Console API
+    domain: indexing
+    evidenceType: api-documentation
+    url: https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect?hl=es-419
+    use: authenticated URL-level index status, canonical, crawl, sitemap and rich-result inspection; requires the property owner’s OAuth access
+  - id: chrome-crux-api
+    authority: Chrome UX Report
+    domain: real-user-performance
+    evidenceType: api-documentation
+    url: https://developer.chrome.com/docs/crux/api?hl=en
+    use: aggregated real-user LCP, INP, CLS and other field metrics at origin or URL granularity; rolling 28-day data and eligibility limits apply
+  - id: google-favicon-search
+    authority: Google Search Central
+    domain: search-appearance
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/favicon-in-search
+    use: stable, crawlable and representative favicon requirements for mobile and desktop Search appearance
+  - id: google-site-name
+    authority: Google Search Central
+    domain: search-appearance
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/site-names
+    use: WebSite name and alternateName signals, consistent brand naming and limits on guaranteed site-name display
+  - id: schema-imageobject
+    authority: Schema.org
+    domain: image-rights
+    evidenceType: vocabulary
+    url: https://schema.org/ImageObject
+    use: ImageObject creator, creditText, license, acquireLicensePage and representative-image vocabulary; properties remain truthful metadata, not proof of rights

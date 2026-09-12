@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 317 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 322 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -334,6 +334,17 @@ proponerlas sin perder el enlace abierto y el límite de alcance.
 | AdSense | [Qué hacer si el sitio aún no está listo](https://support.google.com/adsense/answer/12176698?hl=es) | Separar la presencia del código de la evaluación de contenido único, experiencia y navegación; no activar slots inventados. |
 | Snippets | [Preguntas frecuentes sobre la apariencia en Search](https://developers.google.com/search/help/site-appearance-faq) | Revisar títulos y descripciones para que respondan a la consulta sin prometer un resultado enriquecido. |
 | Title links | [Buenas prácticas para títulos en Search](https://developers.google.com/search/docs/appearance/title-link) | Mantener títulos descriptivos y concisos; evitar texto repetido, relleno y keyword stuffing. |
+
+### Fuentes nuevas para medición, apariencia e imágenes — 12 de septiembre
+
+Estas referencias completan el circuito entre descubrimiento, experiencia real y procedencia visual. Se incorporan como documentación de trabajo; ninguna habilita por sí sola una promesa de indexación, rich result o tráfico.
+
+| Área | Fuente oficial | Uso en el plan | Límite |
+| --- | --- | --- | --- |
+| Inspección de URL | [Search Console API: `index.inspect`](https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect?hl=es-419) | Automatizar lecturas autenticadas de estado, canonical, rastreo, sitemap y resultados enriquecidos de URLs prioritarias | Requiere OAuth del titular; informa la versión del índice, no reemplaza una prueba de URL en vivo |
+| Core Web Vitals de campo | [Chrome UX Report API](https://developer.chrome.com/docs/crux/api?hl=en) | Consultar LCP, INP y CLS agregados por origen o URL cuando el sitio cumpla la elegibilidad de CrUX | Media móvil de 28 días y umbral de usuarios; ausencia de datos no significa que el sitio esté roto |
+| Apariencia de marca | [Favicon en Search](https://developers.google.com/search/docs/appearance/favicon-in-search) y [nombres de sitio](https://developers.google.com/search/docs/appearance/site-names) | Mantener favicon estable y nombre EcoCuriosa consistente en HTML, WebSite y portada | Google decide la presentación final y no garantiza mostrar el favicon o el nombre preferido |
+| Procedencia visual | [Schema.org `ImageObject`](https://schema.org/ImageObject) | Inspirar campos de creador, crédito, licencia y página para adquirir licencia en futuros activos | Vocabulario descriptivo; no sustituye el permiso real del activo |
 
 ### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
 
