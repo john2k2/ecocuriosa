@@ -54,7 +54,7 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 
 - Añadir un perfil de autor real y verificable cuando el responsable autorice nombre, experiencia y enlace; mientras tanto, mantener la firma colectiva y no inventar credenciales.
 - Completar la bitácora de licencias para los 11 WebP heredados sin `imageCredit`; conservar URL, licencia, autor, fecha de descarga y hash. No reutilizar imágenes encontradas sin permiso.
-- Revisar que la política de privacidad describa exactamente las herramientas activas: ahora no hay Analytics instalado en el código, aunque el texto habla de cookies analíticas.
+- Revisar periódicamente que la política de privacidad describa exactamente las herramientas activas: actualmente documenta Cloudflare Web Analytics sin cookies y las cookies publicitarias de AdSense; no hay Google Analytics instalado en el código.
 - Usar datos de Search Console para crear cuatro guías pilar y mejorar páginas con muchas impresiones/CTR bajo antes de crear nuevas variantes.
 - Considerar FAQ estructurada solo cuando las preguntas y respuestas estén verificadas y visibles; no añadir Schema por volumen.
 
