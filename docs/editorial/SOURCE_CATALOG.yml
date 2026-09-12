@@ -2011,3 +2011,63 @@ entries:
     evidenceType: vocabulary
     url: https://schema.org/publishingPrinciples
     use: connect Organization, Person or CreativeWork JSON-LD to a real, stable editorial policy, corrections and verification page
+  - id: orcid-display-guidelines
+    authority: ORCID
+    domain: authorship
+    evidenceType: documentation
+    url: https://info.orcid.org/documentation/integration-guide/orcid-id-display-guidelines/
+    use: display authenticated ORCID identifiers consistently in author profiles, HTML, metadata and accessible bylines; identity does not prove expertise
+  - id: crossref-metadata-elements
+    authority: Crossref
+    domain: scholarly-metadata
+    evidenceType: documentation
+    url: https://www.crossref.org/documentation/schema-library/required-recommended-elements/
+    use: model contributors, roles, affiliations, ORCID, dates, versions, references, licences and funding when a future DOI export is justified
+  - id: google-factcheck-claimreview
+    authority: Google Search Central
+    domain: fact-checking
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/factcheck
+    use: claim, external attribution, method, primary citations and corrections policy for genuine fact-check pages; not ordinary explainers
+  - id: w3c-prov-o
+    authority: W3C
+    domain: provenance
+    evidenceType: standard
+    url: https://www.w3.org/TR/prov-o/
+    use: describe entities, agents, activities, attribution, use and derivation in an auditable editorial provenance manifest
+  - id: w3c-annotation-model
+    authority: W3C
+    domain: citability
+    evidenceType: standard
+    url: https://www.w3.org/TR/annotation-model/
+    use: connect a precise claim or paragraph body to a source target for future assertion-level evidence records
+  - id: crossref-crossmark
+    authority: Crossref
+    domain: corrections
+    evidenceType: documentation
+    url: https://www.crossref.org/documentation/crossmark/participating-in-crossmark
+    use: pattern for update, correction, retraction and version history when DOI/Crossmark membership is actually adopted
+  - id: schema-definedterm
+    authority: Schema.org
+    domain: glossary
+    evidenceType: vocabulary
+    url: https://schema.org/DefinedTerm
+    use: visible scientific glossary terms, definitions, term codes and thematic term sets; maintain precise definitions rather than markup volume
+  - id: adsense-ad-limitations
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/9437976?hl=es
+    use: guardrail for temporary ad serving limits, traffic quality anomalies and invalid-traffic investigation; never treat a limit as approval
+  - id: google-valid-page-metadata
+    authority: Google Search Central
+    domain: html-metadata
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata
+    use: protect title, canonical, meta and JSON-LD by ensuring valid head markup; invalid elements can cause later metadata to be ignored
+  - id: google-crawling-errors
+    authority: Google Search Central
+    domain: crawlability
+    evidenceType: troubleshooting
+    url: https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors
+    use: test redirect chains, availability, soft 404, 404/410/301 states and render-blocking resources for author and correction pages

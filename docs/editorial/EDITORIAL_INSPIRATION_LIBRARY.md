@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 334 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 344 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -364,6 +364,23 @@ Esta tanda de Luna cubre controles operativos que no sustituyen las métricas au
 | Compresión | [Cloudflare: content compression](https://developers.cloudflare.com/speed/optimization/content/compression/) | Comprobar Content-Encoding, MIME y tamaño servido por ruta | Algoritmo depende de navegador, plan y configuración |
 | ads.txt | [Google AdSense: rastreabilidad de ads.txt](https://support.google.com/adsense/answer/7679060?hl=es) | Verificar raíz, robots, 200, formato e HTTP/HTTPS después de aprobación | Cambios tardan; no implica aprobación |
 | Transparencia | [Schema.org: publishingPrinciples](https://schema.org/publishingPrinciples) | Vincular JSON-LD con la metodología editorial visible | Vocabulario descriptivo, no garantía de rich result |
+
+### Fuentes nuevas para autoría, procedencia y control de calidad — 12 de septiembre
+
+Luna identificó estas referencias para reforzar la confianza sin fabricar credenciales. Son patrones de implementación: la persona responsable debe decidir si el sitio realmente tiene autor, DOI, política de correcciones o un caso de fact-check antes de publicarlos.
+
+| Área | Fuente oficial | Aplicación posible | Límite |
+| --- | --- | --- | --- |
+| Autoría | [ORCID: cómo mostrar un iD](https://info.orcid.org/documentation/integration-guide/orcid-id-display-guidelines/) | Añadir un ORCID solo para una persona que lo haya autenticado y autorizado | Identidad no equivale a pericia; nunca inventar IDs |
+| Metadatos | [Crossref: elementos requeridos y recomendados](https://www.crossref.org/documentation/schema-library/required-recommended-elements/) | Preparar un contrato de contribuyentes, roles, fechas, referencias y versiones si se adopta DOI | Está orientado a depósitos Crossref, no es requisito SEO |
+| Fact-check | [Google: ClaimReview](https://developers.google.com/search/docs/appearance/structured-data/factcheck) | Crear una ficha separada para verificaciones reales, con claim, evidencia y correcciones | Google está retirando ClaimReview de Search; no usarlo en explicadores comunes |
+| Procedencia | [W3C PROV-O](https://www.w3.org/TR/prov-o/) | Registrar fuente, actividad editorial, agente, versión y derivación en un manifiesto auditable | Estándar de interoperabilidad, no señal de ranking |
+| Anotaciones | [W3C Web Annotation](https://www.w3.org/TR/annotation-model/) | Enlazar una afirmación o párrafo con su pasaje de fuente cuando exista la infraestructura | No define transporte ni garantiza indexación |
+| Correcciones | [Crossmark](https://www.crossref.org/documentation/crossmark/participating-in-crossmark) | Inspirar historial de actualizaciones, correcciones y retiros | Requiere DOI/membresía; patrón condicional para EcoCuriosa |
+| Glosario | [Schema.org DefinedTerm](https://schema.org/DefinedTerm) | Crear definiciones visibles y mantenidas de términos científicos | Vocabulario nuevo; no garantiza rich result |
+| Calidad de anuncios | [Límites de publicación de anuncios](https://support.google.com/adsense/answer/9437976?hl=es) | Monitorizar anomalías de tráfico y detener escalado si hay una limitación | No ofrece umbrales ni plazos garantizados |
+| HTML | [Google: metadatos de página válidos](https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata) | Preflight para evitar que un elemento inválido invalide title, canonical o JSON-LD posteriores | Mejora legibilidad técnica, no autoridad editorial |
+| Rastreo | [Google: errores de rastreo](https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors) | Verificar estados, soft 404, cadenas de redirección y render de páginas de confianza | Rastreo no equivale a indexación ni ranking |
 
 ### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
 
