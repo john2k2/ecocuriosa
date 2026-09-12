@@ -29,8 +29,9 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 1. Exportar o conectar los datos de Search Console y Cloudflare en modo lectura; conservarlos fuera del repositorio si contienen datos de cuenta.
 2. Crear una tarea semanal de Luna Max que produzca solo briefs en `docs/editorial/backlog/`.
 3. Crear una tarea por brief que abra un cambio local con el frontmatter completo y estado `draft`; la publicación continúa siendo una aprobación humana.
-4. Añadir una revisión editorial de fuentes, derechos de imagen, enlaces internos, `pnpm content:audit`, `pnpm build` y `pnpm astro check` como puerta de salida. El modo `pnpm content:audit -- --strict` solo pasa cuando cada artículo tenga fuentes y revisión; hoy sirve para medir la deuda, no para ocultarla. La aprobación debe registrarse en la plantilla de brief antes de publicar.
-5. Tras cuatro semanas, medir clics orgánicos, impresiones, CTR, páginas por sesión y RPM por país antes de aumentar la frecuencia.
+4. Mantener los generadores históricos en modo borrador: nunca apuntarlos a `src/content/articles` ni `public/images/articles`; sus salidas deben conservar `humanApproval: pending` y `publish: false`.
+5. Añadir una revisión editorial de fuentes, derechos de imagen, enlaces internos, `pnpm content:audit`, `pnpm build` y `pnpm astro check` como puerta de salida. El modo `pnpm content:audit -- --strict` solo pasa cuando cada artículo tenga fuentes y revisión; hoy sirve para medir la deuda, no para ocultarla. La aprobación debe registrarse en la plantilla de brief antes de publicar.
+6. Tras cuatro semanas, medir clics orgánicos, impresiones, CTR, páginas por sesión y RPM por país antes de aumentar la frecuencia.
 
 No se debe programar una creación masiva diaria: con el inventario actual, mejorar y citar las monografías existentes tiene más valor que ampliar el volumen.
 

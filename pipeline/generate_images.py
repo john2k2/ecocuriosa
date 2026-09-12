@@ -1,8 +1,16 @@
+import argparse
 import os
+import sys
+from pathlib import Path
+
+sys.path.append(os.path.dirname(__file__))
+
 from config import ARTICLES_DATA, CATEGORIES
 
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'public', 'images', 'articles')
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DEFAULT_DRAFT_OUTPUT = ROOT_DIR / 'docs' / 'editorial' / 'drafts' / 'assets'
+PUBLISHED_ASSETS = ROOT_DIR / 'public' / 'images' / 'articles'
 
 CATEGORY_THEMES = {
     'fauna-fascinante': {
@@ -109,23 +117,57 @@ def generate_svg_illustration(art):
 '''
     return svg_content
 
-def main():
-    print(f"Generando {len(ARTICLES_DATA)} ilustraciones estilizadas...")
-    for art in ARTICLES_DATA:
-        img_path = art['image'].lstrip('/')
-        full_path = os.path.join(os.path.dirname(__file__), '..', 'public', img_path)
-        os.makedirs(os.path.dirname(full_path), exist_ok=True)
-        
-        svg = generate_svg_illustration(art)
-        with open(full_path, 'w', encoding='utf-8') as f:
-            f.write(svg)
-        print(f"✓ Creada imagen: {img_path}")
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Genera ilustraciones SVG en un directorio de borradores.'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=Path,
+        default=DEFAULT_DRAFT_OUTPUT,
+        help='directorio de activos de borrador (por defecto: docs/editorial/drafts/assets)',
+    )
+    return parser.parse_args()
 
-    # Crear imagen por defecto para OpenGraph
-    og_default = os.path.join(os.path.dirname(__file__), '..', 'public', 'images', 'og-default.webp')
-    logo_file = os.path.join(os.path.dirname(__file__), '..', 'public', 'images', 'logo.webp')
-    # también en svg para compatibilidad
-    print("✓ Imágenes de soporte listas.")
+
+def main():
+    args = parse_args()
+    draft_output = args.output_dir.expanduser().resolve()
+    published_assets = PUBLISHED_ASSETS.resolve()
+
+    if draft_output == published_assets or published_assets in draft_output.parents:
+        raise SystemExit(
+            'Abortado: el directorio de salida no puede ser public/images/articles '
+            'ni uno de sus subdirectorios.'
+        )
+
+    print(f"Preparando {len(ARTICLES_DATA)} ilustraciones SVG de borrador...")
+    paths = []
+    for art in ARTICLES_DATA:
+        if not art.get('imageAlt'):
+            raise SystemExit(f"Abortado: falta imageAlt para {art['slug']}.")
+        filename = Path(art['image'].lstrip('/')).name
+        paths.append(draft_output / filename)
+
+    if len(paths) != len(set(paths)):
+        raise SystemExit('Abortado: hay nombres de archivo de imagen duplicados.')
+
+    collisions = [path for path in paths if path.exists()]
+    if collisions:
+        names = ', '.join(path.name for path in collisions)
+        raise SystemExit(
+            f"Abortado: no se sobrescriben activos de borrador existentes: {names}."
+        )
+
+    draft_output.mkdir(parents=True, exist_ok=True)
+    for art, path in zip(ARTICLES_DATA, paths):
+        path.write_text(generate_svg_illustration(art), encoding='utf-8')
+        print(f"✓ Activo de borrador: {path}")
+
+    print(
+        '\nActivos preparados fuera de public/. Requieren procedencia, crédito, '
+        'variante WebP y aprobación humana antes de incorporarse al sitio.'
+    )
 
 if __name__ == '__main__':
     main()

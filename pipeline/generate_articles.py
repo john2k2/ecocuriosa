@@ -1,7 +1,16 @@
-# scratch/generate_all.py
+"""Genera borradores locales a partir del catálogo histórico.
+
+Este script no es un publicador. Los artículos que ya viven en
+``src/content/articles`` están curados y no deben ser reemplazados por una
+fuente generativa o por datos sin URLs verificables.
+"""
+
 # -*- coding: utf-8 -*-
+import argparse
+import json
 import os
 import sys
+from pathlib import Path
 
 sys.path.append(os.path.dirname(__file__))
 
@@ -10,56 +19,65 @@ from data_marinas import MARINAS_ARTICLES
 from data_fenomenos import FENOMENOS_ARTICLES
 from data_ciencia import CIENCIA_ARTICLES
 
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DEFAULT_DRAFT_DIR = ROOT_DIR / 'docs' / 'editorial' / 'drafts'
+PUBLISHED_DIR = ROOT_DIR / 'src' / 'content' / 'articles'
 ALL_ARTICLES = FAUNA_ARTICLES + MARINAS_ARTICLES + FENOMENOS_ARTICLES + CIENCIA_ARTICLES
 
-TARGET_DIR = os.path.join(os.path.dirname(__file__), '..', 'src', 'content', 'articles')
+
+def yaml_string(value):
+    """Produce una cadena YAML doblemente entrecomillada y escapada."""
+    return json.dumps(str(value), ensure_ascii=False)
+
 
 def generate_markdown(art):
-    tags_formatted = "\n".join([f"  - {t}" for t in art['tags']])
-    
-    # Format steps
+    tags_formatted = "\n".join([f"  - {yaml_string(tag)}" for tag in art['tags']])
+
     steps_formatted = []
     for num, (title, desc) in enumerate(art['section_2_steps'], 1):
         steps_formatted.append(f"{num}. **{title}** {desc}")
     steps_text = "\n\n".join(steps_formatted)
-    
-    # Format table
+
     headers = " | ".join(art['table_headers'])
     separator = " | ".join([":---" for _ in art['table_headers']])
-    rows = []
-    for row in art['table_rows']:
-        rows.append("| " + " | ".join(row) + " |")
+    rows = ["| " + " | ".join(row) + " |" for row in art['table_rows']]
     table_text = f"| {headers} |\n| {separator} |\n" + "\n".join(rows)
-    
-    # Format myths
+
     myths_formatted = []
     for i, (myth, reality) in enumerate(art['myths'], 1):
-        myths_formatted.append(f"* **Mito {i}:** {myth}\n  * **Realidad científica contrastada:** {reality}")
+        myths_formatted.append(
+            f"* **Mito {i}:** {myth}\n  * **Realidad científica contrastada:** {reality}"
+        )
     myths_text = "\n\n".join(myths_formatted)
-    
-    # Format FAQs
-    faqs_formatted = []
-    for q, a in art['faqs']:
-        faqs_formatted.append(f"### {q}\n\n{a}")
+
+    faqs_formatted = [f"### {question}\n\n{answer}" for question, answer in art['faqs']]
     faqs_text = "\n\n".join(faqs_formatted)
-    
-    # Sources list
-    sources_formatted = "\n".join([f"* *{s}*" for s in art['sources']])
-    
-    body = f"""---
-title: "{art['title']}"
-description: "{art['description']}"
-category: "{art['category']}"
+
+    # Los nombres heredados no son citas: el catálogo histórico no contiene
+    # URLs, alcance, tipo de evidencia ni fecha de comprobación.
+    candidate_sources = "\n".join([f"- {source}" for source in art['sources']])
+
+    return f"""---
+status: draft
+humanApproval: pending
+publish: false
+title: {yaml_string(art['title'])}
+description: {yaml_string(art['description'])}
+category: {yaml_string(art['category'])}
 pubDate: {art['pubDate']}
-author: "Equipo Editorial EcoCuriosa"
-image: "{art['image']}"
-imageAlt: "{art['imageAlt']}"
+author: \"PENDIENTE DE AUTORÍA REAL\"
+image: {yaml_string(art['image'])}
+imageAlt: {yaml_string(art['imageAlt'])}
 tags:
 {tags_formatted}
 featured: {str(art.get('featured', False)).lower()}
+sourceCandidates: []
 ---
 
-> **Respuesta Rápida a la Búsqueda:** {art['quick_answer']}
+> **Borrador local:** requiere abrir fuentes, aportar URLs exactas, comprobar cada afirmación, revisar la imagen y recibir aprobación humana antes de publicarse.
+
+> **Respuesta rápida candidata:** {art['quick_answer']}
 
 ---
 
@@ -79,45 +97,87 @@ featured: {str(art.get('featured', False)).lower()}
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Desmintiendo mitos comunes
 
 {myths_text}
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 4. Preguntas frecuentes
 
 {faqs_text}
 
 ---
 
-## Conclusión y Fuentes Documentales
+## Pendientes de verificación editorial
 
-El análisis científico de este fenómeno evidencia la importancia del método empírico para desentrañar los misterios del mundo natural. Comprender los principios físicos, químicos y biológicos que rigen nuestro planeta nos permite apreciar la extraordinaria precisión de los ecosistemas y promover su conservación frente a las presiones del cambio global.
+- [ ] Abrir cada fuente primaria o institucional y registrar URL, alcance, tipo y fecha.
+- [ ] Separar hechos, inferencias e hipótesis y eliminar cualquier cifra sin respaldo.
+- [ ] Aportar una explicación o visualización original y revisar sus derechos.
+- [ ] Definir autoría real y registrar `reviewedDate`/`reviewedBy` solo tras la revisión.
 
-### Referencias y Literatura Científica Consultada
-{sources_formatted}
+### Nombres de fuentes heredados (no citables todavía)
+
+{candidate_sources}
 """
-    return body
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Genera borradores locales sin tocar artículos publicados.'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=Path,
+        default=DEFAULT_DRAFT_DIR,
+        help='directorio de borradores (por defecto: docs/editorial/drafts)',
+    )
+    return parser.parse_args()
+
 
 def main():
-    print(f"Total articles to write: {len(ALL_ARTICLES)}")
-    assert len(ALL_ARTICLES) == 32, f"Expected 32 articles, found {len(ALL_ARTICLES)}"
-    
+    args = parse_args()
+    draft_dir = args.output_dir.expanduser().resolve()
+    published_dir = PUBLISHED_DIR.resolve()
+
+    if draft_dir == published_dir or published_dir in draft_dir.parents:
+        raise SystemExit(
+            'Abortado: el directorio de salida no puede ser '
+            'src/content/articles ni uno de sus subdirectorios.'
+        )
+
+    print(f"Total de borradores a preparar: {len(ALL_ARTICLES)}")
+    if len(ALL_ARTICLES) != 32:
+        raise SystemExit(f"Se esperaban 32 artículos, se encontraron {len(ALL_ARTICLES)}.")
+
+    paths = []
     slugs = set()
     for art in ALL_ARTICLES:
         slug = art['slug']
-        assert slug not in slugs, f"Duplicate slug: {slug}"
+        if slug in slugs:
+            raise SystemExit(f"Slug duplicado: {slug}")
         slugs.add(slug)
-        
-        filepath = os.path.join(TARGET_DIR, f"{slug}.md")
+        paths.append(draft_dir / f"{slug}.md")
+
+    collisions = [path for path in paths if path.exists()]
+    if collisions:
+        names = ', '.join(path.name for path in collisions)
+        raise SystemExit(
+            f"Abortado: ya existen borradores y no se sobrescriben: {names}. "
+            'Elige otro --output-dir o archiva esos archivos manualmente.'
+        )
+
+    draft_dir.mkdir(parents=True, exist_ok=True)
+    for art, path in zip(ALL_ARTICLES, paths):
         content = generate_markdown(art)
-        
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(content)
-        print(f"✓ Escrito con rigor científico: {slug}.md ({len(content.split())} palabras)")
-        
-    print("\n¡Los 32 artículos han sido regenerados con éxito con contenido científico 100% auténtico!")
+        path.write_text(content, encoding='utf-8')
+        print(f"✓ Borrador local: {path} ({len(content.split())} palabras)")
+
+    print(
+        '\nBorradores preparados. No se modificaron artículos publicados, '
+        'fuentes, revisiones ni datos de AdSense.'
+    )
+
 
 if __name__ == '__main__':
     main()

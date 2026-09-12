@@ -2,6 +2,8 @@
 
 Este documento registra la arquitectura técnica, los recursos desplegados en producción y la **hoja de ruta exacta** para completar la monetización pasiva de EcoCuriosa según la metodología Nichonauta.
 
+> **Nota de vigencia:** las fechas de las fases iniciales son un registro histórico. Para el estado actual de fuentes, imágenes, Search Console, Cloudflare y pendientes de AdSense, prevalecen [`GEO-AUDIT-REPORT.md`](./GEO-AUDIT-REPORT.md) y el [scorecard de crecimiento](./docs/EDITORIAL_GROWTH_SCORECARD.md).
+
 ---
 
 ## 1. Estado Actual de la Infraestructura (Desplegado y Verificado)
@@ -14,7 +16,7 @@ Este documento registra la arquitectura técnica, los recursos desplegados en pr
 | **Repositorio Código** | 🟢 Sincronizado | [github.com/john2k2/ecocuriosa](https://github.com/john2k2/ecocuriosa) | Rama `main` al día |
 | **Google Search Console** | 🟢 Verificado | Archivo `googlec746ada036fe7bf1.html` | Propiedad confirmada en GSC |
 | **Sitemaps XML** | 🟢 Publicado | [ecocuriosa.com/sitemap-index.xml](https://ecocuriosa.com/sitemap-index.xml) | `sitemap-0.xml` contiene 43 URLs indexables; `/buscar/` queda fuera |
-| **Artículos & recursos visuales** | 🟡 En revisión | 32 monografías científicas | 32 imágenes referenciadas; 21 tienen crédito explícito y 11 activos heredados requieren licencia |
+| **Artículos & recursos visuales** | 🟡 En revisión editorial | 32 monografías; 96 variantes visuales | Auditoría: 0 imágenes, variantes, alt o créditos faltantes; falta registrar 31 revisiones humanas |
 | **Diseño & Accesibilidad** | 🟢 Verificado | Frontispicio Hero, paleta botánica, `<main id="main">` | `astro check` sin errores; revisar de nuevo al activar anuncios |
 
 ---
@@ -60,5 +62,5 @@ Una vez aprobada la cuenta:
 ## 3. Plan de Contingencia (Si AdSense solicita ajustes)
 En caso de que el primer intento reciba una respuesta automática de *"Contenido de bajo valor"*:
 1. No alterar el dominio ni la temática (la ciencia y naturaleza evergreen tienen de los RPMs más estables).
-2. Publicar una tanda adicional de 8 monografías en la categoría con menor número de páginas (`pipeline/generate_articles.py`).
-3. Reenviar a revisión; la aprobación suele consolidarse en el 2º intento sin inconvenientes.
+2. No publicar una tanda automática: revisar primero la cola editorial y actualizar las URLs existentes con fuentes verificadas. El generador histórico solo crea borradores fuera de `src/content/articles/` y no sustituye la revisión humana.
+3. Reenviar a revisión únicamente después de resolver la solicitud concreta de Google; no se puede garantizar una aprobación en el segundo intento.

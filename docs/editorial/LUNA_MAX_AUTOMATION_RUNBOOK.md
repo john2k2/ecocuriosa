@@ -76,6 +76,10 @@ Para cada orden, Luna produce primero un brief de actualización local. Solo si 
 
 La automatización debe comprobar que cada SVG tenga una variante WebP, `imageAlt` y `imageCredit`; si falta cualquiera, se detiene.
 
+### Salvaguarda del pipeline histórico
+
+Los scripts de `pipeline/` contienen un catálogo de investigación antiguo y no deben regenerar el sitio publicado. `generate_articles.py` escribe únicamente en `docs/editorial/drafts/`, no acepta `src/content/articles` como destino, se detiene ante colisiones y deja `sources`, `reviewedDate` y `reviewedBy` pendientes. `generate_images.py` crea SVG solo en `docs/editorial/drafts/assets/`, nunca sobrescribe `public/images/articles` ni activos existentes y exige `imageAlt`. Antes de llevar un borrador al sitio, el editor debe añadir fuentes estructuradas, procedencia/licencia de imagen, variante WebP y revisión humana.
+
 ## Puertas de calidad y detención
 
 El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condiciones:
