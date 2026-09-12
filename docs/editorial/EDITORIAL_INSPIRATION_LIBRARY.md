@@ -166,6 +166,17 @@ Estas propuestas convierten la investigación de Luna en briefs concretos. Cada 
 | Media | ¿Por qué no existe un único “elefante africano” en la conservación? | [IUCN](https://iucn.org/news/species/202103/african-elephant-species-now-endangered-and-critically-endangered-iucn-red-list) · [Current Biology](https://doi.org/10.1016/j.cub.2023.09.007) | Comparación bosque/sabana y anatomía de trompa | No usar datos de elefante asiático como población africana |
 | Media | ¿Cómo localiza presas un búho y qué parte del ala reduce ruido? | [Cornell Lab](https://www.allaboutbirds.org/guide/Barn_Owl) · [Biological Journal](https://doi.org/10.1093/biolinnean/blab138) | Lámina cara–oído–pluma con especie y método | No afirmar silencio total ni mezclar taxonomías |
 
+### Fuentes nuevas para ampliar la biblioteca — 12 de septiembre
+
+Estas entradas complementan las fichas existentes con datos primarios o institucionales. Son insumos para futuros briefs, no citas automáticas ni artículos listos para publicar.
+
+| Tema | Fuente añadida | Uso editorial | Límite obligatorio |
+| --- | --- | --- | --- |
+| Agujeros azules | [USGS: mediciones radioanalíticas en estructuras kársticas submarinas](https://www.usgs.gov/data/radioanalytical-measurements-samples-submarine-karstic-carbonate-features-along-west-florida) | Comparar radón, radio y estratificación en Amberjack y Green Banana | Datos regionales y de muestras; no generalizar a todos los agujeros azules |
+| Nubes mammatus | [NOAA/NWS Glossary](https://forecast.weather.gov/glossary.php?word=mammatus) | Definir la formación y explicar por qué una foto no predice severidad | La mammatus puede acompañar tormentas no severas; no es predictor aislado |
+| Fuentes hidrotermales | [NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/education/hydrothermal-vents-volcanoes/) · [campos de la Dorsal Central India](https://repository.library.noaa.gov/view/noaa/32606) | Diagrama agua–calor–química y comparación de un descubrimiento real | Mantener separados mecanismo general, región, taxones y fecha de muestreo |
+| Clima espacial | [NASA: efectos de tormentas solares](https://science.nasa.gov/blogs/science-news/2026/07/15/new-nasa-study-says-possibly-no-limit-to-solar-storm-effects/) | Explicar qué significa una hipótesis sobre límites de respuesta magnetosférica | Resultado provisional; no convertirlo en pronóstico de una tormenta extrema |
+
 ### Fuentes de derechos y transparencia añadidas
 
 Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:
@@ -210,7 +221,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 257 entradas, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -227,3 +238,17 @@ Estas fichas nacen de impresiones observadas (no de volumen estimado). Siguen en
 | `tiburón de Groenlandia` | Más allá del récord de edad: ¿qué sabemos de distribución, hábitat y visión? | `coeswic-greenland-shark-2025`, `greenland-shark-life-stages-pmc12206561`, `greenland-shark-vision-pmc12770505` | Diagrama de cristalino, profundidad y telemetría | No presentar 392 ± 120 años como edad exacta; comprobar jurisdicción/fecha |
 | `león de las nieves` | ¿León o leopardo de las nieves? Resolver la búsqueda sin perpetuar el nombre incorrecto | `snow-leopard-phylogeography-2024`, `snow-leopard-iucn-species-pdf`, `snow-leopard-un-observance` | Infografía de pelaje, patas, cola y altitud | La entidad principal es el leopardo; verificar PDF IUCN en navegador |
 | `geosmina` (variante) | ¿Por qué el olor de lluvia cambia según suelo y microorganismos? | `noaa-rain-voc-pulse`, `pubmed-geosmin-isolation` | Comparación de suelo seco/mojado; ilustración, no “foto científica” | No prometer una única causa ni extrapolar laboratorio a toda lluvia |
+
+### Actualización de evidencia de Luna Max — 12 de septiembre
+
+Luna contrastó las consultas anteriores con fuentes nuevas y no duplicadas. Estas siete oportunidades mantienen el mismo estado `candidate`, pero ahora tienen mejores fuentes para un brief y un activo original; ninguna se publica ni se marca como revisada automáticamente.
+
+| Prioridad | Consulta y ángulo | Fuentes nuevas del catálogo | Aportación propia recomendada | Límite de evidencia |
+| --- | --- | --- | --- | --- |
+| Muy alta | `geodinamo`: ¿qué ondas y flujos se pueden inferir del núcleo? | `pnas-core-magnetocoriolis-waves-pmc9060525`, `esa-swarm-magnetic-waves` | Corte del núcleo + mapa temporal de señales | Son inferencias de modelos y magnetómetros; no observación directa ni predicción de inversión |
+| Muy alta | `pulpo mimo`: ¿qué parte es color, postura y control neural? | `cephalopod-neural-camouflage-cub-2023`, `cephalopod-dynamic-skin-behaviors-2024`, `cephalopod-chromatophore-color-pmc6397165` | Secuencia de postura/color con especies y condiciones | La mayoría de estudios son de cefalópodos en general, no de *T. mimicus* |
+| Muy alta | `tiburón de Groenlandia`: ¿qué aporta el primer genoma al récord de edad? | `greenland-shark-genome-pnas-2026`, `greenland-shark-genome-pubmed-42154556`, `tokyo-greenland-shark-genome-2026`, `noaa-greenland-shark-longevity` | Diagrama genoma–datación con incertidumbre | Genes candidatos no prueban causalidad ni una receta antienvejecimiento |
+| Alta | `león de las nieves`: ¿cómo se adaptan el leopardo y su hábitat? | `snow-leopard-high-altitude-evolution-2025`, `snow-leopard-territorial-marking-baltistan`, `snow-leopard-ladakh-population-plos-2025` | Infografía de adaptación, cámaras y altitud | Cada estudio tiene región y muestra propias; no generalizar a toda la especie |
+| Alta | `pangolín gigante`: ¿cómo se detecta una especie casi invisible? | `giant-pangolin-kenya-range-extension`, `giant-pangolin-senegal-rediscovery-kent`, `giant-pangolin-congo-population-structure-2024` | Mapa de cámaras, madrigueras y genética | Registros puntuales no equivalen a población estable ni rango global |
+| Alta | `relámpago de Catatumbo`: ¿qué cambia al medir récord, densidad y frecuencia? | `nasa-bams-lightning-hotspots`, `nasa-earthdata-maracaibo-beacon`, `luz-catatumbo-electroatmospheric-model` | Mapa lago–relieve–sensor con unidad y periodo | No decir “tormenta eterna”; el modelo de LUZ es una hipótesis contextual |
+| Muy alta | `geosmina`/`petricor`: ¿cómo llega una molécula al receptor OR11A1? | `geosmin-or11a1-acs-2024`, `geosmin-or11a1-pmc11261619`, `leibniz-geosmin-receptor-2024`, `geosmin-chaohu-sediments-2025` | Cadena suelo/lluvia → aerosol → receptor, separando in vitro y campo | OR11A1 no explica todo el petricor; Chaohu es un lago concreto |

@@ -1369,3 +1369,183 @@ entries:
     evidenceType: institutional-context
     url: https://www.un.org/en/observances/snow-leopard-day
     use: official species naming and conservation observance; not a population dataset
+  - id: usgs-blue-hole-radioanalytical-data
+    authority: USGS
+    domain: karst-hydrology
+    evidenceType: dataset
+    url: https://www.usgs.gov/data/radioanalytical-measurements-samples-submarine-karstic-carbonate-features-along-west-florida
+    use: radon and radioanalytical measurements from Amberjack and Green Banana blue holes; preserve the local sampling scope
+  - id: nws-mammatus-glossary
+    authority: NOAA National Weather Service
+    domain: atmospheric-science
+    evidenceType: institutional-definition
+    url: https://forecast.weather.gov/glossary.php?word=mammatus
+    use: definition and severe-weather caveat for mammatus clouds; do not use the cloud as a standalone tornado predictor
+  - id: noaa-hydrothermal-vents-volcanoes
+    authority: NOAA Ocean Exploration
+    domain: earth-ocean-science
+    evidenceType: institutional-explainer
+    url: https://oceanexplorer.noaa.gov/education/hydrothermal-vents-volcanoes/
+    use: water-rock heating, chemical energy and vent-community mechanisms; keep the explanation general and label examples
+  - id: noaa-indian-ridge-vent-fields
+    authority: NOAA Institutional Repository
+    domain: marine-geology
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/32606
+    use: four hydrothermal vent fields on the Central Indian Ridge and a 21-taxon field observation; retain region and sampling limits
+  - id: nasa-solar-storm-effects-2026
+    authority: NASA Science
+    domain: space-weather
+    evidenceType: institutional-research-news
+    url: https://science.nasa.gov/blogs/science-news/2026/07/15/new-nasa-study-says-possibly-no-limit-to-solar-storm-effects/
+    use: current context for magnetospheric response thresholds; label the result as provisional and do not turn it into an extreme-storm forecast
+  - id: pnas-core-magnetocoriolis-waves-pmc9060525
+    authority: PNAS / PubMed Central
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/
+    use: interannual magneto-Coriolis waves inferred from satellite and observatory magnetic data; separate model inference from direct core observation
+  - id: esa-swarm-magnetic-waves
+    authority: European Space Agency
+    domain: geomagnetism
+    evidenceType: institutional-research-news
+    url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down
+    use: institutional context for a westward-propagating magnetic wave with an approximately seven-year period; preserve the mission and date
+  - id: cephalopod-neural-camouflage-cub-2023
+    authority: Current Biology
+    domain: cephalopod-neurobiology
+    evidenceType: review
+    url: https://doi.org/10.1016/j.cub.2023.08.095
+    use: neural control, chromatophores and dynamic camouflage across cephalopods; do not treat it as a direct study of Thaumoctopus mimicus
+  - id: cephalopod-dynamic-skin-behaviors-2024
+    authority: Current Opinion in Neurobiology
+    domain: cephalopod-neurobiology
+    evidenceType: review
+    url: https://www.sciencedirect.com/science/article/pii/S0959438824000382
+    use: dynamic skin behavior, camouflage and visual communication; keep the taxonomic scope broader than the mimic octopus
+  - id: cephalopod-chromatophore-color-pmc6397165
+    authority: Journal of Experimental Biology / PubMed Central
+    domain: comparative-anatomy
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6397165/
+    use: experimental pigmentary and structural coloration in chromatophore organs; describe the studied species and laboratory conditions
+  - id: cephalopod-dynamic-camouflage-cub-2007
+    authority: Current Biology
+    domain: cephalopod-behaviour
+    evidenceType: review
+    url: https://www.sciencedirect.com/science/article/pii/S0960982207011384
+    use: contextual review of dynamic camouflage and mimicry, including Thaumoctopus examples; do not infer a fixed model list or intent
+  - id: greenland-shark-genome-pnas-2026
+    authority: PNAS
+    domain: marine-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1073/pnas.2601272123
+    use: 2026 chromosome-level Greenland shark genome and candidate repair/immunity pathways; candidates are not proven anti-ageing mechanisms
+  - id: greenland-shark-genome-pubmed-42154556
+    authority: PubMed
+    domain: marine-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/42154556/
+    use: bibliographic record and abstract for the 2026 genome study; preserve uncertainty and study scope
+  - id: tokyo-greenland-shark-genome-2026
+    authority: University of Tokyo
+    domain: marine-genomics
+    evidenceType: institutional-context
+    url: https://www.a.u-tokyo.ac.jp/english/topics_e/topics_20260529-18.html
+    use: institutional context and author attribution for the Greenland shark genome; not a substitute for the primary paper
+  - id: noaa-greenland-shark-longevity
+    authority: NOAA Ocean Service
+    domain: marine-biology
+    evidenceType: institutional-explainer
+    url: https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412
+    use: radiocarbon-dating method and age interval context; do not present 392 ± 120 years as an exact age
+  - id: snow-leopard-high-altitude-evolution-2025
+    authority: Science Advances / PubMed
+    domain: comparative-evolution
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/39813339/
+    use: morphology, fossils and distribution modelling for high-altitude and cold adaptation; keep inferred traits tied to the study
+  - id: snow-leopard-territorial-marking-baltistan
+    authority: Ecology and Evolution
+    domain: conservation-behaviour
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1002/ece3.70518
+    use: camera-based territorial marking and activity in Baltistan; preserve the 2018–2023 regional sample and avoid universal physiology claims
+  - id: snow-leopard-ladakh-population-plos-2025
+    authority: PLOS ONE
+    domain: conservation-biology
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0322136
+    use: spatial population assessment in Ladakh; retain the blocks, camera effort and geographic scope
+  - id: snow-leopard-trust-overlap-2025
+    authority: Snow Leopard Trust
+    domain: conservation-context
+    evidenceType: institutional-report
+    url: https://snowleopard.org/where-spotted-kingdoms-converge/
+    use: contextual field project on overlap with common leopards; inspiration only, not a global census
+  - id: giant-pangolin-kenya-range-extension
+    authority: Oryx
+    domain: conservation-biology
+    evidenceType: peer-reviewed-primary
+    url: https://www.cambridge.org/core/journals/oryx/article/three-spatially-separate-records-confirm-the-presence-of-and-provide-a-range-extension-for-the-giant-pangolin-smutsia-gigantea-in-kenya/76FB2889FAE79E3420AB2D478E8D99FA
+    use: three spatially separate Kenyan records and range extension; do not infer a stable or global population
+  - id: giant-pangolin-senegal-rediscovery-kent
+    authority: University of Kent
+    domain: conservation-biology
+    evidenceType: institutional-repository
+    url: https://kar.kent.ac.uk/105969/
+    use: camera-trap evidence in Niokolo-Koba after a long record gap; preserve site and observation limits
+  - id: giant-pangolin-congo-population-structure-2024
+    authority: Scientific Reports
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s41598-024-68928-0
+    use: local genetic population structure in the Republic of the Congo; do not extrapolate across the species range
+  - id: giant-pangolin-cbi-project
+    authority: Congo Basin Institute
+    domain: conservation-context
+    evidenceType: institutional-project
+    url: https://www.cbi.ucla.edu/giant-pangolin-conservation
+    use: current conservation-project context and research questions; not a substitute for a published census
+  - id: nasa-bams-lightning-hotspots
+    authority: NASA / Bulletin of the American Meteorological Society
+    domain: atmospheric-science
+    evidenceType: peer-reviewed-primary
+    url: https://journals.ametsoc.org/view/journals/bams/97/11/bams-d-14-00193.1.xml
+    use: satellite LIS/OTD lightning density and Maracaibo seasonality; preserve sensor, period and metric
+  - id: nasa-earthdata-maracaibo-beacon
+    authority: NASA Earthdata
+    domain: atmospheric-science
+    evidenceType: institutional-report
+    url: https://www.earthdata.nasa.gov/s3fs-public/imported/NASA_SOP_2016_the_maracaibo_beacon.pdf
+    use: observational context for lake, humidity, relief and low-level jet; attribute campaign measurements and avoid “eternal storm” language
+  - id: luz-catatumbo-electroatmospheric-model
+    authority: Universidad del Zulia
+    domain: atmospheric-electricity
+    evidenceType: research-model
+    url: https://www.produccioncientifica.luz.edu.ve/index.php/ciencia/article/view/9042
+    use: local electro-atmospheric model as a hypothesis to compare with observations; not a definitive mechanism
+  - id: geosmin-or11a1-acs-2024
+    authority: Journal of Agricultural and Food Chemistry
+    domain: olfactory-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515
+    use: human OR11A1 response across 616 receptor variants; keep the evidence in vitro and distinguish geosmin from all petrichor compounds
+  - id: geosmin-or11a1-pmc11261619
+    authority: PubMed Central
+    domain: olfactory-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11261619/
+    use: methods and cross-species receptor comparison for the OR11A1 study; retain tested concentrations and species
+  - id: leibniz-geosmin-receptor-2024
+    authority: Leibniz Institute for Food Systems Biology / TUM
+    domain: olfactory-chemistry
+    evidenceType: institutional-context
+    url: https://www.leibniz-lsb.de/en/press-public-relations/pm-20240801-press-release-geosmin-odorant-receptor?cHash=24badebac9bf6e82f356aad502e12558&showOptIn=1
+    use: institutional explanation of receptor sensitivity differences; not a replacement for the peer-reviewed methods
+  - id: geosmin-chaohu-sediments-2025
+    authority: Journal of Hazardous Materials
+    domain: aquatic-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.jhazmat.2025.138007
+    use: geosmin variation in sediments and microbial communities in Lake Chaohu; do not generalize a lake study to every rain event

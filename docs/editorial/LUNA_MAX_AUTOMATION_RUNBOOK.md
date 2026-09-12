@@ -49,6 +49,22 @@ Regla de decisión:
 3. Si la consulta es una variante ortográfica (por ejemplo, “león de las nieves”), responderla dentro del artículo correcto antes de crear una URL nueva.
 4. Si el tema es actual, médico, de conservación, climático o de seguridad, exigir una fuente primaria/institucional y revisión humana reciente.
 
+### Prioridad de investigación actualizada por Luna Max
+
+Con la misma muestra pequeña de Search Console, la siguiente tanda queda ordenada por utilidad probable para responder la consulta existente y por capacidad de aportar una visualización propia. Es un orden de investigación, no una promesa de tráfico:
+
+| Orden | Consulta | Acción antes de crear una URL | Fuentes candidatas principales |
+| ---: | --- | --- | --- |
+| 1 | `geosmina`, `petricor` | Mejorar primero la respuesta del artículo actual con la ruta suelo → aerosol → receptor | `geosmin-or11a1-acs-2024`, `geosmin-or11a1-pmc11261619`, `leibniz-geosmin-receptor-2024` |
+| 2 | `tiburón de Groenlandia` | Actualizar el artículo existente con el genoma 2026, sin convertir genes candidatos en causalidad | `greenland-shark-genome-pnas-2026`, `greenland-shark-genome-pubmed-42154556`, `noaa-greenland-shark-longevity` |
+| 3 | `geodinamo`, `geodinamo terrestre` | Añadir una explicación directa de ondas y flujos antes de abrir una URL nueva | `pnas-core-magnetocoriolis-waves-pmc9060525`, `esa-swarm-magnetic-waves` |
+| 4 | `pulpo mimo` | Sustituir la lista viral por una comparación de color, postura y control neural | `cephalopod-neural-camouflage-cub-2023`, `cephalopod-dynamic-skin-behaviors-2024`, `cephalopod-chromatophore-color-pmc6397165` |
+| 5 | `león de las nieves` | Resolver la entidad como leopardo de las nieves dentro de la URL actual | `snow-leopard-high-altitude-evolution-2025`, `snow-leopard-territorial-marking-baltistan`, `snow-leopard-ladakh-population-plos-2025` |
+| 6 | `pangolín gigante` | Explicar detectabilidad y límites de cámaras antes de ampliar el rango | `giant-pangolin-kenya-range-extension`, `giant-pangolin-senegal-rediscovery-kent`, `giant-pangolin-congo-population-structure-2024` |
+| 7 | `relámpago de Catatumbo` | Separar densidad, frecuencia, sensor y periodo en la pieza existente | `nasa-bams-lightning-hotspots`, `nasa-earthdata-maracaibo-beacon`, `luz-catatumbo-electroatmospheric-model` |
+
+Para cada orden, Luna produce primero un brief de actualización local. Solo si la página existente no resuelve la pregunta después de la revisión y la medición siguiente se considera una URL nueva; el límite sigue siendo un artículo aprobado por semana.
+
 ## Decisión de imagen
 
 | Necesidad | Acción | Evidencia antes de publicar |
