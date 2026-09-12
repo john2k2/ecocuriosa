@@ -103,6 +103,15 @@ nunca sobrescribe `public/images/articles` ni activos existentes y exige
 fuentes estructuradas, procedencia/licencia de imagen, variante WebP y
 revisión humana.
 
+Para briefs de autoridad o distribución, los IDs `google-ai-features`,
+`google-preferred-sources`, `google-discover-core-update-2026`,
+`google-gen-ai-performance-reports-2026` y `google-ranking-systems-guide`
+permiten separar visibilidad de calidad. Si el artículo usa datos, código o
+afiliaciones, se pueden proponer `crossref-data-software-citation`,
+`datacite-metadata-schema-47`, `ror-registry` e
+`icmje-authors-contributors`; siguen siendo patrones condicionales y no
+autorizan a inventar credenciales, DOI ni experiencia.
+
 ## Puertas de calidad y detención
 
 El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condiciones:
@@ -111,7 +120,7 @@ El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condi
 - una frase depende de una cifra, récord, promesa médica o categoría de conservación sin alcance;
 - aparecen fuentes duplicadas, texto replicado o una conclusión genérica;
 - falta autor, licencia, alt, crédito, fecha real de revisión o enlace interno;
-- `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:source-metadata-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:source-render-audit`, `pnpm content:reference-audit` o `pnpm content:link-audit` falla;
+- `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:source-metadata-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:generated-metadata-audit`, `pnpm content:source-render-audit`, `pnpm content:reference-audit` o `pnpm content:link-audit` falla;
 - el borrador intenta publicar, crear un commit automáticamente o escribir en AdSense;
 - una tanda propone páginas casi equivalentes cuyo valor principal sea capturar variaciones de palabras clave;
 - la experiencia móvil o el CLS empeoran al probar anuncios.
