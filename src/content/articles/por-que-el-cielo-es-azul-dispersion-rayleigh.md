@@ -1,6 +1,6 @@
 ---
 title: "¿Por Qué el Cielo es Azul y los Atardeceres Rojos? La Dispersión de Rayleigh"
-description: "La luz solar parece blanca, pero viaja en todas las longitudes de onda. Explicación paso a paso de cómo los gases atmosféricos dispersan preferentemente la luz azul."
+description: "Por qué la luz solar parece blanca y los gases atmosféricos dispersan preferentemente la luz azul: una explicación paso a paso."
 category: "ciencia-curiosa"
 pubDate: 2026-08-29
 author: "Equipo Editorial EcoCuriosa"

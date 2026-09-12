@@ -1,6 +1,6 @@
 ---
 title: "La Química del Petricor: Por Qué Amamos el Inconfundible Olor a Tierra Mojada"
-description: "La geosmina es uno de los compuestos que contribuyen al olor a tierra mojada; las gotas de lluvia también pueden liberar aerosoles del suelo que transportan moléculas volátiles."
+description: "La geosmina contribuye al olor a tierra mojada; las gotas de lluvia también pueden liberar aerosoles del suelo que transportan moléculas volátiles."
 category: "ciencia-curiosa"
 pubDate: 2026-09-04
 author: "Equipo Editorial EcoCuriosa"

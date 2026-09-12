@@ -15,6 +15,7 @@ const emptyReferenceLists = [];
 const invalidSources = [];
 const insufficientSources = [];
 const editorialRiskFlags = [];
+const descriptionQualityFlags = [];
 const sharedConclusion = 'El análisis científico de este fenómeno evidencia la importancia del método empírico';
 const highRiskPatterns = [
   // Warn about claims of treatment or healing, not about an article merely
@@ -33,12 +34,16 @@ for (const filename of filenames) {
   const article = await readFile(path.join(articlesDirectory, filename), 'utf8');
   const frontmatter = article.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
   const image = frontmatter.match(/^image:\s*["']?([^"'\n]+)["']?\s*$/m)?.[1];
+  const description = frontmatter.match(/^description:\s*["'](.+)["']\s*$/m)?.[1] ?? '';
   const hasSources = /^sources:\s*\n\s+-\s+title:/m.test(frontmatter);
   const hasReview = /^reviewedDate:/m.test(frontmatter) && /^reviewedBy:/m.test(frontmatter);
   const sourceBlocks = [...frontmatter.matchAll(/^\s+-\s+title:\s*["']?(.+?)["']?\s*\n\s+publisher:\s*["']?(.+?)["']?\s*\n\s+url:\s*["']?(.+?)["']?\s*$/gm)];
 
   if (!hasSources) missingSources.push(filename);
   if (!hasReview) missingReview.push(filename);
+  if (description.length < 80 || description.length > 160) {
+    descriptionQualityFlags.push({ filename, length: description.length });
+  }
   if (article.includes(sharedConclusion)) boilerplateConclusions.push(filename);
   if (/### Referencias y Literatura Científica Consultada\s*\n\s*$/m.test(article)) {
     emptyReferenceLists.push(filename);
@@ -88,6 +93,7 @@ const report = [
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
   `Fuentes con formato incompleto: ${invalidSources.length}`,
   `Artículos con menos de dos fuentes: ${insufficientSources.length}`,
+  `Descripciones fuera de 80–160 caracteres: ${descriptionQualityFlags.length}`,
   `Artículos con lenguaje de riesgo para revisión: ${editorialRiskFlags.length}`,
 ];
 
@@ -102,6 +108,7 @@ const findings = {
   emptyReferenceLists,
   invalidSources,
   insufficientSources,
+  descriptionQualityFlags,
   editorialRiskFlags,
 };
 
@@ -115,6 +122,7 @@ if (json) {
   if (emptyReferenceLists.length) console.log(`Referencias vacías: ${emptyReferenceLists.join(', ')}`);
   if (invalidSources.length) console.error(`Fuentes con formato incompleto: ${invalidSources.join(', ')}`);
   if (insufficientSources.length) console.error(`Menos de dos fuentes: ${insufficientSources.join(', ')}`);
+  if (descriptionQualityFlags.length) console.log(`Descripciones fuera de rango: ${descriptionQualityFlags.map(({ filename, length }) => `${filename} (${length})`).join(', ')}`);
   if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
 }
@@ -125,7 +133,8 @@ if (missingImages.length || (strict && (
   boilerplateConclusions.length ||
   emptyReferenceLists.length ||
   invalidSources.length ||
-  insufficientSources.length
+  insufficientSources.length ||
+  descriptionQualityFlags.length
 ))) {
   process.exitCode = 1;
 }
