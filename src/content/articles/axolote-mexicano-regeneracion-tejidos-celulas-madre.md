@@ -61,7 +61,7 @@ El axolote conserva rasgos larvarios en la adultez, un fenómeno conocido como n
 * **Mito 1:** Se cree que si se le corta la cabeza a un axolote puede regenerar un cuerpo completamente nuevo.
   * **Realidad científica contrastada:** Mito fantástico. Si bien puede reparar partes del prosencéfalo, el telencéfalo y segmentos de la columna vertebral cervical, la ablación cefálica total o la destrucción de los centros autónomos del tronco encefálico es letal e irreversible.
 
-* **Mito 2:** Se afirma que los axolotes son inmunes al envejecimiento biológico y viven para siempre.
+* **Mito 2:** Se afirma que los axolotes son inmunes al envejecimiento biológico y tienen longevidad ilimitada.
   * **Realidad científica contrastada:** Aunque no muestran signos de senescencia celular acelerada ni telómeros degradados a la velocidad de otros anfibios, tienen una esperanza de vida máxima de 12 a 15 años en condiciones óptimas de cautiverio.
 
 ---

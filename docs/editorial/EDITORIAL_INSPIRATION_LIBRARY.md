@@ -121,6 +121,26 @@ Estas oportunidades se incorporan desde fuentes institucionales recientes. La fe
 | Alta | ¿Qué significa que un tardígrado sobreviva al vacío espacial? | [Current Biology](https://doi.org/10.1016/j.cub.2008.06.048) · [eLife](https://doi.org/10.7554/eLife.47682) | Matriz especie × estado seco × vacío/UV × recuperación; separar organismo y células | Diez días de exposición y una proteína celular no equivalen a invulnerabilidad |
 | Media | ¿Cómo se estudia el vuelo silencioso sin mezclar especies? | [Journal of Anatomy](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) · [Annual Review](https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436) | Lámina anotada de serraciones, flecos y plumón con especie y método | La evidencia detallada se concentra en *Tyto alba* y no fija un porcentaje para todos los búhos |
 
+### Fuentes focalizadas incorporadas en la revisión de septiembre
+
+Estas fuentes se añadieron al catálogo para que Luna pueda proponer briefs con un alcance verificable. La inclusión no significa que el artículo esté aprobado ni que cada cifra de la fuente sea transferible a otra especie o lugar.
+
+| Tema | Fuente primaria o institucional | Pregunta que permite investigar | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| Agujeros azules | [NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/expedition/20blue-holes/) · [USGS microbiología](https://www.usgs.gov/publications/gulf-mexico-blue-hole-harbors-high-levels-novel-microbial-lineages) | ¿Cómo se comparan un sumidero kárstico, su estratificación y sus comunidades microbianas? | Los datos son de sitios concretos del Golfo; no describen todos los agujeros azules |
+| Mammatus | [NWS](https://forecast.weather.gov/glossary.php?word=MAMMATUS) · [WMO Cloud Atlas](https://cloudatlas.wmo.int/es/clouds-supplementary-features-and-genera-most-frequently-occur-table.html) · [NASA](https://science.nasa.gov/blogs/notes-from-the-field/2013/05/30/multi-wavelength-view-of-mammatus/) | ¿Qué es una mammatus y qué información meteorológica no puede dar una fotografía? | No es un predictor aislado de tornado, granizo o turbulencia |
+| Calamar gigante | [PubMed/Royal Society B](https://pubmed.ncbi.nlm.nih.gov/16321779/) · [Smithsonian](https://naturalhistory.si.edu/explore/giant-squid) | ¿Qué cambia cuando un animal raro se estudia vivo, en vídeo y en un museo? | Una observación y un ejemplar no definen conducta ni tamaño poblacional |
+| Géiseres | [NPS: sistemas hidrotermales](https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm) · [manifestaciones](https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm) | ¿Cómo interactúan calor, agua y conductos para producir una erupción? | Las cifras e intervalos deben atribuirse a Yellowstone o a la medición concreta |
+
+#### Briefs candidatos derivados
+
+| Prioridad | Pregunta editorial | Aportación propia obligatoria | Criterio de salida |
+| --- | --- | --- | --- |
+| Alta | ¿Por qué un agujero azul no es solo un “pozo sin fondo”? | Corte geológico con agua, sedimento, gradiente y método de muestreo | Cada capa indica sitio, fecha y fuente; no hay cronología planetaria implícita |
+| Alta | ¿Qué puede decir una mammatus y qué no? | Tarjeta de lectura: forma → observación → aviso oficial | El titular no anuncia tornado ni severidad automática |
+| Alta | ¿Cómo se convirtió el calamar gigante de mito en registro científico? | Línea temporal museo → cebo → vídeo → incertidumbre | Cada tamaño o conducta conserva el tipo de evidencia y su límite |
+| Alta | ¿Qué ocurre dentro de un géiser antes de que lo veamos? | Diagrama de recarga, presión, burbujas y expulsión | No se publican alturas, litros o temperaturas sin medición del géiser |
+
 ### Fuentes de derechos y transparencia añadidas
 
 Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:

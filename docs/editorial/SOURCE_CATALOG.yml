@@ -691,3 +691,69 @@ entries:
     evidenceType: institutional-explainer
     url: https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex
     use: distinction between stratospheric vortex, polar jet, sudden warming and uncertain surface impacts
+  - id: noaa-blue-holes-exploration
+    authority: NOAA Ocean Exploration
+    domain: marine-geology
+    evidenceType: institutional-explainer
+    url: https://oceanexplorer.noaa.gov/expedition/20blue-holes/
+    use: karstic submarine sinkholes, gradients, biodiversity and groundwater questions in Gulf sites
+  - id: usgs-blue-hole-microbes
+    authority: U.S. Geological Survey
+    domain: marine-microbiology
+    evidenceType: peer-reviewed-primary
+    url: https://www.usgs.gov/publications/gulf-mexico-blue-hole-harbors-high-levels-novel-microbial-lineages
+    use: stratification, low-oxygen conditions and microbial lineages in Amberjack Hole
+  - id: nws-mammatus-definition
+    authority: National Weather Service
+    domain: atmospheric-science
+    evidenceType: institutional-glossary
+    url: https://forecast.weather.gov/glossary.php?word=MAMMATUS
+    use: definition and limits of mammatus as a severe-weather signal
+  - id: wmo-cloud-atlas-supplementary-features
+    authority: World Meteorological Organization
+    domain: atmospheric-science
+    evidenceType: institutional-standard
+    url: https://cloudatlas.wmo.int/es/clouds-supplementary-features-and-genera-most-frequently-occur-table.html
+    use: classification of mammatus as a supplementary cloud feature
+  - id: nasa-mammatus-ifloods
+    authority: NASA Earth Science
+    domain: atmospheric-science
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/blogs/notes-from-the-field/2013/05/30/multi-wavelength-view-of-mammatus/
+    use: temperature, density and shear observations in one mammatus field campaign
+  - id: smithsonian-giant-squid
+    authority: Smithsonian National Museum of Natural History
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://naturalhistory.si.edu/explore/giant-squid
+    use: preserved specimens, rare observations, eye size and documented length limits
+  - id: pubmed-giant-squid-live
+    authority: Proceedings of the Royal Society B / PubMed
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/16321779/
+    use: first live giant-squid observation, bait context, 900 m depth and recovered tentacle scale
+  - id: noaa-giant-squid-video
+    authority: NOAA Ocean Exploration
+    domain: marine-biology
+    evidenceType: institutional-video
+    url: https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/
+    use: visual observation of one giant squid approaching a lure; no demographic inference
+  - id: nps-yellowstone-hydrothermal-systems
+    authority: National Park Service
+    domain: geoscience
+    evidenceType: institutional-explainer
+    url: https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm
+    use: heat, groundwater and plumbing of Yellowstone's hydrothermal system
+  - id: nps-yellowstone-hydrothermal-features
+    authority: National Park Service
+    domain: geoscience
+    evidenceType: institutional-explainer
+    url: https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm
+    use: geysers, hot springs, fumaroles and mud pots with site-specific context
+  - id: nps-yellowstone-places-geysers
+    authority: National Park Service
+    domain: geoscience
+    evidenceType: institutional-guide
+    url: https://www.nps.gov/yell/learn/kidsyouth/places.htm
+    use: accessible context for Old Faithful and Yellowstone geyser locations

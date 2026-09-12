@@ -30,7 +30,7 @@ featured: false
 
 El llamativo pelaje rayado de las tres especies vivientes de cebras (*Equus quagga*, *Equus zebra* y *Equus grevyi*) desconcertó a los grandes naturalistas del siglo XIX. Charles Darwin consideraba que el patrón no encajaba fácilmente con su teoría de selección natural para el camuflaje críptico, mientras que Alfred Russel Wallace argumentaba que las rayas podían confundir a los leones en la maleza durante el crepúsculo.
 
-Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento, efectos visuales y termorregulación. Estudios recientes han comparado algunas de ellas; los resultados deben leerse según el diseño experimental y no como un cierre definitivo de toda la discusión evolutiva.
+Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento, efectos visuales y termorregulación. Estudios recientes han comparado algunas de ellas; la evidencia debe leerse según el diseño experimental y no como un cierre de toda la discusión evolutiva.
 
 ---
 
@@ -81,7 +81,7 @@ Sí. En Japón, científicos del Centro de Investigación Agrícola de Aichi pin
 
 ## Conclusión y Fuentes Documentales
 
-La evidencia experimental apoya que las rayas interfieren con las moscas picadoras, pero no obliga a descartar toda función adicional. Presentar esa conclusión como una explicación única y definitiva sería ir más allá de los estudios disponibles.
+La evidencia experimental apoya que las rayas interfieren con las moscas picadoras, pero no obliga a descartar toda función adicional. Presentar esa conclusión como una explicación única y firme sería ir más allá de los estudios disponibles.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature Communications (Caro et al., The function of zebra stripes)*

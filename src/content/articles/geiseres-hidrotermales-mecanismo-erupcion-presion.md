@@ -1,6 +1,6 @@
 ---
-title: "La Física de los Géiseres: Cómo una Cámara Subterránea Detona Columnas de Vapor"
-description: "Comprende la termodinámica del punto de ebullición dependiente de la presión hidrostática y los conductos magmáticos de Yellowstone e Islandia."
+title: "Géiseres: cómo calor, agua y conductos producen una erupción"
+description: "Una explicación clara del sistema hidrotermal de Yellowstone y de por qué la presión y la geometría del conducto importan."
 category: "fenomenos-naturales"
 pubDate: 2026-08-28
 author: "Equipo Editorial EcoCuriosa"
@@ -14,77 +14,81 @@ tags:
   - hidrotermal
 sources:
   - title: "Yellowstone's Active Hydrothermal System"
-    publisher: "U.S. Geological Survey"
-    url: "https://www.usgs.gov/volcanoes/yellowstone/science/yellowstones-active-hydrothermal-system"
+    publisher: "National Park Service"
+    url: "https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm"
+    evidenceType: "institutional"
+    scope: "calor, agua y circuitos del sistema hidrotermal de Yellowstone"
+    accessedDate: 2026-09-12
   - title: "How Geysers Work"
     publisher: "National Park Service"
-    url: "https://www.nps.gov/features/yell/tours/fountainpaint/geyser_works.htm"
+    url: "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm"
+    evidenceType: "institutional"
+    scope: "géiseres y otras manifestaciones hidrotermales de Yellowstone"
+    accessedDate: 2026-09-12
+  - title: "Yellowstone places and geysers"
+    publisher: "National Park Service"
+    url: "https://www.nps.gov/yell/learn/kidsyouth/places.htm"
+    evidenceType: "institutional"
+    scope: "contexto divulgativo de Old Faithful y otros géiseres"
+    accessedDate: 2026-09-12
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Un géiser es una fuente termal hidrotermal episódica que expulsa periódicamente columnas de agua hirviendo y vapor a decenas de metros de altura. Su funcionamiento requiere tres elementos geológicos excepcionales: una fuente de calor magmática activa cercana a la superficie, un suministro abundante de agua subterránea y un sistema de conductos y cámaras de roca impermeabilizados con sílice disuelta (*geyserita*). La erupción se produce porque la presión hidrostática del agua eleva el punto de ebullición en el fondo a más de 120 °C; cuando una pequeña porción se convierte en vapor y empuja agua hacia afuera en la superficie, la presión del fondo colapsa súbitamente y toda la columna sobrecalentada se convierte en vapor explosivo en milisegundos.
+> **Respuesta rápida:** Un géiser es una manifestación hidrotermal que expulsa agua y vapor de forma episódica. En Yellowstone, el calor, el agua subterránea y una red de conductos con una geometría adecuada permiten que se acumule presión y se produzca una erupción. El punto de ebullición cambia con la presión, pero la temperatura, el intervalo y la altura de cada géiser dependen del sistema concreto.
 
 ---
 
-## 1. La Ecuación de Clausius-Clapeyron en las Entrañas de la Tierra
+## 1. El sistema hidrotermal de Yellowstone
 
-A nivel del mar y a una presión atmosférica estándar (1 atm o 101,3 kPa), el agua pura entra en ebullición a exactamente 100 °C. Sin embargo, en el interior de los estrechos conductos verticales de un géiser, el agua acumulada en las profundidades sostiene el peso de toda la columna de líquido superior. A 20 metros de profundidad, la presión hidrostática supera las 3 atmósferas, lo que según la relación termodinámica de Clausius-Clapeyron eleva la temperatura necesaria para que el agua hierva a más de 134 °C.
+El NPS describe el sistema como una combinación de calor, agua y una red natural de “fontanería” subterránea. El agua de lluvia y nieve puede infiltrarse, calentarse y circular por fracturas; la roca y los depósitos minerales cambian la permeabilidad y el recorrido. Yellowstone reúne más de 10.000 manifestaciones hidrotermales y más de 500 géiseres, pero esa cifra describe el parque y no todos los sistemas del planeta.
 
-En regiones volcánicas activas como el Parque Nacional de Yellowstone (donde se concentra más del 50% de los géiseres del planeta), Islandia, Nueva Zelanda o el desierto de Atacama en Chile (El Tatio), el magma subterráneo calienta las rocas circundantes a cientos de grados. El agua meteórica de lluvia o deshielo se infiltra a través de fracturas porosas, descendiendo hasta el reservorio profundo donde es calentada de forma constante muy por encima de los 100 °C sin poder evaporarse debido a la tremenda presión confinante.
+La presión de la columna de agua modifica la temperatura de ebullición. Cuando aparecen burbujas y el agua asciende por un conducto estrecho, la presión disminuye y parte del líquido puede transformarse en vapor. La secuencia es una explicación física del mecanismo, no un cronómetro exacto para cada erupción.
 
 ---
 
-## 2. La Cascada Eruptiva: Del Sobrecalentamiento al 'Flash Steam'
+## 2. La secuencia de una erupción
 
-1. **Carga Hídrica y Sobrecalentamiento en la Base:** La cámara subterránea y la columna vertical se llenan de agua fría y templada. En el fondo, el calor magmático eleva la temperatura del agua a 125 °C - 140 °C en un estado de líquido sobrecalentado presurizado altamente inestable.
+1. **Recarga:** el circuito se llena de agua y recibe calor.
+2. **Calentamiento bajo presión:** la columna permite que el agua permanezca líquida a una temperatura superior a la de ebullición en la superficie.
+3. **Ascenso y descompresión:** las burbujas y el movimiento del agua reducen la presión en partes del conducto.
+4. **Expulsión:** la mezcla de agua y vapor sale por la abertura hasta que el circuito pierde suficiente energía y comienza a recargarse.
 
-2. **Formación de Burbujas y Desbordamiento Inicial (Preplay):** Cuando el calor acumulado en una constricción estrecha del conducto supera la presión local, se forman las primeras burbujas de vapor de agua. Estas burbujas ascienden y empujan un volumen de agua hacia la boca del géiser en la superficie, derramándose sobre el suelo exterior (los precursores o salpicaduras previas que observan los turistas).
-
-3. **Descompresión Súbita y Erupción Catastrófica (Flash Steam):** El desbordamiento de agua en la superficie reduce de forma instantánea el peso de la columna hidrostática sobre el fondo. Al caer la presión súbitamente, el agua que estaba sobrecalentada a 130 °C se encuentra de golpe muy por encima de su nuevo punto de ebullición: en una fracción de segundo, un porcentaje masivo del líquido se transforma explosivamente en vapor, expandiendo su volumen más de 1.600 veces y catapultando todo el agua remanente hacia el cielo en una columna colosal a más de 150 km/h.
-
-### Parámetros Termodinámicos en la Columna de Old Faithful (Yellowstone)
-
-| Profundidad en el Conducto | Presión Hidrostática Estimada | Punto de Ebullición del Agua |
-| :--- | :--- | :--- |
-| Boca superficial (0 metros) | 0,78 atm (a 2.240 m de altitud) | 93,3 °C (ebullición natural en superficie) |
-| Mitad del conducto (11 metros) | 1,85 atmósferas | 118,5 °C |
-| Cámara profunda (22 metros) | 2,95 atmósferas | 133,0 °C (zona de detonación de vapor) |
-| Volumen expulsado por erupción | 14.000 a 32.000 litros de agua | Columna de 40 a 55 metros de altura |
+El orden general ayuda a entender el fenómeno; no permite calcular litros, kilómetros por hora o altura sin medir el géiser específico.
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
-* **Mito 1:** Se cree que los géiseres expulsan agua sulfurosa ácida que disuelve metales.
-  * **Realidad científica contrastada:** La gran mayoría de los géiseres eruptivos son de aguas alcalinas con pH entre 8 y 10 enriquecidas con sílice neutra. El agua ácida disolvería las paredes rocosas del conducto impidiendo que se presuricen; solo los géiseres alcalinos forman el revestimiento de geyserita indispensable para sellar las fisuras.
+* **Mito 1:** Todos los géiseres tienen la misma química y expulsan agua sulfurosa.
+  * **Realidad:** La química depende de la roca, el recorrido del agua y la temperatura del sistema. Yellowstone contiene géiseres, fuentes termales, fumarolas y otras manifestaciones con composiciones diferentes.
 
-* **Mito 2:** Se asume que el géiser Old Faithful entra en erupción exactamente a la misma hora cada día como un reloj.
-  * **Realidad científica contrastada:** Su intervalo entre erupciones no es fijo de 60 minutos exactos: oscila entre 65 y 95 minutos en función de la duración de la erupción precedente; si la erupción dura más de 4 minutos, la cámara subterránea se vacía más y el recargo tarda 90 minutos en repetirse.
+* **Mito 2:** Old Faithful funciona como un reloj exacto.
+  * **Realidad:** Sus intervalos son relativamente predecibles, pero varían. Un intervalo observado en el parque no debe presentarse como una ley de todos los géiseres.
 
 ---
 
 ## 4. Preguntas Frecuentes (FAQ)
 
-### ¿Por qué hay tan pocos géiseres en el mundo?
+### ¿Por qué son poco comunes los géiseres?
 
-Se estima que existen menos de 1.000 géiseres activos en todo el planeta. Requieren una coincidencia geológica milagrosa: calor magmático activo, acuíferos abundantes y roca riolita rica en sílice que impermeabilice las tuberías naturales sin desmoronarse.
+Necesitan que coincidan una fuente de calor, agua disponible y una red de conductos que almacene y libere presión de manera episódica. Las cifras globales cambian según la definición y el inventario; por eso aquí usamos el recuento documentado por el NPS para Yellowstone.
 
 ### ¿Qué es la geyserita y por qué es vital para el géiser?
 
-Es una roca sedimentaria silícea opalina ($SiO_2 \cdot nH_2O$) precipitada por el agua caliente al enfriarse. Tapiza las paredes de las fisuras como un cemento vidriado natural, evitando que el agua y la presión se filtren lateralmente hacia el terreno circundante.
+Los minerales depositados por el agua caliente pueden modificar las paredes y la permeabilidad del circuito. El nombre y la composición exacta dependen del depósito y del sitio; no es necesario asumir que todos los conductos están “sellados” de la misma manera.
 
-### ¿Cuál es el géiser activo más alto del planeta?
+### ¿Qué hace especial a Yellowstone?
 
-El géiser Steamboat en Yellowstone: cuando entra en erupción mayor, lanza columnas de agua hirviendo a más de 90 a 115 metros de altura (tres veces más alto que Old Faithful), aunque sus intervalos son impredecibles y pueden distanciarse por días o décadas.
+El parque concentra una gran diversidad de manifestaciones hidrotermales y más de 500 géiseres. Old Faithful y Steamboat son ejemplos conocidos, pero sus intervalos y alturas no deben confundirse con valores universales.
 
 ---
 
 ## Conclusión y Fuentes Documentales
 
-Un géiser necesita una combinación poco común de calor, agua y conductos que retengan presión. Cada sistema hidrotermal tiene su propia geometría y química, por eso sus intervalos y temperaturas no se pueden convertir en una regla universal.
+Un géiser necesita una combinación poco común de calor, agua y conductos que retengan y liberen presión. El NPS permite entender el caso de Yellowstone; para comparar otros países hay que consultar la geología y las mediciones de cada sistema.
 
-### Referencias y Literatura Científica Consultada
-* *Journal of Volcanology and Geothermal Research (Hurwitz et al., The physics of geysers)*
-* *Reviews of Geophysics*
-* *U.S. Geological Survey (Yellowstone Volcano Observatory Reports)*
-* *National Science Foundation Hydrothermal Research*
+### Fuentes consultadas
+
+- [NPS: sistemas hidrotermales de Yellowstone](https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm)
+- [NPS: manifestaciones hidrotermales](https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm)
+- [NPS: lugares y géiseres de Yellowstone](https://www.nps.gov/yell/learn/kidsyouth/places.htm)

@@ -40,7 +40,7 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
 
 2. **Ruptura Dieléctrica del Aire a Escala Masiva:** Cuando la diferencia de potencial eléctrico entre la base de la nube y el lago (o entre nubes contiguas) supera la rigidez dieléctrica del aire húmedo (aproximadamente 3 millones de voltios por metro), se forma un canal ionizado escalonado (*stepped leader*), cerrando un circuito eléctrico colosal con corrientes de hasta 100.000 a 400.000 amperios.
 
-3. **Luz y sonido no siempre llegan igual:** El destello viaja mucho más rápido que el sonido. A distancia, el trueno puede quedar atenuado por el terreno, el viento y la estructura térmica de la atmósfera. Eso no significa que los rayos sean silenciosos ni permite asignar una proporción fija de descargas intranube sin una medición concreta.
+3. **Luz y sonido pueden llegar de forma distinta:** El destello viaja mucho más rápido que el sonido. A distancia, el trueno puede quedar atenuado por el terreno, el viento y la estructura térmica de la atmósfera. Eso no significa que los rayos sean silenciosos ni permite asignar una proporción fija de descargas intranube sin una medición concreta.
 
 ### Estadísticas Meteorológicas del Foco de Relámpagos del Catatumbo
 

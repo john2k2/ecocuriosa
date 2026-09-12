@@ -58,7 +58,7 @@ El bostezo contagioso se ha descrito en humanos y en otras especies sociales, co
 * **Mito 1:** Se creía tradicionalmente que bostezamos para oxigenar la sangre cuando bajan los niveles de oxígeno ($O_2$).
   * **Realidad científica contrastada:** Desmentido experimentalmente por Robert Provine en 1987: voluntarios que inhalaron mezclas de aire enriquecidas con 100% de oxígeno o con altas concentraciones de dióxido de carbono ($CO_2$) bostezaron con la misma frecuencia exacta, demostrando que los gases sanguíneos no controlan el bostezo.
 
-* **Mito 2:** Se asume que bostezar delante de alguien es siempre un síntoma de aburrimiento o desinterés.
+* **Mito 2:** Se asume que bostezar delante de alguien indica necesariamente aburrimiento o desinterés.
   * **Realidad científica contrastada:** Neurológicamente, el bostezo suele ser un mecanismo adaptativo de estimulación de la dopamina y la acetilcolina para reactivar la atención y evitar dormirse ante un estímulo que requiere concentración mental sostenida.
 
 ---

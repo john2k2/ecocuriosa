@@ -83,7 +83,7 @@ NOAA identifica la pesca dirigida y la captura incidental como amenazas principa
 
 ## Conclusión y Fuentes Documentales
 
-La manta gigante merece atención por su ecología y vulnerabilidad, no por analogías apresuradas con la inteligencia humana. Las mejores cifras de esta ficha son las que indican su tamaño, rango de profundidad, amenazas y límites de población; la conducta frente a un espejo sigue siendo una pregunta experimental, no una etiqueta definitiva.
+La manta gigante merece atención por su ecología y vulnerabilidad, no por analogías apresuradas con la inteligencia humana. Las cifras más útiles de esta ficha indican su tamaño, rango de profundidad, amenazas y límites de población; la conducta frente a un espejo sigue siendo una pregunta experimental, no una etiqueta concluyente.
 
 ### Referencias y Literatura Científica Consultada
 * *Brain, Behavior and Evolution (Ari & Correia, Brain size and body organization in mobulid rays)*
