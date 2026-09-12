@@ -4,7 +4,7 @@ description: "Por qué Ambystoma mexicanum es un modelo de estudio de la regener
 category: "fauna-fascinante"
 pubDate: 2026-08-10
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/axolote-mexicano-regeneracion.webp"
+image: "/images/articles/axolote-mexicano-regeneracion.svg"
 imageAlt: "Ilustración editorial de un axolote mexicano en agua dulce con sus branquias externas visibles"
 imageCredit: "Ilustración generada para EcoCuriosa"
 tags:

@@ -4,8 +4,9 @@ description: "Comprende la física del viento solar, las reconexiones magnética
 category: "fenomenos-naturales"
 pubDate: 2026-08-21
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/auroras-boreales-cielo.webp"
-imageAlt: "Cortinas de auroras boreales ondulando en tonalidades verdes y púrpuras sobre un paisaje ártico nevado"
+image: "/images/articles/auroras-boreales-cielo.svg"
+imageAlt: "Ilustración editorial de auroras boreales verdes y púrpuras sobre un paisaje ártico"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - auroras
   - geofisica

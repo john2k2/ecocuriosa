@@ -4,8 +4,9 @@ description: "Descubre las asombrosas adaptaciones anatómicas y térmicas que p
 category: "fauna-fascinante"
 pubDate: 2026-08-05
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/leopardo-de-las-nieves-montana.webp"
-imageAlt: "Fotografía de un leopardo de las nieves en una cresta rocosa helada en el Himalaya"
+image: "/images/articles/leopardo-de-las-nieves-montana.svg"
+imageAlt: "Ilustración editorial de un leopardo de las nieves en una cresta rocosa del Himalaya"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - fauna
   - felinos

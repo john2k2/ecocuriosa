@@ -4,8 +4,9 @@ description: "Comprende la endosimbiosis entre cnidarios y dinoflagelados, la ca
 category: "especies-marinas"
 pubDate: 2026-08-16
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/arrecife-coral-zooxantelas.webp"
-imageAlt: "Arrecife de coral multicolor con pólipos extendidos en aguas cristalinas tropicales"
+image: "/images/articles/arrecife-coral-zooxantelas.svg"
+imageAlt: "Ilustración editorial de un arrecife de coral con pólipos y algas microscópicas"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - corales
   - simbiosis

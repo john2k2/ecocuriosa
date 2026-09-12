@@ -51,6 +51,20 @@ El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOUR
 | Derechos de imágenes | [Metadatos de licencia](https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata), [IPTC](https://iptc.org/news/iptc-publishes-metadata-guidance-for-ai-generated-synthetic-media/) y [C2PA](https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html) | Guardar creador, licencia, crédito y procedencia; etiquetar imágenes sintéticas |
 | Rendimiento y privacidad de analítica | [Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/about/) y [Core Web Vitals](https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/) | Medir usuarios reales; no confundir una prueba puntual con datos de audiencia |
 
+### Fuentes operativas verificadas para el ciclo de publicación
+
+Estas páginas no sustituyen la revisión del artículo: fijan cómo comprobar indexación, rendimiento, consentimiento y medición antes de escalar la producción.
+
+| Control | Fuente oficial | Decisión operativa |
+| --- | --- | --- |
+| Rastreo e indexación | [Guía de rastreo e indexación](https://developers.google.com/search/docs/crawling-indexing) y [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) | Diagnosticar acceso y rastreo por separado; robots.txt no garantiza desindexación |
+| URL concreta | [Inspección de URL](https://support.google.com/webmasters/answer/9012289?hl=es) | Guardar la URL, canonica declarada y estado observado; no inferir indexación desde un HTTP 200 |
+| Duplicados | [Consolidar URLs](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) | Preferir una URL canónica y señales coherentes antes de crear variantes |
+| Velocidad | [Web Vitals](https://web.dev/articles/vitals), [optimizar LCP](https://web.dev/articles/optimize-lcp) y [optimizar CLS](https://web.dev/articles/optimize-cls) | Medir P75 de usuarios reales y corregir la plantilla antes de añadir scripts o anuncios |
+| Anuncios | [Anuncios automáticos](https://support.google.com/adsense/answer/9261307?hl=es) y [ubicación de anuncios](https://support.google.com/adsense/answer/1346295?hl=es) | Configurar solo después de aprobación y retirar ubicaciones que confundan o interrumpan la lectura |
+| Consentimiento | [Gestión de mensajes CMP](https://support.google.com/adsense/answer/7670013?hl=es) y [TCF de IAB](https://support.google.com/adsense/answer/9804260?hl=es) | Mantener un mensaje certificado para EEE, Reino Unido y Suiza; comprobar el comportamiento sin consentimiento |
+| Medición | [Informe de rendimiento](https://support.google.com/webmasters/answer/7576553?hl=es) y [dimensiones y límites](https://support.google.com/webmasters/answer/17011259?hl=es) | Priorizar consultas, páginas, país y dispositivo reales; no inventar volumen ni mezclar periodos incomparables |
+
 ## Banco inicial de oportunidades
 
 Las siguientes ideas son **briefs candidatos**, no artículos aprobados. Las consultas son hipótesis de intención que deben validarse en Search Console antes de priorizar.

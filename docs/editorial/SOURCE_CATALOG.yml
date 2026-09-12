@@ -487,3 +487,63 @@ entries:
     evidenceType: institutional-guidance
     url: https://publicationethics.org/files/COPE_Principles_of_Transparency_Poster_0.pdf
     use: authorship, review, corrections and conflict-of-interest transparency
+  - id: google-crawling-indexing
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing
+    use: crawl discovery, indexing diagnostics and the boundary between crawling and ranking
+  - id: google-robots-intro
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+    use: robots.txt syntax, crawler access and limits of robots directives
+  - id: google-url-inspection
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/9012289?hl=es
+    use: inspect canonical, indexing and live-test status for an exact URL
+  - id: google-canonical-consolidate
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+    use: consolidate duplicate URLs with redirects, canonical and sitemap signals
+  - id: webdev-optimize-lcp
+    authority: web.dev
+    domain: performance
+    evidenceType: documentation
+    url: https://web.dev/articles/optimize-lcp
+    use: diagnose and improve Largest Contentful Paint on representative pages
+  - id: webdev-optimize-cls
+    authority: web.dev
+    domain: performance
+    evidenceType: documentation
+    url: https://web.dev/articles/optimize-cls
+    use: reserve layout space and prevent unexpected visual shifts
+  - id: adsense-auto-ads
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/9261307?hl=es
+    use: configure Auto ads and review placement controls after approval
+  - id: adsense-cmp-management
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/7670013?hl=es
+    use: create and manage a Google-certified consent-management message
+  - id: search-console-performance
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/7576553?hl=es
+    use: clicks, impressions, CTR and average position by query, page, country and device
+  - id: search-console-dimensions
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/17011259?hl=es
+    use: dimension definitions, aggregation and reporting limitations

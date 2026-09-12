@@ -4,8 +4,9 @@ description: "Comprende la convección de hierro líquido en el núcleo externo,
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/campo-magnetico-geodinamo.webp"
-imageAlt: "Esquema tridimensional del campo magnético terrestre desviando las partículas cargadas del viento solar en el espacio"
+image: "/images/articles/campo-magnetico-geodinamo.svg"
+imageAlt: "Ilustración editorial del campo magnético terrestre desviando partículas cargadas del viento solar"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - geofisica
   - magnetismo

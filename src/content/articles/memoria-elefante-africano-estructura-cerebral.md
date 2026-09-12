@@ -4,8 +4,9 @@ description: "Explora las bases neuroanatómicas del cerebro del elefante y cóm
 category: "fauna-fascinante"
 pubDate: 2026-08-09
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/memoria-elefante-africano.webp"
-imageAlt: "Manada de elefantes africanos liderada por una matriarca cruzando una llanura árida en la sabana"
+image: "/images/articles/memoria-elefante-africano.svg"
+imageAlt: "Ilustración editorial de una manada de elefantes africanos liderada por una matriarca"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - mamiferos
   - neurociencia

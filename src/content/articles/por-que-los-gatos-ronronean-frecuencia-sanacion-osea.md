@@ -4,8 +4,9 @@ description: "Qué revelan los estudios recientes sobre la laringe felina, el ro
 category: "ciencia-curiosa"
 pubDate: 2026-09-05
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/ronroneo-felino-acustica.webp"
-imageAlt: "Gato doméstico atigrado descansando plácidamente con los ojos entornados y vibración perceptible en el cuello"
+image: "/images/articles/ronroneo-felino-acustica.svg"
+imageAlt: "Ilustración editorial de un gato doméstico atigrado y la vibración del ronroneo"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - gatos
   - acustica

@@ -11,7 +11,7 @@
 
 EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada y 10 artículos siguen generando advertencias heurísticas de lenguaje que deben comprobarse. La auditoría de formato no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
 
-La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en 21 fichas. Quedan 11 activos raster heredados cuyo origen/licencia todavía debe documentarse antes de escalar la publicación.
+La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en las 32 fichas. Las 11 referencias raster heredadas sin crédito también se sustituyeron por ilustraciones SVG originales; las 32 fichas usan ahora ilustraciones con procedencia editorial explícita.
 
 ### Desglose de puntuación
 
@@ -70,7 +70,7 @@ La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la únic
 ## Prioridad media
 
 - Añadir un perfil de autor real y verificable cuando el responsable autorice nombre, experiencia y enlace; mientras tanto, mantener la firma colectiva y no inventar credenciales.
-- Completar la bitácora de licencias para los 11 WebP heredados sin `imageCredit`; conservar URL, licencia, autor, fecha de descarga y hash. No reutilizar imágenes encontradas sin permiso.
+- Mantener la bitácora de procedencia de las 32 ilustraciones y no reutilizar imágenes encontradas sin permiso. Si se incorpora una fotografía, conservar URL, licencia, autor, fecha de descarga y hash.
 - Revisar periódicamente que la política de privacidad describa exactamente las herramientas activas: actualmente documenta Cloudflare Web Analytics sin cookies y las cookies publicitarias de AdSense; no hay Google Analytics instalado en el código.
 - Usar datos de Search Console para crear cuatro guías pilar y mejorar páginas con muchas impresiones/CTR bajo antes de crear nuevas variantes.
 - Considerar FAQ estructurada solo cuando las preguntas y respuestas estén verificadas y visibles; no añadir Schema por volumen.
@@ -128,7 +128,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 ### Semana 2 — calidad editorial
 
 - [ ] Revisar 8 artículos prioritarios usando la cola y el estándar de fuentes.
-- [ ] Documentar créditos/licencias de los 11 WebP heredados o reemplazarlos por ilustraciones propias.
+- [x] Reemplazar las 11 referencias raster heredadas sin crédito por ilustraciones SVG originales y registrar el crédito visible en las 32 fichas.
 - [ ] Corregir las 10 advertencias heurísticas que sigan siendo materialmente problemáticas.
 
 ### Semana 3 — búsqueda y recorrido

@@ -4,8 +4,9 @@ description: "Qué se sabe sobre las escamas de Smutsia gigantea y por qué el t
 category: "fauna-fascinante"
 pubDate: 2026-08-08
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/pangolin-gigante-armadura.webp"
-imageAlt: "Pangolín gigante sobre suelo terroso mostrando su coraza de escamas córneas superpuestas en abanico"
+image: "/images/articles/pangolin-gigante-armadura.svg"
+imageAlt: "Ilustración editorial de un pangolín gigante mostrando sus escamas de queratina"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - mamiferos
   - anatomia

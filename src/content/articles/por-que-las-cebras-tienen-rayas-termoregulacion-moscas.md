@@ -4,8 +4,9 @@ description: "Qué muestran los experimentos sobre rayas, tábanos y termorregul
 category: "ciencia-curiosa"
 pubDate: 2026-09-03
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/cebra-rayas-optica.webp"
-imageAlt: "Grupo de cebras pastando en la sabana con sus patrones lineales de rayas blancas y negras en contraste"
+image: "/images/articles/cebra-rayas-optica.svg"
+imageAlt: "Ilustración editorial de cebras con sus patrones lineales blancos y negros"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - cebras
   - evolucion

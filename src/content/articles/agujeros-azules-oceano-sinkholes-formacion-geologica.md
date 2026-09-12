@@ -4,8 +4,9 @@ description: "Descubre el origen cárstico pleistoceno, las haloclinas anóxicas
 category: "fenomenos-naturales"
 pubDate: 2026-08-25
 author: "Equipo Editorial EcoCuriosa"
-image: "/images/articles/agujero-azul-belice.webp"
-imageAlt: "Fotografía aérea cenital del Gran Agujero Azul de Belice con su contorno circular perfecto rodeado de arrecifes turquesa"
+image: "/images/articles/agujero-azul-belice.svg"
+imageAlt: "Ilustración editorial del Gran Agujero Azul de Belice con su contorno circular rodeado de arrecifes turquesa"
+imageCredit: "Ilustración original de EcoCuriosa"
 tags:
   - geologia
   - oceanografia
