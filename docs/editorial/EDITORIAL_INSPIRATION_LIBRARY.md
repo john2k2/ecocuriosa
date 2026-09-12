@@ -146,6 +146,26 @@ Estas fuentes se añadieron al catálogo para que Luna pueda proponer briefs con
 | Alta | ¿Qué parte del ronroneo se explica por la laringe? | [Current Biology](https://doi.org/10.1016/j.cub.2023.09.014) · [Wiley](https://doi.org/10.1111/j.1469-7998.1991.tb04749.x) | Corte laríngeo con frecuencia, muestra y condiciones | Frecuencia no es terapia ni diagnóstico emocional |
 | Alta | ¿Qué observó realmente el experimento de Racetrack Playa? | [NPS](https://www.nps.gov/deva/planyourvisit/the-racetrack.htm) · [PLOS ONE](https://doi.org/10.1371/journal.pone.0105948) | Mapa de roca, hielo, viento, GPS y límite de observación | No decir que todas las rocas ni todos los surcos están explicados |
 
+### Fuentes focalizadas de Luna Max — segunda tanda
+
+Estas propuestas convierten la investigación de Luna en briefs concretos. Cada una requiere validar la consulta real en Search Console, abrir las fuentes y aportar un activo original antes de redactar.
+
+| Prioridad | Pregunta people-first | Fuentes candidatas | Aportación propia | Límite obligatorio |
+| --- | --- | --- | --- | --- |
+| Alta | ¿Por qué blanquear no significa automáticamente morir? | [NOAA](https://oceanservice.noaa.gov/facts/coral_bleach.html?os=i) · [Nature](https://doi.org/10.1038/nature21707) | Diagrama estrés térmico → pérdida de simbiontes → recuperación o mortalidad | No usar umbral ni porcentaje global sin fecha y método |
+| Alta | ¿Cómo funciona la Tierra como generador magnético? | [USGS](https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism) · [Nature Reviews](https://doi.org/10.1038/s43017-022-00264-1) | Corte del núcleo y tabla de mecanismos propuestos | No anunciar una inversión inminente ni atribuirle extinciones |
+| Alta | ¿Por qué el petricor no es solo geosmina? | [Nature Communications](https://doi.org/10.1038/ncomms7083) · [Nature Chemical Biology](https://doi.org/10.1038/nchembio.2007.29) | Cadena gota → aerosol → molécula → percepción | No extrapolar un experimento de laboratorio a toda lluvia |
+| Alta | ¿Por qué el agua hierve antes pero cocina más lento en altura? | [NPS](https://www.nps.gov/cany/planyourvisit/waterpurification.htm) · [USDA](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/high-altitude-cooking) | Comparación presión–temperatura–tiempo y olla a presión | No prometer eliminación de contaminantes químicos |
+| Alta | ¿Qué condiciones alimentan el relámpago del Catatumbo? | [JGR](https://doi.org/10.1029/2025JD044030) · [JASTP](https://doi.org/10.1016/j.jastp.2012.01.013) | Mapa lago–brisas–relieve–convección con periodo | No usar “nunca se detiene” ni récords sin métrica |
+| Alta | ¿Es el colmillo del narval un diente sensorial? | [NOAA Fisheries](https://www.fisheries.noaa.gov/species/narwhal) · [Anatomical Record](https://doi.org/10.1002/ar.22886) | Corte del colmillo con funciones confirmadas e hipótesis | No llamarlo cuerno ni generalizar una población |
+| Media | ¿Qué función pueden tener las rayas de una cebra? | [Smithsonian](https://nationalzoo.si.edu/animals/grevys-zebra) · [Royal Society Open Science](https://doi.org/10.1098/rsos.140452) | Separar especies y comparar hipótesis con evidencia | No declarar una causa única ni mezclar estatus de conservación |
+| Media | ¿Cómo se observa el mimetismo dinámico del pulpo mimo? | [Smithsonian Ocean](https://ocean.si.edu/ocean-life/invertebrates/how-octopuses-and-squids-change-color) · [Royal Society B](https://doi.org/10.1098/rspb.2001.1708) | Secuencia de postura, contexto y nivel de certeza | No inferir intención humana ni un catálogo fijo de modelos |
+| Alta | ¿Qué recuerda un tejido durante la regeneración del ajolote? | [Nature](https://doi.org/10.1038/nature08152) · [Springer](https://doi.org/10.1007/s11252-025-01700-y) | Contraste laboratorio–humedal de Xochimilco | No prometer regeneración humana ni cifras silvestres sin censo |
+| Alta | ¿Qué mide un ECG en una ballena azul libre? | [NOAA Fisheries](https://www.fisheries.noaa.gov/species/blue-whale) · [Biology Letters](https://doi.org/10.1098/rsbl.2003.0132) | Diagrama de etiqueta, inmersión y área de alimentación | Un individuo o sitio no define toda la especie |
+| Alta | ¿Qué significa que un tardígrado tolere radiación? | [NASA Cell Science-04](https://science.nasa.gov/biological-physical/investigations/cell-science-04/) · [Science](https://doi.org/10.1126/science.adl0799) | Matriz especie × estado × estrés × recuperación | No convertir una especie o ensayo celular en inmortalidad |
+| Media | ¿Por qué no existe un único “elefante africano” en la conservación? | [IUCN](https://iucn.org/news/species/202103/african-elephant-species-now-endangered-and-critically-endangered-iucn-red-list) · [Current Biology](https://doi.org/10.1016/j.cub.2023.09.007) | Comparación bosque/sabana y anatomía de trompa | No usar datos de elefante asiático como población africana |
+| Media | ¿Cómo localiza presas un búho y qué parte del ala reduce ruido? | [Cornell Lab](https://www.allaboutbirds.org/guide/Barn_Owl) · [Biological Journal](https://doi.org/10.1093/biolinnean/blab138) | Lámina cara–oído–pluma con especie y método | No afirmar silencio total ni mezclar taxonomías |
+
 ### Fuentes de derechos y transparencia añadidas
 
 Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:
@@ -190,4 +210,4 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 42 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 55 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |

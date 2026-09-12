@@ -871,3 +871,159 @@ entries:
     evidenceType: institutional-profile
     url: https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior
     use: accessible natural-history context for mimic octopus behavior
+  - id: noaa-coral-bleaching-facts
+    authority: NOAA Ocean Service
+    domain: marine-ecology
+    evidenceType: institutional-explainer
+    url: https://oceanservice.noaa.gov/facts/coral_bleach.html?os=i
+    use: heat stress, symbiont loss and why bleaching does not automatically mean death
+  - id: nature-coral-heat-history
+    authority: Nature
+    domain: marine-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/nature21707
+    use: historical coral bleaching and limits of inferring resistance from previous events
+  - id: usgs-geomagnetism-introduction
+    authority: U.S. Geological Survey
+    domain: geophysics
+    evidenceType: institutional-explainer
+    url: https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism
+    use: conducting outer-core fluid and the self-sustaining geodynamo
+  - id: nature-geodynamo-review
+    authority: Nature Reviews Earth & Environment
+    domain: geophysics
+    evidenceType: peer-reviewed-review
+    url: https://doi.org/10.1038/s43017-022-00264-1
+    use: competing thermal and compositional drivers of the long-term geodynamo
+  - id: joung-buie-petrichor-aerosols
+    authority: Nature Communications
+    domain: atmospheric-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/ncomms7083
+    use: raindrop impact, aerosol formation and transport of soil volatiles
+  - id: nature-chemical-biology-geosmin
+    authority: Nature Chemical Biology
+    domain: microbial-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/nchembio.2007.29
+    use: geosmin biosynthesis by Streptomyces and its role as one petrichor compound
+  - id: nps-water-purification-altitude
+    authority: National Park Service
+    domain: public-health
+    evidenceType: institutional-guidance
+    url: https://www.nps.gov/cany/planyourvisit/waterpurification.htm
+    use: altitude-aware boiling guidance for drinking water; not a chemical-contaminant remedy
+  - id: usda-high-altitude-cooking
+    authority: USDA Food Safety and Inspection Service
+    domain: food-science
+    evidenceType: institutional-guidance
+    url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/high-altitude-cooking
+    use: lower boiling temperature and longer cooking at high altitude
+  - id: jgr-catatumbo-2025
+    authority: Journal of Geophysical Research: Atmospheres
+    domain: atmospheric-science
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1029/2025JD044030
+    use: 2014–2024 Catatumbo variability, lake temperature, moisture and convection
+  - id: jastp-catatumbo-2012
+    authority: Journal of Atmospheric and Solar-Terrestrial Physics
+    domain: atmospheric-science
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.jastp.2012.01.013
+    use: localized lightning centers, seasonality, topography and lake-breeze convergence
+  - id: noaa-narwhal-profile
+    authority: NOAA Fisheries
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://www.fisheries.noaa.gov/species/narwhal
+    use: narwhal tusk, habitat, migration, diving and conservation context
+  - id: smithsonian-grevy-zebra
+    authority: Smithsonian's National Zoo
+    domain: zoology
+    evidenceType: institutional-profile
+    url: https://nationalzoo.si.edu/animals/grevys-zebra
+    use: species-specific natural history for Equus grevyi; do not generalize to all zebras
+  - id: rsos-zebra-stripes
+    authority: Royal Society Open Science
+    domain: evolutionary-biology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1098/rsos.140452
+    use: competing hypotheses for zebra stripes and why no single function is settled
+  - id: smithsonian-octopus-colour-change
+    authority: Smithsonian Ocean
+    domain: marine-biology
+    evidenceType: institutional-explainer
+    url: https://ocean.si.edu/ocean-life/invertebrates/how-octopuses-and-squids-change-color
+    use: coordinated colour and movement changes in octopuses, with species-level caution
+  - id: rspb-dynamic-mimic-octopus-doi
+    authority: Proceedings of the Royal Society B
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1098/rspb.2001.1708
+    use: observations of dynamic mimicry in nine Indonesian mimic octopuses
+  - id: nature-axolotl-tissue-memory
+    authority: Nature
+    domain: regenerative-biology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/nature08152
+    use: positional memory of tissue origin during axolotl limb regeneration
+  - id: springer-xochimilco-axolotl-2025
+    authority: Urban Ecosystems / Springer
+    domain: conservation
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1007/s11252-025-01700-y
+    use: habitat restoration and connected refuges in Xochimilco; not a global population estimate
+  - id: noaa-blue-whale-profile
+    authority: NOAA Fisheries
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://www.fisheries.noaa.gov/species/blue-whale
+    use: krill diet, size context, threats and conservation status of blue whales
+  - id: rsbl-blue-whale-chile
+    authority: Biology Letters
+    domain: marine-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1098/rsbl.2003.0132
+    use: feeding and nursery area observations in southern Chile; not global distribution
+  - id: nasa-cell-science-04-tardigrade
+    authority: NASA Biological and Physical Sciences
+    domain: astrobiology
+    evidenceType: institutional-research
+    url: https://science.nasa.gov/biological-physical/investigations/cell-science-04/
+    use: tardigrade responses to stress and microgravity in the Cell Science-04 investigation
+  - id: science-tardigrade-radiotolerance
+    authority: Science
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1126/science.adl0799
+    use: radiotolerance mechanisms in a particular tardigrade species
+  - id: iucn-pangolin-specialist-group
+    authority: IUCN SSC Pangolin Specialist Group
+    domain: conservation
+    evidenceType: institutional-profile
+    url: https://iucn.org/our-union/commissions/group/iucn-ssc-pangolin-specialist-group
+    use: species-specific pangolin conservation and assessment context
+  - id: iucn-african-elephant-assessments
+    authority: IUCN Red List
+    domain: conservation
+    evidenceType: institutional-assessment
+    url: https://iucn.org/news/species/202103/african-elephant-species-now-endangered-and-critically-endangered-iucn-red-list
+    use: separate forest and savanna African elephant assessments and categories
+  - id: current-biology-elephant-trunk
+    authority: Current Biology
+    domain: comparative-anatomy
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.cub.2023.09.007
+    use: fascicle anatomy in a juvenile Asian elephant trunk; not a count for African elephants
+  - id: cornell-barn-owl
+    authority: Cornell Lab of Ornithology
+    domain: ornithology
+    evidenceType: institutional-profile
+    url: https://www.allaboutbirds.org/guide/Barn_Owl
+    use: sound localization and natural history of barn owls; keep species name explicit
+  - id: biolinnean-owl-silent-flight
+    authority: Biological Journal of the Linnean Society
+    domain: aeroacoustics
+    evidenceType: peer-reviewed-review
+    url: https://doi.org/10.1093/biolinnean/blab138
+    use: comparative silent-flight and facial-disc analysis across 147 owl species
