@@ -81,10 +81,13 @@ La automatización debe comprobar que cada SVG tenga una variante WebP, `imageAl
 
 El catálogo histórico de temas y autores fue retirado del flujo para que no
 pueda reintroducir afirmaciones no verificadas. `generate_articles.py` exige
-un JSON de briefs de Luna Max mediante `--input`, valida HTTPS, tipo de
-evidencia, alcance, límites, niveles de certeza y `humanCheck: pending`, y
-escribe únicamente en `docs/editorial/drafts/`. Se detiene ante colisiones y
-nunca acepta `src/content/articles` como destino ni permite `sources`,
+un JSON de briefs de Luna Max mediante `--input`, valida que cada `catalogId`
+exista en `SOURCE_CATALOG.yml`, evita IDs y URLs de fuente duplicados,
+comprueba HTTPS, tipo de evidencia, alcance, límites, niveles de certeza y
+`humanCheck: pending`, y exige que una ilustración propuesta esté identificada
+en su `imageAlt`. También limita `internalLinks` a rutas del sitio y escribe
+únicamente en `docs/editorial/drafts/`. Se detiene ante colisiones y nunca
+acepta `src/content/articles` como destino ni permite `sources`,
 `reviewedDate`, `reviewedBy` o `publish: true` en un brief nuevo.
 
 Ejemplo de ejecución después de que Luna entregue un archivo revisable:

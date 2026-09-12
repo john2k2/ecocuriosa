@@ -17,10 +17,26 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_DRAFT_DIR = ROOT_DIR / 'docs' / 'editorial' / 'drafts'
 PUBLISHED_DIR = ROOT_DIR / 'src' / 'content' / 'articles'
+SOURCE_CATALOG_PATH = ROOT_DIR / 'docs' / 'editorial' / 'SOURCE_CATALOG.yml'
 ALLOWED_EVIDENCE_TYPES = {'primary', 'review', 'dataset', 'institutional', 'secondary'}
 ALLOWED_CERTAINTY = {'fact', 'inference', 'hypothesis'}
 ALLOWED_IMAGE_PLANS = {'original-illustration', 'licensed-photo', 'commissioned-photo'}
 SLUG_PATTERN = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)+$')
+
+
+def load_catalog_ids() -> set[str]:
+    """Read the canonical source IDs without adding a YAML dependency."""
+
+    if not SOURCE_CATALOG_PATH.is_file():
+        raise ValueError(f'No existe el catálogo de fuentes: {SOURCE_CATALOG_PATH}')
+    ids = {
+        match.group(1)
+        for line in SOURCE_CATALOG_PATH.read_text(encoding='utf-8').splitlines()
+        if (match := re.match(r'^\s*- id:\s*([^\s#]+)\s*(?:#.*)?$', line))
+    }
+    if not ids:
+        raise ValueError('El catálogo de fuentes no contiene IDs reconocibles.')
+    return ids
 
 
 def yaml_string(value: object) -> str:
@@ -41,7 +57,7 @@ def _require_list(value: object, field: str) -> list:
     return value
 
 
-def validate_source(source: object, index: int) -> dict:
+def validate_source(source: object, index: int, catalog_ids: set[str]) -> dict:
     if not isinstance(source, dict):
         raise ValueError(f'sourceCandidates[{index}] debe ser un objeto.')
     url = _require_text(source.get('url'), f'sourceCandidates[{index}].url')
@@ -52,8 +68,11 @@ def validate_source(source: object, index: int) -> dict:
         raise ValueError(f'Tipo de evidencia no permitido: {evidence_type}.')
     if source.get('checkedBy') is not None or source.get('checkedDate') is not None:
         raise ValueError('Un brief nuevo no puede declarar una fuente como verificada.')
+    catalog_id = _require_text(source.get('catalogId'), f'sourceCandidates[{index}].catalogId')
+    if catalog_id not in catalog_ids:
+        raise ValueError(f'sourceCandidates[{index}].catalogId no existe en SOURCE_CATALOG.yml: {catalog_id}.')
     return {
-        'catalogId': _require_text(source.get('catalogId'), f'sourceCandidates[{index}].catalogId'),
+        'catalogId': catalog_id,
         'url': url,
         'evidenceType': evidence_type,
         'supports': _require_text(source.get('supports'), f'sourceCandidates[{index}].supports'),
@@ -80,7 +99,7 @@ def validate_claim(claim: object, index: int) -> dict:
     }
 
 
-def validate_brief(raw: object) -> dict:
+def validate_brief(raw: object, catalog_ids: set[str]) -> dict:
     if not isinstance(raw, dict):
         raise ValueError('Cada brief debe ser un objeto JSON.')
     slug = _require_text(raw.get('slug'), 'slug')
@@ -101,6 +120,7 @@ def validate_brief(raw: object) -> dict:
     description = _require_text(raw.get('description'), f'{slug}.description')
     if not 80 <= len(description) <= 160:
         raise ValueError(f'{slug}: description debe tener entre 80 y 160 caracteres.')
+    image_alt = _require_text(raw.get('imageAlt'), f'{slug}.imageAlt')
     draft_body = _require_text(raw.get('draftBody'), f'{slug}.draftBody')
     if '---' in draft_body:
         raise ValueError(f'{slug}: draftBody no puede introducir otro frontmatter.')
@@ -109,10 +129,18 @@ def validate_brief(raw: object) -> dict:
         raise ValueError(f'{slug}: imagePlan no reconocido.')
     if raw.get('imageRights', 'pending') != 'pending':
         raise ValueError(f'{slug}: imageRights debe permanecer pending.')
+    if image_plan == 'original-illustration' and not re.search(r'\b(?:ilustraci[oó]n|diagrama|esquema)\b', image_alt, re.IGNORECASE):
+        raise ValueError(f'{slug}: imageAlt debe identificar la imagen como ilustración, diagrama o esquema.')
 
-    source_candidates = [validate_source(source, index) for index, source in enumerate(_require_list(raw.get('sourceCandidates'), f'{slug}.sourceCandidates'))]
+    source_candidates = [validate_source(source, index, catalog_ids) for index, source in enumerate(_require_list(raw.get('sourceCandidates'), f'{slug}.sourceCandidates'))]
     if len(source_candidates) < 2:
         raise ValueError(f'{slug}: se requieren al menos dos fuentes candidatas.')
+    source_ids = [source['catalogId'] for source in source_candidates]
+    source_urls = [source['url'] for source in source_candidates]
+    if len(source_ids) != len(set(source_ids)):
+        raise ValueError(f'{slug}: sourceCandidates no puede repetir catalogId.')
+    if len(source_urls) != len(set(source_urls)):
+        raise ValueError(f'{slug}: sourceCandidates no puede repetir URL.')
     candidate_ids = {source['catalogId'] for source in source_candidates}
     claims = [validate_claim(claim, index) for index, claim in enumerate(_require_list(raw.get('claims'), f'{slug}.claims'))]
     for claim in claims:
@@ -126,6 +154,9 @@ def validate_brief(raw: object) -> dict:
     tags = raw.get('tags', [])
     if not isinstance(tags, list) or not all(isinstance(tag, str) and tag.strip() for tag in tags):
         raise ValueError(f'{slug}: tags debe ser una lista de texto.')
+    internal_links = raw.get('internalLinks', [])
+    if not isinstance(internal_links, list) or not all(isinstance(link, str) and link.startswith('/') and not link.startswith('//') for link in internal_links):
+        raise ValueError(f'{slug}: internalLinks debe contener solo rutas internas que comiencen por /.')
     return {
         'slug': slug,
         'workingTitle': _require_text(raw.get('workingTitle'), f'{slug}.workingTitle'),
@@ -133,7 +164,7 @@ def validate_brief(raw: object) -> dict:
         'category': category,
         'pubDate': _require_text(raw.get('pubDate'), f'{slug}.pubDate'),
         'image': image,
-        'imageAlt': _require_text(raw.get('imageAlt'), f'{slug}.imageAlt'),
+        'imageAlt': image_alt,
         'tags': tags,
         'readerQuestion': _require_text(raw.get('readerQuestion'), f'{slug}.readerQuestion'),
         'draftBody': draft_body,
@@ -141,7 +172,7 @@ def validate_brief(raw: object) -> dict:
         'claims': claims,
         'originalContribution': _require_text(raw.get('originalContribution'), f'{slug}.originalContribution'),
         'imagePlan': image_plan,
-        'internalLinks': raw.get('internalLinks', []),
+        'internalLinks': internal_links,
     }
 
 
@@ -153,7 +184,8 @@ def load_briefs(input_path: Path) -> list[dict]:
     raw_briefs = payload.get('briefs') if isinstance(payload, dict) else payload
     if not isinstance(raw_briefs, list) or not raw_briefs:
         raise ValueError('El archivo de entrada debe contener una lista no vacía de briefs o {"briefs": [...]}.')
-    briefs = [validate_brief(raw) for raw in raw_briefs]
+    catalog_ids = load_catalog_ids()
+    briefs = [validate_brief(raw, catalog_ids) for raw in raw_briefs]
     slugs = [brief['slug'] for brief in briefs]
     if len(slugs) != len(set(slugs)):
         raise ValueError('Hay slugs duplicados en el archivo de entrada.')
