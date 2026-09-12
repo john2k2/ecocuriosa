@@ -242,7 +242,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 311 entradas, 81 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 314 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -301,6 +301,26 @@ Estas catorce fuentes amplían la investigación de las fichas con más riesgo d
 | Búho real | [Plumas y supresión de ruido](https://www.sciencedirect.com/science/article/abs/pii/S1672652911601091) · [Serraciones del borde de ataque](https://pubmed.ncbi.nlm.nih.gov/38569525/) | ¿Qué parte del vuelo silencioso se ha medido de verdad? | Resultados de laboratorio y modelos; no afirmar silencio total ni mezclar *Bubo bubo* con otras especies. |
 | Tardígrados | [Temperatura y ultraestructura celular](https://www.nature.com/articles/s41598-024-55295-z) · [Oxidación de cisteína en tun](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295062) | ¿Qué estado y qué especie explican una tolerancia concreta? | El mecanismo depende de especie, estado y protocolo; no equivale a invulnerabilidad espacial. |
 | Peces linterna | [Fotóforos y especiación](https://pubmed.ncbi.nlm.nih.gov/24771948/) · [Fotóforos orientados al ojo](https://nsuworks.nova.edu/occ_facarticles/1077/) | ¿Cómo produce luz un pez profundo y qué función se ha observado? | Anatomía y muestras de estomiiformes; la conducta no se generaliza a todos los peces linterna. |
+
+### Fuentes abiertas verificadas en vivo — 12 de septiembre
+
+En esta comprobación se abrió el registro del repositorio o el artículo en un
+navegador normal. El resultado confirma la identidad y el alcance descrito,
+pero no convierte automáticamente estas pistas en citas de una monografía:
+la persona editora aún debe leer el texto completo, enlazar la afirmación
+concreta y registrar la revisión.
+
+| Clúster | Fuente abierta | Qué se pudo confirmar | Límite para el brief |
+| --- | --- | --- | --- |
+| Geodinamo | [Earth, Planets and Space / Springer Nature](https://doi.org/10.1186/s40623-025-02307-5) | El artículo compara modelos de flujo superficial del núcleo invertidos desde campos candidatos IGRF-14 y documenta el uso de observaciones geomagnéticas y *priors* de geodinamo. | Es un problema inverso subdeterminado; no presentar el flujo como observación directa ni como predicción de inversión. |
+| Pulpo mimo | [Registro del repositorio digital de CMFRI](https://eprints.cmfri.org.in/14674/) | El resumen identifica el primer registro en el mar Arábigo: dos ejemplares frente a Kerala, a 15 m, con apoyo genético mediante COI. | El PDF completo requiere registro; mantener la muestra de dos ejemplares y una localidad. |
+| Geosmina | [Accepted manuscript en el repositorio de Warwick](https://wrap.warwick.ac.uk/id/eprint/135205/) | El resumen informa experimentos de campo y respuestas antenales de *Folsomia candida* frente a geosmina/2-MIB producidos por *Streptomyces*. | No extrapolar la interacción a todas las especies, bacterias o experiencias humanas de petricor. |
+
+La consulta de esta tanda devolvió además fuentes secundarias y resultados de
+búsqueda que no se incorporan al catálogo por no aportar evidencia primaria o
+institucional suficiente. Las tres fuentes seleccionadas quedaron registradas
+con identificadores propios en `SOURCE_CATALOG.yml` para que Luna pueda
+proponerlas sin perder el enlace abierto y el límite de alcance.
 
 ### Controles oficiales para IA, imágenes y AdSense — 12 de septiembre
 

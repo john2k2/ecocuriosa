@@ -1873,3 +1873,21 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://doi.org/10.1016/j.atmosres.2015.12.018
     use: seasonal correlations between LIS-TRMM/OTD activity and local or large-scale drivers in northwestern Venezuela; preserve the older correlational design and sensor limits
+  - id: geodynamo-core-flow-springer-2025
+    authority: Earth, Planets and Space / Springer Nature
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1186/s40623-025-02307-5
+    use: compares core-surface flow models inverted from IGRF-14 candidate fields and documents how geomagnetic observations plus geodynamo priors constrain an underdetermined inverse problem; do not call the flow a direct observation
+  - id: mimic-octopus-arabian-sea-cmfri-2020
+    authority: Central Marine Fisheries Research Institute Digital Repository
+    domain: cephalopod-biogeography
+    evidenceType: peer-reviewed-primary
+    url: https://eprints.cmfri.org.in/14674/
+    use: open repository record and abstract for the 2020 Arabian Sea range-extension paper; two specimens from southern Kerala at 15 m and COI genotyping, with the full PDF access restriction preserved
+  - id: geosmin-collembola-wrap-2020
+    authority: University of Warwick Research Archive Portal
+    domain: chemical-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://wrap.warwick.ac.uk/id/eprint/135205/
+    use: accepted-manuscript record and abstract for field attraction of Folsomia candida to Streptomyces volatiles; preserve the tested species, strains and laboratory/field distinction rather than generalizing to all petrichor

@@ -114,5 +114,5 @@ El geodinamo del núcleo externo crea un campo cambiante que interactúa con el 
 ### Referencias y Literatura Científica Consultada
 - [Introduction to Geomagnetism](https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism) — USGS; mediciones y conceptos básicos del campo terrestre.
 - [Earth’s Magnetosphere](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/) — NASA; magnetosfera y protección frente al entorno espacial.
-- [Satellite magnetic data reveal interannual waves in Earth’s core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *Geophysical Research Letters* / PubMed Central; inferencias a partir de datos satelitales.
+- [Satellite magnetic data reveal interannual waves in Earth’s core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *Proceedings of the National Academy of Sciences* / PubMed Central; inferencias a partir de datos satelitales.
 - [Swarm unveils magnetic waves deep down](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) — ESA; explicación de la misión y sus mediciones.

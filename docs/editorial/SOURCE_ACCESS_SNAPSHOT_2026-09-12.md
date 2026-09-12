@@ -26,6 +26,24 @@ Los estados son una fotografía de una fecha concreta: pueden variar según
 hora, red, agente de usuario, redirecciones, caché y controles del propio
 editor. No se deben cambiar ni eliminar fuentes únicamente por este snapshot.
 
+## Comprobación manual selectiva en navegador
+
+El mismo día se abrieron tres registros alternativos para las fuentes que
+podían quedar ocultas por una respuesta automatizada `403`. Esta comprobación
+no sustituye la lectura humana completa del artículo, pero confirma que existe
+una ficha institucional navegable y deja documentado su alcance inicial:
+
+| Clúster | Registro abierto | Evidencia visible | Decisión provisional |
+| --- | --- | --- | --- |
+| Geodinamo | [Earth, Planets and Space / Springer Nature](https://doi.org/10.1186/s40623-025-02307-5) | El texto explica la inversión de flujos superficiales del núcleo con observaciones geomagnéticas y *priors* de geodinamo, y explicita la naturaleza subdeterminada del problema. | Candidata para un brief sobre medición vs. inferencia; no es una cita aprobada del artículo existente. |
+| Pulpo mimo | [CMFRI Digital Repository](https://eprints.cmfri.org.in/14674/) | El registro muestra título, autores, año, resumen y dos ejemplares del mar Arábigo identificados con COI; el PDF completo está restringido. | Alternativa de acceso para verificar identidad y alcance; mantener muestra y localidad en cualquier redacción. |
+| Geosmina | [University of Warwick Research Archive Portal](https://wrap.warwick.ac.uk/id/eprint/135205/) | El registro muestra el artículo, DOI, resumen y experimentos de campo/antena con *Folsomia candida* y compuestos de *Streptomyces*. | Alternativa abierta para un brief sobre ecología química; no extrapolar a todo el petricor humano. |
+
+Las tres URLs están también en `SOURCE_CATALOG.yml` como entradas separadas.
+Se mantienen en estado `candidate` hasta que una persona responsable lea el
+texto completo y, si corresponde, las cite con `accessedDate`, alcance y
+revisión editorial registrada.
+
 ## Las 17 URLs que devolvieron `403`
 
 Se conservan agrupadas por artículo para que la revisión pueda comprobar la

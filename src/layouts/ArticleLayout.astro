@@ -174,6 +174,9 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
     {sources.length > 0 && (
       <aside class="mb-10 rounded-lg border border-[#e6e2d8] bg-[#fbf9f4] p-5 sm:p-6" aria-labelledby="fuentes-clave-title">
         <h2 id="fuentes-clave-title" class="text-xs font-semibold uppercase tracking-wide text-[#5a605c] mb-3">Fuentes clave de esta explicación</h2>
+        <p class="text-xs leading-relaxed text-[#5a605c] mb-4">
+          La etiqueta y el alcance indican qué parte de la explicación permite comprobar cada referencia; no convierten una inferencia en una observación directa.
+        </p>
         <ul class="grid gap-3 sm:grid-cols-2 text-sm">
           {sources.slice(0, 2).map((source) => (
             <li>
@@ -181,6 +184,12 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
                 {source.title}
               </a>
               {source.publisher && <span class="block mt-1 text-xs text-[#738a7d]">{source.publisher}</span>}
+              {(source.evidenceType || source.scope) && (
+                <span class="block mt-1 text-xs leading-relaxed text-[#5a605c]">
+                  {source.evidenceType && <span class="font-semibold">{evidenceTypeLabels[source.evidenceType] || source.evidenceType}</span>}
+                  {source.scope && <span>{source.evidenceType ? ' · ' : ''}{source.scope}</span>}
+                </span>
+              )}
             </li>
           ))}
         </ul>
