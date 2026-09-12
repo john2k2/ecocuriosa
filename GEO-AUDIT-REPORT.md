@@ -111,7 +111,7 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 
 ### Contenido y E-E-A-T — 56/100
 
- Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
+ Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Cada ficha muestra ahora hasta dos fuentes clave junto a la respuesta inicial y la lista completa al final. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
 
 La comprobación de acceso del 12/09/2026 encontró 70 respuestas `200`, 9
 `203` y 17 `403` entre las 96 URLs declaradas. Los estados `203/403` se
