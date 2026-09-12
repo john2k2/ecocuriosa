@@ -109,7 +109,7 @@ Nota de alcance: Google Search indica que `llms.txt` no es una señal especial d
 
 ### Autoridad de marca — 20/100
 
-La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara, pero no se midieron menciones independientes, perfiles sociales, Wikipedia, Reddit, YouTube ni enlaces editoriales. El objetivo no es fabricar señales: es publicar piezas originales, conseguir colaboraciones atribuibles y mantener una identidad de autor verificable.
+La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara, pero la búsqueda pública del 12/09/2026 devolvió principalmente el propio dominio y no permite confirmar aún una base de menciones independientes, perfiles sociales, Wikipedia, Reddit, YouTube ni enlaces editoriales. El objetivo no es fabricar señales: es publicar piezas originales, conseguir colaboraciones atribuibles y mantener una identidad de autor verificable. El plan de distribución por fases y sus umbrales está en [`docs/editorial/BRAND_AUTHORITY_PLAN.md`](docs/editorial/BRAND_AUTHORITY_PLAN.md).
 
 ### Contenido y E-E-A-T — 56/100
 
