@@ -13,6 +13,7 @@ const missingImages = [];
 const missingImageVariants = [];
 const missingImageAlt = [];
 const missingImageCredit = [];
+const incompleteImageRights = [];
 const boilerplateConclusions = [];
 const emptyReferenceLists = [];
 const invalidSources = [];
@@ -41,6 +42,9 @@ for (const filename of filenames) {
   const image = frontmatter.match(/^image:\s*["']?([^"'\n]+)["']?\s*$/m)?.[1];
   const imageAlt = frontmatter.match(/^imageAlt:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
   const imageCredit = frontmatter.match(/^imageCredit:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
+  const imageLicense = frontmatter.match(/^imageLicense:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
+  const imageCreator = frontmatter.match(/^imageCreator:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
+  const imageLicensePage = frontmatter.match(/^imageLicensePage:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
   const description = frontmatter.match(/^description:\s*["'](.+)["']\s*$/m)?.[1] ?? '';
   const hasSources = /^sources:\s*\n\s+-\s+title:/m.test(frontmatter);
   const hasReviewedDate = /^reviewedDate:/m.test(frontmatter);
@@ -88,6 +92,12 @@ for (const filename of filenames) {
   }
   if (!imageAlt) missingImageAlt.push(filename);
   if (!imageCredit) missingImageCredit.push(filename);
+  // Original EcoCuriosa illustrations do not need an external licence URL.
+  // Any other asset must carry enough provenance for a human to re-check it.
+  const isDeclaredOriginal = /\b(?:original|propia|generada\s+para)\b.*\bEcoCuriosa\b/i.test(imageCredit);
+  if (imageCredit && !isDeclaredOriginal && (!/^https:\/\//.test(imageLicense) || !imageCreator || !/^https:\/\//.test(imageLicensePage))) {
+    incompleteImageRights.push({ filename, imageCredit });
+  }
 
   if (hasSources && (!sourceBlocks.length || sourceBlocks.some(([, title, publisher, url]) => !title.trim() || !publisher.trim() || !/^https:\/\//.test(url.trim())))) {
     invalidSources.push(filename);
@@ -122,6 +132,7 @@ const report = [
   `Respaldos WebP faltantes: ${missingImageVariants.length}`,
   `Imágenes sin texto alternativo: ${missingImageAlt.length}`,
   `Imágenes sin crédito/procedencia: ${missingImageCredit.length}`,
+  `Imágenes de terceros con derechos incompletos: ${incompleteImageRights.length}`,
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
   `Fuentes con formato incompleto: ${invalidSources.length}`,
@@ -140,6 +151,7 @@ const findings = {
   missingImageVariants,
   missingImageAlt,
   missingImageCredit,
+  incompleteImageRights,
   missingSources,
   missingReview,
   boilerplateConclusions,
@@ -170,9 +182,10 @@ if (json) {
   if (missingImageVariants.length) console.error(`Respaldos WebP faltantes: ${missingImageVariants.join(', ')}`);
   if (missingImageAlt.length) console.error(`Imágenes sin texto alternativo: ${missingImageAlt.join(', ')}`);
   if (missingImageCredit.length) console.error(`Imágenes sin crédito/procedencia: ${missingImageCredit.join(', ')}`);
+  if (incompleteImageRights.length) console.error(`Derechos de imagen incompletos: ${incompleteImageRights.map(({ filename }) => filename).join(', ')}`);
 }
 
-if (missingImages.length || missingImageVariants.length || missingImageAlt.length || missingImageCredit.length || (strict && (
+if (missingImages.length || missingImageVariants.length || missingImageAlt.length || missingImageCredit.length || incompleteImageRights.length || (strict && (
   missingSources.length ||
   missingReview.length ||
   boilerplateConclusions.length ||
