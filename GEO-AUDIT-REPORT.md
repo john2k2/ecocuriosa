@@ -17,6 +17,8 @@ La auditoría visual también detectó activos que no correspondían con su art�
 
 Siete artículos prioritarios (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) recibieron cambios sustanciales de texto y fuentes el 12 de septiembre y ahora muestran una fecha de «Actualizado» independiente de la revisión humana. No se modificaron las fechas de los otros artículos ni se marcó ninguna revisión no realizada.
 
+Se acortaron quince títulos que superaban la longitud editorial recomendada para conservar la pregunta y la entidad principal en pantallas móviles. El cambio sigue las [buenas prácticas de Google para title links](https://developers.google.com/search/docs/appearance/title-link): texto descriptivo y conciso, sin keyword stuffing ni boilerplate. Afecta solo al texto de `<title>`/H1 derivado del frontmatter; no altera URLs, fechas ni afirmaciones del artículo. Google puede reescribir un title link y debe volver a rastrear la página antes de que se observe el efecto.
+
 La política de privacidad también distingue ahora entre Web Analytics sin datos personales y los registros técnicos que puede procesar la infraestructura. No se declara que una dirección IP sea automáticamente anónima ni se atribuyen prácticas de retención que no estén verificadas; el titular puede solicitar información por el canal de privacidad.
 
 ### Desglose de puntuación
@@ -163,6 +165,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 3. Revisar mensualmente Search Console y la configuración RUM canónica de Cloudflare; guardar solo agregados y conservar separados edge requests, RUM visits y métricas orgánicas.
 4. Revisar los primeros 8 artículos de la cola y corregir cualquier cifra, promesa médica, conservación o récord sin respaldo.
 5. Crear los bloques AdSense en la cuenta, cargar sus IDs en Cloudflare Pages solo después de la aprobación y verificar CLS en móvil.
+6. [x] Acortar quince títulos largos manteniendo la intención de búsqueda y la entidad principal; volver a medir impresiones y CTR después de que Google los vuelva a rastrear.
 
 ## Plan de 30 días
 
@@ -184,7 +187,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 - [x] Capturar la primera tabla de oportunidades por impresiones, CTR, posición, país y dispositivo; todavía no hay volumen suficiente para conclusiones fuertes.
 - [ ] Crear una guía pilar por clúster y enlazarla con 3–5 artículos relacionados.
-- [ ] Mejorar títulos/extractos de páginas con impresiones altas y CTR bajo; no cambiar fechas sin cambio sustancial.
+- [x] Mejorar los títulos largos de las 32 fichas; los extractos solo se tocarán con una hipótesis basada en Search Console y sin cambiar fechas sin cambio sustancial.
 
 ### Semana 4 — monetización controlada
 
@@ -222,7 +225,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm content:reference-audit`: las 96 fuentes del frontmatter también aparecen como enlaces exactos en el cuerpo de sus artículos (96/96); el control evita bibliografías genéricas o fuentes registradas que el lector no pueda rastrear.
 - `pnpm content:llms-audit`: 32/32 artículos sincronizados con `public/llms.txt`, 0 entradas faltantes/desactualizadas, 0 URLs no canónicas y 0 duplicadas; el control quedó integrado en `.github/workflows/content-quality.yml`.
 - `public/llms.txt`: enumera las 32 URLs de artículos con título y descripción acotada, además de las páginas de categoría y metodología, para facilitar descubrimiento por sistemas de IA sin sustituir la revisión editorial.
-- `SOURCE_CATALOG.yml`: YAML válido con 310 entradas y cobertura de las 96 URLs citadas por los artículos; la biblioteca mantiene 80 oportunidades editoriales (incluye las 32 fuentes citadas por artículos y oportunidades derivadas de consultas reales de Search Console). La comprobación HTTP del 12/09 obtuvo 70 respuestas 200, 9 respuestas 203 y 17 respuestas 403; el detalle está en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md). Las fichas siguen siendo candidatas hasta que una persona abra y compruebe la fuente concreta; no se tratan como enlaces rotos solo por una limitación automatizada.
+- `SOURCE_CATALOG.yml`: YAML válido con 311 entradas y cobertura de las 96 URLs citadas por los artículos; la biblioteca mantiene 81 oportunidades editoriales (incluye las 32 fuentes citadas por artículos y oportunidades derivadas de consultas reales de Search Console). La comprobación HTTP del 12/09 obtuvo 70 respuestas 200, 9 respuestas 203 y 17 respuestas 403; el detalle está en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md). Las fichas siguen siendo candidatas hasta que una persona abra y compruebe la fuente concreta; no se tratan como enlaces rotos solo por una limitación automatizada.
 - La segunda búsqueda enfocada de Luna Max añadió 25 fuentes no duplicadas y una priorización de siete oportunidades ligadas a consultas observadas (`geosmina`, tiburón de Groenlandia, geodinamo, pulpo mimo, leopardo de las nieves, pangolín gigante y Catatumbo). La tanda siguiente añadió diez fuentes no duplicadas para axolote, cebras, tardígrados, ballena azul, narval y corales; la búsqueda del 12/09 añadió doce para mantas, elefantes, pangolines, peces linterna, géiseres, nubes mammatus, auroras y calamar gigante; esta revisión añadió catorce para ajolote, ballena azul, corales, tiburón de Groenlandia, pangolines, búho real, tardígrados y peces linterna; y la verificación oficial añadió cuatro controles de Google sobre IA, imágenes, snippets y preparación de AdSense. Se conservan como candidatos con alcance y límites; no se añadieron citas automáticas a artículos publicados.
 - El pipeline histórico quedó aislado: se retiraron los seeds heredados con copy y autoría no verificados; `pipeline/generate_articles.py` ahora exige un brief JSON estructurado de Luna Max y solo genera borradores en `docs/editorial/drafts/`, mientras `pipeline/generate_images.py` deriva su manifiesto del frontmatter curado y solo genera activos fuera de `public/`. Ambos rechazan destinos publicados y colisiones.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.

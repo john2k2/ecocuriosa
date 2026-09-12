@@ -1,5 +1,5 @@
 ---
-title: "El Vórtice Polar y el Calentamiento Estratosférico: Cómo se Congela un Continente"
+title: "Vórtice polar y calentamiento estratosférico: explicación"
 description: "Comprende la interacción entre la estratosfera y la troposfera, las ondas de Rossby y las causas de las olas de frío extremo en latitudes medias."
 category: "fenomenos-naturales"
 pubDate: 2026-08-26

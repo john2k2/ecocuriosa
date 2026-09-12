@@ -1,5 +1,5 @@
 ---
-title: "Cómo Saben las Plantas Cuándo Florecer: La Memoria Molecular del Invierno"
+title: "Cómo recuerdan las plantas el invierno"
 description: "Comprende la vernalización, el silenciamiento epigenético del gen FLC y cómo la cromatina vegetal almacena el recuerdo del frío prolongado."
 category: "ciencia-curiosa"
 pubDate: 2026-09-01

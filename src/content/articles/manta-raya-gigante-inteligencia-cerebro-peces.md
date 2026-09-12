@@ -1,5 +1,5 @@
 ---
-title: "La manta raya gigante: comportamiento, cerebro y preguntas abiertas"
+title: "Manta raya gigante: comportamiento y cerebro"
 description: "Qué se conoce sobre Mobula birostris, sus comportamientos y los límites de las afirmaciones sobre inteligencia animal."
 category: "especies-marinas"
 pubDate: 2026-08-20

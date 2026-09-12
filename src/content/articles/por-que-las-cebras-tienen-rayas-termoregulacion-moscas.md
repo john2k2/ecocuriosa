@@ -1,5 +1,5 @@
 ---
-title: "Por qué las cebras tienen rayas: la evidencia sobre moscas y otras hipótesis"
+title: "Por qué las cebras tienen rayas: evidencias"
 description: "Qué muestran los experimentos sobre rayas, tábanos y termorregulación, y qué preguntas evolutivas siguen abiertas."
 category: "ciencia-curiosa"
 pubDate: 2026-09-03

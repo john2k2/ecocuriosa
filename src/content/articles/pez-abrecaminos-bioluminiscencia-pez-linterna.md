@@ -1,5 +1,5 @@
 ---
-title: "Peces linterna y bioluminiscencia: la batalla de luz en la zona de medianoche"
+title: "Peces linterna: cómo funciona su bioluminiscencia"
 description: "Descubre cómo algunos peces linterna y dragones negros usan la bioluminiscencia para cazar, camuflarse o comunicarse en el abismo marino."
 category: "especies-marinas"
 pubDate: 2026-08-19

@@ -1,5 +1,5 @@
 ---
-title: "El relámpago del Catatumbo: por qué hay tanta actividad eléctrica cerca del lago de Maracaibo"
+title: "Relámpago del Catatumbo: actividad eléctrica en Maracaibo"
 description: "Qué se conoce sobre la convección, el relieve y la actividad de rayos en la región del Catatumbo, Venezuela."
 category: "fenomenos-naturales"
 pubDate: 2026-08-22

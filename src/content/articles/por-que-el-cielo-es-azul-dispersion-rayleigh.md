@@ -1,5 +1,5 @@
 ---
-title: "¿Por Qué el Cielo es Azul y los Atardeceres Rojos? La Dispersión de Rayleigh"
+title: "Por qué el cielo es azul: dispersión de Rayleigh"
 description: "Por qué la luz solar parece blanca y los gases atmosféricos dispersan preferentemente la luz azul: una explicación paso a paso."
 category: "ciencia-curiosa"
 pubDate: 2026-08-29

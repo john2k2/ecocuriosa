@@ -1,5 +1,5 @@
 ---
-title: "Agujeros azules: cómo se forman estos sumideros kársticos submarinos"
+title: "Agujeros azules: cómo se forman bajo el mar"
 description: "Qué se sabe sobre el origen kárstico, la estratificación del agua y la biodiversidad de los agujeros azules, con límites claros por sitio."
 category: "fenomenos-naturales"
 pubDate: 2026-08-25

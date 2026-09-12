@@ -1,5 +1,5 @@
 ---
-title: "El Leopardo de las Nieves: Cómo Sobrevive el Fantasma de las Montañas"
+title: "Leopardo de las nieves: cómo sobrevive al frío"
 description: "Descubre las adaptaciones anatómicas y térmicas que ayudan al leopardo de las nieves a vivir en ambientes fríos y montañosos de Asia Central."
 category: "fauna-fascinante"
 pubDate: 2026-08-05

@@ -1,5 +1,5 @@
 ---
-title: "Los Arrecifes de Coral: La Alianza Secreta entre Pólipos y Algas Microscópicas"
+title: "Arrecifes de coral: pólipos, algas y blanqueamiento"
 description: "Comprende la endosimbiosis entre cnidarios y dinoflagelados, la calcificación marina y las causas biofísicas del blanqueamiento coralino."
 category: "especies-marinas"
 pubDate: 2026-08-16

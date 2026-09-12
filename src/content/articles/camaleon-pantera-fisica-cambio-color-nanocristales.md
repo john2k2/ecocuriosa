@@ -1,5 +1,5 @@
 ---
-title: "El Camaleón Pantera: La Nanotecnología Natural tras su Cambio de Color"
+title: "Camaleón pantera: cómo cambia de color"
 description: "En el camaleón pantera, nanocristales de guanina modifican parte de la luz reflejada; el efecto depende del estado y la región corporal."
 category: "fauna-fascinante"
 pubDate: 2026-08-07

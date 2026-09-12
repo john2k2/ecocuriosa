@@ -1,5 +1,5 @@
 ---
-title: "Por Qué el Agua Hierve a Menos de 100 °C en la Montaña: Presión y Ebullición"
+title: "Por qué el agua hierve antes en la montaña"
 description: "La temperatura de ebullición baja cuando disminuye la presión atmosférica; por eso cocinar y purificar agua requiere ajustar el método a la altitud."
 category: "ciencia-curiosa"
 pubDate: 2026-08-30

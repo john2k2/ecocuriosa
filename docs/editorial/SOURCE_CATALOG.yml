@@ -112,6 +112,12 @@ entries:
     evidenceType: documentation
     url: https://developers.google.com/search/help/site-appearance-faq
     use: useful title links, snippets and descriptive page metadata
+  - id: google-title-link-best-practices
+    authority: Google Search Central
+    domain: seo-geo
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/title-link
+    use: concise, descriptive title links without keyword stuffing or boilerplate
   - id: cloudflare-web-analytics
     authority: Cloudflare
     domain: privacy-performance

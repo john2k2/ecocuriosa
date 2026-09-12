@@ -1,5 +1,5 @@
 ---
-title: "La fisiología de la ballena azul: qué revelan sus inmersiones y su corazón"
+title: "Ballena azul: fisiología, inmersiones y corazón"
 description: "Qué se ha medido sobre el ritmo cardíaco de la ballena azul durante las inmersiones y los límites de esos datos."
 category: "especies-marinas"
 pubDate: 2026-08-18

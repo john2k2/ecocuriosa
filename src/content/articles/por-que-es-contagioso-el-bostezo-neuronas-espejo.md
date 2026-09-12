@@ -1,5 +1,5 @@
 ---
-title: "Por qué el bostezo puede ser contagioso: hipótesis y límites de la evidencia"
+title: "Por qué el bostezo puede ser contagioso"
 description: "Lo que se ha investigado sobre el bostezo contagioso, la familiaridad social y las hipótesis neurobiológicas aún debatidas."
 category: "ciencia-curiosa"
 pubDate: 2026-08-31

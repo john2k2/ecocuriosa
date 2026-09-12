@@ -310,6 +310,7 @@ Estas catorce fuentes amplían la investigación de las fichas con más riesgo d
 | Imágenes | [Buenas prácticas de imágenes en Google Search](https://developers.google.com/search/docs/appearance/google-images) | Mantener URL estable, `alt` descriptivo, contexto editorial y una página indexable; no confundir una ilustración con una fotografía documental. |
 | AdSense | [Qué hacer si el sitio aún no está listo](https://support.google.com/adsense/answer/12176698?hl=es) | Separar la presencia del código de la evaluación de contenido único, experiencia y navegación; no activar slots inventados. |
 | Snippets | [Preguntas frecuentes sobre la apariencia en Search](https://developers.google.com/search/help/site-appearance-faq) | Revisar títulos y descripciones para que respondan a la consulta sin prometer un resultado enriquecido. |
+| Title links | [Buenas prácticas para títulos en Search](https://developers.google.com/search/docs/appearance/title-link) | Mantener títulos descriptivos y concisos; evitar texto repetido, relleno y keyword stuffing. |
 
 ### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
 
