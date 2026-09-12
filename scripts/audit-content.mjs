@@ -10,6 +10,7 @@ const filenames = (await readdir(articlesDirectory)).filter((name) => name.endsW
 const missingSources = [];
 const missingReview = [];
 const missingImages = [];
+const missingImageVariants = [];
 const missingImageAlt = [];
 const missingImageCredit = [];
 const boilerplateConclusions = [];
@@ -61,6 +62,14 @@ for (const filename of filenames) {
     } catch {
       missingImages.push(`${filename} (${image})`);
     }
+    if (/\.svg$/i.test(image)) {
+      const webp = image.replace(/\.svg$/i, '.webp');
+      try {
+        await access(path.join(root, 'public', webp), constants.R_OK);
+      } catch {
+        missingImageVariants.push(`${filename} (${webp})`);
+      }
+    }
   }
   if (!imageAlt) missingImageAlt.push(filename);
   if (!imageCredit) missingImageCredit.push(filename);
@@ -95,6 +104,7 @@ const report = [
   `Con fuentes registradas en frontmatter: ${filenames.length - missingSources.length}/${filenames.length}`,
   `Con revisión editorial: ${filenames.length - missingReview.length}/${filenames.length}`,
   `Imágenes faltantes: ${missingImages.length}`,
+  `Respaldos WebP faltantes: ${missingImageVariants.length}`,
   `Imágenes sin texto alternativo: ${missingImageAlt.length}`,
   `Imágenes sin crédito/procedencia: ${missingImageCredit.length}`,
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,
@@ -110,6 +120,7 @@ const findings = {
   sourcedArticles: filenames.length - missingSources.length,
   reviewedArticles: filenames.length - missingReview.length,
   missingImages,
+  missingImageVariants,
   missingImageAlt,
   missingImageCredit,
   missingSources,
@@ -135,11 +146,12 @@ if (json) {
   if (descriptionQualityFlags.length) console.log(`Descripciones fuera de rango: ${descriptionQualityFlags.map(({ filename, length }) => `${filename} (${length})`).join(', ')}`);
   if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
+  if (missingImageVariants.length) console.error(`Respaldos WebP faltantes: ${missingImageVariants.join(', ')}`);
   if (missingImageAlt.length) console.error(`Imágenes sin texto alternativo: ${missingImageAlt.join(', ')}`);
   if (missingImageCredit.length) console.error(`Imágenes sin crédito/procedencia: ${missingImageCredit.join(', ')}`);
 }
 
-if (missingImages.length || missingImageAlt.length || missingImageCredit.length || (strict && (
+if (missingImages.length || missingImageVariants.length || missingImageAlt.length || missingImageCredit.length || (strict && (
   missingSources.length ||
   missingReview.length ||
   boilerplateConclusions.length ||

@@ -168,7 +168,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 
 ## Verificación ejecutada
 
-- `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes, 0 imágenes sin texto alternativo y 0 sin crédito/procedencia; 0 conclusiones repetidas; 0 advertencias heurísticas. La auditoría ahora bloquea nuevos activos sin `imageAlt` o `imageCredit`.
+- `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes, 0 respaldos WebP faltantes, 0 imágenes sin texto alternativo y 0 sin crédito/procedencia; 0 conclusiones repetidas; 0 advertencias heurísticas. La auditoría ahora bloquea nuevos activos sin `imageAlt`, `imageCredit` o respaldo WebP cuando el original es SVG.
 - `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
 - `pnpm build`: 45 páginas estáticas generadas correctamente.
 - `pnpm content:link-audit`: 46 documentos HTML y 110 enlaces/recursos internos comprobados (incluye `srcset` de las imágenes); 0 rutas faltantes y 0 rutas HTML sin barra final. El control de canonicals quedó integrado en `.github/workflows/content-quality.yml`.
