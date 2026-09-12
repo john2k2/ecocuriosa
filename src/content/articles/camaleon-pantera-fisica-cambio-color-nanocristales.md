@@ -1,6 +1,6 @@
 ---
 title: "El Camaleón Pantera: La Nanotecnología Natural tras su Cambio de Color"
-description: "A diferencia del mito popular, los camaleones no mezclan pigmentos químicos, sino que afinan nanocristales de guanina en su piel como prismas ópticos."
+description: "En el camaleón pantera, los estudios relacionan parte del cambio de color con nanocristales de guanina que modifican la luz reflejada; el efecto depende del estado y la región corporal."
 category: "fauna-fascinante"
 pubDate: 2026-08-07
 author: "Equipo Editorial EcoCuriosa"

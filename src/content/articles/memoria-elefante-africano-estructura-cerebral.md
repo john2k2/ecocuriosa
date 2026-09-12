@@ -1,6 +1,6 @@
 ---
 title: "La Memoria del Elefante Africano: ¿Mito o Prodigio Neurológico?"
-description: "Explora las bases neuroanatómicas del cerebro del elefante y cómo las matriarcas retienen mapas ecológicos vitales durante décadas."
+description: "Explora la neuroanatomía del elefante y la evidencia sobre cómo la experiencia de las matriarcas puede aportar conocimiento social y ecológico a la manada."
 category: "fauna-fascinante"
 pubDate: 2026-08-09
 author: "Equipo Editorial EcoCuriosa"

@@ -52,10 +52,17 @@ const fullTitle = title.includes('EcoCuriosa') ? title : `${title} | EcoCuriosa`
 // SVG keeps the article page light; social crawlers receive the matching WebP.
 const socialImage = image.endsWith('.svg') ? image.replace(/\.svg$/i, '.webp') : image;
 const socialImageURL = new URL(socialImage, Astro.site).href;
+const socialImageType = /\.jpe?g$/i.test(socialImage)
+  ? 'image/jpeg'
+  : /\.png$/i.test(socialImage)
+    ? 'image/png'
+    : 'image/webp';
 const siteURL = Astro.site?.href || 'https://ecocuriosa.com/';
 const imageObject = {
   "@type": "ImageObject",
   "url": socialImageURL,
+  "caption": imageAlt || title,
+  "representativeOfPage": true,
   ...(imageCredit ? { "creditText": imageCredit } : {}),
   ...(imageLicense ? { "license": imageLicense } : {}),
   ...(imageCreator ? { "creator": imageCreator } : {}),
@@ -158,6 +165,7 @@ const schemaData = {
 <meta property="og:description" content={description} />
 <meta property="og:image" content={socialImageURL} />
 <meta property="og:image:alt" content={imageAlt || title} />
+<meta property="og:image:type" content={socialImageType} />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:site_name" content="EcoCuriosa" />
 {type === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
@@ -171,6 +179,7 @@ const schemaData = {
 <meta name="twitter:title" content={fullTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={socialImageURL} />
+<meta name="twitter:image:alt" content={imageAlt || title} />
 
 <!-- Structured Data (Schema.org) -->
 <script is:inline type="application/ld+json" set:html={JSON.stringify(schemaData)} />

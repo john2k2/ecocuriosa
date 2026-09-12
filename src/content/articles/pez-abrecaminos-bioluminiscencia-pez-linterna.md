@@ -1,6 +1,6 @@
 ---
 title: "Peces Abisales y Bioluminiscencia: La Batalla de Luz en la Zona de Medianoche"
-description: "Descubre cómo los peces linterna y dragones negros dominan la bioluminiscencia para cazar, camuflarse y comunicarse en el abismo marino."
+description: "Descubre cómo algunos peces linterna y dragones negros usan la bioluminiscencia para cazar, camuflarse o comunicarse en el abismo marino."
 category: "especies-marinas"
 pubDate: 2026-08-19
 author: "Equipo Editorial EcoCuriosa"

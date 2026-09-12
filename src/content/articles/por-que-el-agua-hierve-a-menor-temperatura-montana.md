@@ -1,6 +1,6 @@
 ---
 title: "Por Qué el Agua Hierve a Menos de 100 °C en la Montaña: Presión y Ebullición"
-description: "A nivel del mar el agua hierve a 100 °C, pero en la cima del Everest lo hace a tan solo 71 °C. Entiende la relación termodinámica entre presión atmosférica y vapor."
+description: "La temperatura de ebullición baja cuando disminuye la presión atmosférica; por eso cocinar y purificar agua requiere ajustar el método a la altitud."
 category: "ciencia-curiosa"
 pubDate: 2026-08-30
 author: "Equipo Editorial EcoCuriosa"

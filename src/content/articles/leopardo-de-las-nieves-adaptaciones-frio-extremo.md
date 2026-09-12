@@ -1,6 +1,6 @@
 ---
 title: "El Leopardo de las Nieves: Cómo Sobrevive el Fantasma de las Montañas"
-description: "Descubre las asombrosas adaptaciones anatómicas y térmicas que permiten al leopardo de las nieves prosperar a más de 4.000 metros de altitud."
+description: "Descubre las adaptaciones anatómicas y térmicas que ayudan al leopardo de las nieves a vivir en ambientes fríos y montañosos de Asia Central."
 category: "fauna-fascinante"
 pubDate: 2026-08-05
 author: "Equipo Editorial EcoCuriosa"
