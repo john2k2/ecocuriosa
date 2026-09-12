@@ -26,6 +26,25 @@ Los estados son una fotografía de una fecha concreta: pueden variar según
 hora, red, agente de usuario, redirecciones, caché y controles del propio
 editor. No se deben cambiar ni eliminar fuentes únicamente por este snapshot.
 
+## Comprobación HTTP de la nueva ronda de Luna Max
+
+El 12/09/2026 se consultaron con `GET` las diez URLs añadidas para autoridad,
+Discover, medición generativa y procedencia. Las diez devolvieron `200` en esa
+red; el resultado solo confirma entrega HTTP y no reemplaza la lectura humana.
+
+| Fuente | Estado |
+| --- | ---: |
+| [Google AI features](https://developers.google.com/search/docs/appearance/ai-features) | `200` |
+| [Google Preferred sources](https://developers.google.com/search/docs/appearance/preferred-sources) | `200` |
+| [Google Discover Core Update](https://developers.google.com/search/blog/2026/02/discover-core-update) | `200` |
+| [Google Search generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) | `200` |
+| [Google ranking systems guide](https://developers.google.com/search/docs/appearance/ranking-systems-guide) | `200` |
+| [Crossref research-integrity metadata](https://www.crossref.org/publications/guide-metadata-research-integrity/) | `200` |
+| [Crossref data/software citation](https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/data-citation/) | `200` |
+| [DataCite Metadata Schema](https://schema.datacite.org/) | `200` |
+| [ROR Registry](https://ror.org/registry/) | `200` |
+| [ICMJE authors and contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) | `200` |
+
 ## Comprobación manual selectiva en navegador
 
 El mismo día se abrieron tres registros alternativos para las fuentes que
