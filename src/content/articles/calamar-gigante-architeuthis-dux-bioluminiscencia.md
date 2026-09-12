@@ -40,7 +40,7 @@ featured: false
 
 ## 1. Lo observado sobre sus ojos y su entorno
 
-El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El Smithsonian describe ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares y registros conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
+El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian describe](https://naturalhistory.si.edu/explore/giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares y registros conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
 
 Los cefalópodos tienen hemocianina y un sistema circulatorio con tres corazones, pero esta ficha no usa esos rasgos para afirmar una tasa metabólica, una tolerancia a la superficie o una ventaja energética que no esté documentada por la fuente concreta.
 
@@ -48,7 +48,7 @@ Los cefalópodos tienen hemocianina y un sistema circulatorio con tres corazones
 
 ## 2. Qué aportan las observaciones en libertad
 
-El registro primario de Ogasawara muestra a un ejemplar acercándose a un cebo y permite documentar su aspecto, escala y entorno inmediato. La observación recuperó un tentáculo de más de 8 metros, pero fue un caso concreto y una conducta inducida por el montaje; no demuestra cómo se alimentan todos los individuos.
+El [registro primario de Ogasawara](https://pubmed.ncbi.nlm.nih.gov/16321779/) muestra a un ejemplar acercándose a un cebo y permite documentar su aspecto, escala y entorno inmediato. La observación recuperó un tentáculo de más de 8 metros, pero fue un caso concreto y una conducta inducida por el montaje; no demuestra cómo se alimentan todos los individuos.
 
 La función exacta de los ojos grandes, la flotabilidad y la bioluminiscencia de las presas siguen siendo preguntas de investigación. Cuando una explicación es una hipótesis ecológica, debe presentarse como tal y no como una escena observada directamente.
 

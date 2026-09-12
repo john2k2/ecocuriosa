@@ -40,7 +40,7 @@ featured: false
 
 ## 1. Viento solar y magnetosfera
 
-El viento solar es un flujo de partículas y campos magnéticos procedente del Sol. La magnetosfera terrestre desvía parte de esa energía y la guía hacia regiones polares; durante tormentas geomagnéticas la configuración puede cambiar y ampliar la zona donde se observan auroras. La magnetosfera reduce la exposición directa de la atmósfera, pero no es una barrera perfecta ni permite convertir una aurora en una medida única de “fuerza solar”.
+El [viento solar](https://science.nasa.gov/sun/auroras/) es un flujo de partículas y campos magnéticos procedente del Sol. La magnetosfera terrestre desvía parte de esa energía y la guía hacia regiones polares; durante tormentas geomagnéticas la configuración puede cambiar y ampliar la zona donde se observan auroras. La magnetosfera reduce la exposición directa de la atmósfera, pero no es una barrera perfecta ni permite convertir una aurora en una medida única de “fuerza solar”.
 
 ---
 
@@ -48,7 +48,7 @@ El viento solar es un flujo de partículas y campos magnéticos procedente del S
 
 1. **Transferencia de energía:** partículas aceleradas transfieren energía a átomos y moléculas de la alta atmósfera.
 2. **Emisión:** al volver a estados de menor energía, esos gases emiten luz en bandas características.
-3. **Altitud y composición:** el color observado depende del gas, la altitud, la densidad y la energía del episodio. El verde del oxígeno es frecuente, mientras que el rojo, azul o violeta aparecen bajo condiciones distintas; una tabla de longitudes de onda debe leerse como referencia espectroscópica, no como una frontera rígida.
+3. **Altitud y composición:** el color observado depende del gas, la altitud, la densidad y la energía del episodio. El verde del oxígeno es frecuente, mientras que [el rojo, azul o violeta aparecen bajo condiciones distintas](https://www.swpc.noaa.gov/sites/default/files/images/u2/Aurora.pdf); una tabla de longitudes de onda debe leerse como referencia espectroscópica, no como una frontera rígida.
 
 ### Gases y colores que pueden destacar
 
@@ -77,7 +77,7 @@ Siguen la distribución de partículas y campos en la magnetosfera, que está or
 
 ### ¿Qué relación hay con el ciclo solar?
 
-La actividad solar presenta ciclos aproximados y episodios irregulares. Un máximo puede aumentar la probabilidad de tormentas geomagnéticas, pero no garantiza una aurora visible desde una ciudad concreta. La página de NASA sobre un evento G1 es un ejemplo fechado, no un pronóstico permanente.
+La actividad solar presenta ciclos aproximados y episodios irregulares. Un máximo puede aumentar la probabilidad de tormentas geomagnéticas, pero no garantiza una aurora visible desde una ciudad concreta. La página de NASA sobre un [evento G1 fechado](https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/) es un ejemplo observado, no un pronóstico permanente.
 
 ### ¿Existen auroras en otros planetas del sistema solar?
 

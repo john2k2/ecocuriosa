@@ -30,7 +30,7 @@ reviewedBy: "Equipo Editorial EcoCuriosa"
 
 ## 1. Fisiología de la Hipoxia en la Meseta Tibetana
 
-Vivir por encima de los 4.000 metros exige afrontar frío intenso, terreno inestable y menor disponibilidad de oxígeno. Los estudios genómicos han investigado variantes relacionadas con la vida en altitud, pero no respaldan convertir una sola característica anatómica o sanguínea en una explicación completa de su supervivencia.
+Vivir por encima de los 4.000 metros exige afrontar frío intenso, terreno inestable y menor disponibilidad de oxígeno. La [historia natural descrita por Snow Leopard Trust](https://snowleopard.org/snow-leopard-facts/behavior/) y los [estudios comparativos de hemoglobina](https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/) ayudan a separar adaptación observada de hipótesis fisiológica; no respaldan convertir una sola característica anatómica o sanguínea en una explicación completa de su supervivencia.
 
 Por eso, las comparaciones muy precisas sobre la superficie pulmonar, el número de glóbulos rojos o el rendimiento de salto deben acompañarse de una investigación primaria que las mida. En divulgación científica es más fiel explicar la adaptación como una combinación de anatomía, comportamiento, genética y hábitat.
 

@@ -34,7 +34,7 @@ featured: false
 
 ## 1. El Descubrimiento Biofísico: De los Pigmentos a los Cristales Fotónicos
 
-En 2015, un equipo de la Universidad de Ginebra describió una red de cristales de guanina en iridóforos superficiales del camaleón pantera. Ese trabajo no sustituyó todos los pigmentos por un único mecanismo: la piel combina estructuras reflectantes, cromatóforos y regulación nerviosa.
+En 2015, un equipo de la Universidad de Ginebra describió una [red de cristales de guanina](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/) en iridóforos superficiales del camaleón pantera. Ese trabajo no sustituyó todos los pigmentos por un único mecanismo: la piel combina estructuras reflectantes, cromatóforos y regulación nerviosa.
 
 Estos nanocristales actúan exactamente como un cristal fotónico artificial: estructuras periódicas a escala nanométrica que manipulan la propagación de los fotones. Cuando la luz blanca incide sobre la piel del camaleón, ciertas longitudes de onda sufren interferencia destructiva (se anulan), mientras que otras sufren interferencia constructiva (se reflejan con gran intensidad y pureza espectral).
 
@@ -44,7 +44,7 @@ Estos nanocristales actúan exactamente como un cristal fotónico artificial: es
 
 1. **Estado de reposo (estructura más compacta):** En los ejemplares estudiados, una red más compacta reflejaba longitudes de onda cortas. El color que vemos también depende de la epidermis, los pigmentos y el patrón de cada animal; no debe traducirse en un tono fijo de “camuflaje”.
 
-2. **Estado de excitación (expansión reticular):** Durante señales sociales observadas en machos, la separación de los cristales aumenta y desplaza la reflexión hacia longitudes de onda más largas. Las cifras nanométricas y el tiempo de cambio pertenecen al protocolo del estudio; no son un rango universal de la especie ni una respuesta idéntica en hembras o en otros camaleones.
+2. **Estado de excitación (expansión reticular):** Durante señales sociales observadas en machos, [la separación de los cristales aumenta y desplaza la reflexión hacia longitudes de onda más largas](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/). Las cifras nanométricas y el tiempo de cambio pertenecen al protocolo del estudio; no son un rango universal de la especie ni una respuesta idéntica en hembras o en otros camaleones.
 
 3. **La capa profunda:** El mismo trabajo describió una capa profunda de iridóforos con cristales mayores y menos ordenados. Puede contribuir a la gestión de la radiación, pero el porcentaje medido en esa muestra no equivale a una barrera térmica fija ni permite afirmar que evite por sí sola el sobrecalentamiento.
 

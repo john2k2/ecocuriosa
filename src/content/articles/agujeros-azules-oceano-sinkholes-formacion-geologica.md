@@ -48,13 +48,13 @@ featured: false
 
 La luz se atenúa en el agua profunda, por eso la boca de un agujero azul puede verse más oscura que el arrecife o la plataforma que lo rodea. Ese efecto óptico no permite deducir por sí solo su profundidad, edad o química.
 
-El modelo kárstico es compatible con la disolución de roca carbonatada, la exposición subaérea durante niveles marinos más bajos y la inundación posterior. Sin embargo, las fuentes de esta ficha describen sitios concretos y no autorizan a trasladar automáticamente una cronología del Pleistoceno a todos los agujeros azules. El registro sedimentario del Gran Agujero Azul y las mediciones de Taam Ja' son ejemplos de cómo se prueba cada caso.
+El modelo kárstico es compatible con la disolución de roca carbonatada, la exposición subaérea durante niveles marinos más bajos y la inundación posterior. Sin embargo, las fuentes de esta ficha describen sitios concretos y no autorizan a trasladar automáticamente una cronología del Pleistoceno a todos los agujeros azules. El [registro sedimentario del Gran Agujero Azul](https://doi.org/10.1002/dep2.70021) y las [mediciones de Taam Ja'](https://doi.org/10.3389/fmars.2024.1387235) son ejemplos de cómo se prueba cada caso.
 
 ---
 
 ## 2. Capas de agua y microbiología: medir antes de generalizar
 
-Las diferencias de salinidad y densidad pueden generar una zona de transición o haloclina, pero su profundidad cambia según la morfología, el intercambio con el mar y la lluvia. En Amberjack Hole, el estudio de USGS documentó estratificación, condiciones hipóxicas o anóxicas y linajes microbianos poco descritos; es evidencia valiosa, no una regla para todos los sitios.
+Las diferencias de salinidad y densidad pueden generar una zona de transición o haloclina, pero su profundidad cambia según la morfología, el intercambio con el mar y la lluvia. En Amberjack Hole, el [estudio de USGS](https://www.usgs.gov/publications/gulf-mexico-blue-hole-harbors-high-levels-novel-microbial-lineages) documentó estratificación, condiciones hipóxicas o anóxicas y linajes microbianos poco descritos; es evidencia valiosa, no una regla para todos los sitios.
 
 La comparación entre agujeros azules debe conservar cuatro datos: lugar exacto, profundidad de la muestra, método de medición y fecha. NOAA describe gradientes químicos, materia orgánica y posible interacción con agua subterránea en sitios del Golfo de México, mientras que el registro del Gran Agujero Azul responde preguntas sedimentarias distintas.
 
@@ -65,7 +65,7 @@ La comparación entre agujeros azules debe conservar cuatro datos: lugar exacto,
 | Amberjack Hole, Golfo de México | Estratificación y microbiología de muestras concretas | No representa todos los agujeros azules |
 | Green Banana Hole, Golfo de México | Gradientes y exploración oceanográfica del sitio | No prueba una conexión universal con acuíferos |
 | Gran Agujero Azul, Belice | El sedimento puede conservar señales ambientales que se analizan con núcleos | Una señal sedimentaria no equivale a una cronología global |
-| Taam Ja', Yucatán | El artículo primario reporta una medición de profundidad para este agujero | El récord es específico del sitio y del método empleado |
+| Taam Ja', Yucatán | El artículo primario [reporta una medición de profundidad para este agujero](https://doi.org/10.3389/fmars.2024.1387235) | El récord es específico del sitio y del método empleado |
 
 ---
 

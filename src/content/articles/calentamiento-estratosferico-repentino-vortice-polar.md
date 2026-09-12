@@ -32,7 +32,7 @@ featured: false
 
 ## 1. Dos capas que conviene no confundir
 
-El vórtice polar ártico es una banda de vientos del oeste que se forma en la estratosfera, aproximadamente entre 16 y 48 kilómetros sobre el polo durante el invierno. La corriente en chorro polar está más abajo, en la troposfera. NOAA advierte que no son el mismo fenómeno: el vórtice puede influir en el chorro, pero el tiempo diario de superficie responde a la interacción de muchos sistemas.
+El [vórtice polar ártico](https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex) es una banda de vientos del oeste que se forma en la estratosfera, aproximadamente entre 16 y 48 kilómetros sobre el polo durante el invierno. La corriente en chorro polar está más abajo, en la troposfera. NOAA advierte que no son el mismo fenómeno: el vórtice puede influir en el chorro, pero el tiempo diario de superficie responde a la interacción de muchos sistemas.
 
 Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cuando se debilita, se desplaza o se divide, el chorro puede volverse más ondulado y permitir entradas de aire polar en algunas latitudes medias. La respuesta no es igual en cada región.
 
@@ -42,7 +42,7 @@ Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cua
 
 1. **Ondas planetarias:** Ondas grandes de la troposfera pueden propagarse hacia la estratosfera y alterar el flujo del vórtice.
 
-2. **Calentamiento y cambio de circulación:** La temperatura sube con rapidez y los vientos del vórtice pueden frenarse, invertirse o redistribuirse. La revisión especializada describe distintas “formas” del evento; no todos tienen la misma estructura.
+2. **Calentamiento y cambio de circulación:** La temperatura sube con rapidez y los vientos del vórtice pueden frenarse, invertirse o redistribuirse. La [revisión especializada describe distintas “formas” del evento](https://doi.org/10.1029/2020RG000708); no todos tienen la misma estructura.
 
 3. **Posible señal descendente:** En las semanas posteriores, algunas perturbaciones se asocian con un chorro más ondulado y con aire frío en ciertas latitudes. NOAA recalca que también hay olas de frío sin un SSW y SSW con poco efecto en superficie.
 
@@ -71,7 +71,7 @@ Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cua
 
 ### ¿Con qué frecuencia ocurre?
 
-NOAA resume que las perturbaciones del vórtice ártico ocurren, en promedio, aproximadamente cada dos años. La frecuencia exacta depende de la definición usada y de la serie observacional; no conviene convertir ese promedio en un calendario.
+NOAA resume que las perturbaciones del vórtice ártico ocurren, en promedio, aproximadamente cada dos años. La frecuencia exacta depende de la definición usada y de la serie observacional; no conviene convertir ese promedio en un calendario. La [revisión especializada](https://doi.org/10.1029/2020RG000708) explica por qué la definición y la dinámica importan.
 
 ### ¿Por qué se comporta distinto en la Antártida?
 

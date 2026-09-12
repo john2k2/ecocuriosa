@@ -40,9 +40,9 @@ featured: false
 
 ## 1. El sistema hidrotermal de Yellowstone
 
-El NPS describe el sistema como una combinación de calor, agua y una red natural de “fontanería” subterránea. El agua de lluvia y nieve puede infiltrarse, calentarse y circular por fracturas; la roca y los depósitos minerales cambian la permeabilidad y el recorrido. Yellowstone reúne más de 10.000 manifestaciones hidrotermales y más de 500 géiseres, pero esa cifra describe el parque y no todos los sistemas del planeta.
+El NPS describe el sistema como una combinación de calor, agua y una red natural de [“fontanería” subterránea](https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm). El agua de lluvia y nieve puede infiltrarse, calentarse y circular por fracturas; la roca y los depósitos minerales cambian la permeabilidad y el recorrido. Yellowstone reúne más de 10.000 manifestaciones hidrotermales y más de 500 géiseres, pero esa cifra describe el parque y no todos los sistemas del planeta.
 
-La presión de la columna de agua modifica la temperatura de ebullición. Cuando aparecen burbujas y el agua asciende por un conducto estrecho, la presión disminuye y parte del líquido puede transformarse en vapor. La secuencia es una explicación física del mecanismo, no un cronómetro exacto para cada erupción.
+La presión de la columna de agua modifica la temperatura de ebullición. Cuando aparecen burbujas y el agua asciende por un conducto estrecho, la presión disminuye y parte del líquido puede transformarse en vapor. La [descripción del NPS sobre cómo funcionan los géiseres](https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm) ayuda a situar la secuencia; no es un cronómetro exacto para cada erupción.
 
 ---
 

@@ -36,7 +36,7 @@ featured: false
 
 Para una planta anual o bienal en climas templados, el momento de la floración es la decisión más crítica de su ciclo de vida: si florece prematuramente durante una cálida semana soleada de pleno otoño o invierno, una helada posterior destruirá sus órganos reproductivos florales antes de que maduren las semillas o aparezcan los insectos polinizadores. Si se retrasa demasiado en verano, la sequía estival marchitará las plántulas.
 
-En plantas modelo y algunos cultivos, la floración integra señales de temperatura, fotoperiodo y desarrollo. La contribución relativa de cada señal cambia según la especie; *Arabidopsis* es el sistema mejor descrito para el circuito *FLC–FT*.
+En plantas modelo y algunos cultivos, la floración integra señales de temperatura, fotoperiodo y desarrollo. La contribución relativa de cada señal cambia según la especie; *Arabidopsis* es el sistema mejor descrito para el circuito *FLC–FT*, descrito en la [literatura sobre vernalización](https://doi.org/10.1038/ng.3712).
 
 ---
 
@@ -44,7 +44,7 @@ En plantas modelo y algunos cultivos, la floración integra señales de temperat
 
 1. **El Gen FLC como Candado Antifloral Activo:** Durante el otoño y antes de que comiencen las heladas, el gen *FLC* se expresa a niveles muy altos en el meristemo apical de la planta. La proteína FLC actúa como un potente factor de transcripción represor que se une al ADN e inhibe a los genes promotores de la floración como el florígeno *FT* (*Flowering Locus T*) y *SOC1*.
 
-2. **Acumulación de frío y complejo Polycomb (PRC2):** En *Arabidopsis*, el frío reorganiza transcritos como *COOLAIR* y favorece el reclutamiento de PRC2 hacia *FLC*. La temperatura y el número de semanas dependen del genotipo y del protocolo experimental.
+2. **Acumulación de frío y complejo Polycomb (PRC2):** En *Arabidopsis*, el frío reorganiza transcritos como *COOLAIR* y favorece el reclutamiento de PRC2 hacia *FLC*, como resume la [revisión de memoria epigenética](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/). La temperatura y el número de semanas dependen del genotipo y del protocolo experimental.
 
 3. **Silenciamiento por H3K27me3:** PRC2 deposita la marca represiva H3K27me3 en *FLC*. Esa marca ayuda a mantener el gen apagado durante el desarrollo posterior al frío, pero “permanente” sería excesivo: el estado epigenético se regula y puede reiniciarse en la línea germinal.
 
