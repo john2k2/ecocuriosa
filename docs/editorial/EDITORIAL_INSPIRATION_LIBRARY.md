@@ -37,6 +37,8 @@ El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOUR
 | Creative Commons — guía para periodistas | Atribución, enlace a licencia y registro de procedencia | Guía de la organización que mantiene las licencias CC | https://creativecommons.org/wp-content/uploads/2023/05/AJournalistsGuideToCreativeCommons2023_1.0.pdf |
 | Creative Commons — deed CC BY 4.0 | Condiciones concretas de atribución, enlace y cambios | Texto legal legible; comprobar siempre la licencia del activo real | https://creativecommons.org/licenses/by/4.0/ |
 | Cloudflare Web Analytics | Métricas de usuarios reales y privacidad de la medición | Documentación del proveedor; útil para interpretar LCP, INP y CLS sin confundir laboratorio con RUM | https://developers.cloudflare.com/web-analytics/about/ |
+| Cloudflare Pages — `_headers` | Cómo aplicar cabeceras personalizadas a respuestas estáticas | Permite comprobar precedencia y límites antes de cambiar seguridad o caché | https://developers.cloudflare.com/pages/configuration/headers/ |
+| Cloudflare Cache-Control | Diferencia entre caché de navegador (`max-age`) y caché de borde (`s-maxage`) | Ayuda a mejorar entrega sin convertir HTML con consentimiento o anuncios en una caché indiscriminada | https://developers.cloudflare.com/cache/concepts/cache-control/ |
 
 ## Políticas que deben acompañar cada brief
 
@@ -242,7 +244,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 314 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 316 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 

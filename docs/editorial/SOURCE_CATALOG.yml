@@ -130,6 +130,18 @@ entries:
     evidenceType: documentation
     url: https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/
     use: LCP, INP and CLS definitions, percentiles and filters
+  - id: cloudflare-pages-headers
+    authority: Cloudflare Pages
+    domain: performance-security
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/pages/configuration/headers/
+    use: _headers precedence, custom security headers and static response caching
+  - id: cloudflare-cache-control
+    authority: Cloudflare
+    domain: performance
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/cache/concepts/cache-control/
+    use: public caching, max-age, s-maxage and separation of browser and edge TTL
   - id: noaa-bioluminescence
     authority: NOAA Ocean Exploration
     domain: marine-biology
