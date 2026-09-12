@@ -31,7 +31,7 @@ incluidas cifras, fechas, récords, causalidad, salud, conservación y conducta.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | C1 |  |  |  |  |  |  | pending |
 
-Estados permitidos: `verified`, `matized`, `removed`, `pending`. Una fuente
+Estados permitidos: `verified`, `corrected`, `removed`, `pending`. Una fuente
 puede respaldar una frase solo si el alcance de la fuente coincide con la
 frase. Un DOI, una landing page o una entrada del catálogo no prueba por sí
 solo que la afirmación haya sido comprobada.
