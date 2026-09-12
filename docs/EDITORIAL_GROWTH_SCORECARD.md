@@ -42,7 +42,7 @@ La lectura autenticada más reciente conserva la misma señal (actualizada hace 
 - Registrar `reviewedDate` y `reviewedBy` únicamente después de la comprobación real de texto, fuentes y activo visual.
 - Usar la [ficha de revisión editorial](editorial/ARTICLE_REVIEW_TEMPLATE.md) para conservar la relación afirmación → fuente y dejar explícitos los límites antes de aprobar.
 
-**Salida:** 8 artículos revisados de verdad, auditoría local sin imágenes/fuentes faltantes y una cola que conserva pendientes explícitos.
+**Salida:** 8 artículos revisados de verdad, auditoría local sin imágenes/fuentes faltantes, 100% de fuentes trazables en el HTML y en el cuerpo, y una cola que conserva pendientes explícitos.
 
 ### Días 15–21 — autoridad y recorrido
 
