@@ -92,7 +92,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 ## Quick wins de esta semana
 
-1. Completar el perfil de pagos de AdSense con datos verdaderos de Argentina y conservar la información fiscal/bancaria fuera del repositorio.
+1. Completar el perfil de pagos de AdSense solo con un nombre, país, domicilio y datos fiscales verdaderos que puedas demostrar y donde puedas recibir el PIN; no elegir Argentina únicamente por nacionalidad ni inventar datos, y conservar la información fiscal/bancaria fuera del repositorio.
 2. Confirmar la CMP de Google y las URLs de privacidad/cookies dentro de AdSense; probar aceptar, rechazar y gestionar opciones.
 3. Conectar Search Console y Cloudflare Web Analytics y guardar solo agregados mensuales.
 4. Revisar los primeros 8 artículos de la cola y corregir cualquier cifra, promesa médica, conservación o récord sin respaldo.
