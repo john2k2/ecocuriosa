@@ -13,6 +13,7 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 - [Triage de afirmaciones 2026-09-12](./editorial/CLAIM_TRIAGE_2026-09-12.md)
 - [Plantilla de revisión semanal](./editorial/WEEKLY_GROWTH_REVIEW_TEMPLATE.md)
 - [Hoja de ruta editorial y de crecimiento](./EDITORIAL_GROWTH_ROADMAP.md)
+- [Scorecard de crecimiento y monetización](./EDITORIAL_GROWTH_SCORECARD.md)
 
 ## Cadencia propuesta
 
