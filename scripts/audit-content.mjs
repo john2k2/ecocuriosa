@@ -17,10 +17,17 @@ const insufficientSources = [];
 const editorialRiskFlags = [];
 const sharedConclusion = 'El análisis científico de este fenómeno evidencia la importancia del método empírico';
 const highRiskPatterns = [
-  { label: 'promesa de salud', pattern: /\b(cura|curan|curar|regenera(?:ción|r)?|repara(?:r|ción)?|terapia|tratamiento)\b/iu },
+  // Warn about claims of treatment or healing, not about an article merely
+  // describing biological regeneration or DNA repair as a research topic.
+  { label: 'promesa de salud', pattern: /\b(cura(?:n|r)?|trata(?:miento|r)?|terapia|sanaci(?:ón|ón)|medicinal|clínic[oa])\b/iu },
   { label: 'absoluto editorial', pattern: /\b(siempre|nunca|únic[oa]|definitiv[oa]|sin duda|demuestra que)\b/iu },
   { label: 'autoridad o récord absoluto', pattern: /\b(el|la) (más|mayor) [^.!?\n]{0,60}\b(del mundo|de la Tierra|que existe)\b/iu },
 ];
+
+// A sentence that explicitly states a limit is useful editorial hygiene, not
+// evidence of an unqualified claim. Keep the text available to the editor but
+// avoid turning every disclaimer into a risk flag.
+const cautionaryLanguage = /(?:\bno\b[^.!?\n]{0,80}\b(?:equivale|permite|demuestra|prueba|es|hay|constituye|constituyen|ofrece|cura|trata|tratamiento|terapia|medicinal|clínic[oa])\b|\bsin\s+(?:una|un|evidencia)\b|\bdepende(?:n)?\b|\bvaría\b|\bvariable\b|\bcondicional\b|\blímite\b|\blimita\b|\bhipótesis\b|\bcautela\b)/iu;
 
 for (const filename of filenames) {
   const article = await readFile(path.join(articlesDirectory, filename), 'utf8');
@@ -60,6 +67,13 @@ for (const filename of filenames) {
     const absoluteIndex = bodyOffset + match.index;
     const line = article.slice(0, absoluteIndex).split('\n').length;
     const sourceLine = article.split('\n')[line - 1]?.trim() ?? '';
+    const sentenceStart = Math.max(0, match.index - 180);
+    const sentenceEnd = (() => {
+      const end = body.slice(match.index).search(/[.!?\n]/);
+      return end === -1 ? body.length : match.index + end + 1;
+    })();
+    const sentence = body.slice(sentenceStart, sentenceEnd);
+    if (cautionaryLanguage.test(sentence)) return [];
     return [{ label, line, excerpt: sourceLine.slice(0, 180) }];
   });
   if (flags.length) editorialRiskFlags.push({ filename, flags });

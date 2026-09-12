@@ -16,9 +16,18 @@ sources:
   - title: "What is coral bleaching?"
     publisher: "NOAA Ocean Service"
     url: "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+    evidenceType: "institutional"
+    scope: "Definición de blanqueamiento, estrés y posibilidades de recuperación"
   - title: "Coral bleaching from a single cell perspective"
     publisher: "ISME Journal / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/"
+    evidenceType: "review"
+    scope: "Mecanismos celulares de la simbiosis y del estrés por blanqueamiento"
+  - title: "Current Global Bleaching: Status Update & Data Submission"
+    publisher: "NOAA Coral Reef Watch"
+    url: "https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php"
+    evidenceType: "institutional"
+    scope: "Actualización del 2 de junio de 2026 sobre el cuarto evento global y el estrés térmico acumulado"
 featured: false
 ---
 
@@ -26,32 +35,30 @@ featured: false
 
 ---
 
-## 1. El Motor Bioquímico de la Simbiosis Coralina
+## 1. El intercambio entre pólipo y simbionte
 
-Aunque los arrecifes de coral cubren menos del 0,1% de la superficie de los fondos oceánicos del planeta, albergan a más del 25% de todas las especies marinas descritas, funcionando como las selvas tropicales del mar. Esta productividad biológica descomunal en aguas tropicales cálidas —que son paradójicamente oligotróficas (pobres en nutrientes disueltos como nitrógeno y fósforo)— solo es posible gracias al reciclaje interno perfecto entre el pólipo coralino y sus zooxantelas.
+Los arrecifes ocupan una fracción muy pequeña del océano, pero ofrecen refugio y alimento a una parte desproporcionada de la vida marina. NOAA resume la cifra como menos del 0,1 % del área oceánica y alrededor del 25 % de las especies marinas que dependen de ellos; es una aproximación divulgativa, no un censo de cada especie.
 
-Dentro de las células de la gastrodermis del pólipo residen millones de dinoflagelados unicelulares a densidades de más de un millón por centímetro cuadrado. El pólipo proporciona a las microalgas un refugio seguro con acceso a luz solar y desechos metabólicos inorgánicos esenciales ($CO_2$, amonio y fosfato); a cambio, las zooxantelas operan como microfábricas solares que transfieren glicerol, glucosa y lípidos de alta energía que nutren al animal.
+Muchos corales constructores viven asociados con dinoflagelados de la familia Symbiodiniaceae. El pólipo ofrece un entorno protegido y los simbiontes aportan productos de la fotosíntesis. La proporción y el intercambio cambian según la especie, la colonia, la luz y la temperatura; por eso “las algas alimentan al coral” es un resumen útil, no una regla idéntica para todos los arrecifes.
 
 ---
 
-## 2. La Cascada Fotoquímica del Blanqueamiento Térmico
+## 2. Qué ocurre durante el blanqueamiento
 
-1. **Desacoplamiento del Fotosistema II por Calor:** Cuando la temperatura superficial del mar supera el umbral estacional durante varias semanas consecutivas, la energía lumínica absorbida por la clorofila de las zooxantelas sobrepasa la capacidad de procesamiento de la cadena de transporte de electrones en el fotosistema II, dañando la proteína clave D1.
+1. **Estrés ambiental:** Un cambio de temperatura, luz o nutrientes puede alterar la relación entre el pólipo y sus simbiontes. El calor anómalo sostenido es el desencadenante más conocido, pero no es el único.
 
-2. **Toxicidad por Especies Reactivas de Oxígeno (ROS):** En lugar de fijar carbono útil, el fotosistema averiado genera radicales libres altamente citotóxicos como el anión superóxido ($O_2^{\bullet-}$) y peróxido de hidrógeno ($H_2O_2$). Estas moléculas tóxicas dañan las membranas y mitocondrias del pólipo hospedador, desencadenando una respuesta de defensa celular autoinmune.
+2. **Pérdida de color:** Bajo estrés, el coral puede expulsar simbiontes o perder pigmentos. El esqueleto claro se vuelve visible y la colonia parece blanca.
 
-3. **Expulsión Celular y Exposición del Esqueleto Calcáreo:** Para no morir envenenado por el estrés oxidativo, el pólipo expulsa a las microalgas fotosintéticas mediante exocitosis o autofagia. Al perder a las zooxantelas (responsables de sus tonos marrones, dorados y verdes), los tejidos transparentes del coral dejan al descubierto su esqueleto blanco brillante de carbonato de calcio puro.
-
-4. **Hambruna Metabólica o Recuperación:** El coral blanqueado no está muerto de inmediato, pero entra en un estado crítico de inanición biológica. Si la anomalía térmica remite en un plazo de pocas semanas, el coral puede reabsorber microalgas resistentes del agua y sobrevivir; si el calor persiste, sucumbe a infecciones bacterianas y es asfixiado por macroalgas filamentosas oportunistas.
+3. **Mayor vulnerabilidad:** Un coral blanqueado no está muerto de inmediato. Ha perdido una fuente importante de energía y queda más expuesto; si el estrés continúa, aumenta el riesgo de mortalidad. Si disminuye, algunas colonias pueden recuperar sus simbiontes. La respuesta depende de la especie, la duración, la intensidad y las condiciones locales.
 
 ### Parámetros Fisicoquímicos del Ecosistema Coralino
 
-| Parámetro Ambiental | Rango Óptimo de Calcificación | Umbral Crítico de Blanqueamiento |
-| :--- | :--- | :--- |
-| Temperatura del agua marina | 23 °C a 29 °C | > 30,5 °C sostenida por 4-8 semanas (DHW > 4) |
-| pH del agua de mar | 8,1 a 8,2 unidades | < 7,8 (acidificación y disolución de aragonito) |
-| Aporte energético de zooxantelas | 70% a 95% de calorías del coral | 0% tras la expulsión masiva |
-| Tasa de calcificación de aragonito | 1 a 10 cm lineales / año (ramificados) | Cese completo y necrosis tisular |
+| Proceso | Lo que sí permite afirmar la evidencia |
+| :--- | :--- |
+| Blanqueamiento | Pérdida visible de color asociada a estrés y pérdida de simbiontes o pigmentos |
+| Calor acumulado | NOAA Coral Reef Watch usa productos de temperatura superficial y grados de calentamiento (DHW) para seguir el riesgo; el umbral depende del contexto |
+| Recuperación | Posible si el estrés no es letal y las condiciones mejoran; no está garantizada |
+| Calcificación | Cambia con especie, temperatura, química, luz y estado de la colonia; no hay una tasa única para todos los arrecifes |
 
 ---
 
@@ -69,11 +76,11 @@ Dentro de las células de la gastrodermis del pólipo residen millones de dinofl
 
 ### ¿Por qué algunos corales se vuelven de colores fosforescentes antes de blanquearse?
 
-Como mecanismo de emergencia, algunos corales sintetizan pigmentos fluorescentes de color rosa, azul o violeta brillante que actúan como una crema solar reflectante para proteger a los tejidos traslúcidos de la radiación ultravioleta cuando pierden sus algas.
+Como respuesta al exceso de luz y al estrés, algunas colonias producen pigmentos fluorescentes que modifican la luz disponible para sus tejidos. La función exacta y el beneficio dependen de la especie y del contexto; no es una “crema solar” universal.
 
-### ¿Qué porcentaje de arrecifes globales ha sufrido blanqueamiento masivo?
+### ¿Qué ocurrió con el cuarto evento global?
 
-La NOAA ha registrado cuatro eventos globales de blanqueamiento masivo en la historia moderna (1998, 2010, 2014-2017 y 2023-2024), afectando a más del 70% de las áreas coralinas del planeta, incluyendo la Gran Barrera de Coral y el Caribe.
+La actualización del 2 de junio de 2026 de [NOAA Coral Reef Watch](https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php) indica que el cuarto evento global, confirmado en abril de 2024, probablemente terminó a mediados de 2025. Entre el 1 de enero de 2023 y el 30 de septiembre de 2025, el estrés térmico de nivel de blanqueamiento afectó aproximadamente al 84,4 % del área mundial de arrecifes; la cifra describe calor detectado por satélite y observaciones acumuladas, no un porcentaje de colonias muertas.
 
 ### ¿Pueden los corales comer materia orgánica sin las algas?
 
@@ -83,7 +90,7 @@ Sí. Por la noche extienden sus tentáculos cargados de nematocistos (células u
 
 ## Conclusión y Fuentes Documentales
 
-El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene muchos arrecifes. No todos los corales responden igual ni todo evento termina en muerte, pero reducir el estrés térmico y local aumenta las posibilidades de recuperación.
+El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene muchos arrecifes. La mejor lectura combina mecanismos celulares, observación de colonias y series satelitales fechadas: no todos los corales responden igual y el calor detectado no equivale automáticamente a mortalidad.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature (Hughes et al., Spatial and temporal patterns of mass bleaching)*

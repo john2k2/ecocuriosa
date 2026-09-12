@@ -16,7 +16,14 @@ interface Props {
   imageCreator?: string;
   imageLicensePage?: string;
   tags?: string[];
-  sources?: { title: string; url: string; publisher?: string; accessedDate?: Date }[];
+  sources?: {
+    title: string;
+    url: string;
+    publisher?: string;
+    accessedDate?: Date;
+    evidenceType?: 'primary' | 'review' | 'dataset' | 'institutional' | 'secondary';
+    scope?: string;
+  }[];
   reviewedDate?: Date;
   reviewedBy?: string;
   headings?: { depth: number; slug: string; text: string }[];
@@ -53,6 +60,13 @@ const categoryNames: Record<string, string> = {
 const categoryLabel = categoryNames[category] || category;
 const categoryUrl = `/${category}`;
 const authorUrl = author === 'Equipo Editorial EcoCuriosa' ? '/sobre-nosotros/' : undefined;
+const evidenceTypeLabels: Record<string, string> = {
+  primary: 'estudio primario',
+  review: 'revisión',
+  dataset: 'conjunto de datos',
+  institutional: 'fuente institucional',
+  secondary: 'fuente secundaria',
+};
 
 const formattedDate = new Intl.DateTimeFormat('es-ES', {
   timeZone: 'UTC',
@@ -191,6 +205,17 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
                 {source.title}
               </a>
               {source.publisher && <span class="text-[#5a605c]"> · {source.publisher}</span>}
+              {(source.evidenceType || source.scope || source.accessedDate) && (
+                <span class="block mt-1 text-xs text-[#738a7d]">
+                  {source.evidenceType && <span>Tipo: {evidenceTypeLabels[source.evidenceType] || source.evidenceType}</span>}
+                  {source.scope && <span>{source.evidenceType ? ' · ' : ''}{source.scope}</span>}
+                  {source.accessedDate && (
+                    <time datetime={source.accessedDate.toISOString()}>
+                      {(source.evidenceType || source.scope) ? ' · ' : ''}Consultada el {new Intl.DateTimeFormat('es-ES', { timeZone: 'UTC', year: 'numeric', month: 'long', day: 'numeric' }).format(source.accessedDate)}
+                    </time>
+                  )}
+                </span>
+              )}
             </li>
           ))}
         </ul>

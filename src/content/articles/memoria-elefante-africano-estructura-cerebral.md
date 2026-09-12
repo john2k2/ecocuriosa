@@ -16,40 +16,52 @@ sources:
   - title: "Matriarchs as repositories of social knowledge in African elephants"
     publisher: "Science / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/11313492/"
+    evidenceType: "primary"
+    scope: "Experimentos de reproducción de llamadas para evaluar el conocimiento social de matriarcas"
   - title: "Extreme expansion of the olfactory receptor gene repertoire in African elephants"
     publisher: "Genome Research / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4158756/"
+    evidenceType: "primary"
+    scope: "Comparación genómica del repertorio de receptores olfativos"
+  - title: "The elephant brain in numbers"
+    publisher: "Frontiers in Neuroanatomy / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/"
+    evidenceType: "primary"
+    scope: "Estimación de neuronas totales y distribución cerebelosa en un cerebro de elefante africano"
+  - title: "Aging: What We Can Learn From Elephants"
+    publisher: "Frontiers in Aging Neuroscience / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/"
+    evidenceType: "review"
+    scope: "Síntesis sobre vínculos sociales, memoria y conocimiento ecológico en elefantes"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** La prodigiosa memoria del elefante africano (*Loxodonta africana*) es una realidad científica respaldada por su neuroanatomía: con un encéfalo de más de 5 kg y un córtex temporal e hipocampo hipertrofiados, acumulan mapas geoespaciales de miles de kilómetros cuadrados, memorizan rutas hacia fuentes de agua subterránea durante sequías que ocurren cada 30 años y reconocen los olores y vocalizaciones infrasónicas de cientos de individuos durante toda su vida.
+> **Respuesta rápida:** Los elefantes africanos muestran memoria social y ecológica de largo plazo. La evidencia combina experimentos con llamadas y estudios del cerebro, pero no convierte cada relato sobre “memoria infinita” en un hecho: las capacidades dependen del grupo, el ambiente, la experiencia y el método de estudio.
 
 ---
 
-## 1. Neuroanatomía del Proboscídeo: Hipocampo Colosal y Neuronas Gigantes
+## 1. Qué sabemos del cerebro
 
-El cerebro del elefante africano adulto es el más voluminoso entre los animales terrestres, con una masa que oscila entre los 4,5 y 5,5 kg y un total aproximado de 257.000 millones de neuronas (tres veces más que el encéfalo humano). Si bien cerca del 97% de estas neuronas se concentran en el cerebelo para controlar la precisión motora de su trompa (un órgano hidrostático muscular con más de 40.000 fascículos independientes), su corteza cerebral y en particular el sistema límbico exhiben un desarrollo excepcional.
+Un estudio celular del cerebro de un elefante africano estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución refleja, entre otras cosas, las exigencias sensoriomotoras de un cuerpo y una trompa enormes.
 
-El hipocampo del elefante —la estructura responsable de la consolidación de la memoria a largo plazo y la navegación espacial— posee un volumen relativo y una complejidad celular que supera ampliamente a la de los primates superiores. Además, su corteza frontal contiene una abundancia notable de neuronas en huso (neuronas de Von Economo), células cerebrales asociadas al procesamiento empático, la toma de decisiones complejas y la autoconciencia social.
+Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un contexto plausible para estudiar memoria y conducta, pero no permite deducir por sí solo cuántos años recuerda una ruta un elefante concreto ni qué significa una respuesta emocional.
 
 ---
 
-## 2. Transmisión Matriarcal y Navegación Hidrogeológica
+## 2. La experiencia de las matriarcas
 
-1. **Almacén Geoespacial Multidecenal:** En ecosistemas hiperáridos como el desierto de Namibia o el parque Amboseli, las sequías extremas pueden distanciarse por tres o cuatro décadas. Los estudios demuestran que las manadas lideradas por matriarcas de más de 55 años tienen tasas de supervivencia un 40% más altas durante las crisis climáticas, porque las hembras ancianas recuerdan con precisión manantiales recónditos que visitaron una sola vez en su juventud.
+Los experimentos de McComb y colaboradores mostraron que las matriarcas mayores podían aportar conocimiento social útil: respondían de forma distinta a llamadas familiares y desconocidas. Revisiones posteriores describen a las hembras de más edad como repositorios de información social y ecológica para la familia. Eso respalda la importancia de la experiencia, pero no establece una cifra universal de supervivencia, una distancia fija de escucha o un mapa mental idéntico en todas las manadas.
 
-2. **Red de Reconocimiento Social Acústico y Olfativo:** Un elefante es capaz de discriminar las llamadas de contacto de al menos 100 congéneres diferentes emitidas mediante infrasonidos (14 a 20 Hz) a más de 8 km de distancia. Su lóbulo olfativo contiene más de 2.000 genes funcionales de receptores olfativos (el doble que los perros y cinco veces más que los humanos), memorizando firmas químicas individuales durante décadas.
-
-3. **Procesamiento Emocional del Duelo:** La memoria episódica de los elefantes se manifiesta de forma conmovedora ante los restos óseos de congéneres fallecidos. Utilizan la trompa y las almohadillas para examinar cráneos y colmillos, deteniéndose en silencio durante largos períodos, distinguiendo con exactitud los restos de familiares directos frente a osamentas de cebras o antílopes.
+El repertorio de receptores olfativos también es amplio. El estudio genómico citado en esta ficha sirve para hablar de potencial sensorial, no para afirmar que cada elefante recuerde cientos de firmas químicas durante toda su vida.
 
 ### Comparativa Neurobiológica: Elefante Africano vs. Ser Humano
 
-| Parámetro Neurológico | Elefante Africano (Loxodonta africana) | Ser Humano (Homo sapiens) |
+| Medida publicada | Elefante africano | Referencia humana del estudio |
 | :--- | :--- | :--- |
-| Masa cerebral media | 4.800 a 5.400 gramos | 1.300 a 1.400 gramos |
-| Neuronas totales estimadas | ~ 257.000 millones | ~ 86.000 millones |
-| Genes de receptores olfativos (OR) | ~ 2.000 genes activos | ~ 400 genes activos |
-| Retención de mapas espaciales | > 35 a 45 años de memoria activa | Variable con el envejecimiento |
+| Neuronas totales estimadas | ~257.000 millones | ~86.000 millones en el promedio comparado |
+| Neuronas en el cerebelo | ~97,5 % del total | No comparable directamente |
+| Neuronas de la corteza cerebral | ~5.600 millones | La corteza humana tiene más en la comparación citada |
+| Interpretación | Distribución sensoriomotora y memoria social estudiable | No permite inferir “inteligencia” solo por conteo |
 
 ---
 
@@ -58,30 +70,30 @@ El hipocampo del elefante —la estructura responsable de la consolidación de l
 * **Mito 1:** Se dice que los elefantes tienen cementerios secretos donde van a morir conscientemente.
   * **Realidad científica contrastada:** Mito romántico sin base real. Los elefantes ancianos con los molares desgastados se congregan instintivamente en zonas pantanosas de vegetación blanda y agua fácil de ingerir, muriendo allí de vejez o inanición natural con el paso del tiempo.
 
-* **Mito 2:** El mito de que los elefantes le temen a los ratones por miedo a que se les metan en la trompa.
-  * **Realidad científica contrastada:** Absoluta ficción. Experimentos de etología muestran que los elefantes ignoran a los ratones. Lo único que desencadena sobresalto son movimientos rápidos repentinos en el suelo provocados por serpientes venenosas o abejas, de las cuales temen picaduras en la punta de la trompa.
+* **Mito 2:** Se dice que un número elevado de neuronas demuestra por sí solo una inteligencia superior.
+  * **Realidad científica contrastada:** El estudio celular muestra una distribución muy distinta a la humana: casi todas las neuronas están en el cerebelo. El conteo es una pieza de evidencia, no una escala universal de inteligencia.
 
 ---
 
 ## 4. Preguntas Frecuentes (FAQ)
 
-### ¿Qué ocurre con una manada cuando la matriarca es cazada por cazadores furtivos?
+### ¿La memoria de una matriarca beneficia a la manada?
 
-La pérdida de una matriarca representa una catástrofe cultural: la manada pierde décadas de información ecológica crítica sobre rutas de migración segura y puntos de agua, aumentando exponencialmente la mortalidad de las crías en la siguiente temporada seca.
+La evidencia indica que la edad y la experiencia pueden aportar conocimiento social y ecológico. El tamaño del beneficio depende del entorno, la estructura familiar y la amenaza estudiada; no debe expresarse como un porcentaje fijo para todas las poblaciones.
 
-### ¿Pueden los elefantes reconocerse en un espejo?
+### ¿Tener 257.000 millones de neuronas hace al elefante “más inteligente” que una persona?
 
-Sí. Han superado con éxito la clásica prueba de la marca en el espejo (Mirror Self-Recognition Test), tocándose con la trompa una marca blanca pintada en su frente que solo pueden ver reflejada, demostrando autoconciencia avanzada compartida únicamente con grandes simios, delfines y urracas.
+No se puede concluir eso a partir de un conteo total. La mayoría de las neuronas del ejemplar estudiado estaba en el cerebelo, mientras que la corteza humana tiene una distribución diferente. La conducta debe evaluarse con experimentos y observaciones independientes.
 
-### ¿Cómo recuerdan los elefantes las ondas sísmicas del terreno?
+### ¿Qué aporta el estudio de receptores olfativos?
 
-Poseen corpúsculos de Pacini ultra-densos en las almohadillas de las patas y en la punta de la trompa que detectan vibraciones acústicas terrestres generadas por manadas lejanas o tormentas a más de 30 km.
+Muestra un repertorio genético amplio relacionado con el olfato. Es una base para investigar la percepción química; no demuestra por sí sola qué recuerda un individuo ni durante cuánto tiempo.
 
 ---
 
 ## Conclusión y Fuentes Documentales
 
-Las matriarcas mayores pueden aportar conocimiento social relevante a sus grupos, como muestran experimentos de reproducción de sonidos. Esa evidencia es más interesante que el mito de una memoria infinita y refuerza el valor de proteger estructuras sociales de larga duración.
+Las matriarcas mayores pueden aportar conocimiento social relevante a sus grupos, y la neuroanatomía ofrece un contexto para estudiarlo. La conclusión responsable no es una memoria infinita, sino una combinación de experiencia, aprendizaje y organización cerebral que debe medirse en cada población y contexto.
 
 ### Referencias y Literatura Científica Consultada
 * *Frontiers in Neuroanatomy (Herculano-Houzel et al.)*

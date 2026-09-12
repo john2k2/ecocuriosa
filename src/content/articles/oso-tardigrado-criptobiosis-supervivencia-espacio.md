@@ -16,9 +16,13 @@ sources:
   - title: "Tardigrades survive exposure to space in low Earth orbit"
     publisher: "Current Biology"
     url: "https://doi.org/10.1016/j.cub.2008.06.048"
+    evidenceType: "primary"
+    scope: "Dos especies desecadas expuestas durante 10 días en órbita baja a vacío y rangos de radiación UV"
   - title: "The tardigrade damage suppressor protein binds to nucleosomes"
     publisher: "eLife"
     url: "https://doi.org/10.7554/eLife.47682"
+    evidenceType: "primary"
+    scope: "Proteína Dsup de Ramazzottius varieornatus estudiada en células y ensayos bioquímicos"
 featured: false
 ---
 
@@ -26,38 +30,37 @@ featured: false
 
 ---
 
-## 1. El Estado de 'Ton': Anhidrobiosis y Vitrificación Celular
+## 1. El estado tun y la anhidrobiosis
 
-Los tardígrados son invertebrados microscópicos bilaterales (de 0,1 a 1,5 mm de longitud) que habitan en casi cualquier bioma de la Tierra, desde musgos húmedos de bosques templados hasta fosas marinas abisales y glaciares antárticos. En su estado hidratado y activo, son animales relativamente frágiles con una vida media de pocos meses. Su legendaria invulnerabilidad solo se activa cuando el agua de su entorno se evapora por completo.
+Los tardígrados son animales microscópicos que pueden entrar en criptobiosis cuando falta agua. En la anhidrobiosis se contraen y forman el estado **tun**, con una actividad metabólica extremadamente reducida. No todas las especies responden igual ni todos los ejemplares alcanzan el mismo nivel de tolerancia: la hidratación previa, el ritmo de secado y el tiempo en estado tun importan.
 
-En respuesta a la desecación, el tardígrado repliega sus ocho extremidades hacia el interior, expulsa casi la totalidad del agua intracelular y se compacta en una estructura cilíndrica arrugada llamada 'ton' (barrilete). En este estado de anhidrobiosis, la actividad metabólica celular se detiene a niveles indetectables con los instrumentos científicos actuales (un estado limítrofe entre la vida y la química inorgánica pura denominado criptobiosis).
+La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado activo en agua no debe describirse como si tuviera la misma tolerancia que un ejemplar desecado en laboratorio.
 
 ---
 
-## 2. La Proteína Dsup y el Escudo Molecular contra la Radiación
+## 2. Qué muestran los experimentos
 
-1. **Síntesis de Proteínas TDP (Intrinsically Disordered Proteins):** Durante la desecación, los genes del tardígrado sintetizan de forma masiva proteínas citosólicas intrínsecamente desordenadas (TDPs). Al descender el nivel de agua, estas proteínas forman una red de biovidrio amorfo no cristalino que inmoviliza físicamente las biomoléculas y membranas celulares, impidiendo su desnaturalización o rotura mecánica.
+1. **Proteínas de protección:** La desecación activa varias respuestas moleculares que ayudan a estabilizar estructuras celulares. Los mecanismos y las proteínas relevantes cambian entre linajes.
 
-2. **La Proteína Dsup (Damage Suppressor):** En un estudio experimental, la expresión de Dsup en células redujo parte del daño provocado por radiación y peróxido. El resultado ayuda a estudiar la protección del ADN, pero no demuestra que todos los tardígrados sobrevivan a una dosis fija ni que Dsup sea una “coraza” universal frente a los rayos cósmicos.
+2. **Dsup:** El estudio de eLife examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
 
-3. **Rehidratación:** Al recuperar agua, un tardígrado que sobrevive a la desecación puede retomar actividad. El ritmo, los daños y la recuperación dependen de la especie, del tiempo en estado seco y de las condiciones del experimento; no hay una reparación instantánea garantizada.
+3. **Rehidratación:** En condiciones adecuadas, un ejemplar que toleró la desecación puede reanudar su actividad al recibir agua. El resultado depende de especie, preparación, duración y condiciones del experimento.
 
 ### Límites Fisicoquímicos de Supervivencia del Tardígrado en Criptobiosis
 
-| Parámetro Ambiental | Tolerancia Máxima Registrada | Comparación con Límites Humanos |
-| :--- | :--- | :--- |
-| Temperatura mínima extrema | -272,8 °C (a 0,3 K del cero absoluto) | Letal a < 28 °C de hipotermia corporal |
-| Temperatura máxima extrema | +150 °C durante varios minutos | Desnaturalización proteica a > 42 °C |
-| Resistencia a la presión hidrostática | Depende de especie, estado y ensayo | No debe compararse con la fosa de las Marianas sin comprobar unidades y condiciones |
-| Resistencia a radiación ionizante | 5.000 a 6.000 Gray de rayos X | Dosis letal 50% en humanos = 4 a 5 Gray |
-| Supervivencia en el vacío espacial | 10 días en órbita terrestre baja (Misión FOTON-M3) | Asfixia y ebullición de fluidos en < 15 seg |
+| Condición | Qué se observó y cuál es el límite |
+| :--- | :--- |
+| Vacío espacial | En FOTON-M3, ejemplares desecados de *Richtersius coronifer* y *Milnesium tardigradum* sobrevivieron al vacío durante 10 días en órbita baja |
+| Vacío + radiación UV | La radiación solar redujo fuertemente la supervivencia; solo una fracción de los grupos expuestos a UV intenso se recuperó |
+| Dsup | Protección parcial en células y ensayos bioquímicos, no en una persona ni en todos los tardígrados |
+| Calor, frío y presión | Los valores dependen de especie, hidratación, duración y protocolo; no existe una cifra universal |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se afirma frecuentemente en internet que los tardígrados son organismos de origen extraterrestre caídos en meteoritos.
-  * **Realidad científica contrastada:** Totalmente falso. El análisis filogenético molecular demuestra inequívocamente que son ecdisozoos terrestres estrechamente emparentados con artrópodos y nematodos, cuyo linaje se remonta al período Cámbrico hace más de 500 millones de años.
+  * **Realidad científica contrastada:** No hay evidencia de un origen extraterrestre. Son animales terrestres del grupo de los ecdisozoos; la investigación espacial estudia su tolerancia, no su procedencia.
 
 * **Mito 2:** Se cree que un tardígrado activo en el agua resiste el calor y el frío de la misma manera que en estado seco.
   * **Realidad científica contrastada:** En estado hidratado activo mueren si la temperatura del agua supera los 37-40 °C o si se congela súbitamente sin tiempo para sintetizar sus proteínas protectoras.
@@ -66,9 +69,9 @@ En respuesta a la desecación, el tardígrado repliega sus ocho extremidades hac
 
 ## 4. Preguntas Frecuentes (FAQ)
 
-### ¿Cuánto tiempo puede permanecer un tardígrado en estado de criptobiosis?
+### ¿Cuánto tiempo puede permanecer?
 
-Se han revivido con éxito ejemplares preservados en musgos secos durante más de 30 años en museos biológicos, retomando sus funciones vitales y depositando huevos fértiles sin anomalías genéticas.
+La duración documentada varía entre especies y experimentos. Las revisiones señalan que la supervivencia suele ser alta tras periodos secos cortos, pero disminuye o cambia con el tiempo; no es responsable convertir un caso aislado de reanimación en una garantía de décadas.
 
 ### ¿Cómo se alimentan los tardígrados cuando están activos en musgos y líquenes?
 
@@ -82,7 +85,7 @@ Las proteínas protectoras se estudian en sistemas experimentales. Esa investiga
 
 ## Conclusión y Fuentes Documentales
 
-Los tardígrados toleran condiciones extremas solo bajo especies, estados y duraciones concretas. La criptobiosis y proteínas protectoras son campos activos de investigación, no pruebas de invulnerabilidad ni soluciones listas para medicina o viajes espaciales humanos.
+Los tardígrados toleran condiciones extremas solo bajo especies, estados y duraciones concretas. El experimento espacial y el estudio de Dsup son evidencias distintas: uno trata de organismos desecados y otro de células en laboratorio. Ninguno prueba invulnerabilidad ni una solución lista para medicina o viajes espaciales humanos.
 
 ### Referencias y Literatura Científica Consultada
 * *Nature Communications (Hashimoto et al., Extremotolerant Tardigrade Genome)*

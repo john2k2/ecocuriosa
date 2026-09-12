@@ -229,6 +229,12 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://doi.org/10.7554/eLife.47682
     use: Dsup experiments and limits of DNA damage protection claims
+  - id: tardigrade-space-experiment
+    authority: Current Biology / European Space Agency experiment
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.cub.2008.06.048
+    use: species, duration and condition-specific outcomes of desiccated tardigrades exposed to space
   - id: myctophid-migration
     authority: PubMed Central
     domain: marine-biology
@@ -637,3 +643,51 @@ entries:
     evidenceType: documentation
     url: https://support.google.com/webmasters/answer/9049606?hl=es
     use: sample internal and external link reports for discoverability and authority checks
+  - id: blue-whale-ecg-study
+    authority: Proceedings of the National Academy of Sciences / PubMed Central
+    domain: marine-biology
+    evidenceType: primary-study
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/
+    use: single free-diving blue whale ECG-depth record, dive depth and heart-rate ranges
+  - id: elephant-brain-neurons
+    authority: Frontiers in Neuroanatomy / PubMed Central
+    domain: comparative-neuroscience
+    evidenceType: primary-study
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/
+    use: estimated neuron counts and cerebellar distribution in an African elephant brain
+  - id: elephant-aging-matriarchs
+    authority: Frontiers in Aging Neuroscience / PubMed Central
+    domain: comparative-neuroscience
+    evidenceType: review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/
+    use: social and ecological knowledge associated with older elephant matriarchs
+  - id: noaa-giant-manta-ray
+    authority: NOAA Fisheries
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://www.fisheries.noaa.gov/species/giant-manta-ray
+    use: size, population uncertainty, depth range, threats and legal conservation status
+  - id: traffic-global-pangolin-trafficking
+    authority: TRAFFIC / IUCN SSC Pangolin Specialist Group
+    domain: conservation
+    evidenceType: institutional-report
+    url: https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/
+    use: seizure data, trafficking routes and scope of the global pangolin trade
+  - id: cites-pangolins-appendix-i
+    authority: CITES Animals Committee
+    domain: conservation
+    evidenceType: institutional-report
+    url: https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf
+    use: taxonomy and Appendix I listing context for all recognized living pangolin species
+  - id: noaa-coral-bleaching-current
+    authority: NOAA Coral Reef Watch
+    domain: climate-ocean
+    evidenceType: institutional-dataset
+    url: https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php
+    use: dated global bleaching heat-stress estimates and event status through September 2025
+  - id: noaa-arctic-polar-vortex
+    authority: NOAA Climate.gov
+    domain: atmospheric-science
+    evidenceType: institutional-explainer
+    url: https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex
+    use: distinction between stratospheric vortex, polar jet, sudden warming and uncertain surface impacts

@@ -16,47 +16,51 @@ sources:
   - title: "Understanding the Arctic Polar Vortex"
     publisher: "NOAA Climate"
     url: "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex"
+    evidenceType: "institutional"
+    scope: "Explicación de NOAA sobre vórtice, corriente en chorro y vínculos inciertos con el tiempo de superficie"
   - title: "Sudden stratospheric warmings"
     publisher: "Reviews of Geophysics"
     url: "https://doi.org/10.1029/2020RG000708"
+    evidenceType: "review"
+    scope: "Revisión de la dinámica y definición de los calentamientos estratosféricos repentinos"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Un Calentamiento Estratosférico Repentino (SSW por sus siglas en inglés) es un fenómeno meteorológico invernal a gran escala en el que la estratosfera polar (entre 10 y 50 km de altitud) experimenta un aumento térmico descomunal de entre 30 °C y 50 °C en tan solo dos o tres días. Esto frena e invierte los vientos del vórtice polar estratosférico de oeste a este, provocando que este cinturón de aire gélido colapse, se desplace o se fracture en dos o tres vórtices hijos que descienden a la troposfera, desatando olas de frío polar ártico y ventiscas extremas en Europa, Norteamérica y Asia semanas después.
+> **Respuesta rápida:** Un calentamiento estratosférico repentino (SSW) es un episodio en el que la temperatura de la estratosfera polar aumenta rápidamente y el vórtice puede debilitarse, desplazarse o dividirse. NOAA señala que la conexión con el tiempo de superficie es frecuente en algunos casos, pero no automática: depende de la evolución de toda la atmósfera y de otros patrones meteorológicos.
 
 ---
 
-## 1. El Vórtice Polar Ártico: El Gigantesco Ciclón de la Noche Polar
+## 1. Dos capas que conviene no confundir
 
-Durante los meses de otoño e invierno en el hemisferio norte, la ausencia total de radiación solar sobre el Ártico provoca un enfriamiento radiativo masivo en la estratosfera polar. Este marcado gradiente de temperatura con respecto a las latitudes templadas genera un área de baja presión circumpolar colosal rodeada por una corriente en chorro estratosférica ultrarrápida (la corriente de la noche polar), con vientos que giran de oeste a este a velocidades superiores a 250 km/h.
+El vórtice polar ártico es una banda de vientos del oeste que se forma en la estratosfera, aproximadamente entre 16 y 48 kilómetros sobre el polo durante el invierno. La corriente en chorro polar está más abajo, en la troposfera. NOAA advierte que no son el mismo fenómeno: el vórtice puede influir en el chorro, pero el tiempo diario de superficie responde a la interacción de muchos sistemas.
 
-Cuando este vórtice polar estratosférico es fuerte y estable, actúa como una auténtica presa hidráulica atmosférica: mantiene todo el aire ártico bajo cero confinado en torno al polo. El problema surge cuando gigantescas ondas atmosféricas planetarias de gran escala (ondas de Rossby), generadas en la troposfera por el relieve montañoso del Tíbet o las Rocosas y por contrastes térmicos entre continentes y océanos, se propagan verticalmente hacia arriba e impactan directamente contra el vórtice estratosférico.
+Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cuando se debilita, se desplaza o se divide, el chorro puede volverse más ondulado y permitir entradas de aire polar en algunas latitudes medias. La respuesta no es igual en cada región.
 
 ---
 
-## 2. La Cascada Dinámica del Calentamiento y Ruptura
+## 2. Cómo se desarrolla y por qué no es un pronóstico
 
-1. **Disipación de Ondas de Rossby en la Estratosfera:** Al llegar a altitudes de 30 km, las ondas de Rossby rompen como olas marinas en una playa, disipando su energía y depositando un impulso opuesto al giro del vórtice. Este frenado mecánico induce una compresión adiabática del aire: las masas de gas descienden velozmente y se calientan por compresión a una tasa de más de 10 °C a 15 °C diarios.
+1. **Ondas planetarias:** Ondas grandes de la troposfera pueden propagarse hacia la estratosfera y alterar el flujo del vórtice.
 
-2. **Inversión de los Vientos Zonales (Reversal a 60°N y 10 hPa):** El calentamiento convierte el centro del polo en una zona de alta presión térmica. El criterio oficial de la Organización Meteorológica Mundial para declarar un SSW mayor se cumple cuando los vientos zonales medios a 60°N y a 10 hectopascales cambian de dirección, soplando de este a oeste.
+2. **Calentamiento y cambio de circulación:** La temperatura sube con rapidez y los vientos del vórtice pueden frenarse, invertirse o redistribuirse. La revisión especializada describe distintas “formas” del evento; no todos tienen la misma estructura.
 
-3. **Propagación Descendente hacia la Troposfera (Oscilación Ártica Negativa):** A lo largo de las dos a cuatro semanas siguientes, la anomalía de presión desciende progresivamente desde la estratosfera hasta la troposfera. La corriente en chorro polar troposférica se ondula de forma caótica en meandros profundos, permitiendo que masas de aire ártico a -25 °C invadan latitudes templadas de Estados Unidos, España, Francia o Japón (provocando borrascas invernales históricas como Filomena o el Gran Vórtice de Norteamérica).
+3. **Posible señal descendente:** En las semanas posteriores, algunas perturbaciones se asocian con un chorro más ondulado y con aire frío en ciertas latitudes. NOAA recalca que también hay olas de frío sin un SSW y SSW con poco efecto en superficie.
 
 ### Fases y Magnitudes de un Calentamiento Estratosférico Repentino
 
-| Fase del Evento | Escala Temporal | Alteración Meteorológica Clave |
-| :--- | :--- | :--- |
-| Inyección de ondas planetarias | Días -10 a -3 | Ascenso de flujo de calor meridional desde troposfera |
-| Calentamiento estratosférico pico | Días 0 a +3 | Subida térmica de hasta +40 °C a +55 °C a 30 km de altura |
-| Frenado e inversión del vórtice | Días +1 a +5 | Vientos del oeste colapsan y giran al este (< 0 m/s) |
-| Impacto superficial en latitudes medias | Semanas +2 a +6 | Olas de frío polar severo y temporales de nieve extrema |
+| Señal | Interpretación prudente |
+| :--- | :--- |
+| Onda ascendente | Perturbación troposférica que puede transferir energía a la estratosfera |
+| Calentamiento | Aumento rápido de temperatura en la estratosfera polar |
+| Vórtice alterado | Debilitamiento, desplazamiento, división o inversión de los vientos |
+| Superficie | Posible cambio de circulación; no garantiza frío local ni una fecha fija |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
-* **Mito 1:** Se cree que el vórtice polar es un fenómeno nuevo inventado recientemente por los medios de comunicación.
-  * **Realidad científica contrastada:** El vórtice polar fue descrito por primera vez en la literatura científica en 1853, y el primer Calentamiento Estratosférico Repentino fue descubierto formalmente con globos sonda por el meteorólogo Richard Scherhag en Berlín en 1952.
+* **Mito 1:** Se cree que “vórtice polar” y “corriente en chorro” son sinónimos.
+  * **Realidad científica contrastada:** NOAA los sitúa en capas distintas: el vórtice es estratosférico y el chorro polar está en la troposfera.
 
 * **Mito 2:** Se piensa que si hay vórtice polar hace frío en todo el planeta a la vez.
   * **Realidad científica contrastada:** La rotura del vórtice produce un patrón dipolo o trípode: mientras algunas regiones sufren fríos glaciares extremos (ej. Europa Central o el este de EE.UU.), otras regiones como Groenlandia, Alaska o el propio Ártico experimentan anomalías térmicas cálidas inauditas con temperaturas decenas de grados por encima de la media.
@@ -65,23 +69,23 @@ Cuando este vórtice polar estratosférico es fuerte y estable, actúa como una 
 
 ## 4. Preguntas Frecuentes (FAQ)
 
-### ¿Con qué frecuencia ocurre un calentamiento estratosférico mayor?
+### ¿Con qué frecuencia ocurre?
 
-Ocurre en promedio aproximadamente seis veces por década en el hemisferio norte, aunque puede haber inviernos consecutivos con eventos mayores seguidos de períodos de tres años de calma ininterrumpida.
+NOAA resume que las perturbaciones del vórtice ártico ocurren, en promedio, aproximadamente cada dos años. La frecuencia exacta depende de la definición usada y de la serie observacional; no conviene convertir ese promedio en un calendario.
 
-### ¿Por qué es extremadamente raro este fenómeno en el polo sur antártico?
+### ¿Por qué se comporta distinto en la Antártida?
 
-Porque el hemisferio sur tiene mucha menos masa continental y cadenas montañosas asimétricas que generen ondas de Rossby verticales potentes; el vórtice polar antártico es mucho más circular, frío y estable (solo se ha registrado un evento mayor en la historia, en 2002).
+La geometría del continente y la circulación del hemisferio sur cambian la forma y la estabilidad del vórtice antártico. La comparación requiere una definición y una serie de datos concretas; no basta con trasladar la frecuencia del Ártico.
 
-### ¿Cómo influye el cambio climático en la estabilidad del vórtice polar?
+### ¿Cómo influye el cambio climático?
 
-El calentamiento acelerado del Ártico (amplificación ártica) reduce la diferencia térmica entre el polo y el ecuador, lo que según múltiples modelos climáticos debilita la corriente en chorro y favorece ondulaciones meándricas más persistentes y rupturas más frecuentes del vórtice polar.
+La relación sigue siendo una cuestión de investigación. NOAA señala que los modelos no coinciden en un cambio de tendencia claro y que la variabilidad natural es grande; no es responsable atribuir cada ola de frío a un calentamiento estratosférico ni afirmar que el cambio climático lo vuelve automáticamente más frecuente.
 
 ---
 
 ## Conclusión y Fuentes Documentales
 
-Un calentamiento estratosférico repentino puede alterar el vórtice polar y, en algunos casos, influir después en el tiempo de superficie. No toda alteración produce una ola de frío local: el pronóstico exige considerar la evolución de toda la atmósfera.
+Un calentamiento estratosférico repentino puede alterar el vórtice polar y, en algunos casos, influir después en el tiempo de superficie. La evidencia es probabilística y dependiente del caso: el pronóstico exige considerar la evolución de toda la atmósfera y no convertir una señal estratosférica en una predicción local automática.
 
 ### Referencias y Literatura Científica Consultada
 * *Journal of the Atmospheric Sciences (Charlton & Polvani, A New Look at Stratospheric Sudden Warmings)*

@@ -16,7 +16,14 @@ interface Props {
   author?: string;
   category?: string;
   tags?: string[];
-  sources?: { title: string; url: string }[];
+  sources?: {
+    title: string;
+    url: string;
+    publisher?: string;
+    accessedDate?: Date;
+    evidenceType?: 'primary' | 'review' | 'dataset' | 'institutional' | 'secondary';
+    scope?: string;
+  }[];
   imageCredit?: string;
   imageLicense?: string;
   imageCreator?: string;
