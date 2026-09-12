@@ -13,3 +13,11 @@ export const ADSENSE_SLOTS = {
   articleTop: value('PUBLIC_ADSENSE_SLOT_ARTICLE_TOP'),
   articleBottom: value('PUBLIC_ADSENSE_SLOT_ARTICLE_BOTTOM'),
 } as const;
+
+/**
+ * Do not download Google's advertising runtime until at least one real slot
+ * is configured. The public client ID alone is not enough to render an ad.
+ */
+export const ADSENSE_ENABLED = Boolean(
+  ADSENSE_CLIENT_ID && Object.values(ADSENSE_SLOTS).some(Boolean),
+);
