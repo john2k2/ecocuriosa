@@ -97,16 +97,20 @@ const biomes = [
             </div>
 
             <div class="relative aspect-[16/11] mb-4 overflow-hidden rounded-md bg-[#052212]">
-              <img
-                src="/images/articles/leopardo-de-las-nieves-montana.svg"
-                alt="Ilustración editorial de un leopardo de las nieves en una cresta rocosa del Himalaya"
-                width="800"
-                height="550"
-                loading="eager"
-                fetchpriority="high"
-                decoding="async"
-                class="w-full h-full object-cover"
-              />
+              <picture class="block w-full h-full">
+                <source type="image/svg+xml" srcset="/images/articles/leopardo-de-las-nieves-montana.svg" />
+                <source type="image/webp" srcset="/images/articles/leopardo-de-las-nieves-montana.webp" />
+                <img
+                  src="/images/articles/leopardo-de-las-nieves-montana.webp"
+                  alt="Ilustración editorial de un leopardo de las nieves en una cresta rocosa del Himalaya"
+                  width="800"
+                  height="550"
+                  loading="eager"
+                  fetchpriority="high"
+                  decoding="async"
+                  class="w-full h-full object-cover"
+                />
+              </picture>
               <span class="absolute bottom-2 left-2 text-xs px-2.5 py-1 rounded-sm bg-[#052212]/90 text-[#c59b27] font-semibold tracking-wide">
                 ESPÉCIMEN REF. PAN-UNC-01
               </span>
