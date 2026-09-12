@@ -47,6 +47,7 @@ const currentPath = Astro.url.pathname;
           return (
             <a
               href={cat.href}
+              aria-current={isActive ? 'page' : undefined}
               class={`px-4 py-2 rounded-md transition-all ${
                 isActive
                   ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
@@ -59,6 +60,7 @@ const currentPath = Astro.url.pathname;
         })}
         <a
           href="/buscar/"
+          aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined}
           class={`min-h-[44px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
             currentPath.startsWith('/buscar')
               ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
@@ -91,12 +93,13 @@ const currentPath = Astro.url.pathname;
     {categories.map((cat) => (
       <a
         href={cat.href}
+        aria-current={currentPath.startsWith(cat.href) ? 'page' : undefined}
         class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]"
       >
         {cat.name}
       </a>
     ))}
-    <a href="/buscar/" class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
+    <a href="/buscar/" aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined} class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
       Buscar en el archivo
     </a>
   </div>
