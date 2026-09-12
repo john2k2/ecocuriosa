@@ -81,6 +81,8 @@ const formattedReviewDate = reviewedDate && new Intl.DateTimeFormat('es-ES', {
   day: 'numeric',
 }).format(reviewedDate);
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const isSvgImage = image.toLowerCase().endsWith('.svg');
+const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
 ---
 
 <BaseLayout
@@ -144,16 +146,20 @@ const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.
     </header>
 
     <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">
-      <img
-        src={image}
-        alt={imageAlt}
-        width="1200"
-        height="675"
-        loading="eager"
-        fetchpriority="high"
-        decoding="async"
-        class="w-full aspect-[16/9] object-cover"
-      />
+      <picture class="block w-full">
+        {isSvgImage && <source type="image/svg+xml" srcset={image} />}
+        {isSvgImage && <source type="image/webp" srcset={imageWebp} />}
+        <img
+          src={imageWebp}
+          alt={imageAlt}
+          width="1200"
+          height="675"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+          class="w-full aspect-[16/9] object-cover"
+        />
+      </picture>
       {imageAlt && (
         <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
           <span class="font-semibold text-[#063b1e]">Lámina de Observación:</span> {imageAlt}

@@ -27,9 +27,12 @@ try {
 const targets = new Set();
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
-  for (const [, value] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
-    const target = value.split('#')[0].split('?')[0];
-    if (target.startsWith('/') && !target.startsWith('//')) targets.add(target);
+  for (const [, value] of html.matchAll(/(?:href|src|srcset)="([^"]+)"/g)) {
+    const values = value.split(',').map((entry) => entry.trim().split(/\s+/)[0]);
+    for (const candidate of values) {
+      const target = candidate.split('#')[0].split('?')[0];
+      if (target.startsWith('/') && !target.startsWith('//')) targets.add(target);
+    }
   }
 }
 

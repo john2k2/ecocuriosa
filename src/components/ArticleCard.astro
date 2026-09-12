@@ -49,6 +49,8 @@ const categoryTheme: Record<string, { badgeBg: string; badgeText: string }> = {
 const categoryLabel = categoryNames[category] || category;
 const theme = categoryTheme[category] || { badgeBg: '#eaf3ec', badgeText: '#063b1e' };
 const articleUrl = `/${category}/${slug}`;
+const isSvgImage = image.toLowerCase().endsWith('.svg');
+const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
 
 // Cálculo dinámico de tiempo de lectura real (basado en cuerpo completo o resumen a 180 palabras/min)
 let estimatedMinutes: number;
@@ -73,15 +75,19 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
 >
   <div class={`relative bg-[#efece3] ${featured ? 'lg:col-span-7 aspect-[16/10]' : 'aspect-[16/10]'}`}>
     <div class="block w-full h-full">
-      <img
-        src={image}
-        alt={imageAlt}
-        width="800"
-        height="500"
-        loading={featured ? 'eager' : 'lazy'}
-        decoding="async"
-        class="w-full h-full object-cover"
-      />
+      <picture class="block w-full h-full">
+        {isSvgImage && <source type="image/svg+xml" srcset={image} />}
+        {isSvgImage && <source type="image/webp" srcset={imageWebp} />}
+        <img
+          src={imageWebp}
+          alt={imageAlt}
+          width="800"
+          height="500"
+          loading={featured ? 'eager' : 'lazy'}
+          decoding="async"
+          class="w-full h-full object-cover"
+        />
+      </picture>
     </div>
     <span
       class="absolute top-3 left-3 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded shadow-xs"
