@@ -127,13 +127,15 @@ de Search Console:
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | Producción antes de la optimización | 41/100 | 4,4 s | 7,8 s | 0 | 670 ms | AdSense se descargaba sin slots y Cloudflare inyectaba JavaScript de detección |
 | Producción después de retirar ese runtime | 84/100 | 3,3 s | 3,3 s | 0 | 0 ms | 96 imágenes intactas; el coste restante dominante era la red externa |
-| Producción actual con tipografías locales | 88/100 | 2,9 s | 3,2 s | 0,002 | 0 ms | Sin Google Fonts remoto; Cloudflare sigue aportando una pequeña capa externa |
-| Control local con tipografías locales | 97/100 | 2,0 s | 2,1 s | 0,001 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
+| Producción actual con tipografías locales (mediana de 3 ejecuciones) | 89/100 | 1,9 s | 2,8 s | 0 | 300 ms | Sin Google Fonts remoto; Cloudflare sigue aportando una pequeña capa externa |
+| Control local con tipografías locales (mediana de 3 ejecuciones) | 99/100 | 1,5 s | 2,1 s | 0 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
 
-La ejecución posterior a la mejora dejó SEO y accesibilidad en 100/100. La
-medición final de campo queda pendiente de datos RUM suficientes y de repetir el
-ensayo cuando AdSense tenga slots aprobados; no se debe presentar esta tabla
-como garantía de Core Web Vitals.
+La ejecución posterior a la mejora dejó SEO y accesibilidad en 100/100. Las
+tres ejecuciones de producción oscilaron entre 84 y 91/100, por lo que se
+conserva la mediana y no el mejor resultado. La medición final de campo queda
+pendiente de datos RUM suficientes y de repetir el ensayo cuando AdSense tenga
+slots aprobados; no se debe presentar esta tabla como garantía de Core Web
+Vitals.
 
 ### Schema y datos estructurados — 82/100
 
