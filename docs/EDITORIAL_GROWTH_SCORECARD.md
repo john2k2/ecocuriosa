@@ -17,6 +17,8 @@ Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no dem
 
 El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. El control `content:image-sitemap-audit` comprueba que la imagen declarada y la URL del artículo permanezcan alineadas cuando se agregue una ficha nueva.
 
+El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.
+
 El auditor de contenido también bloquea activos que no estén declarados como originales o creados para EcoCuriosa cuando les falten creador, licencia y página de licencia HTTPS. Las ilustraciones actuales conservan su crédito editorial; una fotografía o imagen de terceros debe completar esos tres campos antes de entrar en producción.
 
 Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) muestran ahora `updatedDate` y `dateModified` porque tuvieron cambios sustanciales de texto y fuentes. Ese campo no equivale a `reviewedDate`: la revisión humana del archivo sigue siendo una puerta independiente.

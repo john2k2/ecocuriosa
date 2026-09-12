@@ -77,6 +77,8 @@ La consulta se hizo con [Cloudflare GraphQL Analytics](https://developers.cloudf
 
 **Actualización de edge por GraphQL — 12 de septiembre de 2026.** Una consulta de `httpRequests1dGroups` para la misma ventana devolvió 12.182 solicitudes y 385.210.662 bytes; 684 solicitudes y 187.040.316 bytes fueron servidos desde caché (5,6 % y 48,6 %, respectivamente). Esta consulta tiene un alcance distinto al panel histórico de `pageViews`/códigos de respuesta, por lo que se conserva como refresco de entrega y no reemplaza la línea base anterior ni se interpreta como audiencia humana.
 
+**Regla de caché segura — 12 de septiembre de 2026.** Se creó la regla de zona `EcoCuriosa - cache RSS` (referencia `ecocuriosa-cache-rss`) en la fase `http_request_cache_settings`, limitada a `ecocuriosa.com/rss.xml`. Usa dos horas de TTL en el borde y respeta el `Cache-Control` del origen en el navegador; no coincide con HTML, anuncios ni imágenes. La comprobación inmediata devolvió `MISS` en la primera solicitud y `HIT` en la segunda. La variante `www` continúa con redirección 301 al host canónico.
+
 ### Línea base de Google Search Console — 12 de septiembre de 2026
 
 La propiedad autenticada `https://ecocuriosa.com/` ya está disponible. En el informe de rendimiento web, con ventana de 3 meses y última actualización indicada como hace 5 horas, aparecen 112 impresiones, 0 clics, CTR medio de 0 % y posición media 14. Las consultas con más impresiones fueron `geodinamo` (11), `pulpo mimo` (8), `geodinamo terrestre` (2), `architeuthis dux` (2) y `relampago de catatumbo` (2). La pestaña de países concentra impresiones en México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6); los dispositivos se reparten entre móvil (58) y ordenador (54).
