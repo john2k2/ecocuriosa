@@ -4,6 +4,8 @@
 **Sitio:** https://ecocuriosa.com  
 **Alcance:** portada, cuatro categorías, artículos de muestra, páginas legales, rastreabilidad, metadatos, experiencia y monetización.
 
+> **Nota de vigencia:** esta es la instantánea inicial del 10 de septiembre. Para el estado operativo más reciente (Cloudflare, procedencia de las 32 ilustraciones, fuentes oficiales y pendientes de Search Console/AdSense), consultar [`GEO-AUDIT-REPORT.md`](../GEO-AUDIT-REPORT.md).
+
 ## Veredicto
 
 La infraestructura y la experiencia de lectura son buenas: Astro entrega HTML indexable, la navegación es clara, el diseño es profesional y el sitio ya aparece en resultados de Google. No se identificó un bloqueo técnico grave de AdSense. La brecha que impide considerarlo listo al máximo es editorial: hay 32 artículos, pero el control local solo registra referencias HTTPS y revisión editorial en 1 de ellos; la apertura y correspondencia de cada fuente aún requieren una persona.
