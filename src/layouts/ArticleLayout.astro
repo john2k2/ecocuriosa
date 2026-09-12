@@ -151,13 +151,13 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
         {formattedUpdatedDate && (
           <>
             <span>•</span>
-            <span>Actualizado: {formattedUpdatedDate}</span>
+            <span>Actualizado: <time datetime={updatedDate?.toISOString()}>{formattedUpdatedDate}</time></span>
           </>
         )}
         {formattedReviewDate && (
           <>
             <span>•</span>
-            <span>Revisado: {formattedReviewDate}</span>
+            <span>Revisado: <time datetime={reviewedDate?.toISOString()}>{formattedReviewDate}</time></span>
           </>
         )}
       </div>
