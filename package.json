@@ -16,6 +16,7 @@
     "content:link-audit": "node scripts/audit-internal-links.mjs",
     "content:llms-audit": "node scripts/audit-llms.mjs",
     "content:luna-audit": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/audit-luna-pipeline.py",
+    "content:review-precheck": "node scripts/audit-review-queue.mjs",
     "content:rss-audit": "node scripts/audit-rss.mjs",
     "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs"
   },

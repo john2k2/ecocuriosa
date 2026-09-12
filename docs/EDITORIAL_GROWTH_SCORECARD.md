@@ -37,6 +37,8 @@ La verificación posterior al refuerzo de procedencia (tres ejecuciones nuevas: 
 
 Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; ocho artículos acercan además enlaces directos a afirmaciones concretas. Las 24 restantes no se enlazan automáticamente: se añadirán solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
 
+El prechequeo [`CONTENT_REVIEW_PRECHECK_2026-09-12.md`](editorial/CONTENT_REVIEW_PRECHECK_2026-09-12.md), regenerable con `pnpm content:review-precheck -- --write`, ordena las 31 revisiones pendientes por riesgo y muestra fuentes, citas dentro del cuerpo, enlaces propios, señales de cifras/salud/conservación y procedencia visual. El control es estático y no marca revisiones: la cola solo se cierra con comprobación humana.
+
 ## Secuencia de 30 días
 
 ### Días 1–7 — cumplimiento y medición

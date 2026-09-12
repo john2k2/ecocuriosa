@@ -26,6 +26,7 @@ jobs:
       - run: pnpm content:source-audit
       - run: pnpm content:source-metadata-audit
       - run: pnpm content:luna-audit
+      - run: pnpm content:review-precheck
       - run: pnpm content:llms-audit
       - run: pnpm astro check
       - run: pnpm build

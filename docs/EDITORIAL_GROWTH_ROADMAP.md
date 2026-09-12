@@ -17,6 +17,8 @@ El archivo existente debe alcanzar estas condiciones antes de publicar a más de
 | Experiencia | Imagen con derechos documentados, alt text, enlaces internos pertinentes y lectura móvil comprobada | En progreso |
 | Calidad técnica | `pnpm content:audit -- --strict`, `pnpm astro check` y `pnpm build` correctos | Parcial hasta completar la deuda editorial |
 
+El comando `pnpm content:review-precheck` mantiene visible el orden de trabajo de la deuda editorial y falla si la cola de 31 artículos deja de coincidir con el inventario real. Su informe no sustituye abrir las fuentes ni registrar la revisión humana.
+
 No se debe cambiar una fecha de revisión solo para mejorar el sitemap o la apariencia de actualización.
 
 ## Secuencia de 12 semanas
