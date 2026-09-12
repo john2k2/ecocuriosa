@@ -104,6 +104,7 @@ const website = {
   "@id": websiteId,
   "url": siteURL,
   "name": "EcoCuriosa",
+  "alternateName": "Cuaderno de Ciencias Naturales",
   "publisher": { "@id": organizationId },
   "inLanguage": "es",
   "potentialAction": {
@@ -162,7 +163,7 @@ const schemaData = {
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <meta name="author" content={author} />
-{noindex && <meta name="robots" content="noindex, follow" />}
+<meta name="robots" content={noindex ? 'noindex, follow, max-image-preview:large' : 'max-image-preview:large'} />
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Open Graph / Facebook -->
