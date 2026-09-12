@@ -9,7 +9,7 @@
 
 ## Resumen ejecutivo
 
-EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada y 13 artículos siguen generando advertencias de lenguaje que deben comprobarse. La auditoría de formato no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
+EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada y 10 artículos siguen generando advertencias heurísticas de lenguaje que deben comprobarse. La auditoría de formato no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
 
 La auditoría visual también detectó activos que no correspondían con su artículo (por ejemplo, un tigre en la ficha del axolote). Se reemplazaron 20 referencias problemáticas por ilustraciones SVG originales del proyecto, se generó una ilustración correcta para el axolote y se registró crédito explícito en 21 fichas. Quedan 11 activos raster heredados cuyo origen/licencia todavía debe documentarse antes de escalar la publicación.
 
@@ -45,7 +45,7 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 
 ## Alta prioridad
 
-1. **Cerrar la revisión editorial antes de escalar.** `pnpm content:audit` registra 31 artículos sin `reviewedDate`/`reviewedBy` y 13 advertencias de lenguaje absoluto, salud o récords. Abrir la cola en [`docs/editorial/CONTENT_REVIEW_QUEUE.md`](docs/editorial/CONTENT_REVIEW_QUEUE.md), comprobar cada afirmación cuantitativa y rellenar la fecha solo después de una revisión real.
+1. **Cerrar la revisión editorial antes de escalar.** `pnpm content:audit` registra 31 artículos sin `reviewedDate`/`reviewedBy` y 10 advertencias heurísticas de lenguaje absoluto, salud o récords. Abrir la cola en [`docs/editorial/CONTENT_REVIEW_QUEUE.md`](docs/editorial/CONTENT_REVIEW_QUEUE.md), comprobar cada afirmación cuantitativa y rellenar la fecha solo después de una revisión real.
 2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
 3. **Configurar los bloques publicitarios después de la aprobación.** El cliente `ca-pub-4559843439616138` está en el HTML, pero los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. No inventar IDs: copiarlos desde AdSense y redeplegar.
 4. **Conectar medición real.** Search Console y Cloudflare no están disponibles como cuentas autenticadas en esta auditoría. Sin consultas, impresiones, CTR, países, dispositivos, LCP, INP, CLS y RPM no es responsable prometer crecimiento ni elegir keywords.
@@ -76,7 +76,7 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 
 ### Contenido y E-E-A-T — 56/100
 
- Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 13 advertencias para revisión, no las trata como infracciones confirmadas. La cola editorial es la puerta de salida antes de automatizar más contenido.
+ Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 10 advertencias heurísticas para revisión, no las trata como infracciones confirmadas. La cola editorial es la puerta de salida antes de automatizar más contenido.
 
 ### GEO técnico — 92/100
 
@@ -111,7 +111,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 - [ ] Revisar 8 artículos prioritarios usando la cola y el estándar de fuentes.
 - [ ] Documentar créditos/licencias de los 11 WebP heredados o reemplazarlos por ilustraciones propias.
-- [ ] Corregir las 13 advertencias que sigan siendo materialmente problemáticas.
+- [ ] Corregir las 10 advertencias heurísticas que sigan siendo materialmente problemáticas.
 
 ### Semana 3 — búsqueda y recorrido
 
@@ -147,10 +147,10 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 
 ## Verificación ejecutada
 
-- `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes; 0 conclusiones repetidas; 13 advertencias para revisión.
+- `pnpm content:audit -- --json`: 32 artículos; 32 con entradas de fuentes; 1 revisado; 0 imágenes faltantes; 0 conclusiones repetidas; 10 advertencias heurísticas para revisión.
 - `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
 - `pnpm build`: 45 páginas estáticas generadas correctamente.
-- `SOURCE_CATALOG.yml`: YAML válido con 33 entradas y 12 oportunidades editoriales en la biblioteca. La comprobación HTTP inicial de las 30 entradas originales obtuvo 26 respuestas 200; USGS e IUCN limitan clientes automatizados con 403 y el PDF de Creative Commons requiere abrirse en navegador. Esas entradas quedan marcadas para verificación humana, no se tratan como enlaces rotos.
+- `SOURCE_CATALOG.yml`: YAML válido con 43 entradas y 12 oportunidades editoriales en la biblioteca. La comprobación HTTP inicial de las 30 entradas originales obtuvo 26 respuestas 200; USGS e IUCN limitan clientes automatizados con 403 y el PDF de Creative Commons requiere abrirse en navegador. Esas entradas quedan marcadas para verificación humana, no se tratan como enlaces rotos.
 - PageSpeed Insights público: la consulta móvil fue rechazada por cuota agotada; no se guardó ninguna métrica estimada como si fuera dato de usuarios reales.
 - Producción muestreada: portada, artículo, búsqueda, páginas legales, metodología, `robots.txt`, `ads.txt`, sitemap y redirección `www`.
 - Pendiente de conexión externa: métricas privadas de Search Console/Cloudflare, estado final de CMP en AdSense, aprobación de cuenta y creación de slots.

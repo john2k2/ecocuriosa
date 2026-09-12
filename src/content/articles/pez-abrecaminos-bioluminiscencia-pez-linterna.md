@@ -30,7 +30,7 @@ featured: false
 
 A partir de los 200 metros de profundidad, la luz solar se debilita de forma exponencial hasta desaparecer por completo a los 1.000 metros en la llamada zona batipelágica o zona de medianoche. En este reino de tinieblas perpetuas, la bioluminiscencia no es una rareza exótica, sino el lenguaje dominante de la ecología marina: se estima que más del 75% de los peces e invertebrados que habitan esta franja producen luz funcional.
 
-Los peces linterna (mictófidos) representan una de las biomasas de vertebrados más colosales del planeta, con estimaciones que superan los 550 millones de toneladas métricas. Su cuerpo está tachonado de pequeños reflectores luminosos ventrales cuya disposición y número es único para cada una de las más de 250 especies conocidas, funcionando como un código de barras luminoso indispensable para el apareamiento en la inmensidad del océano abierto.
+Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosistemas oceánicos. Las estimaciones cambian según la cuenca, la profundidad y el método de muestreo, por lo que no debe tratarse una cifra histórica de biomasa como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
 
 ---
 
@@ -67,7 +67,7 @@ Los peces linterna (mictófidos) representan una de las biomasas de vertebrados 
 
 ### ¿Qué es la migración vertical diaria de los peces linterna?
 
-Es la mayor migración animal de la Tierra en términos de biomasa: cada noche, cientos de millones de peces linterna ascienden desde 800 metros de profundidad hasta los primeros 50 metros para alimentarse de plancton al amparo de la noche, regresando a los abismos antes del amanecer para evitar a los depredadores visuales.
+Es una de las migraciones diarias más grandes conocidas y una parte importante de la migración vertical de la comunidad mesopelágica. Muchas especies ascienden por la noche hacia aguas menos profundas y descienden antes del amanecer, pero la profundidad y el número de individuos dependen de la especie, la región y las condiciones locales.
 
 ### ¿Cómo controlan los peces el encendido y apagado de sus fotóforos?
 

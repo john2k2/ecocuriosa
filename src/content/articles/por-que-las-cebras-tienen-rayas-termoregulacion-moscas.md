@@ -70,7 +70,7 @@ La distribución de las rayas es el resultado de historia evolutiva, ambiente y 
 
 ### ¿Son las rayas de cada cebra únicas como una huella digital?
 
-Sí. No existen dos cebras con el mismo patrón; las ramificaciones, el grosor y las bifurcaciones en los flancos y ancas son absolutamente irrepetibles para cada individuo durante toda su vida.
+Los patrones son suficientemente variables para distinguir individuos en fotografías y estudios de campo. Eso no equivale a una huella digital matemáticamente única: no podemos afirmar que jamás existan dos patrones idénticos sin especificar la población, la zona del cuerpo y el método de comparación.
 
 ### ¿Se están aplicando las rayas a vacas lecheras en la actualidad?
 

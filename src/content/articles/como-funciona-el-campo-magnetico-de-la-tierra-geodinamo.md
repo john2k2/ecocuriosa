@@ -56,7 +56,7 @@ Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: u
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que si los polos magnéticos se invierten, la Tierra quedará sin campo magnético y la vida morirá calcinada.
-  * **Realidad científica contrastada:** El registro geológico en lavas volcánicas (paleomagnetismo) demuestra que la Tierra ha invertido sus polos cientos de veces en el pasado sin que existan extinciones biológicas masivas asociadas; durante una inversión el campo no desaparece a cero, sino que se debilita a un 10-20% y se vuelve multipolar caótico durante unos pocos milenios antes de estabilizarse.
+  * **Realidad científica contrastada:** El registro paleomagnético conserva cientos de inversiones sin una asociación simple con extinciones masivas. Durante una transición el campo puede debilitarse y adoptar una configuración multipolar, pero la intensidad, la duración y la geometría no son constantes: no conviene presentar un 10–20% o “pocos milenios” como valores universales.
 
 * **Mito 2:** Se confunden los polos magnéticos con los polos geográficos terrestres.
   * **Realidad científica contrastada:** El polo norte geográfico es un punto geométrico fijo del eje de rotación; el polo norte magnético se desplaza de forma continua por el Ártico canadiense hacia Siberia a una velocidad de unos 40 a 50 km al año debido a las turbulencias dinámicas del hierro fundido profundo.

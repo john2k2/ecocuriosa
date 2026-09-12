@@ -67,11 +67,11 @@ Estudios anatómicos describen túbulos dentinarios y han explorado una posible 
 
 ### ¿Qué porcentaje de narvales hembra desarrolla colmillo?
 
-Aproximadamente un 15% de las hembras adultas desarrolla un colmillo visible, aunque suele ser más corto y menos robusto que el de los machos.
+Se ha descrito en una minoría de hembras, normalmente con un colmillo menor que el de los machos. El porcentaje cambia entre muestras y métodos de observación, por lo que conviene atribuir cualquier cifra a un estudio concreto en vez de presentarla como una constante de la especie.
 
 ### ¿Pueden los narvales tener dos colmillos?
 
-Sí. En uno de cada 500 machos, el diente canino superior derecho también prolifera hacia adelante, dando lugar a un ejemplar con dos colmillos espirales paralelos.
+Sí, aunque es raro. Algunos informes describen la formación de un segundo colmillo en machos; la frecuencia exacta depende de la muestra y no debe resumirse como “uno de cada 500” sin indicar la fuente.
 
 ### ¿Cómo respiran los narvales si el mar ártico se congela por completo?
 

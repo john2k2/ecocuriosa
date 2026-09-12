@@ -205,3 +205,63 @@ entries:
     evidenceType: licensing-guidance
     url: https://creativecommons.org/licenses/by/4.0/
     use: concrete CC BY 4.0 attribution conditions; verify the asset's actual license
+  - id: blue-hole-taam-ja
+    authority: Frontiers in Marine Science
+    domain: marine-geology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.3389/fmars.2024.1387235
+    use: recent depth measurement and uncertainty for Taam Ja' blue hole
+  - id: geomagnetism-inversion-context
+    authority: NASA Science
+    domain: geophysics
+    evidenceType: institutional-explainer
+    url: https://science.nasa.gov/science-research/earth-science/flip-flop-why-variations-in-earths-magnetic-field-arent-causing-todays-climate-change/
+    use: cautious framing of field variation and pole reversals
+  - id: gecko-atmosphere-adhesion
+    authority: Proceedings of the National Academy of Sciences
+    domain: biomimetics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1073/pnas.192252799
+    use: atmosphere and vacuum conditions in gecko adhesion experiments
+  - id: tardigrade-dsup
+    authority: eLife
+    domain: astrobiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.7554/eLife.47682
+    use: Dsup experiments and limits of DNA damage protection claims
+  - id: myctophid-migration
+    authority: PubMed Central
+    domain: marine-biology
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4728495/
+    use: biomass and vertical migration context for mesopelagic fishes
+  - id: yawning-social-contagion
+    authority: PLOS ONE
+    domain: behavioral-science
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028472
+    use: association between familiarity and contagious yawning, with sample limits
+  - id: zebra-individual-patterns
+    authority: PubMed Central
+    domain: zoology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6776349/
+    use: individual pattern variation and identification limits
+  - id: catatumbo-lightning-record
+    authority: NOAA Central Library
+    domain: atmospheric-science
+    evidenceType: institutional-report
+    url: https://repository.library.noaa.gov/view/noaa/52453
+    use: historical and observational context for Catatumbo lightning claims
+  - id: narwhal-tooth-anatomy
+    authority: Anatomical Record
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://anatomypubs.onlinelibrary.wiley.com/doi/full/10.1002/ar.22886
+    use: narwhal tooth variation and the limits of frequency claims
+  - id: axolotl-population-context
+    authority: PubMed Central
+    domain: conservation
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/
+    use: dated population and habitat context for wild axolotl claims

@@ -38,7 +38,7 @@ En respuesta a la desecación, el tardígrado repliega sus ocho extremidades hac
 
 1. **Síntesis de Proteínas TDP (Intrinsically Disordered Proteins):** Durante la desecación, los genes del tardígrado sintetizan de forma masiva proteínas citosólicas intrínsecamente desordenadas (TDPs). Al descender el nivel de agua, estas proteínas forman una red de biovidrio amorfo no cristalino que inmoviliza físicamente las biomoléculas y membranas celulares, impidiendo su desnaturalización o rotura mecánica.
 
-2. **La Proteína Dsup (Damage Suppressor):** Para sobrevivir a dosis de radiación gamma mil veces superiores a las letales para los humanos, poseen una proteína nuclear exclusiva denominada Dsup. Esta molécula se une de forma compacta a la doble hélice de ADN formando una coraza electrostática que apantalla físicamente a los ácidos nucleicos de los radicales libres hidroxilo producidos por los rayos cósmicos.
+2. **La Proteína Dsup (Damage Suppressor):** En un estudio experimental, la expresión de Dsup en células redujo parte del daño provocado por radiación y peróxido. El resultado ayuda a estudiar la protección del ADN, pero no demuestra que todos los tardígrados sobrevivan a una dosis fija ni que Dsup sea una “coraza” universal frente a los rayos cósmicos.
 
 3. **Rehidratación:** Al recuperar agua, un tardígrado que sobrevive a la desecación puede retomar actividad. El ritmo, los daños y la recuperación dependen de la especie, del tiempo en estado seco y de las condiciones del experimento; no hay una reparación instantánea garantizada.
 

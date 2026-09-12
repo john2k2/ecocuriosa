@@ -19,6 +19,9 @@ sources:
   - title: "Adhesion and friction in gecko toe attachment and detachment"
     publisher: "Proceedings of the National Academy of Sciences / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/17148600/"
+  - title: "Gecko adhesion is unaffected by atmosphere"
+    publisher: "Proceedings of the National Academy of Sciences"
+    url: "https://doi.org/10.1073/pnas.192252799"
 featured: false
 ---
 
@@ -67,7 +70,7 @@ En el año 2000, experimentos de nanomecánica con microscopía de fuerza atómi
 
 ### ¿Puede un geco caminar por una pared en el vacío absoluto?
 
-Sí. Experimentos de laboratorio en cámaras de alto vacío y en atmósferas con helio puro confirmaron que las fuerzas de Van der Waals siguen actuando con idéntica potencia, lo que demuestra que la presión de aire no interviene en el fenómeno.
+Sí, bajo las condiciones de los ensayos publicados. Se observó adhesión en vacío y en helio, lo que indica que el mecanismo no necesita presión de aire ni succión; la magnitud medida, sin embargo, depende del contacto, el material, la humedad y el protocolo, así que no debe describirse como idéntica en cualquier condición.
 
 ### ¿Por qué el geco resbala sobre superficies de teflón (PTFE)?
 

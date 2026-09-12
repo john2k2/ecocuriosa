@@ -40,7 +40,7 @@ El bostezo contagioso se ha descrito en humanos y en otras especies sociales, co
 
 2. **Hipótesis termorreguladora:** Propone que el bostezo podría participar en la regulación térmica. Es una línea de investigación, no un consenso clínico ni una explicación que permita inferir la temperatura cerebral de una persona.
 
-3. **El Gradiente de Vinculación Afectiva:** Experimentos de cronometría de contagio en la Universidad de Pisa demostraron que la probabilidad y latencia del bostezo reflejan con fidelidad la cercanía emocional: el contagio es máximo entre parientes directos de primer grado, intermedio entre amigos cercanos, débil entre conocidos y mínimo entre personas completamente extrañas.
+3. **El Gradiente de Vinculación Afectiva:** Algunos experimentos observaron una asociación entre la familiaridad social y la probabilidad o latencia del contagio. La magnitud cambia según la muestra y el contexto, así que no es una medida fiel o diagnóstica de cercanía emocional.
 
 ### Diferencias Clínicas y Neurobiológicas del Bostezo
 

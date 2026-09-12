@@ -59,7 +59,7 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
   * **Matiz científico:** La evidencia disponible se centra en la convección, la humedad, la topografía y la circulación atmosférica. Reducir un sistema de tormentas a una sola explicación no describe bien su complejidad.
 
 * **Mito 2:** Se cree que los rayos son silenciosos porque no generan truenos.
-  * **Realidad científica contrastada:** Todo rayo de 30.000 °C genera ondas de choque sónicas violentas (truenos). Si a menudo no se escuchan desde los pueblos es por pura física acústica: el sonido del trueno se disipa a distancias superiores a 20-25 km debido a gradientes térmicos y refracción del viento.
+  * **Realidad científica contrastada:** Una descarga calienta y expande el aire, generando una onda de choque que percibimos como trueno. La temperatura del canal y la distancia audible dependen del tipo de descarga y de la atmósfera; no conviene convertir cifras divulgativas como 30.000 °C o 20–25 km en límites universales.
 
 ---
 
@@ -67,7 +67,7 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
 
 ### ¿Por qué el relámpago del Catatumbo era conocido como el 'Faro de Maracaibo'?
 
-Porque durante los siglos XVI, XVII y XVIII los navegantes caribeños y piratas utilizaban sus destellos ininterrumpidos en el horizonte nocturno como un faro natural para orientarse hacia la entrada del golfo de Venezuela a más de 150 km de distancia.
+Porque relatos históricos lo describen como una referencia luminosa para la navegación en el lago y el golfo de Venezuela. “Faro de Maracaibo” es un apodo histórico: no demuestra que los destellos fueran ininterrumpidos ni que siempre fueran visibles a 150 km.
 
 ### ¿Genera una fracción relevante del ozono mundial?
 

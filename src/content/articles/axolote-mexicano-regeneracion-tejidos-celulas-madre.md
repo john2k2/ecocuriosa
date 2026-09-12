@@ -19,6 +19,9 @@ sources:
   - title: "The axolotl limb blastema"
     publisher: "Regeneration / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/"
+  - title: "Axolotl conservation and population context"
+    publisher: "Peer-reviewed literature / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/"
 featured: false
 ---
 
@@ -75,7 +78,7 @@ El genoma del axolote, de gran tamaño, es una herramienta para estudiar genes y
 
 ### ¿Cuál es la situación actual del axolote en su hábitat natural?
 
-Críticamente amenazado. La contaminación del agua en Xochimilco, la desecación de canales y la introducción de peces exóticos depredadores como la carpa y la tilapia han reducido la población silvestre a menos de 100 individuos por kilómetro cuadrado.
+Críticamente amenazado. La contaminación del agua en Xochimilco, la desecación de canales y la introducción de peces exóticos depredadores como la carpa y la tilapia han reducido mucho la población silvestre. Las densidades publicadas dependen del año, la zona muestreada y el método, así que cualquier cifra debe llevar fecha y fuente en lugar de presentarse como un valor actual único.
 
 ---
 

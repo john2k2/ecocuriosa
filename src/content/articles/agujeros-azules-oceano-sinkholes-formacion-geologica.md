@@ -18,6 +18,9 @@ sources:
   - title: "Great Blue Hole sedimentary record"
     publisher: "The Depositional Record"
     url: "https://doi.org/10.1002/dep2.70021"
+  - title: "Taam Ja': the deepest known blue hole"
+    publisher: "Frontiers in Marine Science"
+    url: "https://doi.org/10.3389/fmars.2024.1387235"
 featured: false
 ---
 
@@ -45,8 +48,8 @@ Geológicamente, estas estructuras no fueron talladas por corrientes marinas mod
 
 | Agujero Azul | Ubicación Geográfica | Profundidad Máxima | Diámetro Superficial |
 | :--- | :--- | :--- | :--- |
-| Agujero del Dragón (Longdong) | Islas Paracelso (Mar de China Meridional) | 300,89 metros (el más profundo del mundo) | ~ 130 metros |
-| Gran Agujero Azul | Arrecife de Lighthouse (Belice) | 124 metros | 318 metros (el más ancho del mundo) |
+| Agujero del Dragón (Longdong) | Islas Paracelso (Mar de China Meridional) | 300,89 metros (medición publicada para este sitio) | ~ 130 metros |
+| Gran Agujero Azul | Arrecife de Lighthouse (Belice) | 124 metros | 318 metros (ancho reportado) |
 | Dean's Blue Hole | Long Island (Bahamas) | 202 metros | ~ 50 metros en boca / 100 m en fondo |
 | Blue Hole de Dahab | Península del Sinaí (Mar Rojo, Egipto) | 120 metros | ~ 150 metros (con arco submarino de 26 m) |
 
