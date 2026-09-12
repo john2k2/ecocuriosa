@@ -25,6 +25,24 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "institutional"
     scope: "Contexto divulgativo de conducta y hábitat, no sustituto de un censo"
+  - title: "Neural control of cephalopod camouflage"
+    publisher: "Current Biology"
+    url: "https://doi.org/10.1016/j.cub.2023.08.095"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Control neural y patrones dinámicos en cefalópodos; no exclusivo de Thaumoctopus mimicus"
+  - title: "Dynamic skin behaviors in cephalopods"
+    publisher: "Current Opinion in Neurobiology"
+    url: "https://www.sciencedirect.com/science/article/pii/S0959438824000382"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Camuflaje, mimetismo y comunicación visual de la piel"
+  - title: "Dynamic pigmentary and structural coloration within cephalopod chromatophore organs"
+    publisher: "PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6397165/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Coloración pigmentaria y estructural en condiciones experimentales"
 featured: false
 ---
 
@@ -59,7 +77,13 @@ Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* pued
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Color, postura y control de la piel
+
+El cambio visible no es una sola operación. Los cromatóforos y otros órganos de la piel producen parte del color, mientras que la postura y el movimiento modifican la silueta. Revisiones recientes sobre cefalópodos describen el control neural de esos patrones, pero no estudian necesariamente a *T. mimicus* en cada experimento. Por eso esta evidencia sirve para explicar el mecanismo general, no para convertir una hipótesis sobre la especie en una medición directa.
+
+---
+
+## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que el pulpo mimo copia la forma de los animales de manera inconsciente o refleja como una planta carnívora.
   * **Matiz:** El cambio de postura en un contexto de amenaza sugiere flexibilidad conductual. No basta para inferir una representación mental completa del modelo ni una intención consciente idéntica a la humana.
@@ -69,7 +93,7 @@ Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* pued
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Cómo controla el cambio de patrones en su piel sin ver los colores?
 

@@ -25,6 +25,18 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "review"
     scope: "Síntesis de reproducción y vacíos de conocimiento"
+  - title: "The Greenland shark genome"
+    publisher: "PNAS"
+    url: "https://doi.org/10.1073/pnas.2601272123"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Genoma a escala cromosómica y rutas candidatas de reparación celular"
+  - title: "How long do Greenland sharks live?"
+    publisher: "NOAA Ocean Service"
+    url: "https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Método de radiocarbono e intervalo de edad; contexto divulgativo"
 featured: false
 ---
 
@@ -59,7 +71,13 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Qué aporta el genoma y qué no puede demostrar
+
+El primer genoma del tiburón de Groenlandia a escala cromosómica ofrece un mapa para estudiar reparación del ADN, inmunidad y estabilidad celular. Esas rutas son candidatas de investigación: encontrar un gen o una variante asociada no demuestra que cause la longevidad ni que pueda convertirse en un tratamiento humano. La [ficha de NOAA](https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412) recuerda además que la datación por radiocarbono produce intervalos amplios, no una edad exacta para cada ejemplar.
+
+---
+
+## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se dice que su carne es “venenosa” y mortal en cualquier circunstancia.
   * **Matiz:** La química de sus tejidos y la preparación tradicional requieren contexto; “venenoso” no es una descripción taxonómica y este artículo no recomienda consumir carne cruda ni experimentar con preparaciones. Las afirmaciones culinarias deben contrastarse con autoridades sanitarias locales.
@@ -69,7 +87,7 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Cómo logran atrapar focas si son animales tan lentos?
 

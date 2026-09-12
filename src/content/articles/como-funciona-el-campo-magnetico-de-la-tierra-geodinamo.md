@@ -23,6 +23,18 @@ sources:
     url: "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/"
     evidenceType: "institutional"
     scope: "Interacción de la magnetosfera con el viento solar y partículas energéticas"
+  - title: "Satellite magnetic data reveal interannual waves in Earth's core"
+    publisher: "PNAS / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Ondas magneto-Coriolis inferidas a partir de satélites, observatorios y modelos"
+  - title: "Swarm unveils magnetic waves deep down"
+    publisher: "European Space Agency"
+    url: "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Contexto de una onda magnética hacia el oeste y su periodo aproximado"
 featured: false
 ---
 
@@ -58,7 +70,15 @@ Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: u
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Qué pueden revelar las mediciones desde el espacio
+
+Los satélites no observan directamente el metal del núcleo externo. Registran variaciones del campo magnético en el entorno terrestre y, al combinarlas con observatorios y modelos, permiten inferir cambios en el flujo profundo. Un análisis publicado en *PNAS* identificó ondas magneto-Coriolis con variación interanual; la [misión Swarm de la ESA](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) describe una señal que se desplaza hacia el oeste con un periodo aproximado de siete años.
+
+Estas señales muestran que la geodinamo cambia con el tiempo, pero no permiten anunciar una inversión de polaridad ni convertir un cambio regional en una predicción global. La inferencia depende del modelo, del periodo observado y de la separación entre señales del núcleo, la corteza, los océanos y la ionosfera.
+
+---
+
+## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que si los polos magnéticos se invierten, la Tierra quedará sin campo magnético y la vida morirá calcinada.
   * **Realidad científica contrastada:** El registro paleomagnético conserva cientos de inversiones sin una asociación simple con extinciones masivas. Durante una transición el campo puede debilitarse y adoptar una configuración multipolar, pero la intensidad, la duración y la geometría no son constantes: no conviene presentar un 10–20% o “pocos milenios” como valores universales.
@@ -68,7 +88,7 @@ Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: u
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Qué relación tiene Marte con el estudio de las dinamos planetarias?
 

@@ -1,6 +1,6 @@
 ---
-title: "La Química del Petricor: Por Qué Amamos el Inconfundible Olor a Tierra Mojada"
-description: "La geosmina contribuye al olor a tierra mojada; las gotas de lluvia también pueden liberar aerosoles del suelo que transportan moléculas volátiles."
+title: "Geosmina y petricor: por qué huele la tierra mojada"
+description: "Cómo la geosmina, los aceites vegetales y los aerosoles del suelo contribuyen al olor a tierra mojada, sin reducir el petricor a una sola molécula."
 category: "ciencia-curiosa"
 pubDate: 2026-09-04
 author: "Equipo Editorial EcoCuriosa"
@@ -23,6 +23,18 @@ sources:
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/"
     evidenceType: "primary"
     scope: "Biosíntesis de geosmina por microorganismos"
+  - title: "The human odorant receptor OR11A1 detects geosmin"
+    publisher: "Journal of Agricultural and Food Chemistry"
+    url: "https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Ensayos in vitro de 616 variantes de receptores humanos y respuesta a geosmina"
+  - title: "The human odorant receptor OR11A1 detects geosmin (PMC)"
+    publisher: "PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261619/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Métodos y comparación de receptores entre especies"
 featured: false
 ---
 
@@ -35,6 +47,8 @@ featured: false
 El término 'petricor' fue acuñado formalmente en 1964 por dos químicos australianos, Isabel Joy Bear y Richard Thomas, en un artículo pionero publicado en la revista *Nature*. Al estudiar los destilados de rocas y arcillas secadas al sol estival, descubrieron que durante las épocas secas las plantas secretan mezclas complejas de ácidos grasos (como el ácido esteárico y palmítico) sobre el sustrato mineral para inhibir la germinación prematura de semillas en condiciones de escasez hídrica.
 
 A estos aceites botánicos se suma la geosmina ($C_{12}H_{22}O$), una molécula sintetizada de forma natural por microorganismos del suelo, especialmente actinobacterias del género *Streptomyces*, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/). La cantidad y la forma en que llega al aire dependen del suelo y de la lluvia.
+
+Un estudio de 2024 probó 616 variantes de receptores olfativos humanos y encontró que OR11A1 respondía a la geosmina en las concentraciones fisiológicamente relevantes del ensayo. Es una evidencia de laboratorio sobre un receptor concreto, no una explicación completa de todos los olores del petricor ni una medida universal del umbral de cada persona.
 
 ---
 
@@ -59,7 +73,7 @@ A estos aceites botánicos se suma la geosmina ($C_{12}H_{22}O$), una molécula 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que el olor a tierra mojada proviene del agua de lluvia pura caída de las nubes.
-  * **Realidad científica contrastada:** El agua de lluvia en sí misma es inodora. El aroma proviene íntegramente de la tierra y las bacterias del suelo: una lluvia que cae sobre una lona de plástico limpia o sobre una piscina de cloro no produce petricor.
+  * **Realidad científica contrastada:** El agua de lluvia no aporta por sí sola la mezcla aromática. El petricor puede incluir geosmina, aceites vegetales y otros compuestos que la lluvia moviliza desde una superficie concreta; por eso no se explica con una única molécula ni con una sola bacteria.
 
 * **Mito 2:** Se asume que la lluvia torrencial fuerte produce más olor a petricor que la llovizna suave.
   * **Realidad científica contrastada:** Experimentos del MIT revelaron lo contrario: las lluvias suaves o moderadas sobre suelos cálidos y secos generan el mayor número de aerosoles estables; los aguaceros torrenciales inundan el suelo con demasiada rapidez, ahogando las microburbujas antes de que puedan estallar.
