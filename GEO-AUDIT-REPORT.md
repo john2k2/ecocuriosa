@@ -137,11 +137,11 @@ de Search Console:
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | Producción antes de la optimización | 41/100 | 4,4 s | 7,8 s | 0 | 670 ms | AdSense se descargaba sin slots y Cloudflare inyectaba JavaScript de detección |
 | Producción después de retirar ese runtime | 84/100 | 3,3 s | 3,3 s | 0 | 0 ms | 96 imágenes intactas; el coste restante dominante era la red externa |
-| Producción actual con tipografías locales y nombres versionados (mediana de 3 ejecuciones) | 96/100 | 1,7 s | 2,4 s | 0 | 123 ms | 120,9 KB de tipografías; SEO y accesibilidad 100/100; Best Practices 81/100 por tres avisos de APIs obsoletas en JavaScript Detections de Cloudflare |
+| Producción actual con tipografías locales y nombres versionados (mediana actualizada de 3 ejecuciones) | 98/100 | 1,1 s | 1,9 s | 0 | 130 ms | Corridas 92/98/99; 120,9 KB de tipografías; SEO y accesibilidad 100/100; Best Practices 81/100 por tres avisos de APIs obsoletas en JavaScript Detections de Cloudflare |
 | Control local con tipografías locales (mediana de 3 ejecuciones) | 99/100 | 1,5 s | 2,1 s | 0 | 0 ms | Aísla el código del sitio sin Cloudflare ni AdSense |
 
-La ejecución final dejó SEO y accesibilidad en 100/100 y rendimiento entre 94
-y 97/100. Best Practices quedó en 81/100 por avisos emitidos por el script
+La primera tanda dejó SEO y accesibilidad en 100/100 y rendimiento entre 94
+y 97/100. La repetición más reciente dio 92/98/99 (mediana 98/100). Best Practices quedó en 81/100 por avisos emitidos por el script
 gestionado de JavaScript Detections de Cloudflare; no es código propio del
 sitio. La medición final de campo queda pendiente de datos RUM suficientes y
 de repetir el ensayo cuando AdSense tenga slots aprobados; no se debe presentar
