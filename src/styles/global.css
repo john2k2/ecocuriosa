@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url('/fonts/albert-sans-latin.woff2') format('woff2');
+  src: url('/fonts/albert-sans-latin-v2.woff2') format('woff2');
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url('/fonts/literata-latin.woff2') format('woff2');
+  src: url('/fonts/literata-latin-v2.woff2') format('woff2');
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/literata-italic-latin.woff2') format('woff2');
+  src: url('/fonts/literata-italic-latin-v2.woff2') format('woff2');
 }
 
 @layer base {

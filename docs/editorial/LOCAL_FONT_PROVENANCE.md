@@ -18,9 +18,9 @@ ampliar el conjunto de glifos antes de publicar.
 Hashes SHA-256 de los activos publicados:
 
 ```text
-albert-sans-latin.woff2       238a71e26eb93f594438cc4adcd20e2abe63bb589d086eb2d4c23f5938631dd1
-literata-italic-latin.woff2   63b99fbab924d5cd2bc7e9d1b069718278f1245d77b3edf07857707e85691712
-literata-latin.woff2          fb51fc5388e29a8af43d350119f63557173fb50ee7503effd8b560d3414d6fa8
+albert-sans-latin-v2.woff2       238a71e26eb93f594438cc4adcd20e2abe63bb589d086eb2d4c23f5938631dd1
+literata-italic-latin-v2.woff2   63b99fbab924d5cd2bc7e9d1b069718278f1245d77b3edf07857707e85691712
+literata-latin-v2.woff2          fb51fc5388e29a8af43d350119f63557173fb50ee7503effd8b560d3414d6fa8
 ```
 
 Ambas familias se distribuyen bajo la [SIL Open Font License 1.1 de

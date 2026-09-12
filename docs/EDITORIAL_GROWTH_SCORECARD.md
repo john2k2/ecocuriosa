@@ -13,7 +13,7 @@
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
 | E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
 
-Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense.
+Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la comprobación de las 96 URLs (70 respuestas 200, 9 respuestas 203 y 17 respuestas 403); los estados restringidos requieren revisión manual.
 
 Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) muestran ahora `updatedDate` y `dateModified` porque tuvieron cambios sustanciales de texto y fuentes. Ese campo no equivale a `reviewedDate`: la revisión humana del archivo sigue siendo una puerta independiente.
 
