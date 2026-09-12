@@ -210,4 +210,20 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 55 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 64 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+
+### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
+
+Estas fichas nacen de impresiones observadas (no de volumen estimado). Siguen en estado `candidate`: Luna puede preparar un brief local, pero una persona debe abrir las fuentes, fijar el alcance y aprobar cualquier publicación.
+
+| Consulta observada | Brief people-first | Fuentes candidatas del catálogo | Aportación original e imagen | Riesgo / siguiente comprobación |
+| --- | --- | --- | --- | --- |
+| `geodinamo`, `geodinamo terrestre` | ¿Cómo se mide un campo generado a miles de kilómetros de profundidad? | `noaa-geomag-models`, `esa-swarm-mission`, `esa-core-flow-space`, `esa-south-atlantic-weak-spot` | Corte original de la Tierra + mapa de variación; ilustración propia | Separar modelo, medición y predicción; validar fechas y región |
+| `pulpo mimo` | ¿Qué se observó realmente del pulpo mimo y cómo se describió su especie? | `thaumoctopus-mimicus-original-description`, `thaumoctopus-mimicus-mozambique-2024`, `worms-thaumoctopus` | Secuencia original de postura/color; no usar foto ajena sin licencia | No fijar “15 especies” ni atribuir intención humana; abrir la descripción taxonómica |
+| `architeuthis dux`, `architeuthis` | ¿Qué revelan los picos y los isótopos del calamar gigante? | `giant-squid-isotopes-pmc1559839`, `giant-squid-size-pmc4304853` | Escala de evidencia museo → vídeo → pico → isótopos | Distinguir longitud medida, estimada y masa; comprobar muestras |
+| `relámpago de Catatumbo` | ¿Cómo se diferencian récord satelital, frecuencia y mecanismo local? | `nasa-global-lightning-activity`, `nasa-lightning-capital-trmm` | Mapa Lago–Catatumbo con sensor, período y unidad | No decir “tormenta eterna”; no mezclar sensores ni períodos |
+| `geosmina`, `petricor` | ¿Qué parte del olor procede de geosmina y qué parte de la lluvia? | `noaa-rain-voc-pulse`, `pubmed-geosmin-isolation`, `nature-petrichor-1964` | Diagrama gota → aerosol → molécula; ilustración química original | Petricor no equivale a un compuesto; validar el contexto experimental |
+| `pangolín gigante` | ¿Qué cuentan las madrigueras y el genoma sobre una especie poco observada? | `pangolin-shared-burrows-pmc7323177`, `pangolin-genome-pmc10551234` | Esquema de madriguera + armadura original | No generalizar datos de una especie; completar evaluación IUCN manualmente |
+| `tiburón de Groenlandia` | Más allá del récord de edad: ¿qué sabemos de distribución, hábitat y visión? | `coeswic-greenland-shark-2025`, `greenland-shark-life-stages-pmc12206561`, `greenland-shark-vision-pmc12770505` | Diagrama de cristalino, profundidad y telemetría | No presentar 392 ± 120 años como edad exacta; comprobar jurisdicción/fecha |
+| `león de las nieves` | ¿León o leopardo de las nieves? Resolver la búsqueda sin perpetuar el nombre incorrecto | `snow-leopard-phylogeography-2024`, `snow-leopard-iucn-species-pdf`, `snow-leopard-un-observance` | Infografía de pelaje, patas, cola y altitud | La entidad principal es el leopardo; verificar PDF IUCN en navegador |
+| `geosmina` (variante) | ¿Por qué el olor de lluvia cambia según suelo y microorganismos? | `noaa-rain-voc-pulse`, `pubmed-geosmin-isolation` | Comparación de suelo seco/mojado; ilustración, no “foto científica” | No prometer una única causa ni extrapolar laboratorio a toda lluvia |

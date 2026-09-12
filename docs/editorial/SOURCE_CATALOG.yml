@@ -1237,3 +1237,135 @@ entries:
     evidenceType: peer-reviewed-review
     url: https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436
     use: comparative aeroacoustics of silent owl flight; avoid claiming every owl is completely silent
+  - id: noaa-geomag-models
+    authority: NOAA NCEI
+    domain: geomagnetism
+    evidenceType: institutional-dataset
+    url: https://www.ngdc.noaa.gov/geomag/models.shtml
+    use: WMM/IGRF geomagnetic models and temporal variation; distinguish model output from direct core measurements
+  - id: esa-swarm-mission
+    authority: European Space Agency
+    domain: geomagnetism
+    evidenceType: mission-documentation
+    url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm
+    use: satellite measurements of Earth magnetic field; preserve mission and observation scope
+  - id: esa-core-flow-space
+    authority: European Space Agency
+    domain: geomagnetism
+    evidenceType: institutional-analysis
+    url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Insights_into_Earth_s_molten_outer_core_from_space
+    use: modeled changes in outer-core flow from Swarm observations; date results and do not imply a global reversal
+  - id: esa-south-atlantic-weak-spot
+    authority: European Space Agency
+    domain: geomagnetism
+    evidenceType: institutional-analysis
+    url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_reveals_growing_weak_spot_in_Earth_s_magnetic_field
+    use: South Atlantic Anomaly regional change; keep sensor period and model context visible
+  - id: thaumoctopus-mimicus-original-description
+    authority: Magnolia Press
+    domain: marine-biology
+    evidenceType: taxonomic-publication
+    url: https://www.mapress.com/mrs/article/view/mr.25.2.1
+    use: original taxonomic description of Thaumoctopus mimicus; avoid fixed counts of imitated species
+  - id: thaumoctopus-mimicus-mozambique-2024
+    authority: Marine Biodiversity Records
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1017/S0025315424000201
+    use: 2024 photographic distribution record; separate one record from global range
+  - id: worms-thaumoctopus
+    authority: World Register of Marine Species
+    domain: taxonomy
+    evidenceType: taxonomic-database
+    url: https://www.marinespecies.org/aphia.php?p=taxlist&tName=Thaumoctopus
+    use: accepted taxonomic name and synonym context; record access date
+  - id: giant-squid-isotopes-pmc1559839
+    authority: Royal Society B / PubMed Central
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1559839/
+    use: giant-squid diet and trophic inferences from stable isotopes; state sample and method limits
+  - id: giant-squid-size-pmc4304853
+    authority: PeerJ / PubMed Central
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/
+    use: reliability and limits of giant-squid size estimates; separate measured specimens from historical claims
+  - id: nasa-global-lightning-activity
+    authority: NASA Earth Observatory
+    domain: atmospheric-science
+    evidenceType: satellite-analysis
+    url: https://science.nasa.gov/earth/earth-observatory/global-lightning-activity-85600/
+    use: global lightning observations from LIS/OTD; preserve sensor period and metric
+  - id: nasa-lightning-capital-trmm
+    authority: NASA
+    domain: atmospheric-science
+    evidenceType: satellite-analysis
+    url: https://www.nasa.gov/missions/trmm/earths-new-lightning-capital-revealed/
+    use: long-running satellite comparison of lightning rates; do not call a site eternal
+  - id: noaa-rain-voc-pulse
+    authority: NOAA Repository / JGR
+    domain: microbial-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/26975
+    use: volatile-organic-compound pulse after wetting soil; do not equate petrichor with geosmin alone
+  - id: pubmed-geosmin-isolation
+    authority: PubMed
+    domain: microbial-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/5866039/
+    use: isolation of geosmin from Streptomyces; report the studied organism and chemical scope
+  - id: nature-petrichor-1964
+    authority: Nature
+    domain: microbial-chemistry
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/2071415a0
+    use: historical description of petrichor and associated compounds; retain historical context
+  - id: pangolin-shared-burrows-pmc7323177
+    authority: Mammalian Biology / PubMed Central
+    domain: conservation-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7323177/
+    use: camera and burrow observations in Gabon; do not generalize to all pangolin species
+  - id: pangolin-genome-pmc10551234
+    authority: PubMed Central
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10551234/
+    use: reference genome of Smutsia gigantea; distinguish genomic resource from population census
+  - id: coeswic-greenland-shark-2025
+    authority: COSEWIC / Government of Canada
+    domain: marine-conservation
+    evidenceType: government-assessment
+    url: https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/greenland-shark-2025.html
+    use: threats, late maturity and data limits in a 2025 assessment; preserve jurisdiction and date
+  - id: greenland-shark-life-stages-pmc12206561
+    authority: PubMed Central
+    domain: marine-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12206561/
+    use: distribution and life-stage records; report dataset size and geographic limits
+  - id: greenland-shark-vision-pmc12770505
+    authority: PubMed Central
+    domain: sensory-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12770505/
+    use: visual adaptation in dark water; avoid turning one study into universal behavior
+  - id: snow-leopard-phylogeography-2024
+    authority: Biodiversity and Conservation
+    domain: conservation-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://link.springer.com/article/10.1007/s10531-024-02928-4
+    use: population structure and connectivity from 182 individuals; preserve sample and region
+  - id: snow-leopard-iucn-species-pdf
+    authority: IUCN Red List
+    domain: conservation-biology
+    evidenceType: conservation-assessment
+    url: https://nc.iucnredlist.org/redlist/amazing-species/panthera-uncia/pdfs/original/panthera-uncia.pdf
+    use: species conservation context; open manually and verify current assessment before publication
+  - id: snow-leopard-un-observance
+    authority: United Nations
+    domain: conservation-communication
+    evidenceType: institutional-context
+    url: https://www.un.org/en/observances/snow-leopard-day
+    use: official species naming and conservation observance; not a population dataset
