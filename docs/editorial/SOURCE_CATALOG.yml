@@ -547,3 +547,93 @@ entries:
     evidenceType: documentation
     url: https://support.google.com/webmasters/answer/17011259?hl=es
     use: dimension definitions, aggregation and reporting limitations
+  - id: google-quality-rater-guidelines
+    authority: Google Search
+    domain: editorial-quality
+    evidenceType: evaluator-guidance
+    url: https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf
+    use: evaluate authorship, site responsibility, reputation and trust signals; not a ranking specification
+  - id: google-discover-guidance
+    authority: Google Search Central
+    domain: discovery
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/google-discover
+    use: Discover eligibility, timely people-first content and large relevant images
+  - id: google-news-discovery
+    authority: Google News
+    domain: discovery
+    evidenceType: documentation
+    url: https://support.google.com/news/publisher-center/answer/9606634?hl=es
+    use: crawlable links and conditional News sitemap guidance for genuinely newsworthy publishing
+  - id: google-news-crawled-content
+    authority: Google News
+    domain: discovery
+    evidenceType: documentation
+    url: https://support.google.com/news/publisher-center/answer/9606797?hl=es
+    use: discoverable static content, duplicate control and crawlability limits
+  - id: search-console-discover-performance
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/9216516?hl=es
+    use: Discover clicks, impressions and CTR when the property has enough eligible traffic
+  - id: adsense-payment-steps
+    authority: Google AdSense
+    domain: payments
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/1709858?hl=es
+    use: tax, identity, address, payment method and threshold steps; country-specific limits apply
+  - id: adsense-address-pin
+    authority: Google AdSense
+    domain: payments
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/157667?hl=es
+    use: postal address verification and PIN workflow after the verification threshold
+  - id: adsense-payments-profile
+    authority: Google AdSense
+    domain: payments
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/7363450?hl=es
+    use: align legal name, country, address, tax identity and payee in the payments profile
+  - id: adsense-payment-holds
+    authority: Google AdSense
+    domain: payments
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/1714364?hl=es
+    use: diagnose payment holds caused by tax, identity, address, payment method or policy review
+  - id: adsense-valid-payment-address
+    authority: Google AdSense
+    domain: payments
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/13863682?hl=es
+    use: use an address where the publisher genuinely resides or works and can receive international mail
+  - id: adsense-european-regulations-messages
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/10961068?hl=es
+    use: consent, refusal and withdrawal controls for European-regulation messages
+  - id: search-console-bulk-export
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/12918484?hl=es
+    use: optional daily Search Console export to BigQuery for longer-term analysis
+  - id: search-console-bulk-export-setup
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/12917675?hl=es
+    use: BigQuery permissions, location and partition-expiration setup; may incur cloud costs
+  - id: search-console-report-export
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/12919797?hl=es
+    use: export filtered reports to CSV, Sheets or Excel with row-limit caveats
+  - id: search-console-links
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/9049606?hl=es
+    use: sample internal and external link reports for discoverability and authority checks

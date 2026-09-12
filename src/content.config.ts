@@ -28,8 +28,9 @@ const articlesCollection = defineCollection({
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     /**
-     * Every source must be an editorially checked, direct URL. A model may
-     * suggest candidates but must never populate this field without review.
+     * Sources are direct, structured URLs shown to readers. A model may
+     * suggest candidates, but only a person can verify their correspondence
+     * with the article and record reviewedDate/reviewedBy.
      */
     sources: z.array(sourceSchema).default([]),
     reviewedDate: z.date().optional(),

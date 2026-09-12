@@ -77,6 +77,17 @@ Publicación humana y medición posterior
 
 La salida de Luna debe contener una tabla de afirmaciones, fuente exacta y nivel de certeza. Si falta una fuente verificable, la afirmación queda fuera. Nunca debe inventar autoría, imágenes con licencia, resultados, revisiones o citas.
 
+## Puerta de cuenta y pagos de AdSense
+
+Esta puerta es manual y separada del flujo editorial. El titular debe completar en AdSense la información legal, fiscal y de pagos que corresponda a su situación real; Luna y el repositorio no deben recibir documentos, identificaciones, números fiscales, datos bancarios ni contraseñas.
+
+1. **Antes de la aprobación:** mantener el perfil coherente y completar el mensaje CMP certificado para EEE, Reino Unido y Suiza cuando AdSense lo solicite. El mensaje de consentimiento no sustituye la política de privacidad ni una revisión legal local.
+2. **Cuando Google lo solicite:** confirmar nombre legal, país y dirección postal real en el [perfil de pagos](https://support.google.com/adsense/answer/7363450?hl=es); no usar una dirección temporal solo para superar la revisión.
+3. **Después del umbral de verificación:** responder al [PIN de dirección](https://support.google.com/adsense/answer/157667?hl=es), completar impuestos y elegir el método de pago disponible para el país del perfil.
+4. **Si aparece una retención:** seguir las [causas de retención](https://support.google.com/adsense/answer/1714364?hl=es) y resolver la alerta en la cuenta; no intentar corregirla publicando más páginas o cambiando anuncios.
+
+La aprobación de contenido, el perfil de pagos y el cobro son decisiones distintas: completar el perfil no garantiza aprobación editorial ni ingresos. Las cifras de RPM, CPM o audiencia solo se podrán evaluar con datos reales después de que la cuenta publique anuncios y acumule impresiones válidas.
+
 ## Estrategia de imágenes
 
 | Caso | Decisión |
