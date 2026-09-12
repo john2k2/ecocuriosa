@@ -242,7 +242,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 296 entradas, 75 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 310 entradas, 80 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -310,3 +310,18 @@ Estas catorce fuentes amplían la investigación de las fichas con más riesgo d
 | Imágenes | [Buenas prácticas de imágenes en Google Search](https://developers.google.com/search/docs/appearance/google-images) | Mantener URL estable, `alt` descriptivo, contexto editorial y una página indexable; no confundir una ilustración con una fotografía documental. |
 | AdSense | [Qué hacer si el sitio aún no está listo](https://support.google.com/adsense/answer/12176698?hl=es) | Separar la presencia del código de la evaluación de contenido único, experiencia y navegación; no activar slots inventados. |
 | Snippets | [Preguntas frecuentes sobre la apariencia en Search](https://developers.google.com/search/help/site-appearance-faq) | Revisar títulos y descripciones para que respondan a la consulta sin prometer un resultado enriquecido. |
+
+### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
+
+Estas fuentes amplían los cinco clústeres con señales de Search Console. Se
+guardan como candidatas de inspiración en `SOURCE_CATALOG.yml`; la persona
+editora debe abrir el texto y validar cada afirmación antes de convertirlas en
+referencias de una monografía.
+
+| Clúster | Pregunta people-first | Fuentes candidatas | Aportación visual / límite |
+| --- | --- | --- | --- |
+| Geodinamo | ¿Qué parte del flujo del núcleo se observa y qué parte se infiere? | `geodynamo-priors-core-flows-2025`, `geodynamo-transient-dynamics-2023`, `geodynamo-mantle-heterogeneity-2026` | Corte núcleo–manto con capas de incertidumbre; no es observación directa ni predicción de inversión. |
+| Geosmina y petricor | ¿Por qué la misma molécula puede atraer o repeler según el organismo? | `geosmin-collembola-streptomyces-2020`, `geosmin-warning-chemical-2022`, `geosmin-chemical-ecology-review-2023` | Mapa organismo–señal–respuesta; los experimentos son de especies y cepas concretas, no una explicación universal del petricor. |
+| Tiburón de Groenlandia | ¿Qué sabemos de reproducción y transcriptoma además del récord de edad? | `greenland-shark-spermatogenesis-2024`, `greenland-shark-line-elements-2023` | Línea de vida y flujo RNA→hipótesis; no convertir asociaciones en mecanismos de longevidad. |
+| Pulpo mimo | ¿Cómo separar rango geográfico, mimetismo observado e intención? | `mimic-octopus-facultative-mimicry-2010`, `mimic-octopus-arabian-sea-range-2020`, `cephalopod-predator-avoidance-review-2022` | Mapa de registros y secuencia de postura; dos ejemplares o una revisión comparativa no prueban un repertorio fijo. |
+| Relámpago del Catatumbo | ¿Cómo cambian el “récord” y la frecuencia cuando cambia el sensor? | `catatumbo-lis-climatology-2026`, `catatumbo-lightning-datasets-2026`, `catatumbo-seasonal-prediction-2016` | Mapa con sensor, periodo y unidad; muestreo orbital y correlaciones no equivalen a observación continua ni causa única. |

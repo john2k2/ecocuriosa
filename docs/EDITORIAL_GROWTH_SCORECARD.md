@@ -142,7 +142,7 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 296 entradas y la biblioteca 75 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; la tanda siguiente añadió diez fuentes para seis clústeres de revisión, la búsqueda del 12/09 añadió doce fuentes para ocho temas de evidencia, esta revisión añadió catorce fuentes para ocho temas prioritarios y la verificación oficial añadió cuatro controles de Google sobre IA, imágenes, snippets y preparación de AdSense. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene 310 entradas y la biblioteca 80 briefs. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; la tanda siguiente añadió diez fuentes para seis clústeres de revisión, la búsqueda del 12/09 añadió doce fuentes para ocho temas de evidencia, esta revisión añadió catorce fuentes para ocho temas prioritarios y la verificación oficial añadió cuatro controles de Google sobre IA, imágenes, snippets y preparación de AdSense. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

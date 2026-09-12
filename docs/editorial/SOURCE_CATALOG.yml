@@ -1783,3 +1783,87 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://nsuworks.nova.edu/occ_facarticles/1077/
     use: eye-facing photophores as a counterillumination reference in sampled stomiiform fishes; preserve taxonomic and sample limits, not all myctophids
+  - id: geodynamo-priors-core-flows-2025
+    authority: Physics of the Earth and Planetary Interiors / ScienceDirect
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.pepi.2025.107323
+    use: inversion of core-surface flows from geomagnetic data and geodynamo priors; preserve the underdetermined inverse problem and do not call it direct observation
+  - id: geodynamo-transient-dynamics-2023
+    authority: Geophysical Journal International / Oxford Academic
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1093/gji/ggad039
+    use: assimilation of ground and satellite data for transient core-surface dynamics and multi-year magneto-Coriolis signals; retain model and separation uncertainties
+  - id: geodynamo-mantle-heterogeneity-2026
+    authority: Nature Geoscience / White Rose Research Online
+    domain: paleomagnetism
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/s41561-025-01910-1
+    use: paleomagnetic and numerical evidence linking mantle heat-flow heterogeneity to the ancient magnetic field; limit the result to the studied geological interval, not the current core
+  - id: geosmin-collembola-streptomyces-2020
+    authority: Nature Microbiology / University of Warwick manuscript
+    domain: chemical-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/s41564-020-0697-x
+    use: geosmin and 2-methylisoborneol attraction of a soil arthropod to Streptomyces and possible spore dispersal; preserve tested strains and species, not all petrichor or human perception
+  - id: geosmin-warning-chemical-2022
+    authority: Applied and Environmental Microbiology / American Society for Microbiology
+    domain: chemical-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1128/aem.00093-22
+    use: chemotaxis and neural response to geosmin in C. elegans; retain the laboratory species and avoid universalizing a warning function to humans
+  - id: geosmin-chemical-ecology-review-2023
+    authority: Environmental Microbiology / Wiley
+    domain: chemical-ecology
+    evidenceType: peer-reviewed-review
+    url: https://doi.org/10.1111/1462-2920.16381
+    use: review of geosmin as context-dependent attractant, repellent or protective signal; use for framing rather than as direct evidence for the human OR11A1 receptor
+  - id: greenland-shark-spermatogenesis-2024
+    authority: PLOS ONE
+    domain: marine-reproduction
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1371/journal.pone.0304475
+    use: histology of spermatogenesis in immature and mature Greenland sharks; preserve reproductive and sample limits and do not infer a longevity mechanism
+  - id: greenland-shark-line-elements-2023
+    authority: Czech Polar Reports / Masaryk University
+    domain: marine-genomics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.5817/CPR2023-2-17
+    use: RNA-seq observation of LINE-like elements in Greenland shark transcriptome; treat telomere or longevity links as hypotheses without functional validation
+  - id: mimic-octopus-facultative-mimicry-2010
+    authority: Biological Journal of the Linnean Society / Wiley
+    domain: cephalopod-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1111/j.1095-8312.2010.01484.x
+    use: comparative and phylogenetic discussion of conspicuous facultative mimicry in octopuses; do not infer conscious model choice or a fixed list of mimics
+  - id: mimic-octopus-arabian-sea-range-2020
+    authority: Malacologia / Central Marine Fisheries Research Institute
+    domain: cephalopod-biogeography
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.4002/040.063.0111
+    use: two specimens and COI genotyping documenting a range extension for Thaumoctopus mimicus; preserve the two-specimen and single-locality limits
+  - id: cephalopod-predator-avoidance-review-2022
+    authority: Frontiers in Marine Science
+    domain: cephalopod-behavior
+    evidenceType: peer-reviewed-review
+    url: https://doi.org/10.3389/fmars.2022.909192
+    use: review of camouflage, mimicry and escape as flexible predator-avoidance responses; context for the mimic octopus, not direct evidence about its species-specific behavior
+  - id: catatumbo-lis-climatology-2026
+    authority: Bulletin of the American Meteorological Society
+    domain: atmospheric-physics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1175/BAMS-D-24-0268.1
+    use: 1995–2023 OTD/TRMM LIS/ISS LIS lightning climatology and Lake Maracaibo hotspot context; preserve orbital sampling and product-dependent records
+  - id: catatumbo-lightning-datasets-2026
+    authority: Journal of Applied Meteorology and Climatology
+    domain: atmospheric-physics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1175/JAMC-D-25-0110.1
+    use: gridded satellite lightning products and spatial/seasonal Maracaibo examples; do not present them as continuous night-by-night monitoring or a complete causal model
+  - id: catatumbo-seasonal-prediction-2016
+    authority: Atmospheric Research / ScienceDirect
+    domain: atmospheric-physics
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.atmosres.2015.12.018
+    use: seasonal correlations between LIS-TRMM/OTD activity and local or large-scale drivers in northwestern Venezuela; preserve the older correlational design and sensor limits
