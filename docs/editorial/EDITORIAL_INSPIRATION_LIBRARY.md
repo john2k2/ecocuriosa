@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 322 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 334 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -345,6 +345,25 @@ Estas referencias completan el circuito entre descubrimiento, experiencia real y
 | Core Web Vitals de campo | [Chrome UX Report API](https://developer.chrome.com/docs/crux/api?hl=en) | Consultar LCP, INP y CLS agregados por origen o URL cuando el sitio cumpla la elegibilidad de CrUX | Media móvil de 28 días y umbral de usuarios; ausencia de datos no significa que el sitio esté roto |
 | Apariencia de marca | [Favicon en Search](https://developers.google.com/search/docs/appearance/favicon-in-search) y [nombres de sitio](https://developers.google.com/search/docs/appearance/site-names) | Mantener favicon estable y nombre EcoCuriosa consistente en HTML, WebSite y portada | Google decide la presentación final y no garantiza mostrar el favicon o el nombre preferido |
 | Procedencia visual | [Schema.org `ImageObject`](https://schema.org/ImageObject) | Inspirar campos de creador, crédito, licencia y página para adquirir licencia en futuros activos | Vocabulario descriptivo; no sustituye el permiso real del activo |
+
+### Fuentes nuevas para SEO técnico, accesibilidad y monetización — 12 de septiembre
+
+Esta tanda de Luna cubre controles operativos que no sustituyen las métricas autenticadas ni la revisión editorial. Se usarán para diseñar pruebas reproducibles y no para prometer posiciones, aprobación o conformidad automática.
+
+| Área | Fuente oficial | Uso en EcoCuriosa | Límite |
+| --- | --- | --- | --- |
+| Herramientas SEO | [Google: SEO de terceros](https://developers.google.com/search/docs/fundamentals/third-party-seo) | Etiquetar estimaciones externas y priorizar Search Console para decisiones | Ninguna herramienta garantiza rankings |
+| Enlaces | [Google: enlaces rastreables](https://developers.google.com/search/docs/crawling-indexing/links-crawlable) | Auditar enlaces contextuales, texto descriptivo y páginas huérfanas | No hay número mágico de enlaces |
+| JavaScript | [Google: fundamentos de JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) | Comparar HTML fuente/renderizado, canonical, contenido y estados HTTP | Otros bots pueden no ejecutar JS y el render puede demorarse |
+| Carga diferida | [Google: contenido lazy-loaded](https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading) | Mantener portada y contenido iniciales visibles y rastreables | Se debe validar en HTML renderizado/URL Inspection |
+| Experiencia | [Google: experiencia de página](https://developers.google.com/search/docs/appearance/page-experience) | Matriz móvil antes/después de anuncios con CWV, legibilidad y densidad | No es una señal única ni garantiza posición |
+| Snippets | [Google: controlar snippets](https://developers.google.com/search/docs/appearance/snippet) | Mejorar descripciones únicas según intención sin fechas artificiales | Google puede reescribir el texto |
+| Responsive | [web.dev: responsive design](https://web.dev/articles/responsive-web-design-basics) | Probar reflow, overflow, imágenes y breakpoints entre 320 y 1440 px | No sustituye auditoría de accesibilidad ni datos de campo |
+| Accesibilidad | [W3C: WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Objetivo AA para alt, teclado, foco, contraste, reflow y touch | Requiere evaluación humana además de automatizada |
+| Redirects | [Cloudflare Pages: redirects](https://developers.cloudflare.com/pages/configuration/redirects/) | Validar host canónico, 301/308 y un solo salto | `_redirects` no cubre rutas servidas por Functions |
+| Compresión | [Cloudflare: content compression](https://developers.cloudflare.com/speed/optimization/content/compression/) | Comprobar Content-Encoding, MIME y tamaño servido por ruta | Algoritmo depende de navegador, plan y configuración |
+| ads.txt | [Google AdSense: rastreabilidad de ads.txt](https://support.google.com/adsense/answer/7679060?hl=es) | Verificar raíz, robots, 200, formato e HTTP/HTTPS después de aprobación | Cambios tardan; no implica aprobación |
+| Transparencia | [Schema.org: publishingPrinciples](https://schema.org/publishingPrinciples) | Vincular JSON-LD con la metodología editorial visible | Vocabulario descriptivo, no garantía de rich result |
 
 ### Nueva tanda de investigación dirigida de Luna Max — 12 de septiembre
 

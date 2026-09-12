@@ -1939,3 +1939,75 @@ entries:
     evidenceType: vocabulary
     url: https://schema.org/ImageObject
     use: ImageObject creator, creditText, license, acquireLicensePage and representative-image vocabulary; properties remain truthful metadata, not proof of rights
+  - id: google-third-party-seo
+    authority: Google Search Central
+    domain: seo-measurement
+    evidenceType: guidance
+    url: https://developers.google.com/search/docs/fundamentals/third-party-seo
+    use: separate third-party SEO estimates and GEO signals from first-party Google data; label estimates and avoid ranking guarantees
+  - id: google-links-crawlable
+    authority: Google Search Central
+    domain: crawlability
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+    use: crawlable anchor links, descriptive text, contextual internal links and traceable external citations; no magic link count
+  - id: google-javascript-seo
+    authority: Google Search Central
+    domain: javascript-seo
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics
+    use: crawl, render and index phases, SSR, HTTP status, canonical and noindex checks for future scripts
+  - id: google-lazy-loading
+    authority: Google Search Central
+    domain: image-seo
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading
+    use: keep initially visible content and images discoverable; validate loading, src/srcset, dimensions and rendered HTML
+  - id: google-page-experience
+    authority: Google Search Central
+    domain: page-experience
+    evidenceType: guidance
+    url: https://developers.google.com/search/docs/appearance/page-experience
+    use: evaluate CWV, HTTPS, mobile usability, ad density, interstitials and separation of ads from editorial content
+  - id: google-snippet-controls
+    authority: Google Search Central
+    domain: search-appearance
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/snippet
+    use: unique, relevant meta descriptions and deliberate nosnippet, max-snippet and data-nosnippet controls; Google may rewrite snippets
+  - id: web-responsive-design
+    authority: web.dev / Chrome
+    domain: responsive-design
+    evidenceType: guidance
+    url: https://web.dev/articles/responsive-web-design-basics
+    use: viewport, max-width images, explicit dimensions, reflow and content-driven breakpoints for 320–1440 px checks
+  - id: wcag-22
+    authority: W3C
+    domain: accessibility
+    evidenceType: standard
+    url: https://www.w3.org/TR/WCAG22/
+    use: target WCAG 2.2 AA checks for alt text, keyboard access, focus, contrast, reflow and touch targets; human review remains required
+  - id: cloudflare-pages-redirects
+    authority: Cloudflare Pages
+    domain: redirects
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/pages/configuration/redirects/
+    use: _redirects syntax, 301/308 behavior, canonical host and one-hop legacy URL validation; Functions caveat applies
+  - id: cloudflare-content-compression
+    authority: Cloudflare
+    domain: performance
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/speed/optimization/content/compression/
+    use: verify Brotli, Gzip or Zstandard negotiation, MIME types and served sizes before changing transforms
+  - id: adsense-adstxt-crawlability
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/7679060?hl=es
+    use: root-domain ads.txt, robots permission, HTTP 200, valid format and both HTTP/HTTPS production checks; approval is not implied
+  - id: schema-publishing-principles
+    authority: Schema.org
+    domain: editorial-transparency
+    evidenceType: vocabulary
+    url: https://schema.org/publishingPrinciples
+    use: connect Organization, Person or CreativeWork JSON-LD to a real, stable editorial policy, corrections and verification page
