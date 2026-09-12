@@ -32,6 +32,7 @@ Este documento conserva la revisión de riesgo hecha sobre los artículos que te
 | `como-recuerdan-las-plantas-invierno-epigenetica-vernalizacion` | Temperaturas, horas de frío y “reseteo” epigenético expresados como reglas para todas las plantas | Se acota a *Arabidopsis*, se elimina el 100% y se explica que la respuesta depende de especie y genotipo | [Nature Genetics](https://doi.org/10.1038/ng.3712) |
 | `por-que-el-cielo-es-azul-dispersion-rayleigh` | Cocientes, trayectorias y colores de aerosoles descritos con precisión universal | Se conserva la relación de Rayleigh como aproximación y se explican los límites de percepción y composición atmosférica | [National Weather Service](https://www.weather.gov/fgz/SkyBlue) |
 | `tiburon-de-groenlandia-vertebrado-mas-longevo` | Toxicidad, parásitos y táctica de captura afirmados sin alcance visible | Se mantiene la edad como estimación con margen y se retiran consejos culinarios y de caza no respaldados por las fuentes de la ficha | [Science / PubMed](https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract) |
+| `pulpo-mimo-thaumoctopus-mimetismo-15-especies` | Catálogo de quince imitaciones, depredadores y capacidades cognitivas presentados como hechos universales | Se reduce a posturas observadas, se eliminan números y toxicidad no trazables y se distingue semejanza visual de intención | [Proceedings of the Royal Society B](https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/) |
 
 ## Pendientes antes de marcar `reviewedDate`/`reviewedBy`
 

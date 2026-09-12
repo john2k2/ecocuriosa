@@ -859,3 +859,15 @@ entries:
     evidenceType: institutional-explainer
     url: https://spaceplace.nasa.gov/blue-sky/en/
     use: accessible explanation of blue sky and atmospheric scattering
+  - id: royalsociety-dynamic-mimic-octopus
+    authority: Proceedings of the Royal Society B
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/
+    use: field observations of dynamic mimicry in Thaumoctopus mimicus
+  - id: amnh-mimic-octopus
+    authority: American Museum of Natural History
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior
+    use: accessible natural-history context for mimic octopus behavior

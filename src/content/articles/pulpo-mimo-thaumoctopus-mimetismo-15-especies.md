@@ -16,9 +16,15 @@ sources:
   - title: "Dynamic mimicry in an Indo-Malayan octopus"
     publisher: "Proceedings of the Royal Society B / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Observaciones de mimetismo dinámico en Thaumoctopus mimicus; repertorio y función no son universales"
   - title: "The Talented Mimic Octopus"
     publisher: "American Museum of Natural History"
     url: "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Contexto divulgativo de conducta y hábitat, no sustituto de un censo"
 featured: false
 ---
 
@@ -30,36 +36,36 @@ featured: false
 
 El camuflaje clásico en cefalópodos como el pulpo común (*Octopus vulgaris*) o la sepia se basa en el cripticismo: igualar el color del sustrato rocoso, la textura de las algas o el contraste de la arena para volverse invisible a la vista. Sin embargo, en los estuarios y llanuras de arena volcánica de Sulawesi y el estrecho de Lembeh, la falta de vegetación y rocas donde ocultarse impulsó una estrategia evolutiva revolucionaria: el mimetismo batesiano dinámico.
 
-Descubierto formalmente por biólogos marinos en 1998, *Thaumoctopus mimicus* no busca pasar desapercibido, sino hacerse sumamente visible imitando organismos venenosos o peligrosos que los depredadores aprenden a evitar. Lo asombroso es su flexibilidad motora: carece de concha rígida y su cuerpo muscular hidrostático puede reconfigurar su contorno anatómico en fracciones de segundo mediante la contracción coordinada de músculos longitudinales y transversales.
+Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* puede adoptar posturas que recuerdan a otros animales. La interpretación más prudente es que algunas formas podrían reducir el riesgo de depredación; las observaciones no prueban una intención idéntica en cada encuentro. Su cuerpo flexible permite cambios rápidos de postura y patrón.
 
 ---
 
 ## 2. Catálogo de Transformaciones y Control Cromatofórico
 
-1. **Simulación de Serpiente Marina (*Laticauda colubrina*):** Al ser acosado por peces doncella territoriales, el pulpo introduce seis de sus brazos dentro de una madriguera en la arena, dejando fuera únicamente dos tentáculos orientados en direcciones opuestas con bandas alternas blancas y negras, ondulándolos de forma sinuosa para imitar la cabeza y cola de una serpiente marina altamente ponzoñosa.
+1. **Postura parecida a una serpiente marina:** En algunas observaciones, el pulpo ocultó parte de los brazos y dejó otros dos ondulando con bandas claras y oscuras. El número de brazos visibles y el contexto dependen de la escena observada.
 
-2. **Simulación de Pez León (*Pterois volitans*):** Nadando a media agua, extiende sus ocho brazos de forma radial y los mantiene rígidos y arqueados, con bandas de advertencia marrón y blanco que recrean las espinas pectorales cargadas de toxinas del pez león, advirtiendo a posibles depredadores de un peligro inexistente.
+2. **Postura parecida a un pez león:** También se ha descrito una extensión radial de los brazos que recuerda a las espinas de un pez león. La semejanza visual no demuestra por sí sola qué depredador fue disuadido ni que el patrón sea una copia exacta.
 
-3. **Simulación de Lenguado Venenoso (*Zebrias japonicus*):** Para desplazarse rápidamente por el fondo arenoso sin ser detectado como cefalópodo, repliega todos sus tentáculos en forma de lámina ovalada aplanada y utiliza la propulsión a chorro de su sifón pegado al suelo, imitando con exactitud la natación ondulante de los peces planos venenosos.
+3. **Postura parecida a un pez plano:** Al replegar los brazos y desplazarse sobre el fondo, puede adquirir un perfil aplanado. La literatura describe una semejanza funcional y visual, no una imitación con “exactitud” anatómica en cada individuo.
 
 ### Transformaciones Documentadas de Thaumoctopus mimicus
 
-| Especie Marina Imitada | Postura Biomecánica Adoptada | Depredador Disuadido |
+| Modelo visual descrito | Postura observada | Límite de la evidencia |
 | :--- | :--- | :--- |
-| Serpiente marina anillada | 6 brazos ocultos, 2 brazos libres ondulantes | Peces territoriales de arrecife |
-| Pez león (Pterois) | Brazos radiales extendidos con espinas simuladas | Grandes serránidos y morenas |
-| Lenguado tóxico / Pez plano | Cuerpo comprimido en cuña y nado ondulante | Aves marinas y tiburones bentónicos |
-| Medusa abisal / Anémona | Brazos caídos en campana invertida desde superficie | Barracudas y peces pelágicos |
+| Serpiente marina | Parte de los brazos oculta y otros ondulantes | Escena y número de brazos variables |
+| Pez león | Brazos extendidos radialmente | Semejanza visual, no prueba de intención |
+| Pez plano | Perfil aplanado y desplazamiento sobre arena | No fija una especie modelo única |
+| Otras posturas | Cambios de forma y patrón descritos en campo | El repertorio exacto sigue abierto |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que el pulpo mimo copia la forma de los animales de manera inconsciente o refleja como una planta carnívora.
-  * **Realidad científica contrastada:** Estudios de cognición de cefalópodos demuestran que el pulpo toma decisiones contextuales: si es atacado por una damisela agresiva que es presa habitual de serpientes marinas, adopta de forma inmediata la forma de serpiente, demostrando un procesamiento cognitivo y visual selectivo.
+  * **Matiz:** El cambio de postura en un contexto de amenaza sugiere flexibilidad conductual. No basta para inferir una representación mental completa del modelo ni una intención consciente idéntica a la humana.
 
 * **Mito 2:** Se asume que es el pulpo más venenoso del océano debido a sus colores llamativos.
-  * **Realidad científica contrastada:** A diferencia del pulpo de anillos azules (*Hapalochlaena*), cuyo veneno (tetrodotoxina) es mortal para el ser humano, el pulpo mimo posee un veneno muy débil y basa toda su supervivencia en un engaño no tóxico (mimetismo batesiano puro).
+  * **Matiz:** No hay base en las fuentes de esta ficha para llamarlo “el más venenoso” ni para convertir el mimetismo en una garantía de seguridad. Las comparaciones con otros pulpos deben citar especie y estudio.
 
 ---
 
@@ -67,15 +73,15 @@ Descubierto formalmente por biólogos marinos en 1998, *Thaumoctopus mimicus* no
 
 ### ¿Cómo controla el cambio de patrones en su piel sin ver los colores?
 
-Aunque los cefalópodos poseen una sola clase de fotorreceptor visual (son monocromáticos), detectan la polarización de la luz y el contraste a través de pupilas en hendidura en forma de U, controlando millones de cromatóforos mediante inervación neuronal motora directa.
+Los cefalópodos tienen sistemas visuales y cromatóforos complejos; la literatura debate cómo integran color, contraste y polarización. La coordinación nerviosa permite cambios rápidos, pero no implica que el animal perciba los colores como una persona.
 
 ### ¿Qué tamaño tiene el pulpo mimo?
 
-Es un pulpo de porte mediano: su manto rara vez supera los 6 a 8 cm de longitud, pero sus brazos delgados y flexibles pueden extenderse hasta alcanzar una envergadura total de unos 60 cm.
+Es un pulpo de porte mediano. El tamaño del manto y la envergadura varían según el ejemplar y la fuente; cualquier cifra debe conservar esa atribución.
 
 ### ¿Dónde se puede observar en libertad?
 
-Es nativo de las aguas cálidas del Indo-Pacífico tropical, con avistamientos frecuentes en el norte de Sulawesi, Bali, las islas Molucas en Indonesia y la Gran Barrera de Coral en Australia, en fondos sedimentarios lodosos entre los 2 y los 25 metros de profundidad.
+Se ha observado en aguas cálidas del Indo-Pacífico y sobre fondos sedimentarios. La distribución, profundidad y frecuencia de avistamiento dependen del sitio y del esfuerzo de muestreo; no conviene presentarlas como un mapa completo.
 
 ---
 
