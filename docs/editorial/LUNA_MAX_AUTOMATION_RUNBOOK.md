@@ -48,6 +48,7 @@ Regla de decisión:
 2. Si la consulta no tiene una respuesta interna, crear un brief candidato, no un artículo en serie.
 3. Si la consulta es una variante ortográfica (por ejemplo, “león de las nieves”), responderla dentro del artículo correcto antes de crear una URL nueva.
 4. Si el tema es actual, médico, de conservación, climático o de seguridad, exigir una fuente primaria/institucional y revisión humana reciente.
+5. No crear una serie de páginas para variantes de una misma consulta: comprobar que cada brief resuelva una necesidad distinta y no incurra en abuso de contenido escalado según las [políticas de spam de Google](https://developers.google.com/search/docs/essentials/spam-policies).
 
 ### Prioridad de investigación actualizada por Luna Max
 
@@ -109,6 +110,7 @@ El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condi
 - falta autor, licencia, alt, crédito, fecha real de revisión o enlace interno;
 - `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:source-metadata-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:source-render-audit`, `pnpm content:reference-audit` o `pnpm content:link-audit` falla;
 - el borrador intenta publicar, crear un commit automáticamente o escribir en AdSense;
+- una tanda propone páginas casi equivalentes cuyo valor principal sea capturar variaciones de palabras clave;
 - la experiencia móvil o el CLS empeoran al probar anuncios.
 
 Los checks locales prueban estructura y regresiones; no sustituyen abrir fuentes, revisar el texto ni confirmar Core Web Vitals con usuarios reales.

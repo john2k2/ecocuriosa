@@ -46,6 +46,7 @@ El catálogo legible por automatizaciones está en [`SOURCE_CATALOG.yml`](./SOUR
 | --- | --- | --- |
 | Contenido útil y autoría | [Google: contenido útil](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=es) | Respuesta propia, autoría visible, experiencia o análisis demostrable |
 | IA generativa | [Google: IA generativa](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) | Luna asiste; la persona comprueba exactitud, calidad y valor añadido |
+| Abuso de contenido escalado | [Políticas de spam de Google](https://developers.google.com/search/docs/essentials/spam-policies) | No crear muchas páginas para manipular Search; cada brief debe aportar una respuesta y un trabajo original comprobable |
 | Contenido replicado o de bajo valor | [Política de contenido replicado](https://support.google.com/publisherpolicies/answer/11190248?hl=es) y [contenido sin valor editorial](https://support.google.com/publisherpolicies/answer/11112688?hl=es) | No publicar reescrituras automáticas ni páginas creadas solo para anuncios |
 | Autor en datos estructurados | [Article](https://developers.google.com/search/docs/appearance/structured-data/article?hl=es) y [ProfilePage](https://developers.google.com/search/docs/appearance/structured-data/profile-page?hl=es) | Usar `Person`/`Organization` real, visible y enlazado a su perfil |
 | Datos estructurados honestos | [Directrices de datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/sd-policies?hl=es) | El JSON-LD debe describir contenido visible; no garantiza rich results |
@@ -244,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 316 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 317 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 

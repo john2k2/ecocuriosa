@@ -22,6 +22,12 @@ entries:
     evidenceType: guidance
     url: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
     use: safe use of generative AI with accuracy, quality and spam controls
+  - id: google-spam-policies-scaled-content
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: policy
+    url: https://developers.google.com/search/docs/essentials/spam-policies
+    use: identify scaled content abuse, scraping and pages created primarily to manipulate Search
   - id: google-image-seo
     authority: Google Search Central
     domain: image-seo
