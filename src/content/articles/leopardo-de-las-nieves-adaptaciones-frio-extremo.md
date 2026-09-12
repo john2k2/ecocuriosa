@@ -42,11 +42,11 @@ Por eso, las comparaciones muy precisas sobre la superficie pulmonar, el número
 
 ## 2. Mecanismos Anatómicos de Aislamiento y Biomecánica
 
-1. **Pelaje y patas:** El pelaje denso y las patas anchas se describen como adaptaciones anatómicas útiles para frío, nieve y terreno rocoso. Las medidas precisas requieren estudios específicos por población.
+1. **Pelaje y patas:** El [pelaje denso y las patas anchas se describen como adaptaciones anatómicas útiles para frío, nieve y terreno rocoso](https://snowleopard.org/snow-leopard-facts/behavior/). Las medidas precisas requieren estudios específicos por población.
 
 2. **Cola y equilibrio:** La cola larga participa en el equilibrio y puede cubrir el rostro cuando descansa. Es una observación de historia natural, no una medición directa de aislamiento térmico en cada condición.
 
-3. **Fisiología en estudio:** La vida en altitud combina anatomía, comportamiento y genética. El estudio de hemoglobina citado advierte contra dar por demostrada una adaptación bioquímica simple o completa.
+3. **Fisiología en estudio:** La vida en altitud combina anatomía, comportamiento y genética. El [estudio de hemoglobina citado](https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/) advierte contra dar por demostrada una adaptación bioquímica simple o completa.
 
 ### Parámetros Biométricos y Adaptativos de Panthera uncia
 

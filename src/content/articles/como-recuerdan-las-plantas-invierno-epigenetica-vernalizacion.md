@@ -46,7 +46,7 @@ En plantas modelo y algunos cultivos, la floración integra señales de temperat
 
 2. **Acumulación de frío y complejo Polycomb (PRC2):** En *Arabidopsis*, el frío reorganiza transcritos como *COOLAIR* y favorece el reclutamiento de PRC2 hacia *FLC*, como resume la [revisión de memoria epigenética](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/). La temperatura y el número de semanas dependen del genotipo y del protocolo experimental.
 
-3. **Silenciamiento por H3K27me3:** PRC2 deposita la marca represiva H3K27me3 en *FLC*. Esa marca ayuda a mantener el gen apagado durante el desarrollo posterior al frío, pero “permanente” sería excesivo: el estado epigenético se regula y puede reiniciarse en la línea germinal.
+3. **Silenciamiento por H3K27me3:** PRC2 deposita la marca represiva H3K27me3 en *FLC*. [Esa marca ayuda a mantener el gen apagado durante el desarrollo posterior al frío](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/), pero “permanente” sería excesivo: el estado epigenético se regula y puede reiniciarse en la línea germinal.
 
 ### Componentes Moleculares de la Memoria del Frío en Arabidopsis thaliana
 
