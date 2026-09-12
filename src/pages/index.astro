@@ -211,7 +211,7 @@ const biomes = [
             Despachos y Monografías Recientes
           </h2>
           <span class="text-xs text-[#5a605c]">
-            Actualizado semanalmente
+            Selección reciente del archivo
           </span>
         </div>
 
@@ -223,6 +223,7 @@ const biomes = [
               slug={article.id}
               category={article.data.category}
               pubDate={article.data.pubDate}
+              updatedDate={article.data.updatedDate}
               image={article.data.image}
               imageAlt={article.data.imageAlt}
               body={article.body}
