@@ -48,7 +48,7 @@ const categoryTheme: Record<string, { badgeBg: string; badgeText: string }> = {
 
 const categoryLabel = categoryNames[category] || category;
 const theme = categoryTheme[category] || { badgeBg: '#eaf3ec', badgeText: '#063b1e' };
-const articleUrl = `/${category}/${slug}`;
+const articleUrl = `/${category}/${slug}/`;
 const isSvgImage = image.toLowerCase().endsWith('.svg');
 const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
 

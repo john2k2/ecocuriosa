@@ -58,7 +58,7 @@ const categoryNames: Record<string, string> = {
 };
 
 const categoryLabel = categoryNames[category] || category;
-const categoryUrl = `/${category}`;
+const categoryUrl = `/${category}/`;
 const authorUrl = author === 'Equipo Editorial EcoCuriosa' ? '/sobre-nosotros/' : undefined;
 const evidenceTypeLabels: Record<string, string> = {
   primary: 'estudio primario',
@@ -244,7 +244,7 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
         <h2 id="continua-title" class="font-serif text-2xl font-bold text-[#063b1e] mb-5">Continúa la exploración</h2>
         <div class="grid gap-4 sm:grid-cols-3">
           {relatedArticles.map((related) => (
-            <a href={`/${related.category}/${related.slug}`} class="rounded-lg border border-[#e6e2d8] bg-white p-5 transition-colors hover:border-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e]">
+            <a href={`/${related.category}/${related.slug}/`} class="rounded-lg border border-[#e6e2d8] bg-white p-5 transition-colors hover:border-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e]">
               <span class="block text-xs font-semibold uppercase tracking-wide text-[#946c07] mb-2">{categoryNames[related.category] || related.category}</span>
               <h3 class="font-serif font-bold leading-snug text-[#141715]">{related.title}</h3>
               <p class="mt-2 text-xs leading-relaxed text-[#5a605c]">{related.description}</p>

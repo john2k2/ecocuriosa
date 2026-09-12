@@ -37,10 +37,14 @@ for (const file of htmlFiles) {
 }
 
 const missing = [];
+const nonCanonicalRoutes = [];
 for (const target of targets) {
   let relative = target.slice(1);
   if (target === '/') relative = 'index.html';
-  else if (!path.extname(relative)) relative = `${relative.replace(/\/$/, '')}/index.html`;
+  else if (!path.extname(relative)) {
+    if (!relative.endsWith('/')) nonCanonicalRoutes.push(target);
+    relative = `${relative.replace(/\/$/, '')}/index.html`;
+  }
 
   try {
     await stat(path.join(dist, relative));
@@ -52,8 +56,13 @@ for (const target of targets) {
 console.log(`Enlaces y recursos internos comprobados: ${targets.size}`);
 console.log(`Páginas HTML analizadas: ${htmlFiles.length}`);
 console.log(`Rutas internas faltantes: ${missing.length}`);
+console.log(`Rutas HTML sin barra final: ${nonCanonicalRoutes.length}`);
 
 if (missing.length) {
   console.error(`Rutas rotas: ${missing.join(', ')}`);
+  process.exitCode = 1;
+}
+if (nonCanonicalRoutes.length) {
+  console.error(`Rutas no canónicas: ${nonCanonicalRoutes.join(', ')}`);
   process.exitCode = 1;
 }

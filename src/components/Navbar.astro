@@ -1,9 +1,9 @@
 ---
 const categories = [
-  { name: 'Fauna Fascinante', href: '/fauna-fascinante' },
-  { name: 'Especies Marinas', href: '/especies-marinas' },
-  { name: 'Fenómenos Naturales', href: '/fenomenos-naturales' },
-  { name: 'Ciencia Curiosa', href: '/ciencia-curiosa' },
+  { name: 'Fauna Fascinante', href: '/fauna-fascinante/' },
+  { name: 'Especies Marinas', href: '/especies-marinas/' },
+  { name: 'Fenómenos Naturales', href: '/fenomenos-naturales/' },
+  { name: 'Ciencia Curiosa', href: '/ciencia-curiosa/' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -58,7 +58,7 @@ const currentPath = Astro.url.pathname;
           );
         })}
         <a
-          href="/buscar"
+          href="/buscar/"
           class={`min-h-[44px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
             currentPath.startsWith('/buscar')
               ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
@@ -96,7 +96,7 @@ const currentPath = Astro.url.pathname;
         {cat.name}
       </a>
     ))}
-    <a href="/buscar" class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
+    <a href="/buscar/" class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
       Buscar en el archivo
     </a>
   </div>

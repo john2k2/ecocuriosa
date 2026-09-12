@@ -70,7 +70,7 @@ const initialQuery = Astro.url.searchParams.get('q')?.trim() || '';
       const title = document.createElement('h2');
       const description = document.createElement('p');
 
-      link.href = `/${article.category}/${article.slug}`;
+      link.href = `/${article.category}/${article.slug}/`;
       link.className = 'block rounded-lg border border-[#e6e2d8] bg-white p-5 transition-colors hover:border-[#063b1e] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e]';
       category.className = 'text-xs font-semibold uppercase tracking-wide text-[#946c07]';
       category.textContent = article.category.replaceAll('-', ' ');
