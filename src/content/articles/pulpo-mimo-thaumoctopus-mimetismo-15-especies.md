@@ -55,7 +55,7 @@ featured: false
 
 El camuflaje clásico en cefalópodos como el pulpo común (*Octopus vulgaris*) o la sepia se basa en el cripticismo: igualar el color del sustrato rocoso, la textura de las algas o el contraste de la arena para volverse invisible a la vista. Sin embargo, en los estuarios y llanuras de arena volcánica de Sulawesi y el estrecho de Lembeh, la falta de vegetación y rocas donde ocultarse impulsó una estrategia evolutiva revolucionaria: el mimetismo batesiano dinámico.
 
-Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* puede adoptar posturas que recuerdan a otros animales. La interpretación más prudente es que algunas formas podrían reducir el riesgo de depredación; las observaciones no prueban una intención idéntica en cada encuentro. Su cuerpo flexible permite cambios rápidos de postura y patrón.
+Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* puede adoptar posturas que recuerdan a otros animales, como documenta el [estudio de mimetismo dinámico](https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/). La interpretación más prudente es que algunas formas podrían reducir el riesgo de depredación; las observaciones no prueban una intención idéntica en cada encuentro. Su cuerpo flexible permite cambios rápidos de postura y patrón.
 
 ---
 
@@ -80,7 +80,7 @@ Descrito formalmente a finales de los años noventa, *Thaumoctopus mimicus* pued
 
 ## 3. Color, postura y control de la piel
 
-El cambio visible no es una sola operación. Los cromatóforos y otros órganos de la piel producen parte del color, mientras que la postura y el movimiento modifican la silueta. Revisiones recientes sobre cefalópodos describen el control neural de esos patrones, pero no estudian necesariamente a *T. mimicus* en cada experimento. Por eso esta evidencia sirve para explicar el mecanismo general, no para convertir una hipótesis sobre la especie en una medición directa.
+El cambio visible no es una sola operación. Los cromatóforos y otros órganos de la piel producen parte del color, mientras que la postura y el movimiento modifican la silueta. Una [revisión sobre el control neural del camuflaje](https://doi.org/10.1016/j.cub.2023.08.095) describe esos patrones en cefalópodos, pero no estudia necesariamente a *T. mimicus* en cada experimento. Por eso esta evidencia sirve para explicar el mecanismo general, no para convertir una hipótesis sobre la especie en una medición directa.
 
 ---
 

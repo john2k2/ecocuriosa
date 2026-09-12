@@ -79,7 +79,7 @@ No hay base para atribuirle una cifra global como “10 %”. Los rayos intervie
 
 ### ¿En qué época del año es más intenso el fenómeno?
 
-Su pico máximo ocurre en los meses de septiembre y octubre (temporada de lluvias y mayor evaporación térmica), mientras que desciende a su mínimo relativo en enero y febrero durante la época seca.
+Su pico máximo ocurre en los meses de septiembre y octubre (temporada de lluvias y mayor evaporación térmica), mientras que desciende a su mínimo relativo en enero y febrero durante la época seca, según el [análisis reciente de actividad eléctrica regional](https://doi.org/10.1029/2025JD044030). El período y el sensor importan al comparar temporadas.
 
 ---
 

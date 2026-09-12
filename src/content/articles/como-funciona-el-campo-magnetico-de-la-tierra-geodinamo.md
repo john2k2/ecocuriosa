@@ -73,7 +73,7 @@ Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: u
 
 ## 3. Qué pueden revelar las mediciones desde el espacio
 
-Los satélites no observan directamente el metal del núcleo externo. Registran variaciones del campo magnético en el entorno terrestre y, al combinarlas con observatorios y modelos, permiten inferir cambios en el flujo profundo. Un análisis publicado en *PNAS* identificó ondas magneto-Coriolis con variación interanual; la [misión Swarm de la ESA](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) describe una señal que se desplaza hacia el oeste con un periodo aproximado de siete años.
+Los satélites no observan directamente el metal del núcleo externo. Registran variaciones del campo magnético en el entorno terrestre y, al combinarlas con observatorios y modelos, permiten inferir cambios en el flujo profundo. Un [análisis publicado en *PNAS*](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) identificó ondas magneto-Coriolis con variación interanual; la [misión Swarm de la ESA](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) describe una señal que se desplaza hacia el oeste con un periodo aproximado de siete años.
 
 Estas señales muestran que la geodinamo cambia con el tiempo, pero no permiten anunciar una inversión de polaridad ni convertir un cambio regional en una predicción global. La inferencia depende del modelo, del periodo observado y de la separación entre señales del núcleo, la corteza, los océanos y la ionosfera.
 

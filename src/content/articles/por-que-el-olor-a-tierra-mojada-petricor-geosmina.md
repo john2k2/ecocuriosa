@@ -49,13 +49,13 @@ El término 'petricor' fue acuñado formalmente en 1964 por dos químicos austra
 
 A estos aceites botánicos se suma la geosmina ($C_{12}H_{22}O$), una molécula sintetizada de forma natural por microorganismos del suelo, especialmente actinobacterias del género *Streptomyces*, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/). La cantidad y la forma en que llega al aire dependen del suelo y de la lluvia.
 
-Un estudio de 2024 probó 616 variantes de receptores olfativos humanos y encontró que OR11A1 respondía a la geosmina en las concentraciones fisiológicamente relevantes del ensayo. Es una evidencia de laboratorio sobre un receptor concreto, no una explicación completa de todos los olores del petricor ni una medida universal del umbral de cada persona.
+Un [estudio de 2024](https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515) probó 616 variantes de receptores olfativos humanos y encontró que OR11A1 respondía a la geosmina en las concentraciones fisiológicamente relevantes del ensayo. Es una evidencia de laboratorio sobre un receptor concreto, no una explicación completa de todos los olores del petricor ni una medida universal del umbral de cada persona.
 
 ---
 
 ## 2. La Física del Impacto: Cómo la Gota Eyecta Aerosoles
 
-1. **Impacto de la gota y trampa de microburbujas:** Experimentos de dinámica de fluidos muestran que una gota sobre una superficie porosa puede atrapar pequeñas burbujas en la interfaz entre el agua y el suelo.
+1. **Impacto de la gota y trampa de microburbujas:** [Experimentos de dinámica de fluidos](https://doi.org/10.1038/ncomms7083) muestran que una gota sobre una superficie porosa puede atrapar pequeñas burbujas en la interfaz entre el agua y el suelo.
 
 2. **Liberación en aerosol:** Algunas burbujas pueden colapsar o estallar y lanzar microgotas al aire. La cantidad depende del tamaño de la gota, la textura del suelo y las condiciones del impacto; no es una fuente de aerosoles idéntica en todas las lluvias.
 
