@@ -13,7 +13,8 @@
     "content:source-render-audit": "node scripts/audit-source-rendering.mjs",
     "content:reference-audit": "node scripts/audit-article-references.mjs",
     "content:link-audit": "node scripts/audit-internal-links.mjs",
-    "content:llms-audit": "node scripts/audit-llms.mjs"
+    "content:llms-audit": "node scripts/audit-llms.mjs",
+    "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
