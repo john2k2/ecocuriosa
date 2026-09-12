@@ -181,6 +181,8 @@ Estas entradas complementan las fichas existentes con datos primarios o instituc
 
 Luna Max añadió doce fuentes no duplicadas para reforzar las piezas con más deuda de evidencia. Son candidatas de investigación: requieren abrir la ficha, comprobar la relación afirmación → fuente y conservar el alcance antes de citarlas.
 
+Las comprobaciones HTTP de esta tanda devolvieron acceso directo en PubMed Central, PubMed, PLOS y NOAA; algunas landing pages de DOI, USGS, Wiley, Oxford Academic, la American Meteorological Society y ScienceDirect pueden responder 403 o pedir navegador/institución. Eso es una limitación de acceso automatizado, no una validación editorial ni un motivo para inventar una cita.
+
 | Tema | Fuente candidata | Brief people-first | Límite obligatorio |
 | --- | --- | --- | --- |
 | Manta raya | [Cranial endothermy in mobulid rays](https://pubmed.ncbi.nlm.nih.gov/39434239/) | ¿Cómo puede mantenerse caliente el cerebro de una manta en aguas frías? | Mecanismo propuesto; no prueba cognición ni rendimiento en libertad |
