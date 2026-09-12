@@ -33,6 +33,8 @@ Una cifra agregada de Cloudflare no equivale a audiencia orgánica. Contrastar s
 
 Las pruebas de laboratorio (por ejemplo, un test puntual de Lighthouse o PageSpeed) sirven para detectar regresiones, pero no sustituyen los Core Web Vitals de usuarios reales. Registrar la herramienta, fecha, dispositivo y URL si se usa una prueba de laboratorio.
 
+Objetivos operativos de campo (P75, separados por móvil y escritorio): LCP ≤ 2,5 s, INP ≤ 200 ms y CLS ≤ 0,1. TTFB ≤ 0,8 s sirve como alerta diagnóstica, no como requisito de posicionamiento. Si una métrica cae en “Needs improvement” o “Poor”, corregir la plantilla o la entrega antes de añadir scripts o aumentar la densidad publicitaria. Estas metas siguen la documentación de [web.dev](https://web.dev/articles/vitals?hl=en) y [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals).
+
 ## Calidad y actualización
 
 | Artículo | Motivo de revisión | Fuente abierta | Corrección necesaria | Responsable | Estado |

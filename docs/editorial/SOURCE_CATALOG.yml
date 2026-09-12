@@ -265,3 +265,69 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/
     use: dated population and habitat context for wild axolotl claims
+  - id: web-vitals-thresholds
+    authority: web.dev
+    domain: performance
+    evidenceType: documentation
+    url: https://web.dev/articles/vitals?hl=en
+    use: P75 targets for LCP, INP and CLS, separated by mobile and desktop
+  - id: google-core-web-vitals
+    authority: Google Search Central
+    domain: performance-seo
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/core-web-vitals
+    use: interpret real-user Core Web Vitals in Search Console without promising ranking gains
+  - id: google-technical-requirements
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/essentials/technical
+    use: crawlability, HTTP responses and indexable page requirements
+  - id: google-sitemap-guidance
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+    use: absolute canonical URLs and sitemap submission limits
+  - id: google-canonicalization
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting
+    use: canonical signals, duplicate handling and reevaluation expectations
+  - id: google-search-analytics-api
+    authority: Google Search Central
+    domain: search-measurement
+    evidenceType: api-documentation
+    url: https://developers.google.com/webmaster-tools/v1/searchanalytics/query
+    use: query, page, country and device dimensions with documented row limits
+  - id: cloudflare-performance-monitoring
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/use-cases/performance/monitoring/
+    use: real-user performance monitoring and no-cookie measurement model
+  - id: cloudflare-pages-limits
+    authority: Cloudflare
+    domain: hosting
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/pages/platform/limits/
+    use: Pages Free file, build, redirect and concurrency limits
+  - id: adsense-consent-requirements
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/13554116?hl=es
+    use: certified CMP and consent requirements for EEA, UK and Switzerland
+  - id: adsense-tcf-integration
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/9804260?hl=es
+    use: IAB TCF integration and tag behavior when consent is absent
+  - id: adsense-ad-experience
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/7514132?hl=es
+    use: Search Console Ad Experience monitoring and ad quality safeguards
