@@ -33,6 +33,8 @@ La lectura autenticada más reciente conserva la misma señal (actualizada hace 
 
 La verificación posterior al refuerzo de procedencia (tres ejecuciones nuevas: 95, 98 y 96, mediana 96; FCP mediano 1,7 s, LCP 2,4 s, CLS 0 y TBT 126 ms) no mostró regresión material. Se conserva como una lectura puntual separada de la línea histórica y no sustituye los datos de campo.
 
+Una lectura temporal adicional contra la portada pública (12/09/2026) dio 99/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 0,9 s, LCP 1,8 s, CLS 0 y TBT 70 ms. Las advertencias de buenas prácticas siguen siendo las APIs obsoletas detectadas por JavaScript Detections de Cloudflare, junto con recomendaciones de caché/JavaScript de laboratorio; no se desactivó la protección.
+
 **Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 0 clics y una muestra de 112 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
 Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; ocho artículos acercan además enlaces directos a afirmaciones concretas. Las 24 restantes no se enlazan automáticamente: se añadirán solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
