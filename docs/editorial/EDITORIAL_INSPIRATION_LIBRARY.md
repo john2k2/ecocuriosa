@@ -242,7 +242,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 293 entradas, 72 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 296 entradas, 75 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -301,3 +301,12 @@ Estas catorce fuentes amplían la investigación de las fichas con más riesgo d
 | Búho real | [Plumas y supresión de ruido](https://www.sciencedirect.com/science/article/abs/pii/S1672652911601091) · [Serraciones del borde de ataque](https://pubmed.ncbi.nlm.nih.gov/38569525/) | ¿Qué parte del vuelo silencioso se ha medido de verdad? | Resultados de laboratorio y modelos; no afirmar silencio total ni mezclar *Bubo bubo* con otras especies. |
 | Tardígrados | [Temperatura y ultraestructura celular](https://www.nature.com/articles/s41598-024-55295-z) · [Oxidación de cisteína en tun](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295062) | ¿Qué estado y qué especie explican una tolerancia concreta? | El mecanismo depende de especie, estado y protocolo; no equivale a invulnerabilidad espacial. |
 | Peces linterna | [Fotóforos y especiación](https://pubmed.ncbi.nlm.nih.gov/24771948/) · [Fotóforos orientados al ojo](https://nsuworks.nova.edu/occ_facarticles/1077/) | ¿Cómo produce luz un pez profundo y qué función se ha observado? | Anatomía y muestras de estomiiformes; la conducta no se generaliza a todos los peces linterna. |
+
+### Controles oficiales para IA, imágenes y AdSense — 12 de septiembre
+
+| Área | Fuente oficial | Aplicación en EcoCuriosa |
+| --- | --- | --- |
+| IA y calidad | [Guía de Google sobre contenido generado con IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) | Luna puede investigar y estructurar; cada publicación necesita precisión, valor añadido y revisión humana. |
+| Imágenes | [Buenas prácticas de imágenes en Google Search](https://developers.google.com/search/docs/appearance/google-images) | Mantener URL estable, `alt` descriptivo, contexto editorial y una página indexable; no confundir una ilustración con una fotografía documental. |
+| AdSense | [Qué hacer si el sitio aún no está listo](https://support.google.com/adsense/answer/12176698?hl=es) | Separar la presencia del código de la evaluación de contenido único, experiencia y navegación; no activar slots inventados. |
+| Snippets | [Preguntas frecuentes sobre la apariencia en Search](https://developers.google.com/search/help/site-appearance-faq) | Revisar títulos y descripciones para que respondan a la consulta sin prometer un resultado enriquecido. |

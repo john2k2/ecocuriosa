@@ -22,6 +22,12 @@ entries:
     evidenceType: guidance
     url: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
     use: safe use of generative AI with accuracy, quality and spam controls
+  - id: google-image-seo
+    authority: Google Search Central
+    domain: image-seo
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/google-images
+    use: image discovery, indexability, landing-page context and descriptive metadata
   - id: adsense-eligibility
     authority: Google AdSense
     domain: monetization
@@ -52,6 +58,12 @@ entries:
     evidenceType: policy
     url: https://support.google.com/publisherpolicies/answer/11112688?hl=es
     use: low-value pages and content generated without review or curation
+  - id: adsense-site-not-ready
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/12176698?hl=es
+    use: distinguish code ownership checks from unique content, user experience and site-readiness review
   - id: adsense-ad-placement
     authority: Google AdSense
     domain: monetization
@@ -94,6 +106,12 @@ entries:
     evidenceType: update
     url: https://developers.google.com/search/blog/2023/08/howto-faq-changes
     use: decide whether FAQ is useful content, never as a guaranteed rich result
+  - id: google-site-appearance-faq
+    authority: Google Search Central
+    domain: seo-geo
+    evidenceType: documentation
+    url: https://developers.google.com/search/help/site-appearance-faq
+    use: useful title links, snippets and descriptive page metadata
   - id: cloudflare-web-analytics
     authority: Cloudflare
     domain: privacy-performance
