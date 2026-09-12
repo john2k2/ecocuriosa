@@ -16,13 +16,19 @@ sources:
   - title: "Vernalization and epigenetic regulation of FLC"
     publisher: "Nature Genetics"
     url: "https://doi.org/10.1038/ng.3712"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Mecanismo de vernalización estudiado en Arabidopsis; no fija el comportamiento de todos los cultivos"
   - title: "Vernalization and epigenetic memory"
     publisher: "PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Revisión de memoria epigenética y límites de extrapolación entre especies"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Las plantas no tienen cerebro ni neuronas, pero poseen una sofisticada memoria molecular a través de la epigenética. El proceso mediante el cual una planta 'recuerda' que ha transcurrido un invierno frío completo para florecer únicamente con la llegada de la primavera se denomina vernalización. Se basa en el silenciamiento represivo permanente del gen *FLC* (*Flowering Locus C*), un freno genético que bloquea la floración; al acumular semanas continuas de bajas temperaturas (0 °C a 7 °C), complejos enzimáticos modifican las histonas de la cromatina con marcas de metilación estables, desbloqueando la floración al llegar los días largos de primavera.
+> **Respuesta rápida:** En plantas como *Arabidopsis thaliana*, la vernalización es una memoria molecular del frío que reduce la actividad del represor floral *FLC*. El silenciamiento epigenético puede mantenerse durante el desarrollo de esa planta, pero el requisito de frío, la duración y la respuesta cambian según especie y genotipo; no es una memoria consciente ni una regla agrícola única.
 
 ---
 
@@ -30,7 +36,7 @@ featured: false
 
 Para una planta anual o bienal en climas templados, el momento de la floración es la decisión más crítica de su ciclo de vida: si florece prematuramente durante una cálida semana soleada de pleno otoño o invierno, una helada posterior destruirá sus órganos reproductivos florales antes de que maduren las semillas o aparezcan los insectos polinizadores. Si se retrasa demasiado en verano, la sequía estival marchitará las plántulas.
 
-Para resolver este desafío ecológico, plantas modelo como *Arabidopsis thaliana*, el trigo, la cebada y las especies de colza desarrollaron una doble compuerta molecular de control: requieren simultáneamente un sensor de fotoperiodo (que mide la duración del día mediante el fitocromo y el gen *CONSTANS*) y un reloj acumulador de frío invernal conocido como vernalización.
+En plantas modelo y algunos cultivos, la floración integra señales de temperatura, fotoperiodo y desarrollo. La contribución relativa de cada señal cambia según la especie; *Arabidopsis* es el sistema mejor descrito para el circuito *FLC–FT*.
 
 ---
 
@@ -38,9 +44,9 @@ Para resolver este desafío ecológico, plantas modelo como *Arabidopsis thalian
 
 1. **El Gen FLC como Candado Antifloral Activo:** Durante el otoño y antes de que comiencen las heladas, el gen *FLC* se expresa a niveles muy altos en el meristemo apical de la planta. La proteína FLC actúa como un potente factor de transcripción represor que se une al ADN e inhibe a los genes promotores de la floración como el florígeno *FT* (*Flowering Locus T*) y *SOC1*.
 
-2. **Acumulación de Frío y Complejo Polycomb (PRC2):** A medida que la planta soporta semanas de frío continuo sostenido (entre 1 °C y 6 °C), se activa la transcripción de un ARN largo no codificante denominado *COOLAIR*. Esto recluta al complejo represor Polycomb 2 (PRC2) hacia el promotor del gen *FLC*.
+2. **Acumulación de frío y complejo Polycomb (PRC2):** En *Arabidopsis*, el frío reorganiza transcritos como *COOLAIR* y favorece el reclutamiento de PRC2 hacia *FLC*. La temperatura y el número de semanas dependen del genotipo y del protocolo experimental.
 
-3. **Silenciamiento por Trimethylación de Histonas (H3K27me3):** El complejo PRC2 deposita marcas epigenéticas específicas de trimetilación en la lisina 27 de la histona H3 (H3K27me3). Esta modificación química condensa la cromatina sobre el gen *FLC* en una estructura heterocromática compacta e inaccesible para la maquinaria celular: el candado genético queda silenciado permanentemente, 'recordando' que el invierno ya pasó incluso cuando las temperaturas suben en primavera.
+3. **Silenciamiento por H3K27me3:** PRC2 deposita la marca represiva H3K27me3 en *FLC*. Esa marca ayuda a mantener el gen apagado durante el desarrollo posterior al frío, pero “permanente” sería excesivo: el estado epigenético se regula y puede reiniciarse en la línea germinal.
 
 ### Componentes Moleculares de la Memoria del Frío en Arabidopsis thaliana
 
@@ -56,10 +62,10 @@ Para resolver este desafío ecológico, plantas modelo como *Arabidopsis thalian
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que una planta florece simplemente porque el termómetro sube súbitamente en un día cálido.
-  * **Realidad científica contrastada:** Si fuera un simple sensor de calor inmediato, las plantas florecerían en cualquier falsa primavera de enero; necesitan haber acumulado previamente una cuota estricta de 'horas de frío' (entre 400 y 1.200 horas continuas bajo 7 °C según la especie) para desbloquear la ruta genética de floración.
+  * **Matiz:** En especies vernalizantes, el historial de frío importa, pero el umbral y la duración no son los mismos para todas. El artículo citado estudia un circuito concreto, no una cuota universal de horas.
 
 * **Mito 2:** Se asume que la memoria del invierno se hereda intacta a la siguiente generación de semillas.
-  * **Realidad científica contrastada:** Al producirse la fecundación y formación del embrión en la semilla, opera un mecanismo de 'reseteo' epigenético mediado por el gen *ELF6*: la marca represiva H3K27me3 es borrada por completo y el gen *FLC* vuelve a encenderse al 100%, garantizando que la nueva planta deba pasar su propio invierno antes de florecer.
+  * **Matiz:** La vernalización suele reiniciarse durante la reproducción, aunque la reprogramación epigenética y la respuesta de la descendencia dependen del genotipo y de la especie. No debe expresarse como un “100%” universal.
 
 ---
 
@@ -71,7 +77,7 @@ Inviernos más cálidos impiden que cultivos como el trigo de invierno, los melo
 
 ### ¿Pueden los científicos engañar a una planta para que florezca sin invierno?
 
-Sí. En agricultura intensiva y laboratorios se utiliza la vernalización artificial en cámaras frigoríficas a 4 °C durante seis semanas con semillas hidratadas, o se muta genéticamente el gen *FLC*, logrando floraciones inmediatas.
+En experimentos y producción agrícola se puede aplicar frío controlado o seleccionar variedades con distintos requisitos. La temperatura, duración y tejido tratado dependen del cultivo; no existe un protocolo de seis semanas que funcione para todas las plantas.
 
 ### ¿Qué otros organismos utilizan el silenciamiento Polycomb para memorizar eventos biológicos?
 

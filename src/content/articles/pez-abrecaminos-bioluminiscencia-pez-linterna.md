@@ -16,9 +16,15 @@ sources:
   - title: "Seeing in the deep-sea: visual adaptations in lanternfishes"
     publisher: "Royal Society Open Science / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Adaptaciones visuales de peces linterna; no representa cada pez abisal"
   - title: "What is bioluminescence?"
     publisher: "NOAA Ocean Exploration"
     url: "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Mecanismos generales de bioluminiscencia marina"
 featured: false
 ---
 
@@ -28,7 +34,7 @@ featured: false
 
 ## 1. La Zona de Medianoche: Donde la Luz Biológica Sustituye al Sol
 
-A partir de los 200 metros de profundidad, la luz solar se debilita de forma exponencial hasta desaparecer por completo a los 1.000 metros en la llamada zona batipelágica o zona de medianoche. En este reino de tinieblas perpetuas, la bioluminiscencia no es una rareza exótica, sino el lenguaje dominante de la ecología marina: se estima que más del 75% de los peces e invertebrados que habitan esta franja producen luz funcional.
+A partir de la zona mesopelágica la luz solar se debilita rápidamente y, en aguas más profundas, la bioluminiscencia se vuelve una fuente importante de señales. La profundidad exacta y la proporción de organismos luminiscentes dependen de la cuenca, la transparencia y el grupo estudiado; no usamos un porcentaje mundial fijo.
 
 Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosistemas oceánicos. Las estimaciones cambian según la cuenca, la profundidad y el método de muestreo, por lo que no debe tratarse una cifra histórica de biomasa como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
 
@@ -36,27 +42,28 @@ Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosist
 
 ## 2. El Contrasombreado Activo y la Luz Roja Secreta
 
-1. **Contrailuminación Camaleónica (Counter-illumination):** La mayoría de los depredadores abisales cazan mirando hacia arriba para siluetear a sus presas contra la tenue luz solar residual que penetra desde la superficie. Los peces linterna contrarrestan esto encendiendo los fotóforos de su vientre con la misma intensidad y coloración azulada (470-490 nm) del agua superior, borrando físicamente su sombra y volviéndose invisibles a ojos de los peces que nadan debajo de ellos.
+1. **Contrailuminación:** Algunas especies encienden fotóforos ventrales para reducir su silueta frente a la luz que llega desde arriba. La intensidad, el espectro y la eficacia dependen de la especie, la profundidad y la sensibilidad del depredador.
 
-2. **La Reacción Enzimática Luciferina-Luciferasa:** La emisión de luz se produce en células fotógenas mediante la oxidación de un sustrato orgánico (luciferina de celenterazina) catalizado por la enzima luciferasa en presencia de iones de magnesio y ATP. La reacción tiene una eficiencia cuántica cercana al 95%, produciendo 'luz fría' casi sin disipación térmica residual.
+2. **La reacción luminosa:** La emisión puede producirse por reacciones de luciferina y luciferasa en células propias o mediante bacterias simbiontes. Los sustratos, enzimas y eficiencias cambian entre linajes; no hay una reacción única para todos los peces abisales.
 
-3. **El Arma Secreta de la Luz Roja del Dragón Negro (*Malacosteus*):** Casi todos los ojos abisales solo perciben luz azul-verdosa. Sin embargo, el pez dragón negro (*Malacosteus niger*) posee fotóforos suboculares exclusivos que emiten luz roja lejana (700 nm) y un pigmento visual derivado de la clorofila que le permite verla. Esto le proporciona un visor nocturno invisible que ilumina a sus presas sin que estas sospechen que están siendo enfocadas.
+3. **Luz roja en algunos peces dragón:** *Malacosteus* es un ejemplo de pez con emisión roja y sensibilidad visual adaptada a ese rango. Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
 
 ### Sistemas Fotónicos en Peces Abisales Bioluminiscentes
 
 | Familia / Especie | Longitud de Onda Dominante | Estrategia Ecológica |
 | :--- | :--- | :--- |
-| Peces linterna (Myctophidae) | 470 - 485 nm (Azul marino) | Contrasombreado ventral y señalización de cardumen |
-| Pez demonio (*Chauliodus sloani*) | 475 nm (Azul verdoso) | Señuelo fotóforo distal en espina dorsal móvil |
-| Pez dragón (*Malacosteus niger*) | 705 nm (Rojo lejano) | Iluminación infrarroja encubierta de presas ciegas al rojo |
-| Pez hacha (*Argyropelecus*) | 480 nm (Azul colimado) | Contrasombreado mediante espejos internos de guanina |
+| Grupo | Rasgo descrito | Límite de la inferencia |
+| :--- | :--- | :--- |
+| Peces linterna (Myctophidae) | Fotóforos y adaptaciones visuales a poca luz | Cambian entre especies y regiones |
+| Pez dragón (*Malacosteus*) | Emisión roja en un linaje especializado | No representa a todos los peces abisales |
+| Otros peces bioluminiscentes | Señuelo, contrailuminación o señales | El mecanismo puede ser propio o simbiótico |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que todos los peces abisales dependen de bacterias simbióticas para generar su luz.
-  * **Realidad científica contrastada:** Aunque algunas familias como los rapes abisales (Ceratiidae) albergan bacterias bioluminiscentes simbióticas (*Photobacterium*) en su señuelo, la gran mayoría de los peces linterna sintetizan y controlan enzimáticamente su propia luciferina celular de forma autónoma mediante inervación nerviosa directa.
+  * **Matiz:** Algunas familias usan bacterias simbiontes y otras producen luz con células propias. La evidencia para peces linterna no autoriza a generalizar un mecanismo a todos los grupos.
 
 * **Mito 2:** Se asume que la bioluminiscencia abisal es muy brillante como una linterna eléctrica humana.
   * **Realidad científica contrastada:** La luz emitida es sumamente tenue y adaptada a la hipersensibilidad de ojos que han multiplicado sus fotorreceptores bastones; para un buceador humano sin adaptación a la oscuridad, muchos de estos destellos serían apenas perceptibles a simple vista.
@@ -71,7 +78,7 @@ Es una de las migraciones diarias más grandes conocidas y una parte importante 
 
 ### ¿Cómo controlan los peces el encendido y apagado de sus fotóforos?
 
-Mediante el sistema nervioso simpático, que modula la entrada de oxígeno a las células fotógenas y activa párpados dérmicos opacos o cromatóforos oscuros que actúan como persianas mecánicas ultrarrápidas.
+Según la especie, pueden modular la luz con control nervioso, estructuras ópticas y tejidos que bloquean o redirigen la emisión. Los detalles deben atribuirse al taxón y al experimento concreto.
 
 ### ¿Por qué casi toda la bioluminiscencia marina es de color azul?
 

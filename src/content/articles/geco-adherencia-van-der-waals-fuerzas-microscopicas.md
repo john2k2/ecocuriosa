@@ -16,16 +16,25 @@ sources:
   - title: "Adhesive force of a single gecko foot-hair"
     publisher: "Nature / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/10864324/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Medición de una seta y de la adhesión en condiciones experimentales"
   - title: "Adhesion and friction in gecko toe attachment and detachment"
     publisher: "Proceedings of the National Academy of Sciences / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/17148600/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Mecánica de apoyo y desprendimiento en dedos de geco"
   - title: "Gecko adhesion is unaffected by atmosphere"
     publisher: "Proceedings of the National Academy of Sciences"
     url: "https://doi.org/10.1073/pnas.192252799"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Ensayos de adhesión en atmósferas y vacío; no mide todas las superficies"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** Los gecos caminan por cristales verticales y techos pulidos mediante fuerzas electrostáticas intermoleculares de Van der Waals. Cada una de sus almohadillas digitales cuenta con cientos de miles de microfilamentos elásticos (setas) que se subdividen en millones de terminaciones nanoscópicas llamadas espátulas; al apoyarse, estas espátulas entran en contacto íntimo molecular con el sustrato, generando atracciones electrónicas transitorias sin necesidad de pegamento líquido ni succión por vacío.
+> **Respuesta rápida:** Los gecos pueden adherirse a muchas superficies lisas mediante el contacto de sus setas y espátulas microscópicas, que aprovechan fuerzas de Van der Waals. La cantidad de setas, la fuerza y el desempeño dependen de la especie, la superficie y el protocolo; no es pegamento líquido ni una ventosa.
 
 ---
 
@@ -33,36 +42,36 @@ featured: false
 
 A escala macroscópica, una lámina de vidrio pulido parece completamente lisa. Sin embargo, a nivel molecular cualquier superficie presenta una orografía escarpada de picos y valles microscópicos donde los materiales rígidos solo hacen contacto real en una fracción mínima de su área superficial. Durante siglos, los naturalistas especularon que los gecos utilizaban ventosas neumáticas, secreciones adhesivas mucosas o microgarras mecánicas.
 
-En el año 2000, experimentos de nanomecánica con microscopía de fuerza atómica demostraron que el sistema es completamente seco y físico: opera gracias a las fuerzas de dispersión de London (un tipo de fuerza de Van der Waals). Estas atracciones dipolo-dipolo inducidas entre átomos neutros solo se manifiestan cuando la distancia entre las moléculas de la pata del reptil y las del sustrato es inferior a un nanómetro (la millonésima parte de un milímetro).
+Experimentos con microscopía de fuerza atómica apoyaron que la adhesión es seca y compatible con fuerzas de Van der Waals. Esas fuerzas solo resultan relevantes cuando las superficies están en contacto íntimo; la distancia y la magnitud efectivas dependen del material y de la geometría de cada seta.
 
 ---
 
 ## 2. La Jerarquía Estructural de las Almohadillas Digitales
 
-1. **Laminillas Dérmicas y Setas (Escala Micrométrica):** La parte inferior de los dedos de un geco común (*Gekko gecko*) está tapizada por crestas curvadas denominadas scandors o laminillas. Cada laminilla contiene densidades de hasta 5.000 setas de queratina $\beta$ por milímetro cuadrado, fibras elásticas flexibles de unos 100 micrómetros de largo que compensan las irregularidades del relieve.
+1. **Laminillas dérmicas y setas (escala micrométrica):** La parte inferior de los dedos está tapizada por laminillas que contienen setas de queratina. Las densidades y dimensiones publicadas varían con la especie y la región del dedo; sirven para aumentar el contacto y adaptarse a pequeñas irregularidades.
 
-2. **Espátulas Terminales (Escala Nanométrica):** Cada seta se divide en su extremo en un abanico de entre 100 y 1.000 puntas triangulares ultraplanas denominadas espátulas, de solo 200 nanómetros de ancho. En conjunto, un geco posee más de 500 millones de espátulas, generando un área de contacto molecular colectivo colosal capaz de sostener más de 130 kg de peso suspendido.
+2. **Espátulas terminales (escala nanométrica):** Cada seta puede terminar en numerosas espátulas que aumentan el área de contacto. Los recuentos y la fuerza total son estimaciones de ejemplares y ensayos concretos, no una capacidad de carga garantizada para cualquier geco.
 
-3. **Desacople Rápido por Ángulo Crítico de 30°:** Si la adherencia fuera constante, el geco no podría caminar con soltura. El sistema es anisotrópico y direccional: al traccionar con una angulación de 30° respecto a la superficie, las fuerzas de Van der Waals se maximizan; al rotar el dedo hacia atrás en un ángulo superior, las espátulas se desprenden instantáneamente sin gastar energía metabólica en cada paso.
+3. **Desacople direccional:** La adhesión es anisotrópica: cambiar la dirección de la carga y curvar el dedo facilita el desprendimiento. El ángulo óptimo cambia con la especie, la superficie y la medición; no es un valor crítico único.
 
 ### Parámetros Estructurales de la Almohadilla Plantar de Gekko gecko
 
-| Nivel Estructural | Dimensiones Físicas | Fuerza de Adherencia Generada |
+| Nivel | Qué se ha medido | Límite |
 | :--- | :--- | :--- |
-| Seta individual | Longitud: 110 µm / Diámetro: 4 µm | ~ 20 a 40 µN por filamento |
-| Espátula nanoscópica | Ancho: 200 nm / Espesor: 10 nm | ~ 10 nN por interacción molecular |
-| Densidad total de setas | 14.400 setas por mm² de piel | Capacidad teórica > 100 N por pata |
-| Tiempo de fijación y liberación | < 15 milisegundos por zancada | Marcha vertical fluida a 1 m/s |
+| Seta individual | Fuerza de adhesión en ensayos controlados | Cambia con el sustrato y la orientación |
+| Espátula | Contacto a escala nanométrica | No equivale a una fuerza idéntica en cada punta |
+| Almohadilla | Fricción y adhesión colectivas | Dependen de especie, limpieza y carga |
+| Desprendimiento | Control direccional del dedo | No fija una velocidad de marcha universal |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que los gecos dejan residuos pegajosos o sustancias químicas en las paredes por donde transitan.
-  * **Realidad científica contrastada:** El sistema es 100% seco y no glandular. No excretan ningún fluido adhesivo ni sudoración; de hecho, la presencia de aceites o grasas en el vidrio anula de inmediato la atracción de Van der Waals.
+  * **Matiz:** Los ensayos clásicos describen adhesión seca y no requieren una secreción pegajosa. El polvo, los aceites y la humedad pueden cambiar el contacto; el efecto no es idéntico en todos los vidrios.
 
 * **Mito 2:** Se asume que las patas del geco acumulan polvo y pierden adherencia con el paso del tiempo.
-  * **Realidad científica contrastada:** Cuentan con un prodigioso mecanismo físico de autolimpieza pasiva. Dado que las fuerzas de Van der Waals entre las partículas de polvo y el sustrato son más fuertes que las que unen el polvo a las espátulas de queratina, la suciedad se transfiere al suelo de forma automática con cada pisada.
+  * **Matiz:** La fricción y el movimiento pueden ayudar a retirar partículas, y se ha estudiado una autolimpieza parcial. Su eficacia depende del tamaño de la partícula, la superficie y el estado de la almohadilla; no ocurre de forma perfecta con cada pisada.
 
 ---
 
@@ -70,15 +79,15 @@ En el año 2000, experimentos de nanomecánica con microscopía de fuerza atómi
 
 ### ¿Puede un geco caminar por una pared en el vacío absoluto?
 
-Sí, bajo las condiciones de los ensayos publicados. Se observó adhesión en vacío y en helio, lo que indica que el mecanismo no necesita presión de aire ni succión; la magnitud medida, sin embargo, depende del contacto, el material, la humedad y el protocolo, así que no debe describirse como idéntica en cualquier condición.
+Algunos ensayos observaron adhesión en vacío y en helio, lo que apoya que no depende de succión de aire. Eso no significa que el rendimiento sea idéntico en cualquier material, humedad o estado del animal.
 
 ### ¿Por qué el geco resbala sobre superficies de teflón (PTFE)?
 
-El teflón posee una energía superficial extremadamente baja y una polarizabilidad eléctrica mínima, lo que impide que las espátulas induzcan los dipolos transitorios indispensables para la fuerza de Van der Waals.
+El PTFE puede reducir la adhesión por su baja energía superficial y por cómo interactúa con las espátulas. El resultado depende de la limpieza, la rugosidad y la carga; no es una ley absoluta para todas las formulaciones.
 
 ### ¿Cómo ha inspirado el geco a la robótica espacial y médica?
 
-La NASA ha desarrollado pinzas robóticas biomiméticas tipo geco para atrapar basura espacial flotante en gravedad cero, y en medicina se fabrican parches hemostáticos reversibles inspirados en sus espátulas para sellar heridas quirúrgicas húmedas sin sutura.
+Se han construido prototipos robóticos inspirados en gecos para manipulación en seco y en microgravedad. Esos prototipos no equivalen a que toda aplicación espacial o médica esté validada para uso clínico.
 
 ---
 

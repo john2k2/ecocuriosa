@@ -16,9 +16,15 @@ sources:
   - title: "Yawn Contagion and Empathy"
     publisher: "PLOS ONE / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3233580/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Asociación entre familiaridad y contagio en una muestra humana; no es prueba diagnóstica"
   - title: "The thermoregulatory theory of yawning"
     publisher: "Frontiers in Evolutionary Neuroscience / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3534187/"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Hipótesis termorreguladora y límites de la evidencia"
 featured: false
 ---
 
@@ -28,7 +34,7 @@ featured: false
 
 ## 1. Fisiología vs. Ecofenómeno: Dos Procesos Neurológicos Distintos
 
-Casi todos los vertebrados con mandíbula bostezan: peces, reptiles, aves y mamíferos bostezan de forma espontánea desde antes de nacer (se han documentado bostezos en fetos humanos en la semana 12 de gestación mediante ecografía 4D). Este bostezo fisiológico primario consiste en una inhalación profunda y prolongada con dilatación faríngea, apertura máxima mandibular y una exhalación pasiva breve.
+El bostezo espontáneo se ha descrito en muchos vertebrados y aparece en distintos momentos del desarrollo. La forma básica combina apertura mandibular, inhalación y exhalación, pero la edad de aparición y la frecuencia dependen de la especie y del estudio.
 
 El bostezo contagioso se ha descrito en humanos y en otras especies sociales, con resultados que dependen del diseño y de la población estudiada. Las técnicas de neuroimagen pueden mostrar actividad en varias regiones durante una tarea, pero no permiten afirmar por sí solas que un “circuito de neuronas espejo” sea la causa del contagio.
 
@@ -46,20 +52,20 @@ El bostezo contagioso se ha descrito en humanos y en otras especies sociales, co
 
 | Característica | Bostezo Espontáneo Fisiológico | Bostezo Contagioso Social |
 | :--- | :--- | :--- |
-| Edad de aparición | Desde la etapa fetal (semana 12-20) | A partir de los 4 a 5 años de edad |
-| Especies en las que ocurre | Prácticamente todos los vertebrados | Humanos, chimpancés, bonobos, perros, elefantes |
-| Circuitos cerebrales activos | Tronco encefálico e hipotálamo (paraventricular) | Corteza prefrontal medial, giro frontal, neuronas espejo |
-| Desencadenante principal | Fatiga, somnolencia, cambios térmicos craneales | Estímulo visual, acústico o cognitivo de empatía |
+| Edad de aparición | Variable según especie y método | La susceptibilidad cambia con edad y contexto |
+| Especies en las que ocurre | Descrito en diversos vertebrados | Evidencia comparada en varias especies sociales |
+| Circuitos implicados | Redes de alerta y control motor en estudio | No se ha aislado un “circuito espejo” causal |
+| Desencadenante principal | Somnolencia, transición de estado y otros factores | Ver, oír o pensar en un bostezo en algunas personas |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se creía tradicionalmente que bostezamos para oxigenar la sangre cuando bajan los niveles de oxígeno ($O_2$).
-  * **Realidad científica contrastada:** Desmentido experimentalmente por Robert Provine en 1987: voluntarios que inhalaron mezclas de aire enriquecidas con 100% de oxígeno o con altas concentraciones de dióxido de carbono ($CO_2$) bostezaron con la misma frecuencia exacta, demostrando que los gases sanguíneos no controlan el bostezo.
+  * **Matiz:** Los experimentos clásicos no apoyan una explicación simple basada en oxígeno o dióxido de carbono. Eso no identifica por sí solo una causa única del bostezo.
 
 * **Mito 2:** Se asume que bostezar delante de alguien indica necesariamente aburrimiento o desinterés.
-  * **Realidad científica contrastada:** Neurológicamente, el bostezo suele ser un mecanismo adaptativo de estimulación de la dopamina y la acetilcolina para reactivar la atención y evitar dormirse ante un estímulo que requiere concentración mental sostenida.
+  * **Matiz:** Puede coincidir con cambios de alerta, pero no es correcto atribuir cada bostezo a una dosis conocida de dopamina o acetilcolina.
 
 ---
 
@@ -71,7 +77,7 @@ La susceptibilidad varía por edad, atención, contexto y diseño experimental. 
 
 ### ¿Pueden los perros contagiarse del bostezo de sus dueños humanos?
 
-Sí. Numerosos estudios de etología comparada han comprobado el contagio inter-especie: los perros domésticos bostezan con mayor probabilidad cuando ven o escuchan el bostezo grabado de su dueño humano habitual que cuando escuchan a un extraño.
+Se ha observado contagio en algunos estudios con perros, pero el efecto depende del diseño, la familiaridad, la atención y la muestra. No debe presentarse como una respuesta idéntica en todos los animales.
 
 ### ¿Sirve para diagnosticar autismo o psicopatía?
 

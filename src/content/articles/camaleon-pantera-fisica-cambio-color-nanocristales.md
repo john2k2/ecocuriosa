@@ -16,19 +16,25 @@ sources:
   - title: "Photonic crystals cause active colour change in chameleons"
     publisher: "Nature Communications / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Estudio de iridóforos y cambio de color en camaleón pantera; no fija rangos para todos los camaleones"
   - title: "The panther chameleon"
     publisher: "Muséum national d’Histoire naturelle"
     url: "https://www.mnhn.fr/en/the-panther-chameleon"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Historia natural y variación de la especie"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El camaleón pantera (*Furcifer pardalis*) cambia de color mediante un sofisticado sistema de cristales fotónicos dérmicos. Bajo su epidermis cuenta con dos capas superpuestas de células llamadas iridóforos; al modificar mecánicamente la distancia nanométrica entre los nanocristales de guanina de estas células, altera selectivamente la interferencia constructiva de la luz, reflejando desde el azul y verde en reposo hasta el amarillo, naranja y rojo en excitación.
+> **Respuesta rápida:** En el camaleón pantera (*Furcifer pardalis*), un estudio describió iridóforos con nanocristales de guanina cuya separación cambia durante señales de excitación. Ese ajuste modifica la luz reflejada y ayuda a explicar parte de los tonos azules, verdes, amarillos y naranjas observados; no es una receta idéntica para todos los camaleones ni para cada cambio de color.
 
 ---
 
 ## 1. El Descubrimiento Biofísico: De los Pigmentos a los Cristales Fotónicos
 
-Durante más de un siglo, la zoología clásica asumió que los camaleones cambiaban de color mediante la dispersión o agregación de gránulos de melanina en el interior de cromatóforos dérmicos, de forma idéntica a los calamares y sepias. Sin embargo, en 2015 un equipo interdisciplinario de físicos cuánticos y biólogos evolutivos de la Universidad de Ginebra reveló que la verdadera responsable de los tonos vivos y fulgurantes es una red geométrica regular de cristales de guanina situada en una población especializada de células: los iridóforos S (superficiales).
+En 2015, un equipo de la Universidad de Ginebra describió una red de cristales de guanina en iridóforos superficiales del camaleón pantera. Ese trabajo no sustituyó todos los pigmentos por un único mecanismo: la piel combina estructuras reflectantes, cromatóforos y regulación nerviosa.
 
 Estos nanocristales actúan exactamente como un cristal fotónico artificial: estructuras periódicas a escala nanométrica que manipulan la propagación de los fotones. Cuando la luz blanca incide sobre la piel del camaleón, ciertas longitudes de onda sufren interferencia destructiva (se anulan), mientras que otras sufren interferencia constructiva (se reflejan con gran intensidad y pureza espectral).
 
@@ -36,20 +42,18 @@ Estos nanocristales actúan exactamente como un cristal fotónico artificial: es
 
 ## 2. Mecanismo de Afinación Reticular en Dos Capas Dérmicas
 
-1. **Estado de Reposo (Estructura Compacta):** Cuando el camaleón se encuentra relajado y sin estímulos agonísticos, los nanocristales de guanina en los iridóforos superficiales se mantienen densamente empaquetados a una distancia promedio de 130 nanómetros. Esta separación refleja selectivamente la luz de longitud de onda corta (azul). Al filtrarse a través de la capa epidérmica superior que contiene pigmentos carotenoides amarillos, el resultado visible para el ojo humano es un verde esmeralda natural de camuflaje.
+1. **Estado de reposo (estructura más compacta):** En los ejemplares estudiados, una red más compacta reflejaba longitudes de onda cortas. El color que vemos también depende de la epidermis, los pigmentos y el patrón de cada animal; no debe traducirse en un tono fijo de “camuflaje”.
 
-2. **Estado de Excitación (Expansión Reticular):** Ante la presencia de un macho rival o una hembra receptiva, la activación del sistema nervioso simpático induce una entrada osmótica de agua en las células que distiende la matriz dérmica. La distancia entre nanocristales se amplía a más de 170-190 nanómetros en cuestión de uno a dos minutos, desplazando el pico de reflexión hacia longitudes de onda más largas: amarillo, naranja brillante y rojo escarlata.
+2. **Estado de excitación (expansión reticular):** Durante señales sociales observadas en machos, la separación de los cristales aumenta y desplaza la reflexión hacia longitudes de onda más largas. Las cifras nanométricas y el tiempo de cambio pertenecen al protocolo del estudio; no son un rango universal de la especie ni una respuesta idéntica en hembras o en otros camaleones.
 
-3. **La Capa Profunda Termorreguladora:** Por debajo de los iridóforos superficiales existe una segunda capa dérmica de iridóforos D (profundos), cuyos cristales son más grandes y desorganizados. Su función no es cromática sino térmica: reflejan hasta el 45% de la radiación solar infrarroja cercana, impidiendo el sobrecalentamiento letal en las copas de los árboles de Madagascar.
+3. **La capa profunda:** El mismo trabajo describió una capa profunda de iridóforos con cristales mayores y menos ordenados. Puede contribuir a la gestión de la radiación, pero el porcentaje medido en esa muestra no equivale a una barrera térmica fija ni permite afirmar que evite por sí sola el sobrecalentamiento.
 
 ### Métricas de la Celosía Fotónica en Furcifer pardalis
 
 | Estado Fisiológico | Espaciado Intercristalino | Longitud de Onda Reflejada | Color Resultante |
 | :--- | :--- | :--- | :--- |
-| Reposo basal | ~ 130 nm | 450 - 490 nm (Azul) | Verde críptico (filtro carotenoide) |
-| Alerta / Cortejo | ~ 160 nm | 550 - 580 nm (Amarillo) | Amarillo brillante con bandas |
-| Agresión máxima territorial | ~ 190 nm | 620 - 700 nm (Rojo) | Rojo carmesí y naranja de advertencia |
-| Reflexión infrarroja profunda | Estructura heterogénea | > 800 nm (Infrarrojo cercano) | Barrera térmica invisible |
+| Estado descrito en el estudio | Separación relativa de cristales | Desplazamiento hacia longitudes más largas | Cambios de color observables en esa muestra |
+| Iridóforos profundos | Cristales mayores y menos ordenados | Parte de la radiación reflejada | Posible contribución térmica, dependiente del contexto |
 
 ---
 
@@ -59,7 +63,7 @@ Estos nanocristales actúan exactamente como un cristal fotónico artificial: es
   * **Realidad científica contrastada:** Falso mito publicitario. El cambio de color es ante todo un lenguaje de comunicación visual y señalización social (jerarquía, disposición al apareamiento, amenaza) y una herramienta de termorregulación para absorber o repeler calor, no una copia fotográfica del entorno.
 
 * **Mito 2:** Se asume que los camaleones mezclan pigmentos líquidos en su piel como si fuera tinta.
-  * **Realidad científica contrastada:** Los únicos pigmentos químicos reales son los carotenoides amarillos y la eumelanina negra de base. El resto del espectro cromático brillante (azul, turquesa, verde lima, naranja fosforescente) es puramente estructural y físico.
+  * **Matiz:** El color combina pigmentos y estructuras reflectantes. En *F. pardalis* los nanocristales explican parte de los tonos estructurales, pero no autorizan a eliminar el papel de otros cromatóforos.
 
 ---
 
@@ -75,7 +79,7 @@ No. El dicromatismo sexual es muy marcado: los machos exhiben cambios cromático
 
 ### ¿Cuánto tiempo necesita un camaleón pantera para completar una transformación cromática completa?
 
-La reorganización física de los nanocristales ocurre con asombrosa velocidad: tarda entre 40 y 120 segundos en pasar de un verde esmeralda relajado a un amarillo canario o naranja de combate.
+El cambio puede ser rápido, pero su duración y el patrón final dependen del estado, el sexo, la temperatura y el contexto. El estudio citado no convierte un intervalo de segundos en una regla para todos los ejemplares.
 
 ---
 

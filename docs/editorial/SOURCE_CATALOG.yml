@@ -757,3 +757,105 @@ entries:
     evidenceType: institutional-guide
     url: https://www.nps.gov/yell/learn/kidsyouth/places.htm
     use: accessible context for Old Faithful and Yellowstone geyser locations
+  - id: nasa-aurora-iceland-canada-2026
+    authority: NASA Earth Observatory
+    domain: heliophysics
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/
+    use: dated G1 aurora observation and limits of interpreting a satellite image as a local forecast
+  - id: smithsonian-noctiluca-taxa
+    authority: Smithsonian National Museum of Natural History
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://naturalhistory.si.edu/research/botany/research/dinoflagellates/harmful-marine-dinoflagellate-taxa
+    use: Noctiluca taxonomy, heterotrophy, blooms, bioluminescence and ammonium context
+  - id: noaa-noctiluca-east-china-sea
+    authority: NOAA Repository
+    domain: marine-oceanography
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/59779
+    use: MODIS retrospective detection of regional Noctiluca blooms in the East China Sea
+  - id: noaa-noctiluca-alaska-case
+    authority: NOAA NCCOS
+    domain: marine-environment
+    evidenceType: institutional-case-study
+    url: https://coastalscience.noaa.gov/news/nccos-carnival-cruise-line-collaboration-identifies-harmful-algal-bloom-in-alaska/
+    use: identification of a 2018 Alaska bloom and scope limits for human-safety claims
+  - id: current-biology-cat-purring-larynx
+    authority: Current Biology
+    domain: comparative-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.cub.2023.09.014
+    use: isolated domestic-cat larynges producing 25–30 Hz oscillations without neural input
+  - id: pubmed-feline-purring-mechanisms
+    authority: PubMed
+    domain: comparative-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/4644061/
+    use: historic neural and mechanical study of feline purring; interpret with date and sample limits
+  - id: wiley-felid-purr-comparison
+    authority: Journal of Zoology / Wiley
+    domain: comparative-physiology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1111/j.1469-7998.1991.tb04749.x
+    use: comparative purr recordings in domestic cats, pumas and cheetahs
+  - id: pubmed-cat-solicitation-purring
+    authority: PubMed
+    domain: animal-behavior
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/39808933/
+    use: context-dependent care-soliciting behavior; do not universalize across cats
+  - id: nps-racetrack-playa
+    authority: National Park Service
+    domain: geoscience
+    evidenceType: institutional-explainer
+    url: https://www.nps.gov/deva/planyourvisit/the-racetrack.htm
+    use: 2013 direct observations, shallow water, thin ice and limits for the largest rocks
+  - id: usgs-racetrack-terrain-analysis
+    authority: U.S. Geological Survey
+    domain: geoscience
+    evidenceType: institutional-report
+    url: https://www.usgs.gov/publications/terrain-analysis-racetrack-basin-and-sliding-rocks-death-valley
+    use: local mapping of 162 rocks and tracks in Racetrack Basin
+  - id: plos-racetrack-sliding-rocks
+    authority: PLOS ONE
+    domain: geoscience
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1371/journal.pone.0105948
+    use: 2011–2013 field experiment with GPS, time-lapse and weather observations
+  - id: nature-chameleon-photonic-crystals
+    authority: Nature Communications
+    domain: animal-physics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/
+    use: active colour change and iridophore crystal spacing in panther chameleons
+  - id: mnhn-panther-chameleon
+    authority: Muséum national d’Histoire naturelle
+    domain: herpetology
+    evidenceType: institutional-profile
+    url: https://www.mnhn.fr/en/the-panther-chameleon
+    use: species-level natural-history context for Furcifer pardalis
+  - id: nature-genetics-flc-vernalization
+    authority: Nature Genetics
+    domain: plant-development
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1038/ng.3712
+    use: FLC repression and epigenetic vernalization mechanism in Arabidopsis
+  - id: pmc-vernalization-memory-review
+    authority: PubMed Central
+    domain: plant-development
+    evidenceType: peer-reviewed-review
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/
+    use: review of epigenetic memory and species-specific limits
+  - id: nws-sky-blue
+    authority: National Weather Service
+    domain: atmospheric-optics
+    evidenceType: institutional-explainer
+    url: https://www.weather.gov/fgz/SkyBlue
+    use: Rayleigh-scattering explanation for sky colour and sunsets
+  - id: nasa-spaceplace-blue-sky
+    authority: NASA Space Place
+    domain: atmospheric-optics
+    evidenceType: institutional-explainer
+    url: https://spaceplace.nasa.gov/blue-sky/en/
+    use: accessible explanation of blue sky and atmospheric scattering

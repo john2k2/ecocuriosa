@@ -16,13 +16,19 @@ sources:
   - title: "Why Is the Sky Blue?"
     publisher: "National Weather Service"
     url: "https://www.weather.gov/fgz/SkyBlue"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Explicación divulgativa de dispersión atmosférica"
   - title: "Why Is the Sky Blue?"
     publisher: "NASA Space Place"
     url: "https://spaceplace.nasa.gov/blue-sky/en/"
+    accessedDate: 2026-09-12
+    evidenceType: "institutional"
+    scope: "Explicación de cielo azul y atardeceres para público general"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El cielo diurno es azul debido a la dispersión de Rayleigh: la luz blanca del Sol está compuesta por todos los colores del espectro electromagnético visible. Al entrar en la atmósfera terrestre, la radiación choca contra moléculas de nitrógeno ($N_2$) y oxígeno ($O_2$), que son mucho más pequeñas que la longitud de onda de la luz. Según la ley de Rayleigh, la intensidad de dispersión es inversamente proporcional a la cuarta potencia de la longitud de onda ($I \propto 1/\lambda^4$), lo que provoca que las ondas cortas (azules y violetas) se dispersen en todas las direcciones cerca de diez veces más intensamente que las ondas largas (rojas y amarillas).
+> **Respuesta rápida:** El cielo suele verse azul porque las moléculas del aire dispersan con más eficacia las longitudes de onda cortas que las largas. La relación aproximada de Rayleigh ($I \propto 1/\lambda^4$) ayuda a entender el efecto; el color que percibimos también depende del espectro solar, la sensibilidad visual y los aerosoles.
 
 ---
 
@@ -30,34 +36,32 @@ featured: false
 
 Cuando observamos el disco solar desde la Tierra, su luz nos parece de un blanco amarillento uniforme. En realidad, la radiación solar es una superposición continua de fotones que abarcan todo el espectro visible, desde el violeta y azul (longitudes de onda cortas, entre 380 y 450 nanómetros) hasta el naranja y rojo (longitudes de onda largas, entre 620 y 750 nanómetros).
 
-En 1871, el físico británico John William Strutt (Lord Rayleigh) formuló la base matemática de este fenómeno al estudiar la dispersión elástica de la radiación electromagnética cuando las partículas difusoras tienen un diámetro significativamente menor que una décima parte de la longitud de onda de la luz incidente ($d \ll 0,1\lambda$). En nuestra atmósfera, las moléculas de nitrógeno molecular (~78%) y oxígeno molecular (~21%) tienen dimensiones de apenas 0,3 nanómetros, cumpliendo con exactitud las condiciones de la dispersión de Rayleigh.
+Lord Rayleigh formuló la base matemática para la dispersión por partículas mucho menores que la longitud de onda. Las moléculas principales del aire cumplen esa condición aproximadamente, mientras que gotas, cristales y aerosoles pueden introducir otros regímenes de dispersión.
 
 ---
 
 ## 2. La Dependencia Matemática $1/\lambda^4$ y los Atardeceres Rojos
 
-1. **La Fórmula de Rayleigh y la Ventaja del Azul:** La ecuación de Rayleigh establece que la fracción de luz dispersada $I$ varía con $1/\lambda^4$. Si comparamos la luz azul (con una longitud de onda de ~400 nm) con la luz roja (con ~700 nm), el cálculo $(700/400)^4 \approx (1,75)^4 \approx 9,4$ revela que la luz azul se dispersa casi diez veces más eficientemente que la roja. Al mirar hacia cualquier punto del cielo alejado del Sol, nuestros ojos captan exclusivamente estos fotones azules rebotados continuamente en zigzag por toda la bóveda celeste.
+1. **La fórmula de Rayleigh y la ventaja del azul:** La dependencia $1/\lambda^4$ explica por qué el azul se dispersa más que el rojo en una comparación ideal. El cociente exacto cambia con las longitudes de onda elegidas y con la composición del aire; el cielo no contiene exclusivamente fotones azules.
 
-2. **¿Por qué el Cielo no es Violeta si se Dispersa más?:** Aunque la luz violeta tiene una longitud de onda aún más corta (~380 nm) y se dispersa un 40% más que la azul, vemos el cielo azul por dos razones biofísicas: primero, el espectro de emisión del Sol emite mucha más energía en la banda azul que en la violeta; segundo, la retina humana contiene conos fotorreceptores sensibles al rojo, verde y azul, siendo muy poco eficiente para percibir el violeta puro.
+2. **¿Por qué el cielo no es violeta?:** La luz violeta se dispersa con fuerza, pero la percepción final combina el espectro solar, la absorción atmosférica y la sensibilidad de nuestros conos. Por eso el resultado suele describirse como azul, no como una sola longitud de onda pura.
 
-3. **La Geometría Óptica de los Atardeceres Rojos y Anaranjados:** Al mediodía, los rayos solares atraviesan perpendicularmente una delgada capa de atmósfera de apenas 1 atmósfera óptica de espesor. Sin embargo, en el ocaso o amanecer, el Sol se sitúa en el horizonte y sus rayos deben recorrer una trayectoria rasante hasta diez veces más larga a través del aire denso y el polvo. En ese trayecto prolongado, casi todos los fotones azules y violetas son dispersados y desviados fuera de nuestra línea de visión, permitiendo que solo las longitudes de onda largas (rojos, naranjas y amarillos) sobrevivan e impacten directamente en nuestros ojos.
+3. **La geometría de los atardeceres:** Cuando el Sol está bajo, la luz atraviesa una trayectoria atmosférica más larga. La dispersión y los aerosoles eliminan parte de las longitudes cortas de la línea directa, de modo que predominan tonos rojos y naranjas; la intensidad y el color dependen de polvo, humo, humedad y nubes.
 
 ### Eficiencia de Dispersión de Rayleigh por Longitud de Onda en el Espectro Visible
 
-| Color Espectral | Longitud de Onda Típica (λ) | Factor de Dispersión Relativo ($1/\lambda^4$) | Comportamiento Atmosférico |
-| :--- | :--- | :--- | :--- |
-| Violeta | 390 nanómetros | 9,85 (máxima dispersión) | Dispersión colosal pero baja sensibilidad retiniana humana |
-| Azul | 440 nanómetros | 6,10 (muy alta) | Color dominante percibido de la cúpula diurna |
-| Verde | 530 nanómetros | 2,90 (intermedia) | Transmisión parcial y mezcla espectral |
-| Amarillo / Naranja | 590 nanómetros | 1,90 (baja) | Luz solar directa filtrada al mediodía |
-| Rojo profundo | 680 nanómetros | 1,00 (referencia mínima) | Atraviesa la atmósfera rasante en el atardecer sin desviarse |
+| Región | Tendencia de dispersión Rayleigh | Límite |
+| :--- | :--- | :--- |
+| Azul y violeta | Mayor que en longitudes largas | La percepción no es monocromática |
+| Verde y amarillo | Intermedia | Mezcla con luz directa y aerosoles |
+| Rojo | Menor en el régimen Rayleigh | Puede atenuarse también por partículas |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** El mito común de que el cielo es azul porque refleja el color del agua de los océanos.
-  * **Realidad científica contrastada:** Falso mito absoluto. Si fuera así, el cielo sobre el centro del desierto del Sahara o la meseta continental de Asia sería marrón o amarillo; el cielo es azul en todas partes de la Tierra por las moléculas de aire gaseoso, y de hecho el océano es azul en gran parte porque absorbe las longitudes de onda rojas y refleja la luz del cielo.
+  * **Matiz:** El océano no es la causa principal del azul del cielo. La atmósfera dispersa la luz, aunque el color observado puede cambiar con polvo, humo, humedad y altura.
 
 * **Mito 2:** Se cree que si no hubiera atmósfera el cielo seguiría teniendo algún color.
   * **Realidad científica contrastada:** En la Luna o en el espacio exterior, donde no hay gases ni partículas moleculares que dispersen fotones, el Sol se ve como un disco blanco cegador recortado sobre un fondo de cielo negro como el carbón, incluso en pleno día.
@@ -72,11 +76,11 @@ Porque las gotas de agua líquida y cristales de hielo de las nubes tienen diám
 
 ### ¿Por qué las erupciones volcánicas o grandes incendios producen atardeceres de un rojo sangre?
 
-Porque inyectan a la estratosfera partículas de aerosol de sulfatos y cenizas microscópicas que dispersan con aún mayor intensidad las longitudes de onda medias, dejando pasar únicamente la banda roja más profunda del espectro solar.
+Porque los aerosoles y gases de una erupción o un incendio modifican la transmisión y la dispersión de la luz. El resultado puede ser rojo, naranja o incluso púrpura según la composición y la altura de las partículas; no dejan pasar únicamente una banda.
 
 ### ¿De qué color es el cielo en Marte?
 
-En Marte, la atmósfera es muy delgada pero está cargada de polvo fino rico en óxidos de hierro (magnetita y hematita). Durante el día el cielo marciano tiene un tono anaranjado o marrón rojizo suave, y durante las puestas de sol en el cráter Gale se produce un atardecer azulado alrededor del disco solar.
+En Marte, el polvo suspendido y una atmósfera tenue cambian el color del cielo y de los atardeceres. Las observaciones de misiones muestran tonos anaranjados o rojizos durante el día y un resplandor más azulado cerca del Sol al ocaso; el aspecto depende del lugar y de la carga de polvo.
 
 ---
 

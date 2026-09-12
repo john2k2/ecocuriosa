@@ -16,9 +16,15 @@ sources:
   - title: "Eye lens radiocarbon reveals centuries of longevity in the Greenland shark"
     publisher: "Science / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Estimación de edad por radiocarbono en una muestra de tiburones de Groenlandia"
   - title: "Assessing the reproductive biology of the Greenland shark"
     publisher: "Journal of Fish Biology / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7540863/"
+    accessedDate: 2026-09-12
+    evidenceType: "review"
+    scope: "Síntesis de reproducción y vacíos de conocimiento"
 featured: false
 ---
 
@@ -55,11 +61,11 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 
 ## 3. Desmintiendo Mitos Comunes
 
-* **Mito 1:** Se dice que su carne es venenosa y mortal para los humanos porque contiene toxinas letales.
-  * **Realidad científica contrastada:** Su carne fresca cruda contiene cantidades tan elevadas de urea y TMAO que produce efectos neurotóxicos y embriaguez severa ('enfermedad del tiburón'). Sin embargo, en Islandia se consume tradicionalmente como *hákarl* tras meses de fermentación y secado al aire, proceso que degrada los compuestos amoniacales tóxicos.
+* **Mito 1:** Se dice que su carne es “venenosa” y mortal en cualquier circunstancia.
+  * **Matiz:** La química de sus tejidos y la preparación tradicional requieren contexto; “venenoso” no es una descripción taxonómica y este artículo no recomienda consumir carne cruda ni experimentar con preparaciones. Las afirmaciones culinarias deben contrastarse con autoridades sanitarias locales.
 
-* **Mito 2:** Se cree que es un depredador completamente ciego e inofensivo que solo come carroña marina.
-  * **Realidad científica contrastada:** Casi todos los adultos albergan un copépodo parásito bioluminiscente (*Ommatokoita elongata*) anclado en sus córneas que deteriora su visión; a pesar de ello, en sus estómagos se han hallado restos de focas veloces, salmones, bacalaos e incluso renos y osos polares caídos al hielo, capturados mediante sigilosa emboscada nocturna.
+* **Mito 2:** Se cree que es completamente ciego y solo come carroña.
+  * **Matiz:** Los parásitos oculares y la dieta varían entre individuos y estudios. Hay registros de peces, mamíferos marinos y carroña, pero no basta para reconstruir una estrategia de caza idéntica en toda la población.
 
 ---
 
@@ -67,7 +73,7 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 
 ### ¿Cómo logran atrapar focas si son animales tan lentos?
 
-Aprovechan que las focas polares duermen en el agua o en huecos de respiración en el hielo marino para acercarse sin generar turbulencias perceptibles, succionándolas con un movimiento mandibular repentino de presión negativa.
+Se han propuesto oportunidades de captura y carroñeo, pero las observaciones directas son escasas. No hay base en las fuentes de esta ficha para describir una maniobra de succión o una táctica nocturna universal.
 
 ### ¿Qué se sabe sobre cáncer y longevidad?
 

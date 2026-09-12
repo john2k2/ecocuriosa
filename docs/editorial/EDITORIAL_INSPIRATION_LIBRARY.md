@@ -141,6 +141,11 @@ Estas fuentes se añadieron al catálogo para que Luna pueda proponer briefs con
 | Alta | ¿Cómo se convirtió el calamar gigante de mito en registro científico? | Línea temporal museo → cebo → vídeo → incertidumbre | Cada tamaño o conducta conserva el tipo de evidencia y su límite |
 | Alta | ¿Qué ocurre dentro de un géiser antes de que lo veamos? | Diagrama de recarga, presión, burbujas y expulsión | No se publican alturas, litros o temperaturas sin medición del géiser |
 
+| Alta | ¿Cómo distinguir un pronóstico auroral de una fotografía espectacular? | [NASA aurora G1, 2026](https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/) · [NASA auroras](https://science.nasa.gov/sun/auroras/) | Ficha fecha–sensor–tormenta–visibilidad local | Un evento observado no predice la visibilidad de otra noche o ciudad |
+| Alta | ¿Qué significa realmente que florezca *Noctiluca*? | [Smithsonian](https://naturalhistory.si.edu/research/botany/research/dinoflagellates/harmful-marine-dinoflagellate-taxa) · [NOAA](https://repository.library.noaa.gov/view/noaa/59779) | Cadena organismo → floración → luz → muestra de agua | Diferenciar especie, región, color y riesgo sanitario; no generalizar un caso |
+| Alta | ¿Qué parte del ronroneo se explica por la laringe? | [Current Biology](https://doi.org/10.1016/j.cub.2023.09.014) · [Wiley](https://doi.org/10.1111/j.1469-7998.1991.tb04749.x) | Corte laríngeo con frecuencia, muestra y condiciones | Frecuencia no es terapia ni diagnóstico emocional |
+| Alta | ¿Qué observó realmente el experimento de Racetrack Playa? | [NPS](https://www.nps.gov/deva/planyourvisit/the-racetrack.htm) · [PLOS ONE](https://doi.org/10.1371/journal.pone.0105948) | Mapa de roca, hielo, viento, GPS y límite de observación | No decir que todas las rocas ni todos los surcos están explicados |
+
 ### Fuentes de derechos y transparencia añadidas
 
 Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:
@@ -185,4 +190,4 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 34 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 42 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
