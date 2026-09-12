@@ -16,12 +16,18 @@ sources:
   - title: "The axolotl genome and the evolution of key tissue formation regulators"
     publisher: "Nature"
     url: "https://www.nature.com/articles/nature25458"
+    evidenceType: "primary"
+    scope: "Genoma del axolote y reguladores asociados con el desarrollo de tejidos"
   - title: "The axolotl limb blastema"
     publisher: "Regeneration / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/"
+    evidenceType: "review"
+    scope: "Evidencia experimental sobre el blastema y la regeneración de extremidades"
   - title: "Axolotl conservation and population context"
     publisher: "Peer-reviewed literature / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/"
+    evidenceType: "review"
+    scope: "Contexto de conservación y amenazas de la población silvestre"
 featured: false
 ---
 
@@ -33,36 +39,36 @@ featured: false
 
 En el reino animal, la cicatrización convencional en mamíferos adultos responde a un imperativo evolutivo de supervivencia rápida: ante una herida profunda, los fibroblastos depositan colágeno desorganizado para cerrar la barrera cutánea de inmediato y evitar infecciones bacterianas letales, lo que resulta en una cicatriz fibrosa rígida que imposibilita la regeneración. El axolote, nativo del complejo lacustre de Xochimilco en el Valle de México, emplea una estrategia celular completamente opuesta.
 
-El axolote conserva rasgos larvarios en la adultez, un fenómeno conocido como neotenia. Durante la regeneración de una extremidad, las células del blastema no son un conjunto universal de células pluripotentes: presentan tipos celulares y restricciones de linaje que la investigación sigue describiendo.
+El axolote conserva rasgos larvarios en la adultez, un fenómeno conocido como neotenia. El [estudio del genoma del axolote publicado en Nature](https://www.nature.com/articles/nature25458) ayuda a situar qué reguladores se investigan. Durante la regeneración de una extremidad, las células del blastema no son un conjunto universal de células pluripotentes: presentan tipos celulares y restricciones de linaje que la investigación sigue describiendo.
 
 ---
 
 ## 2. La Cascada Biológica del Blastema en Cuatro Etapas
 
-1. **Sellado Epitelial y Casquete Apical (AEC):** En las primeras 12 a 24 horas tras la herida, las células epiteliales circundantes migran con celeridad sobre la herida abierta sin proliferación celular, formando el casquete epidérmico apical (Apical Epithelial Cap). Esta estructura libera factores de crecimiento neural y mitogénicos indispensables para las etapas siguientes.
+1. **Sellado epitelial y casquete apical:** Tras la herida, las células epiteliales migran sobre la superficie y forman un casquete epidérmico apical. El momento exacto y la secuencia de señales dependen del tejido y del diseño experimental; no conviene convertirlos en un cronómetro universal.
 
-2. **Desdiferenciación Celular y Blastema:** Durante los días siguientes, los miocitos, osteocitos, células endoteliales y fibroblastos maduros cercanos al muñón pierden su identidad morfológica en un proceso de desdiferenciación activa. Estas células se multiplican hasta acumular una masa densa de células progenitoras no diferenciadas denominada blastema regenerativo.
+2. **Formación del blastema:** En los días siguientes se acumulan células progenitoras y señales alrededor del muñón. La literatura muestra contribuciones celulares y restricciones de linaje; no es una masa universal de células pluripotentes ni una desdiferenciación idéntica para todos los tejidos.
 
-3. **Morfogénesis y Memoria Posicional Guiada:** Las células del blastema retienen información posicional precisa mediante la expresión diferencial de genes homeobox (Hox). Las células 'saben' qué porción de la extremidad falta (húmero, cúbito, radio o dedos) y comienzan a re-diferenciarse en huesos, cartílagos, vasos sanguíneos y fascículos musculares interconectados funcionalmente.
+3. **Patronamiento y diferenciación:** Interacciones entre células, señales de posición y vías de desarrollo orientan la reconstrucción de los tejidos. El detalle molecular —incluido el papel relativo de distintas familias de genes— sigue siendo objeto de investigación.
 
 ### Cronograma Celular de Regeneración en Ambystoma mexicanum
 
-| Fase Cronológica | Evento Citológico Principal | Regulación Molecular Clave |
+| Fase de estudio | Evento principal | Cautela interpretativa |
 | :--- | :--- | :--- |
-| 0 a 24 horas | Migración epitelial y cierre de herida | Inhibición de fibroblastos profibróticos |
-| Días 2 a 5 | Histólisis tisular y reclutamiento celular | Factores de crecimiento neural (nAG, FGF) |
-| Días 6 a 14 | Formación del blastema proliferativo | Vía de señalización Wnt / $\beta$-catenina |
-| Días 15 a 35 | Morfogénesis digital y osificación funcional | Patrón anteroposterior por gradientes Hox |
+| Cierre inicial | Migración epitelial y sellado de la herida | El tiempo varía entre tejidos y experimentos |
+| Blastema | Reclutamiento y organización de células progenitoras | No es una población homogénea |
+| Patronamiento | Coordinación de señales y posición | Los mecanismos exactos siguen en estudio |
+| Diferenciación | Reconstrucción progresiva de estructuras | No equivale a regeneración humana completa |
 
 ---
 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que si se le corta la cabeza a un axolote puede regenerar un cuerpo completamente nuevo.
-  * **Realidad científica contrastada:** Mito fantástico. Si bien puede reparar partes del prosencéfalo, el telencéfalo y segmentos de la columna vertebral cervical, la ablación cefálica total o la destrucción de los centros autónomos del tronco encefálico es letal e irreversible.
+  * **Realidad científica contrastada:** Puede regenerar algunas estructuras, pero eso no significa que pueda reconstruir un cuerpo completo. Una ablación cefálica total es incompatible con la vida.
 
 * **Mito 2:** Se afirma que los axolotes son inmunes al envejecimiento biológico y tienen longevidad ilimitada.
-  * **Realidad científica contrastada:** Aunque no muestran signos de senescencia celular acelerada ni telómeros degradados a la velocidad de otros anfibios, tienen una esperanza de vida máxima de 12 a 15 años en condiciones óptimas de cautiverio.
+  * **Realidad científica contrastada:** La regeneración no equivale a inmortalidad. La longevidad depende de la genética, el ambiente y el manejo, y no hay base para presentar al axolote como inmune al envejecimiento.
 
 ---
 

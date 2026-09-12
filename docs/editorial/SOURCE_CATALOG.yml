@@ -1201,6 +1201,12 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/
     use: test of stripe cooling hypothesis; do not state a single adaptive function as settled
+  - id: plos-zebra-stripes-horse-blankets-2019
+    authority: PLOS ONE
+    domain: evolutionary-biology
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1371/journal.pone.0223447
+    use: striped horse blankets and biting-fly landings; preserve the experimental context
   - id: current-biology-cat-purring-2023-10-033
     authority: Current Biology
     domain: comparative-physiology

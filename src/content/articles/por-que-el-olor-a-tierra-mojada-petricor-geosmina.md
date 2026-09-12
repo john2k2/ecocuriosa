@@ -16,13 +16,17 @@ sources:
   - title: "Raindrops and the aerosolization of soil"
     publisher: "Nature Communications"
     url: "https://doi.org/10.1038/ncomms7083"
+    evidenceType: "primary"
+    scope: "Aerosoles generados por el impacto de gotas sobre superficies porosas"
   - title: "Geosmin biosynthesis"
     publisher: "Nature Chemical Biology / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/"
+    evidenceType: "primary"
+    scope: "Biosíntesis de geosmina por microorganismos"
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El inconfundible olor a tierra mojada tras las primeras lluvias se denomina científicamente petricor (del griego *petra*, piedra, e *icor*, la sangre de los dioses). Se produce por la combinación de dos fuentes químicas: la geosmina (un compuesto orgánico bicíclico sintetizado por bacterias del suelo del género *Streptomyces*) y aceites aromáticos secretados por las plantas durante períodos de sequía. Cuando las gotas de lluvia impactan a gran velocidad sobre el suelo poroso, atrapan burbujas de aire microscópicas que estallan hacia arriba, eyectando aerosoles al aire que nuestros receptores olfativos detectan a concentraciones ultrabajas de hasta 5 partes por billón.
+> **Respuesta Rápida a la Búsqueda:** El olor a tierra mojada tras la lluvia se denomina petricor. Intervienen compuestos como la geosmina, producida por microorganismos del suelo, y moléculas volátiles asociadas a la superficie. El impacto de las gotas puede generar aerosoles que transportan parte de esas moléculas; la intensidad y la percepción cambian según el suelo, la lluvia y el ambiente.
 
 ---
 
@@ -30,25 +34,25 @@ featured: false
 
 El término 'petricor' fue acuñado formalmente en 1964 por dos químicos australianos, Isabel Joy Bear y Richard Thomas, en un artículo pionero publicado en la revista *Nature*. Al estudiar los destilados de rocas y arcillas secadas al sol estival, descubrieron que durante las épocas secas las plantas secretan mezclas complejas de ácidos grasos (como el ácido esteárico y palmítico) sobre el sustrato mineral para inhibir la germinación prematura de semillas en condiciones de escasez hídrica.
 
-A estos aceites botánicos se suma el componente olfativo más potente: la geosmina ($C_{12}H_{22}O$, trans-1,10-dimetil-trans-9-decalol), una molécula sintetizada de forma natural por actinobacterias filamentosas del suelo, especialmente del género *Streptomyces*. Cuando el suelo se seca, estas bacterias liberan esporas enriquecidas con geosmina que quedan latentes en los intersticios del polvo superficial.
+A estos aceites botánicos se suma la geosmina ($C_{12}H_{22}O$), una molécula sintetizada de forma natural por microorganismos del suelo, especialmente actinobacterias del género *Streptomyces*, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/). La cantidad y la forma en que llega al aire dependen del suelo y de la lluvia.
 
 ---
 
 ## 2. La Física del Impacto: Cómo la Gota Eyecta Aerosoles
 
-1. **Impacto de la Gota y Trampa de Microburbujas:** En 2015, ingenieros mecánicos del Instituto Tecnológico de Massachusetts (MIT) utilizaron cámaras de ultra-alta velocidad (a 250.000 fotogramas por segundo) para desvelar la física exacta del aroma. Al caer una gota de lluvia sobre una superficie porosa como suelo terroso o asfalto, atrapa minúsculas burbujas de aire en la interfaz entre el agua y el suelo.
+1. **Impacto de la gota y trampa de microburbujas:** Experimentos de dinámica de fluidos muestran que una gota sobre una superficie porosa puede atrapar pequeñas burbujas en la interfaz entre el agua y el suelo.
 
-2. **Cavitación y Estallido en Aerosol Efervescente:** Las microburbujas ascienden a través de la gota de agua a velocidad supersónica empujadas por la flotabilidad; al llegar a la superficie del domo líquido, las burbujas estallan violentamente como en una copa de champán, proyectando chorros microscópicos de cientos de microgotas de aerosol hacia la atmósfera circundante.
+2. **Liberación en aerosol:** Algunas burbujas pueden colapsar o estallar y lanzar microgotas al aire. La cantidad depende del tamaño de la gota, la textura del suelo y las condiciones del impacto; no es una fuente de aerosoles idéntica en todas las lluvias.
 
-3. **Dispersión Eólica e Hipersensibilidad Humana Excepcional:** Las corrientes de viento transportan estos aerosoles cargados de geosmina y aceites volátiles cientos de metros por delante del frente de tormenta. La nariz humana posee una sensibilidad olfativa evolutiva asombrosa hacia la geosmina: podemos detectarla en concentraciones de apenas 5 partes por billón (0,005 microgramos por litro de aire), superando la sensibilidad de un tiburón para oler sangre en el agua.
+3. **Dispersión y percepción:** El viento puede transportar compuestos volátiles y hacer que el aroma se perciba antes o después de la lluvia local. La geosmina tiene un umbral olfativo bajo, pero su detección depende de la persona, la mezcla de compuestos y la concentración real.
 
 ### Compuestos Químicos Clave del Aroma a Lluvia (Petricor)
 
 | Compuesto Volátil | Origen Bioquímico | Umbral de Detección Olfativo | Matiz Aromático |
 | :--- | :--- | :--- | :--- |
-| Geosmina ($C_{12}H_{22}O$) | Actinobacterias (*Streptomyces*) y cianobacterias | 5 partes por billón (5 ppt) | Tierra fresca, humedad, hongo terroso |
-| Aceites vegetales secos | Exudados de raíces y hojas (*ácido esteárico*) | ~ 10 a 50 partes por millón (ppm) | Ámbar vegetal, resina herbácea |
-| Ozono troposférico ($O_3$) | Disociación eléctrica de $O_2$ por rayos en tormenta | 10 partes por mil millones (10 ppb) | Metálico, acre, 'limpieza eléctrica' previa |
+| Geosmina ($C_{12}H_{22}O$) | Microorganismos del suelo, incluidas actinobacterias | Umbral bajo y variable | Tierra fresca, humedad, matiz terroso |
+| Aceites vegetales | Moléculas volátiles asociadas a plantas y suelo seco | Depende de la mezcla | Matiz vegetal o resinoso |
+| Otros compuestos atmosféricos | Química local de la tormenta y del suelo | No hay un valor único | Matices que pueden acompañar al petricor |
 
 ---
 
@@ -66,11 +70,11 @@ A estos aceites botánicos se suma el componente olfativo más potente: la geosm
 
 ### ¿Por qué los seres humanos tenemos una sensibilidad tan extrema a la geosmina?
 
-Antropólogos evolutivos sostienen que nuestros antepasados homínidos del Pleistoceno dependían críticamente de localizar fuentes de agua dulce y vegetación fresca en la sabana árida; aquellos individuos con mutaciones que les permitían oler la lluvia a kilómetros de distancia tenían ventajas colosales de supervivencia.
+Se ha propuesto que la sensibilidad a olores ambientales pudo tener valor ecológico, pero las fuentes de esta ficha no permiten afirmar una ventaja evolutiva concreta ni una distancia universal de detección.
 
 ### ¿Tiene la geosmina relación con el sabor a tierra de algunos alimentos?
 
-Sí. La geosmina es la molécula responsable del característico sabor terroso de la remolacha roja, y puede contaminar accidentalmente filetes de carpas, siluros o aguas potables no filtradas adecuadamente sin representar peligro toxicológico.
+Sí. La geosmina también puede contribuir a sabores terrosos en algunos alimentos y aguas. Su presencia sensorial no demuestra por sí sola un riesgo toxicológico; la seguridad depende del producto y de la autoridad sanitaria correspondiente.
 
 ### ¿Por qué el aroma es especialmente perceptible antes de que empiece a llover en nuestro lugar?
 

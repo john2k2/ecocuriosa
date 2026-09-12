@@ -16,9 +16,18 @@ sources:
   - title: "The function of zebra stripes"
     publisher: "Nature Communications"
     url: "https://doi.org/10.1038/ncomms4535"
+    evidenceType: "primary"
+    scope: "Comparación de hipótesis evolutivas sobre las rayas"
   - title: "Zebra stripes do not cool zebras"
     publisher: "Scientific Reports / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/"
+    evidenceType: "primary"
+    scope: "Ensayo de la hipótesis de termorregulación"
+  - title: "Zebra stripes, biting flies and horse blankets"
+    publisher: "PLOS ONE"
+    url: "https://doi.org/10.1371/journal.pone.0223447"
+    evidenceType: "primary"
+    scope: "Experimento de mantas rayadas y aterrizaje de moscas en caballos"
 featured: false
 ---
 
@@ -40,7 +49,7 @@ Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento,
 
 2. **Fallo del Sistema de Frenado Óptico en el Tábano:** Estudios con cámaras de alta velocidad demostraron que los tábanos vuelan hacia las cebras atraídos por su calor y olor, pero al acercarse a menos de un metro sufren una ilusión óptica geométrica: son incapaces de calibrar la velocidad de aproximación y la distancia de la superficie. En lugar de desacelerar y posarse suavemente, chocan de frente contra el pelaje a gran velocidad o rebotan sin poder picar.
 
-3. **Experimentos de campo con caballos cubiertos:** Estudios con mantas rayadas en caballos aportan evidencia de que los tábanos aterrizan con menos éxito sobre patrones similares a las rayas de cebra. El tamaño del efecto y las condiciones dependen del experimento; no debe trasladarse como una cifra universal a todas las especies y ambientes.
+3. **Experimentos de campo con caballos cubiertos:** El [estudio de PLOS ONE sobre mantas rayadas](https://doi.org/10.1371/journal.pone.0223447) aporta evidencia de menos aterrizajes de tábanos sobre patrones similares a las rayas de cebra. El tamaño del efecto y las condiciones dependen del experimento; no debe trasladarse como una cifra universal a todas las especies y ambientes.
 
 ### Evaluación Experimental de las Cuatro Hipótesis sobre las Rayas de la Cebra
 
@@ -75,7 +84,7 @@ Los patrones son suficientemente variables para distinguir individuos en fotogra
 
 ### ¿Se están aplicando las rayas a vacas lecheras en la actualidad?
 
-Sí. En Japón, científicos del Centro de Investigación Agrícola de Aichi pintaron a vacas negras con rayas blancas de pintura lavable similar a cebras, logrando una reducción del 50% en las picaduras de tábanos y reduciendo el estrés del ganado sin usar pesticidas químicos.
+Hay experimentos con ganado y caballos cubiertos con patrones rayados que informan menos aterrizajes de moscas en determinadas condiciones. El efecto depende del diseño, la especie, el insecto y el entorno; no debe presentarse como una reducción fija para todo el ganado.
 
 ---
 

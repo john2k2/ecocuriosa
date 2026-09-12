@@ -16,9 +16,13 @@ sources:
   - title: "Lightning activity over Lake Maracaibo"
     publisher: "Journal of Atmospheric and Solar-Terrestrial Physics"
     url: "https://doi.org/10.1016/j.jastp.2012.01.013"
+    evidenceType: "primary"
+    scope: "Actividad eléctrica y variabilidad de tormentas sobre el lago de Maracaibo"
   - title: "Recent analysis of lightning activity in the Lake Maracaibo region"
     publisher: "Journal of Geophysical Research: Atmospheres"
     url: "https://doi.org/10.1029/2025JD044030"
+    evidenceType: "primary"
+    scope: "Análisis reciente de la actividad de rayos en la región del lago"
 featured: false
 ---
 
@@ -28,7 +32,7 @@ featured: false
 
 ## 1. El Callejón Orográfico: La Trampa Geográfica de Maracaibo
 
-La cuenca del lago de Maracaibo combina una fuente importante de humedad con una topografía compleja. Durante el día y la noche cambian la temperatura, las brisas y la estabilidad atmosférica. Esos ingredientes pueden alimentar convección profunda, la clase de nube que permite la separación de cargas y los rayos.
+La cuenca del lago de Maracaibo combina una fuente importante de humedad con una topografía compleja. El [análisis reciente de la actividad de rayos en la región](https://doi.org/10.1029/2025JD044030) estudia cómo varían la temperatura, las brisas y la estabilidad atmosférica. Esos ingredientes pueden alimentar convección profunda, la clase de nube que permite la separación de cargas y los rayos.
 
 El relieve de la cordillera de Mérida y de la serranía del Perijá puede canalizar y elevar aire húmedo. La investigación atmosférica estudia esa combinación de orografía, circulación local y condiciones de gran escala, en lugar de atribuir el fenómeno a un único ingrediente o a un proceso ininterrumpido.
 
@@ -36,9 +40,9 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
 
 ## 2. La Física Electrostática de la Descarga Continua
 
-1. **Carga por Fricción de Granizo Blando (Graupel):** En el interior de la nube, a temperaturas de entre -10 °C y -35 °C, cristales de hielo ascendentes colisionan violentamente contra gotas de agua sobreenfriada y granizo blando (graupel). En estas colisiones, los electrones se transfieren a las partículas más pesadas, dejando a la cima de la nube con una carga electrostática neta positiva y a la base con una densa carga negativa.
+1. **Separación de cargas en la nube:** En las nubes convectivas, colisiones entre hielo, agua sobreenfriada y partículas de precipitación separan cargas eléctricas. El signo y la distribución dependen de la microfísica de cada tormenta; no hay un perfil idéntico para todas.
 
-2. **Ruptura Dieléctrica del Aire a Escala Masiva:** Cuando la diferencia de potencial eléctrico entre la base de la nube y el lago (o entre nubes contiguas) supera la rigidez dieléctrica del aire húmedo (aproximadamente 3 millones de voltios por metro), se forma un canal ionizado escalonado (*stepped leader*), cerrando un circuito eléctrico colosal con corrientes de hasta 100.000 a 400.000 amperios.
+2. **Ruptura dieléctrica y descarga:** Cuando el campo eléctrico local supera el umbral de ruptura del aire, se forma un canal ionizado y se produce una descarga. La intensidad y la corriente varían mucho entre rayos y requieren una medición específica.
 
 3. **Luz y sonido pueden llegar de forma distinta:** El destello viaja mucho más rápido que el sonido. A distancia, el trueno puede quedar atenuado por el terreno, el viento y la estructura térmica de la atmósfera. Eso no significa que los rayos sean silenciosos ni permite asignar una proporción fija de descargas intranube sin una medición concreta.
 
@@ -59,7 +63,7 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
   * **Matiz científico:** La evidencia disponible se centra en la convección, la humedad, la topografía y la circulación atmosférica. Reducir un sistema de tormentas a una sola explicación no describe bien su complejidad.
 
 * **Mito 2:** Se cree que los rayos son silenciosos porque no generan truenos.
-  * **Realidad científica contrastada:** Una descarga calienta y expande el aire, generando una onda de choque que percibimos como trueno. La temperatura del canal y la distancia audible dependen del tipo de descarga y de la atmósfera; no conviene convertir cifras divulgativas como 30.000 °C o 20–25 km en límites universales.
+  * **Realidad científica contrastada:** Una descarga calienta y expande el aire, generando una onda de choque que percibimos como trueno. La distancia audible depende del tipo de descarga y de la atmósfera; no conviene convertir cifras divulgativas en límites universales.
 
 ---
 
@@ -67,7 +71,7 @@ El relieve de la cordillera de Mérida y de la serranía del Perijá puede canal
 
 ### ¿Por qué el relámpago del Catatumbo era conocido como el 'Faro de Maracaibo'?
 
-Porque relatos históricos lo describen como una referencia luminosa para la navegación en el lago y el golfo de Venezuela. “Faro de Maracaibo” es un apodo histórico: no demuestra que los destellos fueran ininterrumpidos ni que siempre fueran visibles a 150 km.
+Porque relatos históricos lo describen como una referencia luminosa para la navegación en el lago y el golfo de Venezuela. “Faro de Maracaibo” es un apodo histórico: no demuestra que los destellos fueran ininterrumpidos ni que siempre fueran visibles desde una distancia fija.
 
 ### ¿Genera una fracción relevante del ozono mundial?
 

@@ -16,9 +16,13 @@ sources:
   - title: "Narwhal"
     publisher: "NOAA Fisheries"
     url: "https://www.fisheries.noaa.gov/species/narwhal"
+    evidenceType: "institutional"
+    scope: "Biología, distribución y conservación del narval"
   - title: "Sensory ability in the narwhal tooth organ system"
     publisher: "Smithsonian Profiles"
     url: "https://profiles.si.edu/display/sro_119183"
+    evidenceType: "primary"
+    scope: "Estructura sensorial propuesta para el órgano dentario del narval"
 featured: false
 ---
 
@@ -30,7 +34,7 @@ featured: false
 
 Los dientes de mamíferos tienen pulpa, dentina y, normalmente, esmalte. El colmillo del narval es inusual por su dentina expuesta y su patrón helicoidal; describirlo no requiere asumir que todos sus rasgos tengan una función conocida.
 
-Estudios anatómicos describen túbulos dentinarios y han explorado una posible función sensorial. La evidencia disponible procede de muestras limitadas y no justifica cifras universales de terminaciones nerviosas, proporción de hembras con colmillo o una dirección de espiral presentada como absoluta.
+Estudios anatómicos, como el trabajo descrito por [Smithsonian sobre el órgano dentario sensorial](https://profiles.si.edu/display/sro_119183), describen túbulos dentinarios y exploran una posible función sensorial. La evidencia disponible procede de muestras limitadas y no justifica cifras universales de terminaciones nerviosas, proporción de hembras con colmillo o una dirección de espiral presentada como absoluta.
 
 ---
 
@@ -40,7 +44,7 @@ Estudios anatómicos describen túbulos dentinarios y han explorado una posible 
 
 2. **Inmersiones:** Los narvales realizan inmersiones profundas, pero sus máximos reportados cambian entre estudios y contextos. Una profundidad observada no identifica por sí sola la función del colmillo.
 
-3. **Señalización Sexual y 'Tusking' Táctil:** Aunque se ha observado a machos frotando sus colmillos en la superficie (*tusking*), este comportamiento no es un duelo a muerte violento. Investigaciones recientes sugieren que es un intercambio de información táctil y sensorial mutua, así como una señal visual de dimorfismo sexual para indicar aptitud física y calidad genética ante las hembras.
+3. **Señalización social y sexual:** Se han observado machos cruzando o frotando sus colmillos (*tusking*). El comportamiento puede cumplir funciones sociales o de exhibición, pero su significado exacto y su relación con la selección sexual siguen en estudio.
 
 ### Métricas Anatómicas y Sensoriales del Colmillo de Monodon monoceros
 
@@ -55,11 +59,11 @@ Estudios anatómicos describen túbulos dentinarios y han explorado una posible 
 
 ## 3. Desmintiendo Mitos Comunes
 
-* **Mito 1:** El mito medieval de que los colmillos de narval pertenecían a unicornios terrestres y neutralizaban cualquier veneno en las copas reales.
-  * **Realidad científica contrastada:** Durante la Edad Media y el Renacimiento, los vikingos vendían estos colmillos a las cortes europeas a precios diez veces superiores a su peso en oro presentándolos como cuernos de unicornio con supuestos poderes antídotos mágicos.
+* **Mito 1:** Durante siglos se confundió el colmillo con el cuerno de un unicornio terrestre.
+  * **Realidad científica contrastada:** El comercio medieval contribuyó a esa confusión y a las leyendas sobre sus poderes, pero las fuentes consultadas no permiten fijar un precio universal ni atribuirle propiedades antídoto.
 
-* **Mito 2:** Se cree que los narvales usan su colmillo para atravesar como lanzas a sus presas marinas.
-  * **Realidad científica contrastada:** No empalan peces. De hecho, son desdentados en la boca y se alimentan succionando a sus presas enteras. Se ha filmado con drones a narvales utilizando el colmillo como un garrote ligero para aturdir bacalaos árticos antes de tragarlos.
+* **Mito 2:** Se cree que los narvales usan su colmillo como una lanza para cazar.
+  * **Realidad científica contrastada:** El colmillo no debe describirse como un arma universal. Los narvales capturan presas con la boca y la función concreta del diente en la alimentación sigue siendo una cuestión de observación y contexto.
 
 ---
 
@@ -75,7 +79,7 @@ Sí, aunque es raro. Algunos informes describen la formación de un segundo colm
 
 ### ¿Cómo respiran los narvales si el mar ártico se congela por completo?
 
-Dependen de respiraderos naturales en la banquisa llamados polinias y grietas abiertas por mareas. El cambio climático desorienta sus migraciones, y si una helada repentina cierra los respiraderos, cientos de narvales pueden morir asfixiados en eventos conocidos por los inuit como *sassat*.
+Necesitan acceder a aguas abiertas para respirar y pueden utilizar polinias o grietas en el hielo marino. Se han documentado episodios locales de atrapamiento bajo el hielo, pero su frecuencia, causas y consecuencias dependen de las condiciones de cada región y año.
 
 ---
 

@@ -36,13 +36,13 @@ featured: false
 
 La edad de muchos tiburones se estima con estructuras de crecimiento, pero el tiburón de Groenlandia requiere otros métodos. Un estudio de 2016 analizó el cristalino mediante radiocarbono, una aproximación que ofrece estimaciones con intervalos amplios.
 
-El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar datación por radiocarbono. Para el ejemplar más grande de la muestra, el estudio estimó 392 ± 120 años: el margen impide fijar un año de nacimiento exacto.
+El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar datación por radiocarbono. El [estudio publicado en Science y registrado en PubMed](https://pubmed.ncbi.nlm.nih.gov/27516602/?dopt=Abstract) estimó 392 ± 120 años para el ejemplar más grande de su muestra: el margen impide fijar un año de nacimiento exacto.
 
 ---
 
 ## 2. Bioquímica Crioprotectora y Ralentización Metabólica
 
-1. **Anticongelantes Celulares Naturales (TMAO y Urea):** Para no congelarse en aguas con temperaturas de -1,5 °C y soportar profundidades de hasta 2.200 metros, los tejidos del tiburón acumulan concentraciones masivas de urea y óxido de trimetilamina (TMAO). Esta última molécula es un potente estabilizador osmótico que contrarresta el efecto desnaturalizante de la urea y preserva la conformación tridimensional de las enzimas catalíticas.
+1. **Fisiología de aguas frías:** La especie vive en ambientes fríos y su fisiología se estudia como posible contexto de su crecimiento lento y longevidad. Las fuentes de esta ficha no permiten atribuir el fenómeno a una molécula concreta ni fijar una profundidad o temperatura universal.
 
 2. **Metabolismo y longevidad:** Las aguas frías y la fisiología de la especie se investigan como posibles factores de su longevidad. No existe una medición única de frecuencia cardíaca o velocidad que explique por sí sola su envejecimiento.
 
@@ -81,7 +81,7 @@ La longevidad de la especie no prueba una baja incidencia de cáncer ni mecanism
 
 ### ¿Dónde se distribuyen geográficamente?
 
-En las aguas gélidas del Atlántico Norte y el océano Glacial Ártico, alrededor de Groenlandia, Islandia, Noruega, el archipiélago Svalbard y el golfo de San Lorenzo en Canadá, descendiendo a mayores profundidades cuando las aguas superficiales se calientan en verano.
+En aguas del Atlántico Norte y del Ártico. La distribución observada cambia según la región, la estación y el método de muestreo; conviene consultar los registros de cada población antes de convertir una lista de localidades en un límite geográfico.
 
 ---
 
