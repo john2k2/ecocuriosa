@@ -70,6 +70,37 @@ Las siguientes ideas son **briefs candidatos**, no artículos aprobados. Las con
 | Baja | ¿Cómo se convierte una colección de museo en una historia visual? | Ciencia curiosa | Smithsonian Open Access + ficha de espécimen | Ficha de procedencia, licencia y contexto | Registrar licencia del activo concreto, no solo del portal |
 | Baja | ¿Qué significa realmente “imagen de NASA”? | Metodología editorial | NASA Brand Center + licencia del activo | Ejemplo de crédito correcto/incorrecto | No asumir que todo lo alojado en NASA es libre de cualquier uso |
 
+## Banco de oportunidades recientes (12 de septiembre de 2026)
+
+Estas oportunidades se incorporan desde fuentes institucionales recientes. La fecha y el alcance son parte del brief: no se deben convertir en cifras permanentes ni en titulares universales. Cada propuesta necesita una consulta real de Search Console y una comprobación de las fuentes antes de pasar a redacción.
+
+| Prioridad | Pregunta editorial people-first | Fuentes candidatas | Aportación propia | Límite que debe quedar visible |
+| --- | --- | --- | --- | --- |
+| Alta | ¿Qué riesgos tienen los moluscos de fuentes hidrotermales y por qué importa protegerlos? | [IUCN, 2026](https://iucn.org/press-release/202607/desert-frog-deep-sea-molluscs-remarkable-species-risk-iucn-red-list) | Mapa de hábitat, amenaza y decisión de conservación | Alcance limitado a los taxones evaluados; no extrapolar a toda la vida marina |
+| Alta | ¿Qué está ocurriendo con los peces de agua dulce europeos? | [IUCN, 2026](https://iucn.org/press-release/202604/almost-half-european-freshwater-fishes-risk-extinction-new-iucn-red-list) | Tabla que traduzca categoría, distribución y amenaza para comunidades ribereñas | Es una evaluación regional, no un censo mundial |
+| Alta | ¿Cómo puede una búsqueda de secuencias ayudar a encontrar biodiversidad? | [GBIF, búsqueda de secuencias](https://www.gbif.org/news/1RGAh9ay47GsvleOhDC9js/from-base-pairs-to-binomials-is-sequence-search-now-available-on-gbiforg/) | Diagrama pares de bases → coincidencia → identificación taxonómica | Similitud de secuencia no demuestra por sí sola identidad o distribución |
+| Alta | ¿Qué promete el eDNA marino y qué sigue en desarrollo? | [Programa GBIF 2026](https://docs.gbif.org/2026-work-programme/en/gbif-work-programme-2026.en.pdf) | Flujo de muestreo, metabarcoding y validación en campo | Es un programa de trabajo; no presentarlo como resultado global concluido |
+| Alta | ¿Qué significa realmente un episodio mundial de blanqueamiento coralino? | [NOAA, actualización](https://www.nesdis.noaa.gov/news/worlds-fourth-mass-coral-bleaching-event-likely-ended-2025) · [informe técnico](https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php) | Gráfico estrés térmico → blanqueamiento → recuperación o mortalidad | Área afectada no equivale a porcentaje de coral muerto; conservar la incertidumbre |
+| Alta | ¿Cómo afectan las olas de calor marinas a pesca, acuicultura y fauna? | [NOAA PSL](https://psl.noaa.gov/marine-heatwaves/) · [contenido de calor](https://oceanwatch.noaa.gov/cwn/product-families/ocean-heat-content.html) | Comparación de una anomalía con su profundidad y duración | Diferenciar observación de pronóstico experimental y respetar el alcance vertical |
+| Alta | ¿Cómo “ve” PACE el color vivo del océano? | [NASA PACE](https://science.nasa.gov/mission/pace/) · [actualización de campo](https://science.nasa.gov/blogs/notes-from-the-field/2026/07/07/keeping-pace-with-ocean-change/) | Método señal espectral → hipótesis → validación con muestras | La teledetección observa principalmente superficie; no confirma toxicidad por sí sola |
+| Media | ¿Cómo se traduce El Niño en señales medibles desde el espacio? | [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/) | Mapa regional de probabilidades y efectos cotidianos | No atribuir cada evento meteorológico a El Niño |
+| Media | ¿Cómo se estudian lluvias extremas y deslizamientos sin prometer un balance final? | [USGS, amenazas de deslizamiento](https://www.usgs.gov/programs/landslide-hazards/science/2026-hurricane-lala-landslide-hazards) | Lectura guiada de mapa de amenaza, erosión y sedimentación | El informe es preliminar y puede cambiar |
+| Media | ¿Qué vuelve excepcional a una nevada amplia en el Atacama? | [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/rare-widespread-snow-in-the-atacama-desert/) | Comparación Landsat/MODIS y efectos en agua, rutas y observatorios | “Raro” no significa “sin precedentes” ni prueba causal de cambio climático |
+| Media | ¿Cómo leer un informe semanal de actividad volcánica? | [Smithsonian/USGS](https://volcano.si.edu/reports_weekly.cfm) | Glosario visual de alerta, ceniza, lava y aviación | Es un reporte preliminar, no una predicción de erupción |
+| Media | ¿Qué puede revelar un radar sobre un terremoto? | [NASA NISAR](https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/) | Antes/después de interferometría y protocolo de inspección | Desplazamiento del terreno no equivale a mapa completo de daños |
+| Media | ¿Qué son las nubes pirocumulonimbo y por qué importan? | [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/) | Esquema incendio → convección → humo y exposición | No convertir un caso de investigación en pronóstico local |
+| Baja | ¿Cómo se detecta una floración algal desde un satélite y una muestra de agua? | [NASA/USGS/NPS](https://science.nasa.gov/earth/earth-observatory/examining-algal-blooms-in-blue-mesa/) | Cadena imagen → muestra → decisión de salud pública | El caso corresponde a un embalse y periodo concretos; no generalizar |
+
+### Fuentes de derechos y transparencia añadidas
+
+Para cada nueva ficha, el editor debe consultar la licencia del activo concreto y documentar autor, institución, URL, fecha de descarga, cambios y crédito. Estas fuentes sirven como guía, no como permiso automático:
+
+- [Wikimedia Commons: reutilización](https://commons.wikimedia.org/wiki/Commons%3AREUSE) y [línea de crédito](https://commons.wikimedia.org/wiki/Commons%3ACredit_line).
+- [NASA: imágenes y medios](https://www.nasa.gov/nasa-brand-center/images-and-media/), con excepciones de terceros, personas, logos y respaldo comercial.
+- [NOAA: preguntas sobre imágenes](https://oceanservice.noaa.gov/about/faq.html) y [USGS: derechos y créditos](https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits).
+- [Google News: transparencia](https://support.google.com/news/publisher-center/answer/6204050?hl=es) y [buenas prácticas de artículos](https://support.google.com/news/publisher-center/answer/9607104?hl=es).
+- [NISO CRediT](https://credit.niso.org/) para separar investigación, escritura, análisis, visualización y revisión; [COPE](https://publicationethics.org/files/COPE_Principles_of_Transparency_Poster_0.pdf) para transparencia de autoría y correcciones.
+
 ## Formato mínimo de un brief derivado
 
 ```yaml
@@ -104,4 +135,4 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales y 12 briefs candidatos | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, 26 briefs candidatos y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |

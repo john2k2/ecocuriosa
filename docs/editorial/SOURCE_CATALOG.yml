@@ -331,3 +331,159 @@ entries:
     evidenceType: guidance
     url: https://support.google.com/adsense/answer/7514132?hl=es
     use: Search Console Ad Experience monitoring and ad quality safeguards
+  - id: iucn-deep-sea-molluscs-2026
+    authority: IUCN
+    domain: conservation-marine
+    evidenceType: institutional-update
+    url: https://iucn.org/press-release/202607/desert-frog-deep-sea-molluscs-remarkable-species-risk-iucn-red-list
+    use: assessed risk in deep-sea molluscs and conservation scope
+  - id: iucn-europe-freshwater-fishes-2026
+    authority: IUCN
+    domain: conservation-freshwater
+    evidenceType: institutional-update
+    url: https://iucn.org/press-release/202604/almost-half-european-freshwater-fishes-risk-extinction-new-iucn-red-list
+    use: regional freshwater-fish assessments and threat categories
+  - id: gbif-sequence-search-2026
+    authority: GBIF
+    domain: biodiversity-data
+    evidenceType: institutional-update
+    url: https://www.gbif.org/news/1RGAh9ay47GsvleOhDC9js/from-base-pairs-to-binomials-is-sequence-search-now-available-on-gbiforg/
+    use: sequence search, eDNA discovery and taxonomic-identification limits
+  - id: gbif-work-programme-edna-2026
+    authority: GBIF
+    domain: biodiversity-data
+    evidenceType: institutional-programme
+    url: https://docs.gbif.org/2026-work-programme/en/gbif-work-programme-2026.en.pdf
+    use: planned interoperability for metabarcoding, eDNA and marine data
+  - id: noaa-coral-bleaching-2025
+    authority: NOAA Coral Reef Watch
+    domain: marine-climate
+    evidenceType: institutional-observation
+    url: https://www.nesdis.noaa.gov/news/worlds-fourth-mass-coral-bleaching-event-likely-ended-2025
+    use: global heat-stress and coral-bleaching context, with uncertainty
+  - id: noaa-coral-bleaching-report
+    authority: NOAA Coral Reef Watch
+    domain: marine-climate
+    evidenceType: institutional-report
+    url: https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php
+    use: satellite products and methods behind coral-bleaching alerts
+  - id: noaa-marine-heatwaves
+    authority: NOAA Physical Sciences Laboratory
+    domain: marine-climate
+    evidenceType: institutional-monitoring
+    url: https://psl.noaa.gov/marine-heatwaves/
+    use: observed and experimental marine-heatwave monitoring
+  - id: noaa-ocean-heat-content
+    authority: NOAA OceanWatch
+    domain: marine-climate
+    evidenceType: institutional-dataset
+    url: https://oceanwatch.noaa.gov/cwn/product-families/ocean-heat-content.html
+    use: ocean-heat-content definitions and vertical-scope limits
+  - id: nasa-pace-ocean-change
+    authority: NASA PACE
+    domain: earth-observation
+    evidenceType: mission-documentation
+    url: https://science.nasa.gov/mission/pace/
+    use: phytoplankton, aerosols and ocean-colour remote sensing
+  - id: nasa-pace-field-update-2026
+    authority: NASA Earth Science
+    domain: earth-observation
+    evidenceType: mission-update
+    url: https://science.nasa.gov/blogs/notes-from-the-field/2026/07/07/keeping-pace-with-ocean-change/
+    use: current PACE field context and surface-observation limits
+  - id: nasa-el-nino-2026
+    authority: NASA Earth Observatory
+    domain: climate
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/
+    use: satellite sea-level observations and regional-impact framing
+  - id: usgs-hawaii-landslides-2026
+    authority: USGS
+    domain: natural-hazards
+    evidenceType: institutional-event-report
+    url: https://www.usgs.gov/programs/landslide-hazards/science/2026-hurricane-lala-landslide-hazards
+    use: event-based landslide evidence, erosion and changing preliminary data
+  - id: nasa-atacama-snow-2026
+    authority: NASA Earth Observatory
+    domain: earth-observation
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/earth/earth-observatory/rare-widespread-snow-in-the-atacama-desert/
+    use: Landsat/MODIS comparison and careful rare-event framing
+  - id: smithsonian-volcanic-activity-report
+    authority: Smithsonian Institution and USGS
+    domain: volcanology
+    evidenceType: institutional-report
+    url: https://volcano.si.edu/reports_weekly.cfm
+    use: weekly volcanic activity, alert levels and preliminary-report limits
+  - id: nasa-nisar-venezuela-earthquakes
+    authority: NASA Earth Observatory
+    domain: geophysics
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/
+    use: radar interferometry and the distinction between displacement and damage
+  - id: nasa-fire-clouds-utah
+    authority: NASA Earth Observatory
+    domain: atmospheric-science
+    evidenceType: institutional-observation
+    url: https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/
+    use: pyrocumulonimbus observations, aircraft measurements and uncertainty
+  - id: nasa-blue-mesa-algal-bloom
+    authority: NASA Earth Observatory, USGS and NPS
+    domain: freshwater-environment
+    evidenceType: institutional-case-study
+    url: https://science.nasa.gov/earth/earth-observatory/examining-algal-blooms-in-blue-mesa/
+    use: satellite, water-sample and historical context for algal blooms
+  - id: wikimedia-commons-reuse
+    authority: Wikimedia Commons
+    domain: image-rights
+    evidenceType: licensing-guidance
+    url: https://commons.wikimedia.org/wiki/Commons%3AREUSE
+    use: per-file licensing, attribution and verification limits
+  - id: wikimedia-credit-line
+    authority: Wikimedia Commons
+    domain: image-rights
+    evidenceType: licensing-guidance
+    url: https://commons.wikimedia.org/wiki/Commons%3ACredit_line
+    use: practical image-credit construction and provenance records
+  - id: nasa-images-media-use
+    authority: NASA
+    domain: image-rights
+    evidenceType: institutional-guidance
+    url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+    use: NASA media exceptions, third-party material and branding constraints
+  - id: noaa-image-faq
+    authority: NOAA
+    domain: image-rights
+    evidenceType: institutional-guidance
+    url: https://oceanservice.noaa.gov/about/faq.html
+    use: public-domain defaults, crediting and no implied endorsement
+  - id: usgs-copyright-credits
+    authority: USGS
+    domain: image-rights
+    evidenceType: institutional-guidance
+    url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    use: public-domain scope, third-party exceptions and required credits
+  - id: google-news-transparency
+    authority: Google News
+    domain: editorial-transparency
+    evidenceType: policy
+    url: https://support.google.com/news/publisher-center/answer/6204050?hl=es
+    use: visible authorship, dates, company and contact transparency
+  - id: google-news-article-best-practices
+    authority: Google News
+    domain: editorial-transparency
+    evidenceType: guidance
+    url: https://support.google.com/news/publisher-center/answer/9607104?hl=es
+    use: author URLs, published/modified dates and no artificial freshness
+  - id: niso-credit-taxonomy
+    authority: NISO CRediT
+    domain: editorial-transparency
+    evidenceType: taxonomy
+    url: https://credit.niso.org/
+    use: distinguish research, writing, analysis, visualization and review roles
+  - id: cope-transparency-principles
+    authority: COPE
+    domain: editorial-transparency
+    evidenceType: institutional-guidance
+    url: https://publicationethics.org/files/COPE_Principles_of_Transparency_Poster_0.pdf
+    use: authorship, review, corrections and conflict-of-interest transparency
