@@ -15,18 +15,23 @@ for (const filename of await readdir(articlesDirectory)) {
   const frontmatter = article.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
   const category = frontmatter.match(/^category:\s*["']?([^"'\n]+)["']?\s*$/m)?.[1];
   const pubDate = frontmatter.match(/^pubDate:\s*([^\n]+)\s*$/m)?.[1]?.trim();
+  const updatedDate = frontmatter.match(/^updatedDate:\s*([^\n]+)\s*$/m)?.[1]?.trim();
   const reviewedDate = frontmatter.match(/^reviewedDate:\s*([^\n]+)\s*$/m)?.[1]?.trim();
 
-  // `lastmod` must reflect a real meaningful change. A verified review wins;
-  // otherwise the original publication date is the only defensible timestamp.
-  const lastModified = reviewedDate || pubDate;
-  if (!category || !lastModified) continue;
+  // `lastmod` must reflect a real meaningful change. Use the latest substantive
+  // update or verified review; otherwise the original publication date is the
+  // only defensible timestamp.
+  const candidateDates = [pubDate, updatedDate, reviewedDate]
+    .filter(Boolean)
+    .map((value) => new Date(value));
+  const lastModifiedDate = candidateDates
+    .filter((date) => !Number.isNaN(date.valueOf()))
+    .sort((a, b) => a.valueOf() - b.valueOf())
+    .at(-1);
+  if (!category || !lastModifiedDate) continue;
 
   const slug = path.basename(filename, '.md');
-  const date = new Date(lastModified);
-  if (!Number.isNaN(date.valueOf())) {
-    articleLastModified.set(`${siteURL}/${category}/${slug}/`, date);
-  }
+  articleLastModified.set(`${siteURL}/${category}/${slug}/`, lastModifiedDate);
 }
 
 export default defineConfig({
