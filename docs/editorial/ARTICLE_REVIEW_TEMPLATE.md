@@ -58,6 +58,24 @@ solo que la afirmación haya sido comprobada.
 - [ ] El crédito, autor, URL de licencia y fecha de obtención están registrados para cualquier activo de terceros.
 - [ ] Una imagen generada no se presenta como observación real ni como prueba de conducta.
 
+Registrar la procedencia del activo concreto antes de aprobar la ficha:
+
+```yaml
+imageProvenance:
+  kind: original-illustration # original-illustration | generated-for-site | own-photo | licensed-third-party
+  creator: ""
+  credit: ""
+  license: "" # obligatorio para licensed-third-party
+  licensePage: "" # obligatorio para licensed-third-party
+  acquiredDate: "AAAA-MM-DD"
+  notes: "modelo o proceso de creación, si corresponde"
+```
+
+Para `licensed-third-party`, `license`, `licensePage` y `creator` deben ser
+URLs/datos comprobables del activo exacto. Para `generated-for-site`, conservar
+la etiqueta de ilustración y el proceso suficiente para no confundirla con una
+fotografía documental.
+
 ## 5. Recorrido y políticas
 
 - [ ] Existen entre 2 y 4 enlaces internos pertinentes y todos llevan a la URL canónica.
