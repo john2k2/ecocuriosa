@@ -15,7 +15,7 @@
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la comprobación de las 96 URLs (70 respuestas 200, 9 respuestas 203 y 17 respuestas 403); los estados restringidos requieren revisión manual.
 
-El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. El control `content:image-sitemap-audit` comprueba que la imagen declarada y la URL del artículo permanezcan alineadas cuando se agregue una ficha nueva.
+El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. Las 32 WebP activas se sirven a un ancho mínimo de 1200 px desde las ilustraciones SVG originales, y el control `content:image-sitemap-audit` comprueba tanto la resolución como la alineación entre imagen declarada y URL cuando se agregue una ficha nueva.
 
 El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.
 

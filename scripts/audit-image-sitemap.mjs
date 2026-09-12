@@ -1,5 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
+import sharp from 'sharp';
 
 const root = process.cwd();
 const articlesDirectory = path.join(root, 'src/content/articles');
@@ -17,7 +18,8 @@ for (const filename of (await readdir(articlesDirectory)).filter((name) => name.
   const image = parseFrontmatterValue(frontmatter, 'image');
   if (!category || !image) continue;
   const slug = filename.replace(/\.md$/, '');
-  articles.push({ url: `${siteURL}/${category}/${slug}/`, image: new URL(image.replace(/\.svg$/i, '.webp'), siteURL).href });
+  const imagePath = image.replace(/\.svg$/i, '.webp').replace(/^\//, '');
+  articles.push({ url: `${siteURL}/${category}/${slug}/`, image: new URL(imagePath, siteURL).href, imagePath });
 }
 
 const sitemapFiles = (await readdir(distDirectory)).filter((filename) => /^sitemap-\d+\.xml$/.test(filename));
@@ -27,10 +29,25 @@ const missing = articles.filter(({ url, image }) => {
   return !urlBlock || !urlBlock[0].includes(`<image:loc>${image}</image:loc>`);
 });
 
+const undersized = [];
+for (const { url, imagePath } of articles) {
+  try {
+    const metadata = await sharp(path.join(root, 'dist', imagePath)).metadata();
+    if ((metadata.width ?? 0) < 1200) {
+      undersized.push({ url, width: metadata.width ?? 0, height: metadata.height ?? 0 });
+    }
+  } catch {
+    undersized.push({ url, width: 0, height: 0 });
+  }
+}
+
 console.log(`Páginas de artículos comprobadas en sitemap: ${articles.length}`);
 console.log(`Entradas de imagen comprobadas: ${articles.length - missing.length}`);
 console.log(`Entradas de imagen faltantes: ${missing.length}`);
-if (missing.length) {
-  console.error(missing.map(({ url }) => url).join('\n'));
+console.log(`Imágenes WebP de al menos 1200 px: ${articles.length - undersized.length}/${articles.length}`);
+console.log(`Imágenes WebP por debajo de 1200 px o ilegibles: ${undersized.length}`);
+if (missing.length || undersized.length) {
+  if (missing.length) console.error(missing.map(({ url }) => url).join('\n'));
+  if (undersized.length) console.error(undersized.map(({ url, width, height }) => `${url} (${width}x${height})`).join('\n'));
   process.exitCode = 1;
 }
