@@ -96,7 +96,7 @@ La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la únic
 ## Prioridad baja
 
 - Crear tarjetas sociales específicas para las guías pilar y un canal de distribución sostenible (newsletter, YouTube o redes) después de estabilizar el flujo editorial.
-- Añadir RSS o un feed editorial si se decide mantenerlo actualizado.
+- Mantener el feed RSS editorial y revisar sus 32 entradas cuando se publique una nueva monografía.
 - Revisar periódicamente el contraste visual, navegación de teclado y experiencia móvil tras activar anuncios.
 
 ## Análisis por categoría
@@ -187,6 +187,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 ### Semana 3 — búsqueda y recorrido
 
 - [x] Capturar la primera tabla de oportunidades por impresiones, CTR, posición, país y dispositivo; todavía no hay volumen suficiente para conclusiones fuertes.
+- [x] Publicar el feed RSS editorial con 32 entradas y excluirlo del sitemap de páginas; `content:rss-audit` queda como control de regresión.
 - [ ] Crear una guía pilar por clúster y enlazarla con 3–5 artículos relacionados.
 - [x] Mejorar los títulos largos de las 32 fichas; los extractos solo se tocarán con una hipótesis basada en Search Console y sin cambiar fechas sin cambio sustancial.
 
