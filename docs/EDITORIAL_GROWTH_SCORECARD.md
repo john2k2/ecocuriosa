@@ -43,6 +43,8 @@ La lectura Lighthouse final de esta iteración (12/09/2026, móvil, portada púb
 
 Tras publicar las WebP de 1200 px y purgar sus 11 objetos antiguos en Cloudflare, una lectura Lighthouse móvil contra producción (12/09/2026) dio 99/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 0,9 s, LCP 1,8 s, CLS 0 y TBT 70 ms. La muestra sigue siendo de laboratorio y no sustituye un P75 de campo.
 
+La lectura pública posterior al ajuste de proporción de las láminas (12/09/2026) dio 98/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 1,2 s, LCP 2,1 s, CLS 0 y TBT 140 ms. La variación es de laboratorio; las advertencias siguen concentradas en APIs obsoletas y recomendaciones de red/renderizado, no en contenido bloqueado.
+
 **Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 0 clics y una muestra de 112 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
 Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; ocho artículos acercan además enlaces directos a afirmaciones concretas. Las 24 restantes no se enlazan automáticamente: se añadirán solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
