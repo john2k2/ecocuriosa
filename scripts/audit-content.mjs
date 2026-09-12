@@ -10,6 +10,8 @@ const filenames = (await readdir(articlesDirectory)).filter((name) => name.endsW
 const missingSources = [];
 const missingReview = [];
 const missingImages = [];
+const missingImageAlt = [];
+const missingImageCredit = [];
 const boilerplateConclusions = [];
 const emptyReferenceLists = [];
 const invalidSources = [];
@@ -34,6 +36,8 @@ for (const filename of filenames) {
   const article = await readFile(path.join(articlesDirectory, filename), 'utf8');
   const frontmatter = article.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
   const image = frontmatter.match(/^image:\s*["']?([^"'\n]+)["']?\s*$/m)?.[1];
+  const imageAlt = frontmatter.match(/^imageAlt:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
+  const imageCredit = frontmatter.match(/^imageCredit:\s*["'](.+)["']\s*$/m)?.[1]?.trim() ?? '';
   const description = frontmatter.match(/^description:\s*["'](.+)["']\s*$/m)?.[1] ?? '';
   const hasSources = /^sources:\s*\n\s+-\s+title:/m.test(frontmatter);
   const hasReview = /^reviewedDate:/m.test(frontmatter) && /^reviewedBy:/m.test(frontmatter);
@@ -58,6 +62,8 @@ for (const filename of filenames) {
       missingImages.push(`${filename} (${image})`);
     }
   }
+  if (!imageAlt) missingImageAlt.push(filename);
+  if (!imageCredit) missingImageCredit.push(filename);
 
   if (hasSources && (!sourceBlocks.length || sourceBlocks.some(([, title, publisher, url]) => !title.trim() || !publisher.trim() || !/^https:\/\//.test(url.trim())))) {
     invalidSources.push(filename);
@@ -89,6 +95,8 @@ const report = [
   `Con fuentes registradas en frontmatter: ${filenames.length - missingSources.length}/${filenames.length}`,
   `Con revisión editorial: ${filenames.length - missingReview.length}/${filenames.length}`,
   `Imágenes faltantes: ${missingImages.length}`,
+  `Imágenes sin texto alternativo: ${missingImageAlt.length}`,
+  `Imágenes sin crédito/procedencia: ${missingImageCredit.length}`,
   `Conclusiones repetidas: ${boilerplateConclusions.length}`,
   `Secciones de referencias vacías: ${emptyReferenceLists.length}`,
   `Fuentes con formato incompleto: ${invalidSources.length}`,
@@ -102,6 +110,8 @@ const findings = {
   sourcedArticles: filenames.length - missingSources.length,
   reviewedArticles: filenames.length - missingReview.length,
   missingImages,
+  missingImageAlt,
+  missingImageCredit,
   missingSources,
   missingReview,
   boilerplateConclusions,
@@ -125,16 +135,20 @@ if (json) {
   if (descriptionQualityFlags.length) console.log(`Descripciones fuera de rango: ${descriptionQualityFlags.map(({ filename, length }) => `${filename} (${length})`).join(', ')}`);
   if (editorialRiskFlags.length) console.log(`Revisión de afirmaciones: ${editorialRiskFlags.map(({ filename, flags }) => `${filename} (${flags.map(({ label, line }) => `${label}:L${line}`).join('; ')})`).join(', ')}`);
   if (missingImages.length) console.error(`Referencias de imagen rotas: ${missingImages.join(', ')}`);
+  if (missingImageAlt.length) console.error(`Imágenes sin texto alternativo: ${missingImageAlt.join(', ')}`);
+  if (missingImageCredit.length) console.error(`Imágenes sin crédito/procedencia: ${missingImageCredit.join(', ')}`);
 }
 
-if (missingImages.length || (strict && (
+if (missingImages.length || missingImageAlt.length || missingImageCredit.length || (strict && (
   missingSources.length ||
   missingReview.length ||
   boilerplateConclusions.length ||
   emptyReferenceLists.length ||
   invalidSources.length ||
   insufficientSources.length ||
-  descriptionQualityFlags.length
+  descriptionQualityFlags.length ||
+  missingImageAlt.length ||
+  missingImageCredit.length
 ))) {
   process.exitCode = 1;
 }
