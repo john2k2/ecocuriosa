@@ -10,6 +10,7 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 - [Estándar de evidencia](./editorial/SOURCE_QUALITY_STANDARD.md)
 - [Protocolo de Luna Max](./editorial/LUNA_MAX_PROTOCOL.md)
 - [Cola de revisión editorial](./editorial/CONTENT_REVIEW_QUEUE.md)
+- [Triage de afirmaciones 2026-09-12](./editorial/CLAIM_TRIAGE_2026-09-12.md)
 - [Plantilla de revisión semanal](./editorial/WEEKLY_GROWTH_REVIEW_TEMPLATE.md)
 - [Hoja de ruta editorial y de crecimiento](./EDITORIAL_GROWTH_ROADMAP.md)
 
