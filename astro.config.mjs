@@ -31,6 +31,8 @@ for (const filename of await readdir(articlesDirectory)) {
 
 export default defineConfig({
   site: 'https://ecocuriosa.com',
+  // Las rutas HTML públicas usan una única forma canónica y evitan redirecciones.
+  trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],
   },
