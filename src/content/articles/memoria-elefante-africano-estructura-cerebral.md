@@ -49,7 +49,7 @@ featured: false
 
 ## 1. Qué sabemos del cerebro
 
-Un estudio celular del cerebro de un elefante africano estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución podría estar relacionada, entre otras cosas, con las exigencias sensoriomotoras de un cuerpo y una trompa enormes; el estudio no prueba por sí solo esa causalidad.
+Un [estudio celular del cerebro de un elefante africano](https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/) estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución podría estar relacionada, entre otras cosas, con las exigencias sensoriomotoras de un cuerpo y una trompa enormes; el estudio no prueba por sí solo esa causalidad.
 
 Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un contexto plausible para estudiar memoria y conducta, pero no permite deducir por sí solo cuántos años recuerda una ruta un elefante concreto ni qué significa una respuesta emocional.
 
@@ -57,7 +57,7 @@ Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un
 
 ## 2. La experiencia de las matriarcas
 
-Los experimentos de McComb y colaboradores mostraron que las matriarcas mayores
+Los [experimentos de McComb y colaboradores](https://pubmed.ncbi.nlm.nih.gov/11313492/) mostraron que las matriarcas mayores
 podían discriminar mejor entre llamadas familiares y desconocidas. Revisiones
 posteriores describen a las hembras de más edad como posibles repositorios de
 información social y ecológica para la familia; la relación con el éxito

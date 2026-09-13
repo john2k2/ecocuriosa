@@ -42,9 +42,9 @@ El bostezo contagioso se ha descrito en humanos y en otras especies sociales, co
 
 ## 2. Las Dos Grandes Hipótesis Científicas: Empatía y Termorregulación
 
-1. **Hipótesis social:** La relación observada entre contagio y familiaridad ha llevado a estudiar su posible papel social. Esa asociación no confirma que el bostezo sincronice la vigilancia o demuestre una función evolutiva concreta.
+1. **Hipótesis social:** La [relación observada entre contagio y familiaridad](https://pmc.ncbi.nlm.nih.gov/articles/PMC3233580/) ha llevado a estudiar su posible papel social. Esa asociación no confirma que el bostezo sincronice la vigilancia o demuestre una función evolutiva concreta.
 
-2. **Hipótesis termorreguladora:** Propone que el bostezo podría participar en la regulación térmica. Es una línea de investigación, no un consenso clínico ni una explicación que permita inferir la temperatura cerebral de una persona.
+2. **Hipótesis termorreguladora:** La [revisión de esta hipótesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC3534187/) propone que el bostezo podría participar en la regulación térmica. Es una línea de investigación, no un consenso clínico ni una explicación que permita inferir la temperatura cerebral de una persona.
 
 3. **El Gradiente de Vinculación Afectiva:** Algunos experimentos observaron una asociación entre la familiaridad social y la probabilidad o latencia del contagio. La magnitud cambia según la muestra y el contexto, así que no es una medida fiel o diagnóstica de cercanía emocional.
 

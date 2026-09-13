@@ -36,13 +36,13 @@ featured: false
 
 Cuando observamos el disco solar desde la Tierra, su luz nos parece de un blanco amarillento uniforme. En realidad, la radiación solar es una superposición continua de fotones que abarcan todo el espectro visible, desde el violeta y azul (longitudes de onda cortas, entre 380 y 450 nanómetros) hasta el naranja y rojo (longitudes de onda largas, entre 620 y 750 nanómetros).
 
-Lord Rayleigh formuló la base matemática para la dispersión por partículas mucho menores que la longitud de onda. Las moléculas principales del aire cumplen esa condición aproximadamente, mientras que gotas, cristales y aerosoles pueden introducir otros regímenes de dispersión.
+[La explicación del National Weather Service](https://www.weather.gov/fgz/SkyBlue) resume que Lord Rayleigh formuló la base matemática para la dispersión por partículas mucho menores que la longitud de onda. Las moléculas principales del aire cumplen esa condición aproximadamente, mientras que gotas, cristales y aerosoles pueden introducir otros regímenes de dispersión.
 
 ---
 
 ## 2. La Dependencia Matemática $1/\lambda^4$ y los Atardeceres Rojos
 
-1. **La fórmula de Rayleigh y la ventaja del azul:** La dependencia $1/\lambda^4$ explica por qué el azul se dispersa más que el rojo en una comparación ideal. El cociente exacto cambia con las longitudes de onda elegidas y con la composición del aire; el cielo no contiene exclusivamente fotones azules.
+1. **La fórmula de Rayleigh y la ventaja del azul:** La dependencia $1/\lambda^4$ explica por qué el azul se dispersa más que el rojo en una comparación ideal, como resume la [explicación de NASA Space Place](https://spaceplace.nasa.gov/blue-sky/en/). El cociente exacto cambia con las longitudes de onda elegidas y con la composición del aire; el cielo no contiene exclusivamente fotones azules.
 
 2. **¿Por qué el cielo no es violeta?:** La luz violeta se dispersa con fuerza, pero la percepción final combina el espectro solar, la absorción atmosférica y la sensibilidad de nuestros conos. Por eso el resultado suele describirse como azul, no como una sola longitud de onda pura.
 

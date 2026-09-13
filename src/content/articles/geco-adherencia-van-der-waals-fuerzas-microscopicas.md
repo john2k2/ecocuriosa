@@ -42,7 +42,7 @@ featured: false
 
 A escala macroscópica, una lámina de vidrio pulido parece completamente lisa. Sin embargo, a nivel molecular cualquier superficie presenta una orografía escarpada de picos y valles microscópicos donde los materiales rígidos solo hacen contacto real en una fracción mínima de su área superficial. Durante siglos, los naturalistas especularon que los gecos utilizaban ventosas neumáticas, secreciones adhesivas mucosas o microgarras mecánicas.
 
-Experimentos con microscopía de fuerza atómica apoyaron que la adhesión es seca y compatible con fuerzas de Van der Waals. Esas fuerzas solo resultan relevantes cuando las superficies están en contacto íntimo; la distancia y la magnitud efectivas dependen del material y de la geometría de cada seta.
+Los [experimentos con microscopía de fuerza atómica](https://pubmed.ncbi.nlm.nih.gov/10864324/) apoyaron que la adhesión es seca y compatible con fuerzas de Van der Waals. Esas fuerzas solo resultan relevantes cuando las superficies están en contacto íntimo; la distancia y la magnitud efectivas dependen del material y de la geometría de cada seta.
 
 ---
 
@@ -79,7 +79,7 @@ Experimentos con microscopía de fuerza atómica apoyaron que la adhesión es se
 
 ### ¿Puede un geco caminar por una pared en el vacío absoluto?
 
-Algunos ensayos observaron adhesión en vacío y en helio, lo que apoya que no depende de succión de aire. Eso no significa que el rendimiento sea idéntico en cualquier material, humedad o estado del animal.
+Algunos ensayos observaron [adhesión en vacío y en helio](https://doi.org/10.1073/pnas.192252799), lo que apoya que no depende de succión de aire. Eso no significa que el rendimiento sea idéntico en cualquier material, humedad o estado del animal.
 
 ### ¿Por qué el geco resbala sobre superficies de teflón (PTFE)?
 

@@ -32,7 +32,7 @@ featured: false
 
 ## 1. Qué significa “vuelo silencioso”
 
-El vuelo de los búhos no es literalmente mudo. La revisión aeroacústica describe una reducción eficaz del ruido en ciertas condiciones, resultado de la interacción entre la forma del ala, la velocidad, la porosidad y la flexibilidad de las plumas. También advierte que las adaptaciones de forrajeo no son uniformes: algunas especies tienen menos necesidad de sigilo o no presentan el mismo efecto.
+El vuelo de los búhos no es literalmente mudo. La [revisión aeroacústica](https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436) describe una reducción eficaz del ruido en ciertas condiciones, resultado de la interacción entre la forma del ala, la velocidad, la porosidad y la flexibilidad de las plumas. También advierte que las adaptaciones de forrajeo no son uniformes: algunas especies tienen menos necesidad de sigilo o no presentan el mismo efecto.
 
 La comparación correcta es entre mecanismos y mediciones, no entre un búho ideal y “todas las aves diurnas”.
 
@@ -40,7 +40,7 @@ La comparación correcta es entre mecanismos y mediciones, no entre un búho ide
 
 ## 2. Tres rasgos que se estudian
 
-1. **Serraciones del borde de ataque:** En la lechuza común se han medido estructuras tridimensionales en las plumas delanteras. Los modelos y ensayos sugieren que pueden dividir el flujo y modificar la generación de ruido.
+1. **Serraciones del borde de ataque:** En la [lechuza común se han medido estructuras tridimensionales](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) en las plumas delanteras. Los modelos y ensayos sugieren que pueden dividir el flujo y modificar la generación de ruido.
 
 2. **Borde de fuga flexible y poroso:** Los flecos permiten una salida gradual del aire y pueden reducir el ruido de borde de fuga. La magnitud depende de la geometría y de la condición de vuelo.
 

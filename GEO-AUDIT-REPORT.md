@@ -105,7 +105,7 @@ La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la únic
 
 ### Citabilidad para IA — 72/100
 
-Los artículos tienen respuesta rápida, encabezados, tablas/FAQ en el cuerpo, enlaces internos y referencias visibles. Las siete páginas prioritarias ya incorporan dos enlaces contextuales dentro del texto y ocho artículos tienen enlaces directos junto a afirmaciones concretas; las otras 24 conservan tarjetas relacionadas y quedan pendientes de una selección editorial específica. La estructura es fácil de extraer y `llms.txt` enlaza la metodología. Para subir la puntuación: escribir respuestas de 40–80 palabras con hecho, alcance y límite; conectar cada afirmación importante con una fuente concreta; y añadir análisis propio en vez de resumir varias fuentes.
+Los artículos tienen respuesta rápida, encabezados, tablas/FAQ en el cuerpo, enlaces internos y referencias visibles. Las siete páginas prioritarias ya incorporan dos enlaces contextuales dentro del texto y los 31 artículos pendientes tienen al menos un enlace directo junto a una afirmación concreta; las oportunidades de enlazado interno adicional siguen pendientes de una selección editorial específica. La estructura es fácil de extraer y `llms.txt` enlaza la metodología. Para subir la puntuación: escribir respuestas de 40–80 palabras con hecho, alcance y límite; conectar cada afirmación importante con una fuente concreta; y añadir análisis propio en vez de resumir varias fuentes.
 
 Nota de alcance: Google Search indica que `llms.txt` no es una señal especial de posicionamiento; aquí se conserva como índice auxiliar para otras herramientas, no como sustituto de HTML, enlaces y sitemap.
 
@@ -115,7 +115,7 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 
 ### Contenido y E-E-A-T — 56/100
 
- Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Cada ficha muestra ahora hasta dos fuentes clave junto a la respuesta inicial y la lista completa al final; ocho artículos también acercan enlaces de evidencia a afirmaciones específicas. La página «Sobre nosotros» explica las responsabilidades de investigación, redacción, visualización y revisión sin inventar credenciales. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
+Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Cada ficha muestra ahora hasta dos fuentes clave junto a la respuesta inicial y la lista completa al final; los 31 artículos pendientes también acercan al menos un enlace de evidencia a una afirmación específica. La página «Sobre nosotros» explica las responsabilidades de investigación, redacción, visualización y revisión sin inventar credenciales. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
 
 La comprobación de acceso del 12/09/2026 encontró 70 respuestas `200`, 9
 `203` y 17 `403` entre las 96 URLs declaradas. Los estados `203/403` se

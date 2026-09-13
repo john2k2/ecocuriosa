@@ -42,7 +42,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 
 1. **Proteínas de protección:** La desecación activa varias respuestas moleculares que ayudan a estabilizar estructuras celulares. Los mecanismos y las proteínas relevantes cambian entre linajes.
 
-2. **Dsup:** El estudio de eLife examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
+2. **Dsup:** El [estudio de eLife](https://doi.org/10.7554/eLife.47682) examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
 
 3. **Rehidratación:** En condiciones adecuadas, un ejemplar que toleró la desecación puede reanudar su actividad al recibir agua. El resultado depende de especie, preparación, duración y condiciones del experimento.
 
@@ -50,7 +50,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 
 | Condición | Qué se observó y cuál es el límite |
 | :--- | :--- |
-| Vacío espacial | En FOTON-M3, ejemplares desecados de *Richtersius coronifer* y *Milnesium tardigradum* sobrevivieron al vacío durante 10 días en órbita baja |
+| Vacío espacial | En FOTON-M3, ejemplares desecados de *Richtersius coronifer* y *Milnesium tardigradum* [sobrevivieron al vacío durante 10 días en órbita baja](https://doi.org/10.1016/j.cub.2008.06.048) |
 | Vacío + radiación UV | La radiación solar redujo fuertemente la supervivencia; solo una fracción de los grupos expuestos a UV intenso se recuperó |
 | Dsup | Protección parcial en células y ensayos bioquímicos, no en una persona ni en todos los tardígrados |
 | Calor, frío y presión | Los valores dependen de especie, hidratación, duración y protocolo; no existe una cifra universal |
@@ -71,7 +71,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 
 ### ¿Cuánto tiempo puede permanecer?
 
-La duración documentada varía entre especies y experimentos. Las revisiones señalan que la supervivencia suele ser alta tras periodos secos cortos, pero disminuye o cambia con el tiempo; no es responsable convertir un caso aislado de reanimación en una garantía de décadas.
+Las dos investigaciones citadas aquí no permiten fijar una duración universal: el resultado cambia entre especies, preparación, duración y condiciones. No es responsable convertir un caso aislado de reanimación en una garantía de décadas.
 
 ### ¿Cómo se alimentan los tardígrados cuando están activos en musgos y líquenes?
 

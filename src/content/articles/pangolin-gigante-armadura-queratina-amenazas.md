@@ -42,9 +42,9 @@ featured: false
 
 ## 1. Qué son las escamas
 
-Los pangolines son los únicos mamíferos actuales con el cuerpo cubierto por escamas grandes de queratina. El pangolín gigante (*Smutsia gigantea*) pertenece a las cuatro especies africanas, pero no conviene atribuirle automáticamente cada resultado obtenido con otra especie. Las escamas no son placas óseas: son estructuras epidérmicas superpuestas, comparables en composición a la queratina del cabello y las uñas.
+Los pangolines son el único linaje actual de mamíferos con el cuerpo cubierto por escamas grandes de queratina. La [ficha taxonómica del pangolín gigante (*Smutsia gigantea*)](https://www.mammaldiversity.org/taxon/1005800/) lo sitúa entre las cuatro especies africanas, pero no conviene atribuirle automáticamente cada resultado obtenido con otra especie. Las escamas no son placas óseas: son estructuras epidérmicas superpuestas, comparables en composición a la queratina del cabello y las uñas.
 
-El estudio mecánico citado analizó cómo la geometría y la superposición de las escamas influyen en la protección. Sus ensayos son útiles para describir una estrategia de defensa, no para convertir una dureza medida en laboratorio en una garantía contra cualquier depredador.
+El [estudio mecánico citado](https://pubmed.ncbi.nlm.nih.gov/26703230/) analizó cómo la geometría y la superposición de las escamas influyen en la protección. Sus ensayos son útiles para describir una estrategia de defensa, no para convertir una dureza medida en laboratorio en una garantía contra cualquier depredador.
 
 ---
 
@@ -73,7 +73,7 @@ El estudio mecánico citado analizó cómo la geometría y la superposición de 
   * **Realidad científica contrastada:** No existe evidencia clínica que justifique usar escamas de pangolín para tratar enfermedades. Su composición queratinosa no respalda esas afirmaciones y el comercio pone en riesgo a las especies.
 
 * **Mito 2:** Se cree que el pangolín puede arrojar sus escamas como proyectiles ante una amenaza.
-  * **Realidad científica contrastada:** Falso mito de viajeros antiguos. Las escamas están firmemente ancladas al estrato dérmico vascularizado y solo se mudan individualmente por desgaste o traumatismo grave.
+  * **Matiz:** Las fuentes de esta ficha no documentan esa conducta. Lo que sí puede sostenerse aquí es que las escamas forman una defensa superpuesta; no conviene presentar una historia de “proyectiles” ni una explicación anatómica más precisa sin una fuente específica.
 
 ---
 
@@ -81,7 +81,7 @@ El estudio mecánico citado analizó cómo la geometría y la superposición de 
 
 ### ¿Por qué se habla de un tráfico tan grave?
 
-TRAFFIC documentó decomisos internacionales y rutas de comercio durante 2010–2015 y describe a los pangolines como los mamíferos más traficados. Es una afirmación sobre el comercio registrado en ese análisis, no un censo perfecto de todos los animales extraídos. Las ocho especies reconocidas están incluidas en el marco de protección de CITES; consulta la ficha legal vigente antes de resumir una categoría.
+La [revisión de TRAFFIC](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) documentó decomisos internacionales y rutas de comercio durante 2010–2015 y describe a los pangolines como los mamíferos más traficados. Es una afirmación sobre el comercio registrado en ese análisis, no un censo perfecto de todos los animales extraídos. Las ocho especies reconocidas están incluidas en el marco de protección de [CITES](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf); consulta la ficha legal vigente antes de resumir una categoría.
 
 ### ¿La armadura lo protege de la captura humana?
 

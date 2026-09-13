@@ -36,7 +36,7 @@ featured: false
 
 A partir de la zona mesopelágica la luz solar se debilita rápidamente y, en aguas más profundas, la bioluminiscencia se vuelve una fuente importante de señales. La profundidad exacta y la proporción de organismos luminiscentes dependen de la cuenca, la transparencia y el grupo estudiado; no usamos un porcentaje mundial fijo.
 
-Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosistemas oceánicos. Las estimaciones cambian según la cuenca, la profundidad y el método de muestreo, por lo que no debe tratarse una cifra histórica de biomasa como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
+Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a la poca luz](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/). Forman una biomasa importante en muchos ecosistemas oceánicos, pero las estimaciones cambian según la cuenca, la profundidad y el método de muestreo; no debe tratarse una cifra histórica de biomasa como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
 
 ---
 
@@ -44,7 +44,7 @@ Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosist
 
 1. **Contrailuminación:** Algunas especies encienden fotóforos ventrales para reducir su silueta frente a la luz que llega desde arriba. La intensidad, el espectro y la eficacia dependen de la especie, la profundidad y la sensibilidad del depredador.
 
-2. **La reacción luminosa:** La emisión puede producirse por reacciones de luciferina y luciferasa en células propias o mediante bacterias simbiontes. Los sustratos, enzimas y eficiencias cambian entre linajes; no hay una reacción única para todos los peces abisales.
+2. **La reacción luminosa:** La [emisión puede producirse mediante luciferina y luciferasa o bacterias simbiontes](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) en sistemas que cambian entre linajes. Los sustratos, enzimas y eficiencias varían; no hay una reacción única para todos los peces abisales.
 
 3. **Luz roja en algunos peces dragón:** *Malacosteus* es un ejemplo de pez con emisión roja y sensibilidad visual adaptada a ese rango. Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
 
@@ -72,7 +72,7 @@ Los peces linterna (mictófidos) forman una biomasa importante en muchos ecosist
 
 ### ¿Qué es la migración vertical diaria de los peces linterna?
 
-Es una de las migraciones diarias más grandes conocidas y una parte importante de la migración vertical de la comunidad mesopelágica. Muchas especies ascienden por la noche hacia aguas menos profundas y descienden antes del amanecer, pero la profundidad y el número de individuos dependen de la especie, la región y las condiciones locales.
+Es una migración vertical diaria documentada en la comunidad mesopelágica. Muchas especies ascienden por la noche hacia aguas menos profundas y descienden antes del amanecer, pero la profundidad y el número de individuos dependen de la especie, la región y las condiciones locales.
 
 ### ¿Cómo controlan los peces el encendido y apagado de sus fotóforos?
 
@@ -80,7 +80,7 @@ Según la especie, pueden modular la luz con control nervioso, estructuras ópti
 
 ### ¿Por qué casi toda la bioluminiscencia marina es de color azul?
 
-Porque el agua de mar absorbe rápidamente las longitudes de onda rojas, amarillas y violetas, siendo la luz azul-verdosa (470-490 nm) la única que se propaga a larga distancia a través de la columna de agua con mínima atenuación.
+Porque el agua de mar absorbe con rapidez varias longitudes de onda, mientras que la luz azul-verdosa suele propagarse más lejos. El rango exacto y la atenuación dependen de la profundidad, la claridad del agua y el sistema luminoso estudiado.
 
 ---
 
