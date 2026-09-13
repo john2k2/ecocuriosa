@@ -127,6 +127,19 @@ const page = {
   ...(pageType === 'about' ? { "mainEntity": { "@id": organizationId } } : {})
 };
 
+// The About page is also the organization's public profile. Keep this linked
+// to the same verified Organization entity instead of inventing individual
+// authors, credentials or social identities.
+const profile = pageType === 'about' ? {
+  "@type": "ProfilePage",
+  "@id": `${canonicalURL}#profile`,
+  "url": canonicalURL,
+  "name": fullTitle,
+  "isPartOf": { "@id": websiteId },
+  "mainEntity": { "@id": organizationId },
+  "inLanguage": "es"
+} : undefined;
+
 const article = type === 'article' ? {
   "@type": "Article",
   "@id": `${canonicalURL}#article`,
@@ -158,7 +171,7 @@ const breadcrumbs = type === 'article' && category ? {
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@graph": [organization, website, page, ...(article ? [article] : []), ...(breadcrumbs ? [breadcrumbs] : [])]
+  "@graph": [organization, website, page, ...(profile ? [profile] : []), ...(article ? [article] : []), ...(breadcrumbs ? [breadcrumbs] : [])]
 };
 ---
 
