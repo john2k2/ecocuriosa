@@ -19,7 +19,8 @@
     "content:review-precheck": "node scripts/audit-review-queue.mjs",
     "content:generated-metadata-audit": "node scripts/audit-generated-metadata.mjs",
     "content:rss-audit": "node scripts/audit-rss.mjs",
-    "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs"
+    "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs",
+    "content:navigation-audit": "node scripts/audit-navigation.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
