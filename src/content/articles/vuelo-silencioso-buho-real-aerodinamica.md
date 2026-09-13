@@ -18,11 +18,18 @@ sources:
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/"
     evidenceType: "primary"
     scope: "Morfología tridimensional de las serraciones en alas de lechuza común (Tyto alba)"
-  - title: "Aeroacoustics of Silent Owl Flight"
-    publisher: "Annual Review of Fluid Mechanics"
-    url: "https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436"
-    evidenceType: "review"
-    scope: "Síntesis de mediciones, modelos y diferencias entre especies de búhos"
+  - title: "Features of owl wings that reduce aerodynamic noise"
+    publisher: "Royal Society / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5206597/"
+    accessedDate: 2026-09-13
+    evidenceType: "primary"
+    scope: "Rasgos morfológicos de alas de búhos y relación con la reducción de ruido; no representa cada especie"
+  - title: "The serrations of owl flight feathers"
+    publisher: "Journal of the Royal Society Interface / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4774958/"
+    accessedDate: 2026-09-13
+    evidenceType: "primary"
+    scope: "Variación de serraciones en plumas de vuelo; no permite transferir decibelios entre especies"
 featured: false
 ---
 
@@ -32,7 +39,7 @@ featured: false
 
 ## 1. Qué significa “vuelo silencioso”
 
-El vuelo de los búhos no es literalmente mudo. La [revisión aeroacústica](https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436) describe una reducción eficaz del ruido en ciertas condiciones, resultado de la interacción entre la forma del ala, la velocidad, la porosidad y la flexibilidad de las plumas. También advierte que las adaptaciones de forrajeo no son uniformes: algunas especies tienen menos necesidad de sigilo o no presentan el mismo efecto.
+El vuelo de los búhos no es literalmente mudo. El [estudio comparativo de alas](https://pmc.ncbi.nlm.nih.gov/articles/PMC5206597/) describe rasgos asociados a la reducción del ruido en ciertas condiciones, resultado de la interacción entre la forma del ala, la velocidad, la porosidad y la flexibilidad de las plumas. También advierte que las adaptaciones de forrajeo no son uniformes: algunas especies tienen menos necesidad de sigilo o no presentan el mismo efecto.
 
 La comparación correcta es entre mecanismos y mediciones, no entre un búho ideal y “todas las aves diurnas”.
 
@@ -40,7 +47,7 @@ La comparación correcta es entre mecanismos y mediciones, no entre un búho ide
 
 ## 2. Tres rasgos que se estudian
 
-1. **Serraciones del borde de ataque:** En la [lechuza común se han medido estructuras tridimensionales](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) en las plumas delanteras. Los modelos y ensayos sugieren que pueden dividir el flujo y modificar la generación de ruido.
+1. **Serraciones del borde de ataque:** En la [lechuza común se han medido estructuras tridimensionales](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) en las plumas delanteras. La [variación de estas serraciones también se ha comparado entre plumas](https://pmc.ncbi.nlm.nih.gov/articles/PMC4774958/). Los modelos y ensayos sugieren que pueden dividir el flujo y modificar la generación de ruido.
 
 2. **Borde de fuga flexible y poroso:** Los flecos permiten una salida gradual del aire y pueden reducir el ruido de borde de fuga. La magnitud depende de la geometría y de la condición de vuelo.
 
@@ -63,7 +70,7 @@ La comparación correcta es entre mecanismos y mediciones, no entre un búho ide
   * **Realidad científica contrastada:** La evidencia describe reducción de ruido, no silencio absoluto. El resultado depende de la especie y de las condiciones aerodinámicas.
 
 * **Mito 2:** Se asume que todas las rapaces nocturnas tienen exactamente la misma capacidad de vuelo silencioso.
-  * **Realidad científica contrastada:** La revisión de aeroacústica señala diferencias entre especies y estrategias de forrajeo. No hay una única “pluma de búho” que represente a todo el orden.
+  * **Realidad científica contrastada:** Los estudios de aeroacústica señalan diferencias entre especies y estrategias de forrajeo. No hay una única “pluma de búho” que represente a todo el orden.
 
 ---
 
@@ -89,4 +96,5 @@ Las plumas de algunos búhos reducen ruido en ciertas condiciones gracias a su f
 
 ### Referencias y Literatura Científica Consultada
 - [The three-dimensional shape of serrations at barn owl wings](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/) — *Journal of Anatomy* / PubMed Central; morfología de serraciones en lechuza común.
-- [Aeroacoustics of Silent Owl Flight](https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436) — *Annual Review of Fluid Mechanics*; mediciones, modelos y diferencias entre especies.
+- [Features of owl wings that reduce aerodynamic noise](https://pmc.ncbi.nlm.nih.gov/articles/PMC5206597/) — Royal Society / PubMed Central; rasgos de alas y aeroacústica.
+- [The serrations of owl flight feathers](https://pmc.ncbi.nlm.nih.gov/articles/PMC4774958/) — *Journal of the Royal Society Interface* / PubMed Central; variación morfológica de serraciones.

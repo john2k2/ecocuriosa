@@ -19,8 +19,9 @@ sources:
     evidenceType: "primary"
     scope: "Dos especies desecadas expuestas durante 10 días en órbita baja a vacío y rangos de radiación UV"
   - title: "The tardigrade damage suppressor protein binds to nucleosomes"
-    publisher: "eLife"
-    url: "https://doi.org/10.7554/eLife.47682"
+    publisher: "eLife / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/"
+    accessedDate: 2026-09-13
     evidenceType: "primary"
     scope: "Proteína Dsup de Ramazzottius varieornatus estudiada en células y ensayos bioquímicos"
 featured: false
@@ -42,7 +43,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 
 1. **Respuestas de protección:** La desecación activa respuestas moleculares que pueden ayudar a estabilizar estructuras celulares. Las dos fuentes de esta ficha no identifican una proteína universal ni permiten extrapolar un mecanismo único entre linajes.
 
-2. **Dsup:** El [estudio de eLife](https://doi.org/10.7554/eLife.47682) examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
+2. **Dsup:** El [estudio de eLife disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
 
 3. **Rehidratación:** En condiciones adecuadas, un ejemplar que toleró la desecación puede reanudar su actividad al recibir agua. El resultado depende de especie, preparación, duración y condiciones del experimento.
 
@@ -89,4 +90,4 @@ Los tardígrados toleran condiciones extremas solo bajo especies, estados y dura
 
 ### Referencias y Literatura Científica Consultada
 - [Tardigrades survive exposure to space in low Earth orbit](https://doi.org/10.1016/j.cub.2008.06.048) — *Current Biology*; dos especies desecadas en órbita baja.
-- [The tardigrade damage suppressor protein binds to nucleosomes](https://doi.org/10.7554/eLife.47682) — *eLife*; Dsup de *Ramazzottius varieornatus* en células y ensayos bioquímicos.
+- [The tardigrade damage suppressor protein binds to nucleosomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) — *eLife* / PubMed Central; Dsup de *Ramazzottius varieornatus* en células y ensayos bioquímicos.

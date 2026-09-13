@@ -31,6 +31,12 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "primary"
     scope: "Bioluminiscencia rojo lejano y sensibilidad retinal de Malacosteus niger; no representa a todos los peces abisales"
+  - title: "Longwave-sensitive visual pigments in deep-sea dragonfish"
+    publisher: "Proceedings of the Royal Society B / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/"
+    accessedDate: 2026-09-13
+    evidenceType: "primary"
+    scope: "Sensibilidad a luz roja lejana y adaptación visual en Malacosteus niger; no representa a todos los peces abisales"
 featured: false
 ---
 
@@ -52,7 +58,7 @@ Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a
 
 2. **La reacción luminosa:** La [emisión puede producirse mediante luciferina y luciferasa o bacterias simbiontes](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) en sistemas que cambian entre linajes. Los sustratos, enzimas y eficiencias varían; no hay una reacción única para todos los peces abisales.
 
-3. **Luz roja en algunos peces dragón:** *Malacosteus niger* es un ejemplo de pez con emisión rojo lejano y sensibilidad retinal estudiada en ese rango ([estudio de Vision Research](https://pubmed.ncbi.nlm.nih.gov/10492812/)). Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
+3. **Luz roja en algunos peces dragón:** *Malacosteus niger* es un ejemplo de pez con emisión rojo lejano y sensibilidad retinal estudiada en ese rango ([estudio de Vision Research](https://pubmed.ncbi.nlm.nih.gov/10492812/); [estudio abierto en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/)). Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
 
 ### Sistemas Fotónicos en Peces Abisales Bioluminiscentes
 
@@ -98,3 +104,4 @@ La bioluminiscencia organiza gran parte de las interacciones del océano profund
 - [Seeing in the deep-sea: visual adaptations in lanternfishes](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/) — *Royal Society Open Science* / PubMed Central; adaptaciones visuales de peces linterna.
 - [What is bioluminescence?](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) — NOAA Ocean Exploration; mecanismos generales de bioluminiscencia marina.
 - [Enhanced retinal longwave sensitivity in *Malacosteus niger*](https://pubmed.ncbi.nlm.nih.gov/10492812/) — *Vision Research* / PubMed; sensibilidad retinal y emisión rojo lejano en una especie de pez dragón.
+- [Longwave-sensitive visual pigments in deep-sea dragonfish](https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/) — *Proceedings of the Royal Society B* / PubMed Central; sensibilidad a luz roja lejana en *Malacosteus niger*.

@@ -22,14 +22,30 @@ sí solo que la fuente esté rota, sea falsa o no respalde el artículo. Del mis
 modo, un `200` solo confirma que el servidor entregó una respuesta, no que la
 afirmación esté correctamente interpretada.
 
+## Actualización de fuentes abiertas — 2026-09-13
+
+La revisión P0/P1 comprobó en una petición directa cuatro registros de texto
+completo que respondieron `200` y los integró como enlaces complementarios en
+tres artículos. Esta actualización no convierte las fuentes en revisiones
+editoriales aprobadas: una persona todavía debe leer cada trabajo y confirmar
+la afirmación concreta, la especie, la muestra y el alcance.
+
+| Artículo | Registro abierto | Estado observado | Uso incorporado |
+| --- | --- | ---: | --- |
+| Tardígrados | [eLife en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) | `200` | Dsup en células y ensayos bioquímicos |
+| Peces linterna | [Proceedings of the Royal Society B en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/) | `200` | Sensibilidad a luz roja lejana en *Malacosteus niger* |
+| Vuelo de búhos | [Royal Society en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5206597/) | `200` | Rasgos de alas relacionados con aeroacústica |
+| Vuelo de búhos | [Journal of the Royal Society Interface en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC4774958/) | `200` | Variación de serraciones en plumas de vuelo |
+
 Los estados son una fotografía de una fecha concreta: pueden variar según
 hora, red, agente de usuario, redirecciones, caché y controles del propio
 editor. No se deben cambiar ni eliminar fuentes únicamente por este snapshot.
 
 ## Candidatos añadidos en la ronda de autoridad de especies
 
-Estas cuatro URLs no forman parte todavía de las 96 referencias del contenido
-publicado; se comprobaron para que Luna pueda proponerlas en briefs de revisión.
+Estas cuatro URLs no formaban parte todavía de las referencias del contenido
+publicado en esa fecha; se comprobaron para que Luna pudiera proponerlas en
+briefs de revisión.
 
 | Fuente | Estado HTTP | Tipo | Nota de alcance |
 | --- | ---: | --- | --- |
