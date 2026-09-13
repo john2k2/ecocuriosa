@@ -3,6 +3,7 @@ title: "El vuelo silencioso de los búhos: plumas y aeroacústica"
 description: "Qué mecanismos de las plumas reducen el ruido de algunas especies de búhos y qué límites tiene la evidencia experimental."
 category: "fauna-fascinante"
 pubDate: 2026-08-06
+updatedDate: 2026-09-13
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/vuelo-silencioso-buho-real.svg"
 imageAlt: "Ilustración editorial sobre la aerodinámica de las plumas de algunos búhos"

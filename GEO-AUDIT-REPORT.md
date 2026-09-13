@@ -18,6 +18,8 @@ La auditoría visual también detectó activos que no correspondían con su art�
 
 Siete artículos prioritarios (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) recibieron cambios sustanciales de texto y fuentes el 12 de septiembre y ahora muestran una fecha de «Actualizado» independiente de la revisión humana. No se modificaron las fechas de los otros artículos ni se marcó ninguna revisión no realizada.
 
+El 13 de septiembre se actualizaron tres fichas adicionales (`tardígrados`, `peces linterna` y `vuelo silencioso de los búhos`) para enlazar copias abiertas de estudios primarios. También muestran «Actualizado», mientras `reviewedDate` y `reviewedBy` siguen pendientes de una comprobación humana.
+
 Se acortaron quince títulos que superaban la longitud editorial recomendada para conservar la pregunta y la entidad principal en pantallas móviles. El cambio sigue las [buenas prácticas de Google para title links](https://developers.google.com/search/docs/appearance/title-link): texto descriptivo y conciso, sin keyword stuffing ni boilerplate. Afecta solo al texto de `<title>`/H1 derivado del frontmatter; no altera URLs, fechas ni afirmaciones del artículo. Google puede reescribir un title link y debe volver a rastrear la página antes de que se observe el efecto.
 
 La política de privacidad también distingue ahora entre Web Analytics sin datos personales y los registros técnicos que puede procesar la infraestructura. No se declara que una dirección IP sea automáticamente anónima ni se atribuyen prácticas de retención que no estén verificadas; el titular puede solicitar información por el canal de privacidad.

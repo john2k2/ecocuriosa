@@ -3,6 +3,7 @@ title: "Peces linterna: cómo funciona su bioluminiscencia"
 description: "Descubre cómo algunos peces linterna y dragones negros usan la bioluminiscencia para cazar, camuflarse o comunicarse en el abismo marino."
 category: "especies-marinas"
 pubDate: 2026-08-19
+updatedDate: 2026-09-13
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/pez-linterna-bioluminiscente.svg"
 imageAlt: "Ilustración editorial sobre los fotóforos y la bioluminiscencia de los peces linterna"

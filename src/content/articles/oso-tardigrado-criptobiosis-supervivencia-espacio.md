@@ -3,6 +3,7 @@ title: "Tardígrados y criptobiosis: límites de su resistencia extrema"
 description: "Qué muestran los estudios sobre anhidrobiosis, radiación y exposición espacial en tardígrados, sin mitos de invulnerabilidad."
 category: "fauna-fascinante"
 pubDate: 2026-08-12
+updatedDate: 2026-09-13
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/oso-tardigrado-microscopio.svg"
 imageAlt: "Ilustración editorial sobre la criptobiosis y la resistencia del tardígrado"
