@@ -40,7 +40,7 @@ featured: false
 
 ## 1. El sistema hidrotermal de Yellowstone
 
-El [NPS describe el sistema como una combinación de calor, agua y una red natural de “fontanería” subterránea](https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm). El agua de lluvia y nieve puede infiltrarse, calentarse y circular por fracturas; la roca y los depósitos minerales cambian la permeabilidad y el recorrido. Yellowstone reúne más de 10.000 manifestaciones hidrotermales y más de 500 géiseres, pero esa cifra describe el parque y no todos los sistemas del planeta.
+El [NPS describe el sistema como una combinación de calor, agua y una red natural de “fontanería” subterránea](https://www.nps.gov/yell/learn/nature/hydrothermal-systems.htm). El agua de lluvia y nieve puede infiltrarse, calentarse y circular por fracturas; la roca y los depósitos minerales cambian la permeabilidad y el recorrido. Yellowstone reúne más de 10.000 manifestaciones hidrotermales y [más de 500 géiseres según el inventario del parque](https://www.nps.gov/yell/learn/kidsyouth/places.htm), pero esa cifra describe Yellowstone y no todos los sistemas del planeta.
 
 [La presión de la columna de agua modifica la temperatura de ebullición](https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm). Cuando aparecen burbujas y el agua asciende por un conducto estrecho, la presión disminuye y parte del líquido puede transformarse en vapor. La secuencia es una explicación física del mecanismo, no un cronómetro exacto para cada erupción.
 
@@ -79,7 +79,7 @@ Los minerales depositados por el agua caliente pueden modificar las paredes y la
 
 ### ¿Qué hace especial a Yellowstone?
 
-El parque concentra una gran diversidad de manifestaciones hidrotermales y más de 500 géiseres. Old Faithful y Steamboat son ejemplos conocidos, pero sus intervalos y alturas no deben confundirse con valores universales.
+El parque concentra una gran diversidad de manifestaciones hidrotermales y [más de 500 géiseres en el recuento del NPS](https://www.nps.gov/yell/learn/kidsyouth/places.htm). Old Faithful y Steamboat son ejemplos conocidos, pero sus intervalos y alturas no deben confundirse con valores universales.
 
 ---
 

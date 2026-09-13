@@ -42,7 +42,7 @@ En plantas modelo y algunos cultivos, la floración integra señales de temperat
 
 ## 2. La Arquitectura Epigenética del Gen FLC y la Marca H3K27me3
 
-1. **El Gen FLC como Candado Antifloral Activo:** Durante el otoño y antes de que comiencen las heladas, el gen *FLC* se expresa a niveles muy altos en el meristemo apical de la planta. La proteína FLC actúa como un potente factor de transcripción represor que se une al ADN e inhibe a los genes promotores de la floración como el florígeno *FT* (*Flowering Locus T*) y *SOC1*.
+1. **El Gen FLC como Candado Antifloral Activo:** En *Arabidopsis*, antes de completar la vernalización, el gen *FLC* se expresa en el meristemo apical y su proteína reprime genes promotores de la floración como el florígeno *FT* (*Flowering Locus T*) y *SOC1*, según la [literatura sobre la regulación de FLC](https://doi.org/10.1038/ng.3712). La intensidad de esa relación depende del genotipo y del diseño experimental.
 
 2. **Acumulación de frío y complejo Polycomb (PRC2):** En *Arabidopsis*, el frío reorganiza transcritos como *COOLAIR* y favorece el reclutamiento de PRC2 hacia *FLC*, como resume la [revisión de memoria epigenética](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691321/). La temperatura y el número de semanas dependen del genotipo y del protocolo experimental.
 
@@ -53,9 +53,11 @@ En plantas modelo y algunos cultivos, la floración integra señales de temperat
 | Factor Molecular | Naturaleza Biológica | Función en la Memoria Invernal |
 | :--- | :--- | :--- |
 | Gen *FLC* | Gen represor de floración (MADS-box) | Bloquea la síntesis de florígeno antes del invierno |
-| ARN no codificante *COOLAIR* | Long non-coding RNA antisentido | Detecta el frío temprano y prepara el apagado de FLC |
-| Complejo PRC2 / VRN2 | Metiltransferasa de histonas | Cataliza la adición de la marca represiva H3K27me3 |
-| Gen *FT* (Florígeno) | Proteína señal móvil de floración | Viaja por el floema hacia el ápice cuando FLC se apaga |
+| ARN no codificante *COOLAIR* | Long non-coding RNA antisentido | Participa en la preparación del apagado de *FLC* durante el frío, según el modelo estudiado |
+| Complejo PRC2 (con componentes como VRN2) | Complejo modificador de cromatina | Favorece la marca represiva H3K27me3 sobre *FLC* en el sistema descrito |
+| Gen *FT* (Florígeno) | Proteína señal móvil de floración | Su expresión se libera cuando baja la represión de *FLC* en el modelo estudiado |
+
+La tabla resume un circuito de *Arabidopsis*; no convierte cada componente en un sensor universal ni en un protocolo agrícola aplicable a cualquier cultivo.
 
 ---
 
@@ -73,7 +75,7 @@ En plantas modelo y algunos cultivos, la floración integra señales de temperat
 
 ### ¿Cómo afecta el calentamiento global a la vernalización agrícola?
 
-Inviernos más cálidos impiden que cultivos como el trigo de invierno, los melocotoneros, manzanos o cerezos acumulen sus horas de frío obligatorias, provocando floraciones heterogéneas, cosechas diezmadas y obligando a los fitomejoradores a desarrollar variedades con menor requerimiento de vernalización.
+Los inviernos más cálidos pueden alterar la acumulación de frío que necesitan algunos cultivos y frutales, pero el efecto sobre la floración y el rendimiento depende de la especie, la variedad, la región y el manejo. El circuito descrito en este artículo no basta para predecir una cosecha concreta.
 
 ### ¿Pueden los científicos engañar a una planta para que florezca sin invierno?
 
@@ -81,7 +83,7 @@ En experimentos y producción agrícola se puede aplicar frío controlado o sele
 
 ### ¿Qué otros organismos utilizan el silenciamiento Polycomb para memorizar eventos biológicos?
 
-Los animales (incluyendo mamíferos y humanos) compartimos los complejos PRC2 de histonas con las plantas para mantener la diferenciación celular embrionaria: es el mismo mecanismo epigenético que hace que una célula de piel recuerde que es piel y no se convierta en neurona.
+Los animales también tienen complejos PRC2, pero su función y contexto no son la vernalización vegetal. La comparación sirve para hablar de regulación de cromatina, no para afirmar que una célula animal almacene el invierno ni que ambos mecanismos sean intercambiables.
 
 ---
 

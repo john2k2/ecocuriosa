@@ -42,7 +42,7 @@ featured: false
 
 El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian describe](https://naturalhistory.si.edu/explore/giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares y registros conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
 
-Los cefalópodos tienen hemocianina y un sistema circulatorio con tres corazones, pero esta ficha no usa esos rasgos para afirmar una tasa metabólica, una tolerancia a la superficie o una ventaja energética que no esté documentada por la fuente concreta.
+Los cefalópodos presentan rasgos fisiológicos especializados, pero esta ficha no usa esos rasgos para afirmar una tasa metabólica, una tolerancia a la superficie o una ventaja energética que no esté documentada por la fuente concreta.
 
 ---
 

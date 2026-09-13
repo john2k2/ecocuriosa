@@ -37,7 +37,7 @@ featured: false
 
 ## 1. Neotenia y Células Pluripotentes: El Paradigma de Xochimilco
 
-En el reino animal, la cicatrización convencional en mamíferos adultos responde a un imperativo evolutivo de supervivencia rápida: ante una herida profunda, los fibroblastos depositan colágeno desorganizado para cerrar la barrera cutánea de inmediato y evitar infecciones bacterianas letales, lo que resulta en una cicatriz fibrosa rígida que imposibilita la regeneración. El axolote, nativo del complejo lacustre de Xochimilco en el Valle de México, emplea una estrategia celular completamente opuesta.
+En muchos mamíferos adultos, la cicatrización prioriza cerrar pronto la barrera cutánea: los fibroblastos depositan colágeno y pueden dejar una cicatriz fibrosa que limita la reconstrucción de estructuras complejas. Es un contexto general de reparación de heridas, no una regla idéntica para todas las especies. El axolote, nativo del complejo lacustre de Xochimilco en el Valle de México, emplea una estrategia celular distinta.
 
 El axolote conserva rasgos larvarios en la adultez, un fenómeno conocido como neotenia. El [estudio del genoma del axolote publicado en Nature](https://www.nature.com/articles/nature25458) ayuda a situar qué reguladores se investigan. Durante la regeneración de una extremidad, las células del blastema no son un conjunto universal de células pluripotentes: presentan tipos celulares y restricciones de linaje que la investigación sigue describiendo.
 
@@ -47,7 +47,7 @@ El axolote conserva rasgos larvarios en la adultez, un fenómeno conocido como n
 
 1. **Sellado epitelial y casquete apical:** Tras la herida, las células epiteliales migran sobre la superficie y forman un casquete epidérmico apical. El momento exacto y la secuencia de señales dependen del tejido y del diseño experimental; no conviene convertirlos en un cronómetro universal.
 
-2. **Formación del blastema:** En los días siguientes se acumulan células progenitoras y señales alrededor del muñón. La literatura muestra contribuciones celulares y restricciones de linaje; no es una masa universal de células pluripotentes ni una desdiferenciación idéntica para todos los tejidos.
+2. **Formación del blastema:** En los días siguientes se acumulan células progenitoras y señales alrededor del muñón; la [revisión sobre el blastema del axolote](https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/) describe contribuciones celulares y restricciones de linaje. No es una masa universal de células pluripotentes ni una desdiferenciación idéntica para todos los tejidos.
 
 3. **Patronamiento y diferenciación:** Interacciones entre células, señales de posición y vías de desarrollo orientan la reconstrucción de los tejidos. El detalle molecular —incluido el papel relativo de distintas familias de genes— sigue siendo objeto de investigación.
 
@@ -84,7 +84,7 @@ El genoma del axolote, de gran tamaño, es una herramienta para estudiar genes y
 
 ### ¿Cuál es la situación actual del axolote en su hábitat natural?
 
-Críticamente amenazado. La contaminación del agua en Xochimilco, la desecación de canales y la introducción de peces exóticos depredadores como la carpa y la tilapia han reducido mucho la población silvestre. Las densidades publicadas dependen del año, la zona muestreada y el método, así que cualquier cifra debe llevar fecha y fuente en lugar de presentarse como un valor actual único.
+Críticamente amenazado. La [literatura de conservación disponible](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/) documenta amenazas como la contaminación del agua en Xochimilco, la desecación de canales y la introducción de peces exóticos depredadores como la carpa y la tilapia. Las densidades publicadas dependen del año, la zona muestreada y el método, así que cualquier cifra debe llevar fecha y fuente en lugar de presentarse como un valor actual único.
 
 ---
 

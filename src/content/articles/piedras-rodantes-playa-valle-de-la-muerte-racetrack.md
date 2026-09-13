@@ -40,7 +40,7 @@ featured: false
 
 ## 1. El sitio y la pregunta científica
 
-Racetrack Playa es una cuenca arcillosa del Parque Nacional del Valle de la Muerte. Las rocas dejan surcos de longitud y dirección variables, pero un surco no identifica por sí solo la causa ni la fecha del movimiento. El estudio de USGS cartografió 162 rocas y trazas; el experimento posterior permitió observar directamente parte del proceso.
+Racetrack Playa es una cuenca arcillosa del Parque Nacional del Valle de la Muerte. Las rocas dejan surcos de longitud y dirección variables, pero un surco no identifica por sí solo la causa ni la fecha del movimiento. El estudio de [USGS cartografió 162 rocas y trazas](https://www.usgs.gov/publications/terrain-analysis-racetrack-basin-and-sliding-rocks-death-valley); el experimento posterior permitió observar directamente parte del proceso.
 
 La investigación fue necesaria porque las condiciones se combinan rara vez. El agua, el hielo, la fricción del barro, el viento y la orientación de cada roca importan; no basta con invocar un viento extremo o una anomalía magnética.
 
@@ -51,9 +51,9 @@ La investigación fue necesaria porque las condiciones se combinan rara vez. El 
 1. **Agua somera:** una inundación temporal cubre parte de la playa sin borrar necesariamente todas las rocas.
 2. **Hielo fino:** el enfriamiento puede formar placas que flotan y entran en contacto con las piedras.
 3. **Viento y deshielo:** al fracturarse o desplazarse el hielo, el viento puede transmitir fuerza a algunas rocas sobre el barro húmedo.
-4. **Trazas medibles:** cámaras y GPS registran dirección y desplazamiento, pero el resultado depende de la roca y del episodio.
+4. **Trazas medibles:** [cámaras y GPS registraron dirección y desplazamiento](https://doi.org/10.1371/journal.pone.0105948), pero el resultado depende de la roca y del episodio.
 
-El NPS señala una limitación importante: las rocas más grandes no fueron observadas moviéndose durante ese episodio. Por eso el mecanismo documentado no debe presentarse como una explicación universal de cada traza.
+El [NPS señala una limitación importante](https://www.nps.gov/deva/planyourvisit/the-racetrack.htm): las rocas más grandes no fueron observadas moviéndose durante ese episodio. Por eso el mecanismo documentado no debe presentarse como una explicación universal de cada traza.
 
 ---
 
@@ -71,7 +71,7 @@ El NPS señala una limitación importante: las rocas más grandes no fueron obse
 
 ### ¿Quién observó el movimiento?
 
-El equipo de Richard y James Norris instaló GPS, cámaras y estaciones meteorológicas. En 2013 registró un episodio de movimiento en varias rocas; el artículo describe el método y sus límites, y el NPS resume qué tamaños no llegaron a observarse en movimiento.
+El equipo de Richard y James Norris instaló GPS, cámaras y estaciones meteorológicas. En 2013 [registró un episodio de movimiento en varias rocas](https://www.nps.gov/deva/planyourvisit/the-racetrack.htm); el artículo describe el método y sus límites, y el NPS resume qué tamaños no llegaron a observarse en movimiento.
 
 ### ¿Por qué pueden conservarse los surcos?
 

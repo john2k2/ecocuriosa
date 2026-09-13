@@ -246,6 +246,7 @@ humanApproval: pending
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
 | 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 387 entradas, 93 briefs/oportunidades candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se añadieron 18 fuentes candidatas de Luna Max y seis briefs nuevos: cuatro actualizaciones de clúster y dos guías de utilidad pública | Equipo Editorial EcoCuriosa | Registros y límites en `SOURCE_CATALOG.yml`; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -531,3 +532,28 @@ actualizaciones trazables. No autorizan por sí solos una nueva fecha, una cita
 en el artículo ni la publicación de un borrador. La imagen preferida para esta
 ronda es un diagrama original; una fotografía real solo entra con licencia,
 autor y crédito comprobables.
+
+### Seis oportunidades de Luna Max para el siguiente ciclo — 12 de septiembre de 2026
+
+Esta ronda usa las consultas y clústeres ya observados. Son briefs de trabajo,
+no artículos listos para publicar: una persona debe abrir cada fuente, comprobar
+el alcance y decidir qué cambia en la pieza.
+
+| Prioridad | Pregunta y acción | Título/ángulo original | Fuentes candidatas y límites |
+| --- | --- | --- | --- |
+| P1 | Actualizar geodinamo: ¿qué mide una brújula y qué se infiere del núcleo? | **Geodinamo terrestre: qué mide una brújula y qué ocurre en el núcleo**. Corte núcleo–corteza–magnetosfera que separe observación, modelo WMM y anomalía local. | `wmm2025-ncei-model`, `wmm2025-technical-report-noaa`, `geomagnetism-faq-ncei`; el WMM es un modelo de navegación y no observa directamente el flujo del núcleo ni predice una inversión. |
+| P1 | Actualizar geosmina/petricor: ¿por qué una molécula puede atraer o alertar según el organismo? | **Geosmina: el olor de la lluvia que puede atraer a unos animales y alertar a otros**. Recorrido suelo–microorganismo–aire–percepción, separando geosmina de 2-MIB. | `geosmin-aedes-oviposition-2020`, `geosmin-cyanobacteria-geoa-2020`, `mib-ticks-fungal-cues-2024`; los resultados son de especies, cepas y compuestos concretos, no una explicación universal del petricor. |
+| P1 | Actualizar pulpo mimo: ¿cómo distinguir mimetismo observado, rango e intención? | **Pulpo mimo: camuflaje, postura y evidencia de campo**. Canales separados de color, textura, postura y locomoción, con escala observación → patrón → interpretación. | `cephalopod-camouflage-engineered-optics-2025`, `scientific-diving-cephalopod-review-2025`, `abdopus-body-patterns-social-2025`; revisiones comparativas y otra especie no prueban un repertorio fijo de *T. mimicus*. |
+| P1 | Actualizar Catatumbo: ¿cómo cambian récord y frecuencia cuando cambia el sensor? | **Catatumbo: el reloj nocturno de una tormenta entre lago, relieve y atmósfera**. Reloj de 24 horas con sensor, periodo, unidad y ventana temporal. | `nwsa-mcs-tracking-2024`, `maracaibo-tropical-lakes-lightning-2017`, `goes-u-glm-databook-2024`; cobertura regional, comparaciones exploratorias y límites instrumentales no equivalen a tormenta eterna ni causa única. |
+| P2 | Crear guía de utilidad amplia: ¿qué es una ola de calor marina y cómo se mide? | **Olas de calor marinas: cuándo el océano entra en una anomalía extrema**. Temperatura diaria frente a percentil local, duración y profundidad. | `marine-heatwaves-global-review-2024`, `marine-heatwaves-global-index-2024`, `copernicus-barents-mhw-index-2024`; una climatología o reanálisis del mar de Barents no describe Chile ni una medición actual por sí sola. |
+| P2 | Crear guía de servicio público: ¿detectar microplásticos en agua demuestra riesgo? | **Microplásticos en el agua: qué se ha medido y qué todavía no sabemos**. Embudo partícula detectada → exposición → peligro → riesgo, con tamaño y método visibles. | `who-nano-microplastics-health-2022`, `spanish-bottled-water-microplastics-2024`, `global-tap-water-microplastics-2024`; detección, exposición y daño no son equivalentes y los métodos limitan comparaciones. |
+
+#### Puertas editoriales de esta ronda
+
+1. Elegir una sola pregunta por actualización y conservar la URL existente cuando
+   resuelva la misma intención; no crear variantes para capturar consultas.
+2. Añadir una caja visible de “qué respalda / qué no respalda” y la procedencia de
+   cualquier diagrama o imagen original.
+3. Mantener `reviewedDate` y `reviewedBy` vacíos hasta que una persona responsable
+   compruebe texto, fuentes, imágenes y límites. Luna Max puede preparar un borrador,
+   nunca certificarlo ni publicarlo.

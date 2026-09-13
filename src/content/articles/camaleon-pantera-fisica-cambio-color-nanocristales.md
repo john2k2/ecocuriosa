@@ -34,9 +34,9 @@ featured: false
 
 ## 1. El Descubrimiento Biofísico: De los Pigmentos a los Cristales Fotónicos
 
-En 2015, un equipo de la Universidad de Ginebra describió una [red de cristales de guanina](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/) en iridóforos superficiales del camaleón pantera. Ese trabajo no sustituyó todos los pigmentos por un único mecanismo: la piel combina estructuras reflectantes, cromatóforos y regulación nerviosa.
+En 2015, un equipo de la Universidad de Ginebra describió una [red de cristales de guanina](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366488/) en iridóforos superficiales del camaleón pantera. El [Museo Nacional de Historia Natural de Francia](https://www.mnhn.fr/en/the-panther-chameleon) resume la historia natural y la variación de *Furcifer pardalis*. Ese trabajo no sustituyó todos los pigmentos por un único mecanismo: la piel combina estructuras reflectantes, cromatóforos y regulación nerviosa.
 
-Estos nanocristales actúan exactamente como un cristal fotónico artificial: estructuras periódicas a escala nanométrica que manipulan la propagación de los fotones. Cuando la luz blanca incide sobre la piel del camaleón, ciertas longitudes de onda sufren interferencia destructiva (se anulan), mientras que otras sufren interferencia constructiva (se reflejan con gran intensidad y pureza espectral).
+Estos nanocristales pueden describirse como un cristal fotónico biológico: una estructura periódica a escala nanométrica que modifica qué longitudes de onda regresan hacia el observador. Cuando la luz blanca incide sobre la piel, algunas longitudes de onda se atenúan por interferencia y otras se refuerzan; el color final también depende de pigmentos, tejido y condiciones de observación.
 
 ---
 
@@ -71,11 +71,11 @@ Estos nanocristales actúan exactamente como un cristal fotónico artificial: es
 
 ### ¿Qué ocurre con el color de un camaleón cuando duerme o muere?
 
-Al perder el tono del sistema nervioso autónomo, la piel adopta una coloración neutra pálida, grisácea o blanquecina apagada, ya que la red de cristales pierde su conformación dinámica estructurada.
+Durante el reposo la coloración puede volverse más apagada; la fuente citada aquí no establece una regla única para el aspecto de un animal muerto ni permite atribuirlo solo a la red de cristales.
 
 ### ¿Las hembras de camaleón pantera cambian con la misma intensidad que los machos?
 
-No. El dicromatismo sexual es muy marcado: los machos exhiben cambios cromáticos explosivos de gran contraste, mientras que las hembras presentan patrones más discretos de marrón, rosa salmón y negro cuando están grávidas para rechazar a machos invasores.
+La evidencia citada para los nanocristales se centra en señales sociales observadas en machos. Las diferencias entre sexos y el aspecto de hembras grávidas pertenecen a la historia natural de la especie y dependen del estado y del contexto; no deben extrapolarse como una respuesta idéntica para todos los individuos.
 
 ### ¿Cuánto tiempo necesita un camaleón pantera para completar una transformación cromática completa?
 

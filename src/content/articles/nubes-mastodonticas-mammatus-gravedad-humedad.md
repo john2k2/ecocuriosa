@@ -34,15 +34,15 @@ sources:
 featured: false
 ---
 
-> **Respuesta rápida:** Las mammatus son protuberancias en forma de bolsa que cuelgan de la base de una nube. El Servicio Meteorológico Nacional de EE. UU. señala que suelen observarse con tormentas severas, pero también aparecen con tormentas no severas y no producen por sí mismas tiempo severo. Su forma es una señal visual para estudiar humedad, temperatura y movimiento del aire; no es un pronóstico aislado.
+> **Respuesta rápida:** Las mammatus son protuberancias en forma de bolsa que cuelgan de la base de una nube. El [Servicio Meteorológico Nacional de EE. UU.](https://forecast.weather.gov/glossary.php?word=MAMMATUS) señala que suelen observarse con tormentas severas, pero también aparecen con tormentas no severas y no producen por sí mismas tiempo severo. Su forma es una señal visual para estudiar humedad, temperatura y movimiento del aire; no es un pronóstico aislado.
 
 ---
 
 ## 1. Una forma visible bajo la nube
 
-La Organización Meteorológica Mundial clasifica mammatus como un rasgo suplementario: lóbulos redondeados que se forman en la parte inferior de una nube. No son una especie de nube independiente ni una medida directa de la intensidad de una tormenta.
+La [Organización Meteorológica Mundial clasifica mammatus](https://cloudatlas.wmo.int/es/clouds-supplementary-features-and-genera-most-frequently-occur-table.html) como un rasgo suplementario: lóbulos redondeados que se forman en la parte inferior de una nube. No son una especie de nube independiente ni una medida directa de la intensidad de una tormenta.
 
-En campañas de observación, como la descrita por NASA, se han medido gradientes de temperatura, densidad y cizalladura bajo yunques convectivos. Esos datos ayudan a investigar cómo se mezclan aire húmedo y seco, pero describen un caso y no una única explicación válida para cada fotografía.
+En campañas de observación, como la [descrita por NASA](https://science.nasa.gov/blogs/notes-from-the-field/2013/05/30/multi-wavelength-view-of-mammatus/), se han medido gradientes de temperatura, densidad y cizalladura bajo yunques convectivos. Esos datos ayudan a investigar cómo se mezclan aire húmedo y seco, pero describen un caso y no una única explicación válida para cada fotografía.
 
 ---
 
