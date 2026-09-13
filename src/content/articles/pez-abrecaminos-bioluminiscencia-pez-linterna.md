@@ -25,6 +25,12 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "institutional"
     scope: "Mecanismos generales de bioluminiscencia marina"
+  - title: "Enhanced retinal longwave sensitivity using a chlorophyll-derived photosensitiser in Malacosteus niger"
+    publisher: "Vision Research / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/10492812/"
+    accessedDate: 2026-09-12
+    evidenceType: "primary"
+    scope: "Bioluminiscencia rojo lejano y sensibilidad retinal de Malacosteus niger; no representa a todos los peces abisales"
 featured: false
 ---
 
@@ -36,7 +42,7 @@ featured: false
 
 A partir de la zona mesopelágica la luz solar se debilita rápidamente y, en aguas más profundas, la bioluminiscencia se vuelve una fuente importante de señales. La profundidad exacta y la proporción de organismos luminiscentes dependen de la cuenca, la transparencia y el grupo estudiado; no usamos un porcentaje mundial fijo.
 
-Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a la poca luz](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/). Forman una biomasa importante en muchos ecosistemas oceánicos, pero las estimaciones cambian según la cuenca, la profundidad y el método de muestreo; no debe tratarse una cifra histórica de biomasa como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
+Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a la poca luz](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/). Su distribución y abundancia se estiman con métodos que cambian según la cuenca, la profundidad y el muestreo; no debe tratarse una cifra histórica como un total mundial fijo. Sus fotóforos también varían entre especies y pueden participar en contrailuminación, comunicación o reconocimiento; no son un “código de barras” universal.
 
 ---
 
@@ -46,7 +52,7 @@ Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a
 
 2. **La reacción luminosa:** La [emisión puede producirse mediante luciferina y luciferasa o bacterias simbiontes](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) en sistemas que cambian entre linajes. Los sustratos, enzimas y eficiencias varían; no hay una reacción única para todos los peces abisales.
 
-3. **Luz roja en algunos peces dragón:** *Malacosteus* es un ejemplo de pez con emisión roja y sensibilidad visual adaptada a ese rango. Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
+3. **Luz roja en algunos peces dragón:** *Malacosteus niger* es un ejemplo de pez con emisión rojo lejano y sensibilidad retinal estudiada en ese rango ([estudio de Vision Research](https://pubmed.ncbi.nlm.nih.gov/10492812/)). Es una especialización de ese linaje, no una “visión nocturna” común ni una regla para todos los depredadores profundos.
 
 ### Sistemas Fotónicos en Peces Abisales Bioluminiscentes
 
@@ -91,3 +97,4 @@ La bioluminiscencia organiza gran parte de las interacciones del océano profund
 ### Referencias y Literatura Científica Consultada
 - [Seeing in the deep-sea: visual adaptations in lanternfishes](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/) — *Royal Society Open Science* / PubMed Central; adaptaciones visuales de peces linterna.
 - [What is bioluminescence?](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) — NOAA Ocean Exploration; mecanismos generales de bioluminiscencia marina.
+- [Enhanced retinal longwave sensitivity in *Malacosteus niger*](https://pubmed.ncbi.nlm.nih.gov/10492812/) — *Vision Research* / PubMed; sensibilidad retinal y emisión rojo lejano en una especie de pez dragón.

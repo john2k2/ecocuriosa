@@ -2323,3 +2323,9 @@ entries:
     evidenceType: institutional-dataset
     url: https://svs.gsfc.nasa.gov/31243
     use: multi-sensor Earth lightning visualization and frequency metrics; sensor/product and period must accompany any comparison, so it does not prove a continuously eternal storm
+  - id: malacosteus-red-bioluminescence-vision-1999
+    authority: Vision Research / PubMed
+    domain: fish-bioluiminescence
+    evidenceType: primary-study
+    url: https://pubmed.ncbi.nlm.nih.gov/10492812/
+    use: far-red bioluminescence and retinal sensitivity in Malacosteus niger; evidence for that species and visual system, not for all deep-sea fish

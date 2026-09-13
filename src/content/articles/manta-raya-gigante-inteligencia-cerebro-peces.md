@@ -47,16 +47,16 @@ La pregunta interesante no es si la especie puede medirse con una etiqueta de �
 
 ## 2. Buceo y conducta observada
 
-NOAA resume un rango de uso de profundidad amplio: las mantas pueden alimentarse a menos de 10 metros, realizar inmersiones de unos 200–450 metros y llegar a superar los 1.000 metros según la región y la disponibilidad de presas. La profundidad no es fija y depende de la temporada, la termoclina y el plancton.
+La [ficha de NOAA Fisheries](https://www.fisheries.noaa.gov/species/giant-manta-ray) resume un rango de uso de profundidad amplio: las mantas pueden alimentarse a menos de 10 metros, realizar inmersiones de unos 200–450 metros y llegar a superar los 1.000 metros según la región y la disponibilidad de presas. La profundidad no es fija y depende de la temporada, la termoclina y el plancton.
 
 Un trabajo publicado online en 2024 y recogido en un volumen de 2025 propone que el cerebro grande y metabólicamente costoso
 de los mobúlidos podría contribuir a mantener una temperatura craneal más
 estable en aguas frías. Es una hipótesis evolutiva apoyada en anatomía y
-modelización, no una medición directa de la temperatura cerebral de cada manta;
+[modelización publicada](https://pubmed.ncbi.nlm.nih.gov/39434239/), no una medición directa de la temperatura cerebral de cada manta;
 por eso no permite deducir inteligencia ni rendimiento cognitivo.
 
 En un experimento del espejo con dos mantas cautivas se observaron movimientos
-dirigidos al reflejo compatibles con una comprobación de contingencia. Solo uno
+dirigidos al reflejo compatibles con una [comprobación de contingencia](https://doi.org/10.1007/s10164-016-0462-z). Solo uno
 de los individuos estaba confirmado como *Mobula birostris* y la prueba de marca
 no se completó. El resultado es valioso para estudiar conducta, pero no
 demuestra por sí solo una autoconciencia equivalente a la humana ni explica

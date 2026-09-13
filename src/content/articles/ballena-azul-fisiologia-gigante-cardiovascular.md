@@ -26,7 +26,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta rápida:** La ballena azul (*Balaenoptera musculus*) es el animal de mayor masa conocido. Un estudio colocó un registrador de ECG y profundidad en un macho que se alimentaba en libertad: durante sus inmersiones el ritmo fue normalmente de 4–8 latidos por minuto y llegó a 2. Es un resultado de un individuo y de un contexto concreto, no una constante para toda la especie.
+> **Respuesta rápida:** La [ballena azul (*Balaenoptera musculus*)](https://repository.library.noaa.gov/view/noaa/53258) es el animal de mayor masa conocido. Un estudio colocó un registrador de ECG y profundidad en un macho que se alimentaba en libertad: durante sus inmersiones el ritmo fue normalmente de 4–8 latidos por minuto y llegó a 2. Es un resultado de un individuo y de un contexto concreto, no una constante para toda la especie.
 
 ---
 
@@ -38,7 +38,7 @@ El trabajo utilizó una etiqueta con electrocardiograma y profundidad fijada med
 
 ## 2. Un corazón que cambia de ritmo
 
-El estudio primario encontró un ritmo de **4–8 latidos por minuto durante la mayoría de las inmersiones**, con mínimos instantáneos de 2 latidos por minuto. Tras inmersiones profundas, el registro llegó a **37 latidos por minuto** durante la recuperación en superficie. También observó, en 13 embestidas sin artefactos, un aumento transitorio compatible con modulación por ejercicio, seguido de una reducción mientras el animal planeaba y filtraba el agua.
+El estudio primario encontró un ritmo de **4–8 latidos por minuto durante la mayoría de las inmersiones**, con mínimos instantáneos de 2 latidos por minuto. Tras inmersiones profundas, el registro llegó a **37 latidos por minuto** durante la recuperación en superficie, según el [registro ECG de un macho libre](https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/). También observó, en 13 embestidas sin artefactos, un aumento transitorio compatible con modulación por ejercicio, seguido de una reducción mientras el animal planeaba y filtraba el agua.
 
 Estas cifras describen un patrón de respuesta a la inmersión: ofrecen una señal indirecta para estudiar la gestión de las reservas de oxígeno, pero no miden directamente el oxígeno sanguíneo ni permiten afirmar que todos los corazones de ballena azul funcionen con el mismo rango. El artículo de [Goldbogen y colaboradores](https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/) deja claro que se trató de un solo individuo y que todavía faltan perfiles comparables de otras ballenas grandes.
 

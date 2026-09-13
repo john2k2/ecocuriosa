@@ -2,16 +2,16 @@
 
 ## Alcance y lectura correcta
 
-Este registro documenta una comprobación HTTP mediante `GET` de las 96 URLs
+Este registro documenta una comprobación HTTP mediante `GET` de las 97 URLs
 de fuentes declaradas en el frontmatter de los 32 artículos de
 `src/content/articles`. El resultado observado fue:
 
 | Estado HTTP | URLs | Interpretación operativa |
 | --- | ---: | --- |
 | `200` | 70 | Respuesta satisfactoria en esa comprobación |
-| `203` | 9 | Respuesta no autoritativa o transformada por un intermediario; requiere revisión |
+| `203` | 10 | Respuesta no autoritativa o transformada por un intermediario; requiere revisión |
 | `403` | 17 | Acceso denegado al cliente automatizado; requiere revisión |
-| **Total** | **96** | **No equivale a 96 fuentes editorialmente aprobadas** |
+| **Total** | **97** | **No equivale a 97 fuentes editorialmente aprobadas** |
 
 La comprobación de estado no sustituye la revisión de contenido. Un `403` en
 una petición automatizada puede deberse a protección anti-bot, límites de
@@ -171,6 +171,14 @@ Artículo: `tiburon-de-groenlandia-vertebrado-mas-longevo`
 Artículo: `vuelo-silencioso-buho-real-aerodinamica`
 
 - Annual Reviews — <https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040436>
+
+## Fuente añadida durante la revisión de peces linterna
+
+La fuente adicional incorporada el 12/09/2026 para el artículo de peces
+linterna devolvió `203` en una petición automatizada. Se conserva como
+candidata hasta abrir la ficha en un navegador normal:
+
+- *Enhanced retinal longwave sensitivity using a chlorophyll-derived photosensitiser in Malacosteus niger* — PubMed — <https://pubmed.ncbi.nlm.nih.gov/10492812/>
 
 ## Procedimiento de revisión manual
 

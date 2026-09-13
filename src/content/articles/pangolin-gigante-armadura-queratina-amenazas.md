@@ -70,7 +70,7 @@ El [estudio mecánico citado](https://pubmed.ncbi.nlm.nih.gov/26703230/) analiz�
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se difunde en mercados ilegales que las escamas de pangolín poseen propiedades medicinales.
-  * **Realidad científica contrastada:** No existe evidencia clínica que justifique usar escamas de pangolín para tratar enfermedades. Su composición queratinosa no respalda esas afirmaciones y el comercio pone en riesgo a las especies.
+  * **Realidad científica contrastada:** Las fuentes consultadas en esta ficha no aportan evidencia clínica que justifique usar escamas de pangolín para tratar enfermedades. Su composición queratinosa no respalda esas afirmaciones y el comercio pone en riesgo a las especies.
 
 * **Mito 2:** Se cree que el pangolín puede arrojar sus escamas como proyectiles ante una amenaza.
   * **Matiz:** Las fuentes de esta ficha no documentan esa conducta. Lo que sí puede sostenerse aquí es que las escamas forman una defensa superpuesta; no conviene presentar una historia de “proyectiles” ni una explicación anatómica más precisa sin una fuente específica.

@@ -37,9 +37,9 @@ featured: false
 
 ## 1. El intercambio entre pólipo y simbionte
 
-Los arrecifes ocupan una fracción muy pequeña del océano, pero ofrecen refugio y alimento a una parte desproporcionada de la vida marina. NOAA resume la cifra como menos del 0,1 % del área oceánica y alrededor del 25 % de las especies marinas que dependen de ellos; es una aproximación divulgativa, no un censo de cada especie.
+Los arrecifes ocupan una fracción muy pequeña del océano, pero ofrecen refugio y alimento a una parte desproporcionada de la vida marina. [NOAA resume](https://oceanservice.noaa.gov/facts/coral_bleach.html) la cifra como menos del 0,1 % del área oceánica y alrededor del 25 % de las especies marinas que dependen de ellos; es una aproximación divulgativa, no un censo de cada especie.
 
-Muchos corales constructores viven asociados con dinoflagelados de la familia Symbiodiniaceae. El pólipo ofrece un entorno protegido y los simbiontes aportan productos de la fotosíntesis. La proporción y el intercambio cambian según la especie, la colonia, la luz y la temperatura; por eso “las algas alimentan al coral” es un resumen útil, no una regla idéntica para todos los arrecifes.
+Muchos corales constructores viven asociados con dinoflagelados de la familia [Symbiodiniaceae](https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/). El pólipo ofrece un entorno protegido y los simbiontes aportan productos de la fotosíntesis. La proporción y el intercambio cambian según la especie, la colonia, la luz y la temperatura; por eso “las algas alimentan al coral” es un resumen útil, no una regla idéntica para todos los arrecifes.
 
 ---
 
@@ -47,9 +47,9 @@ Muchos corales constructores viven asociados con dinoflagelados de la familia Sy
 
 1. **Estrés ambiental:** Un cambio de temperatura, luz o nutrientes puede alterar la relación entre el pólipo y sus simbiontes. El calor anómalo sostenido es el desencadenante más conocido, pero no es el único.
 
-2. **Pérdida de color:** Bajo estrés, el coral puede expulsar simbiontes o perder pigmentos. El esqueleto claro se vuelve visible y la colonia parece blanca.
+2. **Pérdida de color:** Bajo estrés, el coral puede expulsar simbiontes o perder pigmentos ([mecanismos celulares descritos por ISME](https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/)). El esqueleto claro se vuelve visible y la colonia parece blanca.
 
-3. **Mayor vulnerabilidad:** Un coral blanqueado no está muerto de inmediato. Ha perdido una fuente importante de energía y queda más expuesto; si el estrés continúa, aumenta el riesgo de mortalidad. Si disminuye, algunas colonias pueden recuperar sus simbiontes. La respuesta depende de la especie, la duración, la intensidad y las condiciones locales.
+3. **Mayor vulnerabilidad:** Un coral blanqueado no está muerto de inmediato. Ha perdido una fuente importante de energía y queda más expuesto; si el estrés continúa, aumenta el riesgo de mortalidad. Si disminuye, algunas colonias pueden recuperar sus simbiontes ([NOAA explica la recuperación y sus límites](https://oceanservice.noaa.gov/facts/coral_bleach.html)). La respuesta depende de la especie, la duración, la intensidad y las condiciones locales.
 
 ### Parámetros Fisicoquímicos del Ecosistema Coralino
 
@@ -84,7 +84,7 @@ La actualización del 2 de junio de 2026 de [NOAA Coral Reef Watch](https://www.
 
 ### ¿Pueden los corales comer materia orgánica sin las algas?
 
-Sí. Por la noche extienden sus tentáculos cargados de nematocistos (células urticantes) para capturar zooplancton microscópico y materia orgánica suspendida, pero esta vía heterótrofa solo cubre una fracción de su demanda metabólica diaria.
+Sí. Por la noche pueden extender sus tentáculos cargados de nematocistos (células urticantes) para capturar zooplancton microscópico y materia orgánica suspendida. La importancia de esta vía heterótrofa depende de la especie y del ambiente; no sustituye automáticamente la energía asociada a sus simbiontes.
 
 ---
 

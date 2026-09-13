@@ -49,7 +49,7 @@ featured: false
 
 ## 1. Qué sabemos del cerebro
 
-Un [estudio celular del cerebro de un elefante africano](https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/) estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución podría estar relacionada, entre otras cosas, con las exigencias sensoriomotoras de un cuerpo y una trompa enormes; el estudio no prueba por sí solo esa causalidad.
+Un [estudio celular del cerebro de un elefante africano](https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/) estimó **257.000 millones de neuronas en ese ejemplar**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución podría estar relacionada, entre otras cosas, con las exigencias sensoriomotoras de un cuerpo y una trompa enormes; el estudio no prueba por sí solo esa causalidad.
 
 Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un contexto plausible para estudiar memoria y conducta, pero no permite deducir por sí solo cuántos años recuerda una ruta un elefante concreto ni qué significa una respuesta emocional.
 
@@ -77,7 +77,7 @@ de memoria ni permiten extrapolar una medición a todas las poblaciones.
 
 | Medida publicada | Elefante africano | Referencia humana del estudio |
 | :--- | :--- | :--- |
-| Neuronas totales estimadas | ~257.000 millones | ~86.000 millones en el promedio comparado |
+| Neuronas totales estimadas | ~257.000 millones en el ejemplar estudiado | ~86.000 millones en el promedio comparado |
 | Neuronas en el cerebelo | ~97,5 % del total | No comparable directamente |
 | Neuronas de la corteza cerebral | ~5.600 millones | La corteza humana tiene más en la comparación citada |
 | Interpretación | Distribución sensoriomotora y memoria social estudiable | No permite inferir “inteligencia” solo por conteo |

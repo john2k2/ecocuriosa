@@ -44,7 +44,7 @@ Cuando el vórtice es fuerte, tiende a aislar el aire muy frío del Ártico. Cua
 
 2. **Calentamiento y cambio de circulación:** La temperatura sube con rapidez y los vientos del vórtice pueden frenarse, invertirse o redistribuirse. La [revisión especializada describe distintas “formas” del evento](https://doi.org/10.1029/2020RG000708); no todos tienen la misma estructura.
 
-3. **Posible señal descendente:** En las semanas posteriores, algunas perturbaciones se asocian con un chorro más ondulado y con aire frío en ciertas latitudes. NOAA recalca que también hay olas de frío sin un SSW y SSW con poco efecto en superficie.
+3. **Posible señal descendente:** En las semanas posteriores, algunas perturbaciones se asocian con un chorro más ondulado y con aire frío en ciertas latitudes. [NOAA recalca](https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex) que también hay olas de frío sin un SSW y SSW con poco efecto en superficie.
 
 ### Fases y Magnitudes de un Calentamiento Estratosférico Repentino
 

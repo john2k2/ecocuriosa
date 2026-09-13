@@ -40,7 +40,7 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 
 ## 2. Qué muestran los experimentos
 
-1. **Proteínas de protección:** La desecación activa varias respuestas moleculares que ayudan a estabilizar estructuras celulares. Los mecanismos y las proteínas relevantes cambian entre linajes.
+1. **Respuestas de protección:** La desecación activa respuestas moleculares que pueden ayudar a estabilizar estructuras celulares. Las dos fuentes de esta ficha no identifican una proteína universal ni permiten extrapolar un mecanismo único entre linajes.
 
 2. **Dsup:** El [estudio de eLife](https://doi.org/10.7554/eLife.47682) examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
 
