@@ -8,7 +8,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BRIEF_PATH = ROOT / 'docs' / 'editorial' / 'drafts' / 'gbif-sequence-search.json'
+DRAFT_DIR = ROOT / 'docs' / 'editorial' / 'drafts'
+CONTROL_BRIEF_PATH = DRAFT_DIR / 'gbif-sequence-search.json'
 sys.path.insert(0, str(ROOT))
 
 from pipeline.generate_articles import generate_markdown, load_briefs, load_catalog_ids, validate_brief
@@ -26,22 +27,29 @@ def expect_rejected(label: str, brief: dict, catalog_ids: set[str], mutate) -> N
 
 
 def main() -> None:
-    if not BRIEF_PATH.is_file():
-        raise SystemExit(f'No existe el brief de control: {BRIEF_PATH}')
+    brief_paths = sorted(DRAFT_DIR.glob('*.json'))
+    if not brief_paths:
+        raise SystemExit(f'No hay briefs JSON en {DRAFT_DIR}')
+    if not CONTROL_BRIEF_PATH.is_file():
+        raise SystemExit(f'No existe el brief de control: {CONTROL_BRIEF_PATH}')
 
     catalog_ids = load_catalog_ids()
-    briefs = load_briefs(BRIEF_PATH)
-    if len(briefs) != 1:
-        raise SystemExit(f'Se esperaba un brief de control y se encontraron {len(briefs)}.')
+    loaded = []
+    for brief_path in brief_paths:
+        briefs = load_briefs(brief_path)
+        loaded.extend((brief_path, brief) for brief in briefs)
+        for brief in briefs:
+            markdown = generate_markdown(brief)
+            required_markers = ('humanApproval: pending', 'publish: false', 'PENDIENTE DE AUTORÍA REAL')
+            missing = [marker for marker in required_markers if marker not in markdown]
+            if missing or 'reviewedDate:' in markdown or 'reviewedBy:' in markdown:
+                raise SystemExit(f'{brief_path.name}/{brief["slug"]}: el borrador no conserva las puertas de publicación: {missing}')
 
-    brief = briefs[0]
-    markdown = generate_markdown(brief)
-    required_markers = ('humanApproval: pending', 'publish: false', 'PENDIENTE DE AUTORÍA REAL')
-    missing = [marker for marker in required_markers if marker not in markdown]
-    if missing or 'reviewedDate:' in markdown or 'reviewedBy:' in markdown:
-        raise SystemExit(f'El borrador no conserva las puertas de publicación: {missing}')
-
-    raw = json.loads(BRIEF_PATH.read_text(encoding='utf-8'))['briefs'][0]
+    control_briefs = load_briefs(CONTROL_BRIEF_PATH)
+    if len(control_briefs) != 1:
+        raise SystemExit(f'Se esperaba un brief de control y se encontraron {len(control_briefs)}.')
+    brief = control_briefs[0]
+    raw = json.loads(CONTROL_BRIEF_PATH.read_text(encoding='utf-8'))['briefs'][0]
     expect_rejected(
         'catalogId inexistente',
         raw,
@@ -66,7 +74,8 @@ def main() -> None:
         catalog_ids,
         lambda candidate: candidate.update(internalLinks=['https://example.com']),
     )
-    print(f'Brief válido: {brief["slug"]}; fuentes candidatas: {len(brief["sourceCandidates"])}')
+    print(f'Briefs válidos: {len(loaded)} en {len(brief_paths)} archivos JSON')
+    print(f'Brief de control: {brief["slug"]}; fuentes candidatas: {len(brief["sourceCandidates"])}')
     print('Puertas de publicación y rechazos adversariales: correctos')
 
 

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración editorial sobre identificación aérea de mantas gigantes</title>
+  <desc id="desc">Un observador aéreo identifica una manta gigante y registra una observación para seguimiento, con una advertencia de que presencia no equivale a abundancia global.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="0.48" stop-color="#176b83"/>
+      <stop offset="1" stop-color="#0d394b"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2eb5b0" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#062d43"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2fbf8"/>
+      <stop offset="1" stop-color="#d9eef0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#031820" flood-opacity="0.3"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10Z" fill="#f7c95b"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <rect y="350" width="1200" height="400" fill="url(#sea)"/>
+  <path d="M0 394 Q150 370 300 397 T600 395 T900 394 T1200 394" fill="none" stroke="#9be4dd" stroke-opacity="0.38" stroke-width="4"/>
+  <path d="M0 450 Q160 420 330 454 T660 450 T990 451 T1200 449" fill="none" stroke="#b6f1e7" stroke-opacity="0.2" stroke-width="3"/>
+  <circle cx="1050" cy="88" r="150" fill="#f7c95b" opacity="0.1"/>
+
+  <text x="72" y="72" fill="#f7c95b" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">ECOCURiosa · ILUSTRACIÓN EDITORIAL</text>
+  <text x="72" y="126" fill="#ffffff" font-family="Georgia, serif" font-size="38" font-weight="700">De una vista aérea a una pista útil</text>
+  <text x="72" y="164" fill="#d4f1ed" font-family="Arial, sans-serif" font-size="19">Identificar mantas gigantes no es lo mismo que contar una población</text>
+
+  <!-- aeronave y visor -->
+  <g transform="translate(110 208)" fill="none" stroke="#d4f1ed" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 55 L104 55 L134 72 L104 89 L0 89 L-18 72Z" fill="#d4f1ed" stroke="none"/>
+    <path d="M52 55 L70 20 L90 55 M18 89 L4 116 M103 89 L119 116"/>
+    <path d="M133 72 L170 72" stroke="#f7c95b" stroke-dasharray="7 8"/>
+    <path d="M170 72 L278 350" stroke="#f7c95b" stroke-opacity="0.7" stroke-dasharray="10 10"/>
+  </g>
+  <text x="170" y="352" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">observador aéreo</text>
+
+  <!-- manta estilizada -->
+  <g transform="translate(210 437)">
+    <path d="M0 52 C85 -22 198 -26 300 52 C248 42 218 62 181 83 C142 105 94 105 53 83 C32 72 14 62 0 52Z" fill="#142e48" stroke="#b7f1e8" stroke-width="4"/>
+    <path d="M143 70 C152 104 163 121 179 130 C194 120 202 101 207 69" fill="#142e48" stroke="#b7f1e8" stroke-width="4"/>
+    <path d="M81 43 Q143 10 218 43" fill="none" stroke="#f7c95b" stroke-width="4" opacity="0.8"/>
+    <circle cx="128" cy="53" r="4" fill="#f7c95b"/>
+    <circle cx="191" cy="53" r="4" fill="#f7c95b"/>
+  </g>
+  <text x="355" y="595" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">presencia observada</text>
+
+  <!-- flujo cards -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="248" width="180" height="112" rx="18" fill="url(#card)"/>
+    <rect x="770" y="248" width="180" height="112" rx="18" fill="url(#card)"/>
+    <rect x="980" y="248" width="170" height="112" rx="18" fill="url(#card)"/>
+  </g>
+  <path d="M740 304 H762" stroke="#f7c95b" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M950 304 H972" stroke="#f7c95b" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="650" y="285" fill="#123b4d" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">1 · OBSERVAR</text>
+  <text x="650" y="316" fill="#123b4d" font-family="Georgia, serif" font-size="21" text-anchor="middle">forma y patrón</text>
+  <text x="650" y="341" fill="#39707a" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">registro de campo</text>
+  <text x="860" y="285" fill="#123b4d" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">2 · IDENTIFICAR</text>
+  <text x="860" y="316" fill="#123b4d" font-family="Georgia, serif" font-size="21" text-anchor="middle">especie probable</text>
+  <text x="860" y="341" fill="#39707a" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">guía NOAA</text>
+  <text x="1065" y="285" fill="#123b4d" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">3 · SEGUIR</text>
+  <text x="1065" y="316" fill="#123b4d" font-family="Georgia, serif" font-size="21" text-anchor="middle">dato con alcance</text>
+  <text x="1065" y="341" fill="#39707a" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">revisión regional</text>
+
+  <rect x="560" y="424" width="590" height="112" rx="20" fill="#092c3b" stroke="#f7c95b" stroke-opacity="0.8" stroke-width="2"/>
+  <text x="594" y="463" fill="#f7c95b" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1">NO CONFUNDIR</text>
+  <text x="594" y="499" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">presencia observada ≠ abundancia global</text>
+  <text x="594" y="524" fill="#c9ebe5" font-family="Arial, sans-serif" font-size="15">La revisión de recuperación informa gestión; no es un censo mundial.</text>
+
+  <text x="72" y="690" fill="#d4f1ed" font-family="Arial, sans-serif" font-size="14">Diagrama original · propósito, región y límites del muestreo deben acompañar cada registro</text>
+</svg>

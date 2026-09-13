@@ -1,0 +1,83 @@
+{
+  "briefs": [
+    {
+      "slug": "manta-survey-recovery",
+      "status": "research",
+      "sourceQuery": "identificación aérea y estado de recuperación de la manta raya gigante",
+      "workingTitle": "Cómo identificar mantas gigantes desde el aire y qué puede decir un informe de recuperación",
+      "readerQuestion": "¿Qué puede aportar una identificación aérea estandarizada y qué no permite concluir sobre la población mundial de la manta raya gigante?",
+      "searchIntent": "informational",
+      "description": "Una guía de NOAA para identificar mantas gigantes desde el aire y un informe de recuperación sobre el alcance real de sus datos poblacionales.",
+      "category": "especies-marinas",
+      "pubDate": "2026-09-12",
+      "author": "PENDIENTE DE AUTORÍA REAL",
+      "image": "/images/articles/manta-survey-recovery.svg",
+      "imageAlt": "Ilustración y diagrama de un observador aéreo que identifica una manta y entrega datos a una revisión de recuperación",
+      "tags": ["manta-gigante", "identificacion-de-especies", "conservacion-marina", "monitoreo"],
+      "sourceCandidates": [
+        {
+          "catalogId": "manta-aerial-survey-identification-noaa-2025",
+          "url": "https://www.fisheries.noaa.gov/resource/outreach-materials/giant-manta-ray-and-devil-ray-aerial-survey-id-guide",
+          "evidenceType": "institutional",
+          "supports": "La guía de NOAA ayuda a observadores de estudios aéreos a identificar visualmente la manta raya gigante y otras rayas grandes.",
+          "scope": "Guía fechada el 19 de septiembre de 2019 y actualizada el 25 de septiembre de 2025; observadores aéreos; regiones Southeast y Mid-Atlantic.",
+          "limitation": "Es una herramienta de identificación para levantamientos aéreos, no un censo global ni una validación automática de abundancia o tendencias.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "manta-recovery-status-review-noaa-2024",
+          "url": "https://www.fisheries.noaa.gov/s3/2024-10/Recovery-Status-Review-for-Giant-Manta-Ray_508.pdf",
+          "evidenceType": "institutional",
+          "supports": "Compila información actualizada sobre biología, abundancia, amenazas y recuperación de Mobula birostris para informar la gestión bajo la ESA.",
+          "scope": "NOAA/NMFS Recovery Status Review, octubre de 2024; especie a escala de su rango; evidencia científica y comercial para gestión y recuperación.",
+          "limitation": "El documento no produce una decisión y señala que no existen estimaciones globales actuales o históricas de abundancia; no es un censo ni una nueva estimación poblacional.",
+          "checkedBy": null,
+          "checkedDate": null
+        }
+      ],
+      "claims": [
+        {
+          "text": "La guía de NOAA fue creada para que observadores de estudios aéreos identifiquen visualmente la manta raya gigante y otras rayas grandes.",
+          "certainty": "fact",
+          "sourceIds": ["manta-aerial-survey-identification-noaa-2025"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "El Recovery Status Review de octubre de 2024 compila información actualizada para informar la gestión y la recuperación de Mobula birostris.",
+          "certainty": "fact",
+          "sourceIds": ["manta-recovery-status-review-noaa-2024"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Una identificación aérea consistente puede mejorar la calidad y comparabilidad de registros de presencia, siempre que se controlen las limitaciones del observador y del muestreo.",
+          "certainty": "inference",
+          "sourceIds": ["manta-aerial-survey-identification-noaa-2025"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Combinar observaciones aéreas estandarizadas con la revisión de recuperación podría ayudar a priorizar seguimiento regional, pero no establecería por sí solo la abundancia global.",
+          "certainty": "hypothesis",
+          "sourceIds": ["manta-aerial-survey-identification-noaa-2025", "manta-recovery-status-review-noaa-2024"],
+          "humanCheck": "pending"
+        }
+      ],
+      "draftBody": "Una observación aérea no equivale automáticamente a un censo. La guía de NOAA está pensada para que los observadores distingan visualmente mantas gigantes y otras rayas grandes dentro de estudios aéreos, con un propósito y unas regiones concretas.\n\nEl informe de recuperación de 2024 reúne la evidencia disponible para informar la gestión de Mobula birostris. También deja claro que no existen estimaciones globales actuales o históricas de abundancia y que los datos regionales pueden estar sujetos a sesgos.\n\nLa aportación del artículo sería mostrar el recorrido observación → identificación → registro con alcance → decisión de seguimiento. Estandarizar una observación puede hacerla más comparable, pero no convierte por sí sola una detección en abundancia global ni en una decisión de recuperación.",
+      "originalContribution": "Diagrama editorial original del circuito observación aérea → identificación visual → registro con alcance → decisión de seguimiento, con advertencia visible de que presencia observada no equivale a abundancia global.",
+      "imagePlan": "original-illustration",
+      "imageRights": "pending",
+      "internalLinks": [
+        "/especies-marinas/ballena-azul-fisiologia-gigante-cardiovascular/",
+        "/especies-marinas/tiburon-de-groenlandia-vertebrado-mas-longevo/"
+      ],
+      "humanApproval": "pending",
+      "publish": false
+    }
+  ],
+  "observations": [
+    "Se usaron únicamente los dos catalogId y URLs indicados; no se añadieron fuentes nuevas.",
+    "checkedBy y checkedDate quedan null intencionalmente; la validación editorial humana de cada afirmación sigue pendiente.",
+    "La comparabilidad y el seguimiento regional son inferencias o hipótesis, no resultados globales medidos.",
+    "No se incluyen reviewedDate ni reviewedBy; el brief permanece sin aprobación y con publish=false."
+  ]
+}

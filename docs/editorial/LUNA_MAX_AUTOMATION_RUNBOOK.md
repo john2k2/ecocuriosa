@@ -103,6 +103,12 @@ nunca sobrescribe `public/images/articles` ni activos existentes y exige
 fuentes estructuradas, procedencia/licencia de imagen, variante WebP y
 revisión humana.
 
+La ejecución del 12/09/2026 dejó dos briefs de prueba de extremo a extremo
+(`elephant-social-knowledge` y `manta-survey-recovery`) y sus Markdown locales.
+El auditor `content:luna-audit` recorre ahora todos los JSON de
+`docs/editorial/drafts/`, además del control adversarial GBIF, para evitar que
+un brief nuevo quede fuera de las puertas de publicación.
+
 Para briefs de autoridad o distribución, los IDs `google-ai-features`,
 `google-preferred-sources`, `google-discover-core-update-2026`,
 `google-gen-ai-performance-reports-2026` y `google-ranking-systems-guide`

@@ -1,0 +1,83 @@
+{
+  "briefs": [
+    {
+      "slug": "elephant-social-knowledge",
+      "status": "research",
+      "sourceQuery": "conocimiento social y evaluación de amenazas en elefantes africanos",
+      "workingTitle": "Qué conserva una matriarca: conocimiento social y evaluación del riesgo en elefantes africanos",
+      "readerQuestion": "¿Qué evidencias muestran que la experiencia de una matriarca puede cambiar cómo una familia de elefantes evalúa una amenaza?",
+      "searchIntent": "informational",
+      "description": "Qué muestran los experimentos de reproducción de llamadas sobre experiencia, aprendizaje social y evaluación de amenazas en elefantes africanos.",
+      "category": "fauna-fascinante",
+      "pubDate": "2026-09-12",
+      "author": "PENDIENTE DE AUTORÍA REAL",
+      "image": "/images/articles/elephant-social-knowledge.svg",
+      "imageAlt": "Ilustración y diagrama del flujo entre experiencia de la matriarca, llamadas y evaluación de amenazas",
+      "tags": ["elefantes", "comportamiento-animal", "aprendizaje-social", "conservacion"],
+      "sourceCandidates": [
+        {
+          "catalogId": "elephant-social-disruption-threat-assessment-2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35203203/",
+          "evidenceType": "primary",
+          "supports": "Compara dos poblaciones de elefantes africanos mediante reproducciones de rugidos de uno o tres leones para evaluar respuestas a amenazas predatorias.",
+          "scope": "Loxodonta africana; Amboseli, Kenia, y Pilanesberg, Sudáfrica; playback con grupos familiares; publicación de 2022.",
+          "limitation": "No mide memoria individual a largo plazo ni demuestra que una sola intervención cause toda diferencia poblacional; se refiere a esas poblaciones y a evaluación de amenazas.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "elephant-matriarch-leadership-2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21411454/",
+          "evidenceType": "primary",
+          "supports": "Relaciona la edad de la matriarca con la sensibilidad del grupo a amenazas acústicas de uno y tres leones y examina la posible ventaja de líderes mayores.",
+          "scope": "Loxodonta africana en una población libre de Amboseli, Kenia; playback de rugidos; estudio publicado en 2011.",
+          "limitation": "No es una escala de inteligencia ni una prueba de memoria general; la relación edad-beneficio no autoriza causalidad universal.",
+          "checkedBy": null,
+          "checkedDate": null
+        }
+      ],
+      "claims": [
+        {
+          "text": "Las familias de Amboseli distinguieron en el playback el mayor riesgo de tres leones rugiendo frente a uno.",
+          "certainty": "fact",
+          "sourceIds": ["elephant-social-disruption-threat-assessment-2022"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "En el estudio de liderazgo, la sensibilidad a la amenaza de los rugidos aumentó con la edad de la matriarca.",
+          "certainty": "fact",
+          "sourceIds": ["elephant-matriarch-leadership-2011"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "La experiencia de la matriarca puede contribuir a la transmisión de conocimiento ecológico y a decisiones defensivas del grupo.",
+          "certainty": "inference",
+          "sourceIds": ["elephant-social-disruption-threat-assessment-2022", "elephant-matriarch-leadership-2011"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Si la pérdida de individuos mayores reduce oportunidades de aprendizaje social, poblaciones perturbadas podrían conservar peor algunas respuestas de amenaza; debe comprobarse por población y contexto.",
+          "certainty": "hypothesis",
+          "sourceIds": ["elephant-social-disruption-threat-assessment-2022", "elephant-matriarch-leadership-2011"],
+          "humanCheck": "pending"
+        }
+      ],
+      "draftBody": "Los experimentos de reproducción de llamadas permiten separar una observación concreta de una historia amplia sobre la memoria de los elefantes. En Amboseli, las familias respondieron de forma distinta a rugidos de uno y tres leones; la comparación con una población de historia social diferente mostró que las respuestas no son idénticas entre poblaciones.\n\nOtro experimento encontró que la edad de la matriarca se relaciona con la sensibilidad del grupo a señales acústicas de peligro. Esto es compatible con un papel de la experiencia en el aprendizaje social, pero no convierte a la matriarca en una medida universal de inteligencia ni demuestra cuántos años recuerda cada individuo.\n\nLa lectura responsable es acotada: los resultados describen playback, poblaciones concretas y respuestas defensivas. Para hablar de transmisión cultural, supervivencia o conservación a escala global harían falta datos de más poblaciones, observaciones longitudinales y controles que separen edad, estructura social y perturbación.",
+      "originalContribution": "Diagrama editorial original de cuatro pasos: experiencia acumulada → señal acústica → decisión defensiva → límite de extrapolación; etiquetar cada parte como hecho, inferencia o hipótesis.",
+      "imagePlan": "original-illustration",
+      "imageRights": "pending",
+      "internalLinks": [
+        "/especies-marinas/manta-raya-gigante-inteligencia-cerebro-peces/",
+        "/ciencia-curiosa/por-que-es-contagioso-el-bostezo-neuronas-espejo/"
+      ],
+      "humanApproval": "pending",
+      "publish": false
+    }
+  ],
+  "observations": [
+    "Se usaron únicamente los dos catalogId y URLs indicados; no se añadieron fuentes nuevas.",
+    "checkedBy y checkedDate quedan null intencionalmente; la validación editorial humana de cada afirmación sigue pendiente.",
+    "Las afirmaciones sobre transmisión social y conservación son inferencias o hipótesis, no deben presentarse como hechos medidos.",
+    "No se incluyen reviewedDate ni reviewedBy; el brief permanece sin aprobación y con publish=false."
+  ]
+}

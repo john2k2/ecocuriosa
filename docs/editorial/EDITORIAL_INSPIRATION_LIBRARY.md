@@ -432,3 +432,10 @@ revisión.
 las dos fuentes de PubMed requieren abrir la ficha o el artículo para verificar
 el contexto experimental. El registro detallado queda en
 `SOURCE_ACCESS_SNAPSHOT_2026-09-12.md`.
+
+Luna Max convirtió estas dos oportunidades en briefs locales estructurados y
+borradores de trabajo: [`elephant-social-knowledge.json`](drafts/elephant-social-knowledge.json)
+y [`manta-survey-recovery.json`](drafts/manta-survey-recovery.json). Sus Markdown
+generados, junto con las ilustraciones SVG, siguen fuera de `src/content/articles`;
+requieren comprobación humana, autoría real, procedencia visual y aprobación antes
+de entrar en la biblioteca publicada.
