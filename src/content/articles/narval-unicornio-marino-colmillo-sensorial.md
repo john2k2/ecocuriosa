@@ -42,7 +42,7 @@ Estudios anatómicos, como el trabajo descrito por [Smithsonian sobre el órgano
 
 1. **Hipótesis sensorial:** Los túbulos del colmillo han motivado experimentos sobre sensibilidad a condiciones del agua. Eso no demuestra que los narvales midan con precisión salinidad, presión o temperatura en libertad.
 
-2. **Inmersiones:** Los narvales realizan inmersiones profundas, pero sus máximos reportados cambian entre estudios y contextos. Una profundidad observada no identifica por sí sola la función del colmillo.
+2. **Inmersiones:** Los narvales realizan inmersiones profundas, pero sus máximos reportados cambian entre estudios y contextos. La [ficha de NOAA Fisheries sobre el narval](https://www.fisheries.noaa.gov/species/narwhal) resume su biología y conservación sin convertir un máximo observado en una regla universal. Una profundidad observada no identifica por sí sola la función del colmillo.
 
 3. **Señalización social y sexual:** Se han observado machos cruzando o frotando sus colmillos (*tusking*). El comportamiento puede cumplir funciones sociales o de exhibición, pero su significado exacto y su relación con la selección sexual siguen en estudio.
 

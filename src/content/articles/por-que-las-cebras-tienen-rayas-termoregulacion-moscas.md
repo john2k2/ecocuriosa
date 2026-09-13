@@ -39,15 +39,15 @@ featured: false
 
 El llamativo pelaje rayado de las tres especies vivientes de cebras (*Equus quagga*, *Equus zebra* y *Equus grevyi*) desconcertó a los grandes naturalistas del siglo XIX. Charles Darwin consideraba que el patrón no encajaba fácilmente con su teoría de selección natural para el camuflaje críptico, mientras que Alfred Russel Wallace argumentaba que las rayas podían confundir a los leones en la maleza durante el crepúsculo.
 
-Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento, efectos visuales y termorregulación. Estudios recientes han comparado algunas de ellas; la evidencia debe leerse según el diseño experimental y no como un cierre de toda la discusión evolutiva.
+Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento, efectos visuales y termorregulación. El estudio comparativo de [*Nature Communications* sobre la función de las rayas](https://doi.org/10.1038/ncomms4535) puso a prueba varias de esas ideas; la evidencia debe leerse según el diseño experimental y no como un cierre de toda la discusión evolutiva.
 
 ---
 
 ## 2. La Física de la Luz Polarizada y el Efecto 'Aterrizaje Fallido'
 
-1. **Sensibilidad a la Luz Polarizada en Insectos Picadores:** Los tábanos y moscas hematófagas dependen de la detección de luz polarizada linealmente para localizar agua y huéspedes de pelo oscuro uniforme (donde la luz se polariza intensamente en una dirección). El pelaje blanco no polariza la luz, mientras que las estrechas bandas alternas de la cebra fragmentan la firma lumínica polarizada en microsectores discontinuos incoherentes.
+1. **Sensibilidad a la Luz Polarizada en Insectos Picadores:** Los tábanos y otras moscas hematófagas pueden responder a señales de luz polarizada al localizar agua y superficies de pelo oscuro uniforme. El estudio de [*Nature Communications*](https://doi.org/10.1038/ncomms4535) evaluó cómo un patrón rayado altera esa señal; el resultado depende del insecto, la distancia y las condiciones del experimento.
 
-2. **Fallo del Sistema de Frenado Óptico en el Tábano:** Estudios con cámaras de alta velocidad demostraron que los tábanos vuelan hacia las cebras atraídos por su calor y olor, pero al acercarse a menos de un metro sufren una ilusión óptica geométrica: son incapaces de calibrar la velocidad de aproximación y la distancia de la superficie. En lugar de desacelerar y posarse suavemente, chocan de frente contra el pelaje a gran velocidad o rebotan sin poder picar.
+2. **Fallo del Sistema de Frenado Óptico en el Tábano:** Los experimentos de aproximación con [cámaras de alta velocidad](https://doi.org/10.1038/ncomms4535) observaron que los tábanos pueden acercarse a patrones rayados y tener más dificultades para completar el aterrizaje. Es una explicación experimental del efecto antiaterrizaje, no una regla idéntica para cada especie de mosca o cada cebra.
 
 3. **Experimentos de campo con caballos cubiertos:** El [estudio de PLOS ONE sobre mantas rayadas](https://doi.org/10.1371/journal.pone.0223447) aporta evidencia de menos aterrizajes de tábanos sobre patrones similares a las rayas de cebra. El tamaño del efecto y las condiciones dependen del experimento; no debe trasladarse como una cifra universal a todas las especies y ambientes.
 
@@ -56,7 +56,7 @@ Durante el siglo XX se propusieron varias hipótesis: camuflaje, reconocimiento,
 | Hipótesis Evaluada | Mecanismo Propuesto | Veredicto Científico Actual |
 | :--- | :--- | :--- |
 | Moscas picadoras | Dificultad de aterrizaje sobre patrones rayados | Apoyada por experimentos concretos |
-| Termorregulación | Diferencias entre franjas | Un ensayo no halló ventaja de enfriamiento; requiere cautela |
+| Termorregulación | Diferencias entre franjas | [Un ensayo no halló ventaja de enfriamiento](https://pmc.ncbi.nlm.nih.gov/articles/PMC6008466/); requiere cautela |
 | Camuflaje | Visión de depredadores | No explica por sí sola todas las observaciones |
 | Reconocimiento social | Señales visuales entre individuos | Posible función adicional, aún debatida |
 

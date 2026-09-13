@@ -46,15 +46,15 @@ featured: false
 
 ## 1. Qué es *Noctiluca*
 
-El Smithsonian describe *Noctiluca* como un dinoflagelado heterótrofo que puede formar floraciones y mostrar bioluminiscencia en algunas regiones. No es correcto tratarlo como un alga fotosintética universal ni usar el nombre de una especie para identificar cualquier “marea roja”. El color de una floración puede cambiar con la especie, los simbiontes y el entorno.
+El [Smithsonian describe *Noctiluca*](https://naturalhistory.si.edu/research/botany/research/dinoflagellates/harmful-marine-dinoflagellate-taxa) como un dinoflagelado heterótrofo que puede formar floraciones y mostrar bioluminiscencia en algunas regiones. No es correcto tratarlo como un alga fotosintética universal ni usar el nombre de una especie para identificar cualquier “marea roja”. El color de una floración puede cambiar con la especie, los simbiontes y el entorno.
 
-La temperatura, los nutrientes, las corrientes y la estabilidad de la columna de agua influyen en las floraciones. El análisis satelital de NOAA documenta un caso regional del Mar de China Oriental; no define una temperatura, concentración o temporada válida para todas las costas.
+La temperatura, los nutrientes, las corrientes y la estabilidad de la columna de agua influyen en las floraciones, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/). El [análisis satelital de NOAA](https://repository.library.noaa.gov/view/noaa/59779) documenta un caso regional del Mar de China Oriental; no define una temperatura, concentración o temporada válida para todas las costas.
 
 ---
 
 ## 2. Por qué el agua agitada puede brillar
 
-La bioluminiscencia de muchos dinoflagelados se activa por estimulación mecánica. NOAA explica la idea general: una perturbación del agua desencadena una reacción celular que produce luz. La cadena molecular exacta, la longitud de onda y la duración del destello varían entre taxones y condiciones; por eso no usamos una tabla de valores universales.
+La bioluminiscencia de muchos dinoflagelados se activa por estimulación mecánica. [NOAA explica la idea general](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/): una perturbación del agua desencadena una reacción celular que produce luz. La cadena molecular exacta, la longitud de onda y la duración del destello varían entre taxones y condiciones; por eso no usamos una tabla de valores universales.
 
 Para interpretar una observación conviene anotar fecha, ubicación, color, movimiento del agua, muestras disponibles y aviso ambiental local. Sin una muestra o análisis taxonómico, “mar de ardora” es una descripción visual, no una identificación de especie.
 

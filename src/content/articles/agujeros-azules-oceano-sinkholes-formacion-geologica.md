@@ -48,7 +48,7 @@ featured: false
 
 La luz se atenúa en el agua profunda, por eso la boca de un agujero azul puede verse más oscura que el arrecife o la plataforma que lo rodea. Ese efecto óptico no permite deducir por sí solo su profundidad, edad o química.
 
-El modelo kárstico es compatible con la disolución de roca carbonatada, la exposición subaérea durante niveles marinos más bajos y la inundación posterior. Sin embargo, las fuentes de esta ficha describen sitios concretos y no autorizan a trasladar automáticamente una cronología del Pleistoceno a todos los agujeros azules. El [registro sedimentario del Gran Agujero Azul](https://doi.org/10.1002/dep2.70021) y las [mediciones de Taam Ja'](https://doi.org/10.3389/fmars.2024.1387235) son ejemplos de cómo se prueba cada caso.
+El modelo kárstico es compatible con la disolución de roca carbonatada, la exposición subaérea durante niveles marinos más bajos y la inundación posterior. La [expedición de NOAA a los agujeros azules](https://oceanexplorer.noaa.gov/expedition/20blue-holes/) muestra cómo se combinan exploración, muestras y perfiles del agua para comprobar esa historia. Sin embargo, las fuentes de esta ficha describen sitios concretos y no autorizan a trasladar automáticamente una cronología del Pleistoceno a todos los agujeros azules. El [registro sedimentario del Gran Agujero Azul](https://doi.org/10.1002/dep2.70021) y las [mediciones de Taam Ja'](https://doi.org/10.3389/fmars.2024.1387235) son ejemplos de cómo se prueba cada caso.
 
 ---
 
@@ -56,7 +56,7 @@ El modelo kárstico es compatible con la disolución de roca carbonatada, la exp
 
 Las diferencias de salinidad y densidad pueden generar una zona de transición o haloclina, pero su profundidad cambia según la morfología, el intercambio con el mar y la lluvia. En Amberjack Hole, el [estudio de USGS](https://www.usgs.gov/publications/gulf-mexico-blue-hole-harbors-high-levels-novel-microbial-lineages) documentó estratificación, condiciones hipóxicas o anóxicas y linajes microbianos poco descritos; es evidencia valiosa, no una regla para todos los sitios.
 
-La comparación entre agujeros azules debe conservar cuatro datos: lugar exacto, profundidad de la muestra, método de medición y fecha. NOAA describe gradientes químicos, materia orgánica y posible interacción con agua subterránea en sitios del Golfo de México, mientras que el registro del Gran Agujero Azul responde preguntas sedimentarias distintas.
+La comparación entre agujeros azules debe conservar cuatro datos: lugar exacto, profundidad de la muestra, método de medición y fecha. [NOAA describe](https://oceanexplorer.noaa.gov/expedition/20blue-holes/) gradientes químicos, materia orgánica y posible interacción con agua subterránea en sitios del Golfo de México, mientras que el registro del Gran Agujero Azul responde preguntas sedimentarias distintas.
 
 ### Ejemplos con alcance explícito
 
@@ -91,7 +91,7 @@ No. La posición de una zona de transición depende de la salinidad, la circulac
 
 ### ¿Son peligrosos para el buceo?
 
-La profundidad, la mala visibilidad, los cambios de gas y la navegación en espacios confinados pueden aumentar el riesgo. La seguridad debe basarse en la regulación local y en formación especializada, no en un apodo o en una cifra aislada.
+La profundidad, la mala visibilidad, los cambios de gas y la navegación en espacios confinados pueden aumentar el riesgo. Esta es una orientación general de seguridad, no una conclusión experimental de las fuentes citadas: cualquier inmersión debe planificarse según la regulación local y con formación especializada.
 
 ---
 

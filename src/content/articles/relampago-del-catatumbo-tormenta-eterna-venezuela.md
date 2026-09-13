@@ -26,7 +26,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta rápida:** La región del lago de Maracaibo y el Catatumbo registra una actividad eléctrica excepcionalmente alta. La interacción entre humedad, ciclo diurno, relieve y convección favorece tormentas frecuentes; no es una “tormenta eterna” ni existe una sola causa que explique cada descarga. Las cifras varían con el período y el sistema de medición.
+> **Respuesta rápida:** La región del lago de Maracaibo y el Catatumbo registra una actividad eléctrica excepcionalmente alta, documentada en el [estudio regional de actividad de rayos](https://doi.org/10.1016/j.jastp.2012.01.013). La interacción entre humedad, ciclo diurno, relieve y convección favorece tormentas frecuentes; no es una “tormenta eterna” ni existe una sola causa que explique cada descarga. Las cifras varían con el período y el sistema de medición.
 
 ---
 

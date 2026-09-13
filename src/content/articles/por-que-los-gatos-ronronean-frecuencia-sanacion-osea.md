@@ -46,7 +46,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta rápida:** El ronroneo es un sonido de baja frecuencia asociado a la laringe y al ciclo respiratorio. Un estudio de 2023 produjo oscilaciones de 25–30 Hz en ocho laringes aisladas, sin entrada neural ni contracción activa a esa frecuencia. Ese resultado ayuda a explicar el mecanismo físico, pero no demuestra un beneficio médico ni determina por sí solo el estado emocional de un gato.
+> **Respuesta rápida:** El ronroneo es un sonido de baja frecuencia asociado a la laringe y al ciclo respiratorio. Un [estudio de 2023](https://doi.org/10.1016/j.cub.2023.09.014) produjo oscilaciones de 25–30 Hz en ocho laringes aisladas, sin entrada neural ni contracción activa a esa frecuencia. Ese resultado ayuda a explicar el mecanismo físico, pero no demuestra un beneficio médico ni determina por sí solo el estado emocional de un gato.
 
 ---
 
@@ -54,7 +54,7 @@ featured: false
 
 A diferencia de muchas vocalizaciones, el ronroneo puede mantenerse durante la inspiración y la espiración. La forma exacta cambia entre individuos y especies, y el ciclo respiratorio, la postura y el contexto influyen en lo que se registra.
 
-La investigación no ha cerrado cada detalle de la producción del ronroneo. Un trabajo publicado en *Current Biology* en 2023 halló que las almohadillas fibrosas incorporadas a los pliegues vocales pueden permitir vibraciones de baja frecuencia sin requerir una contracción muscular a esa misma frecuencia. Eso ayuda a explicar cómo el sonido puede persistir durante el ciclo respiratorio, pero no equivale a una explicación definitiva de todas las señales nerviosas ni de sus funciones conductuales.
+La investigación no ha cerrado cada detalle de la producción del ronroneo. Un trabajo publicado en *Current Biology* en 2023 ([mecanismo laríngeo descrito aquí](https://doi.org/10.1016/j.cub.2023.10.033)) halló que las almohadillas fibrosas incorporadas a los pliegues vocales pueden permitir vibraciones de baja frecuencia sin requerir una contracción muscular a esa misma frecuencia. Eso ayuda a explicar cómo el sonido puede persistir durante el ciclo respiratorio, pero no equivale a una explicación definitiva de todas las señales nerviosas ni de sus funciones conductuales.
 
 ---
 
@@ -90,7 +90,7 @@ No se debe presentar como tratamiento. La convivencia con animales puede asociar
 
 ### ¿Qué es el ronroneo de solicitud?
 
-Es una vocalización descrita en algunos contextos de interacción con personas, en la que un componente de frecuencia más alta puede acompañar al ronroneo. La evidencia disponible es conductual y depende de la muestra; no demuestra que todos los gatos la usen ni que sea “irresistible”.
+Es una vocalización descrita en algunos contextos de interacción con personas, en la que un componente de frecuencia más alta puede acompañar al ronroneo. El estudio sobre [el “ronroneo de solicitud”](https://pubmed.ncbi.nlm.nih.gov/39808933/) aporta evidencia conductual de una muestra concreta; no demuestra que todos los gatos la usen ni que sea “irresistible”.
 
 ### ¿A qué edad comienzan a ronronear los gatitos?
 

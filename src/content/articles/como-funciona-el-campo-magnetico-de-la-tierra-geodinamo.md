@@ -39,7 +39,7 @@ sources:
 featured: false
 ---
 
-> **Respuesta Rápida a la Búsqueda:** El campo magnético terrestre se genera a miles de kilómetros de profundidad mediante el efecto geodinamo. En el núcleo externo, metal líquido conductor se mueve por convección y la rotación organiza parte de ese flujo. El resultado es un campo global que interactúa con el viento solar y desvía una parte de las partículas energéticas; no es un escudo absoluto.
+> **Respuesta Rápida a la Búsqueda:** El campo magnético terrestre se genera a miles de kilómetros de profundidad mediante el efecto geodinamo. En el núcleo externo, metal líquido conductor se mueve por convección y la rotación organiza parte de ese flujo. El resultado es un campo global que interactúa con el viento solar y [desvía una parte de las partículas energéticas](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/); no es un escudo absoluto.
 
 ---
 
@@ -60,6 +60,8 @@ Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: u
 3. **Retroalimentación inductiva:** El movimiento de un conductor a través de un campo magnético induce corrientes; esas corrientes generan a su vez un campo que puede sostener el sistema. El campo observado cambia con el tiempo y no es un dipolo perfecto.
 
 ### Parámetros Físicos del Núcleo y la Geodinamo Terrestre
+
+Las temperaturas, profundidades y magnitudes de la tabla son estimaciones y rangos de referencia: el núcleo no se observa directamente y el campo superficial también cambia según la ubicación y el momento. El [USGS explica cómo se mide y modela el campo geomagnético](https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism), mientras que [NASA resume la interacción con el entorno espacial](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/).
 
 | Parámetro Geofísico | Valor Estimado / Medido | Función en la Dinamo |
 | :--- | :--- | :--- |
