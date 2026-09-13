@@ -2251,3 +2251,75 @@ entries:
     evidenceType: guidance
     url: https://publicationethics.org/files/editable-bean/COPE_Core_Practices_0.pdf
     use: adapt policies for authorship, complaints, conflicts, corrections, reproducibility and post-publication review; not an SEO or AdSense requirement
+  - id: geosmin-earth-scent-csiro-2023
+    authority: CSIRO Publishing / Environmental Chemistry
+    domain: geosmin-petrichor
+    evidenceType: primary-study
+    url: https://doi.org/10.1071/EN23087
+    use: field-based earth-scent measurements after soil disturbance and rain simulation; scope is the sampled soils and compounds, not a universal explanation of human petrichor
+  - id: geosmin-soil-spme-chemosphere-2021
+    authority: Chemosphere
+    domain: geosmin-petrichor
+    evidenceType: primary-method
+    url: https://doi.org/10.1016/j.chemosphere.2021.131333
+    use: SPME method for geosmin and 2-MIB in disturbed soil; methodological evidence that needs cautious interpretation beyond the tested samples
+  - id: greenland-shark-nordmore-grid-ices-2025
+    authority: ICES Journal of Marine Science
+    domain: greenland-shark
+    evidenceType: primary-study
+    url: https://doi.org/10.1093/icesjms/fsaf096
+    use: behavior of Greenland sharks around a Nordmøre grid and bycatch context; does not establish natural behavior or a mechanism of longevity
+  - id: geodynamo-100ky-simulations-epsl-2024
+    authority: Earth and Planetary Science Letters
+    domain: geodynamo
+    evidenceType: primary-simulation
+    url: https://doi.org/10.1016/j.epsl.2024.119011
+    use: 20 numerical dynamo simulations compared with paleomagnetic models over the last 100 kyr; inference depends on model parameters and is not direct core observation
+  - id: geodynamo-palaeoflow-epsl-2025
+    authority: Earth and Planetary Science Letters
+    domain: geodynamo
+    evidenceType: primary-inference
+    url: https://doi.org/10.1016/j.epsl.2024.119185
+    use: large-scale palaeoflow inferred from archaeological and sedimentary magnetic records over about 9,000 years; indirect, low-resolution reconstruction with stated assumptions
+  - id: octopus-arm-flexibility-scirep-2025
+    authority: Scientific Reports
+    domain: mimic-octopus
+    evidenceType: primary-field-study
+    url: https://doi.org/10.1038/s41598-025-10674-y
+    use: arm flexibility and action sequences observed in wild octopuses, mainly Octopus vulgaris; contextual morphology, not evidence about Thaumoctopus mimicus intent
+  - id: octopus-chemosensory-plumes-plos-2025
+    authority: PLOS ONE
+    domain: cephalopod-sensory-behavior
+    evidenceType: primary-lab-study
+    url: https://doi.org/10.1371/journal.pone.0330262
+    use: Octopus rubescens tracking chemosensory plumes in a dark flume; supports sensory behavior in that lab setup, not conscious model choice or a general octopus rule
+  - id: snow-leopard-bhutan-connectivity-gecco-2025
+    authority: Global Ecology and Conservation
+    domain: snow-leopard
+    evidenceType: primary-field-genetics
+    url: https://doi.org/10.1016/j.gecco.2025.e03860
+    use: camera trapping and non-invasive genetics for population structure and connectivity in Bhutan; regional evidence, not a global census
+  - id: snow-leopard-genome-genome-biology-2025
+    authority: Genome Biology
+    domain: snow-leopard
+    evidenceType: primary-genomics
+    url: https://doi.org/10.1186/s13059-025-03555-0
+    use: chromosome-level genome and modern/historical samples for diversity and purging analyses; genomic inference has sampling limits and is not direct proof of physiology or viable population size
+  - id: giant-pangolin-burrow-detection-oryx-2023
+    authority: Oryx / Cambridge University Press
+    domain: giant-pangolin
+    evidenceType: primary-field-study
+    url: https://doi.org/10.1017/S0030605322000692
+    use: burrow-targeted camera surveys improve giant-pangolin detection in Uganda; detection probability is not abundance or a global population estimate
+  - id: pangolin-community-knowledge-aje-2025
+    authority: African Journal of Ecology / Wiley
+    domain: giant-pangolin
+    evidenceType: primary-social-study
+    url: https://doi.org/10.1111/aje.70064
+    use: community knowledge from 250 respondents in 15 villages around Campo Ma’an, Cameroon; local perceptions and observations complement but do not replace a population census
+  - id: nasa-earth-lightning-svs-2024
+    authority: NASA Scientific Visualization Studio
+    domain: catatumbo-lightning
+    evidenceType: institutional-dataset
+    url: https://svs.gsfc.nasa.gov/31243
+    use: multi-sensor Earth lightning visualization and frequency metrics; sensor/product and period must accompany any comparison, so it does not prove a continuously eternal storm

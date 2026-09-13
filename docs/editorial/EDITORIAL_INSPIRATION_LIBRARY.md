@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 374 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 386 entradas, 93 briefs/oportunidades candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -507,3 +507,27 @@ Acciones derivadas:
 3. Añadir un bloque público de independencia editorial y conflictos únicamente
    cuando haya patrocinios, afiliados o relaciones que declarar; no inventar una
    ausencia de conflicto.
+
+### Tanda de Luna Max: actualización de clústeres con fuentes primarias — 12 de septiembre de 2026
+
+Esta ronda parte de las consultas que ya tienen impresiones en Search Console.
+La decisión es actualizar primero la URL existente: no se crean páginas nuevas
+para variantes ortográficas o titulares equivalentes. Las fuentes son
+candidatas hasta que una persona abra el registro, compruebe el texto y decida
+si la evidencia cambia la pieza publicada.
+
+| Clúster y URL existente | Fuentes candidatas | Ángulo people-first | Visual / guardrail |
+| --- | --- | --- | --- |
+| Geosmina y petricor — `/ciencia-curiosa/por-que-el-olor-a-tierra-mojada-petricor-geosmina/` | `geosmin-earth-scent-csiro-2023`, `geosmin-soil-spme-chemosphere-2021` | Seguir el recorrido suelo seco → lluvia o perturbación → mezcla de volátiles → percepción; no reducir el petricor a una sola molécula. | Diagrama de trayecto suelo–aire; separar medición de laboratorio/campo y experiencia humana. |
+| Tiburón de Groenlandia — `/especies-marinas/tiburon-de-groenlandia-vertebrado-mas-longevo/` | `greenland-shark-nordmore-grid-ices-2025` | Conectar longevidad y vulnerabilidad: madurez tardía no significa resistencia a la captura incidental. | Línea de vida con caja de incertidumbre; no usar conducta en una rejilla como conducta natural general. |
+| Geodinamo — `/ciencia-curiosa/como-funciona-el-campo-magnetico-de-la-tierra-geodinamo/` | `geodynamo-100ky-simulations-epsl-2024`, `geodynamo-palaeoflow-epsl-2025` | Explicar la cadena medición → modelo → inferencia → límite para que el lector sepa qué parte del núcleo no observamos directamente. | Corte del núcleo con capas de evidencia; etiquetar simulación y reconstrucción indirecta. |
+| Pulpo mimo — `/especies-marinas/pulpo-mimo-thaumoctopus-mimetismo-15-especies/` | `octopus-arm-flexibility-scirep-2025`, `octopus-chemosensory-plumes-plos-2025` | Reemplazar la lista viral por color, postura y señales sensoriales; distinguir flexibilidad observada de intención consciente. | Secuencia de postura con leyenda; no trasladar resultados de *O. vulgaris* o *O. rubescens* a *T. mimicus*. |
+| Leopardo de las nieves — `/fauna-fascinante/leopardo-de-las-nieves-adaptaciones-frio-extremo/` | `snow-leopard-bhutan-connectivity-gecco-2025`, `snow-leopard-genome-genome-biology-2025` | Resolver la entidad “león de las nieves” como leopardo de las nieves y separar adaptación, conectividad y diversidad genética. | Mapa regional + nota de muestreo; no convertir una región o genoma en censo mundial. |
+| Pangolín gigante — `/fauna-fascinante/pangolin-gigante-armadura-queratina-amenazas/` | `giant-pangolin-burrow-detection-oryx-2023`, `pangolin-community-knowledge-aje-2025` | Mostrar cómo se combinan madrigueras, cámaras y conocimiento comunitario sin confundir detectabilidad con abundancia. | Flujo de monitoreo; marcar por separado evidencia de presencia, percepción local y población. |
+| Relámpago del Catatumbo — `/fenomenos-naturales/relampago-del-catatumbo-tormenta-eterna-venezuela/` | `nasa-earth-lightning-svs-2024` | Comparar récord, densidad y frecuencia indicando sensor, producto y periodo; retirar la idea literal de “tormenta eterna”. | Gráfico con unidad, ventana temporal y sensor; no mezclar promedios orbitales con observación continua. |
+
+Los doce registros se incorporan al catálogo para que Luna pueda proponer
+actualizaciones trazables. No autorizan por sí solos una nueva fecha, una cita
+en el artículo ni la publicación de un borrador. La imagen preferida para esta
+ronda es un diagrama original; una fotografía real solo entra con licencia,
+autor y crédito comprobables.

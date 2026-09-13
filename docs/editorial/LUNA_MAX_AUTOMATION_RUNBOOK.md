@@ -66,6 +66,14 @@ Con la misma muestra pequeña de Search Console, la siguiente tanda queda ordena
 
 Para cada orden, Luna produce primero un brief de actualización local. Solo si la página existente no resuelve la pregunta después de la revisión y la medición siguiente se considera una URL nueva; el límite sigue siendo un artículo aprobado por semana.
 
+La tanda de clústeres del 12/09/2026 usa doce nuevos IDs del catálogo como
+insumos de actualización para las siete URLs que ya reciben impresiones
+(`geosmina`, tiburón de Groenlandia, geodinamo, pulpo mimo, leopardo de las
+nieves, pangolín gigante y Catatumbo). El flujo debe conservar el orden
+actualizar → medir → decidir: una variante de consulta no abre una URL nueva,
+una fuente candidata no se copia automáticamente al frontmatter y ningún
+brief generado por Luna se publica sin revisión humana.
+
 ## Decisión de imagen
 
 | Necesidad | Acción | Evidencia antes de publicar |
