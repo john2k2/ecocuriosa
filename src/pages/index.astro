@@ -105,11 +105,11 @@ const biomes = [
         <div class="lg:col-span-5">
           <div class="group relative bg-[#08301a] rounded-lg border border-[#135933] p-5 sm:p-6 shadow-xl transition-all duration-200 hover:border-[#c59b27] focus-within:ring-2 focus-within:ring-[#c59b27] focus-within:ring-offset-2 focus-within:ring-offset-[#052212]">
             <div class="flex items-center justify-between pb-3 mb-4 border-b border-[#135933] text-xs font-semibold text-[#c59b27]">
-              <span class="tracking-wide">LÁMINA I · ARCHIVO BOTÁNICO-ZOOLÓGICO</span>
-              <span class="text-[#fbf9f4] font-normal">Lat. 35°N · Alt. 4,200m</span>
+              <span class="tracking-wide">LÁMINA DESTACADA · ARCHIVO EDITORIAL</span>
+              <span class="text-[#fbf9f4] font-normal">Selección de EcoCuriosa</span>
             </div>
 
-            <div class="relative aspect-[16/11] mb-4 overflow-hidden rounded-md bg-[#052212]">
+            <div class="relative aspect-[8/5] mb-4 overflow-hidden rounded-md bg-[#052212]">
               <picture class="block w-full h-full">
                 {featuredIsSvg && <source type="image/svg+xml" srcset={featuredImage} />}
                 {featuredIsSvg && <source type="image/webp" srcset={featuredImageWebp} />}
@@ -117,7 +117,7 @@ const biomes = [
                   src={featuredImageWebp}
                   alt={featuredArticle?.data.imageAlt ?? 'Ilustración editorial de una investigación de EcoCuriosa'}
                   width="800"
-                  height="550"
+                  height="500"
                   loading="eager"
                   fetchpriority="high"
                   decoding="async"
@@ -125,7 +125,7 @@ const biomes = [
                 />
               </picture>
               <span class="absolute bottom-2 left-2 text-xs px-2.5 py-1 rounded-sm bg-[#052212]/90 text-[#c59b27] font-semibold tracking-wide">
-                ESPÉCIMEN REF. PAN-UNC-01
+                MONOGRAFÍA DESTACADA
               </span>
             </div>
 
