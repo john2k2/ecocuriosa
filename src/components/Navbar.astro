@@ -41,7 +41,7 @@ const currentPath = Astro.url.pathname;
         </div>
       </a>
 
-      <nav class="hidden md:flex items-center gap-2 text-sm font-medium">
+      <nav aria-label="Navegación principal" class="hidden md:flex items-center gap-2 text-sm font-medium">
         {categories.map((cat) => {
           const isActive = currentPath.startsWith(cat.href);
           return (
@@ -89,7 +89,7 @@ const currentPath = Astro.url.pathname;
     </div>
   </div>
 
-  <div id="mobile-menu" class="hidden md:hidden border-b border-[#e6e2d8] bg-[#fbf9f4] px-4 pt-3 pb-5 space-y-2">
+  <nav id="mobile-menu" aria-label="Navegación móvil" aria-hidden="true" class="hidden md:hidden border-b border-[#e6e2d8] bg-[#fbf9f4] px-4 pt-3 pb-5 space-y-2">
     {categories.map((cat) => (
       <a
         href={cat.href}
@@ -102,7 +102,7 @@ const currentPath = Astro.url.pathname;
     <a href="/buscar/" aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined} class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
       Buscar en el archivo
     </a>
-  </div>
+  </nav>
 </header>
 
 <script>
@@ -114,8 +114,10 @@ const currentPath = Astro.url.pathname;
       const nextState = !isExpanded;
       btn.setAttribute('aria-expanded', String(nextState));
       btn.setAttribute('aria-label', nextState ? 'Cerrar navegación' : 'Abrir navegación');
+      menu.setAttribute('aria-hidden', String(!nextState));
       if (nextState) {
         menu.classList.remove('hidden');
+        menu.querySelector('a')?.focus();
       } else {
         menu.classList.add('hidden');
       }
