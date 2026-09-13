@@ -2,7 +2,7 @@
 # Revisado: 2026-09-13. Una entrada aquí no equivale a una cita verificada:
 # el editor debe abrir la página y registrar la fuente concreta en el artículo.
 version: 1
-checkedDate: '2026-09-12'
+checkedDate: '2026-09-13'
 entries:
   - id: google-helpful-content
     authority: Google Search Central
