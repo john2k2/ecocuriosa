@@ -5,6 +5,12 @@ Esta matriz contiene las 31 monografías que todavía no tienen `reviewedDate` y
 una revisión registrada. La cola es un control de trabajo: no constituye una
 revisión editorial ni prueba que una afirmación haya sido verificada.
 
+El primer lote operativo está en
+[`CONTENT_REVIEW_BATCH_P0_2026-09-13.md`](./CONTENT_REVIEW_BATCH_P0_2026-09-13.md):
+agrupa nueve artículos P0 y uno P1 con las cifras, límites, fuentes y puentes
+de enlazado que una persona debe comprobar primero. Ninguna fila se marca por
+anticipado.
+
 ## Instrucciones de uso
 
 - Para cada artículo, copiar [`ARTICLE_REVIEW_TEMPLATE.md`](./ARTICLE_REVIEW_TEMPLATE.md) y conservar la ficha fuera de los datos sensibles del repositorio o enlazarla desde el cambio de revisión.

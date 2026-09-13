@@ -147,7 +147,7 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
           )}
         </div>
         <span>•</span>
-        <time datetime={pubDate.toISOString()}>{formattedDate}</time>
+        <span>Publicado: <time datetime={pubDate.toISOString()}>{formattedDate}</time></span>
         {formattedUpdatedDate && (
           <>
             <span>•</span>
