@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 358 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 369 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -439,3 +439,44 @@ y [`manta-survey-recovery.json`](drafts/manta-survey-recovery.json). Sus Markdow
 generados, junto con las ilustraciones SVG, siguen fuera de `src/content/articles`;
 requieren comprobación humana, autoría real, procedencia visual y aprobación antes
 de entrar en la biblioteca publicada.
+
+### Tanda de Luna Max para subir las puntuaciones — 12 de septiembre
+
+La búsqueda dirigida a las brechas de SEO, medición, móvil, accesibilidad,
+E‑E‑A‑T y AdSense añadió once fuentes candidatas nuevas al catálogo. No se han
+marcado como verificadas ni se han convertido en citas de artículos publicados.
+
+| Clúster | Fuentes candidatas | Aplicación people-first / límite |
+| --- | --- | --- |
+| SEO e indexación | `google-search-essentials-overview`, `search-console-performance-common-tasks`, `google-search-rigorous-testing` | Ledger de URLs, hipótesis de CTR y comparaciones fechadas; una recomendación no demuestra indexación ni causalidad. |
+| Campo y rendimiento | `chrome-crux-overview` | Comparar Lighthouse, CrUX y RUM; declarar la ausencia de datos o elegibilidad en lugar de inferir P75. |
+| Móvil y navegación | `w3c-mobile-accessibility`, `w3c-apg-disclosure-navigation`, `w3c-apg-accessible-names`, `webdev-main-navigation` | Matriz con tacto, teclado, reflow, foco y lector de pantalla; los ejemplos no sustituyen pruebas reales. |
+| AdSense y confianza | `adsense-publisher-policies-overview`, `google-publisher-unreliable-harmful-claims`, `adsense-add-new-site` | Separar estado de cuenta, políticas, calidad editorial y código; no afirmar aprobación por tener el sitio preparado. |
+
+Acciones priorizadas para el siguiente ciclo:
+
+1. **P0 — ledger de indexación y CTR:** registrar las 32 URLs con sitemap,
+   canonical, robots/noindex, estado de inspección y una hipótesis por página
+   con impresiones y CTR. Salida: comparación fechada y discrepancias explicadas.
+2. **P1 — campo y móvil:** comprobar si existe señal CrUX y probar portada,
+   categoría, artículo y menú en 320/375/390 px con teclado, tacto y lector de
+   pantalla. Salida: matriz de dispositivos y ausencia de foco perdido,
+   overflow o contenido bloqueado.
+3. **P1 — revisión humana:** cerrar las 31 fichas pendientes con autoría real,
+   fecha verdadera, afirmación→fuente, alcance, límite y procedencia visual.
+   Salida: 32/32 revisiones registradas; Luna no puede crear esos datos.
+4. **P2 — AdSense:** comprobar Site/Policy Center y consentimiento cuando el
+   estado de la cuenta lo permita; mantener slots vacíos hasta aprobación. Salida:
+   estado privado registrado por el titular y prueba de navegación sin anuncios.
+
+Tres briefs que pueden automatizarse como borradores, nunca como publicación:
+
+| Brief | Aportación original | Puerta humana |
+| --- | --- | --- |
+| ¿Qué mide una Lighthouse 99 y qué todavía no sabemos? | Tabla laboratorio → CrUX → RUM con campos pendientes y muestra explícita | Verificar fecha, elegibilidad y métricas antes de afirmar experiencia real |
+| Navegar con un pulgar, teclado o lector de pantalla: por qué un menú no es un *menu* | Checklist visual del patrón disclosure y su comportamiento | Probar con dispositivos y tecnología asistiva; no declarar conformidad solo por el patrón |
+| Del dato curioso al titular responsable | Matriz de afirmación, fuente, alcance, riesgo y redacción prudente | Revisar cada fuente y retirar claims no respaldados antes de cualquier anuncio |
+
+Las URLs, alcance y límites de esta tanda están documentados en
+`SOURCE_CATALOG.yml`; las fichas continúan en estado candidato hasta que una
+persona abra cada fuente y decida si aporta valor a una pieza concreta.

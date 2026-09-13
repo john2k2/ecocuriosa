@@ -2155,3 +2155,69 @@ entries:
     evidenceType: institutional
     url: https://www.fisheries.noaa.gov/s3/2024-10/Recovery-Status-Review-for-Giant-Manta-Ray_508.pdf
     use: provide a dated U.S. recovery-status and population-evidence context for giant manta rays; do not present it as a global census or a new population estimate
+  - id: google-search-essentials-overview
+    authority: Google Search Central
+    domain: seo-indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/essentials
+    use: prepublication checklist for technical requirements, people-first content, crawlable links, titles, alt text and structured data; compliance does not guarantee crawling or indexing
+  - id: search-console-performance-common-tasks
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/17010961?hl=es
+    use: prioritize queries and pages by clicks, impressions and CTR, compare equivalent periods and record hypotheses; small samples do not prove causality
+  - id: google-search-rigorous-testing
+    authority: Google Search
+    domain: search-measurement
+    evidenceType: methodology
+    url: https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/rigorous-testing/
+    use: design dated before/after comparisons and experiments; Google’s testing methodology is not a private measurement of EcoCuriosa
+  - id: chrome-crux-overview
+    authority: Chrome UX Report
+    domain: cwv-field-data
+    evidenceType: dataset
+    url: https://developer.chrome.com/docs/crux
+    use: interpret real-user Chrome field data and eligibility before treating Lighthouse or a small RUM sample as representative
+  - id: w3c-mobile-accessibility
+    authority: W3C Web Accessibility Initiative
+    domain: mobile-accessibility
+    evidenceType: guidance
+    url: https://www.w3.org/WAI/standards-guidelines/mobile/
+    use: build a mobile accessibility matrix covering small screens, touch, multiple input methods, reflow and assistive technology; guidance is not a conformance test
+  - id: w3c-apg-disclosure-navigation
+    authority: W3C WAI-ARIA Authoring Practices Task Force
+    domain: mobile-navigation
+    evidenceType: guidance
+    url: https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/
+    use: audit disclosure navigation, expanded state, Escape and focus without turning ordinary site navigation into a menu widget; test mobile support manually
+  - id: w3c-apg-accessible-names
+    authority: W3C WAI-ARIA Authoring Practices Task Force
+    domain: mobile-accessibility
+    evidenceType: guidance
+    url: https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/
+    use: check concise accessible names for controls and landmarks, preferring visible text and native semantics; browser and assistive-technology behavior still needs testing
+  - id: webdev-main-navigation
+    authority: web.dev / Chrome team
+    domain: mobile-navigation
+    evidenceType: guidance
+    url: https://web.dev/articles/website-navigation
+    use: review semantic navigation, progressive enhancement, skip links, focus and narrow viewports; tutorial guidance is not a conformance certificate
+  - id: adsense-publisher-policies-overview
+    authority: Google AdSense
+    domain: adsense-policy
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/10008391?hl=es
+    use: separate site-wide publisher policy and restricted-inventory checks from technical readiness; account status remains private and changeable
+  - id: google-publisher-unreliable-harmful-claims
+    authority: Google Publisher Policies
+    domain: adsense-editorial-risk
+    evidenceType: policy
+    url: https://support.google.com/publisherpolicies/answer/11188580?hl=es
+    use: flag unsupported absolute health, climate or harmful claims for human review; it is not a general scientific quality rubric
+  - id: adsense-add-new-site
+    authority: Google AdSense
+    domain: adsense-readiness
+    evidenceType: documentation
+    url: https://support.google.com/adsense/answer/12169212?hl=es
+    use: distinguish site ownership checks and Ready status from deployed code, editorial quality and approval; private account state must be recorded manually
