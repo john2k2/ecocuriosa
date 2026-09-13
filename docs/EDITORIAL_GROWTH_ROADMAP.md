@@ -38,6 +38,7 @@ No se debe cambiar una fecha de revisión solo para mejorar el sitemap o la apar
 2. Completar perfiles de personas responsables solo con nombres, experiencia y datos reales autorizados.
 3. Conectar cada artículo con 2–4 lecturas internas que respondan al siguiente paso natural del lector.
 4. Revisar títulos y descripciones para que respondan a una pregunta concreta sin prometer certezas inexistentes.
+5. Añadir un historial proporcional de correcciones y una declaración de independencia editorial solo cuando existan cambios, patrocinios o afiliados que documentar.
 
 **Métrica:** reducción de páginas aisladas; aumento de clics internos y sesiones con más de una página.
 

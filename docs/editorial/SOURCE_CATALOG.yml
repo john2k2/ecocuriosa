@@ -2221,3 +2221,33 @@ entries:
     evidenceType: documentation
     url: https://support.google.com/adsense/answer/12169212?hl=es
     use: distinguish site ownership checks and Ready status from deployed code, editorial quality and approval; private account state must be recorded manually
+  - id: csic-good-publishing-practices
+    authority: Editorial CSIC
+    domain: editorial-integrity
+    evidenceType: guidance
+    url: https://revistas.csic.es/public/guia_buenas_practicas_csic.pdf
+    use: adapt Spanish-language scholarly practices for author responsibility, original attribution, image provenance, funding and correction handling; do not present EcoCuriosa as a CSIC journal
+  - id: icmje-manuscript-preparation
+    authority: ICMJE
+    domain: editorial-method
+    evidenceType: guidance
+    url: https://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+    use: model reproducible method notes, direct original references, limitations and verification against authoritative sources; adapt to web divulgation
+  - id: icmje-corrections-version-control
+    authority: ICMJE
+    domain: corrections
+    evidenceType: guidance
+    url: https://icmje.org/recommendations/browse/publishing-and-editorial-issues/corrections-and-version-control.html
+    use: design visible correction notices, version history, dates and links between current and prior versions; journal guidance adapted proportionally
+  - id: icmje-conflicts-interest
+    authority: ICMJE
+    domain: conflicts-transparency
+    evidenceType: guidance
+    url: https://icmje.org/recommendations/browse/roles-and-responsibilities/author-responsibilities--conflicts-of-interest.html
+    use: disclose relevant affiliations, sponsorships, commercial links and editorial independence; a disclosure does not remove all bias
+  - id: cope-core-practices
+    authority: Committee on Publication Ethics
+    domain: editorial-governance
+    evidenceType: guidance
+    url: https://publicationethics.org/files/editable-bean/COPE_Core_Practices_0.pdf
+    use: adapt policies for authorship, complaints, conflicts, corrections, reproducibility and post-publication review; not an SEO or AdSense requirement

@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 369 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 374 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -480,3 +480,30 @@ Tres briefs que pueden automatizarse como borradores, nunca como publicación:
 Las URLs, alcance y límites de esta tanda están documentados en
 `SOURCE_CATALOG.yml`; las fichas continúan en estado candidato hasta que una
 persona abra cada fuente y decida si aporta valor a una pieza concreta.
+
+### Tanda de Luna Max para gobernanza E‑E‑A‑T — 12 de septiembre
+
+Para resolver la brecha de autoridad editorial, Luna propuso cinco controles
+institucionales adicionales. Se usan como inspiración adaptable para divulgación
+web, no como si EcoCuriosa fuera una revista académica ni como garantía de
+AdSense.
+
+| Área | Fuente oficial | Aplicación posible | Límite |
+| --- | --- | --- | --- |
+| Buenas prácticas en español | [Editorial CSIC: guía de buenas prácticas](https://revistas.csic.es/public/guia_buenas_practicas_csic.pdf) | Responsabilidad de autor, atribución original, procedencia de imágenes, financiación y correcciones | Orientada a edición académica; adaptar sin atribuir respaldo del CSIC |
+| Método y referencias | [ICMJE: preparación de manuscritos](https://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html) | Explicar cómo se localizaron, seleccionaron y sintetizaron fuentes; declarar límites | Guía para revistas médicas; no es requisito SEO |
+| Correcciones y versiones | [ICMJE: correcciones y control de versiones](https://icmje.org/recommendations/browse/publishing-and-editorial-issues/corrections-and-version-control.html) | Aviso visible, fecha, resumen del cambio y enlace a la versión vigente | El modelo completo de retractación es proporcional a revistas, no a cada artículo web |
+| Conflictos | [ICMJE: responsabilidades y conflictos de interés](https://icmje.org/recommendations/browse/roles-and-responsibilities/author-responsibilities--conflicts-of-interest.html) | Declarar patrocinios, afiliados, afiliaciones y separación entre publicidad y conclusiones | Declarar un conflicto no elimina por sí solo el sesgo |
+| Gobernanza | [COPE: Core Practices](https://publicationethics.org/files/editable-bean/COPE_Core_Practices_0.pdf) | Canal de quejas/correcciones, roles, apelaciones y revisión posterior a publicar | Marco de publicaciones académicas; no es señal de ranking ni política de AdSense |
+
+Acciones derivadas:
+
+1. Mantener la firma colectiva solo mientras la página de equipo identifique a la
+   organización y las personas reales que investigan, editan y revisan; nunca
+   convertir a Luna en autora o revisora.
+2. Registrar, para cada revisión humana, la versión, fecha real, afirmaciones
+   comprobadas, fuente, alcance, limitación, imagen y decisión; publicar un
+   aviso breve cuando exista una corrección.
+3. Añadir un bloque público de independencia editorial y conflictos únicamente
+   cuando haya patrocinios, afiliados o relaciones que declarar; no inventar una
+   ausencia de conflicto.

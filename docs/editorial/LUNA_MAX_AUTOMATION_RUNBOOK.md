@@ -109,6 +109,11 @@ El auditor `content:luna-audit` recorre ahora todos los JSON de
 `docs/editorial/drafts/`, además del control adversarial GBIF, para evitar que
 un brief nuevo quede fuera de las puertas de publicación.
 
+La ronda E‑E‑A‑T añadió controles de autoría, método, correcciones, conflictos y
+gobernanza basados en CSIC, ICMJE y COPE. Se guardan en el catálogo como fuentes
+candidatas: Luna puede proponer una matriz de responsabilidades, pero una persona
+debe confirmar su aplicación y aportar los nombres, fechas y decisiones reales.
+
 Para briefs de autoridad o distribución, los IDs `google-ai-features`,
 `google-preferred-sources`, `google-discover-core-update-2026`,
 `google-gen-ai-performance-reports-2026` y `google-ranking-systems-guide`
