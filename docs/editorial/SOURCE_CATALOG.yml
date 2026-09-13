@@ -2596,12 +2596,6 @@ entries:
     evidenceType: institutional-publication
     url: https://cdn.oceanservice.noaa.gov/oceanserviceprod/education/activity-book/pdf/NOAA_DYW_2017_35_Coral_Reef.pdf
     use: cifras divulgativas sobre proporción del océano y diversidad asociada a arrecifes; no sustituye alertas NOAA actuales de blanqueamiento
-  - id: pmc-blue-whale-ecg-6911174
-    authority: Proceedings of the National Academy of Sciences / PubMed Central
-    domain: marine-physiology
-    evidenceType: peer-reviewed-primary
-    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/
-    use: ECG y patrón de inmersiones de un macho de ballena azul; conservar muestra individual y no generalizar a toda la especie
   - id: nsf-polar-vortex-review-pdf-10230500
     authority: NSF Public Access Repository
     domain: atmospheric-science
@@ -2614,30 +2608,12 @@ entries:
     evidenceType: institutional-explainer
     url: https://gmao.gsfc.nasa.gov/science-snapshots/sudden-stratospheric-warming-event/
     use: contexto de frecuencia y altitud de un evento de calentamiento estratosférico; no es un pronóstico local
-  - id: manta-mirror-springer-2016
-    authority: Journal of Ethology / Springer
-    domain: animal-behavior
-    evidenceType: peer-reviewed-primary
-    url: https://doi.org/10.1007/s10164-016-0462-z
-    use: experimento de espejo en dos mantas cautivas; distinguir conducta autodirigida de una prueba concluyente de autoconciencia
   - id: pmc-manta-endothermy-7017440
     authority: Frontiers in Marine Science / PubMed Central
     domain: marine-physiology
     evidenceType: peer-reviewed-review
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7017440/
     use: revisión de endotermia craneal en mantas; usar como complemento y conservar la incertidumbre histórica
-  - id: pmc-elephant-neurons-4053853
-    authority: Frontiers in Neuroanatomy / PubMed Central
-    domain: comparative-neuroscience
-    evidenceType: peer-reviewed-primary
-    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/
-    use: recuento neuronal de un elefante africano; mantener individuo, método y porcentajes de distribución
-  - id: pmc-elephant-aging-9261397
-    authority: Philosophical Transactions B / PubMed Central
-    domain: animal-behavior
-    evidenceType: peer-reviewed-review
-    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/
-    use: envejecimiento y conocimiento social en elefantes; no sustituye un experimento concreto de matriarcas
   - id: pmc-tardigrade-dsup-6773438
     authority: eLife / PubMed Central
     domain: astrobiology
