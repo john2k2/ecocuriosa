@@ -4,6 +4,10 @@ Este documento complementa el flujo de [automatización editorial](./EDITORIAL_A
 
 Las oportunidades de nuevos temas deben salir de la [biblioteca de inspiración editorial](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md) y del [catálogo de fuentes](./editorial/SOURCE_CATALOG.yml), y solo pasan a publicación cuando una consulta real y una revisión humana justifican el brief.
 
+Las primeras consultas observadas en Search Console se convierten en hipótesis
+de título y descripción en el [backlog de CTR](./editorial/SEARCH_CONSOLE_CTR_BACKLOG_2026-09-13.md);
+la muestra todavía es pequeña y ninguna variante se publica automáticamente.
+
 ## Condición de salida antes de escalar contenido
 
 El archivo existente debe alcanzar estas condiciones antes de publicar a más de un artículo semanal:
