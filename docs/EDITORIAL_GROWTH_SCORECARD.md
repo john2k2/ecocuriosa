@@ -1,6 +1,6 @@
 # Scorecard de crecimiento, confianza y monetización — EcoCuriosa
 
-**Versión:** 12 de septiembre de 2026  
+**Versión:** 13 de septiembre de 2026
 **Propósito:** convertir la auditoría GEO/SEO, la biblioteca de fuentes y el protocolo de Luna Max en un plan medible. Las metas son criterios internos de salida; no son promesas de posiciones, tráfico ni aprobación de AdSense.
 
 ## Estado actual y definición de éxito
