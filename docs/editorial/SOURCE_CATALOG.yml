@@ -2437,3 +2437,33 @@ entries:
     evidenceType: evidence-synthesis
     url: https://doi.org/10.1016/j.scitotenv.2024.172662
     use: synthesis of tap-water data from 34 countries; differences in particle size and methods limit direct cross-study comparison
+  - id: google-sitemaps-overview
+    authority: Google Search Central
+    domain: seo-indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+    use: explain that sitemaps help discovery but do not guarantee crawling or indexing; keep only canonical, published URLs and exclude drafts/noindex pages
+  - id: adsense-ad-placement-policies
+    authority: Google AdSense
+    domain: adsense-policy
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/1346295?hl=es
+    use: audit that ads are distinguishable from navigation, downloads and editorial controls and do not invite accidental clicks; policy text does not predict account approval
+  - id: adsense-cmp-requirements
+    authority: Google AdSense
+    domain: consent-management
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/13554020?hl=es
+    use: plan a Google-certified CMP and IAB TCF consent flow for personalized ads in the EEA, UK and Switzerland; this is not complete legal advice
+  - id: search-console-page-indexing
+    authority: Google Search Console
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://support.google.com/webmasters/answer/7440203?hl=es
+    use: classify indexing exclusions such as duplicate, canonical, robots, noindex, soft 404 and 5xx; indexed does not mean visible or high quality
+  - id: cloudflare-speed-observatory
+    authority: Cloudflare
+    domain: cwv-field-data
+    evidenceType: documentation
+    url: https://developers.cloudflare.com/speed/observatory/
+    use: compare synthetic and RUM performance baselines for representative templates while declaring geographic and eligibility limits

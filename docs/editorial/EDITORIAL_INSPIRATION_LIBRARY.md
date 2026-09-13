@@ -557,3 +557,27 @@ el alcance y decidir qué cambia en la pieza.
 3. Mantener `reviewedDate` y `reviewedBy` vacíos hasta que una persona responsable
    compruebe texto, fuentes, imágenes y límites. Luna Max puede preparar un borrador,
    nunca certificarlo ni publicarlo.
+
+### Búsqueda de brechas de Luna Max: indexación, móvil y monetización — 12 de septiembre de 2026
+
+Luna contrastó las brechas operativas con veinte referencias oficiales. Solo cinco
+URLs no estaban en el catálogo y se añadieron como candidatas: `google-sitemaps-overview`,
+`adsense-ad-placement-policies`, `adsense-cmp-requirements`,
+`search-console-page-indexing` y `cloudflare-speed-observatory`. Las otras quince
+ya estaban registradas; no se cuentan dos veces. Esta tanda deja ocho oportunidades
+de trabajo (la biblioteca pasa de 99 a 107), todas pendientes de decisión humana.
+
+| Prioridad | Pregunta/acción | Medición de salida | Fuente(s) candidatas y límite |
+| --- | --- | --- | --- |
+| P0 | ¿Qué 32 páginas publicadas están descubiertas, indexadas o excluidas y por qué? Mantener los 99 briefs fuera del índice. | Ledger por URL con sitemap, canonical, robots/noindex, inspección y GSC impressions/clicks/CTR/position. | `google-technical-requirements`, `google-sitemaps-overview`, `search-console-page-indexing`; sitemap o HTTP 200 no garantizan indexación. |
+| P1 | ¿Qué imagen y titular ayudan a una pieza de Discover sin clickbait? | Discover impressions/clicks/CTR por URL y comprobación de imagen representativa ≥1200 px, `max-image-preview:large` y carga estable. | `google-discover-guidance`, `google-image-seo`; Discover no es predecible. |
+| P1 | ¿Coinciden la firma visible, el JSON-LD y el perfil de una persona real? | Cobertura/paridad de `author.url`, perfil y entidad; no añadir credenciales no verificadas. | `google-article-schema`, `google-profile-page-schema`; un marcado correcto no prueba experiencia. |
+| P1 | ¿Qué cambios sustantivos merecen una fecha de actualización? | Registro de versión, motivo, fuente y comparación GSC pre/post; no modificar `lastmod` por rutina. | `icmje-corrections-version-control`, `google-search-rigorous-testing`; correlación no demuestra causalidad. |
+| P1 | ¿El menú y la lectura funcionan con pulgar, teclado, zoom y lector de pantalla? | Matriz 320/375/390/768/1440 px: foco, reflow, contraste ≥4.5:1, objetivos ≥24×24 y ausencia de overflow/interstitials. | `w3c-mobile-accessibility`, `w3c-apg-disclosure-navigation`, `webdev-main-navigation`; requiere prueba real con dispositivos y tecnología asistiva. |
+| P2 | ¿Dónde colocar anuncios después de que haya valor editorial? | Solo tras aprobación: matriz desktop/móvil, etiquetas y CLS/RUM antes/después; nunca en drafts/noindex. | `adsense-ad-placement-policies`, `adsense-publisher-policies-overview`; no predice aprobación ni RPM. |
+| P1 | ¿Cada afirmación de ciencia, mito o salud muestra evidencia y límites? | Ficha afirmación → fuente primaria → alcance → incertidumbre → corrección/contacto. | `google-publisher-unreliable-harmful-claims`, `google-quality-rater-guidelines`; una fuente no convierte una hipótesis en hecho. |
+| P1 | ¿El enlazado interno forma un grafo útil sin páginas casi duplicadas? | Hubs por categoría, destinos con contexto, huérfanas y discrepancias canonical registradas. | `google-sitemaps-overview`, `google-canonicalization`; enlaces ayudan al descubrimiento, no garantizan ranking. |
+
+Estas ocho filas se incorporan al plan, no a la publicación. Luna puede preparar
+briefs locales y tablas de medición; no puede marcar revisiones humanas, autoría,
+licencias, resultados de Search Console ni aprobación de AdSense.
