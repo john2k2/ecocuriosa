@@ -737,7 +737,7 @@ entries:
     authority: NOAA Coral Reef Watch
     domain: climate-ocean
     evidenceType: institutional-dataset
-    url: https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php
+    url: https://coralreefwatch.noaa.gov/product/5km/index.php
     use: dated global bleaching heat-stress estimates and event status through September 2025
   - id: noaa-arctic-polar-vortex
     authority: NOAA Climate.gov
