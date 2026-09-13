@@ -43,13 +43,13 @@ sources:
 featured: false
 ---
 
-> **Respuesta rápida:** Los elefantes africanos muestran memoria social y ecológica de largo plazo. La evidencia combina experimentos con llamadas y estudios del cerebro, pero no convierte cada relato sobre “memoria infinita” en un hecho: las capacidades dependen del grupo, el ambiente, la experiencia y el método de estudio.
+> **Respuesta rápida:** Hay evidencia de reconocimiento social y conocimiento dependiente de la experiencia en elefantes africanos. La evidencia combina experimentos con llamadas y estudios del cerebro, pero no demuestra una duración fija ni una memoria ecológica idéntica en todas las manadas: las capacidades dependen del grupo, el ambiente, la experiencia y el método de estudio.
 
 ---
 
 ## 1. Qué sabemos del cerebro
 
-Un estudio celular del cerebro de un elefante africano estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución refleja, entre otras cosas, las exigencias sensoriomotoras de un cuerpo y una trompa enormes.
+Un estudio celular del cerebro de un elefante africano estimó **257.000 millones de neuronas**; alrededor del **97,5 %** estaban en el cerebelo. La misma investigación contó unos 5.600 millones de neuronas en la corteza cerebral del ejemplar y advirtió que tener más neuronas totales no equivale automáticamente a tener una cognición “tres veces mayor”. La distribución podría estar relacionada, entre otras cosas, con las exigencias sensoriomotoras de un cuerpo y una trompa enormes; el estudio no prueba por sí solo esa causalidad.
 
 Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un contexto plausible para estudiar memoria y conducta, pero no permite deducir por sí solo cuántos años recuerda una ruta un elefante concreto ni qué significa una respuesta emocional.
 
@@ -57,7 +57,13 @@ Por eso conviene separar neuroanatomía de interpretación. El cerebro aporta un
 
 ## 2. La experiencia de las matriarcas
 
-Los experimentos de McComb y colaboradores mostraron que las matriarcas mayores podían aportar conocimiento social útil: respondían de forma distinta a llamadas familiares y desconocidas. Revisiones posteriores describen a las hembras de más edad como repositorios de información social y ecológica para la familia. Eso respalda la importancia de la experiencia, pero no establece una cifra universal de supervivencia, una distancia fija de escucha o un mapa mental idéntico en todas las manadas.
+Los experimentos de McComb y colaboradores mostraron que las matriarcas mayores
+podían discriminar mejor entre llamadas familiares y desconocidas. Revisiones
+posteriores describen a las hembras de más edad como posibles repositorios de
+información social y ecológica para la familia; la relación con el éxito
+reproductivo es correlacional. Eso respalda la importancia de la experiencia,
+pero no establece una cifra universal de supervivencia, una distancia fija de
+escucha o un mapa mental idéntico en todas las manadas.
 
 El repertorio de receptores olfativos también es amplio. El estudio genómico citado en esta ficha sirve para hablar de potencial sensorial, no para afirmar que cada elefante recuerde cientos de firmas químicas durante toda su vida.
 
@@ -81,7 +87,7 @@ de memoria ni permiten extrapolar una medición a todas las poblaciones.
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se dice que los elefantes tienen cementerios secretos donde van a morir conscientemente.
-  * **Realidad científica contrastada:** No hay evidencia sólida de un ritual universal de “cementerios”. Los restos pueden concentrarse donde el terreno, el agua o la vegetación favorecen que los animales se reúnan, pero esa observación no demuestra una intención consciente de acudir a morir.
+  * **Realidad científica contrastada:** Las fuentes citadas en esta ficha no estudian de forma directa esa afirmación. Por eso no se presenta como un hecho ni se atribuye intención consciente sin una revisión específica sobre conducta ante cadáveres.
 
 * **Mito 2:** Se dice que un número elevado de neuronas demuestra por sí solo una inteligencia superior.
   * **Realidad científica contrastada:** El estudio celular muestra una distribución muy distinta a la humana: casi todas las neuronas están en el cerebelo. El conteo es una pieza de evidencia, no una escala universal de inteligencia.

@@ -49,13 +49,18 @@ La pregunta interesante no es si la especie puede medirse con una etiqueta de �
 
 NOAA resume un rango de uso de profundidad amplio: las mantas pueden alimentarse a menos de 10 metros, realizar inmersiones de unos 200–450 metros y llegar a superar los 1.000 metros según la región y la disponibilidad de presas. La profundidad no es fija y depende de la temporada, la termoclina y el plancton.
 
-Una publicación de 2025 propone que el cerebro grande y metabólicamente costoso
+Un trabajo publicado online en 2024 y recogido en un volumen de 2025 propone que el cerebro grande y metabólicamente costoso
 de los mobúlidos podría contribuir a mantener una temperatura craneal más
 estable en aguas frías. Es una hipótesis evolutiva apoyada en anatomía y
 modelización, no una medición directa de la temperatura cerebral de cada manta;
 por eso no permite deducir inteligencia ni rendimiento cognitivo.
 
-En el experimento del espejo se observaron movimientos dirigidos al reflejo que fueron compatibles con una comprobación de contingencia. Ese resultado es valioso para estudiar conducta, pero no demuestra por sí solo que la manta posea una autoconciencia equivalente a la humana ni explica toda su ecología.
+En un experimento del espejo con dos mantas cautivas se observaron movimientos
+dirigidos al reflejo compatibles con una comprobación de contingencia. Solo uno
+de los individuos estaba confirmado como *Mobula birostris* y la prueba de marca
+no se completó. El resultado es valioso para estudiar conducta, pero no
+demuestra por sí solo una autoconciencia equivalente a la humana ni explica
+toda la ecología de la especie.
 
 ### Comparativa de Neuroanatomía en Elasmobranquios
 
@@ -71,10 +76,10 @@ En el experimento del espejo se observaron movimientos dirigidos al reflejo que 
 ## 3. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se confunde popularmente a la manta raya con las rayas de aguijón y se teme su picadura.
-  * **Realidad científica contrastada:** NOAA distingue a las mantas de las rayas con aguijón: las mantas se alimentan por filtración y no tienen el aguijón caudal típico de esas rayas.
+  * **Realidad científica contrastada:** NOAA describe a las mantas como filtradoras y también menciona una espina caudal. Por eso no conviene afirmar que carecen de ella ni equiparar automáticamente esa estructura con el aguijón venenoso de otra raya sin una fuente anatómica específica.
 
 * **Mito 2:** El mito de que saltan fuera del agua para aplastar a barcos pequeños o buceadores.
-  * **Realidad científica contrastada:** Se han observado saltos, pero la función concreta puede variar y no hay base para atribuirles una intención agresiva universal. Una observación de superficie no basta para explicar toda la conducta de la especie.
+  * **Realidad científica contrastada:** Las fuentes de esta ficha no documentan una intención agresiva universal. Una observación de superficie aislada no basta para explicar la conducta de la especie; cualquier afirmación sobre saltos debe citar un estudio específico.
 
 ---
 

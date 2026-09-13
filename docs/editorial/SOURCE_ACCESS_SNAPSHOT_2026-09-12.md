@@ -26,6 +26,18 @@ Los estados son una fotografía de una fecha concreta: pueden variar según
 hora, red, agente de usuario, redirecciones, caché y controles del propio
 editor. No se deben cambiar ni eliminar fuentes únicamente por este snapshot.
 
+## Candidatos añadidos en la ronda de autoridad de especies
+
+Estas cuatro URLs no forman parte todavía de las 96 referencias del contenido
+publicado; se comprobaron para que Luna pueda proponerlas en briefs de revisión.
+
+| Fuente | Estado HTTP | Tipo | Nota de alcance |
+| --- | ---: | --- | --- |
+| https://pubmed.ncbi.nlm.nih.gov/35203203/ | `203` | Primaria | PubMed entrega una respuesta de contenido restringido; abrir la ficha para comprobar el experimento de evaluación de amenazas en dos poblaciones. |
+| https://pubmed.ncbi.nlm.nih.gov/21411454/ | `203` | Primaria | PubMed entrega una respuesta de contenido restringido; abrir la ficha para comprobar el paradigma de reproducción de llamadas y la edad de las matriarcas. |
+| https://www.fisheries.noaa.gov/resource/outreach-materials/giant-manta-ray-and-devil-ray-aerial-survey-id-guide | `200` | Institucional | Guía de identificación para observadores aéreos; no es un censo global. |
+| https://www.fisheries.noaa.gov/s3/2024-10/Recovery-Status-Review-for-Giant-Manta-Ray_508.pdf | `200` | Institucional | Revisión de estado de recuperación en el marco estadounidense; no sustituye una evaluación mundial. |
+
 ## Comprobación HTTP de la nueva ronda de Luna Max
 
 El 12/09/2026 se consultaron con `GET` las diez URLs añadidas para autoridad,

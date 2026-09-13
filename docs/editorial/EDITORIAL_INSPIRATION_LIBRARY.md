@@ -245,7 +245,7 @@ humanApproval: pending
 
 | Fecha | Cambio | Responsable | Evidencia |
 | --- | --- | --- | --- |
-| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 354 entradas, 84 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
+| 2026-09-12 | Se incorporaron fuentes primarias/institucionales, catálogo de 358 entradas, 86 briefs candidatos, tres registros abiertos comprobados en navegador y guías de licencia/transparencia | Equipo Editorial EcoCuriosa | URLs enlazadas en esta biblioteca; validar cada ficha antes de citar |
 
 ### Oportunidades derivadas de consultas reales de Search Console — 12 de septiembre
 
@@ -413,3 +413,22 @@ referencias de una monografía.
 | Tiburón de Groenlandia | ¿Qué sabemos de reproducción y transcriptoma además del récord de edad? | `greenland-shark-spermatogenesis-2024`, `greenland-shark-line-elements-2023` | Línea de vida y flujo RNA→hipótesis; no convertir asociaciones en mecanismos de longevidad. |
 | Pulpo mimo | ¿Cómo separar rango geográfico, mimetismo observado e intención? | `mimic-octopus-facultative-mimicry-2010`, `mimic-octopus-arabian-sea-range-2020`, `cephalopod-predator-avoidance-review-2022` | Mapa de registros y secuencia de postura; dos ejemplares o una revisión comparativa no prueban un repertorio fijo. |
 | Relámpago del Catatumbo | ¿Cómo cambian el “récord” y la frecuencia cuando cambia el sensor? | `catatumbo-lis-climatology-2026`, `catatumbo-lightning-datasets-2026`, `catatumbo-seasonal-prediction-2016` | Mapa con sensor, periodo y unidad; muestreo orbital y correlaciones no equivalen a observación continua ni causa única. |
+
+### Fuentes nuevas para autoridad de especies y aprendizaje social — 12 de septiembre
+
+Esta tanda añade fuentes primarias e institucionales comprobadas en vivo para
+reforzar dos piezas de mayor riesgo. Se conservan como inspiración hasta que
+una persona abra cada fuente, confirme la correspondencia con el texto y
+registre la revisión; no autorizan por sí solas una publicación ni una fecha de
+revisión.
+
+| Clúster | Pregunta people-first | Fuentes candidatas | Aportación propia / límite |
+| --- | --- | --- | --- |
+| Elefantes | ¿Cómo cambia la evaluación de una amenaza cuando una manada pierde experiencia social? | `elephant-social-disruption-threat-assessment-2022`, `elephant-matriarch-leadership-2011` | Línea de tiempo de población y reproducción de llamadas; separar aprendizaje social, memoria y conducta defensiva, y no extrapolar entre poblaciones. |
+| Manta raya gigante | ¿Cómo se identifica una manta en un censo aéreo y qué significa realmente “recuperación”? | `manta-aerial-survey-identification-noaa-2025`, `manta-recovery-status-review-noaa-2024` | Diagrama observador → rasgos → registro y una caja de alcance; el material de NOAA sirve para identificación y revisión estadounidense, no para afirmar un censo mundial. |
+
+**Comprobación de acceso:** las cuatro URLs nuevas devolvieron 200 o 203
+(respuesta de PubMed con contenido restringido) en la captura del 12/09/2026;
+las dos fuentes de PubMed requieren abrir la ficha o el artículo para verificar
+el contexto experimental. El registro detallado queda en
+`SOURCE_ACCESS_SNAPSHOT_2026-09-12.md`.

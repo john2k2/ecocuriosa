@@ -2131,3 +2131,27 @@ entries:
     evidenceType: guidance
     url: https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
     use: separate human authorship, contributor roles, final approval and responsibility, and declare AI assistance without listing AI as an author
+  - id: elephant-social-disruption-threat-assessment-2022
+    authority: PubMed / Scientific Reports
+    domain: animal-behaviour
+    evidenceType: primary
+    url: https://pubmed.ncbi.nlm.nih.gov/35203203/
+    use: compare playback experiments on predatory-threat assessment in two African elephant populations; keep population, history and sample context visible
+  - id: elephant-matriarch-leadership-2011
+    authority: PubMed / Proceedings of the Royal Society B
+    domain: animal-behaviour
+    evidenceType: primary
+    url: https://pubmed.ncbi.nlm.nih.gov/21411454/
+    use: support an age-and-experience angle for matriarch decision-making under playback experiments; do not turn the result into a universal memory or intelligence score
+  - id: manta-aerial-survey-identification-noaa-2025
+    authority: NOAA Fisheries
+    domain: species-identification
+    evidenceType: institutional
+    url: https://www.fisheries.noaa.gov/resource/outreach-materials/giant-manta-ray-and-devil-ray-aerial-survey-id-guide
+    use: explain how aerial observers distinguish giant manta rays from devil rays; preserve the guide's survey purpose and identification limits
+  - id: manta-recovery-status-review-noaa-2024
+    authority: NOAA Fisheries
+    domain: conservation
+    evidenceType: institutional
+    url: https://www.fisheries.noaa.gov/s3/2024-10/Recovery-Status-Review-for-Giant-Manta-Ray_508.pdf
+    use: provide a dated U.S. recovery-status and population-evidence context for giant manta rays; do not present it as a global census or a new population estimate

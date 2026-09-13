@@ -110,3 +110,53 @@ La aprobación de contenido, el perfil de pagos y el cobro son decisiones distin
 | Calidad | Auditoría local | Fuentes, revisiones, imágenes y repetición | Bloquear publicación si falla |
 
 No se extraen métricas privadas al repositorio. Los informes deben guardar únicamente agregados y decisiones, no datos de cuenta, identificadores ni información personal.
+
+## Plan maestro de ejecución y puertas de puntuación
+
+Esta tabla convierte la puntuación orientativa en trabajo verificable. Una
+puntuación de laboratorio o una fuente catalogada no cierra una puerta por sí
+sola: cada salida exige la evidencia indicada.
+
+| Frente | Estado comprobado | Próxima acción | Puerta de salida | Responsable |
+| --- | --- | --- | --- | --- |
+| SEO técnico | Auditorías locales y HTML generado sin problemas; Lighthouse móvil alto en laboratorio | Ejecutar la matriz pública y revisar redirecciones, sitemap y metadatos después de cada cambio | 0 enlaces internos rotos, canonical único, build/`astro check` verdes y P75 de campo disponible o documentado como no elegible | Operación técnica |
+| Diseño, navegación y móvil | Navegación por categorías, búsqueda, foco visible, imágenes con dimensiones y layout reservado | Probar portada, categoría, artículo, legales y menú con teclado en 320/375/768/1440 px | Ningún overflow, foco perdido, contraste insuficiente ni CLS material antes/después de anuncios | Operación técnica + editor |
+| Indexación | Sitemap con 43 páginas descubiertas; la propiedad todavía está procesando cobertura | Inspeccionar portada, cuatro categorías, cinco artículos prioritarios y tres páginas de confianza en Search Console | Cada URL canónica tiene estado explicado; exclusiones no deseadas corregidas y sitemap actualizado | Titular de Search Console |
+| E‑E‑A‑T | 32 artículos con fuentes y derechos declarados; 1/32 revisado | Revisar ocho fichas por semana, empezando por las nueve de alto riesgo; aplicar correcciones de la cola | 32/32 con nombre real, fecha real, afirmación→fuente, límites y procedencia comprobados | Editor humano |
+| Autoría y transparencia | Equipo editorial y metodología visibles; no hay credenciales individuales inventadas | Completar perfil solo con datos reales autorizados y registrar roles de contribución | Bylines, roles, correcciones y uso de IA coinciden entre HTML, JSON-LD y página editorial | Titular + editor |
+| Audiencia orgánica | 112 impresiones, 0 clics en la instantánea disponible; consultas concentradas en geodinamo, pulpo mimo y Catatumbo | Testear una hipótesis de título/extracto por página con impresiones, no crear duplicados | Comparación fechada de CTR, posición, país, dispositivo y páginas por sesión; sin atribuir causalidad con muestras pequeñas | Editor de crecimiento |
+| Distribución y marca | No se cuentan menciones externas como autoridad hasta tener evidencia | Distribuir manualmente piezas revisadas en comunidades pertinentes y buscar colaboraciones legítimas | Registro de publicación, enlace, audiencia y respuesta; cero compra de enlaces o perfiles falsos | Editor de crecimiento |
+| Monetización | Código cliente preparado; slots reales aún no configurados | Completar CMP y perfil de AdSense en la cuenta con datos verdaderos; esperar decisión | Aprobación de Google, `ads.txt` 200, slots reales, prueba de consentimiento y CLS estable | Titular de AdSense |
+| Automatización Luna Max | Briefs y drafts locales con `publish: false`; 31 revisiones pendientes | Ejecutar una cadencia semanal de investigación y una revisión mensual de resultados | Ninguna tarea puede escribir producción, inventar fuentes/autoría/licencias o saltarse una revisión humana | Operación + editor |
+
+### Cadencia mínima que mantiene el sistema sano
+
+1. **Cada semana:** revisar ocho artículos pendientes o, si no alcanza el
+   tiempo, dejar explícitamente la cola sin reducirla; registrar fuentes,
+   alcance, límites, enlaces y decisión editorial.
+2. **Cada dos semanas:** revisar en Search Console las páginas y consultas con
+   impresiones; elegir una sola hipótesis de mejora y anotar el período de
+   comparación. Cloudflare se usa para entrega y errores, no como sustituto de
+   audiencia humana.
+3. **Cada mes:** comprobar producción, sitemap, redirecciones, `ads.txt` si ya
+   existe, consentimiento, Lighthouse de muestra y CrUX cuando haya datos;
+   archivar solo agregados.
+4. **Cada trimestre:** retirar o consolidar páginas que no aporten una
+   respuesta propia, renovar fuentes sensibles a fecha y revisar la política
+   editorial, de privacidad y de correcciones.
+
+### Decisiones que no se automatizan
+
+- Introducir nombre, dirección, impuestos, PIN, banco o cualquier documento en
+  AdSense.
+- Registrar una persona como autora o revisora, o afirmar que una fuente fue
+  leída, sin que esa persona lo haya hecho.
+- Publicar un artículo o una imagen generada, comprar enlaces, crear perfiles
+  de marca o enviar mensajes externos.
+- Activar anuncios o cambiar densidad cuando la cuenta no esté aprobada o no
+  exista una medición de experiencia posterior al cambio.
+
+El plan se considera cumplido por etapas: primero se cierran calidad y
+medición, después se amplía el archivo y solo al final se optimiza el ingreso.
+Ninguna etapa garantiza aprobación, tráfico, RPM o ingresos; esas señales se
+evalúan con datos auténticos una vez que existan.

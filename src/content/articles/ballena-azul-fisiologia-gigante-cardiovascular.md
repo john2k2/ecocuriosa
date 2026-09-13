@@ -38,9 +38,9 @@ El trabajo utilizó una etiqueta con electrocardiograma y profundidad fijada med
 
 ## 2. Un corazón que cambia de ritmo
 
-El estudio primario encontró un ritmo de **4–8 latidos por minuto durante la mayoría de las inmersiones**, con mínimos instantáneos de 2 latidos por minuto. En los intervalos posteriores a la inmersión, el registro subió a **25–37 latidos por minuto**. También observó un aumento transitorio durante el ascenso propulsado de una embestida, seguido de una reducción mientras el animal planeaba y filtraba el agua.
+El estudio primario encontró un ritmo de **4–8 latidos por minuto durante la mayoría de las inmersiones**, con mínimos instantáneos de 2 latidos por minuto. Tras inmersiones profundas, el registro llegó a **37 latidos por minuto** durante la recuperación en superficie. También observó, en 13 embestidas sin artefactos, un aumento transitorio compatible con modulación por ejercicio, seguido de una reducción mientras el animal planeaba y filtraba el agua.
 
-Estas cifras describen un patrón de respuesta a la inmersión: ayudan a estudiar cómo administra sus reservas de oxígeno, pero no permiten afirmar que todos los corazones de ballena azul funcionen con el mismo rango. El artículo de [Goldbogen y colaboradores](https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/) deja claro que se trató de un solo individuo y que todavía faltan perfiles comparables de otras ballenas grandes.
+Estas cifras describen un patrón de respuesta a la inmersión: ofrecen una señal indirecta para estudiar la gestión de las reservas de oxígeno, pero no miden directamente el oxígeno sanguíneo ni permiten afirmar que todos los corazones de ballena azul funcionen con el mismo rango. El artículo de [Goldbogen y colaboradores](https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/) deja claro que se trató de un solo individuo y que todavía faltan perfiles comparables de otras ballenas grandes.
 
 ---
 
@@ -58,7 +58,7 @@ En ese trabajo, las inmersiones de alimentación llegaron hasta 184 metros. La p
 
 ### ¿Cuál fue el ritmo más bajo observado?
 
-El mínimo instantáneo fue de 2 latidos por minuto; durante la mayoría de las inmersiones el rango fue de 4–8. Después de salir a la superficie se observaron valores de 25–37.
+El mínimo instantáneo fue de 2 latidos por minuto; durante la mayoría de las inmersiones el rango fue de 4–8. Después de inmersiones profundas, el registro llegó a 37 latidos por minuto durante la recuperación en superficie.
 
 ### ¿Se puede generalizar a todas las ballenas azules?
 
