@@ -21,6 +21,8 @@ La plantilla de artículo reserva ahora la proporción real de las láminas acti
 
 El control `content:generated-metadata-audit` recorre el HTML de `dist` después del build y exige, para las páginas indexables, idioma español, título, descripción de 50–160 caracteres, canonical HTTPS único, Open Graph y JSON-LD; excluye únicamente el archivo de verificación de Search Console.
 
+La página pública «Sobre nosotros» declara además un `ProfilePage` enlazado a la misma entidad `Organization` del sitio. No se añaden personas, credenciales ni perfiles externos que no estén verificados.
+
 El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.
 
 El auditor de contenido también bloquea activos que no estén declarados como originales o creados para EcoCuriosa cuando les falten creador, licencia y página de licencia HTTPS. Las ilustraciones actuales conservan su crédito editorial; una fotografía o imagen de terceros debe completar esos tres campos antes de entrar en producción.
