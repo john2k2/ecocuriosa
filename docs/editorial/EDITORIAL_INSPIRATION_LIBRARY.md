@@ -605,3 +605,23 @@ revisiones humanas pendientes y seleccionar una colaboración que aporte una
 contribución original. Luna puede preparar el pitch y el formato como borrador
 local; la persona responsable debe comprobar las fuentes, autoría, licencia y
 publicación antes de cualquier contacto externo.
+
+### Fuentes abiertas incorporadas en la revisión P0/P1 — 13 de septiembre de 2026
+
+Esta ronda priorizó copias de texto completo de estudios primarios para que el
+editor y el lector puedan seguir la evidencia sin depender de una página de
+resumen o de una respuesta automatizada. Las cuatro URLs están registradas en
+`SOURCE_CATALOG.yml` y enlazadas desde sus artículos; siguen requiriendo la
+lectura y aprobación humana de la afirmación exacta.
+
+| Artículo | Fuente abierta | Pregunta people-first para una futura actualización | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| Tardígrados | [eLife en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) | ¿Qué protege Dsup en células y qué no demuestra sobre un animal completo? | Ensayos celulares y bioquímicos; no invulnerabilidad ni terapia |
+| Peces linterna | [Royal Society B en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/) | ¿Cómo se relacionan emisión rojo lejano y sensibilidad retinal en *Malacosteus niger*? | Un taxón especializado; no generalizar a todos los peces abisales |
+| Búhos | [Features of owl wings en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5206597/) | ¿Qué rasgos del ala se asocian con reducción del ruido bajo condiciones concretas? | Evidencia de alas y modelos; no silencio absoluto ni todas las especies |
+| Búhos | [Serraciones de plumas en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC4774958/) | ¿Qué cambia entre plumas y cómo se evita trasladar decibelios entre especies? | Variación morfológica; no prueba una reducción fija en vuelo real |
+
+La imagen recomendada para estos briefs es un diagrama original que separe
+observación, modelo e inferencia. Luna puede preparar el esquema y el texto
+alternativo, pero no debe presentar una ilustración sintética como fotografía ni
+registrar una revisión humana que no haya ocurrido.

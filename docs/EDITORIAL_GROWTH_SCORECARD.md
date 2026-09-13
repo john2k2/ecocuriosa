@@ -31,6 +31,8 @@ El auditor de contenido también bloquea activos que no estén declarados como o
 
 Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón de Groenlandia`, `pulpo mimo`, `manta raya`, `memoria del elefante` y `ebullición en altura`) muestran ahora `updatedDate` y `dateModified` porque tuvieron cambios sustanciales de texto y fuentes. Ese campo no equivale a `reviewedDate`: la revisión humana del archivo sigue siendo una puerta independiente.
 
+El 13/09/2026 se actualizaron tres piezas más (`tardígrados`, `peces linterna` y `vuelo silencioso de los búhos`) para enlazar textos completos abiertos de estudios primarios. También muestran `updatedDate` y `dateModified`; ninguna recibió una fecha de revisión humana por ese cambio.
+
 El 12/09/2026 se acortaron quince títulos que superaban la longitud editorial recomendada, conservando la entidad y la intención de búsqueda. Se medirá su efecto en Search Console después del siguiente rastreo; el cambio no implica que Google vaya a mostrar exactamente el mismo título.
 
 **Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
