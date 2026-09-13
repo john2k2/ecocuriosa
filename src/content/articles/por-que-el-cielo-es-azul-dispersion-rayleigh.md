@@ -32,7 +32,7 @@ featured: false
 
 ---
 
-## 1. La Naturaleza de la Luz Blanca y la Ley Cuántica de Rayleigh
+## 1. La naturaleza de la luz blanca y la dispersión de Rayleigh
 
 Cuando observamos el disco solar desde la Tierra, su luz nos parece de un blanco amarillento uniforme. En realidad, la radiación solar es una superposición continua de fotones que abarcan todo el espectro visible, desde el violeta y azul (longitudes de onda cortas, entre 380 y 450 nanómetros) hasta el naranja y rojo (longitudes de onda largas, entre 620 y 750 nanómetros).
 
