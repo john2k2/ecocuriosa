@@ -21,6 +21,8 @@ La plantilla de artículo reserva ahora la proporción real de las láminas acti
 
 El control `content:generated-metadata-audit` recorre el HTML de `dist` después del build y exige, para las páginas indexables, idioma español, título, descripción de 50–160 caracteres, canonical HTTPS único, Open Graph y JSON-LD; excluye únicamente el archivo de verificación de Search Console. `content:navigation-audit` añade una comprobación estática del menú principal y móvil: nombres semánticos, `aria-controls`, `aria-hidden` inicial, sincronización del estado, foco al abrir y IDs únicos.
 
+El control `content:indexation-audit` verifica que cada uno de los 32 artículos publicados tenga HTML y canonical propios, aparezca exactamente una vez en el sitemap, y que búsqueda/404 permanezcan con `noindex`; también comprueba `Allow: /` y el sitemap canónico en `robots.txt`. El build actual pasa 32/32 artículos y 43 URLs totales sin incidencias.
+
 La página pública «Sobre nosotros» declara además un `ProfilePage` enlazado a la misma entidad `Organization` del sitio. No se añaden personas, credenciales ni perfiles externos que no estén verificados.
 
 El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.

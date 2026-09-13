@@ -18,6 +18,7 @@
     "content:luna-audit": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/audit-luna-pipeline.py",
     "content:review-precheck": "node scripts/audit-review-queue.mjs",
     "content:generated-metadata-audit": "node scripts/audit-generated-metadata.mjs",
+    "content:indexation-audit": "node scripts/audit-indexation.mjs",
     "content:rss-audit": "node scripts/audit-rss.mjs",
     "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs",
     "content:navigation-audit": "node scripts/audit-navigation.mjs"
