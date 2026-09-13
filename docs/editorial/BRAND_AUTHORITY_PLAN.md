@@ -1,6 +1,6 @@
 # Plan de autoridad de marca y distribución — EcoCuriosa
 
-**Versión:** 12 de septiembre de 2026  
+**Versión:** 13 de septiembre de 2026  
 **Estado:** plan de trabajo; no crea perfiles externos ni publica automáticamente.
 
 ## Punto de partida
@@ -38,6 +38,25 @@ Las métricas de Search Console son todavía una muestra pequeña (112 impresion
 | Reddit/comunidades | Respuesta completa y transparente, enlace solo si resuelve la pregunta | respuestas cualitativas y visitas referidas | spam, autopromoción y brigading |
 | Wikipedia/Google News | Solo cuando exista cobertura independiente y criterios de elegibilidad | citaciones y descubrimiento | intentar crear una entidad artificial |
 
+### Distribución editorial con evidencia
+
+La autoridad se construye con aportaciones que terceros puedan comprobar, no con
+altas masivas en directorios. Para cada colaboración se conserva un registro de
+la URL, la institución o comunidad, el formato aportado, la fecha y el resultado.
+
+| Oportunidad | Cuándo usarla | Puerta de entrada | Límite que se respeta |
+| --- | --- | --- | --- |
+| SciDev.Net | Solo con una propuesta regional de divulgación o colaboración que aporte datos propios | Pitch editorial breve y firmado por una persona real | La aceptación y cualquier enlace dependen del editor; no se compra autoridad |
+| The Conversation | Solo si existe un autor investigador y afiliación verificables | Propuesta con autoría y fuentes comprobables | Requiere elegibilidad y edición; EcoCuriosa no puede simular una afiliación |
+| EurekAlert! / AlphaGalileo | Solo cuando una universidad, museo o proyecto elegible sea el responsable de la noticia | Comunicado o feature story institucional | Moderación y reglas de elegibilidad; un envío pagado no garantiza aceptación ni ranking |
+| OER Commons / MERLOT | Para una guía educativa con licencia y objetivos pedagógicos claros | Recurso descargable y atribuido | No son directorios de backlinks ni sustituyen la revisión editorial |
+
+Los marcos de DOAJ, Latindex, SciELO y ROAD sirven como listas de comprobación
+de responsabilidad, licencia, revisión y metadatos. No se solicitará inclusión en
+un índice académico mientras EcoCuriosa no sea el tipo de recurso que esos
+directorios aceptan. OpenAlex puede ayudar a descubrir venues, pero no impone un
+umbral de calidad y no se presenta como aval.
+
 Google recomienda titulares descriptivos, imágenes relevantes y contenido people-first para Search y Discover; la elegibilidad de una superficie no garantiza impresiones. Las reglas de plataforma se deben volver a comprobar antes de publicar una campaña.
 
 ## KPI y umbrales
@@ -52,6 +71,25 @@ Guardar únicamente agregados mensuales y decisiones, no datos personales de sus
 | Retorno | Analytics o newsletter | pendiente de conexión | tendencia mensual antes de activar más anuncios |
 | Autoridad editorial | registro manual | 0 colaboraciones confirmadas | una colaboración o cita atribuible antes de ampliar frecuencia |
 | Calidad | auditorías y revisión humana | 31 artículos pendientes | no aumentar volumen mientras la cola crezca |
+
+### Medición de marca y atribución
+
+1. **Cada dos semanas:** revisar alertas de marca y menciones encontradas; una
+   alerta es una pista, no una mención confirmada. Registrar solo el dominio,
+   URL, contexto y si aporta una referencia independiente.
+2. **Cada mes:** comparar en Search Console consultas de marca, páginas y
+   países con el período anterior. Usar Google Trends únicamente para comparar
+   interés relativo (0–100), nunca como volumen absoluto.
+3. **En colaboraciones aprobadas:** usar UTMs de `source`, `medium` y `campaign`
+   en enlaces de referencia; mantener la URL canónica sin parámetros y no
+   incluir datos personales.
+4. **Para la lectura de resultados:** Search Console responde qué consultas y
+   clics llevaron desde Search; Analytics responde comportamiento y referencias.
+   No se espera que las cifras coincidan exactamente.
+
+La salida mínima es un registro mensual agregado. No se automatizan cuentas,
+envíos, publicaciones, solicitud de enlaces ni la interpretación de una mención
+como autoridad.
 
 ## Flujo con Luna Max
 

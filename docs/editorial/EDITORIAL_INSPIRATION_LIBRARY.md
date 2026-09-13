@@ -581,3 +581,27 @@ de trabajo (la biblioteca pasa de 99 a 107), todas pendientes de decisión human
 Estas ocho filas se incorporan al plan, no a la publicación. Luna puede preparar
 briefs locales y tablas de medición; no puede marcar revisiones humanas, autoría,
 licencias, resultados de Search Console ni aprobación de AdSense.
+
+### Tanda de Luna Max: autoridad verificable y distribución responsable — 13 de septiembre de 2026
+
+Esta ronda separa tres cosas que suelen confundirse: una guía de gobernanza, una
+oportunidad de distribución y una mención que realmente puede medirse. Las
+fuentes nuevas se conservan como candidatas en `SOURCE_CATALOG.yml` y no
+convierten a EcoCuriosa en revista académica ni garantizan un enlace.
+
+| Prioridad | Pregunta/acción | Salida medible | Fuentes candidatas y límite |
+| --- | --- | --- | --- |
+| P1 | ¿Qué controles de autoría, revisión, licencia y correcciones puede adoptar una enciclopedia web? | Checklist público de responsabilidad, procedencia visual y correcciones; sin solicitar una indexación académica impropia | `doaj-application-guide`, `latindex-catalogo-2-methodology`, `scielo-admission-criteria`, `road-issn-directory`; son marcos para revistas/recursos académicos, no certificaciones de EcoCuriosa |
+| P1 | ¿Qué colaboración regional aportaría valor aunque no incluyera un enlace? | Pitch firmado, respuesta editorial y formato entregado (lámina, explicación o dato) | `scidev-work-with-us`, `the-conversation-editorial-guidelines`; requieren autoría/afiliación o aceptación editorial real |
+| P1 | ¿Puede una institución elegible distribuir una noticia o recurso? | Registro de institución responsable, fecha, URL y atribución | `eurekalert-release-guidelines`, `alphagalileo-posting-policy`; moderación y elegibilidad; el pago de envío no compra ranking |
+| P2 | ¿Qué recurso educativo merece distribución con licencia explícita? | Guía descargable con objetivos, licencia y atribución; reutilización documentada | OER Commons y MERLOT; son opciones educativas, no directorios de backlinks |
+| P1 | ¿Qué menciones de marca son reales y cuáles son solo ruido? | Dominio, URL, contexto, enlace y clasificación independiente/propia | `google-alerts-help`, junto con Search Console; las alertas tienen cobertura incompleta y requieren verificación manual |
+| P1 | ¿Qué temas muestran interés relativo antes de redactar? | Comparación Trends 0–100 y consultas GSC, sin inventar volumen | `google-trends-faq`; no es encuesta ni volumen absoluto |
+| P1 | ¿Qué colaboración genera visitas de calidad? | UTM aprobado + sesiones referidas, segunda página y retorno | `google-analytics-url-builders`, `google-search-console-ga-guide`; GSC y Analytics tienen definiciones distintas |
+| P2 | ¿Cuándo conviene News y cuándo no? | Decisión documentada por tipo de contenido y fecha de publicación | `google-news-sitemap`, `google-news-ranking`; News sitemap es para artículos de los últimos dos días y no garantiza inclusión |
+
+La primera acción no es abrir perfiles o pagar envíos: es cerrar las 31
+revisiones humanas pendientes y seleccionar una colaboración que aporte una
+contribución original. Luna puede preparar el pitch y el formato como borrador
+local; la persona responsable debe comprobar las fuentes, autoría, licencia y
+publicación antes de cualquier contacto externo.

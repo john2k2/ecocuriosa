@@ -1,5 +1,5 @@
 # Catálogo de fuentes candidatas para investigación editorial.
-# Revisado: 2026-09-12. Una entrada aquí no equivale a una cita verificada:
+# Revisado: 2026-09-13. Una entrada aquí no equivale a una cita verificada:
 # el editor debe abrir la página y registrar la fuente concreta en el artículo.
 version: 1
 checkedDate: '2026-09-12'
@@ -2467,3 +2467,123 @@ entries:
     evidenceType: documentation
     url: https://developers.cloudflare.com/speed/observatory/
     use: compare synthetic and RUM performance baselines for representative templates while declaring geographic and eligibility limits
+  - id: doaj-application-guide
+    authority: Directory of Open Access Journals
+    domain: editorial-governance
+    evidenceType: guidance
+    url: https://doaj.org/apply/guide/
+    use: visible editorial responsibility, peer review and licensing criteria; journal-only framework and not an EcoCuriosa certification
+  - id: latindex-catalogo-2-methodology
+    authority: Latindex
+    domain: editorial-governance
+    evidenceType: methodology
+    url: https://www.latindex.org/latindex/postulacion/postulacionCatalogo
+    use: 38 visible criteria for institutional scholarly journals; adapt as a checklist without claiming catalog eligibility
+  - id: scielo-admission-criteria
+    authority: SciELO
+    domain: editorial-governance
+    evidenceType: policy
+    url: https://www.scielo.org/es/sobre-el-scielo/metodologias-y-tecnologias/criterios-politica-y-procedimientos-para-la-admision-y-la-permanencia-de-revistas-cientificas-en-la-coleccion-scielo/
+    use: transparency, review, interoperability and editorial responsibility; intended for scientific journals, not a ranking signal for this site
+  - id: road-issn-directory
+    authority: ROAD / ISSN International Centre
+    domain: editorial-governance
+    evidenceType: directory
+    url: https://road.issn.org/
+    use: open-access serial and resource metadata requirements; inclusion depends on resource type and does not create authority by itself
+  - id: opendoar-inclusion-criteria
+    authority: OpenDOAR
+    domain: editorial-governance
+    evidenceType: policy
+    url: https://opendoar.ac.uk/help/inclusion-criteria
+    use: full open-access repository and reusable metadata criteria; only relevant if EcoCuriosa creates a genuine repository, not for ordinary articles
+  - id: openalex-sources-overview
+    authority: OpenAlex
+    domain: brand-authority
+    evidenceType: documentation
+    url: https://help.openalex.org/data/sources/
+    use: discover scholarly venues and metadata through an index that explicitly does not impose a quality threshold; never present as an endorsement
+  - id: scidev-work-with-us
+    authority: SciDev.Net
+    domain: distribution
+    evidenceType: editorial-guidance
+    url: https://www.scidev.net/global/content/work-with-us.html
+    use: possible regional LAC pitches and collaborations; acceptance, attribution and links are editorial decisions and not guaranteed
+  - id: the-conversation-editorial-guidelines
+    authority: The Conversation
+    domain: distribution
+    evidenceType: editorial-guidance
+    url: https://cdn.theconversation.com/static_files/files/1929/Global_Editorial_Guidelines.pdf
+    use: researcher authorship, fact-checking, sources and independence model; requires eligible authors/affiliations and is not a submission shortcut
+  - id: eurekalert-release-guidelines
+    authority: EurekAlert!
+    domain: distribution
+    evidenceType: policy
+    url: https://www.eurekalert.org/releaseguidelines
+    use: eligibility and content rules for institutional press releases; paid submission is not a paid ranking/link service and AI-only material is not accepted
+  - id: alphagalileo-posting-policy
+    authority: AlphaGalileo
+    domain: distribution
+    evidenceType: policy
+    url: https://www.alphagalileo.org/en-gb/AlphaGalileo/Help/Posting-policy
+    use: moderated research-news distribution for eligible institutions and contributors; not peer review or a guaranteed mention
+  - id: google-qualify-outbound-links
+    authority: Google Search Central
+    domain: distribution
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links
+    use: sponsored, UGC and nofollow relationship labels for commercial/community links; ordinary editorial citations should remain descriptive and relevant
+  - id: google-news-sitemap
+    authority: Google Search Central
+    domain: seo-indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
+    use: News sitemap only for articles created in the previous two days; do not add one to an evergreen encyclopedia for artificial freshness
+  - id: google-news-ranking
+    authority: Google News
+    domain: platform-distribution
+    evidenceType: guidance
+    url: https://support.google.com/news/publisher-center/answer/9606702?hl=en
+    use: relevance, prominence, authority, freshness and usability signals; eligibility does not guarantee inclusion or ranking and payments do not buy ranking
+  - id: google-search-console-ga-guide
+    authority: Google Search Central
+    domain: search-measurement
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console
+    use: pair Search Console query/click data with Analytics behavior and referrals; the systems use different definitions and should not be expected to match
+  - id: google-analytics-url-builders
+    authority: Google Analytics
+    domain: campaign-measurement
+    evidenceType: documentation
+    url: https://support.google.com/analytics/answer/10917952?hl=es
+    use: UTM source, medium and campaign tagging for approved collaborations; never add tracking parameters to canonical URLs or expose personal data
+  - id: google-trends-faq
+    authority: Google Trends
+    domain: demand-research
+    evidenceType: documentation
+    url: https://support.google.com/trends/answer/4365533?hl=es
+    use: normalized 0–100 relative interest for topic comparison; not absolute volume, a poll or proof of audience size
+  - id: google-alerts-help
+    authority: Google Search
+    domain: brand-monitoring
+    evidenceType: documentation
+    url: https://support.google.com/websearch/answer/4815696?hl=es
+    use: lightweight alerts for possible mentions and references; coverage is incomplete and every alert requires manual verification
+  - id: oer-commons-submission-guidelines
+    authority: OER Commons
+    domain: educational-distribution
+    evidenceType: submission-guidance
+    url: https://help.oercommons.org/support/solutions/articles/42000046850-submission-guidelines
+    use: licensing, attribution and context requirements for openly licensed educational resources; not a backlink directory
+  - id: merlot-contribute
+    authority: MERLOT
+    domain: educational-distribution
+    evidenceType: submission-guidance
+    url: https://merlotx.merlot.org/find/contribute.html
+    use: contribution path for openly licensed learning resources; requires a genuine educational asset and does not guarantee review or visibility
+  - id: merlot-peer-review
+    authority: MERLOT
+    domain: educational-distribution
+    evidenceType: peer-review-guidance
+    url: https://info.merlot.org/merlothelp/MERLOT_Peer_Review_Information.htm
+    use: peer-review expectations for educational resources; not a substitute for EcoCuriosa's own fact checking or AdSense review
