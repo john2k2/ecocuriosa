@@ -283,3 +283,19 @@ Las fichas siguen pendientes de revisión humana:
 
 Estas correcciones no convierten una observación puntual en una regla universal
 ni cambian `reviewedDate` o `reviewedBy`.
+
+## Fuentes nuevas de Luna Max para cerrar brechas de autoridad y medición
+
+El 14/09/2026 Luna Max localizó once URLs canónicas que no estaban en el
+catálogo. Se registran como candidatas de plan, no como verificaciones de los
+artículos:
+
+| Grupo | URLs |
+| --- | --- |
+| E‑E‑A‑T, autoría, correcciones y conflictos | <https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t>, <https://www.nature.com/nature/editorial-policies/authorship>, <https://www.nature.com/nature-portfolio/editorial-policies/correction-and-retraction-policy>, <https://www.nature.com/nature/editorial-policies/competing-interests> |
+| Search Console y definiciones de métricas | <https://developers.google.com/search/blog/2024/08/search-console-recommendations>, <https://support.google.com/webmasters/answer/16308503?hl=es>, <https://support.google.com/webmasters/answer/17011165?hl=es>, <https://support.google.com/webmasters/answer/7042828?hl=es> |
+| Actualizaciones científicas | <https://www.marinespecies.org/aphia.php?id=342218&p=taxdetails>, <https://science.gsfc.nasa.gov/earth/geodesy/researchareas/136/>, <https://www.nature.com/articles/s41467-025-67429-6> |
+
+Luna excluyó URLs ya catalogadas y no editó artículos. Cada candidato requiere
+apertura, comprobación de fecha, autoridad, método, muestra y límite antes de
+usarlo como cita.

@@ -145,6 +145,17 @@ afiliaciones, se pueden proponer `crossref-data-software-citation`,
 `icmje-authors-contributors`; siguen siendo patrones condicionales y no
 autorizan a inventar credenciales, DOI ni experiencia.
 
+La tanda de Luna Max del 14/09 añade controles para cerrar las brechas actuales:
+`google-e-e-a-t-experience`, `nature-authorship-policy`,
+`nature-correction-retraction-policy` y `nature-competing-interests-policy`
+para transparencia; `google-search-console-recommendations`,
+`search-console-insights-report`, `search-console-advanced-filtering-comparison`
+ y `search-console-impressions-position-clicks` para el ledger de medición; y
+`worms-architeuthis-dux-taxdetails`, `nasa-gsfc-geodynamo-research` y
+`greenland-shark-visual-system-ncomms-2026` para actualizar piezas existentes.
+Son candidatos del catálogo: no se copian al frontmatter ni se publican sin
+abrir la fuente y comprobar la afirmación concreta.
+
 ## Puertas de calidad y detención
 
 El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condiciones:

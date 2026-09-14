@@ -1,6 +1,6 @@
 # Biblioteca de inspiración editorial y fuentes primarias
 
-**Versión:** 12 de septiembre de 2026  
+**Versión:** 14 de septiembre de 2026
 **Propósito:** convertir investigación pública y confiable en briefs originales para EcoCuriosa, sin copiar artículos ni publicar automáticamente.
 
 Esta biblioteca no es una cola de publicaciones ni una bibliografía universal. Cada ficha es una **oportunidad de investigación**: antes de redactar, el editor debe abrir la fuente, comprobar su fecha y alcance, localizar el estudio o conjunto de datos que respalda cada afirmación y registrar las URLs concretas en el frontmatter del artículo.
@@ -726,3 +726,36 @@ AdSense.
 Todas las referencias quedan pendientes de apertura y aplicación por una
 persona responsable. Luna puede preparar tablas y borradores locales, pero no
 marca revisiones, no publica y no activa cuentas o etiquetas.
+
+### Fuentes nuevas de Luna Max para autoridad, medición y actualización científica — 14 de septiembre de 2026
+
+Esta tanda contiene once URLs canónicas que no estaban en el catálogo. Se
+incorporan como inspiración y controles de proceso; antes de citarlas en un
+artículo hay que abrirlas, comprobar la afirmación concreta y registrar el
+alcance real.
+
+| Área | Fuente | Brief o mejora que permite | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| E‑E‑A‑T | [Google: la experiencia añade una «E»](https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t) | Checklist «quién, cómo y por qué»: autoría visible, proceso y aportación propia | Marco conceptual de 2022; no es factor de ranking ni garantía |
+| Autoría | [Nature: Authorship](https://www.nature.com/nature/editorial-policies/authorship) | Separar autoría sustantiva, contribuciones y responsabilidad final; nunca atribuir autoría a Luna | Política de revistas; adaptar proporcionalmente al sitio |
+| Correcciones | [Nature: Correction and Retraction Policy](https://www.nature.com/nature-portfolio/editorial-policies/correction-and-retraction-policy) | Diferenciar corrección, adenda, aviso, expresión de preocupación y retractación en `/correcciones/` | No inventar DOI, Crossmark ni infraestructura de revista |
+| Conflictos | [Nature: Competing interests](https://www.nature.com/nature/editorial-policies/competing-interests) | Declarar patrocinios, afiliaciones y enlaces comerciales cuando existan | Umbrales dependen del caso; no sustituye asesoría legal |
+| Search Console | [Recomendaciones de Search Console](https://developers.google.com/search/blog/2024/08/search-console-recommendations) | Revisar mensualmente recomendaciones de indexación, sitemap, datos estructurados y tendencias | Función gradual; registrar evidencia antes de aplicar cambios |
+| Search Console | [Informe de Insights](https://support.google.com/webmasters/answer/16308503?hl=es) | Priorizar páginas y consultas principales, al alza o a la baja | Puede ocultar datos pequeños; disponibilidad y clasificación variables |
+| Search Console | [Filtros y comparaciones avanzadas](https://support.google.com/webmasters/answer/17011165?hl=es) | Comparar periodos por consulta, URL, país y dispositivo sin crear variantes canibalizadoras | Una hipótesis por vez; datos anonimizados pueden aparecer truncados |
+| Search Console | [Definiciones de impresiones, posición y clics](https://support.google.com/webmasters/answer/7042828?hl=es) | Añadir definiciones al snapshot para no llamar «audiencia» a una impresión | Métricas agregadas; no prueban causalidad ni sesiones |
+| Taxonomía | [WoRMS: *Architeuthis dux*](https://www.marinespecies.org/aphia.php?id=342218&p=taxdetails) | Ficha de nombre aceptado, AphiaID y sinónimos para la consulta del calamar | No demuestra tamaño, abundancia ni distribución actual |
+| Geodinamo | [NASA GSFC: Research Page — Geodynamo](https://science.gsfc.nasa.gov/earth/geodesy/researchareas/136/) | Diagrama reproducible que separa observación, modelo e inferencia del flujo del núcleo | Página de investigación, no dataset ni pronóstico |
+| Tiburón de Groenlandia | [Nature Communications: sistema visual](https://www.nature.com/articles/s41467-025-67429-6) | Actualizar la pieza con bastones, opsinas y adaptación a poca luz; conservar localidad y muestra | Individuos de Disko (2020–2024); expresión génica no demuestra antienvejecimiento |
+
+#### Plan de uso con Luna Max
+
+1. Convertir las cuatro primeras fuentes en un brief de responsabilidad,
+   autoría, conflictos y correcciones para revisión del titular.
+2. Usar las cuatro de Search Console en un ledger mensual: periodo, consulta,
+   URL, país, dispositivo, hipótesis, cambio único y resultado.
+3. Derivar solo actualizaciones de páginas existentes para *Architeuthis dux*,
+   geodinamo y tiburón de Groenlandia; no abrir una URL nueva hasta comprobar
+   que la pregunta no está resuelta.
+4. Mantener `humanApproval: pending`, `publish: false`, fuentes candidatas y
+   procedencia de imagen hasta la revisión humana.

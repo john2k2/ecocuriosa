@@ -2784,3 +2784,71 @@ entries:
     evidenceType: guidance
     url: https://support.google.com/adsense/answer/1348722?hl=es
     use: evaluar SEO, colaboraciones y redes legítimas; detener servicios que prometan volumen artificial o fuentes sospechosas
+  # Fuentes de Luna Max añadidas el 14/09/2026 para elevar E-E-A-T y
+  # documentar medición sin convertir guías externas en citas automáticas.
+  - id: google-e-e-a-t-experience
+    authority: Google Search Central
+    domain: eeat
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t
+    use: operacionalizar experiencia, especialización, autoridad y confianza con autoría, proceso y aportación propia visibles; no es una garantía de ranking
+  - id: nature-authorship-policy
+    authority: Nature Portfolio
+    domain: editorial-governance
+    evidenceType: editorial-policy
+    url: https://www.nature.com/nature/editorial-policies/authorship
+    use: distinguir autoría sustantiva, roles de contribución, aprobación y responsabilidad; nunca listar una herramienta de IA como autora
+  - id: nature-correction-retraction-policy
+    authority: Nature Portfolio
+    domain: editorial-governance
+    evidenceType: editorial-policy
+    url: https://www.nature.com/nature-portfolio/editorial-policies/correction-and-retraction-policy
+    use: modelar diferencias visibles entre corrección, adenda, aviso editorial, expresión de preocupación y retractación; adaptar sin inventar infraestructura de revista
+  - id: nature-competing-interests-policy
+    authority: Nature Portfolio
+    domain: editorial-governance
+    evidenceType: editorial-policy
+    url: https://www.nature.com/nature/editorial-policies/competing-interests
+    use: declarar patrocinios, afiliaciones y conflictos comerciales en una nota pública proporcional; no sustituye asesoría legal
+  - id: google-search-console-recommendations
+    authority: Google Search Central
+    domain: search-measurement
+    evidenceType: official-product-update
+    url: https://developers.google.com/search/blog/2024/08/search-console-recommendations
+    use: revisar recomendaciones de Search Console mensualmente y registrar fecha, evidencia y decisión antes de aplicar cambios
+  - id: search-console-insights-report
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/16308503?hl=es
+    use: identificar consultas y páginas principales, al alza o a la baja para una hipótesis editorial; la disponibilidad y clasificación pueden variar
+  - id: search-console-advanced-filtering-comparison
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-methodology
+    url: https://support.google.com/webmasters/answer/17011165?hl=es
+    use: comparar periodos equivalentes por consulta, página, país y dispositivo sin abrir URLs de variantes; una hipótesis por vez
+  - id: search-console-impressions-position-clicks
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-methodology
+    url: https://support.google.com/webmasters/answer/7042828?hl=es
+    use: definir impresiones, clics y posición media en snapshots; no equiparar impresiones con audiencia ni causalidad
+  - id: worms-architeuthis-dux-taxdetails
+    authority: WoRMS / MolluscaBase
+    domain: marine-taxonomy
+    evidenceType: taxonomic-database
+    url: https://www.marinespecies.org/aphia.php?id=342218&p=taxdetails
+    use: nombre aceptado, AphiaID, sinónimos y contexto nomenclatural de Architeuthis dux; no demuestra tamaño, abundancia ni distribución actual
+  - id: nasa-gsfc-geodynamo-research
+    authority: NASA Goddard Space Flight Center
+    domain: geodynamo
+    evidenceType: institutional-research-page
+    url: https://science.gsfc.nasa.gov/earth/geodesy/researchareas/136/
+    use: explicar el límite entre observaciones, modelos e inferencias en geodinamo; no es dataset ni pronóstico
+  - id: greenland-shark-visual-system-ncomms-2026
+    authority: Nature Communications
+    domain: greenland-shark
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s41467-025-67429-6
+    use: evidencia del sistema visual y adaptación a poca luz en tiburones de Groenlandia muestreados; conservar localidad, fechas y muestra, sin inferir mecanismos antienvejecimiento
