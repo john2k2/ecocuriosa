@@ -48,3 +48,26 @@ La ausencia de un error en el build o una respuesta HTTP 200 no cierra ninguna
 de estas comprobaciones. Los estados `403`/`203` de algunas fuentes requieren
 apertura manual o una fuente alternativa equivalente; no deben convertirse en
 citas automáticas.
+
+## Preanálisis asistido — 14 de septiembre de 2026
+
+Esta lectura sirve para orientar al editor y **no** cambia `reviewedDate`,
+`reviewedBy` ni la decisión de ninguna ficha. Resume los límites que conviene
+comprobar primero:
+
+| Artículo | Riesgo que debe quedar visible en la versión final |
+| --- | --- |
+| Arrecifes de coral | Separar área con estrés térmico, mortalidad y recuperación; comprobar el alcance de `<0,1 %`, `25 %` y `84,4 %`. |
+| Ballena azul | Mantener las cifras de ECG atribuidas a un macho libre y no convertirlas en fisiología universal. |
+| Calentamiento estratosférico | Confirmar la definición de «cada dos años» y mantener que un SSW no es un pronóstico local. |
+| Manta raya gigante | Tratar tamaños como máximos de ficha, el espejo como contingencia y la endotermia como hipótesis/modelización. |
+| Memoria del elefante | No convertir neuronas, llamadas o matriarcas en una medida universal de memoria/inteligencia; revisar denominadores y muestra post mortem. |
+| Tardígrados | Separar organismo completo de células, vacío de UV y estado tun de animal hidratado; retirar cualquier promesa médica. |
+| Pangolín gigante | Confirmar especie/material del ensayo mecánico, periodo de decomisos y categoría CITES vigente; no atribuir propiedades medicinales. |
+| Peces linterna | La migración vertical ya tiene enlace a PMC4728495, pero debe conservar límites regionales y acústicos; la luz roja es específica de *Malacosteus niger*. |
+| Vuelo silencioso de búhos | No transferir dB, porcentajes ni morfología de *Tyto alba* al búho real sin evidencia específica; valorar un título más general. |
+| Agujeros azules | Mantener separados los sitios (Taam Ja’, Amberjack, Green Banana y Gran Agujero Azul) y sus métodos, profundidades, anoxia y cronologías. |
+
+Las fuentes siguen requiriendo apertura y comparación con la frase exacta,
+incluida la imagen y sus derechos. El preanálisis no constituye una validación
+de AdSense ni una revisión editorial humana.
