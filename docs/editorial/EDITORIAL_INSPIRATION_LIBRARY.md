@@ -760,6 +760,29 @@ Una alerta de Search Console o un resultado de PageSpeed puede priorizar una
 fila, pero nunca puede marcarla como revisada ni generar una promesa de tráfico
 o monetización.
 
+### Fuentes primarias recientes para actualizar artículos con impresiones — 14 de septiembre de 2026
+
+Luna Max verificó estas referencias adicionales para las páginas que ya tienen
+señales de demanda. Se registran como candidatos de actualización, no como
+citas automáticas. Los tamaños de muestra, regiones y condiciones deben quedar
+visibles en cualquier borrador.
+
+| Orden | Artículo | Fuente candidata | Aporte editorial posible | Límite que debe mostrarse |
+| ---: | --- | --- | --- | --- |
+| 1 | Arrecifes de coral | `science-florida-acropora-functional-extinction-2025`, `usgs-florida-acropora-functional-extinction-2025` | Separar estrés térmico, blanqueamiento, mortalidad y extinción funcional regional con datos de Florida | Dos especies y una región; evento de 2023; no extrapolar porcentajes al arrecife mundial |
+| 2 | Calamar gigante | `micropub-giant-squid-reproduction-2025`, `noaa-large-deep-sea-squid-platforms-repository` | Añadir una sección sobre observaciones reproductivas y métodos de cámara sin perturbación | Varamiento/moribundez o encuentros oportunistas; n pequeño; no describir apareamiento normal |
+| 3 | Tiburón de Groenlandia | `aging-cell-greenland-shark-heart-2026` | Contrastar longevidad con histología cardíaca y presentar resiliencia como hipótesis | Seis muestras post mortem; no rendimiento cardíaco directo ni mecanismo anti-envejecimiento humano |
+| 4 | Geodinamo terrestre | `aps-geodynamo-buoyancy-regimes-2025`, `nasa-gsfc-geodynamo-research` | Explicar que los regímenes de flotabilidad cambian la convección y los campos simulados | Son simulaciones y dependen del régimen; no predicen una inversión inminente |
+| 5 | Geosmina y petricor | `microbial-ecology-geosmin-trophic-signal-2025`, `pmc-microbial-ecology-geosmin-trophic-signal-2025` | Separar la señal trófica en protistas de la percepción humana del olor | Tres protistas en laboratorio; no universalizar a suelos, lluvia, animales o personas |
+| 6 | Ballena azul | `plos-blue-whale-acoustic-foraging-2025` | Relacionar acústica pasiva, isótopos y condiciones de forraje como indicador ecológico | California Current y 2015–2021; proxies que no equivalen a abundancia ni conducta universal |
+| 7 | Mantarraya gigante | `boem-giant-manta-habitat-2023` | Crear un mapa de hábitat y movimiento con encuestas aéreas, satélite y acústica | Sureste de EE. UU.; cinco animales con etiqueta acústica; no inferir inteligencia o población global |
+
+Para estas siete actualizaciones, el primer párrafo debe responder la pregunta
+en 40–80 palabras, el segundo debe indicar método/muestra y la sección final
+debe separar lo observado de la inferencia. El editor abre cada DOI o PDF,
+comprueba el activo visual y registra `accessedDate`; Luna solo prepara el
+brief local con `humanApproval: pending` y `publish: false`.
+
 ### Fuentes nuevas de Luna Max para autoridad, medición y actualización científica — 14 de septiembre de 2026
 
 Esta tanda contiene once URLs canónicas que no estaban en el catálogo. Se

@@ -3230,3 +3230,57 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pubmed.ncbi.nlm.nih.gov/35323022/
     use: contextualizar geosmina como señal química en ensayos de laboratorio; mantener la especie, concentraciones y función probada separadas del petricor humano
+  - id: micropub-giant-squid-reproduction-2025
+    authority: microPublication Biology / Echizen-Matsushima Aquarium
+    domain: giant-squid
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.17912/micropub.biology.001476
+    use: describir observaciones reproductivas en dos machos varados de Architeuthis; no presentar varamiento ni transferencia espermatofórica como conducta reproductiva general
+  - id: aps-geodynamo-buoyancy-regimes-2025
+    authority: American Physical Society / Physical Review Fluids
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1103/b7ym-jxrf
+    use: explicar cómo los regímenes de flotabilidad térmica, química y termoquímica cambian la convección y el campo simulado; no convertir simulaciones en mediciones del núcleo
+  - id: microbial-ecology-geosmin-trophic-signal-2025
+    authority: Microbial Ecology / University of Colorado Boulder
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1007/s00248-025-02510-7
+    use: contextualizar efectos de geosmina sobre excistación y depredación en tres protistas de laboratorio; no universalizar a suelos, lluvia o humanos
+  - id: pmc-microbial-ecology-geosmin-trophic-signal-2025
+    authority: PubMed Central / Microbial Ecology
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11909094/
+    use: ofrecer texto abierto del ensayo de geosmina en protistas y conservar especies, controles y condiciones experimentales
+  - id: aging-cell-greenland-shark-heart-2026
+    authority: Aging Cell / Scuola Normale Superiore et al.
+    domain: greenland-shark
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1111/acel.70505
+    use: añadir evidencia histológica de seis tiburones aparentemente sanos y discutir resiliencia cardíaca como interpretación; no afirmar mecanismo anti-envejecimiento humano
+  - id: science-florida-acropora-functional-extinction-2025
+    authority: Science / NOAA Coral Reef Watch / USGS
+    domain: coral-bleaching
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1126/science.adx7825
+    use: distinguir ola de calor 2023, blanqueamiento, mortalidad y extinción funcional regional en Acropora de Florida; no extrapolar porcentajes al arrecife mundial
+  - id: usgs-florida-acropora-functional-extinction-2025
+    authority: U.S. Geological Survey
+    domain: coral-bleaching
+    evidenceType: official-research-summary
+    url: https://www.usgs.gov/publications/heat-driven-functional-extinction-caribbean-acropora-corals-floridas-coral-reef
+    use: consultar el resumen institucional del estudio de campo de Florida y conservar taxones, región y año 2023
+  - id: plos-blue-whale-acoustic-foraging-2025
+    authority: PLOS One / MBARI / Stanford / NOAA / UCSC
+    domain: blue-whale
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1371/journal.pone.0318624
+    use: relacionar cambios acústicos estacionales e interanuales con condiciones de forraje en el California Current; no usar cantos como abundancia universal ni mezclar con el ECG individual
+  - id: boem-giant-manta-habitat-2023
+    authority: Bureau of Ocean Energy Management
+    domain: giant-manta-ray
+    evidenceType: official-technical-report
+    url: https://espis.boem.gov/final%20reports/BOEM_2023-068.pdf
+    use: documentar encuestas aéreas y marcaje acústico regional de mantas del sureste de EE. UU.; no inferir población mundial, migración universal o inteligencia
