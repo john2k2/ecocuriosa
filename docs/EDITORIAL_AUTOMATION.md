@@ -26,6 +26,21 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 | Al aprobar el texto | Brief aprobado y licencia definida | Proponer alt text y, si corresponde, un prompt para diagrama original | Lista de activos y créditos, no una descarga automática |
 | Mensual | Rendimiento de artículos publicados | Comparar impresiones, CTR, páginas de entrada y navegación interna | Lista de actualizaciones o consolidaciones, no más páginas por volumen |
 
+## Estado de medición y conectores
+
+- **Search Console:** disponible en una sesión autenticada de solo lectura. La
+  instantánea más reciente está en
+  [`SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md`](./editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md);
+  no se guardan credenciales ni exportaciones privadas en el repositorio.
+- **Cloudflare:** la zona está conectada para configuración y comprobaciones
+  públicas. El endpoint histórico de Zone Analytics ya fue retirado por
+  Cloudflare y las próximas lecturas deben usar [GraphQL Analytics](https://developers.cloudflare.com/analytics/graphql-api/);
+  la instantánea agregada del 14/09 se conserva mientras se resuelve el
+  alcance del token de Analytics. No se presenta como usuarios ni visitas.
+- **Plugins:** no se añadió una integración de terceros. No hay un conector de
+  Search Console en la lista disponible que mejore la lectura autenticada
+  actual; instalar uno sin acceso real solo añadiría complejidad.
+
 ## Implementación gradual
 
 1. Exportar o conectar los datos de Search Console y Cloudflare en modo lectura; conservarlos fuera del repositorio si contienen datos de cuenta.
