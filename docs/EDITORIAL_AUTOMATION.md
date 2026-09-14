@@ -37,6 +37,11 @@ Los documentos operativos que convierten este principio en una puerta de calidad
   Cloudflare y las próximas lecturas deben usar [GraphQL Analytics](https://developers.cloudflare.com/analytics/graphql-api/);
   la instantánea agregada del 14/09 se conserva mientras se resuelve el
   alcance del token de Analytics. No se presenta como usuarios ni visitas.
+- **Rendimiento de campo:** el conector de Chrome DevTools para trazas y
+  Core Web Vitals no está habilitado en esta sesión. Las cifras de Lighthouse
+  y las comprobaciones HTTP sirven como laboratorio, no como P75 de usuarios
+  reales; esta puerta permanece abierta hasta disponer de CrUX, RUM o una
+  traza equivalente.
 - **Plugins:** no se añadió una integración de terceros. No hay un conector de
   Search Console en la lista disponible que mejore la lectura autenticada
   actual; instalar uno sin acceso real solo añadiría complejidad.
