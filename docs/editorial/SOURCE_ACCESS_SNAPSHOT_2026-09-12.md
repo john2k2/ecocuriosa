@@ -268,3 +268,18 @@ Una respuesta `200`, `203` o `403` no autoriza por sí sola a aprobar, eliminar,
 duplicar o automatizar una cita. Luna puede usar este snapshot para priorizar
 la apertura manual, pero no debe convertir el estado HTTP en una conclusión
 editorial ni publicar un artículo sin la revisión humana requerida.
+
+## Correcciones de alcance verificadas el 14/09/2026
+
+Una comprobación asistida de tres artículos P0 detectó y corrigió solo
+desajustes de alcance respaldados por las fuentes primarias o institucionales.
+Las fichas siguen pendientes de revisión humana:
+
+| Artículo | Ajuste | Fuente comprobada |
+| --- | --- | --- |
+| Geodinamo | 30–60 µT para el campo superficial; la magnetosfera contribuye a proteger la atmósfera; se añadió el contexto del USGS sobre inversiones y extinciones | <https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism>, <https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/>, <https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals> |
+| Calamar gigante | Observación realizada en 2004 y publicada en 2005; porción de tentáculo de 5,5 m y longitud total estimada superior a 8 m; medida ocular enlazada a Smithsonian Ocean | <https://pubmed.ncbi.nlm.nih.gov/16321779/>, <https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid> |
+| Pulpo mimo | Fondos de arena o limo en Sulawesi/Bali; primera observación en 1998 y descripción formal en 2005; clasificación Batesiana/Mülleriana no resuelta; modelo probable *Zebrias* y hasta 60 cm de brazos en ejemplares observados | <https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/>, <https://www.mapress.com/mrs/article/view/mr.25.2.1> |
+
+Estas correcciones no convierten una observación puntual en una regla universal
+ni cambian `reviewedDate` o `reviewedBy`.
