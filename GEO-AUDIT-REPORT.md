@@ -96,6 +96,8 @@ Search Console registra 32 páginas en la tabla de páginas; algunas impresiones
 
 **Reenvío autenticado — 14 de septiembre de 2026.** Tras publicar `/correcciones/`, se volvió a enviar `https://ecocuriosa.com/sitemap-index.xml`. Search Console lo muestra enviado y leído el 14/09, con estado **Correcto** y 43 URL descubiertas. El XML público contiene 44 URL, pero la nueva página todavía no aparece en el conteo ni en la cobertura; no se declara descubierta o indexada por Google hasta observarlo explícitamente.
 
+La inspección individual de `/correcciones/` devolvió «La URL no está en Google» y «Google no reconoce esta URL», sin rastreo ni sitemap de referencia. Se solicitó la indexación una sola vez y Search Console confirmó que la añadió a una cola de rastreo prioritaria; esta acción no garantiza inclusión ni posición.
+
 **Muestreo autenticado de inspección de URL — 13 de septiembre de 2026.** Se inspeccionaron la portada y cinco artículos prioritarios (`geodinamo`, `pulpo mimo`, relámpago del Catatumbo, tiburón de Groenlandia y leopardo de las nieves): **6/6** devolvieron «La URL está en Google» y «La página está indexada». Es una muestra representativa, no un reemplazo del informe de cobertura agregado, que todavía figura como «Se están procesando los datos».
 
 La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la única que coincide con los tres hosts de producción. Se observan además tres configuraciones antiguas de auto-instalación; no se borraron porque la producción entrega un solo beacon y eliminarlas sería una acción destructiva sin beneficio demostrado. Conviene revisarlas en el panel cuando haya tiempo, manteniendo una sola configuración canónica.

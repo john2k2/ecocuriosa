@@ -122,6 +122,14 @@ publicado genera 44 URL en el XML, pero Google aún no refleja la nueva página 
 el conteo; queda pendiente observar la siguiente lectura y la cobertura de
 indexación.
 
+La inspección individual de `https://ecocuriosa.com/correcciones/` devolvió
+«La URL no está en Google» y «Google no reconoce esta URL», sin último rastreo
+ni sitemap de referencia todavía. La página sí es pública, canónica y apta para
+rastreo según la comprobación local. Se pulsó **Solicitar indexación** una sola
+vez y Search Console confirmó «Se ha solicitado la indexación», añadiéndola a
+una cola de rastreo prioritaria. La solicitud no garantiza inclusión ni una
+posición concreta.
+
 ## Decisiones
 
 1. Priorizar pruebas de título y extracto en `geodinamo`, `architeuthis dux`,
