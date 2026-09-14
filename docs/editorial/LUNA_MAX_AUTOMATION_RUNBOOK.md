@@ -1,6 +1,6 @@
 # Runbook de automatización editorial con Luna Max
 
-**Versión:** 13 de septiembre de 2026
+**Versión:** 14 de septiembre de 2026
 **Estado:** diseño listo para revisión; no crea publicaciones ni modifica la cuenta de AdSense.
 
 Este runbook complementa [`LUNA_MAX_PROTOCOL.md`](./LUNA_MAX_PROTOCOL.md), el [scorecard de crecimiento](../EDITORIAL_GROWTH_SCORECARD.md) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md). Su objetivo es convertir señales reales de búsqueda en investigación y borradores revisables, manteniendo la decisión editorial y la publicación en manos de una persona. Los estados `203` y `403` de una comprobación automática se interpretan según el [snapshot de acceso a fuentes](./SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y requieren apertura manual, no descarte automático.
@@ -17,6 +17,20 @@ Luna Max recibe métricas agregadas y devuelve como máximo cinco oportunidades 
 - `humanApproval: pending` y `publish: false`.
 
 El resultado no se copia automáticamente a un artículo, no marca `reviewedDate`/`reviewedBy` y no carga datos de pagos, impuestos, identidad o AdSense.
+
+## Gobernanza de autoría y correcciones
+
+La página pública de [correcciones editoriales](https://ecocuriosa.com/correcciones/)
+define cómo informar una afirmación, qué comprobar y cuándo distinguir
+corrección, actualización o retirada. Luna puede ordenar un aviso y proponer un
+registro local, pero no puede decidir su validez ni publicar un historial.
+
+El contrato de cada borrador debe conservar una responsabilidad humana explícita:
+la herramienta utilizada, el propósito de la asistencia, la persona que verifica
+las fuentes y la aprobación final. Las referencias candidatas `icmje-ai-publishing`,
+`cope-retraction-guidelines` y `unesco-open-science-recommendation` sirven para
+revisar esa política; una guía externa no sustituye la comprobación del texto ni
+crea credenciales para el equipo.
 
 ## Flujo por etapas
 
