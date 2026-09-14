@@ -21,6 +21,8 @@
     "content:indexation-audit": "node scripts/audit-indexation.mjs",
     "content:rss-audit": "node scripts/audit-rss.mjs",
     "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs",
+    "content:responsive-images": "node scripts/generate-responsive-images.mjs",
+    "content:responsive-image-audit": "node scripts/audit-responsive-images.mjs",
     "content:navigation-audit": "node scripts/audit-navigation.mjs"
   },
   "dependencies": {

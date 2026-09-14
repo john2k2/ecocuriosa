@@ -61,6 +61,9 @@ const theme = categoryTheme[category] || { badgeBg: '#eaf3ec', badgeText: '#063b
 const articleUrl = `/${category}/${slug}/`;
 const isSvgImage = image.toLowerCase().endsWith('.svg');
 const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
+const imageWebpResponsive = isSvgImage
+  ? `${imageWebp.replace(/\.webp$/i, '-400.webp')} 400w, ${imageWebp.replace(/\.webp$/i, '-800.webp')} 800w, ${imageWebp} 1200w`
+  : undefined;
 
 // Cálculo dinámico de tiempo de lectura real (basado en cuerpo completo o resumen a 180 palabras/min)
 let estimatedMinutes: number;
@@ -86,7 +89,7 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
   <div class={`relative bg-[#efece3] ${featured ? 'lg:col-span-7 aspect-[16/10]' : 'aspect-[16/10]'}`}>
     <div class="block w-full h-full">
       <picture class="block w-full h-full">
-        {isSvgImage && <source type="image/webp" srcset={imageWebp} />}
+        {isSvgImage && <source type="image/webp" srcset={imageWebpResponsive} sizes={featured ? '(min-width: 1024px) 58vw, 100vw' : '(min-width: 1024px) 33vw, 100vw'} />}
         {isSvgImage && <source type="image/svg+xml" srcset={image} />}
         <img
           src={image}

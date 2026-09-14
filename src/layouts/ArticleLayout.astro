@@ -100,6 +100,9 @@ const modifiedDate = [updatedDate, reviewedDate]
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 const isSvgImage = image.toLowerCase().endsWith('.svg');
 const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
+const imageWebpResponsive = isSvgImage
+  ? `${imageWebp.replace(/\.webp$/i, '-400.webp')} 400w, ${imageWebp.replace(/\.webp$/i, '-800.webp')} 800w, ${imageWebp} 1200w`
+  : undefined;
 ---
 
 <BaseLayout
@@ -213,7 +216,7 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
 
     <figure class="mb-12 rounded-lg overflow-hidden border border-[#e6e2d8] bg-[#efece3]">
       <picture class="block w-full">
-        {isSvgImage && <source type="image/webp" srcset={imageWebp} />}
+        {isSvgImage && <source type="image/webp" srcset={imageWebpResponsive} sizes="(min-width: 1024px) 1200px, 100vw" />}
         {isSvgImage && <source type="image/svg+xml" srcset={image} />}
         <img
           src={image}

@@ -17,6 +17,9 @@ const featuredImageWebp = featuredImage.toLowerCase().endsWith('.svg')
   ? featuredImage.replace(/\.svg$/i, '.webp')
   : featuredImage;
 const featuredIsSvg = featuredImage.toLowerCase().endsWith('.svg');
+const featuredImageWebpResponsive = featuredIsSvg
+  ? `${featuredImageWebp.replace(/\.webp$/i, '-400.webp')} 400w, ${featuredImageWebp.replace(/\.webp$/i, '-800.webp')} 800w, ${featuredImageWebp} 1200w`
+  : undefined;
 const featuredCategoryLabel = featuredArticle
   ? {
       'fauna-fascinante': 'Fauna fascinante',
@@ -111,7 +114,7 @@ const biomes = [
 
             <div class="relative aspect-[8/5] mb-4 overflow-hidden rounded-md bg-[#052212]">
               <picture class="block w-full h-full">
-                {featuredIsSvg && <source type="image/webp" srcset={featuredImageWebp} />}
+                {featuredIsSvg && <source type="image/webp" srcset={featuredImageWebpResponsive} sizes="(min-width: 1024px) 42vw, 100vw" />}
                 {featuredIsSvg && <source type="image/svg+xml" srcset={featuredImage} />}
                 <img
                   src={featuredImage}
