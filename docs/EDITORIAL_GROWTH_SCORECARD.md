@@ -15,6 +15,8 @@
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 103 URLs y los ocho enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
+El control de metadatos también exige ahora una `accessedDate` por cada fuente de una ficha que ya declara `reviewedDate` y `reviewedBy`. En la lectura del 14/09/2026 hay fechas de acceso en 68/103 fuentes; las 35 restantes pertenecen a fichas pendientes y se completarán durante su revisión humana. La única ficha revisada (leopardo de las nieves) conserva fechas para sus 2/2 fuentes. Esta puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de acceso en prueba de exactitud ni marca revisiones por sí sola.
+
 El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. Las 32 WebP activas se sirven a un ancho mínimo de 1200 px desde las ilustraciones SVG originales, y el control `content:image-sitemap-audit` comprueba tanto la resolución como la alineación entre imagen declarada y URL cuando se agregue una ficha nueva.
 
 La plantilla de artículo reserva ahora la proporción real de las láminas activas (1200×750, `8/5`) en lugar de declarar una altura 16:9 que recortaba la ilustración; la auditoría de imagen mantiene el umbral de 1200 px como puerta de publicación.

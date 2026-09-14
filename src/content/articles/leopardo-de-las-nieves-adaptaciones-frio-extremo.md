@@ -17,11 +17,13 @@ sources:
   - title: "Snow Leopard Behavior"
     publisher: "Snow Leopard Trust"
     url: "https://snowleopard.org/snow-leopard-facts/behavior/"
+    accessedDate: 2026-09-14
     evidenceType: "institutional"
     scope: "Adaptaciones anatómicas y comportamiento descritos para sobrevivir en terreno montañoso y frío"
   - title: "Genetically based low oxygen affinities of felid hemoglobins"
     publisher: "Journal of Experimental Biology / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528707/"
+    accessedDate: 2026-09-14
     evidenceType: "primary"
     scope: "Comparación de afinidad de hemoglobina en félidos; no demuestra por sí sola una adaptación completa del leopardo de las nieves"
 reviewedDate: 2026-09-08
