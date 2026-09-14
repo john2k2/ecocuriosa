@@ -3,6 +3,7 @@ title: "Arrecifes de coral: pólipos, algas y blanqueamiento"
 description: "Comprende la endosimbiosis entre cnidarios y dinoflagelados, la calcificación marina y las causas biofísicas del blanqueamiento coralino."
 category: "especies-marinas"
 pubDate: 2026-08-16
+updatedDate: 2026-09-14
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/arrecife-coral-zooxantelas.svg"
 imageAlt: "Ilustración editorial de un arrecife de coral con pólipos y algas microscópicas"
@@ -28,6 +29,18 @@ sources:
     url: "https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php"
     evidenceType: "institutional"
     scope: "Actualización del 2 de junio de 2026 sobre el cuarto evento global y el estrés térmico acumulado"
+  - title: "Heat-driven functional extinction of Caribbean Acropora corals from Florida's Coral Reef"
+    publisher: "Science / NOAA Coral Reef Watch / USGS"
+    url: "https://doi.org/10.1126/science.adx7825"
+    accessedDate: 2026-09-14
+    evidenceType: "primary"
+    scope: "Estudio de campo de 2023 en unos 560 km del arrecife de Florida; mortalidad regional de dos especies de Acropora y exposición térmica, no porcentaje mundial"
+  - title: "Heat-driven functional extinction of Caribbean Acropora corals from Florida's Coral Reef"
+    publisher: "U.S. Geological Survey"
+    url: "https://www.usgs.gov/publications/heat-driven-functional-extinction-caribbean-acropora-corals-floridas-coral-reef"
+    accessedDate: 2026-09-14
+    evidenceType: "institutional"
+    scope: "Resumen institucional con temperaturas de al menos 31 °C durante 40,7 días de promedio y mortalidad distinta entre Florida Keys/Dry Tortugas y el sector offshore"
 featured: false
 ---
 
@@ -62,7 +75,13 @@ Muchos corales constructores viven asociados con dinoflagelados de la familia [S
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Cuando el calor se convierte en mortalidad local
+
+Una serie de campo publicada en *Science* examinó unos 560 kilómetros del arrecife de Florida después de la ola de calor de 2023. La temperatura superficial fue de al menos 31 °C durante un promedio de 40,7 días, entre 2,2 y cuatro veces la exposición registrada en años anteriores. En Florida Keys y Dry Tortugas murió entre el 97,8 % y el 100 % de las colonias estudiadas de *Acropora palmata* y *Acropora cervicornis*; en el sector offshore del sureste de Florida la mortalidad fue del 37,9 %.
+
+El estudio llama a esa pérdida una **extinción funcional regional** del arrecife de Florida. No significa que ambas especies se hayan extinguido del planeta ni que esos porcentajes describan todos los arrecifes: son resultados de dos especies, una región y un evento fechado. Esta distinción evita confundir el área que sufrió estrés térmico global con la mortalidad de colonias concretas.
+
+## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que los corales son plantas marinas o formaciones rocosas puramente minerales.
   * **Realidad científica contrastada:** Son animales invertebrados pertenecientes al filo Cnidaria (emparentados con las medusas y anémonas). Aunque secretan una estructura pétrea de carbonato cálcico, cada colonia está formada por miles de pequeños pólipos individuales con boca y tentáculos urticantes.
@@ -72,7 +91,7 @@ Muchos corales constructores viven asociados con dinoflagelados de la familia [S
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Por qué algunos corales se vuelven de colores fosforescentes antes de blanquearse?
 
@@ -96,3 +115,5 @@ El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene mucho
 - [What is coral bleaching?](https://oceanservice.noaa.gov/facts/coral_bleach.html) — NOAA Ocean Service; definición, estrés y recuperación.
 - [Coral bleaching from a single cell perspective](https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/) — *ISME Journal* / PubMed Central; mecanismos celulares.
 - [Current Global Bleaching: Status Update & Data Submission](https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php) — NOAA Coral Reef Watch; actualización fechada del evento global.
+- [Heat-driven functional extinction of Caribbean *Acropora* corals from Florida's Coral Reef](https://doi.org/10.1126/science.adx7825) — *Science*; estudio de campo sobre calor y mortalidad regional en 2023.
+- [Resumen del estudio sobre *Acropora* en el arrecife de Florida](https://www.usgs.gov/publications/heat-driven-functional-extinction-caribbean-acropora-corals-floridas-coral-reef) — USGS; alcance geográfico, temperaturas y diferencias de mortalidad.
