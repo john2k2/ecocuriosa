@@ -8,7 +8,7 @@
 | Área | Estado actual | Meta operativa | Evidencia que permite cerrarla |
 | --- | --- | --- | --- |
 | SEO técnico / infraestructura | 92/100 en la auditoría técnica; build y enlaces correctos | 92/100 sostenido | Cero regresiones en CI, canonicales únicos, sitemap estable y P75 de campo medido |
-| Diseño, navegación y móvil | Bueno; laboratorio fuerte, validación visual amplia pendiente | Excelente medible | Rutas clave comprobadas a 320/375/768/1440 px, teclado, foco, contraste y CLS antes/después de anuncios |
+| Diseño, navegación y móvil | Bueno; `srcset` responsive desplegado y laboratorio fuerte; validación visual amplia pendiente | Excelente medible | Rutas clave comprobadas a 320/375/768/1440 px, teclado, foco, contraste y CLS antes/después de anuncios |
 | Indexación | 44 URLs descubiertas; cobertura agregada todavía en proceso | Cobertura controlada | Inspecciones de URL, exclusiones explicadas y sitemap leído sin errores |
 | AdSense técnico | Preparado; sin slots reales ni aprobación | Listo tras aprobación | Estado **Ready**, CMP probado, políticas enlazadas, `ads.txt`, slots reales y prueba de CLS/visibilidad |
 | E-E-A-T editorial | 56/100; 1 de 32 fichas revisada | 75/100 antes de escalar | 32 revisiones humanas, autoría verificable, trazabilidad afirmación→fuente, procedencia visual y correcciones |
@@ -20,6 +20,7 @@
 2. **Autoría:** publicar nombres, experiencia y perfiles únicamente con autorización expresa. Mientras tanto, conservar la firma colectiva y no crear `Person`/`sameAs` ficticios.
 3. **AdSense y privacidad:** el titular completa CMP, perfil de pagos y datos fiscales con información real y verificable; el repositorio no guarda documentos, banco, PIN ni contraseñas. AdSense solo permite servir anuncios tras revisión y estado **Ready** ([preparar el sitio](https://support.google.com/adsense/answer/7299563?hl=en), [configurar la cuenta](https://support.google.com/adsense/answer/7402256?hl=en)).
 4. **Fuentes:** completar las 35 fechas de acceso que faltan durante la revisión, sin inventar fechas retroactivas. El catálogo es una lista de candidatos, no una aprobación de citas.
+5. **Rendimiento de imágenes:** conservar las variantes WebP 400/800/1200 px y ejecutar `pnpm content:responsive-image-audit` cuando se incorpore una ilustración; la medición pública posterior pasó de LCP 2,8 s a 1,7 s en laboratorio.
 
 ## Plan de 30 días
 
@@ -35,6 +36,7 @@
 - [ ] Revisar ocho artículos más, priorizando salud, conservación, cifras y afirmaciones experimentales.
 - [ ] Ejecutar prueba visual de portada, una categoría, un artículo y una página legal a 320/375/768/1440 px.
 - [ ] Comprobar teclado, foco visible, zoom 400 %, `alt`, dimensiones y ausencia de desplazamiento horizontal.
+- [x] Servir variantes WebP responsive para tarjetas y láminas; producción selecciona 800 px en móvil y el auditor confirma 32/32 artículos.
 - [ ] Inspeccionar en Search Console las páginas con muchas impresiones y CTR bajo antes de cambiar títulos o crear URLs.
 
 ### Días 15–21 — autoridad y contenido original
