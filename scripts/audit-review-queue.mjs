@@ -6,6 +6,7 @@ const articlesDirectory = path.join(root, 'src/content/articles');
 const reportPath = path.join(root, 'docs/editorial/CONTENT_REVIEW_PRECHECK_2026-09-12.md');
 const writeReport = process.argv.includes('--write');
 const json = process.argv.includes('--json');
+const generatedDate = new Date().toISOString().slice(0, 10);
 
 // This is an ordering and completeness aid. It never marks an article as
 // reviewed and deliberately cannot replace a person opening the sources.
@@ -90,12 +91,13 @@ function countMarkdownLinks(text, pattern) {
   return [...text.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].filter(([, href]) => pattern.test(href)).length;
 }
 
-function makeActions({ sources, inlineEvidenceLinks, internalLinks, signals, imageCredit, imageLicense, imageCreator, imageLicensePage }) {
+function makeActions({ sources, sourcesWithAccessedDate, inlineEvidenceLinks, internalLinks, signals, imageCredit, imageLicense, imageCreator, imageLicensePage }) {
   const actions = [
     'Abrir cada fuente y comprobar afirmaciones, cifras, fechas y límites en contexto.',
     'Registrar la persona real, la fecha efectiva y la decisión en la ficha de revisión.',
   ];
   if (sources < 2) actions.push('Añadir una segunda fuente primaria o institucional antes de aprobar.');
+  if (sourcesWithAccessedDate < sources) actions.push('Registrar la fecha real de acceso de cada fuente durante la revisión.');
   if (inlineEvidenceLinks === 0) actions.push('Añadir al menos una cita enlazada junto a la afirmación nuclear; la lista final por sí sola no basta.');
   if (signals.includes('cifras') || signals.includes('absolutos')) actions.push('Revisar cada número o superlativo con alcance, muestra, fecha y una cautela visible.');
   if (signals.includes('salud')) actions.push('Eliminar promesas de salud o convertirlas en una descripción limitada de la evidencia.');
@@ -117,6 +119,7 @@ for (const filename of filenames) {
   const frontmatter = article.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
   const body = article.slice(article.indexOf('---', 4) + 3);
   const sources = sourceBlocks(frontmatter);
+  const sourcesWithAccessedDate = (frontmatter.match(/^\s+accessedDate:\s+/gm) || []).length;
   const inlineBody = body.split(/### Referencias y Literatura Científica Consultada/i)[0];
   const inlineEvidenceLinks = countMarkdownLinks(inlineBody, /^https:\/\//i);
   const internalLinks = countMarkdownLinks(body, /^\//);
@@ -141,7 +144,8 @@ for (const filename of filenames) {
     imageCredit: Boolean(imageCredit),
     imageRightsComplete: /\b(?:original|propia|generada\s+para)\b.*\bEcoCuriosa\b/i.test(imageCredit)
       || (/^https:\/\//.test(imageLicense) && imageCreator && /^https:\/\//.test(imageLicensePage)),
-    actions: makeActions({ sources: sources.length, inlineEvidenceLinks, internalLinks, signals, imageCredit, imageLicense, imageCreator, imageLicensePage }),
+    sourcesWithAccessedDate,
+    actions: makeActions({ sources: sources.length, sourcesWithAccessedDate, inlineEvidenceLinks, internalLinks, signals, imageCredit, imageLicense, imageCreator, imageLicensePage }),
   });
 }
 
@@ -159,6 +163,7 @@ const summary = {
   missingFromQueue,
   priorityCounts: Object.fromEntries([1, 2, 3, 4, 5].map((priority) => [priority, pending.filter((record) => record.priority === priority).length])),
   pendingWithInlineEvidence: pending.filter(({ inlineEvidenceLinks }) => inlineEvidenceLinks > 0).length,
+  pendingWithCompleteAccessDates: pending.filter(({ sources, sourcesWithAccessedDate }) => sourcesWithAccessedDate === sources).length,
   pendingWithCompleteImageRights: pending.filter(({ imageRightsComplete }) => imageRightsComplete).length,
   pendingWithSignals: pending.filter(({ signals }) => signals.length > 0).length,
 };
@@ -170,6 +175,7 @@ if (json) {
     `Cola editorial auditada: ${summary.pendingReviews} pendientes / ${summary.articlesAudited} artículos`,
     `Revisiones registradas: ${summary.reviewedArticles}`,
     `Evidencia enlazada dentro del cuerpo: ${summary.pendingWithInlineEvidence}/${summary.pendingReviews}`,
+    `Fechas de acceso completas: ${summary.pendingWithCompleteAccessDates}/${summary.pendingReviews}`,
     `Derechos de imagen completos o declarados originales: ${summary.pendingWithCompleteImageRights}/${summary.pendingReviews}`,
     `Artículos con señales de riesgo para lectura humana: ${summary.pendingWithSignals}/${summary.pendingReviews}`,
     `Orden: ${summary.priorityCounts[1]} alto riesgo, ${summary.priorityCounts[2]} cifras/alcance, ${summary.priorityCounts[3]} método/contexto, ${summary.priorityCounts[4]} cierre`,
@@ -181,7 +187,7 @@ if (writeReport) {
   const report = [
     '# Prechequeo de la cola editorial',
     '',
-    `Generado desde el repositorio el 2026-09-12. Hay **${summary.pendingReviews} revisiones pendientes** de ${summary.articlesAudited} artículos; este documento ordena señales estáticas y acciones sugeridas, pero no registra una aprobación humana.`,
+    `Generado desde el repositorio el ${generatedDate}. Hay **${summary.pendingReviews} revisiones pendientes** de ${summary.articlesAudited} artículos; este documento ordena señales estáticas y acciones sugeridas, pero no registra una aprobación humana.`,
     '',
     '## Resumen',
     '',
@@ -198,13 +204,13 @@ if (writeReport) {
     '3. Comprobar la ilustración y su procedencia; no marcar una licencia por inferencia.',
     '4. Registrar nombre real, fecha real y decisión en `ARTICLE_REVIEW_TEMPLATE.md`; después ejecutar la auditoría estricta y el build.',
     '',
-    '| Prioridad | Artículo | Fuentes | Citas en cuerpo | Enlaces propios | Señales | Imagen/derechos | Acción inmediata |',
-    '| ---: | --- | ---: | ---: | ---: | --- | --- | --- |',
+    '| Prioridad | Artículo | Fuentes | Acceso | Citas en cuerpo | Enlaces propios | Señales | Imagen/derechos | Acción inmediata |',
+    '| ---: | --- | ---: | ---: | ---: | ---: | --- | --- | --- |',
     ...pending.map((record) => {
       const signals = record.signals.length ? record.signals.map((key) => signalRules.find((rule) => rule.key === key).label).join(', ') : '—';
       const image = record.imageRightsComplete ? 'completa/original' : (record.imageCredit ? 'crédito, falta comprobar' : 'sin crédito');
       const firstAction = record.actions[2] ?? record.actions[0];
-      return `| ${record.priority} · ${record.priorityLabel} | [\`${record.slug}\`](../../src/content/articles/${record.slug}.md) | ${record.sources} | ${record.inlineEvidenceLinks} | ${record.internalLinks} | ${signals} | ${image} | ${firstAction} |`;
+      return `| ${record.priority} · ${record.priorityLabel} | [\`${record.slug}\`](../../src/content/articles/${record.slug}.md) | ${record.sources} | ${record.sourcesWithAccessedDate}/${record.sources} | ${record.inlineEvidenceLinks} | ${record.internalLinks} | ${signals} | ${image} | ${firstAction} |`;
     }),
     '',
     '## Límites',
