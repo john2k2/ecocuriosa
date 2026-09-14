@@ -6,6 +6,7 @@ Generado desde el repositorio el 2026-09-14. Hay **31 revisiones pendientes** de
 
 - Revisiones registradas: 1/32.
 - Evidencia enlazada dentro del cuerpo: 31/31 pendientes.
+- Fechas de acceso completas: 16/31 pendientes.
 - Derechos de imagen completos o declarados originales: 31/31 pendientes.
 - Artículos con señales de riesgo que requieren lectura humana: 22/31.
 - Orden de trabajo: 9 de alto riesgo, 9 de cifras/alcance, 9 de método/contexto y 4 de cierre.

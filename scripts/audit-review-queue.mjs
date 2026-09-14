@@ -193,6 +193,7 @@ if (writeReport) {
     '',
     `- Revisiones registradas: ${summary.reviewedArticles}/${summary.articlesAudited}.`,
     `- Evidencia enlazada dentro del cuerpo: ${summary.pendingWithInlineEvidence}/${summary.pendingReviews} pendientes.`,
+    `- Fechas de acceso completas: ${summary.pendingWithCompleteAccessDates}/${summary.pendingReviews} pendientes.`,
     `- Derechos de imagen completos o declarados originales: ${summary.pendingWithCompleteImageRights}/${summary.pendingReviews} pendientes.`,
     `- Artículos con señales de riesgo que requieren lectura humana: ${summary.pendingWithSignals}/${summary.pendingReviews}.`,
     `- Orden de trabajo: ${summary.priorityCounts[1]} de alto riesgo, ${summary.priorityCounts[2]} de cifras/alcance, ${summary.priorityCounts[3]} de método/contexto y ${summary.priorityCounts[4]} de cierre.`,
