@@ -10,6 +10,11 @@
 
 El plan ejecutable con responsables, umbrales, contrato de Luna Max y criterios de detención está en [`docs/EDITORIAL_GROWTH_SCORECARD.md`](docs/EDITORIAL_GROWTH_SCORECARD.md) y el runbook operativo en [`docs/editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md`](docs/editorial/LUNA_MAX_AUTOMATION_RUNBOOK.md).
 
+La disponibilidad pública se comprobó después del último despliegue: las 44
+URLs del sitemap devolvieron HTTP 200, las cinco rutas de escaneo permanecieron
+en 403 y los encabezados de seguridad/caché esperados estuvieron presentes. La
+evidencia reproducible está en la [instantánea de runtime](docs/editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-14.md).
+
 ## Resumen ejecutivo
 
 EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada. Tras la corrección textual preliminar, el auditor no detecta advertencias heurísticas; esa señal no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
