@@ -3136,3 +3136,77 @@ entries:
     evidenceType: official-product-documentation
     url: https://support.google.com/youtube/answer/9002587?hl=es
     use: medir alcance, CTR, retención y watch time de un canal real; métricas nativas no equivalen a tráfico web
+  # Fuentes oficiales adicionales de Luna Max para cerrar las brechas P0 de
+  # fechas, autoría, rendimiento de campo, consentimiento y distribución.
+  - id: google-publication-dates
+    authority: Google Search Central
+    domain: editorial-transparency
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/appearance/publication-dates
+    use: mostrar fechas de publicación y actualización coherentes con datePublished y dateModified; nunca inventar frescura
+  - id: google-reviews-system
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/appearance/reviews-system
+    use: orientar futuros análisis y comparaciones con investigación propia, criterios explícitos y evidencia; no es una fórmula general de ranking
+  - id: google-pagespeed-insights-about
+    authority: Google PageSpeed Insights
+    domain: field-performance
+    evidenceType: official-documentation
+    url: https://developers.google.com/speed/docs/insights/v5/about
+    use: separar métricas de laboratorio de datos CrUX reales y declarar cuándo falta una muestra de usuarios
+  - id: google-pagespeed-insights-api
+    authority: Google PageSpeed Insights
+    domain: field-performance
+    evidenceType: official-api-documentation
+    url: https://developers.google.com/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed
+    use: programar mediciones sintéticas de móvil y escritorio para portada, categorías y artículos sin publicar contenido
+  - id: crux-methodology
+    authority: Chrome UX Report
+    domain: field-performance
+    evidenceType: official-methodology
+    url: https://developer.chrome.com/docs/crux/methodology
+    use: comprobar elegibilidad y límites de CrUX antes de interpretar Core Web Vitals de campo; el umbral de popularidad no se publica
+  - id: google-consent-mode-overview
+    authority: Google Tag Platform
+    domain: privacy-consent
+    evidenceType: official-documentation
+    url: https://developers.google.com/tag-platform/security/concepts/consent-mode
+    use: diseñar estados concedido y denegado, distinguiendo modo básico y avanzado antes de activar medición o anuncios personalizados
+  - id: adsense-ad-serving-settings
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-product-documentation
+    url: https://support.google.com/adsense/answer/3234887
+    use: revisar anuncios personalizados, anuncios limitados, cookies propias y proveedores después de la aprobación y según consentimiento
+  - id: adsense-ad-tech-partners
+    authority: Google AdSense
+    domain: privacy-consent
+    evidenceType: official-product-documentation
+    url: https://support.google.com/adsense/answer/9012903
+    use: hacer coincidir la lista de partners de tecnología publicitaria con lo que el CMP informa a usuarios del EEE, Reino Unido y Suiza
+  - id: google-get-on-google
+    authority: Google Search Central
+    domain: seo-indexing
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/fundamentals/get-on-google
+    use: priorizar enlaces legítimos, HTML rastreable, móvil, HTTPS y Search Console; no comprar enlaces ni tráfico
+  - id: google-news-other-platforms
+    authority: Google News
+    domain: platform-distribution
+    evidenceType: official-product-documentation
+    url: https://support.google.com/news/publisher-center/answer/9607026?hl=es
+    use: entender que Top Stories y Noticias seleccionan contenido automáticamente y que solo las piezas realmente noticiosas deben tratarse como News
+  - id: google-news-auto-generated-pages
+    authority: Google News
+    domain: platform-distribution
+    evidenceType: official-product-update
+    url: https://support.google.com/news/publisher-center/answer/15898024?hl=es
+    use: no depender de envíos manuales al Publisher Center para crear páginas de publicación; mantener identidad pública y favicon coherentes
+  - id: google-news-content-blocking
+    authority: Google News
+    domain: platform-distribution
+    evidenceType: policy
+    url: https://support.google.com/news/publisher-center/answer/9520026
+    use: evitar copias completas, reescrituras con sinónimos y distribución manipulativa; aplicar noindex al republicador cuando corresponda
