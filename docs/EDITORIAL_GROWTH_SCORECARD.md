@@ -67,6 +67,14 @@ Tras publicar las WebP de 1200 px y purgar sus 11 objetos antiguos en Cloudflare
 
 La lectura pública posterior al ajuste de proporción de las láminas (12/09/2026) dio 98/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 1,2 s, LCP 2,1 s, CLS 0 y TBT 140 ms. La variación es de laboratorio; las advertencias siguen concentradas en APIs obsoletas y recomendaciones de red/renderizado, no en contenido bloqueado.
 
+La medición Lighthouse pública más reciente (14/09/2026, emulación móvil)
+dio 93/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y
+100 en SEO; FCP 1,7 s, LCP 2,8 s, CLS 0 y TBT 140 ms. Marcó como oportunidades
+sintéticas la entrega de imágenes de 1200 px en tarjetas de unos 378 px, la
+hoja CSS render-blocking, la caché de scripts gestionados y APIs obsoletas de
+JavaScript Detections. No se borraron imágenes ni se desactivó protección de
+Cloudflare; esta lectura no sustituye P75 de campo.
+
 La verificación móvil posterior al despliegue de las correcciones editoriales
 (13/09/2026, una ejecución pública) dio 99/100 en rendimiento, 100 en
 accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP y LCP de 1,5 s, CLS
