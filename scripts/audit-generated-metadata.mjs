@@ -19,6 +19,8 @@ async function htmlFiles(directory) {
 const files = await htmlFiles(distDirectory);
 const issues = [];
 const canonicalOwners = new Map();
+const titleOwners = new Map();
+const descriptionOwners = new Map();
 let indexableCount = 0;
 
 function meta(html, name) {
@@ -62,6 +64,8 @@ for (const file of files) {
   const canonical = html.match(/<link\s+[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
     ?? html.match(/<link\s+[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i)?.[1]
     ?? '';
+  const canonicalCount = [...html.matchAll(/<link\s+[^>]*(?:rel=["']canonical["'][^>]*href=["'][^"']+["']|href=["'][^"']+["'][^>]*rel=["']canonical["'])[^>]*>/gi)].length;
+  const ogUrl = property(html, 'og:url');
   const issue = (message) => issues.push(`${relative}: ${message}`);
 
   if (!/<html\b[^>]*\blang=["']es["']/i.test(html)) issue('falta lang="es"');
@@ -69,8 +73,14 @@ for (const file of files) {
   if (!title) issue('falta <title>');
   if (!description) issue('falta meta description');
   if (!noindex) {
+    // Character count is only a sanity guard: Google truncation depends on
+    // rendered width, so allow Spanish editorial titles up to 80 characters.
+    if (title.length < 10 || title.length > 80) issue(`title fuera de 10–80 caracteres (${title.length})`);
     if (description.length < 50 || description.length > 160) issue(`description fuera de 50–160 (${description.length})`);
+    if (canonicalCount !== 1) issue(`canonical debe aparecer exactamente una vez (${canonicalCount})`);
     if (!canonical.startsWith(`${siteOrigin}/`)) issue(`canonical no canónico: ${canonical || '(vacío)'}`);
+    if (!ogUrl) issue('falta og:url');
+    else if (ogUrl !== canonical) issue(`og:url no coincide con canonical: ${ogUrl}`);
     if (!property(html, 'og:title')) issue('falta og:title');
     if (!property(html, 'og:description')) issue('falta og:description');
     if (!property(html, 'og:image')) issue('falta og:image');
@@ -92,6 +102,14 @@ for (const file of files) {
       const owner = canonicalOwners.get(canonical);
       if (owner) issue(`canonical duplicado con ${owner}`);
       else canonicalOwners.set(canonical, relative);
+    }
+    for (const [value, owners, label] of [
+      [title, titleOwners, 'title'],
+      [description, descriptionOwners, 'description'],
+    ]) {
+      const owner = owners.get(value);
+      if (owner) issue(`${label} duplicado con ${owner}`);
+      else owners.set(value, relative);
     }
   }
 }
