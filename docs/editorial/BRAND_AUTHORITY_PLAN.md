@@ -7,7 +7,7 @@
 
 La búsqueda pública del nombre `EcoCuriosa` devuelve principalmente el propio dominio. No hay todavía una base defendible de menciones independientes, enlaces editoriales, citas en comunidades o perfiles sociales verificados. Por eso la puntuación de autoridad de marca y de optimización por plataforma se mantiene conservadora: no se fabrican señales con perfiles vacíos, comentarios repetidos ni enlaces de baja calidad.
 
-Las métricas de Search Console son todavía una muestra pequeña (112 impresiones, 0 clics, posición media 14). Las solicitudes de Cloudflare incluyen bots y recursos, así que no se usan para declarar audiencia humana. La primera meta es construir evidencia de utilidad y reconocimiento, no inflar el número de publicaciones.
+Las métricas de Search Console son todavía una muestra pequeña: la lectura del 13/09 registra 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1. Las solicitudes de Cloudflare incluyen bots y recursos, así que no se usan para declarar audiencia humana. La primera meta es construir evidencia de utilidad y reconocimiento, no inflar el número de publicaciones. El detalle está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md).
 
 ## Principios de distribución
 

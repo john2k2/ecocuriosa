@@ -2,7 +2,12 @@
 
 Este registro conserva una búsqueda de oportunidades para mejorar los artículos existentes y diseñar futuras piezas. No es una lista de publicaciones aprobadas ni una verificación editorial: cada fuente debe abrirse, contrastarse y asignarse a una afirmación concreta antes de entrar en `sources` de un artículo.
 
-La muestra de Search Console sigue siendo pequeña (112 impresiones, 0 clics y posición media 14). Por eso las propuestas priorizan profundidad, visualización y trazabilidad sobre crear muchas URLs nuevas. Los IDs apuntan a entradas ya registradas en [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml); no se duplicaron fuentes.
+La muestra de Search Console sigue siendo pequeña. La lectura de ese día fue
+112 impresiones, 0 clics y posición media 14; el refresco autenticado del
+13/09 registra 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1. Por
+eso las propuestas priorizan profundidad, visualización y trazabilidad sobre
+crear muchas URLs nuevas. Los IDs apuntan a entradas ya registradas en
+[`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml); no se duplicaron fuentes.
 
 | Prioridad | Pregunta people-first | Fuente candidata del catálogo | Afirmación acotada que podría respaldar | Límite obligatorio | Imagen original sugerida |
 | --- | --- | --- | --- | --- | --- |

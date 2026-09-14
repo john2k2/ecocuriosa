@@ -40,7 +40,7 @@ El resultado no se copia automáticamente a un artículo, no marca `reviewedDate
 
 ## Priorización con la señal actual
 
-La instantánea del 12/09/2026 tiene 112 impresiones, 0 clics, CTR 0 % y posición media 14. Las primeras oportunidades son `geodinamo` (11), `pulpo mimo` (8), `geodinamo terrestre` (2), `architeuthis dux` (2) y `relampago de catatumbo` (2). La automatización debe tratar esas cifras como una muestra pequeña: prioriza mejorar título, respuesta inicial y recorrido interno antes de crear variantes.
+La lectura autenticada del 13/09/2026 tiene 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1 (selector de 3 meses; datos visibles del 5–11/09). Las primeras oportunidades son `architeuthis dux` (16), `geodinamo` (14) y `pulpo mimo` (13), seguidas por `neuronas espejo bostezo` (3), `geodinamo terrestre` (2), `pez luciernaga` (2) y `relampago de catatumbo` (2). La automatización debe tratar esas cifras como una muestra pequeña: prioriza mejorar título, respuesta inicial y recorrido interno antes de crear variantes. El detalle reproducible está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md).
 
 Regla de decisión:
 

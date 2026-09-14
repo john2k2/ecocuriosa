@@ -73,6 +73,21 @@ red; el resultado solo confirma entrega HTTP y no reemplaza la lectura humana.
 | [ROR Registry](https://ror.org/registry/) | `200` |
 | [ICMJE authors and contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) | `200` |
 
+## Comprobación oficial de descubrimiento y medición — 2026-09-14
+
+La búsqueda dirigida para ampliar el plan de Bing/IndexNow y la lectura de
+caídas de tráfico comprobó estas cinco URLs con `GET`; las cinco respondieron
+`200` en esta red. Es una comprobación de entrega, no una prueba de cuenta
+verificada, rastreo, indexación ni ranking.
+
+| Fuente | Estado |
+| --- | ---: |
+| [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a) | `200` |
+| [IndexNow](https://www.bing.com/webmasters/help/indexnow-0z209wby) | `200` |
+| [Opciones de envío de URL de Bing](https://www.bing.com/webmasters/help/url-submission-62f2860b) | `200` |
+| [Directivas robots de Bing](https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240) | `200` |
+| [Depuración de caídas de tráfico de Google](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops) | `200` |
+
 ## Comprobación manual selectiva en navegador
 
 El mismo día se abrieron tres registros alternativos para las fuentes que

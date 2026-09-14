@@ -625,3 +625,36 @@ La imagen recomendada para estos briefs es un diagrama original que separe
 observación, modelo e inferencia. Luna puede preparar el esquema y el texto
 alternativo, pero no debe presentar una ilustración sintética como fotografía ni
 registrar una revisión humana que no haya ocurrido.
+
+### Fuentes oficiales nuevas para el plan de descubrimiento y medición — 14 de septiembre de 2026
+
+Esta ronda completa el plan con documentación oficial de Bing Webmaster Tools
+y una guía metodológica de Google Search Central. Se usan para diseñar el flujo
+de publicación y medición, no como garantía de indexación, citas de Copilot,
+Discover, tráfico o ingresos.
+
+| Fuente | Uso práctico en EcoCuriosa | Límite / siguiente paso |
+| --- | --- | --- |
+| [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a) | Revisar que cada URL tenga un tema único, HTML visible, enlaces rastreables, canonical y sitemap coherentes para Bing Search y Copilot. | No sustituye la revisión de Google ni demuestra inclusión en Bing; comprobar después en una cuenta Bing verificada. |
+| [IndexNow](https://www.bing.com/webmasters/help/indexnow-0z209wby) | Diseñar una notificación controlada cuando una URL se publique, actualice o retire, conservando un ledger de URL y fecha. | El envío no equivale a rastreo o indexación; no activar credenciales ni automatización sin una cuenta verificada y una prueba de una sola URL. |
+| [Opciones de envío de URL de Bing](https://www.bing.com/webmasters/help/url-submission-62f2860b) | Elegir IndexNow y sitemap para cambios reales; evitar envíos masivos de variantes. | El sitemap sigue siendo necesario; no usar envíos para compensar contenido sin revisión. |
+| [Directivas robots de Bing](https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240) | Auditar `noindex`, `nosnippet` y `noarchive` antes de impedir que una pieza sea elegible para búsqueda o grounding. | Robots controla acceso/uso, no garantiza indexación; probar el HTML servido y no bloquear el rastreo de páginas que deben evaluarse. |
+| [Depuración de caídas de tráfico de Google](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops) | Crear comparaciones fechadas por consulta, página, país, dispositivo y tipo de búsqueda antes de cambiar títulos o abrir nuevas URLs. | La guía no aporta datos de EcoCuriosa; la muestra actual de 179 impresiones sigue siendo exploratoria. |
+
+#### Briefs derivados para Luna Max (solo investigación local)
+
+1. **Ledger de publicación:** ante cada cambio sustantivo, registrar URL
+   canónica, `lastmod`, motivo, revisión humana y notificación IndexNow (si se
+   habilita). No publicar ni enviar nada automáticamente.
+2. **Matriz de elegibilidad para Copilot/Discover:** comprobar HTML visible,
+   entidad, fuente, imagen representativa ≥1200 px, canonical y sitemap; la
+   salida debe ser un diagnóstico con incertidumbres, no una puntuación de
+   visibilidad.
+3. **Experimento CTR:** elegir una sola URL con impresiones, cambiar solo
+   título o extracto, fijar una ventana de al menos 28 días y comparar la misma
+   segmentación en Search Console. Revertir si la precisión o la utilidad cae.
+
+Las cinco fuentes están registradas con IDs únicos en
+`docs/editorial/SOURCE_CATALOG.yml`; siguen siendo referencias de plan hasta
+que el editor las abra, las aplique a una afirmación concreta y cierre la
+revisión humana del artículo.

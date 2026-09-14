@@ -1,8 +1,8 @@
 # Catálogo de fuentes candidatas para investigación editorial.
-# Revisado: 2026-09-13. Una entrada aquí no equivale a una cita verificada:
+# Revisado: 2026-09-14. Una entrada aquí no equivale a una cita verificada:
 # el editor debe abrir la página y registrar la fuente concreta en el artículo.
 version: 1
-checkedDate: '2026-09-13'
+checkedDate: '2026-09-14'
 entries:
   - id: google-helpful-content
     authority: Google Search Central
@@ -2644,3 +2644,36 @@ entries:
     evidenceType: institutional-publication
     url: https://pubs.usgs.gov/publication/70030382
     use: registro climático de aproximadamente 1.500 años del Gran Agujero Azul; no sustituye profundidad o cronología de otros agujeros azules
+  # Fuentes oficiales añadidas el 14/09/2026 para ampliar el plan de
+  # indexación y medición fuera de Google. Son guías operativas, no promesas
+  # de tráfico ni de inclusión en resultados generativos.
+  - id: bing-webmaster-guidelines-2026
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-guidance
+    url: https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a
+    use: combinar sitemaps, enlaces rastreables, canonicales, HTML semántico y contenido verificable para Bing Search, Copilot y grounding; no garantiza indexación
+  - id: bing-indexnow-protocol
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-documentation
+    url: https://www.bing.com/webmasters/help/indexnow-0z209wby
+    use: notificar altas, actualizaciones y bajas de URL mediante IndexNow; registrar estado y no confundir envío con indexación
+  - id: bing-url-submission-options
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-documentation
+    url: https://www.bing.com/webmasters/help/url-submission-62f2860b
+    use: comparar IndexNow, sitemaps y envíos manuales; preferir automatización controlada y evitar envíos masivos sin cambio real
+  - id: bing-robots-meta-directives
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-documentation
+    url: https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240
+    use: revisar noindex, nosnippet, noarchive y controles de uso para Bingbot/Copilot sin bloquear el rastreo de páginas que necesitan ser evaluadas
+  - id: google-search-traffic-drop-debugging
+    authority: Google Search Central
+    domain: search-measurement
+    evidenceType: official-methodology
+    url: https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops
+    use: comparar periodos equivalentes por consulta, URL, país, dispositivo y tipo de búsqueda antes de atribuir una caída o cambio de CTR
