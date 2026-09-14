@@ -21,6 +21,8 @@ El sitemap generado incluye ahora una entrada de imagen WebP para cada una de la
 
 La plantilla de artículo reserva ahora la proporción real de las láminas activas (1200×750, `8/5`) en lugar de declarar una altura 16:9 que recortaba la ilustración; la auditoría de imagen mantiene el umbral de 1200 px como puerta de publicación.
 
+Cada artículo muestra también un estado editorial explícito: las fichas pendientes indican que sus fuentes están enlazadas pero la revisión humana aún no está registrada; las fichas revisadas muestran la revisión registrada. El mensaje enlaza la metodología y no altera la indexación ni la monetización.
+
 El control `content:generated-metadata-audit` recorre el HTML de `dist` después del build y exige, para las páginas indexables, idioma español, título, descripción de 50–160 caracteres, canonical HTTPS único, Open Graph y JSON-LD; excluye únicamente el archivo de verificación de Search Console. `content:navigation-audit` añade una comprobación estática del menú principal y móvil: nombres semánticos, `aria-controls`, `aria-hidden` inicial, sincronización del estado, foco al abrir y IDs únicos.
 
 El control `content:indexation-audit` verifica que cada uno de los 32 artículos publicados tenga HTML y canonical propios, aparezca exactamente una vez en el sitemap, y que búsqueda/404 permanezcan con `noindex`; también comprueba `Allow: /` y el sitemap canónico en `robots.txt`. El build actual pasa 32/32 artículos y 44 URLs totales sin incidencias; la página pública de [correcciones editoriales](https://ecocuriosa.com/correcciones/) añade el protocolo de avisos sin inventar un historial de cambios.
