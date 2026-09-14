@@ -787,12 +787,24 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pubmed.ncbi.nlm.nih.gov/16321779/
     use: first live giant-squid observation, bait context, 900 m depth and recovered tentacle scale
+  - id: smithsonian-giant-squid-eye
+    authority: Smithsonian Ocean
+    domain: marine-biology
+    evidenceType: institutional-profile
+    url: https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid
+    use: documented giant-squid eye size; preserve specimen and source context, not a population average
   - id: noaa-giant-squid-video
     authority: NOAA Ocean Exploration
     domain: marine-biology
     evidenceType: institutional-video
     url: https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/
     use: visual observation of one giant squid approaching a lure; no demographic inference
+  - id: usgs-magnetic-reversals-extinctions
+    authority: U.S. Geological Survey
+    domain: geomagnetism
+    evidenceType: institutional-guidance
+    url: https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals
+    use: context on reversals and mass extinctions; avoid causal or universal claims
   - id: nps-yellowstone-hydrothermal-systems
     authority: National Park Service
     domain: geoscience

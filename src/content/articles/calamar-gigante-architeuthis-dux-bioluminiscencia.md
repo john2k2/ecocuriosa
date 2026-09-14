@@ -3,6 +3,7 @@ title: "Architeuthis dux: qué se sabe del calamar gigante"
 description: "Observaciones y estudios sobre el calamar gigante, sus grandes ojos y las incertidumbres de vivir en el océano profundo."
 category: "especies-marinas"
 pubDate: 2026-08-13
+updatedDate: 2026-09-14
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/calamar-gigante-abisal.svg"
 imageAlt: "Ilustración editorial sobre el calamar gigante en la zona batipelágica"
@@ -17,7 +18,7 @@ sources:
     publisher: "Proceedings of the Royal Society B / PubMed Central"
     url: "https://pubmed.ncbi.nlm.nih.gov/16321779/"
     evidenceType: "primary"
-    scope: "observación de un ejemplar vivo a 900 m frente a Ogasawara en 2005"
+    scope: "observación de un ejemplar vivo atraído por cebo en 2004, publicada en 2005, a unos 900 m frente a Ogasawara"
     accessedDate: 2026-09-12
   - title: "Giant Squid"
     publisher: "Smithsonian National Museum of Natural History"
@@ -25,6 +26,12 @@ sources:
     evidenceType: "institutional"
     scope: "especímenes preservados, observaciones y límites de tamaño"
     accessedDate: 2026-09-12
+  - title: "Giant squid: largest eye in the world"
+    publisher: "Smithsonian Ocean"
+    url: "https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid"
+    evidenceType: "institutional"
+    scope: "Medida divulgativa del ojo del calamar gigante; no es un promedio poblacional"
+    accessedDate: 2026-09-14
   - title: "Giant squid video"
     publisher: "NOAA Ocean Exploration"
     url: "https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/"
@@ -40,7 +47,7 @@ featured: false
 
 ## 1. Lo observado sobre sus ojos y su entorno
 
-El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian describe](https://naturalhistory.si.edu/explore/giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares y registros conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
+El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian documenta](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
 
 Los cefalópodos presentan rasgos fisiológicos especializados, pero esta ficha no usa esos rasgos para afirmar una tasa metabólica, una tolerancia a la superficie o una ventaja energética que no esté documentada por la fuente concreta.
 
@@ -48,17 +55,17 @@ Los cefalópodos presentan rasgos fisiológicos especializados, pero esta ficha 
 
 ## 2. Qué aportan las observaciones en libertad
 
-El [registro primario de Ogasawara](https://pubmed.ncbi.nlm.nih.gov/16321779/) muestra a un ejemplar acercándose a un cebo y permite documentar su aspecto, escala y entorno inmediato. La observación recuperó un tentáculo de más de 8 metros, pero fue un caso concreto y una conducta inducida por el montaje; no demuestra cómo se alimentan todos los individuos.
+El [registro primario de Ogasawara](https://pubmed.ncbi.nlm.nih.gov/16321779/) muestra a un ejemplar acercándose a un cebo en 2004; el artículo se publicó en 2005 y permite documentar su aspecto, escala y entorno inmediato. Se recuperó una porción de tentáculo de 5,5 metros y se estimó que el individuo superaba los 8 metros de longitud total. Fue un caso concreto y una conducta inducida por el montaje; no demuestra cómo se alimentan todos los individuos.
 
-La función exacta de los ojos grandes, la flotabilidad y la bioluminiscencia de las presas siguen siendo preguntas de investigación. Cuando una explicación es una hipótesis ecológica, debe presentarse como tal y no como una escena observada directamente.
+La función exacta de los ojos grandes y la bioluminiscencia de las presas siguen siendo preguntas de investigación. En los calamares meso- y batipelágicos, el mecanismo general de flotabilidad se relaciona con soluciones de amoníaco; lo incierto es cómo se regula exactamente en cada *A. dux*. Cuando una explicación es una hipótesis ecológica, debe presentarse como tal y no como una escena observada directamente.
 
 ### Datos documentados y límites de interpretación
 
 | Dato | Qué está documentado | Alcance |
 | :--- | :--- | :--- |
 | Ojos | Hasta unas 10 pulgadas en la descripción del Smithsonian | Medida de ejemplares conocidos, no promedio poblacional |
-| Observación viva | Un individuo registrado a unos 900 m frente a Ogasawara | Caso de 2005 atraído por cebo |
-| Tentáculo recuperado | Más de 8 m en ese registro primario | Escala de un ejemplar, no longitud universal |
+| Observación viva | Un individuo registrado a unos 900 m frente a Ogasawara | Caso de 2004, publicado en 2005, atraído por cebo |
+| Tentáculo recuperado | Porción de 5,5 m en ese registro primario | El individuo completo se estimó en más de 8 m; no es longitud universal del tentáculo |
 | Tamaño histórico | El Smithsonian resume registros cercanos a 13 m | Récord de ejemplares documentados, no máximo poblacional probado |
 
 ---
@@ -97,4 +104,5 @@ Cada observación de *Architeuthis dux* reemplaza parte del imaginario del monst
 
 - [Royal Society B / PubMed: primera observación de un calamar gigante vivo](https://pubmed.ncbi.nlm.nih.gov/16321779/)
 - [Smithsonian NMNH: The Giant Squid](https://naturalhistory.si.edu/explore/giant-squid)
+- [Smithsonian Ocean: el ojo más grande del mundo](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid)
 - [NOAA Ocean Exploration: vídeo de un calamar gigante](https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/)

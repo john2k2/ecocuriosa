@@ -3,7 +3,7 @@ title: "Geodinamo terrestre: cómo genera el campo magnético"
 description: "Qué es la geodinamo terrestre, cómo se mueve el metal líquido del núcleo externo y por qué el campo magnético cambia sin ser un escudo absoluto."
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
-updatedDate: 2026-09-12
+updatedDate: 2026-09-14
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/campo-magnetico-geodinamo.svg"
 imageAlt: "Ilustración editorial del campo magnético terrestre desviando partículas cargadas del viento solar"
@@ -19,6 +19,12 @@ sources:
     url: "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
     evidenceType: "institutional"
     scope: "Origen, variación y medición del campo geomagnético"
+  - title: "Do any mass extinctions correlate with magnetic reversals?"
+    publisher: "U.S. Geological Survey"
+    url: "https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals"
+    accessedDate: 2026-09-14
+    evidenceType: "institutional"
+    scope: "Contexto sobre inversiones geomagnéticas y la ausencia de una asociación simple con extinciones masivas"
   - title: "Earth's Magnetosphere"
     publisher: "NASA Science"
     url: "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/"
@@ -45,7 +51,7 @@ featured: false
 
 ## 1. La Estructura del Núcleo y las Condiciones de la Dinamo Autoexcitada
 
-Si la Tierra fuera una esfera homogénea de hierro magnetizado permanentemente como un imán de cocina tradicional, el calor del interior planetario habría destruido cualquier magnetismo hace miles de millones de años: por encima del punto de Curie del hierro (770 °C), la agitación térmica desorganiza el espín de los electrones y el ferromagnetismo desaparece por completo. En el centro de la Tierra, la temperatura supera los 5.500 °C (similar a la superficie del Sol).
+Si la Tierra fuera una esfera homogénea de hierro magnetizado permanentemente como un imán de cocina tradicional, el calor del interior planetario habría destruido cualquier magnetismo hace miles de millones de años: por encima del punto de Curie del hierro puro a presión ordinaria (770 °C), la agitación térmica desorganiza el espín de los electrones y el ferromagnetismo deja de ser estable. En el centro de la Tierra, la temperatura estimada supera los 5.500 °C (similar a la superficie del Sol); las propiedades del hierro bajo la presión extrema del núcleo no se observan directamente.
 
 Por tanto, el magnetismo terrestre no es estático ni mineral, sino dinámico: una dinamo electromagnética autoexcitada gobernada por las leyes de la magnetohidrodinámica (MHD). La [introducción al geomagnetismo del USGS](https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism) resume cómo se mide y varía el campo. Para que una dinamo planetaria funcione se requieren tres ingredientes físicos concurrentes: un fluido eléctricamente conductor abundante, energía para impulsar corrientes de convección en el fluido y rotación planetaria suficiente para organizar el flujo mediante la aceleración de Coriolis.
 
@@ -67,7 +73,7 @@ Las temperaturas, profundidades y magnitudes de la tabla son estimaciones y rang
 | :--- | :--- | :--- |
 | Profundidad del núcleo externo | 2.890 a 5.150 kilómetros bajo la corteza | Espacio de convección líquida libre |
 | Composición del fluido | Aleación de hierro con níquel y elementos ligeros | Conductor líquido; la composición exacta se estima con modelos |
-| Intensidad del campo magnético superficial | 30 a 65 microteslas (µT) | Desvía el viento solar y retiene la atmósfera |
+| Intensidad del campo magnético superficial | 30 a 60 microteslas (µT) | Contribuye a proteger la atmósfera frente al viento solar |
 | Movimiento del fluido | No se observa directamente; se infiere con modelos y variaciones geomagnéticas | Sostiene la inducción del campo |
 | Inversiones de polaridad | Ocurrieron muchas veces en el registro geológico, con intervalos irregulares | No siguen un calendario fijo |
 
@@ -84,7 +90,7 @@ Estas señales muestran que la geodinamo cambia con el tiempo, pero no permiten 
 ## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Se cree que si los polos magnéticos se invierten, la Tierra quedará sin campo magnético y la vida morirá calcinada.
-  * **Realidad científica contrastada:** El registro paleomagnético conserva cientos de inversiones sin una asociación simple con extinciones masivas. Durante una transición el campo puede debilitarse y adoptar una configuración multipolar, pero la intensidad, la duración y la geometría no son constantes: no conviene presentar un 10–20% o “pocos milenios” como valores universales.
+  * **Realidad científica contrastada:** El [USGS resume](https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals) que el registro paleomagnético conserva muchas inversiones sin una asociación simple con extinciones masivas. Durante una transición el campo puede debilitarse y adoptar una configuración multipolar, pero la intensidad, la duración y la geometría no son constantes: no conviene presentar un 10–20% o “pocos milenios” como valores universales.
 
 * **Mito 2:** Se confunden los polos magnéticos con los polos geográficos terrestres.
   * **Realidad científica contrastada:** El polo norte geográfico es una referencia del eje de rotación; el polo magnético cambia de posición y su velocidad no es constante. Los servicios geomagnéticos actualizan su ubicación mediante mediciones y modelos.
@@ -118,3 +124,4 @@ El geodinamo del núcleo externo crea un campo cambiante que interactúa con el 
 - [Earth’s Magnetosphere](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/) — NASA; magnetosfera y protección frente al entorno espacial.
 - [Satellite magnetic data reveal interannual waves in Earth’s core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *Proceedings of the National Academy of Sciences* / PubMed Central; inferencias a partir de datos satelitales.
 - [Swarm unveils magnetic waves deep down](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) — ESA; explicación de la misión y sus mediciones.
+- [Do any mass extinctions correlate with magnetic reversals?](https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals) — USGS; contexto sobre inversiones y extinciones.
