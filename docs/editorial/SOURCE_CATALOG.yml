@@ -2677,3 +2677,98 @@ entries:
     evidenceType: official-methodology
     url: https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops
     use: comparar periodos equivalentes por consulta, URL, país, dispositivo y tipo de búsqueda antes de atribuir una caída o cambio de CTR
+  # Fuentes oficiales comprobadas el 14/09/2026 para cerrar el diseño de
+  # consentimiento y separar medición de rendimiento de audiencia identificable.
+  - id: google-consent-mode-v2-guide
+    authority: Google Tag Platform
+    domain: privacy-consent
+    evidenceType: official-documentation
+    url: https://developers.google.com/tag-platform/security/guides/consent
+    use: modelar estados de consentimiento para anuncios y Analytics, incluidos ad_user_data y ad_personalization; requiere una CMP o solución propia comprobada y no sustituye asesoría legal
+  - id: adsense-ads-txt-faq
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-faq
+    url: https://support.google.com/adsense/answer/9785052?hl=es
+    use: validar ads.txt en el dominio raíz, formato y publisher ID antes de servir anuncios; un archivo correcto no equivale a aprobación ni garantiza una subasta
+  - id: cloudflare-web-analytics-dimensions
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: official-documentation
+    url: https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/
+    use: segmentar Web Analytics por país, dispositivo, ruta, referer, navegador y sistema operativo sin presentar solicitudes de borde como visitantes únicos
+  # Fuentes primarias añadidas tras la búsqueda de brechas de Luna Max del
+  # 14/09/2026. Todas son candidatas de plan hasta su apertura y aplicación
+  # concreta por una persona responsable.
+  - id: icmje-ai-publishing
+    authority: ICMJE
+    domain: editorial-governance
+    evidenceType: editorial-guidance
+    url: https://www.icmje.org/recommendations/browse/artificial-intelligence/
+    use: separar asistencia de IA, autoría humana, transparencia, permisos y responsabilidad por errores, sesgos y plagio
+  - id: cope-retraction-guidelines
+    authority: Committee on Publication Ethics (COPE)
+    domain: editorial-governance
+    evidenceType: policy
+    url: https://members.publicationethics.org/sites/default/files/retraction-guidelines-cope.pdf
+    use: distinguir corrección de retractación y diseñar avisos visibles, factuales y enlazados con motivo y responsable
+  - id: unesco-open-science-recommendation
+    authority: UNESCO
+    domain: editorial-governance
+    evidenceType: international-recommendation
+    url: https://www.unesco.org/en/legal-affairs/recommendation-open-science
+    use: transparencia, reproducibilidad, escrutinio, atribución, conflictos y acceso responsable como principios editoriales
+  - id: google-http-status-codes-crawlers
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: troubleshooting-guidance
+    url: https://developers.google.com/crawling/docs/troubleshooting/http-status-codes
+    use: interpretar 2xx, 301/308, 4xx y 5xx en el ledger técnico sin confundir HTTP correcto con indexación garantizada
+  - id: google-request-recrawl
+    authority: Google Search Central
+    domain: indexing
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
+    use: decidir cuándo solicitar un recrawl individual y cuándo esperar sitemap; registrar cuotas y no prometer inclusión
+  - id: bing-site-scan
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-tool-guidance
+    url: https://www.bing.com/webmasters/help/site-scan-623520c9
+    use: auditoría bajo demanda de errores, advertencias y avisos técnicos tras verificar el dominio
+  - id: bing-url-inspection
+    authority: Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: official-tool-guidance
+    url: https://www.bing.com/webmasters/help/URL-Inspection-55a30305
+    use: comparar estado de índice, HTTP, SEO, marcado y lectura en vivo de Bingbot con Search Console
+  - id: cloudflare-observatory-dashboard
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: official-documentation
+    url: https://developers.cloudflare.com/speed/observatory/dashboard/
+    use: separar CWV P75 real, red/origen, errores 4xx/5xx y pruebas sintéticas; declarar sin datos cuando falte muestra
+  - id: google-trends-start
+    authority: Google Search Central
+    domain: demand-research
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/monitor-debug/trends-start
+    use: cruzar consultas agregadas de Trends, regiones y temas relacionados con Search Console sin tratarlas como volumen absoluto
+  - id: adsense-invalid-traffic-prevention
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: policy-guidance
+    url: https://support.google.com/adsense/answer/1112983?hl=es
+    use: segmentar fuentes, vigilar tráfico artificial y evitar compras, intercambios o automatizaciones de clics
+  - id: adsense-viewability-recommendations
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/6219980?hl=es
+    use: medir visibilidad después de aprobación, priorizar contenido y diseño adaptable, y no sobrecargar con anuncios
+  - id: adsense-acquire-traffic
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: guidance
+    url: https://support.google.com/adsense/answer/1348722?hl=es
+    use: evaluar SEO, colaboraciones y redes legítimas; detener servicios que prometan volumen artificial o fuentes sospechosas

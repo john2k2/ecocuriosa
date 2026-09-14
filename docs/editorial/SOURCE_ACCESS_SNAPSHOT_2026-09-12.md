@@ -211,6 +211,22 @@ candidata hasta abrir la ficha en un navegador normal:
 
 - *Enhanced retinal longwave sensitivity using a chlorophyll-derived photosensitiser in Malacosteus niger* — PubMed — <https://pubmed.ncbi.nlm.nih.gov/10492812/>
 
+## Fuentes oficiales comprobadas el 14/09/2026 para medición y consentimiento
+
+Estas referencias responden `200` en una comprobación HTTP directa y se
+incorporaron como candidatas de plan. No se han convertido en citas de un
+artículo ni activan ninguna etiqueta por sí solas.
+
+| Fuente | Estado | Uso previsto |
+| --- | ---: | --- |
+| Google Tag Platform — consentimiento | 200 | Diseñar y probar estados de consentimiento antes de cargar Analytics o AdSense |
+| Google AdSense — preguntas frecuentes de ads.txt | 200 | Validar raíz, formato y publisher ID cuando la cuenta entregue el dato definitivo |
+| Cloudflare Web Analytics — dimensiones | 200 | Segmentar país, dispositivo, ruta y referer sin confundir solicitudes con visitantes |
+
+URLs: <https://developers.google.com/tag-platform/security/guides/consent>,
+<https://support.google.com/adsense/answer/9785052?hl=es>,
+<https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/>.
+
 ## Procedimiento de revisión manual
 
 Para cada URL marcada `403` (y, por prudencia, para las `203`) el editor debe

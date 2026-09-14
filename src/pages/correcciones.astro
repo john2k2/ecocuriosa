@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Correcciones editoriales"
+  description="Cómo informar errores y cómo EcoCuriosa verifica, corrige y documenta cambios en sus monografías científicas."
+  adsEnabled={false}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <article class="bg-white rounded-lg p-6 sm:p-10 border border-[#e6e2d8] shadow-xs article-prose">
+      <h1>Correcciones editoriales</h1>
+      <p class="text-lg text-[#0e4b2a] font-medium mb-8 pb-4 border-b border-[#e6e2d8]">
+        La precisión se mantiene escuchando las objeciones y comprobando cada afirmación con fuentes trazables.
+      </p>
+
+      <h2>Qué puedes informar</h2>
+      <p>
+        Puedes avisarnos de una cifra incorrecta, una atribución que no coincide con su fuente, un enlace roto, una imagen con procedencia incompleta o una explicación que exceda el alcance de la evidencia. También puedes señalar una actualización importante que requiera revisar una monografía.
+      </p>
+
+      <h2>Cómo enviar una corrección</h2>
+      <p>Incluye, si es posible:</p>
+      <ul>
+        <li>la URL exacta de la monografía;</li>
+        <li>la frase, cifra o imagen que debería revisarse;</li>
+        <li>la razón concreta de la observación y una fuente verificable;</li>
+        <li>tu nombre o seudónimo y un correo de respuesta, solo si deseas que podamos contactarte.</li>
+      </ul>
+      <p>
+        Puedes escribir a <a href="mailto:contacto@ecocuriosa.com">contacto@ecocuriosa.com</a>. Para solicitudes relacionadas con datos personales, utiliza <a href="mailto:privacidad@ecocuriosa.com">privacidad@ecocuriosa.com</a> y consulta la <a href="/politica-de-privacidad/">política de privacidad</a>.
+      </p>
+
+      <h2>Qué hacemos con el aviso</h2>
+      <ol>
+        <li><strong>Localizamos:</strong> identificamos la versión publicada, la afirmación y las fuentes enlazadas.</li>
+        <li><strong>Comprobamos:</strong> abrimos la fuente y contrastamos especie, lugar, fecha, método, cifra y grado de certeza.</li>
+        <li><strong>Decidimos:</strong> corregimos el texto, lo matizamos, actualizamos una fuente o dejamos constancia de que la observación no cambia la conclusión.</li>
+        <li><strong>Documentamos:</strong> cuando el cambio es sustancial, mostramos una fecha de actualización y conservamos la distinción entre «Actualizado» y «Revisado».</li>
+      </ol>
+      <p>
+        Una corrección no se registra como revisión humana hasta que una persona responsable comprueba el texto, las fuentes, los límites y la procedencia visual. La asistencia de IA puede ayudar a ordenar el aviso, pero no decide si una afirmación es correcta ni firma la revisión.
+      </p>
+
+      <h2>Corrección, actualización y retirada</h2>
+      <p>
+        Una <strong>corrección</strong> arregla un error localizado. Una <strong>actualización</strong> incorpora evidencia nueva o cambia el contexto de una explicación y debe indicar qué se modificó. Si una afirmación central no puede sostenerse, podemos retirarla o dejar la página fuera de publicación mientras se investiga; no ocultamos el motivo ni presentamos una retractación como una simple mejora de estilo.
+      </p>
+
+      <h2>Transparencia del historial</h2>
+      <p>
+        El artículo conserva sus fuentes y sus fechas reales. No cambiamos una fecha para aparentar frescura ni añadimos una persona como autora o revisora sin autorización y evidencia. Las correcciones recibidas se evalúan de buena fe, aunque no todas terminan modificando la página.
+      </p>
+
+      <div class="not-prose mt-10 pt-8 border-t border-[#e6e2d8] flex flex-wrap gap-4">
+        <a href="/metodologia-editorial/" class="inline-flex items-center bg-[#063b1e] hover:bg-[#042613] text-[#fbf9f4] font-semibold text-sm px-5 py-2.5 rounded-md transition-colors">Ver metodología</a>
+        <a href="/contacto/" class="inline-flex items-center border border-[#063b1e] text-[#063b1e] hover:bg-[#eaf3ec] font-semibold text-sm px-5 py-2.5 rounded-md transition-colors">Contactar al equipo</a>
+      </div>
+    </article>
+  </div>
+</BaseLayout>

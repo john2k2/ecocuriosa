@@ -658,3 +658,71 @@ Las cinco fuentes están registradas con IDs únicos en
 `docs/editorial/SOURCE_CATALOG.yml`; siguen siendo referencias de plan hasta
 que el editor las abra, las aplique a una afirmación concreta y cierre la
 revisión humana del artículo.
+
+### Fuentes oficiales nuevas para consentimiento y medición responsable — 14 de septiembre de 2026
+
+Esta ronda añade documentación operativa que evita mezclar cumplimiento de
+consentimiento, entrega de anuncios y audiencia. Son referencias para el plan y
+no autorizan a activar etiquetas, cambiar el perfil de AdSense ni guardar datos
+personales en el repositorio.
+
+| Fuente | Aplicación en EcoCuriosa | Límite / siguiente paso |
+| --- | --- | --- |
+| [Consent mode de Google](https://developers.google.com/tag-platform/security/guides/consent) | Diseñar estados `ad_storage`, `analytics_storage`, `ad_user_data` y `ad_personalization` cuando exista una CMP y una propiedad de Analytics; documentar aceptar, rechazar y retirar consentimiento. | La guía es técnica, no asesoría legal; probar la CMP certificada antes de cargar anuncios o Analytics. |
+| [Preguntas frecuentes de ads.txt de AdSense](https://support.google.com/adsense/answer/9785052?hl=es) | Verificar que `ads.txt` esté en la raíz, responda `200` y contenga el publisher ID correcto antes de activar unidades reales. | Un archivo correcto solo autoriza vendedores; no prueba aprobación, tráfico ni ingresos. |
+| [Dimensiones de Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/) | Separar país, dispositivo, ruta, referer, navegador y sistema operativo en el tablero de rendimiento y comparar con Search Console. | Son métricas agregadas de Web Analytics; las solicitudes de borde incluyen bots y recursos y no deben llamarse visitantes únicos. |
+
+#### Briefs derivados para Luna Max (investigación local)
+
+1. **Matriz de consentimiento:** crear una tabla de estados por región y etiqueta
+   (Cloudflare, Analytics y AdSense), con evidencia de cada prueba y sin activar
+   una etiqueta que no tenga una decisión registrada.
+2. **Auditoría de `ads.txt`:** comprobar raíz, HTTPS, redirects y publisher ID
+   cuando AdSense entregue el dato definitivo; guardar solo el resultado
+   agregado y la fecha.
+3. **Embudo de medición:** comparar impresiones/clics de Search Console con
+   rutas, referers y dispositivos de Cloudflare; separar bots, recursos y
+   redirecciones antes de hablar de audiencia.
+
+Las tres fuentes permanecen como candidatas hasta que una persona responsable
+verifique la configuración real y apruebe cualquier cambio de privacidad o
+monetización.
+
+### Fuentes de Luna Max para autoridad, auditoría y monetización responsable — 14 de septiembre de 2026
+
+La búsqueda de brechas identificó doce referencias nuevas. Se incorporan como
+inspiración y controles operativos; ninguna convierte a EcoCuriosa en una
+revista científica, certifica una autoría ni garantiza tráfico o aprobación de
+AdSense.
+
+| Área | Fuente | Aplicación propuesta | Límite |
+| --- | --- | --- | --- |
+| Autoría e IA | [ICMJE: uso de IA en publicaciones](https://www.icmje.org/recommendations/browse/artificial-intelligence/) | Política pública que separe herramienta, autor humano, verificación y responsabilidad final. | No atribuir autoría ni revisión a Luna. |
+| Correcciones | [COPE: directrices de retractación](https://members.publicationethics.org/sites/default/files/retraction-guidelines-cope.pdf) | Crear `/correcciones/` con avisos visibles, motivo, fecha y relación con la versión corregida. | Corregir no es retractar; cada caso requiere criterio editorial. |
+| Ciencia abierta | [UNESCO: Recommendation on Open Science](https://www.unesco.org/en/legal-affairs/recommendation-open-science) | Reforzar transparencia, reproducibilidad, atribución, conflictos y acceso responsable. | Es una recomendación internacional, no una certificación del sitio. |
+| Rastreo | [Códigos HTTP y crawlers de Google](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes) | Añadir al ledger estados 2xx, 301/308, 4xx y 5xx y su interpretación. | HTTP 200 no garantiza indexación. |
+| Actualizaciones | [Solicitar recrawl en Google](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) | Flujo para una URL actualizada: revisión → sitemap/inspección → resultado fechado. | Hay cuotas y el recrawl no garantiza inclusión. |
+| Bing | [Site Scan](https://www.bing.com/webmasters/help/site-scan-623520c9) y [URL Inspection](https://www.bing.com/webmasters/help/URL-Inspection-55a30305) | Verificar el dominio y comparar problemas técnicos e indexación con Search Console. | Requiere cuenta Bing del titular; no activar credenciales en el repositorio. |
+| Rendimiento | [Cloudflare Observatory](https://developers.cloudflare.com/speed/observatory/dashboard/) | Separar P75 real, origen, errores y pruebas sintéticas en el tablero mensual. | Declarar “sin datos” si la muestra de campo no existe. |
+| Demanda | [Google Trends para Search](https://developers.google.com/search/docs/monitor-debug/trends-start) | Cruzar interés relativo LAC con consultas reales antes de crear un brief. | Trends es 0–100 relativo, no volumen ni encuesta. |
+| Tráfico válido | [Evitar tráfico no válido en AdSense](https://support.google.com/adsense/answer/1112983?hl=es) | Checklist de distribución segura; bloquear compra de tráfico, intercambios y clics automatizados. | El editor responde por sus fuentes y debe vigilar cada canal. |
+| Visibilidad publicitaria | [Recomendaciones de visibilidad de AdSense](https://support.google.com/adsense/answer/6219980?hl=es) | Tras aprobar: una unidad después de la respuesta inicial y otra al final, con viewability y CLS antes/después. | No usar la referencia para prometer RPM ni activar anuncios antes de aprobación. |
+| Adquisición | [Cómo adquirir tráfico para un sitio](https://support.google.com/adsense/answer/1348722?hl=es) | Priorizar SEO, colaboraciones reales, newsletter y redes con UTM; detener servicios de volumen artificial. | Promoción legítima no garantiza posicionamiento. |
+
+#### Briefs de trabajo para Luna Max
+
+1. **Página de responsabilidad y correcciones:** preparar un borrador local de
+   `/correcciones/` y enlazarlo desde metodología, contacto y pie de página;
+   publicar solo después de revisión del titular.
+2. **Ledger HTTP e indexación:** registrar URL canónica, estado HTTP, sitemap,
+   inspección Google/Bing, fecha del cambio y resultado, sin enviar recrawls en
+   lote.
+3. **Matriz de tráfico seguro:** clasificar cada canal como orgánico,
+   colaboración, red social o sospechoso; conservar UTM y decisiones agregadas,
+   nunca datos personales.
+4. **Control post-aprobación:** comparar viewability, CLS y CWV antes/después de
+   cada unidad publicitaria y retirar ubicaciones que degraden la lectura.
+
+Todas las referencias quedan pendientes de apertura y aplicación por una
+persona responsable. Luna puede preparar tablas y borradores locales, pero no
+marca revisiones, no publica y no activa cuentas o etiquetas.
