@@ -41,7 +41,7 @@ El 12/09/2026 se acortaron quince títulos que superaban la longitud editorial r
 
 **Refresco autenticado de Search Console (13/09/2026):** la ventana nominal de 3 meses muestra 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1; el detalle de consultas, páginas, países, dispositivos y sitemaps está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md). Es una muestra pequeña y no permite atribuir el clic ni inferir RPM.
 
-**Reenvío autenticado (14/09/2026):** después de publicar `/correcciones/`, se reenvió `https://ecocuriosa.com/sitemap-index.xml` y Search Console confirmó que lo recibió correctamente. La propiedad todavía muestra 43 URL descubiertas hasta que Google procese la nueva lectura; no se presenta aún como 44 indexadas.
+**Reenvío autenticado (14/09/2026):** después de publicar `/correcciones/`, se reenvió `https://ecocuriosa.com/sitemap-index.xml`; Search Console lo muestra enviado y leído el 14/09, con estado **Correcto** y 43 URL descubiertas. El XML público ya contiene 44 URL, pero Google aún no refleja la nueva página en el conteo ni en la cobertura; no se presenta como 44 indexadas.
 
 **Muestreo de inspección de URL (13/09/2026):** portada y cinco artículos prioritarios inspeccionados en Search Console; 6/6 aparecen «en Google» y «la página está indexada». La cobertura agregada continúa procesándose, por lo que esta muestra no se extrapola a las 43 URL descubiertas. Core Web Vitals de campo sigue sin datos suficientes en móvil y escritorio.
 

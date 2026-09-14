@@ -116,9 +116,11 @@ variantes como páginas adicionales.
 
 El índice `https://ecocuriosa.com/sitemap-index.xml` se reenvió desde la cuenta
 autenticada después de publicar `/correcciones/`. Search Console confirmó «Se
-ha enviado el sitemap correctamente» y avisó que lo procesará periódicamente.
-Todavía no existe una nueva lectura ni un conteo confirmado de 44 URL; esa
-comprobación queda pendiente hasta el siguiente procesamiento de Google.
+ha enviado el sitemap correctamente» y, al cerrar el aviso, mostró **enviado el
+14/09, última lectura 14/09, estado Correcto y 43 URL descubiertas**. El sitio
+publicado genera 44 URL en el XML, pero Google aún no refleja la nueva página en
+el conteo; queda pendiente observar la siguiente lectura y la cobertura de
+indexación.
 
 ## Decisiones
 
