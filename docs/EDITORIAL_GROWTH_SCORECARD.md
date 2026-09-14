@@ -19,6 +19,11 @@ El control de metadatos también exige ahora una `accessedDate` por cada fuente 
 
 El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. Las 32 WebP activas se sirven a un ancho mínimo de 1200 px desde las ilustraciones SVG originales, y el control `content:image-sitemap-audit` comprueba tanto la resolución como la alineación entre imagen declarada y URL cuando se agregue una ficha nueva.
 
+Las tarjetas y láminas usan además variantes WebP de 400/800 px mediante
+`srcset`/`sizes`; `content:responsive-image-audit` confirma 32/32 artículos sin
+variantes faltantes y `content:link-audit` comprueba 0 páginas indexables
+huérfanas.
+
 La plantilla de artículo reserva ahora la proporción real de las láminas activas (1200×750, `8/5`) en lugar de declarar una altura 16:9 que recortaba la ilustración; la auditoría de imagen mantiene el umbral de 1200 px como puerta de publicación.
 
 Cada artículo muestra también un estado editorial explícito: las fichas pendientes indican que sus fuentes están enlazadas pero la revisión humana aún no está registrada; las fichas revisadas muestran la revisión registrada. El mensaje enlaza la metodología y no altera la indexación ni la monetización.
