@@ -117,7 +117,7 @@ La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la únic
 - Mantener la bitácora de procedencia de las 32 ilustraciones y no reutilizar imágenes encontradas sin permiso. Si se incorpora una fotografía, conservar URL, licencia, autor, fecha de descarga y hash.
 - Revisar periódicamente que la política de privacidad describa exactamente las herramientas activas: actualmente documenta Cloudflare Web Analytics sin cookies y las cookies publicitarias de AdSense; no hay Google Analytics instalado en el código.
 - Usar datos de Search Console para crear cuatro guías pilar y mejorar páginas con muchas impresiones/CTR bajo antes de crear nuevas variantes.
-- Considerar FAQ estructurada solo cuando las preguntas y respuestas estén verificadas y visibles; no añadir Schema por volumen.
+- Mantener FAQPage solo en artículos con revisión humana registrada y FAQ visible; no añadir Schema por volumen ni convertirlo en una promesa de rich result.
 
 ## Prioridad baja
 
@@ -182,7 +182,7 @@ decisión de seguridad pendiente y no se hizo automáticamente.
 
 ### Schema y datos estructurados — 82/100
 
-Se emiten `Organization`, `WebSite` con `SearchAction`, `WebPage`/`CollectionPage`, `Article` y `BreadcrumbList`. El artículo incluye fechas, autor, publisher, imagen y citas. No se añadieron `sameAs`, `Person` ni `FAQPage` porque faltan datos públicos autorizados o un contrato de preguntas/respuestas que garantice exactitud.
+Se emiten `Organization`, `WebSite` con `SearchAction`, `WebPage`/`CollectionPage`, `Article` y `BreadcrumbList`. El artículo incluye fechas, autor, publisher, imagen y citas. `FAQPage` se genera desde la FAQ visible únicamente en la ficha con `reviewedDate` y `reviewedBy` registrados; las 31 fichas pendientes no exponen sus respuestas como datos estructurados. No se añadieron `sameAs` ni `Person` porque faltan datos públicos autorizados. Google no garantiza un resultado enriquecido de FAQ para un publisher general, por lo que la puntuación se mantiene conservadora.
 
 ### Optimización por plataforma — 25/100
 

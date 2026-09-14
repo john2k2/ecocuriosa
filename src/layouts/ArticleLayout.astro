@@ -25,6 +25,10 @@ interface Props {
     evidenceType?: 'primary' | 'review' | 'dataset' | 'institutional' | 'secondary';
     scope?: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
   reviewedDate?: Date;
   reviewedBy?: string;
   headings?: { depth: number; slug: string; text: string }[];
@@ -45,6 +49,7 @@ const {
   imageLicensePage,
   tags = [],
   sources = [],
+  faqs = [],
   updatedDate,
   reviewedDate,
   reviewedBy,
@@ -109,6 +114,7 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
   category={category}
   tags={tags}
   sources={sources}
+  faqs={faqs}
   imageCredit={imageCredit}
   imageLicense={imageLicense}
   imageCreator={imageCreator}

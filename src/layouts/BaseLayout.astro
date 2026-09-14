@@ -24,6 +24,10 @@ interface Props {
     evidenceType?: 'primary' | 'review' | 'dataset' | 'institutional' | 'secondary';
     scope?: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
   imageCredit?: string;
   imageLicense?: string;
   imageCreator?: string;
@@ -45,6 +49,7 @@ const {
   category,
   tags,
   sources,
+  faqs,
   imageCredit,
   imageLicense,
   imageCreator,
@@ -87,6 +92,7 @@ const {
       category={category}
       tags={tags}
       sources={sources}
+      faqs={faqs}
       imageCredit={imageCredit}
       imageLicense={imageLicense}
       imageCreator={imageCreator}

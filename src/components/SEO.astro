@@ -23,6 +23,10 @@ interface Props {
     evidenceType?: 'primary' | 'review' | 'dataset' | 'institutional' | 'secondary';
     scope?: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
   pageType?: 'website' | 'collection' | 'about';
   noindex?: boolean;
 }
@@ -44,6 +48,7 @@ const {
   category,
   tags = [],
   sources = [],
+  faqs = [],
   pageType = 'website',
   noindex = false,
 } = Astro.props;
@@ -157,7 +162,28 @@ const article = type === 'article' ? {
     : { "@type": "Person", "name": author },
   "publisher": { "@id": organizationId },
   "mainEntityOfPage": { "@id": canonicalURL },
+  ...(faqs.length ? { "subjectOf": { "@id": `${canonicalURL}#faq` } } : {}),
   ...(sources.length ? { "citation": sources.map((source) => source.url) } : {})
+} : undefined;
+
+// FAQ answers are parsed from the visible FAQ section in the article body.
+// Keeping the same text in HTML and JSON-LD avoids inventing a second editorial
+// version and makes the markup useful to non-Google consumers as well. Google
+// does not guarantee an FAQ rich result for general publisher sites.
+const faqPage = faqs.length ? {
+  "@type": "FAQPage",
+  "@id": `${canonicalURL}#faq`,
+  "url": canonicalURL,
+  "isPartOf": { "@id": websiteId },
+  "inLanguage": "es",
+  "mainEntity": faqs.map((faq) => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer,
+    },
+  })),
 } : undefined;
 
 const breadcrumbs = type === 'article' && category ? {
@@ -171,7 +197,7 @@ const breadcrumbs = type === 'article' && category ? {
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@graph": [organization, website, page, ...(profile ? [profile] : []), ...(article ? [article] : []), ...(breadcrumbs ? [breadcrumbs] : [])]
+  "@graph": [organization, website, page, ...(profile ? [profile] : []), ...(article ? [article] : []), ...(faqPage ? [faqPage] : []), ...(breadcrumbs ? [breadcrumbs] : [])]
 };
 ---
 

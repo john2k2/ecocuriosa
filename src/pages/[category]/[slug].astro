@@ -16,6 +16,25 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const allArticles = await getCollection('articles');
 const { Content, headings } = await render(article);
+
+const toPlainText = (value: string) => value
+  .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
+  .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+  .replace(/[*_`>#]/g, '')
+  .replace(/^\s*---+\s*$/gm, '')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+// Match the FAQ section's level-2 heading only; a broad `##+` end boundary
+// would stop at the first level-3 question heading.
+const faqSection = (article.body ?? '').match(/(?:^|\n)##\s+[^\n]*preguntas\s+frecuentes[^\n]*\n([\s\S]*?)(?=\n##\s|$)/i)?.[1] ?? '';
+const faqs = [...faqSection.matchAll(/(?:^|\n)###\s+(.+?)\n+([\s\S]*?)(?=\n###\s|$)/g)]
+  .map((match) => ({ question: toPlainText(match[1]), answer: toPlainText(match[2]) }))
+  .filter((faq) => faq.question && faq.answer);
+// Do not expose pending copy as structured data. The visible FAQ remains
+// useful to readers, while FAQPage is emitted only after the article's human
+// review contract is complete.
+const verifiedFaqs = article.data.reviewedDate && article.data.reviewedBy ? faqs : [];
 const relatedArticles = allArticles
   .filter((candidate) => candidate.id !== article.id)
   .map((candidate) => ({
@@ -47,6 +66,7 @@ const relatedArticles = allArticles
   imageLicensePage={article.data.imageLicensePage}
   tags={article.data.tags}
   sources={article.data.sources}
+  faqs={verifiedFaqs}
   updatedDate={article.data.updatedDate}
   reviewedDate={article.data.reviewedDate}
   reviewedBy={article.data.reviewedBy}

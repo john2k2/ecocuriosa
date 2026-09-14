@@ -35,6 +35,19 @@ function property(html, name) {
     ?? '';
 }
 
+function jsonLdNodes(html) {
+  const nodes = [];
+  for (const match of html.matchAll(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const parsed = JSON.parse(match[1]);
+      nodes.push(...(Array.isArray(parsed?.['@graph']) ? parsed['@graph'] : [parsed]));
+    } catch {
+      nodes.push({ '@type': '__invalid_jsonld__' });
+    }
+  }
+  return nodes;
+}
+
 for (const file of files) {
   const html = await readFile(file, 'utf8');
   const relative = path.relative(distDirectory, file).replaceAll(path.sep, '/');
@@ -61,6 +74,19 @@ for (const file of files) {
     if (!property(html, 'og:description')) issue('falta og:description');
     if (!property(html, 'og:image')) issue('falta og:image');
     if (!/<script\b[^>]*type=["']application\/ld\+json["']/i.test(html)) issue('falta JSON-LD');
+    const jsonLd = jsonLdNodes(html);
+    const faqPages = jsonLd.filter((node) => node?.['@type'] === 'FAQPage');
+    if (jsonLd.some((node) => node?.['@type'] === '__invalid_jsonld__')) issue('JSON-LD inválido');
+    for (const faqPage of faqPages) {
+      const questions = Array.isArray(faqPage.mainEntity) ? faqPage.mainEntity : [];
+      if (!questions.length || questions.some((question) => (
+        question?.['@type'] !== 'Question'
+        || !question.name
+        || question.acceptedAnswer?.['@type'] !== 'Answer'
+        || !question.acceptedAnswer.text
+      ))) issue('FAQPage sin preguntas/respuestas válidas');
+      if (/revisión humana pendiente/i.test(html)) issue('FAQPage expone una ficha pendiente de revisión humana');
+    }
     if (canonical) {
       const owner = canonicalOwners.get(canonical);
       if (owner) issue(`canonical duplicado con ${owner}`);
