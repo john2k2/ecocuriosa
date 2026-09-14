@@ -39,3 +39,22 @@ ninguna protección de Cloudflare. Repetir con y sin anuncios después de que
 AdSense habilite los slots y comparar contra datos de campo; cualquier cambio
 de imágenes debe conservar `alt`, proporciones, créditos y el sitemap de
 imágenes.
+
+## Seguimiento después de `srcset` responsive
+
+El mismo 14/09/2026, después de publicar variantes WebP de 400/800 px y
+conectarlas mediante `srcset`/`sizes`, se repitió una ejecución pública con la
+misma emulación móvil:
+
+| Categoría | Puntuación | Métrica principal |
+| --- | ---: | --- |
+| Rendimiento | 99/100 | FCP 1,0 s · LCP 1,7 s · TBT 100 ms · CLS 0 · Speed Index 1,7 s |
+| Accesibilidad | 100/100 | Sin auditorías fallidas |
+| Buenas prácticas | 81/100 | Tres avisos de APIs obsoletas en scripts gestionados de Cloudflare |
+| SEO | 100/100 | Sin auditorías fallidas |
+
+La red descargó las variantes de 800 px para las tarjetas visibles y la
+auditoría de entrega de imágenes no señaló bytes desperdiciados. La mejora
+frente a la primera ejecución es una comparación sintética de una sola muestra;
+no prueba causalidad ni sustituye CrUX/RUM. Los originales de 1200 px y SVG
+siguen en el repositorio y en el sitemap.

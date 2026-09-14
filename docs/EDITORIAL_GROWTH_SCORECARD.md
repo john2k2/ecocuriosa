@@ -80,6 +80,14 @@ hoja CSS render-blocking, la caché de scripts gestionados y APIs obsoletas de
 JavaScript Detections. No se borraron imágenes ni se desactivó protección de
 Cloudflare; esta lectura no sustituye P75 de campo.
 
+El seguimiento posterior a publicar `srcset` responsive (14/09/2026, misma
+emulación móvil) dio 99/100 en rendimiento, 100 en accesibilidad, 81 en buenas
+prácticas y 100 en SEO; FCP 1,0 s, LCP 1,7 s, CLS 0 y TBT 100 ms. La red eligió
+WebP de 800 px para las tarjetas visibles y la auditoría de entrega de imágenes
+no señaló bytes desperdiciados. Es una comparación sintética de una sola
+muestra; los originales de 1200 px y SVG siguen intactos y la validación P75 de
+campo continúa pendiente.
+
 La verificación móvil posterior al despliegue de las correcciones editoriales
 (13/09/2026, una ejecución pública) dio 99/100 en rendimiento, 100 en
 accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP y LCP de 1,5 s, CLS
