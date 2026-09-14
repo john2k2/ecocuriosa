@@ -65,6 +65,7 @@ for (const file of files) {
   const issue = (message) => issues.push(`${relative}: ${message}`);
 
   if (!/<html\b[^>]*\blang=["']es["']/i.test(html)) issue('falta lang="es"');
+  if (!meta(html, 'viewport')) issue('falta meta viewport');
   if (!title) issue('falta <title>');
   if (!description) issue('falta meta description');
   if (!noindex) {
