@@ -52,9 +52,9 @@ crea credenciales para el equipo.
 - **Límite:** cinco oportunidades por ciclo, dos briefs aprobados por semana y un artículo como máximo después de revisar todo el archivo existente.
 - **Persistencia:** guardar únicamente agregados y decisiones editoriales. Las exportaciones de Search Console, Cloudflare, AdSense y cualquier dato identificable quedan fuera del repositorio.
 
-## Priorización con la señal actual
+## Priorización con la señal actualizada
 
-La lectura autenticada del 13/09/2026 tiene 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1 (selector de 3 meses; datos visibles del 5–11/09). Las primeras oportunidades son `architeuthis dux` (16), `geodinamo` (14) y `pulpo mimo` (13), seguidas por `neuronas espejo bostezo` (3), `geodinamo terrestre` (2), `pez luciernaga` (2) y `relampago de catatumbo` (2). La automatización debe tratar esas cifras como una muestra pequeña: prioriza mejorar título, respuesta inicial y recorrido interno antes de crear variantes. El detalle reproducible está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md).
+La lectura autenticada del 14/09/2026 tiene 340 impresiones, 2 clics, CTR 0,6 % y posición media 12 (selector de 3 meses; datos visibles del 5–12/09). Las primeras oportunidades son `architeuthis dux` (26), `pulpo mimo` (15) y `geodinamo` (14), seguidas por `neuronas espejo bostezo` (3), `que es el geodinamo` (2), `geodinamo terrestre` (2), `leopardo de nieve` (2), `león de las nieves` (2) y `diente de narval` (2). La automatización debe tratar esas cifras como una muestra pequeña: prioriza mejorar título, respuesta inicial y recorrido interno antes de crear variantes. El detalle reproducible está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md`](SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md).
 
 Regla de decisión:
 
