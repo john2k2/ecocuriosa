@@ -43,9 +43,9 @@ El 12/09/2026 se acortaron quince títulos que superaban la longitud editorial r
 
 **Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
 
-**Refresco autenticado de Search Console (13/09/2026):** la ventana nominal de 3 meses muestra 179 impresiones, 1 clic, CTR 0,6 % y posición media 15,1; el detalle de consultas, páginas, países, dispositivos y sitemaps está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md). Es una muestra pequeña y no permite atribuir el clic ni inferir RPM.
+**Refresco autenticado de Search Console (14/09/2026):** la ventana nominal de 3 meses muestra 340 impresiones, 2 clics, CTR 0,6 % y posición media 12; el detalle de consultas, páginas, países, dispositivos y sitemaps está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md). Es una muestra pequeña y no permite atribuir los clics ni inferir RPM.
 
-**Reenvío autenticado (14/09/2026):** después de publicar `/correcciones/`, se reenvió `https://ecocuriosa.com/sitemap-index.xml`; Search Console lo muestra enviado y leído el 14/09, con estado **Correcto** y 43 URL descubiertas. El XML público ya contiene 44 URL, pero Google aún no refleja la nueva página en el conteo ni en la cobertura; no se presenta como 44 indexadas.
+**Reenvío autenticado (14/09/2026):** después de publicar `/correcciones/`, se reenvió `https://ecocuriosa.com/sitemap-index.xml`; Search Console lo muestra enviado y leído el 14/09, con estado **Correcto** y 44 URL descubiertas. El XML público contiene 44 URL; el conteo de descubiertas coincide, pero no se presenta como 44 indexadas hasta observar la cobertura agregada.
 
 **Muestreo de inspección de URL (13/09/2026):** portada y cinco artículos prioritarios inspeccionados en Search Console; 6/6 aparecen «en Google» y «la página está indexada». La cobertura agregada continúa procesándose, por lo que esta muestra no se extrapola a las 43 URL descubiertas. Core Web Vitals de campo sigue sin datos suficientes en móvil y escritorio.
 
@@ -75,7 +75,7 @@ borradores Markdown locales (`elephant-social-knowledge` y
 `humanApproval: pending` y `publish: false`; no son artículos publicados ni
 cuentan como revisiones humanas.
 
-**Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 1 clic y una muestra de 179 impresiones, no es válido prometer crecimiento ni inferir RPM.
+**Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 2 clics y una muestra de 340 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
 Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; los 31 artículos pendientes acercan al menos un enlace directo a una afirmación concreta. El enlazado interno adicional se añadirá solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
 
