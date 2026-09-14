@@ -201,7 +201,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 ### Semana 1 — medición y cumplimiento
 
-- [x] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console; el 14/09 quedó enviado, leído y Correcto con 43 URL descubiertas; esperar que el conteo y la cobertura reflejen la nueva página.
+- [x] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console; el 14/09 quedó enviado, leído y Correcto con 44 URL descubiertas; esperar que el conteo y la cobertura reflejen la nueva página.
 - [ ] Activar y probar el mensaje de consentimiento de Google para EEE/Reino Unido/Suiza.
 - [x] Registrar las líneas base iniciales de Cloudflare Edge Analytics/Web Analytics (6–12 de septiembre) y Search Console (12–14 de septiembre); queda pendiente una muestra de Core Web Vitals reales.
 - [ ] Revisar en el panel las tres configuraciones RUM antiguas de auto-instalación y conservar una sola configuración canónica sin borrar hasta confirmar el beacon de Pages.

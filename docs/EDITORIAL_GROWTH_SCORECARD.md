@@ -91,7 +91,7 @@ Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate
 
 - El titular termina en AdSense el perfil legal, fiscal y de pagos con datos verdaderos y una dirección postal donde pueda recibir el PIN. No se guardan documentos, identificaciones, datos bancarios ni contraseñas en el repositorio.
 - Se publica y prueba el mensaje de Privacy & messaging para EEE, Reino Unido y Suiza en los tres estados: aceptar, rechazar y gestionar opciones. La política de privacidad y la de cookies deben describir exactamente las herramientas activas.
-- Se confirma en Search Console el sitemap `https://ecocuriosa.com/sitemap-index.xml` (correcto, 43 páginas descubiertas) y se conserva una primera tabla con consulta, página, país, dispositivo, impresiones, clics, CTR y posición.
+- Se confirma en Search Console el sitemap `https://ecocuriosa.com/sitemap-index.xml` (correcto, 44 páginas descubiertas) y se conserva una primera tabla con consulta, página, país, dispositivo, impresiones, clics, CTR y posición.
 - Se conserva la línea base agregada de Cloudflare separando `requests`, `pageViews` y visitas RUM. No se usa una solicitud de bot como si fuera audiencia.
 
 **Salida:** una captura o exportación fechada de Search Console, una comprobación CMP y un registro de decisión; si falta una de estas pruebas, no se declara “medición conectada”.
