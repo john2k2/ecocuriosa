@@ -3008,3 +3008,125 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://www.nature.com/articles/s41467-025-67429-6
     use: evidencia del sistema visual y adaptación a poca luz en tiburones de Groenlandia muestreados; conservar localidad, fechas y muestra, sin inferir mecanismos antienvejecimiento
+  # Candidatas oficiales de Luna Max para medición, distribución y controles
+  # de marca (14/09/2026). Requieren comprobación humana antes de citar.
+  - id: search-console-generative-ai-performance
+    authority: Google Search Console Help
+    domain: ai-search-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/16984139?hl=es
+    use: medir impresiones de AI Overviews y AI Mode por URL, país, dispositivo y fecha; no equivale a autoridad, posición ni citas
+  - id: search-console-generative-ai-discover
+    authority: Google Search Console Help
+    domain: ai-discover-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/16983858?hl=es
+    use: comprobar si existen datos de Discover generativo y separar disponibilidad gradual de ausencia de demanda
+  - id: search-console-generative-ai-control
+    authority: Google Search Console Help
+    domain: ai-search-controls
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/16908024?hl=es
+    use: revisar controles de inclusión en AI Overviews, AI Mode y Discover generativo; incluir no garantiza aparición ni ranking
+  - id: search-console-platform-properties
+    authority: Google Search Console Help
+    domain: distribution-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/17148418
+    use: medir tráfico de Google hacia perfiles verificados cuando existan; no mide vistas nativas de cada plataforma
+  - id: search-console-annotations
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/16530728?hl=es
+    use: anotar revisiones humanas, cambios de fuentes y lanzamientos para comparar antes y después sin afirmar causalidad
+  - id: search-console-data-anomalies
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-methodology
+    url: https://support.google.com/webmasters/answer/6211453
+    use: distinguir anomalías conocidas de Google de una caída real del sitio; no diagnostica por sí sola la causa editorial
+  - id: search-console-performance-overview
+    authority: Google Search Console Help
+    domain: search-measurement
+    evidenceType: official-product-documentation
+    url: https://support.google.com/webmasters/answer/10268906?hl=es
+    use: separar Search, News y Discover, consultas de marca y no marca, y páginas/países; respeta umbrales de privacidad
+  - id: google-robots-meta-specifications
+    authority: Google Search Central
+    domain: crawl-indexation
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
+    use: auditar max-image-preview, snippets y controles de presentación; no garantiza inclusión ni ranking
+  - id: google-video-seo-best-practices
+    authority: Google Search Central
+    domain: video-seo
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/appearance/video
+    use: preparar video original con miniatura, metadata y página reproducible cuando exista una producción real
+  - id: google-knowledge-panels-about
+    authority: Google Search Help
+    domain: brand-authority
+    evidenceType: official-product-documentation
+    url: https://support.google.com/knowledgepanel/answer/9163198?hl=es
+    use: entender cómo se consolida una entidad con fuentes públicas independientes; no fabricar ni prometer un panel
+  - id: google-knowledge-panel-verification
+    authority: Google Search Help
+    domain: brand-authority
+    evidenceType: official-product-documentation
+    url: https://support.google.com/knowledgepanel/answer/7534902?hl=es
+    use: verificar un panel legítimo solo si ya existe y el representante está autorizado; no crea autoridad
+  - id: bing-ai-performance-preview
+    authority: Microsoft Bing Webmaster Blog
+    domain: bing-ai-measurement
+    evidenceType: official-product-update
+    url: https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview
+    use: registrar citas, URLs referenciadas y consultas de grounding en Bing/Copilot; la vista previa no indica posición ni autoridad
+  - id: bing-search-performance
+    authority: Microsoft Bing Webmaster Tools
+    domain: bing-measurement
+    evidenceType: official-product-documentation
+    url: https://www.bing.com/webmasters/help/search-performance-c680da36
+    use: comparar impresiones, clics, CTR, posición, consultas y páginas de Bing; no equivale a audiencia total
+  - id: bing-site-explorer
+    authority: Microsoft Bing Webmaster Tools
+    domain: bing-crawl
+    evidenceType: official-product-documentation
+    url: https://www.bing.com/webmasters/help/site-explorer-c680da37
+    use: revisar URLs rastreadas, backlinks, canonicals, errores y exclusiones observadas por Bing
+  - id: bing-keyword-research
+    authority: Microsoft Bing Webmaster Tools
+    domain: demand-research
+    evidenceType: official-product-documentation
+    url: https://www.bing.com/webmasters/help/keyword-research-628070b6
+    use: encontrar preguntas reales para actualizar artículos existentes; los volúmenes son estimaciones de Bing
+  - id: bing-sitemaps
+    authority: Microsoft Bing Webmaster Tools
+    domain: bing-crawl
+    evidenceType: official-product-documentation
+    url: https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed
+    use: confirmar recepción y procesamiento de sitemap XML/RSS; enviar no garantiza indexación ni ranking
+  - id: microsoft-clarity-consent-mode
+    authority: Microsoft Clarity
+    domain: privacy-analytics
+    evidenceType: official-product-documentation
+    url: https://learn.microsoft.com/en-us/clarity/setup-and-installation/consent-mode
+    use: evaluar medición UX respetando consentimiento y CMP; requiere instrumentación y revisión de privacidad
+  - id: microsoft-clarity-heatmaps
+    authority: Microsoft Clarity
+    domain: ux-analytics
+    evidenceType: official-product-documentation
+    url: https://learn.microsoft.com/en-us/clarity/heatmaps/heatmaps-overview
+    use: detectar scroll y problemas móviles con tráfico suficiente; no mide autoridad ni visibilidad
+  - id: google-analytics-traffic-acquisition
+    authority: Google Analytics Help
+    domain: privacy-analytics
+    evidenceType: official-product-documentation
+    url: https://support.google.com/analytics/answer/12923437?co=GENIE.Platform%3DDesktop&hl=es
+    use: separar referrals y campañas mediante source/medium/UTM solo después de aprobar consentimiento y privacidad
+  - id: youtube-analytics-overview
+    authority: YouTube Help
+    domain: video-analytics
+    evidenceType: official-product-documentation
+    url: https://support.google.com/youtube/answer/9002587?hl=es
+    use: medir alcance, CTR, retención y watch time de un canal real; métricas nativas no equivalen a tráfico web
