@@ -56,6 +56,22 @@ La tabla mostraba 60 filas e incluye variantes sin barra final. El sitio
 mantiene una única URL canónica con barra y redirige las variantes; no se
 interpretan como páginas adicionales.
 
+## Funciones de IA generativa
+
+Se abrió el informe beta «Rendimiento en las funciones de IA generativa» para
+la misma propiedad y ventana visible (datos del 5 al 12 de septiembre; última
+actualización indicada: hace 10 horas). Search Console mostró **1 impresión**
+en total, con esta única página:
+
+| Página | Impresiones |
+| --- | ---: |
+| `/especies-marinas/pulpo-mimo-thaumoctopus-mimetismo-15-especies/` | 1 |
+
+El informe no muestra clics, posición ni autoridad de marca. La vista está
+marcada como beta y puede tener disponibilidad gradual; una impresión aislada
+no permite inferir presencia estable en AI Overviews/AI Mode ni impacto en
+tráfico o ingresos.
+
 ## Países y dispositivos
 
 | País | Clics | Impresiones |

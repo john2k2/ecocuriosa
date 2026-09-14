@@ -189,6 +189,12 @@ Se emiten `Organization`, `WebSite` con `SearchAction`, `WebPage`/`CollectionPag
 
 La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero no hay datos de rendimiento por plataforma ni distribución externa medida. Las acciones de mayor retorno son: Search Console para consultas reales, páginas de respuesta directa, enlaces editoriales legítimos y una cadencia sostenible de distribución.
 
+El informe beta de funciones de IA generativa de Search Console ya está
+disponible para la propiedad: en la lectura autenticada del 14/09 mostró 1
+impresión entre el 5 y el 12 de septiembre, asociada a la página de pulpo mimo.
+No expone clics, posición ni autoridad y no permite afirmar presencia estable ni
+impacto en tráfico; el detalle queda en el [snapshot autenticado](docs/editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md).
+
 ## Quick wins de esta semana
 
 1. Completar el perfil de pagos de AdSense solo con un nombre, país, domicilio y datos fiscales verdaderos que puedas demostrar y donde puedas recibir el PIN; no elegir Argentina únicamente por nacionalidad ni inventar datos, y conservar la información fiscal/bancaria fuera del repositorio.
