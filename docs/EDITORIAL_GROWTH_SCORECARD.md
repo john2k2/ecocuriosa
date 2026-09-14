@@ -29,6 +29,8 @@ El control `content:indexation-audit` verifica que cada uno de los 32 artículos
 
 Actualización 14/09/2026: el control también comprueba las 12 páginas estáticas indexables y confirma 44/44 canonicales indexables en el sitemap. La auditoría de metadatos añade `viewport`, parseo de JSON-LD y validación de `FAQPage`; esta última solo aparece en fichas con revisión humana registrada.
 
+La auditoría de navegación se amplió a las 46 páginas HTML generadas; verifica el menú principal y móvil, foco, estado ARIA e IDs únicos en cada plantilla.
+
 La página pública «Sobre nosotros» declara además un `ProfilePage` enlazado a la misma entidad `Organization` del sitio. No se añaden personas, credenciales ni perfiles externos que no estén verificados.
 
 El feed RSS público está cacheado en el borde únicamente para la ruta canónica `/rss.xml` (TTL de dos horas); la prueba posterior a la activación confirmó `MISS` seguido de `HIT`, sin ampliar la caché a páginas con consentimiento o anuncios.
