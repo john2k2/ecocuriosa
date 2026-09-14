@@ -733,6 +733,93 @@ entries:
     evidenceType: institutional-report
     url: https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf
     use: taxonomy and Appendix I listing context for all recognized living pangolin species
+  # Fuentes candidatas de Luna añadidas el 14/09/2026 para medición, SEO,
+  # gobernanza editorial y datos de biodiversidad. No están verificadas para
+  # uso en artículos y no llevan accessedDate hasta su revisión concreta.
+  - id: cloudflare-graphql-analytics-api
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: official-documentation
+    url: https://developers.cloudflare.com/analytics/graphql-api/
+    use: consultar analíticas agregadas de solicitudes y productos Cloudflare; requiere permisos adecuados y no equivale por sí solo a visitantes humanos
+  - id: cloudflare-http-events-by-hostname
+    authority: Cloudflare
+    domain: privacy-performance
+    evidenceType: official-tutorial
+    url: https://developers.cloudflare.com/analytics/graphql-api/tutorials/end-customer-analytics/
+    use: filtrar eventos HTTP por hostname y dimensiones para una medición reproducible; separar bots, recursos y redirecciones de audiencia
+  - id: chrome-crux-history-api
+    authority: Chrome UX Report
+    domain: real-user-performance
+    evidenceType: api-documentation
+    url: https://developer.chrome.com/docs/crux/history-api/
+    use: consultar series históricas de experiencia real por origen o URL; exige elegibilidad, clave API y no sustituye Search Console
+  - id: webdev-optimize-inp
+    authority: web.dev
+    domain: performance
+    evidenceType: documentation
+    url: https://web.dev/articles/optimize-inp
+    use: diagnosticar y mejorar INP con datos de campo y laboratorio; medir antes y después sin prometer impacto de ranking
+  - id: google-structured-data-intro
+    authority: Google Search Central
+    domain: schema
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+    use: decidir cuándo el marcado ayuda a entender una página y mantenerlo visible, relevante y coherente con el contenido
+  - id: google-visual-elements-gallery
+    authority: Google Search Central
+    domain: search-appearance
+    evidenceType: documentation
+    url: https://developers.google.com/search/docs/appearance/visual-elements-gallery
+    use: orientar mejoras de títulos, snippets, atribución, imágenes y resultados enriquecidos sin asumir una presentación garantizada
+  - id: bing-webmaster-api
+    authority: Microsoft Bing Webmaster Tools
+    domain: bing-indexing
+    evidenceType: api-documentation
+    url: https://learn.microsoft.com/en-us/bingwebmaster/
+    use: consultar tráfico, enlaces, palabras clave, rastreo y envíos en Bing; requiere sitio verificado y autenticación
+  - id: indexnow-documentation
+    authority: IndexNow
+    domain: bing-indexing
+    evidenceType: protocol-documentation
+    url: https://www.indexnow.org/documentation
+    use: notificar cambios de URL a buscadores participantes; el envío acelera descubrimiento potencial pero no garantiza rastreo ni indexación
+  - id: icmje-overlapping-publications
+    authority: ICMJE
+    domain: editorial-governance
+    evidenceType: editorial-guidance
+    url: https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/overlapping-publications.html
+    use: prevenir duplicación, republicación opaca y reutilización de datos sin transparencia; adaptar sus principios al flujo editorial del sitio
+  - id: icmje-advertising
+    authority: ICMJE
+    domain: editorial-governance
+    evidenceType: editorial-guidance
+    url: https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/advertising.html
+    use: separar decisiones editoriales de publicidad y hacer anuncios identificables; referencia de gobernanza, no política AdSense específica
+  - id: gbif-api-reference
+    authority: Global Biodiversity Information Facility (GBIF)
+    domain: biodiversity-data
+    evidenceType: api-documentation
+    url: https://techdocs.gbif.org/en/openapi/
+    use: consultar registros y metadatos de biodiversidad mediante API REST; respetar User-Agent, límites y procedencia de cada dataset
+  - id: gbif-citation-guidelines
+    authority: Global Biodiversity Information Facility (GBIF)
+    domain: biodiversity-data
+    evidenceType: data-governance
+    url: https://www.gbif.org/citation-guidelines
+    use: citar datasets, descargas y ocurrencias de GBIF con DOI o referencias requeridas; no convertir una búsqueda API en evidencia sin trazabilidad
+  - id: adsense-maximize-message-coverage
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-documentation
+    url: https://support.google.com/adsense/answer/187698?hl=en
+    use: evaluar cobertura de anuncios y formatos adaptables después de la aprobación; no aumentar anuncios a costa del contenido ni asumir ingresos
+  - id: obis-data-access
+    authority: Ocean Biodiversity Information System (OBIS)
+    domain: biodiversity-data
+    evidenceType: data-access-guidance
+    url: https://portal.obis.org/data/access/
+    use: elegir mapper, API o exportación según tamaño y reproducibilidad; respetar licencias, campos del proveedor y límites de carga
   # Fuentes oficiales candidatas añadidas el 14/09/2026 para reforzar la
   # documentación de rastreo, móvil, accesibilidad, imágenes y AdSense.
   # No implican apertura, verificación humana ni cita automática en artículos.
