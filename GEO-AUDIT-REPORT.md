@@ -94,6 +94,8 @@ La propiedad autenticada `https://ecocuriosa.com/` ya está disponible. En el in
 
 Search Console registra 32 páginas en la tabla de páginas; algunas impresiones todavía apuntan a variantes sin barra final, que deben seguir redirigiendo una sola vez al canonical con barra. Los dos sitemaps enviados (`/sitemap-0.xml` y `/sitemap-index.xml`) figuran como **Correcto** y con 43 páginas descubiertas. El informe de indexación aún indica que está procesando datos; no se debe traducir “43 descubiertas” en “43 indexadas”. HTTPS muestra 29 válidas y 0 no válidas; Breadcrumbs, 16 válidas y 0 no válidas; Core Web Vitals todavía no tiene datos.
 
+**Reenvío autenticado — 14 de septiembre de 2026.** Tras publicar `/correcciones/`, se volvió a enviar `https://ecocuriosa.com/sitemap-index.xml`. Search Console confirmó la recepción y anunció que lo procesará periódicamente; el conteo visible sigue siendo 43 hasta la nueva lectura, por lo que la página adicional no se declara todavía descubierta ni indexada por Google.
+
 **Muestreo autenticado de inspección de URL — 13 de septiembre de 2026.** Se inspeccionaron la portada y cinco artículos prioritarios (`geodinamo`, `pulpo mimo`, relámpago del Catatumbo, tiburón de Groenlandia y leopardo de las nieves): **6/6** devolvieron «La URL está en Google» y «La página está indexada». Es una muestra representativa, no un reemplazo del informe de cobertura agregado, que todavía figura como «Se están procesando los datos».
 
 La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la única que coincide con los tres hosts de producción. Se observan además tres configuraciones antiguas de auto-instalación; no se borraron porque la producción entrega un solo beacon y eliminarlas sería una acción destructiva sin beneficio demostrado. Conviene revisarlas en el panel cuando haya tiempo, manteniendo una sola configuración canónica.
@@ -188,7 +190,7 @@ La base es compatible con Google Search, AI Overviews y rastreadores de IA, pero
 
 ### Semana 1 — medición y cumplimiento
 
-- [x] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console; figura como correcto con 43 páginas descubiertas.
+- [x] Enviar/confirmar `https://ecocuriosa.com/sitemap-index.xml` en Search Console; el 14/09 se reenvió después de publicar `/correcciones/` y quedó confirmado como recibido; esperar la nueva lectura para validar el conteo.
 - [ ] Activar y probar el mensaje de consentimiento de Google para EEE/Reino Unido/Suiza.
 - [x] Registrar las líneas base iniciales de Cloudflare Edge Analytics/Web Analytics (6–12 de septiembre) y Search Console (12 de septiembre); queda pendiente una muestra de Core Web Vitals reales.
 - [ ] Revisar en el panel las tres configuraciones RUM antiguas de auto-instalación y conservar una sola configuración canónica sin borrar hasta confirmar el beacon de Pages.

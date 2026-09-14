@@ -104,6 +104,22 @@ de 2026**:
 Los dos registros corresponden a los mismos 43 recursos descubiertos; no son
 86 páginas distintas.
 
+## Refresco autenticado — 14 de septiembre de 2026
+
+Se volvió a abrir la propiedad con la misma ventana nominal de tres meses. La
+interfaz indicó que el informe de rendimiento estaba actualizado hacía unas
+8,5 horas y que el gráfico disponible seguía cubriendo del 5 al 11 de
+septiembre: **1 clic, 179 impresiones, CTR 0,6 % y posición media 15,1**. La
+tabla de páginas mostraba 35 filas (incluidas variantes sin barra final), por
+lo que se mantiene la decisión de no crear URLs nuevas ni interpretar esas
+variantes como páginas adicionales.
+
+El índice `https://ecocuriosa.com/sitemap-index.xml` se reenvió desde la cuenta
+autenticada después de publicar `/correcciones/`. Search Console confirmó «Se
+ha enviado el sitemap correctamente» y avisó que lo procesará periódicamente.
+Todavía no existe una nueva lectura ni un conteo confirmado de 44 URL; esa
+comprobación queda pendiente hasta el siguiente procesamiento de Google.
+
 ## Decisiones
 
 1. Priorizar pruebas de título y extracto en `geodinamo`, `architeuthis dux`,
