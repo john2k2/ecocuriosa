@@ -20,6 +20,12 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "review"
     scope: "Adaptaciones visuales de peces linterna; no representa cada pez abisal"
+  - title: "Large scale patterns in vertical distribution and behaviour of mesopelagic scattering layers"
+    publisher: "Scientific Reports / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4728495/"
+    accessedDate: 2026-09-14
+    evidenceType: "primary"
+    scope: "Patrones regionales de distribución y migración vertical diaria en capas mesopelágicas; no representa todas las especies ni todos los océanos"
   - title: "What is bioluminescence?"
     publisher: "NOAA Ocean Exploration"
     url: "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/"
@@ -85,7 +91,7 @@ Los peces linterna (mictófidos) presentan [fotóforos y adaptaciones visuales a
 
 ### ¿Qué es la migración vertical diaria de los peces linterna?
 
-Es una migración vertical diaria documentada en la comunidad mesopelágica. Muchas especies ascienden por la noche hacia aguas menos profundas y descienden antes del amanecer, pero la profundidad y el número de individuos dependen de la especie, la región y las condiciones locales.
+Es una [migración vertical diaria documentada en la comunidad mesopelágica](https://pmc.ncbi.nlm.nih.gov/articles/PMC4728495/). Muchas especies ascienden por la noche hacia aguas menos profundas y descienden antes del amanecer, pero la profundidad y el número de individuos dependen de la especie, la región y las condiciones locales; el estudio citado observó variación marcada entre regiones y trabajó con capas detectables acústicamente.
 
 ### ¿Cómo controlan los peces el encendido y apagado de sus fotóforos?
 
@@ -103,6 +109,7 @@ La bioluminiscencia organiza gran parte de las interacciones del océano profund
 
 ### Referencias y Literatura Científica Consultada
 - [Seeing in the deep-sea: visual adaptations in lanternfishes](https://pmc.ncbi.nlm.nih.gov/articles/PMC5312020/) — *Royal Society Open Science* / PubMed Central; adaptaciones visuales de peces linterna.
+- [Large scale patterns in vertical distribution and behaviour of mesopelagic scattering layers](https://pmc.ncbi.nlm.nih.gov/articles/PMC4728495/) — *Scientific Reports* / PubMed Central; distribución y migración vertical diaria mesopelágica, con variación regional y límites del método acústico.
 - [What is bioluminescence?](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/) — NOAA Ocean Exploration; mecanismos generales de bioluminiscencia marina.
 - [Enhanced retinal longwave sensitivity in *Malacosteus niger*](https://pubmed.ncbi.nlm.nih.gov/10492812/) — *Vision Research* / PubMed; sensibilidad retinal y emisión rojo lejano en una especie de pez dragón.
 - [Longwave-sensitive visual pigments in deep-sea dragonfish](https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851/) — *Proceedings of the Royal Society B* / PubMed Central; sensibilidad a luz roja lejana en *Malacosteus niger*.
