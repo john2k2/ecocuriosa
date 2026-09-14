@@ -25,6 +25,24 @@ for (const filename of articleFiles) {
   articleRoutes.push({ filename, route: `/${category}/${slug}/`, canonical: `${siteOrigin}/${category}/${slug}/` });
 }
 
+// Keep the non-article pages under the same canonical/sitemap gate. Articles
+// are discovered from content; these stable, hand-authored routes must not
+// silently fall out of indexation checks.
+const indexableStaticRoutes = [
+  '/',
+  '/fauna-fascinante/',
+  '/especies-marinas/',
+  '/fenomenos-naturales/',
+  '/ciencia-curiosa/',
+  '/aviso-legal/',
+  '/contacto/',
+  '/correcciones/',
+  '/metodologia-editorial/',
+  '/politica-de-cookies/',
+  '/politica-de-privacidad/',
+  '/sobre-nosotros/',
+].map((route) => ({ route, canonical: `${siteOrigin}${route}` }));
+
 const sitemapFiles = (await readdir(distDirectory)).filter((filename) => /^sitemap-\d+\.xml$/.test(filename));
 const sitemap = (await Promise.all(sitemapFiles.map((filename) => readFile(path.join(distDirectory, filename), 'utf8')))).join('\n');
 const sitemapLocations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
@@ -40,20 +58,28 @@ const canonicalFrom = (html) => html.match(/<link\s+[^>]*rel=["']canonical["'][^
   ?? html.match(/<link\s+[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i)?.[1]
   ?? '';
 
-for (const article of articleRoutes) {
-  const htmlPath = path.join(distDirectory, article.route, 'index.html');
+const checkIndexableRoute = async ({ route, canonical, filename }) => {
+  const htmlPath = path.join(distDirectory, route, 'index.html');
   try {
     await stat(htmlPath);
   } catch {
-    issue(`${article.filename}: falta HTML generado en ${article.route}`);
-    continue;
+    issue(`${filename ?? route}: falta HTML generado en ${route}`);
+    return;
   }
   const html = await readFile(htmlPath, 'utf8');
-  if (/\bnoindex\b/i.test(meta(html, 'robots'))) issue(`${article.route}: artículo publicado marcado noindex`);
-  const canonical = canonicalFrom(html);
-  if (canonical !== article.canonical) issue(`${article.route}: canonical inesperado (${canonical || '(vacío)'})`);
-  const sitemapCount = sitemapLocations.filter((location) => location === article.canonical).length;
-  if (sitemapCount !== 1) issue(`${article.route}: aparece ${sitemapCount} veces en sitemap (esperado 1)`);
+  if (/\bnoindex\b/i.test(meta(html, 'robots'))) issue(`${route}: página indexable marcada noindex`);
+  const generatedCanonical = canonicalFrom(html);
+  if (generatedCanonical !== canonical) issue(`${route}: canonical inesperado (${generatedCanonical || '(vacío)'})`);
+  const sitemapCount = sitemapLocations.filter((location) => location === canonical).length;
+  if (sitemapCount !== 1) issue(`${route}: aparece ${sitemapCount} veces en sitemap (esperado 1)`);
+};
+
+for (const article of articleRoutes) {
+  await checkIndexableRoute(article);
+}
+
+for (const page of indexableStaticRoutes) {
+  await checkIndexableRoute(page);
 }
 
 for (const [relative, label] of [['buscar/index.html', 'búsqueda'], ['404.html', '404']]) {
@@ -73,6 +99,7 @@ if (!sitemapIndex.includes(`${siteOrigin}/sitemap-0.xml`)) issue('sitemap-index.
 
 console.log(`Artículos publicados comprobados: ${articleRoutes.length}`);
 console.log(`URLs de artículo en sitemap: ${articleRoutes.filter((article) => sitemapLocations.includes(article.canonical)).length}/${articleRoutes.length}`);
+console.log(`Páginas estáticas indexables comprobadas: ${indexableStaticRoutes.length}`);
 console.log(`URLs totales en sitemap: ${sitemapLocations.length}`);
 console.log('Búsqueda y 404 con noindex: comprobados');
 console.log(`Problemas de indexación: ${issues.length}`);
