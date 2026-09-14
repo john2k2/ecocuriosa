@@ -111,10 +111,10 @@ const biomes = [
 
             <div class="relative aspect-[8/5] mb-4 overflow-hidden rounded-md bg-[#052212]">
               <picture class="block w-full h-full">
-                {featuredIsSvg && <source type="image/svg+xml" srcset={featuredImage} />}
                 {featuredIsSvg && <source type="image/webp" srcset={featuredImageWebp} />}
+                {featuredIsSvg && <source type="image/svg+xml" srcset={featuredImage} />}
                 <img
-                  src={featuredImageWebp}
+                  src={featuredImage}
                   alt={featuredArticle?.data.imageAlt ?? 'Ilustración editorial de una investigación de EcoCuriosa'}
                   width="800"
                   height="500"

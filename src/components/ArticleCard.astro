@@ -86,10 +86,10 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
   <div class={`relative bg-[#efece3] ${featured ? 'lg:col-span-7 aspect-[16/10]' : 'aspect-[16/10]'}`}>
     <div class="block w-full h-full">
       <picture class="block w-full h-full">
-        {isSvgImage && <source type="image/svg+xml" srcset={image} />}
         {isSvgImage && <source type="image/webp" srcset={imageWebp} />}
+        {isSvgImage && <source type="image/svg+xml" srcset={image} />}
         <img
-          src={imageWebp}
+          src={image}
           alt={imageAlt}
           width="800"
           height="500"
