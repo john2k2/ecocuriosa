@@ -227,6 +227,12 @@ URLs: <https://developers.google.com/tag-platform/security/guides/consent>,
 <https://support.google.com/adsense/answer/9785052?hl=es>,
 <https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/>.
 
+La fuente que faltaba para la migración vertical de los peces linterna también
+se abrió el 14/09 y devolvió `200` tanto en la petición directa como en el
+navegador:
+
+- *Large scale patterns in vertical distribution and behaviour of mesopelagic scattering layers* — *Scientific Reports* / PubMed Central — <https://pmc.ncbi.nlm.nih.gov/articles/PMC4728495/>. El trabajo observa variación regional y capas detectables acústicamente; no respalda una frecuencia o profundidad universal para todos los mictófidos.
+
 En la ronda de doce referencias adicionales, el PDF de directrices de COPE
 devolvió `403` con `curl` pero abrió como PDF de 10 páginas en un navegador
 normal. Se conserva con esa limitación explícita y no se descarta ni se trata
