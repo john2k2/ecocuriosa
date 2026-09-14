@@ -12,14 +12,14 @@ DRAFT_DIR = ROOT / 'docs' / 'editorial' / 'drafts'
 CONTROL_BRIEF_PATH = DRAFT_DIR / 'gbif-sequence-search.json'
 sys.path.insert(0, str(ROOT))
 
-from pipeline.generate_articles import generate_markdown, load_briefs, load_catalog_ids, validate_brief
+from pipeline.generate_articles import generate_markdown, load_briefs, load_catalog_entries, validate_brief
 
 
-def expect_rejected(label: str, brief: dict, catalog_ids: set[str], mutate) -> None:
+def expect_rejected(label: str, brief: dict, catalog_entries: dict[str, str], mutate) -> None:
     candidate = copy.deepcopy(brief)
     mutate(candidate)
     try:
-        validate_brief(candidate, catalog_ids)
+        validate_brief(candidate, catalog_entries)
     except ValueError:
         print(f'{label}: rechazado')
     else:
@@ -33,7 +33,7 @@ def main() -> None:
     if not CONTROL_BRIEF_PATH.is_file():
         raise SystemExit(f'No existe el brief de control: {CONTROL_BRIEF_PATH}')
 
-    catalog_ids = load_catalog_ids()
+    catalog_entries = load_catalog_entries()
     loaded = []
     for brief_path in brief_paths:
         briefs = load_briefs(brief_path)
@@ -53,25 +53,31 @@ def main() -> None:
     expect_rejected(
         'catalogId inexistente',
         raw,
-        catalog_ids,
+        catalog_entries,
         lambda candidate: candidate['sourceCandidates'][0].update(catalogId='not-in-catalog'),
     )
     expect_rejected(
         'URL de fuente duplicada',
         raw,
-        catalog_ids,
+        catalog_entries,
         lambda candidate: candidate['sourceCandidates'][1].update(url=candidate['sourceCandidates'][0]['url']),
+    )
+    expect_rejected(
+        'URL no coincide con catalogId',
+        raw,
+        catalog_entries,
+        lambda candidate: candidate['sourceCandidates'][0].update(url='https://example.com/fuente-no-catalogada'),
     )
     expect_rejected(
         'ilustración sin etiqueta',
         raw,
-        catalog_ids,
+        catalog_entries,
         lambda candidate: candidate.update(imageAlt='Animal en agua dulce'),
     )
     expect_rejected(
         'enlace externo en internalLinks',
         raw,
-        catalog_ids,
+        catalog_entries,
         lambda candidate: candidate.update(internalLinks=['https://example.com']),
     )
     print(f'Briefs válidos: {len(loaded)} en {len(brief_paths)} archivos JSON')

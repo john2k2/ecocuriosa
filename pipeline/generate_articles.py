@@ -24,19 +24,29 @@ ALLOWED_IMAGE_PLANS = {'original-illustration', 'licensed-photo', 'commissioned-
 SLUG_PATTERN = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)+$')
 
 
-def load_catalog_ids() -> set[str]:
-    """Read the canonical source IDs without adding a YAML dependency."""
+def load_catalog_entries() -> dict[str, str]:
+    """Read canonical source IDs and URLs without adding a YAML dependency."""
 
     if not SOURCE_CATALOG_PATH.is_file():
         raise ValueError(f'No existe el catálogo de fuentes: {SOURCE_CATALOG_PATH}')
-    ids = {
-        match.group(1)
-        for line in SOURCE_CATALOG_PATH.read_text(encoding='utf-8').splitlines()
-        if (match := re.match(r'^\s*- id:\s*([^\s#]+)\s*(?:#.*)?$', line))
-    }
-    if not ids:
+    entries: dict[str, str] = {}
+    current_id: str | None = None
+    for line in SOURCE_CATALOG_PATH.read_text(encoding='utf-8').splitlines():
+        if match := re.match(r'^\s*- id:\s*([^\s#]+)\s*(?:#.*)?$', line):
+            current_id = match.group(1)
+            continue
+        if current_id and (match := re.match(r'^\s+url:\s*(https://\S+)\s*(?:#.*)?$', line)):
+            entries[current_id] = match.group(1)
+            current_id = None
+    if not entries:
         raise ValueError('El catálogo de fuentes no contiene IDs reconocibles.')
-    return ids
+    return entries
+
+
+def load_catalog_ids() -> set[str]:
+    """Backward-compatible set of canonical source IDs."""
+
+    return set(load_catalog_entries())
 
 
 def yaml_string(value: object) -> str:
@@ -57,7 +67,7 @@ def _require_list(value: object, field: str) -> list:
     return value
 
 
-def validate_source(source: object, index: int, catalog_ids: set[str]) -> dict:
+def validate_source(source: object, index: int, catalog_ids: set[str] | dict[str, str]) -> dict:
     if not isinstance(source, dict):
         raise ValueError(f'sourceCandidates[{index}] debe ser un objeto.')
     url = _require_text(source.get('url'), f'sourceCandidates[{index}].url')
@@ -71,6 +81,11 @@ def validate_source(source: object, index: int, catalog_ids: set[str]) -> dict:
     catalog_id = _require_text(source.get('catalogId'), f'sourceCandidates[{index}].catalogId')
     if catalog_id not in catalog_ids:
         raise ValueError(f'sourceCandidates[{index}].catalogId no existe en SOURCE_CATALOG.yml: {catalog_id}.')
+    source_url = catalog_ids.get(catalog_id) if isinstance(catalog_ids, dict) else None
+    if source_url and url != source_url:
+        raise ValueError(
+            f'sourceCandidates[{index}].url no coincide con la URL canónica del catálogo para {catalog_id}.'
+        )
     return {
         'catalogId': catalog_id,
         'url': url,
@@ -99,7 +114,7 @@ def validate_claim(claim: object, index: int) -> dict:
     }
 
 
-def validate_brief(raw: object, catalog_ids: set[str]) -> dict:
+def validate_brief(raw: object, catalog_ids: set[str] | dict[str, str]) -> dict:
     if not isinstance(raw, dict):
         raise ValueError('Cada brief debe ser un objeto JSON.')
     slug = _require_text(raw.get('slug'), 'slug')
@@ -184,8 +199,8 @@ def load_briefs(input_path: Path) -> list[dict]:
     raw_briefs = payload.get('briefs') if isinstance(payload, dict) else payload
     if not isinstance(raw_briefs, list) or not raw_briefs:
         raise ValueError('El archivo de entrada debe contener una lista no vacía de briefs o {"briefs": [...]}.')
-    catalog_ids = load_catalog_ids()
-    briefs = [validate_brief(raw, catalog_ids) for raw in raw_briefs]
+    catalog_entries = load_catalog_entries()
+    briefs = [validate_brief(raw, catalog_entries) for raw in raw_briefs]
     slugs = [brief['slug'] for brief in briefs]
     if len(slugs) != len(set(slugs)):
         raise ValueError('Hay slugs duplicados en el archivo de entrada.')
