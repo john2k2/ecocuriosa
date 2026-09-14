@@ -733,6 +733,75 @@ entries:
     evidenceType: institutional-report
     url: https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf
     use: taxonomy and Appendix I listing context for all recognized living pangolin species
+  # Fuentes oficiales candidatas añadidas el 14/09/2026 para reforzar la
+  # documentación de rastreo, móvil, accesibilidad, imágenes y AdSense.
+  # No implican apertura, verificación humana ni cita automática en artículos.
+  - id: google-how-search-works
+    authority: Google Search Central
+    domain: search-fundamentals
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/fundamentals/how-search-works
+    use: explicar rastreo, indexación y publicación de resultados sin confundir descubrimiento con posicionamiento
+  - id: google-mobile-first-indexing
+    authority: Google Search Central
+    domain: mobile-seo
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
+    use: comprobar equivalencia de contenido, metadatos, imágenes y datos estructurados entre móvil y escritorio
+  - id: w3c-reflow
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/reflow.html
+    use: revisar reflujo y ausencia de desplazamiento bidimensional innecesario en pantallas estrechas
+  - id: w3c-focus-visible
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html
+    use: verificar que teclado y tecnologías de asistencia mantengan un indicador de foco visible
+  - id: w3c-target-size-minimum
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
+    use: evaluar el tamaño y separación de controles interactivos, con las excepciones documentadas por WCAG
+  - id: mdn-img-element
+    authority: MDN Web Docs
+    domain: image-performance
+    evidenceType: web-documentation
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img
+    use: revisar alt, dimensiones, loading y atributos de imágenes HTML accesibles y eficientes
+  - id: mdn-picture-element
+    authority: MDN Web Docs
+    domain: image-performance
+    evidenceType: web-documentation
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture
+    use: servir variantes de imagen según formato, resolución o condiciones del navegador
+  - id: mdn-responsive-images
+    authority: MDN Web Docs
+    domain: image-performance
+    evidenceType: web-documentation
+    url: https://developer.mozilla.org/en-US/docs/Web/Guides/Responsive_images
+    use: planificar srcset, sizes y art direction para reducir bytes sin perder calidad visual
+  - id: adsense-connect-your-site
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-documentation
+    url: https://support.google.com/adsense/answer/7584263?hl=en
+    use: revisar conexión, propiedad del sitio y pasos de preparación antes de publicar anuncios
+  - id: adsense-consent-optimization
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: official-documentation
+    url: https://support.google.com/adsense/answer/16878447?hl=en
+    use: estudiar opciones de optimización del mensaje de consentimiento y su impacto en la experiencia publicitaria
+  - id: adsense-eu-user-consent-policy-audit
+    authority: Google AdSense
+    domain: privacy-monetization
+    evidenceType: policy
+    url: https://support.google.com/adsense/answer/16758589?hl=en-GB
+    use: auditar consentimiento para usuarios del EEE, Reino Unido y Suiza antes de activar publicidad personalizada
   - id: noaa-coral-bleaching-current
     authority: NOAA Coral Reef Watch
     domain: climate-ocean
