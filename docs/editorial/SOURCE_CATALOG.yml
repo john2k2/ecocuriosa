@@ -3210,3 +3210,23 @@ entries:
     evidenceType: policy
     url: https://support.google.com/news/publisher-center/answer/9520026
     use: evitar copias completas, reescrituras con sinónimos y distribución manipulativa; aplicar noindex al republicador cuando corresponda
+  # Copias abiertas y fuentes primarias localizadas para los briefs de mayor
+  # exposición; siguen siendo candidatas hasta la lectura editorial.
+  - id: noaa-large-deep-sea-squid-platforms-repository
+    authority: NOAA Institutional Repository / Deep-Sea Research Part I
+    domain: deep-sea-observation
+    evidenceType: peer-reviewed-primary
+    url: https://repository.library.noaa.gov/view/noaa/59467
+    use: documentar plataformas de cámara sin perturbación y encuentros oportunistas con Architeuthis dux; conservar profundidades y estimaciones parciales
+  - id: pubmed-dynamic-mimic-octopus
+    authority: PubMed / Proceedings of the Royal Society B
+    domain: mimic-octopus
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/11522192/
+    use: comprobar el estudio original de nueve pulpos mimo y su repertorio observado; no convertir decisiones ante depredadores en intención humana
+  - id: pubmed-geosmin-warning-chemical
+    authority: PubMed / Applied and Environmental Microbiology
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/35323022/
+    use: contextualizar geosmina como señal química en ensayos de laboratorio; mantener la especie, concentraciones y función probada separadas del petricor humano
