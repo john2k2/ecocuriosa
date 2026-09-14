@@ -1,7 +1,7 @@
 # GEO Audit Report: EcoCuriosa
 
 **Audit date:** 12 de septiembre de 2026  
-**Última actualización documental:** 13 de septiembre de 2026 (investigación y planificación; no cambia las métricas privadas ni la revisión de AdSense)  
+**Última actualización documental:** 14 de septiembre de 2026 (investigación, métricas y planificación; no cambia las métricas privadas ni la revisión de AdSense)
 **URL:** https://ecocuriosa.com  
 **Tipo de sitio:** Publisher / enciclopedia editorial de divulgación científica  
 **Páginas analizadas:** 45 rutas estáticas construidas; 43 indexables en el sitemap y 2 `noindex` (búsqueda y 404)
