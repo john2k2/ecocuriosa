@@ -400,3 +400,19 @@ La distribución fue 0: 0 %, 1: 2 %, 2: 97 %, 3: 1 % y 4: 0 %. La herramienta
 devolvió `model: jev-1.13.0`, `advisory_only: true` y 677 tokens de entrada/54
 de salida. El resultado es una segunda opinión contextual; no prueba ranking,
 tráfico, CPM, ingresos, aprobación de AdSense ni revisión humana.
+
+## Reevaluación de control con rúbrica conservadora de readiness — 20/09/2026
+
+Se hizo una pasada final con una rúbrica explícita de preparación para revisión
+humana de AdSense/SEO/GEO, separando la deuda editorial de los gates externos.
+El resultado fue **1,34/4** (confianza **0,62**) y la siguiente acción volvió a
+ser `human_review` con probabilidad **0,96** (confianza **0,95**). Esta cifra no
+es una regresión del código ni sustituye al resultado global anterior de 1,98/4:
+la pregunta, la escala y el peso de la revisión humana son distintos. Jev es
+`advisory_only` y la decisión final sigue dependiendo de la evidencia local,
+la revisión humana y los sistemas de Google.
+
+La distribución conservadora fue 0: 6 %, 1: 56 %, 2: 37 %, 3: 1 % y 4: 0 %.
+La recomendación operativa se mantiene: no ampliar la automatización ni abrir
+variantes de contenido hasta cerrar la revisión humana trazable de los 31
+paquetes pendientes.

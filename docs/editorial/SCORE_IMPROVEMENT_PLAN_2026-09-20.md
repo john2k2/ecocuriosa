@@ -28,6 +28,12 @@ pasando. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
 externa.
 
+Una pasada de control adicional, con una rúbrica conservadora de readiness,
+dio **1,34/4** (confianza 0,62) y mantuvo `human_review` como siguiente acción
+(0,96; confianza 0,95). Se registra por separado porque el cuestionario y la
+ponderación no son idénticos a los 1,98/4 anteriores; no representa una
+regresión del código.
+
 ## Orden ejecutivo para subir la puntuación
 
 El catálogo ampliado mejora la capacidad de investigar, pero no suma puntos por

@@ -37,6 +37,12 @@ advisory-only: no comprueba Google, Cloudflare, Search Console ni AdSense y no
 autoriza publicación. El recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
+La pasada de control final usó una rúbrica más conservadora y separó readiness
+editorial de los gates externos: dio **1,34/4** (confianza 0,62) y volvió a
+elegir `human_review` (0,96; confianza 0,95). No es una caída medida del sitio:
+es otra pregunta y otra ponderación; se conserva junto con 1,98/4 para evitar
+comparar escalas distintas como si fueran una serie temporal.
+
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
