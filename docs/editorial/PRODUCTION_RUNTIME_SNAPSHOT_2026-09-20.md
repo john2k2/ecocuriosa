@@ -23,6 +23,15 @@
 
 ## Seguimiento técnico posterior — 20/09/2026
 
+La iteración más reciente, commit `37726f9` (`Improve article snippets links and
+source catalog`), se publicó mediante el deployment directo
+`434afb51.ecocuriosa.pages.dev`. La comprobación posterior devolvió HTTP 200 en
+portada, cuatro artículos con títulos actualizados, el artículo del calamar,
+`llms.txt`, `ads.txt` y `sitemap-index.xml`. El HTML público conserva el beacon
+de Cloudflare y los controles táctiles de 48 px; el artículo del calamar expone
+los dos enlaces internos nuevos. Esto prueba entrega del artefacto, no
+indexación, aprobación de AdSense ni Core Web Vitals de campo.
+
 El commit `ae569cc` (`Raise GEO controls and editorial source coverage`) se
 publicó mediante Cloudflare Pages deployment `238a14a4.ecocuriosa.pages.dev`.
 La sonda pública posterior devolvió HTTP 200 para portada, categoría, artículo,

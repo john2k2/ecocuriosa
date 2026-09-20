@@ -28,6 +28,14 @@ ajolote ya sirve el título corregido de PMC6669047 y el enlace institucional de
 Gaceta UNAM. La comprobación pública posterior devolvió HTTP 200 y
 `cf-cache-status: DYNAMIC`.
 
+**Despliegue directo más reciente:** el commit `37726f9` (`Improve article
+snippets links and source catalog`) se publicó en
+`434afb51.ecocuriosa.pages.dev`; las sondas de portada, los cuatro artículos
+con títulos actualizados, `llms.txt`, `ads.txt` y `sitemap-index.xml` devolvieron
+HTTP 200. La portada mantiene el beacon de Web Analytics y 14 controles de
+interacción con objetivo de 48 px. Este dato acredita entrega, no usuarios,
+sesiones ni ingresos.
+
 ## Web Analytics / RUM
 
 Cloudflare devuelve una configuración Web Analytics activa para
