@@ -1,0 +1,99 @@
+{
+  "briefs": [
+    {
+      "slug": "geodynamo-waves-and-inference",
+      "status": "research",
+      "sourceQuery": "geodinamo terrestre ondas magneto-Coriolis cómo se mide",
+      "searchIntent": "informational",
+      "workingTitle": "Geodinamo terrestre: qué se mide y qué se infiere del núcleo",
+      "readerQuestion": "¿Cómo pueden los satélites revelar cambios del campo magnético sin observar directamente el hierro líquido del núcleo?",
+      "description": "Una guía visual para separar mediciones del campo magnético, modelos del núcleo y límites de lo que podemos afirmar sobre la geodinamo.",
+      "category": "ciencia-curiosa",
+      "pubDate": "2026-09-20",
+      "author": "PENDIENTE DE AUTORÍA REAL",
+      "image": "/images/articles/geodynamo-waves-and-inference.svg",
+      "imageAlt": "Diagrama editorial que separa satélites, observatorios, modelos y flujos inferidos de la geodinamo terrestre",
+      "tags": ["geodinamo", "campo-magnetico", "tierra", "modelos-cientificos"],
+      "sourceCandidates": [
+        {
+          "catalogId": "pnas-core-magnetocoriolis-waves-pmc9060525",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/",
+          "evidenceType": "primary",
+          "supports": "Ondas magneto-Coriolis interanuales inferidas a partir de datos magnéticos de satélites y observatorios.",
+          "scope": "Datos magnéticos globales y modelos de ondas del núcleo; conservar el periodo y las suposiciones del estudio.",
+          "limitation": "El flujo profundo se infiere mediante modelos y no es una observación directa del hierro líquido ni un pronóstico de inversión polar.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "esa-swarm-magnetic-waves",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down",
+          "evidenceType": "institutional",
+          "supports": "Contexto de la misión Swarm y de una onda magnética que se propaga hacia el oeste con un periodo aproximado de siete años.",
+          "scope": "Comunicación institucional sobre observaciones de Swarm y el contexto temporal indicado por ESA.",
+          "limitation": "No sustituye al artículo primario ni prueba que una sola onda explique todos los cambios del campo magnético.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "nasa-gsfc-geodynamo-research",
+          "url": "https://science.gsfc.nasa.gov/earth/geodesy/researchareas/136/",
+          "evidenceType": "institutional",
+          "supports": "Distinguir observaciones geodésicas, modelos numéricos e inferencias en la investigación de la geodinamo.",
+          "scope": "Página de investigación institucional de NASA Goddard; usar como contexto metodológico y de alcance.",
+          "limitation": "No es un conjunto de datos ni un pronóstico y no autoriza atribuir una causa única a una señal magnética.",
+          "checkedBy": null,
+          "checkedDate": null
+        }
+      ],
+      "claims": [
+        {
+          "text": "Los satélites y observatorios miden variaciones del campo magnético, mientras que el movimiento profundo del núcleo se reconstruye mediante modelos.",
+          "certainty": "fact",
+          "sourceIds": ["pnas-core-magnetocoriolis-waves-pmc9060525", "nasa-gsfc-geodynamo-research"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Las ondas magneto-Coriolis ofrecen una interpretación posible para variaciones interanuales concretas del campo.",
+          "certainty": "fact",
+          "sourceIds": ["pnas-core-magnetocoriolis-waves-pmc9060525"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Una señal observada en la superficie no identifica por sí sola una única dinámica interna del núcleo.",
+          "certainty": "inference",
+          "sourceIds": ["pnas-core-magnetocoriolis-waves-pmc9060525", "nasa-gsfc-geodynamo-research"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Un esquema que trace la cadena dato → modelo → inferencia puede reducir la confusión entre observación directa y reconstrucción científica.",
+          "certainty": "hypothesis",
+          "sourceIds": ["pnas-core-magnetocoriolis-waves-pmc9060525", "esa-swarm-magnetic-waves", "nasa-gsfc-geodynamo-research"],
+          "humanCheck": "pending"
+        }
+      ],
+      "draftBody": "La geodinamo no se observa como una cámara dentro del núcleo. Lo que sí se mide son cambios del campo magnético mediante observatorios y satélites; a partir de esas señales, los investigadores construyen modelos de los flujos conductores que podrían producirlas.\n\nLas ondas magneto-Coriolis son una interpretación física para algunas variaciones interanuales, y la misión Swarm aporta contexto observacional para estudiar señales magnéticas profundas. Pero una onda, una reconstrucción o un mapa de flujo no deben convertirse en una predicción de inversión de polos ni en una fotografía directa del hierro líquido.\n\nEl artículo propuesto mostraría cuatro capas: medición, procesamiento, modelo e inferencia. Esa separación permite explicar por qué una conclusión puede ser científicamente útil y, a la vez, conservar incertidumbre.",
+      "originalContribution": "Diagrama editorial de cuatro capas que conecta observatorios y Swarm con modelos del núcleo y etiqueta cada flecha como medición, cálculo o inferencia.",
+      "uniqueContribution": "Enseñar la cadena de evidencia de la geodinamo y sus límites, en lugar de repetir que el núcleo simplemente funciona como un imán.",
+      "firstHandEvidence": "not-applicable: divulgación basada en datos magnéticos, modelos y fuentes institucionales",
+      "notCommodity": "No es una explicación genérica del campo magnético: hace visible qué parte se observa y qué parte se reconstruye.",
+      "authorRoles": "pending",
+      "reportingGuideline": "not-applicable",
+      "referenceIntegrityLog": "pending",
+      "imagePlan": "original-illustration",
+      "imageRights": "pending",
+      "internalLinks": [
+        "/ciencia-curiosa/como-funciona-el-campo-magnetico-de-la-tierra-geodinamo/",
+        "/fenomenos-naturales/auroras-boreales-viento-solar-magnetosfera/",
+        "/metodologia-editorial/"
+      ],
+      "humanApproval": "pending",
+      "publish": false
+    }
+  ],
+  "observations": [
+    "Es un brief de actualización/inspiración, no una nueva publicación aprobada.",
+    "La fuente primaria, la fuente institucional y sus límites deben abrirse y comprobarse antes de citar.",
+    "No se incluyen reviewedDate ni reviewedBy; la imagen propuesta es un diagrama original pendiente de producción y revisión."
+  ]
+}

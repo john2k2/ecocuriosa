@@ -342,8 +342,9 @@ La distribución del score fue 0: 6 %, 1: 53 %, 2: 34 %, 3: 7 % y 4: 0 %.
 La herramienta devolvió `model: jev-1.13.0` y `advisory_only: true`; es una
 segunda opinión del resumen enviado, no una medición de Google, Cloudflare,
 Search Console o AdSense, ni una predicción de aprobación, CPM, tráfico o
-ingresos. El auditor de Luna pasó con **4 briefs válidos en 4 archivos** y
-rechazos adversariales correctos; eso no convierte ningún brief en contenido
+ingresos. En esa instantánea, el auditor de Luna pasó con **4 briefs válidos en
+4 archivos** y rechazos adversariales correctos; la ampliación posterior a 7
+briefs está documentada en el runbook y no convierte ningún brief en contenido
 publicable.
 
 ## Reevaluación tras cubrir toda la cola con paquetes asistidos — 20/09/2026

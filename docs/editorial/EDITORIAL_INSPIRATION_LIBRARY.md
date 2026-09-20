@@ -1488,3 +1488,24 @@ Con esta ronda el catálogo queda en **819 entradas válidas** (809 anteriores +
 10 nuevas). El banco sirve para mejorar el proceso y crear briefs de
 actualización, no para fabricar credenciales, revisiones, conformidad WCAG o
 aprobación de AdSense.
+
+### Briefs de actualización derivados del banco — 20 de septiembre de 2026
+
+Para convertir las fuentes en oportunidades reutilizables sin abrir páginas
+duplicadas, se crearon tres briefs locales y sus Markdown generados. Cada uno
+conserva una aportación visual propia, una tabla de hecho/inferencia/hipótesis,
+límites de alcance y una puerta humana explícita.
+
+| Brief | Fuentes principales | Uso editorial | Decisión de imagen |
+| --- | --- | --- | --- |
+| [`geodynamo-waves-and-inference.json`](./drafts/geodynamo-waves-and-inference.json) | PNAS sobre ondas magneto-Coriolis, ESA Swarm, NASA GSFC | Actualizar la explicación de geodinamo separando dato, modelo e inferencia | Diagrama original, nunca una supuesta imagen directa del núcleo |
+| [`pangolin-detection-not-abundance.json`](./drafts/pangolin-detection-not-abundance.json) | Oryx sobre madrigueras, estudio de colocación de cámaras, IUCN | Actualizar pangolín gigante explicando presencia, detectabilidad, ocupación y abundancia | Infografía original con especie, sitio, periodo y esfuerzo |
+| [`greenland-shark-genome-limits.json`](./drafts/greenland-shark-genome-limits.json) | PNAS genómico, Nature Communications visual, NOAA longevidad | Actualizar tiburón de Groenlandia separando edad estimada, genoma y candidatos moleculares | Mapa de evidencia original; no presentar candidatos como tratamiento |
+
+El pipeline generó las versiones Markdown en `drafts/generated/` y
+`pnpm content:luna-audit` confirmó **7 briefs válidos en 7 archivos JSON**.
+La ampliación sirve para investigación y priorización; no añade artículos
+publicados, no altera el catálogo de citas del contenido actual y no cambia el
+conteo de revisiones humanas. Antes de utilizar cualquiera de los briefs, una
+persona debe abrir cada fuente, verificar el método, revisar la imagen y decidir
+si la actualización aporta algo que la pieza existente no resuelva.

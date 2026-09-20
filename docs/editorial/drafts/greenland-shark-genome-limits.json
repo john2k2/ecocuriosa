@@ -1,0 +1,99 @@
+{
+  "briefs": [
+    {
+      "slug": "greenland-shark-genome-limits",
+      "status": "research",
+      "sourceQuery": "genoma del tiburon de Groenlandia longevidad mecanismos candidatos limites",
+      "searchIntent": "informational",
+      "workingTitle": "El genoma del tiburón de Groenlandia: pistas, no una receta de longevidad",
+      "readerQuestion": "¿Qué puede revelar un genoma sobre un animal longevo y qué no permite afirmar todavía?",
+      "description": "Cómo leer el nuevo genoma del tiburón de Groenlandia sin convertir rutas candidatas de reparación o inmunidad en causas demostradas de longevidad.",
+      "category": "especies-marinas",
+      "pubDate": "2026-09-20",
+      "author": "PENDIENTE DE AUTORÍA REAL",
+      "image": "/images/articles/greenland-shark-genome-limits.svg",
+      "imageAlt": "Diagrama editorial del genoma del tiburón de Groenlandia separado en observación, candidato molecular y límite de inferencia",
+      "tags": ["tiburon-de-groenlandia", "genomica", "longevidad", "biologia-marina"],
+      "sourceCandidates": [
+        {
+          "catalogId": "greenland-shark-genome-pnas-2026",
+          "url": "https://doi.org/10.1073/pnas.2601272123",
+          "evidenceType": "primary",
+          "supports": "Genoma del tiburón de Groenlandia a escala cromosómica y rutas candidatas relacionadas con reparación e inmunidad.",
+          "scope": "Estudio genómico de 2026; conservar muestra, comparación y el lenguaje de candidatos del artículo.",
+          "limitation": "Una ruta candidata o una asociación no demuestra un mecanismo antienvejecimiento ni una intervención para humanos.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "greenland-shark-visual-system-ncomms-2026",
+          "url": "https://www.nature.com/articles/s41467-025-67429-6",
+          "evidenceType": "primary",
+          "supports": "Evidencia sobre el sistema visual y la adaptación a poca luz en tiburones de Groenlandia muestreados.",
+          "scope": "Muestra, localidades y fechas del estudio de sistema visual; mantener la biología sensorial separada de la longevidad.",
+          "limitation": "No demuestra mecanismos de envejecimiento ni permite generalizar desde la muestra a todos los tiburones.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "noaa-greenland-shark-longevity",
+          "url": "https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412",
+          "evidenceType": "institutional",
+          "supports": "Contexto institucional sobre la longevidad estimada, el método de datación y sus intervalos de incertidumbre.",
+          "scope": "Ficha de NOAA sobre Somniosus microcephalus; conservar la diferencia entre estimación y edad exacta.",
+          "limitation": "Es una explicación institucional y no prueba una relación causal entre un gen y la longevidad.",
+          "checkedBy": null,
+          "checkedDate": null
+        }
+      ],
+      "claims": [
+        {
+          "text": "Un genoma permite comparar secuencias y rutas biológicas, pero no observa por sí solo cuándo ni cómo envejece un animal.",
+          "certainty": "fact",
+          "sourceIds": ["greenland-shark-genome-pnas-2026"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "El estudio genómico identifica candidatos relacionados con reparación e inmunidad, no tratamientos ni causas demostradas de longevidad.",
+          "certainty": "fact",
+          "sourceIds": ["greenland-shark-genome-pnas-2026"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "La datación de edad y la genómica responden preguntas distintas y deben conservar sus intervalos y límites por separado.",
+          "certainty": "inference",
+          "sourceIds": ["greenland-shark-genome-pnas-2026", "noaa-greenland-shark-longevity"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Un mapa que separe longevidad estimada, genoma, visión y candidatos moleculares podría reducir el salto indebido desde correlación a causalidad.",
+          "certainty": "hypothesis",
+          "sourceIds": ["greenland-shark-genome-pnas-2026", "greenland-shark-visual-system-ncomms-2026", "noaa-greenland-shark-longevity"],
+          "humanCheck": "pending"
+        }
+      ],
+      "draftBody": "La palabra genoma puede sonar a explicación completa, pero un genoma es sobre todo un mapa de comparación. El trabajo reciente sobre el tiburón de Groenlandia ofrece rutas candidatas relacionadas con reparación e inmunidad; esas pistas ayudan a decidir qué estudiar, no demuestran por sí mismas por qué el animal puede vivir tanto.\n\nLa edad estimada por radiocarbono y la información genética tampoco son la misma clase de evidencia. Una ficha de NOAA recuerda que las estimaciones tienen intervalos amplios, mientras que los estudios de visión describen adaptación a poca luz en una muestra concreta, no un mecanismo universal de longevidad.\n\nLa actualización propuesta mostraría tres columnas: qué se midió, qué se propone como candidato y qué todavía no se puede concluir. Así se evita convertir una asociación molecular en una promesa para la medicina humana.",
+      "originalContribution": "Mapa editorial de evidencia que separa datación, genómica, sistema visual y causalidad pendiente, con etiquetas de muestra y alcance.",
+      "uniqueContribution": "Conectar el nuevo genoma con el artículo de longevidad sin venderlo como una receta: el lector ve qué evidencia responde a cada pregunta.",
+      "firstHandEvidence": "not-applicable: divulgación basada en genómica, fisiología sensorial y una fuente institucional",
+      "notCommodity": "No es una repetición de la cifra de siglos: explica cómo se limita una inferencia cuando se combinan genoma, edad estimada y fisiología.",
+      "authorRoles": "pending",
+      "reportingGuideline": "not-applicable",
+      "referenceIntegrityLog": "pending",
+      "imagePlan": "original-illustration",
+      "imageRights": "pending",
+      "internalLinks": [
+        "/especies-marinas/tiburon-de-groenlandia-vertebrado-mas-longevo/",
+        "/especies-marinas/ballena-azul-fisiologia-gigante-cardiovascular/",
+        "/metodologia-editorial/"
+      ],
+      "humanApproval": "pending",
+      "publish": false
+    }
+  ],
+  "observations": [
+    "El brief propone una actualización del artículo existente, no una promesa médica ni una nueva URL automática.",
+    "La fuente genómica, el estudio visual y NOAA cubren preguntas distintas y no deben fusionarse como una sola prueba.",
+    "No se incluyen reviewedDate ni reviewedBy; las tres fuentes y el diagrama requieren comprobación humana."
+  ]
+}

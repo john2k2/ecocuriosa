@@ -136,8 +136,8 @@ un brief nuevo quede fuera de las puertas de publicación.
 
 ### Verificación del pipeline — 20 de septiembre de 2026
 
-La ejecución reproducible de `pnpm content:luna-audit` encontró **4 briefs
-válidos en 4 archivos JSON**. También rechazó correctamente seis mutaciones
+La ejecución reproducible de `pnpm content:luna-audit` encontró **7 briefs
+válidos en 7 archivos JSON**. También rechazó correctamente seis mutaciones
 adversariales: `catalogId` inexistente, URL duplicada, URL distinta de la
 canónica del catálogo, ilustración sin etiqueta, enlace externo en
 `internalLinks` y ausencia de `uniqueContribution`. El resultado solo prueba
@@ -223,7 +223,7 @@ con tres candidatas del nuevo lote (`ec-coral-heatcrd-2024`,
 `ec-coral-decade-heatwaves-2024` y `ec-coral-heatwave-memory-2024`). El brief
 propone una visualización original de trayectorias y mantiene cuatro claims
 separados como hecho, inferencia o hipótesis. El auditor encontró **4 briefs
-válidos en 4 archivos JSON**, rechazó correctamente los casos adversariales y
+válidos en 4 archivos JSON en esa prueba inicial**, rechazó correctamente los casos adversariales y
 confirmó que todos conservan `humanApproval: pending` y `publish: false`.
 
 Esta prueba demuestra que el pipeline puede transformar una fuente candidata en
@@ -231,3 +231,21 @@ un artefacto revisable, no que el artículo esté listo para publicar. La person
 responsable todavía debe abrir las tres fuentes, confirmar alcance y licencia,
 revisar el texto y decidir si el brief aporta algo que no resuelva ya la
 monografía de coral existente.
+
+### Ampliación controlada de inspiración — 20 de septiembre de 2026
+
+Se añadieron tres briefs locales de actualización, todos con fuentes ya
+catalogadas y sin crear URLs públicas nuevas:
+
+- [`geodynamo-waves-and-inference.json`](./drafts/geodynamo-waves-and-inference.json): separa medición, modelo e inferencia para el artículo de geodinamo.
+- [`pangolin-detection-not-abundance.json`](./drafts/pangolin-detection-not-abundance.json): explica por qué una detección de pangolín no equivale a abundancia.
+- [`greenland-shark-genome-limits.json`](./drafts/greenland-shark-genome-limits.json): conecta el genoma reciente con la longevidad estimada sin convertir candidatos moleculares en causalidad.
+
+La nueva ejecución de `pnpm content:luna-audit` encontró **7 briefs válidos en
+7 archivos JSON** y volvió a rechazar los seis casos adversariales. El pipeline
+generó también los tres Markdown locales correspondientes bajo
+`drafts/generated/`. Los siete briefs conservan `humanApproval: pending`,
+`publish: false`, imagen original propuesta y comprobación humana pendiente.
+Esto aumenta la capacidad de investigación, no la cantidad de artículos
+publicados ni la puntuación de E‑E‑A‑T hasta que una persona abra las fuentes,
+revise los textos y apruebe cada decisión.
