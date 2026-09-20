@@ -233,3 +233,16 @@ revisión humana E‑E‑A‑T** (probabilidad 0,96; confianza 0,95).
 El resultado es `model: jev-1.13.0` y `advisory_only: true`. La mejora es una
 segunda opinión sobre el estado suministrado, no una medición de UX de campo,
 aprobación de AdSense, tráfico, CPM, ingresos ni indexación.
+
+## Reevaluación con catálogo y brief controlado — 20/09/2026
+
+Después de ampliar el catálogo a 718 candidatas y añadir un brief de coral que
+pasó el auditor de Luna sin publicar, se volvió a consultar Jev. La puntuación
+global fue **2,62/4** (confianza 0,68), con distribución 0: 0%, 1: 1%, 2: 37%,
+3: 62% y 4: 0%. La prioridad volvió a ser **cerrar las revisiones humanas
+E‑E‑A‑T** (probabilidad 0,98; confianza 0,97).
+
+El resultado es `model: jev-1.13.0` y `advisory_only: true`. El catálogo y los
+briefs mejoran la preparación del proceso, pero no cuentan como revisión humana,
+no prueban aprobación de AdSense y no miden tráfico, CPM, ingresos, indexación
+ni Core Web Vitals de campo.
