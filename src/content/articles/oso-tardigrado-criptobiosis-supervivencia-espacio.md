@@ -26,6 +26,24 @@ sources:
     accessedDate: 2026-09-13
     evidenceType: "primary"
     scope: "Proteína Dsup de Ramazzottius varieornatus estudiada en células y ensayos bioquímicos"
+  - title: "Anhydrobiosis performance across tardigrade species and environments"
+    publisher: "Journal of Animal Ecology"
+    url: "https://doi.org/10.1111/1365-2656.14031"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Variación filogenética y ecológica del rendimiento anhidrobiótico; los proxies ambientales no prueban causalidad directa"
+  - title: "DNA degradation and recovery in Paramacrobiotus richtersi"
+    publisher: "Journal of Experimental Biology"
+    url: "https://doi.org/10.1242/jeb.033266"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Supervivencia, recuperación y daño de ADN bajo humedad y temperatura controladas en una especie y duración concretas"
+  - title: "Feeding apparatus of tardigrades"
+    publisher: "Journal of Limnology"
+    url: "https://doi.org/10.4081/jlimnol.2013.s1.e4"
+    accessedDate: 2026-09-20
+    evidenceType: "secondary"
+    scope: "Comparación de estiletes, faringe y aparato perforador en ocho especies; anatomía no define todas las dietas"
 featured: false
 ---
 
@@ -48,6 +66,8 @@ La resistencia extrema, por tanto, es una propiedad condicional. Un tardígrado 
 2. **Dsup:** El [estudio de eLife disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) examinó la proteína Dsup de *Ramazzottius varieornatus*. Cuando se expresó en células y se probó en ensayos controlados, redujo parte del daño del ADN producido por radiación ionizante o peróxido de hidrógeno. Ese resultado no equivale a una coraza universal ni a una terapia.
 
 3. **Rehidratación:** En condiciones adecuadas, un ejemplar que toleró la desecación puede reanudar su actividad al recibir agua. El resultado depende de especie, preparación, duración y condiciones del experimento.
+
+La variación no es solo una advertencia editorial. Un estudio comparativo relaciona el [rendimiento anhidrobiótico](https://doi.org/10.1111/1365-2656.14031) con diferencias filogenéticas y ecológicas, pero sus proxies ambientales no prueban por sí solos una causa. En *Paramacrobiotus richtersi*, otro trabajo midió [daño de ADN, recuperación y supervivencia](https://doi.org/10.1242/jeb.033266) bajo humedad y temperatura controladas: es una especie y una duración concreta, no un límite universal.
 
 ### Límites Fisicoquímicos de Supervivencia del Tardígrado en Criptobiosis
 
@@ -80,6 +100,8 @@ Las dos investigaciones citadas aquí no permiten fijar una duración universal:
 
 Poseen un par de estiletes bucales retráctiles afilados con los que perforan las paredes celulares de algas, musgos, nematodos o rotíferos microscópicos, absorbiendo su contenido nutritivo con una faringe muscular succionadora.
 
+La forma del aparato bucal también varía: una comparación de [estiletes y faringe en ocho especies](https://doi.org/10.4081/jlimnol.2013.s1.e4) sirve para describir anatomía, no para afirmar que todos los tardígrados tienen la misma dieta o capacidad de perforación.
+
 ### ¿Qué aplicaciones biotecnológicas se investigan con sus proteínas?
 
 Las proteínas protectoras se estudian en sistemas experimentales. Esa investigación no prueba todavía aplicaciones clínicas, conservación de vacunas o protección durante tratamientos médicos.
@@ -93,3 +115,6 @@ Los tardígrados toleran condiciones extremas solo bajo especies, estados y dura
 ### Referencias y Literatura Científica Consultada
 - [Tardigrades survive exposure to space in low Earth orbit](https://doi.org/10.1016/j.cub.2008.06.048) — *Current Biology*; dos especies desecadas en órbita baja.
 - [The tardigrade damage suppressor protein binds to nucleosomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6773438/) — *eLife* / PubMed Central; Dsup de *Ramazzottius varieornatus* en células y ensayos bioquímicos.
+- [Anhydrobiosis performance across tardigrade species and environments](https://doi.org/10.1111/1365-2656.14031) — *Journal of Animal Ecology*; variación ecológica y filogenética.
+- [DNA degradation and recovery in *Paramacrobiotus richtersi*](https://doi.org/10.1242/jeb.033266) — *Journal of Experimental Biology*; una especie bajo condiciones controladas.
+- [Feeding apparatus of tardigrades](https://doi.org/10.4081/jlimnol.2013.s1.e4) — *Journal of Limnology*; comparación anatómica en ocho especies.

@@ -44,6 +44,24 @@ sources:
     accessedDate: 2026-09-14
     evidenceType: "institutional"
     scope: "Resumen institucional con temperaturas de al menos 31 °C durante 40,7 días de promedio y mortalidad distinta entre Florida Keys/Dry Tortugas y el sector offshore"
+  - title: "HeatCRD: coral heatwave recovery database"
+    publisher: "Scientific Data / Nature / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/"
+    accessedDate: 2026-09-20
+    evidenceType: "dataset"
+    scope: "Base comparativa de 12.266 sitios; conservar país, profundidad, periodo y definición de recuperación al comparar trayectorias"
+  - title: "Divergent bleaching and recovery trajectories after repeated Hawaiian heatwaves"
+    publisher: "Proceedings of the National Academy of Sciences / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Tres olas de calor en dos especies de Hawái; no generalizar sus trayectorias a todos los arrecifes"
+  - title: "Ecological memory of thermal stress in corals"
+    publisher: "Molecular Ecology / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Respuesta genotípica y fisiológica ante estrés térmico sucesivo en el diseño estudiado; conservar especie y sitio"
 featured: false
 ---
 
@@ -75,6 +93,10 @@ Muchos corales constructores viven asociados con dinoflagelados de la familia [S
 | Calor acumulado | NOAA Coral Reef Watch usa productos de temperatura superficial y grados de calentamiento (DHW) para seguir el riesgo; el umbral depende del contexto |
 | Recuperación | Posible si el estrés no es letal y las condiciones mejoran; no está garantizada |
 | Calcificación | Cambia con especie, temperatura, química, luz y estado de la colonia; no hay una tasa única para todos los arrecifes |
+
+Las comparaciones amplias también necesitan una definición explícita de “recuperación”. La base [HeatCRD](https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/) reúne observaciones de 12.266 sitios, pero sus trayectorias conservan diferencias de país, profundidad, periodo y método. En Hawái, un estudio que siguió dos especies durante tres olas de calor encontró [trayectorias divergentes de blanqueamiento y recuperación](https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/); ese resultado no es una tasa universal para todos los corales.
+
+La llamada “memoria” térmica es una hipótesis medible, no una garantía de resistencia: un estudio de [estrés térmico sucesivo](https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/) observó cambios genotípicos y fisiológicos en su diseño experimental. Antes de trasladar esa idea a una colonia concreta hay que conservar la especie, el sitio, la intensidad y el intervalo entre olas de calor.
 
 ---
 
@@ -120,3 +142,6 @@ El blanqueamiento hace visible la fragilidad de una simbiosis que sostiene mucho
 - [Current Global Bleaching: Status Update & Data Submission](https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php) — NOAA Coral Reef Watch; actualización fechada del evento global.
 - [Heat-driven functional extinction of Caribbean *Acropora* corals from Florida's Coral Reef](https://doi.org/10.1126/science.adx7825) — *Science*; estudio de campo sobre calor y mortalidad regional en 2023.
 - [Resumen del estudio sobre *Acropora* en el arrecife de Florida](https://www.usgs.gov/publications/heat-driven-functional-extinction-caribbean-acropora-corals-floridas-coral-reef) — USGS; alcance geográfico, temperaturas y diferencias de mortalidad.
+- [HeatCRD: coral heatwave recovery database](https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/) — *Scientific Data*; comparación de sitios y definiciones de recuperación.
+- [Divergent bleaching and recovery trajectories after repeated Hawaiian heatwaves](https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/) — *PNAS*; dos especies y tres olas de calor en Hawái.
+- [Ecological memory of thermal stress in corals](https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/) — *Molecular Ecology*; respuesta a estrés sucesivo en el diseño estudiado.

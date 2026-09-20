@@ -32,6 +32,24 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "review"
     scope: "Propuesta teórica sobre un cerebro termogénico en mobúlidos; no demuestra rendimiento cognitivo ni adaptación universal al frío"
+  - title: "Movement ecology and connectivity of reef manta rays in Raja Ampat"
+    publisher: "Ecology and Evolution / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11004681/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Seguimiento regional de Mobula alfredi con 34 receptores y 72 individuos; no extrapolar a todas las mantas"
+  - title: "Deep diving behaviour of oceanic manta rays"
+    publisher: "Frontiers in Marine Science"
+    url: "https://doi.org/10.3389/fmars.2025.1630451"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Inmersiones registradas con etiquetas; la función ecológica es inferida y no mide cognición"
+  - title: "Foraging movements of giant manta rays in Aotearoa/New Zealand"
+    publisher: "Royal Society Open Science"
+    url: "https://doi.org/10.1098/rsos.250838"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Movimientos y forrajeo de Mobula birostris en aguas costeras regionales; no es un censo global"
 featured: false
 ---
 
@@ -63,6 +81,8 @@ de los individuos estaba confirmado como *Mobula birostris* y la prueba de marca
 no se completó. El resultado es valioso para estudiar conducta, pero no
 demuestra por sí solo una autoconciencia equivalente a la humana ni explica
 toda la ecología de la especie.
+
+La conducta libre añade otra capa de contexto. En Raja Ampat, un seguimiento de [34 receptores y 72 mantas de arrecife](https://pmc.ncbi.nlm.nih.gov/articles/PMC11004681/) describió conectividad y movimientos regionales de *Mobula alfredi*; no es una medición de *M. birostris* ni una extrapolación mundial. Estudios con etiquetas también han registrado [inmersiones profundas](https://doi.org/10.3389/fmars.2025.1630451) y, en Aotearoa/Nueva Zelanda, [movimientos de forrajeo](https://doi.org/10.1098/rsos.250838). Esos datos ayudan a explicar dónde busca alimento, pero no convierten una ruta o una profundidad en evidencia de inteligencia.
 
 ### Comparativa de Neuroanatomía en Elasmobranquios
 
@@ -111,3 +131,6 @@ La manta gigante merece atención por su ecología y vulnerabilidad, no por anal
 - [Giant Manta Ray](https://www.fisheries.noaa.gov/species/giant-manta-ray) — NOAA Fisheries; tamaño, buceo, amenazas y estado legal.
 - [Contingency checking and self-directed behaviors in giant manta rays](https://doi.org/10.1007/s10164-016-0462-z) — *Journal of Ethology*; conducta frente a espejo en condiciones experimentales.
 - [Cranial endothermy in mobulid rays](https://pubmed.ncbi.nlm.nih.gov/39434239/) — *Journal of Animal Ecology* / PubMed; propuesta sobre termorregulación craneal.
+- [Movement ecology and connectivity of reef manta rays in Raja Ampat](https://pmc.ncbi.nlm.nih.gov/articles/PMC11004681/) — *Ecology and Evolution*; seguimiento regional de *Mobula alfredi*.
+- [Deep diving behaviour of oceanic manta rays](https://doi.org/10.3389/fmars.2025.1630451) — *Frontiers in Marine Science*; registros de inmersión con etiquetas.
+- [Foraging movements of giant manta rays in Aotearoa/New Zealand](https://doi.org/10.1098/rsos.250838) — *Royal Society Open Science*; movimientos regionales de forrajeo.

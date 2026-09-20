@@ -3,6 +3,7 @@ title: "El pangolín gigante: escamas de queratina y conservación"
 description: "Qué se sabe sobre las escamas de Smutsia gigantea y por qué el tráfico ilegal amenaza a los pangolines."
 category: "fauna-fascinante"
 pubDate: 2026-08-08
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/pangolin-gigante-armadura.svg"
 imageAlt: "Ilustración editorial de un pangolín gigante mostrando sus escamas de queratina"
@@ -37,6 +38,24 @@ sources:
     accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Contexto de nomenclatura y listado CITES de las ocho especies reconocidas"
+  - title: "Camera-trap placement and detectability of white-bellied pangolins"
+    publisher: "Ecology and Evolution / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10172612/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Detectabilidad de un pangolín semiarborícola en un estudio de cámaras; no equivale a densidad mundial ni a Smutsia gigantea"
+  - title: "Habitat suitability for the giant pangolin in Cameroon"
+    publisher: "Global Ecology and Conservation"
+    url: "https://doi.org/10.1016/j.gecco.2023.e02395"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Modelización de hábitat potencial en una zona protegida de Camerún; madrigueras y MaxEnt no equivalen a abundancia"
+  - title: "Pangolin scales and immune-related antimicrobial activity"
+    publisher: "BMC Biology / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11472485/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Evidencia bioquímica e in vitro sobre posibles funciones inmunitarias; no prueba tratamientos ni propiedades clínicas"
 featured: false
 ---
 
@@ -68,6 +87,10 @@ El [estudio mecánico citado](https://pubmed.ncbi.nlm.nih.gov/26703230/) analiz�
 | Organización | Escamas superpuestas que pueden absorber y redistribuir cargas |
 | Alimentación | Hormigas y termitas, con adaptaciones de lengua y aparato digestivo |
 | Límite | Los valores mecánicos dependen del ejemplar, la especie y el ensayo |
+
+La conservación también depende de cómo se mide la presencia del animal. Un estudio de cámaras mostró que la colocación puede cambiar la [detectabilidad del pangolín de vientre blanco](https://pmc.ncbi.nlm.nih.gov/articles/PMC10172612/); no convierte un índice de detección en una densidad global ni describe automáticamente a *Smutsia gigantea*. Para el pangolín gigante, un modelo de [hábitat potencial en Camerún](https://doi.org/10.1016/j.gecco.2023.e02395) señala zonas adecuadas dentro de un área protegida, pero madrigueras y MaxEnt no son un censo de abundancia.
+
+Algunos experimentos también estudian si la superficie de las escamas tiene [actividad antimicrobiana o relación con la inmunidad](https://pmc.ncbi.nlm.nih.gov/articles/PMC11472485/). Es evidencia bioquímica e *in vitro*: no demuestra que las escamas curen enfermedades ni justifica su comercio.
 
 ---
 
@@ -102,3 +125,6 @@ Las escamas de queratina del pangolín son una adaptación mecánica notable, pe
 - [Giant Pangolin (*Smutsia gigantea*)](https://www.mammaldiversity.org/taxon/1005800/) — American Society of Mammalogists; taxonomía e historia natural.
 - [The global trafficking of Pangolins: Seizures and Trafficking Routes from 2010–2015](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) — TRAFFIC / IUCN SSC; decomisos y rutas en ese periodo.
 - [Listing of pangolins in the Appendices](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-038.pdf) — CITES Animals Committee; contexto de listado y nomenclatura.
+- [Camera-trap placement and detectability of white-bellied pangolins](https://pmc.ncbi.nlm.nih.gov/articles/PMC10172612/) — *Ecology and Evolution*; límites de detectabilidad en un estudio de campo.
+- [Habitat suitability for the giant pangolin in Cameroon](https://doi.org/10.1016/j.gecco.2023.e02395) — *Global Ecology and Conservation*; modelización regional de hábitat.
+- [Pangolin scales and immune-related antimicrobial activity](https://pmc.ncbi.nlm.nih.gov/articles/PMC11472485/) — *BMC Biology*; evidencia bioquímica e *in vitro*.

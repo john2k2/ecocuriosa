@@ -260,3 +260,24 @@ consulta actual hizo explícito que las 733 fuentes siguen siendo candidatas y
 que solo 1/32 artículos tiene firma humana. La herramienta devolvió
 `model: jev-1.13.0` y `advisory_only: true`; no demuestra aprobación, tráfico,
 CPM, ingresos, indexación ni CWV de campo.
+
+## Reevaluación tras integrar evidencia en cinco artículos P0 — 20/09/2026
+
+Después de incorporar fuentes primarias, datasets y fuentes institucionales en
+coral, manta, pangolín, tardígrado y ajolote, se repitieron el build y los
+auditores de referencias, metadatos, renderizado e indexación. El estado local
+queda en 32/32 artículos con fuentes enlazadas (131/131), 0 errores de Astro,
+0 problemas de indexación y 1/32 artículos con revisión humana registrada; los
+otros 31 siguen pendientes y 22 conservan señales para lectura humana.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial verificable para revisión humana | **2,01/4** | 0,92 | La base técnica y de trazabilidad está presente, pero la deuda de revisión humana sigue siendo grande. |
+| Próxima puerta que más reduce riesgo | **cerrar revisiones humanas P0** | 0,93 | Revisar y registrar realmente los 31 artículos, empezando por los nueve de mayor riesgo. |
+
+La distribución del score fue 0: 0%, 1: 4%, 2: 91%, 3: 5% y 4: 0%; la elección
+de `human_review` tuvo probabilidad 0,96. Jev devolvió `model: jev-1.13.0` y
+`advisory_only: true`. Es una segunda opinión del estado enviado, no una
+comprobación de Google, Search Console, Cloudflare o AdSense, ni una predicción
+de aprobación, CPM, ingresos o tráfico. La integración de fuentes mejora la
+trazabilidad; no cuenta como firma humana ni autoriza publicación automática.
