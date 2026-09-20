@@ -15,9 +15,9 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
 | E‑E‑A‑T | 680 fuentes en catálogo; 9 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta independiente más reciente de Jev dio **1,69/4** para preparación
-global (la ronda anterior había dado 1,93/4) y eligió cerrar primero las
-revisiones humanas P0. La bajada es una reponderación del estado —ahora se
+La consulta independiente más reciente de Jev dio **1,79/4** para preparación
+global (las rondas previas dieron 1,69/4 y 1,93/4) y eligió cerrar primero las
+revisiones humanas P0. La variación es una reponderación del estado —ahora se
 explicita que solo 1/32 artículos tiene firma humana—, no una regresión medida
 del código: las auditorías y el build siguen pasando. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
