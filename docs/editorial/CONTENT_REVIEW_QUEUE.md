@@ -24,6 +24,11 @@ paquetes: [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
 explícitamente qué fuentes o afirmaciones aún requieren reapertura y
 confirmación directa.
 
+El lote P0 también tiene una instantánea de acceso inicial de las diez fuentes
+nuevas de Luna en [`P0_SOURCE_ACCESS_2026-09-20.md`](./P0_SOURCE_ACCESS_2026-09-20.md).
+Seis landings respondieron `200` y cuatro `403` desde el entorno de consulta;
+ninguno de esos estados sustituye la apertura manual ni cambia `pending`.
+
 Después del lote de fuentes de Search Console se añadieron tres paquetes
 asistidos más: [geosmina y petricor](./reviews/geosmina-petricor-2026-09-20.md),
 [tiburón de Groenlandia](./reviews/tiburon-groenlandia-2026-09-20.md) y
