@@ -17,11 +17,13 @@ sources:
   - title: "Giant Manta Ray"
     publisher: "NOAA Fisheries"
     url: "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Ficha de especie actualizada en enero de 2026: tamaño, buceo, población, amenazas y estado legal"
   - title: "Contingency checking and self-directed behaviors in giant manta rays"
     publisher: "Journal of Ethology"
     url: "https://doi.org/10.1007/s10164-016-0462-z"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Conducta frente a un espejo en condiciones experimentales; no prueba por sí sola autoconciencia"
   - title: "Cranial endothermy in mobulid rays: Evolutionary and ecological implications of a thermogenic brain"

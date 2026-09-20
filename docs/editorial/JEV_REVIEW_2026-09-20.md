@@ -134,3 +134,23 @@ La distribución de score fue 0: 0%, 1: 31%, 2: 59%, 3: 10%, 4: 0%. Jev mantuvo
 `advisory_only: true`; el resultado no demuestra aprobación, tráfico, CPM,
 ingresos ni indexación. El estado de decisión permanece en manos del editor y
 se conserva `pending` hasta completar cada revisión humana.
+
+## Reevaluación independiente tras el siguiente contraste P0 — 20/09/2026
+
+Se consultó nuevamente Jev después de abrir fuentes primarias e
+institucionales para los paquetes de ballena azul, manta raya, pangolín y
+arrecifes, registrar fechas de acceso en ese lote y regenerar el prechequeo de
+la cola. El estado verificable queda en 32/32 artículos con fuentes, imágenes,
+alt y procedencia; 20/31 pendientes tienen fechas de acceso completas; todavía
+solo 1/32 tiene revisión humana registrada y 31/31 conservan decisión pendiente.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación global para monetización sostenible y visibilidad orgánica | **1,93/4** | 0,83 | La base técnica es sólida, pero la deuda de lectura editorial humana y los gates de cuenta siguen siendo materiales. |
+| Prioridad siguiente | **revisión humana E‑E‑A‑T** | 1,00 | Terminar P0 con afirmaciones, muestras, fechas, límites, imágenes y enlaces antes de producir más volumen. |
+
+La distribución del score fue 0: 0%, 1: 13%, 2: 82%, 3: 4%, 4: 1%. Jev
+devolvió `model: jev-1.13.0` y `advisory_only: true`; el resultado no
+demuestra aprobación, CPM, ingresos, tráfico ni datos recientes de Search
+Console o Cloudflare. Las mejoras de metadatos reducen trabajo pendiente, pero
+no convierten un contraste asistido en una firma humana.

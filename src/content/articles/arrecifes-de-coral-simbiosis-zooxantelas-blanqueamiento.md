@@ -17,16 +17,19 @@ sources:
   - title: "What is coral bleaching?"
     publisher: "NOAA Ocean Service"
     url: "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Definición de blanqueamiento, estrés y posibilidades de recuperación"
   - title: "Coral bleaching from a single cell perspective"
     publisher: "ISME Journal / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5955907/"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Mecanismos celulares de la simbiosis y del estrés por blanqueamiento"
   - title: "Current Global Bleaching: Status Update & Data Submission"
     publisher: "NOAA Coral Reef Watch"
     url: "https://www.coralreefwatch.noaa.gov/satellite/research/coral_bleaching_report.php"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Actualización del 2 de junio de 2026 sobre el cuarto evento global y el estrés térmico acumulado"
   - title: "Heat-driven functional extinction of Caribbean Acropora corals from Florida's Coral Reef"

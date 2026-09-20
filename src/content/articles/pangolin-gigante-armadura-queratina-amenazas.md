@@ -16,21 +16,25 @@ sources:
   - title: "Structure and mechanical behaviors of protective armored pangolin scales"
     publisher: "Journal of the Mechanical Behavior of Biomedical Materials / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/26703230/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Ensayos mecánicos de escamas de pangolín; no representa por sí solo todas las especies ni toda la armadura"
   - title: "Giant Pangolin (Smutsia gigantea)"
     publisher: "American Society of Mammalogists"
     url: "https://www.mammaldiversity.org/taxon/1005800/"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Taxonomía e historia natural del pangolín gigante"
   - title: "The global trafficking of Pangolins: Seizures and Trafficking Routes from 2010–2015"
     publisher: "TRAFFIC / IUCN SSC Pangolin Specialist Group"
     url: "https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Análisis de decomisos y rutas internacionales durante 2010–2015"
   - title: "Listing of pangolins in the Appendices"
     publisher: "CITES Animals Committee"
     url: "https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-038.pdf"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Contexto de nomenclatura y listado CITES de las ocho especies reconocidas"
 featured: false
