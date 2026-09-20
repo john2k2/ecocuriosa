@@ -246,3 +246,17 @@ El resultado es `model: jev-1.13.0` y `advisory_only: true`. El catálogo y los
 briefs mejoran la preparación del proceso, pero no cuentan como revisión humana,
 no prueban aprobación de AdSense y no miden tráfico, CPM, ingresos, indexación
 ni Core Web Vitals de campo.
+
+## Reevaluación tras la segunda tanda de Luna Max — 20/09/2026
+
+Con el catálogo ampliado a **733 candidatas** y cuatro briefs locales válidos,
+sin cambiar el estado de revisión humana, Jev devolvió **2,08/4** (confianza
+0,83). La distribución fue 0: 1%, 1: 5%, 2: 80%, 3: 14% y 4: 0%. La siguiente
+prioridad continuó siendo **cerrar la revisión humana E‑E‑A‑T** (probabilidad
+0,97; confianza 0,96).
+
+La variación respecto de 2,62/4 no es una medición de regresión del código: la
+consulta actual hizo explícito que las 733 fuentes siguen siendo candidatas y
+que solo 1/32 artículos tiene firma humana. La herramienta devolvió
+`model: jev-1.13.0` y `advisory_only: true`; no demuestra aprobación, tráfico,
+CPM, ingresos, indexación ni CWV de campo.
