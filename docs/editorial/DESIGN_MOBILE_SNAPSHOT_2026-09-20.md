@@ -63,6 +63,17 @@ Bots, recursos y redirecciones están incluidos.
 
 ## Pendientes verificables
 
+### Comprobación adicional en producción — 20/09/2026, 19:07
+
+Se volvieron a abrir en el navegador integrado la categoría
+`/especies-marinas/` y la página legal `/politica-de-privacidad/`. En ambas
+rutas el árbol accesible mostró salto al contenido, marca enlazada, botón de
+navegación móvil con nombre y estado, H1 único, enlaces de pie operativos y
+contenido legal legible. Las capturas del viewport activo no mostraron
+desbordamiento horizontal visible. Esta comprobación confirma las plantillas
+y su recorrido, pero no sustituye la matriz con anchos explícitos ni la prueba
+de teclado que sigue pendiente en esas dos rutas.
+
 - Repetir la matriz de capturas/mediciones en una categoría y una página legal;
   la portada y un artículo representativo ya cubren las cuatro anchuras entre
   ambas rutas.
