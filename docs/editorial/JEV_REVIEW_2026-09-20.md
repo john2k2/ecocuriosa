@@ -203,3 +203,33 @@ elección de prioridad fue revisión humana (94%) frente a métricas externas
 (6%). Es una segunda opinión sobre el resumen enviado, no una medición de
 Google, Cloudflare, Search Console o AdSense, ni una predicción de aprobación,
 CPM, ingresos o tráfico.
+
+## Reevaluación tras completar fechas de acceso — 20/09/2026
+
+Se hizo otra consulta acotada después de comprobar mediante HTTP y lectura de
+fuentes las siete referencias que aún no tenían `accessedDate`. El catálogo y
+las fichas pasan ahora a **115/115 fuentes con fecha de acceso**, sin marcar
+revisiones humanas nuevas. Jev devolvió una puntuación muy similar y volvió a
+señalar la misma prioridad:
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial/AdSense | **1,90/4** | 0,91 | La trazabilidad técnica mejoró, pero 31/32 artículos siguen sin firma humana y los gates externos siguen abiertos. |
+| Prioridad siguiente | **cerrar revisión humana** | 1,00 | Revisar claims, alcance, imágenes y límites antes de aumentar el volumen automatizado. |
+
+La distribución fue 0: 0%, 1: 10%, 2: 90%, 3: 0% y 4: 0%. La herramienta
+devolvió `model: jev-1.13.0` y `advisory_only: true`; esta señal no equivale a
+aprobación de AdSense, tráfico, CPM, ingresos ni autoridad de búsqueda.
+
+## Reevaluación tras la iteración de diseño y accesibilidad — 20/09/2026
+
+Después de mejorar la jerarquía visual de metodología, añadir un resumen de
+lectura rápida, un índice anclado y un nombre accesible explícito a los enlaces
+de las tarjetas, se hizo una consulta acotada con el mismo estado editorial.
+Jev devolvió una preparación de **2,69/4** (confianza 0,74), con distribución
+0: 0%, 1: 0%, 2: 30%, 3: 70% y 4: 0%. La siguiente prioridad fue **cerrar la
+revisión humana E‑E‑A‑T** (probabilidad 0,96; confianza 0,95).
+
+El resultado es `model: jev-1.13.0` y `advisory_only: true`. La mejora es una
+segunda opinión sobre el estado suministrado, no una medición de UX de campo,
+aprobación de AdSense, tráfico, CPM, ingresos ni indexación.

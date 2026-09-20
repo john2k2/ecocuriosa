@@ -95,6 +95,17 @@
     line-height: 1.25;
   }
 
+  .article-prose > h1 {
+    font-family: 'Literata', Georgia, serif;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    color: var(--jungle-deep);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
   .article-prose h3 {
     font-family: 'Literata', Georgia, serif;
     font-size: 1.375rem;

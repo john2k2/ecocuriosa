@@ -130,7 +130,7 @@ const readingTime = `Lectura de ${estimatedMinutes} min`;
       <h3 class={`font-serif font-bold text-[#141715] tracking-tight leading-snug sm:leading-snug mb-3 group-hover:text-[#063b1e] transition-colors ${
         featured ? 'text-2xl sm:text-3xl' : 'text-xl'
       }`}>
-        <a href={articleUrl} class="after:absolute after:inset-0 after:z-10 focus:outline-none">
+        <a href={articleUrl} aria-label={`Leer la investigación: ${title}`} class="after:absolute after:inset-0 after:z-10 focus:outline-none">
           {title}
         </a>
       </h3>
