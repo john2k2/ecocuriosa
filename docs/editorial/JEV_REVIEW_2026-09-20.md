@@ -455,3 +455,23 @@ cambió el estado y la rúbrica enviados. Jev devolvió `model: jev-1.13.0`,
 `advisory_only: true`, 795 tokens de entrada y 76 de salida. El resultado no
 demuestra aprobación de AdSense, tráfico, ranking, ingresos ni Core Web Vitals
 de campo.
+
+## Reevaluación tras optimizar snippets y ampliar el banco de fuentes — 20/09/2026
+
+Después de acortar cuatro títulos adicionales, añadir dos enlaces internos al
+artículo de *Architeuthis dux* e incorporar 15 fuentes nuevas al catálogo (809
+entradas válidas), se volvió a consultar el MCP de Jev con el estado agregado
+actual. La consulta conservó la separación entre auditoría técnica, evidencia
+editorial y gates privados de AdSense.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación verificable para SEO/GEO, E‑E‑A‑T y monetización | **1,73/4** | 0,77 | El sitio funciona técnicamente, pero la revisión humana y los gates externos siguen limitando la salida. |
+| Próxima acción | **human_review** (0,95) | 0,94 | Revisar los artículos pendientes antes de crear volumen nuevo o automatizar publicación. |
+
+La distribución de la puntuación fue 0: 1 %, 1: 26 %, 2: 73 %, 3: 0 % y 4: 0 %.
+El resultado es consultivo (`model: jev-1.13.0`, `advisory_only: true`, 1.075
+tokens de entrada y 78 de salida). La variación respecto de 1,91/4 no es una
+regresión medida: cambió el estado suministrado y se incluyeron nuevas fuentes y
+enlaces, pero siguen presentes 31/32 revisiones humanas pendientes. Jev no
+comprueba Search Console, Cloudflare, fuentes, licencias ni la cuenta de AdSense.

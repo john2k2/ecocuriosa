@@ -1,5 +1,5 @@
 ---
-title: "Géiseres: cómo calor, agua y conductos producen una erupción"
+title: "Géiseres: cómo calor y presión producen una erupción"
 description: "Una explicación clara del sistema hidrotermal de Yellowstone y de por qué la presión y la geometría del conducto importan."
 category: "fenomenos-naturales"
 pubDate: 2026-08-28

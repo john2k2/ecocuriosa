@@ -4798,3 +4798,93 @@ entries:
     evidenceType: international-recommendation
     url: https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence
     use: inspirar transparencia, rendición de cuentas, evaluación de impacto y supervisión humana; no es certificación ni obligación legal automática
+  - id: geosmin-genome-s-rubrogriseus-2026
+    authority: Computers in Biology and Chemistry / Elsevier
+    domain: editorial-geosmina
+    evidenceType: primary
+    url: https://doi.org/10.1016/j.compbiolchem.2026.108900
+    use: respaldar un clúster geoA asociado con biosíntesis de geosmina en una cepa de Streptomyces; no explica todo el petricor ni la percepción humana
+  - id: greenland-shark-longevity-factors-2026
+    authority: Journal of Fish Biology / Wiley
+    domain: editorial-longevidad
+    evidenceType: primary
+    url: https://doi.org/10.1111/jfb.70562
+    use: contextualizar hipótesis sobre RAD51, TP53 y elementos transponibles en la longevidad del tiburón de Groenlandia; no prueba causalidad ni edad exacta
+  - id: geodynamo-realistic-heat-flux-2026
+    authority: Earth and Planetary Science Letters
+    domain: editorial-geodinamo
+    evidenceType: primary
+    url: https://doi.org/10.1016/j.epsl.2026.120089
+    use: explicar cómo el flujo térmico realista en el límite núcleo-manto cambia simulaciones de estabilidad dipolar e inversiones; no observa ni predice el núcleo directamente
+  - id: geodynamo-boundary-layers-2026
+    authority: "Journal of Geophysical Research: Solid Earth / AGU"
+    domain: editorial-geodinamo
+    evidenceType: primary
+    url: https://doi.org/10.1029/2025JB033648
+    use: comparar supuestos de capas límite viscosas y magnéticas en modelos de geodinamo; no mide directamente las capas del núcleo
+  - id: octopus-lightfield-locomotion-2025
+    authority: Nature
+    domain: editorial-cefalopodos-metodo
+    evidenceType: primary
+    url: https://doi.org/10.1038/s41586-025-09379-z
+    use: inspirar una explicación de medición de locomoción de cefalópodos con imágenes light-field y ROV; estudia Muusoctopus robustus, no pulpo mimo
+  - id: snow-leopard-pakistan-ecography-2026
+    authority: Ecography
+    domain: editorial-leopardo-nieves
+    evidenceType: primary
+    url: https://doi.org/10.1002/ecog.08074
+    use: respaldar una estimación regional en Pakistán basada en cámaras y captura-recaptura espacial; no extrapolar la cifra al rango mundial
+  - id: snow-leopard-pakistan-genetics-secr-2026
+    authority: Biological Conservation / Elsevier
+    domain: editorial-leopardo-nieves
+    evidenceType: primary
+    url: https://doi.org/10.1016/j.biocon.2026.111709
+    use: comparar genética no invasiva y SECR para estimar población de leopardo de las nieves en una región; conservar área, fecha e intervalo de confianza
+  - id: giant-pangolin-hematology-2026
+    authority: Frontiers in Veterinary Science
+    domain: editorial-pangolin
+    evidenceType: primary
+    url: https://doi.org/10.3389/fvets.2026.1870026
+    use: describir datos hematológicos y bioquímicos de un pangolín gigante rehabilitado en Camerún; n=1, no rango de la especie silvestre
+  - id: nasa-lake-maracaibo-lightning-2026
+    authority: NASA Earth Observatory
+    domain: editorial-catatumbo
+    evidenceType: institutional-analysis
+    url: https://science.nasa.gov/earth/earth-observatory/a-new-look-at-earths-lightning-149301/
+    use: contextualizar una métrica satelital de densidad de rayos en Maracaibo; el periodo y la unidad no prueban una tormenta continua ni una tendencia actual
+  - id: noaa-lightning-products-methodology
+    authority: NOAA National Centers for Environmental Information
+    domain: editorial-catatumbo-metodo
+    evidenceType: institutional-documentation
+    url: https://www.ncei.noaa.gov/products/lightning-products
+    use: explicar productos, frecuencia y límites de series satelitales de rayos; no atribuir sus cifras a Catatumbo sin un dataset específico
+  - id: w3c-images-alt-tutorial
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-images
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/tutorials/images/
+    use: clasificar imágenes informativas, funcionales, decorativas o complejas y ajustar alt y descripción ampliada a su función
+  - id: w3c-image-alt-easy-check
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-images
+    evidenceType: accessibility-check
+    url: https://www.w3.org/WAI/test-evaluate/easy-checks/image-alt/
+    use: convertir el propósito del alt en un control auditable; no es certificación WCAG ni garantía de ranking
+  - id: iptc-photo-metadata-2025-1
+    authority: IPTC
+    domain: image-provenance
+    evidenceType: metadata-standard
+    url: https://iptc.org/standards/photo-metadata/iptc-standard/
+    use: inspirar un manifiesto de autor, fecha, lugar, derechos e indicador de fuente digital o sintética; los metadatos no constituyen licencia
+  - id: iptc-photo-metadata-userguide-2025
+    authority: IPTC
+    domain: image-provenance
+    evidenceType: metadata-guidance
+    url: https://www.iptc.org/std/photometadata/documentation/userguide/
+    use: documentar contenido, personas, localización, derechos y tipo de imagen; no verifica autenticidad ni autorización de uso
+  - id: crossref-contributors-orcid-roles
+    authority: Crossref
+    domain: editorial-authorship
+    evidenceType: metadata-guidance
+    url: https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/contributors
+    use: inspirar roles de autor, editor, revisor, afiliación y ORCID cuando existan datos reales; no inventar revisores ni tratarlo como requisito de Google

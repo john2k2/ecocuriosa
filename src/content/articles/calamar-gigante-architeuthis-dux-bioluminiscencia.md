@@ -149,6 +149,11 @@ La reproducción se sigue estudiando a partir de ejemplares, anatomía comparada
 
 Cada observación de *Architeuthis dux* reemplaza parte del imaginario del monstruo por evidencia concreta. Aun así, sus rutas, tamaño poblacional y conducta siguen siendo inciertos porque observarlo en libertad es difícil.
 
+Para comparar otros mecanismos de vida en el océano profundo, puedes continuar
+con el [camuflaje dinámico del pulpo mimo](/especies-marinas/pulpo-mimo-thaumoctopus-mimetismo-15-especies/)
+o con la [bioluminiscencia de los peces linterna](/especies-marinas/pez-abrecaminos-bioluminiscencia-pez-linterna/).
+Son comparaciones editoriales, no evidencia adicional sobre *A. dux*.
+
 ### Fuentes consultadas
 
 - [Royal Society B / PubMed: primera observación de un calamar gigante vivo](https://pubmed.ncbi.nlm.nih.gov/16321779/)

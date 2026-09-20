@@ -13,15 +13,15 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 794 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 809 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La **última ronda vigente** de Jev (20/09/2026), después de añadir `speakable`,
-targets táctiles de 48 px, títulos más concisos, YAML parseable y 17 fuentes
-oficiales, dio **1,91/4** (confianza 0,92) y mantuvo `human_review` como
-prioridad (0,75; confianza 0,68). Las rondas anteriores —incluida la de
-**1,98/4** con otra escala y otro estado enviado— se conservan como histórico;
-la variación es una reponderación del estado, no una regresión medida del
-código. La decisión se conserva como señal consultiva en
+La **última ronda vigente** de Jev (20/09/2026), después de acortar cuatro
+títulos, añadir dos enlaces internos al artículo con más impresiones e
+incorporar 15 fuentes nuevas, dio **1,73/4** (confianza 0,77) y mantuvo
+`human_review` como prioridad (0,95; confianza 0,94). Las rondas anteriores de
+1,91/4 y 1,98/4 usan otras escalas o estados y se conservan como histórico; la
+variación no es una regresión medida del código. La decisión se conserva como
+señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
 externa.
 

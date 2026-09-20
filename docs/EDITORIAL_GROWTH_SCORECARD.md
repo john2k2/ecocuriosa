@@ -26,13 +26,13 @@ activar anuncios.
 
 La evaluación independiente de Jev conserva una lectura ordinal separada de las
 métricas oficiales. La **última ronda vigente** (20/09/2026), posterior a
-añadir `speakable`, targets táctiles de 48 px, títulos más concisos, YAML
-parseable y 17 fuentes oficiales, dio **1,91/4** (confianza 0,92) y eligió
-`human_review` como siguiente acción (0,75; confianza 0,68). Las rondas
-anteriores —incluida la de **1,98/4** con otra escala y otro estado enviado— se
-conservan como histórico, no como una serie temporal ni como una regresión del
-código. Jev es advisory-only: no comprueba Google, Cloudflare, Search Console
-ni AdSense y no autoriza publicación. El recibo completo y sus límites están en
+acortar cuatro títulos, añadir dos enlaces internos al artículo con más
+impresiones e incorporar 15 fuentes nuevas, dio **1,73/4** (confianza 0,77) y
+eligió `human_review` como siguiente acción (0,95; confianza 0,94). Las rondas
+anteriores de 1,91/4 y 1,98/4 usan otros estados o escalas y se conservan como
+histórico, no como una serie temporal ni como una regresión del código. Jev es
+advisory-only: no comprueba Google, Cloudflare, Search Console ni AdSense y no
+autoriza publicación. El recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
 La pasada de control final usó una rúbrica más conservadora y separó readiness
@@ -57,7 +57,7 @@ apertura humana de las fuentes.
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **794 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **809 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -118,7 +118,7 @@ Las siete piezas actualizadas el 12/09/2026 (`geodinamo`, `geosmina`, `tiburón 
 
 El 13/09/2026 se actualizaron tres piezas más (`tardígrados`, `peces linterna` y `vuelo silencioso de los búhos`) para enlazar textos completos abiertos de estudios primarios. También muestran `updatedDate` y `dateModified`; ninguna recibió una fecha de revisión humana por ese cambio.
 
-El 12/09/2026 se acortaron quince títulos que superaban la longitud editorial recomendada, conservando la entidad y la intención de búsqueda. Se medirá su efecto en Search Console después del siguiente rastreo; el cambio no implica que Google vaya a mostrar exactamente el mismo título.
+Desde el 12/09/2026 se han acortado títulos que superaban la longitud editorial recomendada, conservando la entidad y la intención de búsqueda; la última ronda redujo cuatro más. Se medirá su efecto en Search Console después del siguiente rastreo; el cambio no implica que Google vaya a mostrar exactamente el mismo título.
 
 **Primera instantánea de Search Console (12/09/2026):** ventana de 3 meses, 112 impresiones, 0 clics, CTR medio 0 % y posición media 14. Países con más impresiones: México (36), España (24), Chile (8), Estados Unidos (6) y Colombia (6). Dispositivos: móvil 58 y ordenador 54. Los sitemaps `/sitemap-0.xml` y `/sitemap-index.xml` figuran correctos con 43 páginas descubiertas; el informe de indexación aún está procesando datos.
 
@@ -320,10 +320,10 @@ la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entrada
 El lote amplio posterior de Luna añadió 29 URLs no duplicadas y dejó el estado
 histórico en **661 entradas**. Después, la búsqueda dirigida de datasets,
 conservación y automatización añadió 14 URLs no duplicadas; el estado verificable
-actual es **794 entradas**. Las cifras históricas se conservan para no confundir
+verificable de esa ronda fue **794 entradas**. Las cifras históricas se conservan para no confundir
 una instantánea con una medición retroactiva.
 
-El catálogo actual contiene **794 entradas** y la biblioteca conserva oportunidades
+El catálogo actual contiene **809 entradas** y la biblioteca conserva oportunidades
 para briefs. Todas siguen siendo candidatas hasta la comprobación humana. Las
 familias nuevas más útiles son:
 

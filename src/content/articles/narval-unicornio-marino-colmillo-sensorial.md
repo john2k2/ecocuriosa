@@ -1,5 +1,5 @@
 ---
-title: "El narval y su colmillo: qué se sabe de este diente singular"
+title: "Narval y su colmillo: qué sabemos del diente"
 description: "Qué indican los estudios sobre el colmillo helicoidal del narval y por qué sus funciones siguen siendo objeto de investigación."
 category: "especies-marinas"
 pubDate: 2026-08-17

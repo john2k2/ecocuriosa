@@ -1404,3 +1404,45 @@ El catálogo queda en **794 entradas válidas** (777 anteriores + 17 nuevas).
 Ningún artículo publicado fue modificado por esta búsqueda y ninguna ficha se
 marcó como revisada. La ronda se incorpora al plan como controles, no como una
 justificación para producir más volumen.
+
+### Segunda búsqueda dirigida de Luna Max — evidencia temática y procedencia visual — 20 de septiembre de 2026
+
+La segunda pasada se deduplicó contra el catálogo y añadió **15 URLs nuevas**.
+La decisión editorial es actualizar las páginas que ya reciben impresiones; no
+crear URLs para variantes ortográficas ni mezclar resultados regionales con
+cifras globales. Todas las fuentes permanecen como candidatas hasta que una
+persona abra el texto y compruebe el alcance exacto.
+
+| Oportunidad | Fuente primaria o institucional | Aporte posible | Límite que debe quedar visible |
+| --- | --- | --- | --- |
+| Geosmina/petricor | [Genoma de *Streptomyces rubrogriseus* y clúster geoA](https://doi.org/10.1016/j.compbiolchem.2026.108900) | Añadir una capa molecular a la explicación de la geosmina | Una cepa de sedimento; no explica todo el petricor ni la percepción humana |
+| Tiburón de Groenlandia | [Factores potenciales de longevidad](https://doi.org/10.1111/jfb.70562) | Separar genes candidatos y mecanismos propuestos de la edad estimada | Revisión/interpretación; no prueba causalidad ni fecha la edad de cada tiburón |
+| Geodinamo | [Flujo térmico realista en simulaciones](https://doi.org/10.1016/j.epsl.2026.120089) y [capas límite del núcleo](https://doi.org/10.1029/2025JB033648) | Crear un diagrama de observación indirecta → modelo → simulación | Modelos y supuestos; no son observaciones directas ni predicen una inversión próxima |
+| Pulpo mimo | [Medición light-field de locomoción de cefalópodos](https://doi.org/10.1038/s41586-025-09379-z) | Explicar cómo se estudia movimiento con ROV e imagen avanzada | Estudia *Muusoctopus robustus*, no *Thaumoctopus mimicus*; solo sirve como contexto metodológico |
+| Leopardo de las nieves | [Cámaras y SECR en Pakistán](https://doi.org/10.1002/ecog.08074) y [genética no invasiva](https://doi.org/10.1016/j.biocon.2026.111709) | Añadir una cifra regional con método y mapa de muestreo | No combinar estudios ni extrapolar una región a la población mundial |
+| Pangolín gigante | [Hematología de un ejemplar rehabilitado](https://doi.org/10.3389/fvets.2026.1870026) | Añadir un recuadro de salud/rehabilitación con procedencia | n=1 y en cautiverio; no es rango de referencia de la especie silvestre |
+| Relámpago del Catatumbo | [Métrica satelital de NASA](https://science.nasa.gov/earth/earth-observatory/a-new-look-at-earths-lightning-149301/) y [productos de rayos de NOAA](https://www.ncei.noaa.gov/products/lightning-products) | Distinguir densidad, sensor, periodo y unidad de observación | Una métrica satelital no demuestra una tormenta literalmente continua ni una tendencia actual |
+| Imágenes y alt | [Tutorial de imágenes de W3C](https://www.w3.org/WAI/tutorials/images/) y [comprobación rápida de alt](https://www.w3.org/WAI/test-evaluate/easy-checks/image-alt/) | Clasificar ilustración informativa, decorativa, compleja o funcional y auditar su descripción | Guías de accesibilidad; no son garantía de ranking ni certificación WCAG |
+| Procedencia visual | [IPTC Photo Metadata Standard 2025.1](https://iptc.org/standards/photo-metadata/iptc-standard/) y [guía de uso](https://www.iptc.org/std/photometadata/documentation/userguide/) | Completar manifiesto de autor, fecha, lugar, derechos y fuente digital/sintética | Los metadatos pueden perderse y no constituyen licencia o prueba de autenticidad |
+| Autoría y revisión | [Roles de contribución de Crossref](https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/contributors) | Modelar autor, editor, revisor, afiliación y ORCID cuando existan datos reales | Es metadata académica; no inventar personas ni tratarla como requisito de Google |
+
+#### Uso en el plan de creación y automatización
+
+1. Luna puede proponer una actualización para cada oportunidad, con una tabla
+   de claims, método, población/área, fecha, fuente y límite.
+2. El editor abre la fuente primaria, comprueba el pasaje y decide si la cifra
+   entra en el artículo existente; si no coincide, se descarta o se conserva
+   como contexto explícitamente limitado.
+3. Para imágenes, el pipeline debe registrar el propósito del `alt`, creador,
+   fecha, licencia o tipo de ilustración y cualquier transformación. IPTC
+   inspira el manifiesto, pero no reemplaza el permiso de uso.
+4. La automatización no puede fusionar las dos estimaciones regionales del
+   leopardo de las nieves, usar el artículo de Nature como evidencia directa
+   del pulpo mimo, ni convertir NASA/NOAA en prueba de una “tormenta eterna”.
+5. Después de actualizar una página existente, medir durante 28 días clics,
+   impresiones, CTR, posición y comportamiento; solo entonces decidir si falta
+   una pieza nueva.
+
+Con esta ronda el catálogo queda en **809 entradas válidas** (794 anteriores +
+15 nuevas). No se añadieron citas automáticamente a artículos publicados, no se
+marcó ninguna ficha como revisada y no se creó ninguna URL nueva.
