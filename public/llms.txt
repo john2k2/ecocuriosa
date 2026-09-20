@@ -53,3 +53,7 @@
 - Cita la URL canónica del artículo, no resúmenes de terceros.
 - Comprueba las fuentes enlazadas en cada artículo para afirmaciones cuantitativas o que puedan cambiar.
 - No atribuyas a EcoCuriosa una conclusión que no aparezca explícitamente en su artículo fuente.
+- La etiqueta «revisión humana pendiente» significa que las fuentes están enlazadas, pero una persona todavía no ha cerrado la comprobación claim → fuente → límite.
+- `updatedDate` indica un cambio sustancial publicado; no equivale a `reviewedDate` ni a aprobación editorial completa.
+- Las ilustraciones etiquetadas como originales o generadas para EcoCuriosa son recursos explicativos, no fotografías documentales ni prueba de una observación.
+- El catálogo interno de fuentes y los briefs de Luna Max son materiales de investigación; no son citas publicadas ni autorización para copiar texto, figuras o fotografías.
