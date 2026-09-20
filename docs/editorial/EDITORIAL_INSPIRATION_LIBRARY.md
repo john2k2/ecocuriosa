@@ -1536,3 +1536,7 @@ experimento espacial clásico de tardígrados y estudios de fotóforos— ya est
 registradas. El catálogo pasa a **829 entradas válidas**. Las nuevas fuentes se
 usarán para actualizar las páginas existentes antes de considerar una URL nueva;
 el plan conserva `humanApproval: pending` y no permite publicación automática.
+La comprobación HTTP inicial de estas URLs está resumida en
+[`P0_SOURCE_ACCESS_2026-09-20.md`](./P0_SOURCE_ACCESS_2026-09-20.md): seis
+landings respondieron `200` y cuatro devolvieron `403` desde el entorno de
+consulta. Ningún estado se interpreta como revisión humana.
