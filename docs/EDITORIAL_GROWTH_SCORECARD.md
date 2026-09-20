@@ -72,6 +72,13 @@ cerrar la revisión humana antes de escalar volumen, perseguir monetización o
 automatizar publicaciones. Jev es consultivo y no sustituye la verificación en
 Search Console, Cloudflare, AdSense ni la lectura humana de las fuentes.
 
+La reevaluación posterior a los tres briefs nuevos mantuvo `human_review` como
+acción única (probabilidad **1,00**, confianza 0,99) y dio **0,85/4** (confianza
+0,84) bajo otra rúbrica más estricta. No es una regresión medida: demuestra que
+la capacidad de generar briefs no se contabiliza como revisión editorial. El
+resultado actual refuerza el orden de trabajo: revisar, comprobar y aprobar
+antes de añadir volumen o activar monetización.
+
 La nueva auditoría `pnpm content:rendered-parity` comprueba diez rutas
 representativas del HTML generado y exige título, H1, cuerpo, enlaces,
 canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en

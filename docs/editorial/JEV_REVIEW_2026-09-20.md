@@ -510,3 +510,22 @@ etiquetada 1–4). Para la decisión de siguiente acción, `human_review` recibi
 `advisory_only`, modelo `jev-1.13.0`, con 1.093 tokens de entrada y 69 de
 salida. No demuestra aprobación de AdSense, ranking, tráfico, ingresos ni CWV
 de campo. Las 819 fuentes son candidatas de investigación y no firmas humanas.
+
+## Reevaluación después de añadir tres briefs de actualización — 20/09/2026
+
+Tras añadir los briefs locales de geodinamo, pangolín gigante y tiburón de
+Groenlandia, se consultó Jev con una pregunta más estricta: los briefs cuentan
+como capacidad de investigación, pero no como artículos revisados ni como
+evidencia editorial aprobada.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial y de confianza para escalar publicación o monetización | **0,85/4** | 0,84 | Los nuevos briefs no compensan los 31 artículos pendientes de revisión humana. |
+| Próxima acción | **human_review** (1,00) | 0,99 | Revisar los 9 artículos de mayor riesgo y ejecutar la auditoría estricta antes de crear más volumen, activar anuncios o perseguir indexación masiva. |
+
+La distribución del score fue 0: 16 %, 1: 84 %, 2: 0 % y 3: 0 %; la API
+devuelve índices 0–3 para una leyenda etiquetada 1–4. El resultado no debe
+compararse numéricamente con 1,03/4: cambió la pregunta, la escala operativa y
+la penalización explícita por briefs no revisados. La consulta usó el modelo
+`jev-1.13.0`, `advisory_only: true`, 738 tokens de entrada y 67 de salida. No
+demuestra aprobación de AdSense, ranking, tráfico, ingresos ni CWV de campo.
