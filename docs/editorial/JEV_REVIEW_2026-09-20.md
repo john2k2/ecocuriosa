@@ -59,3 +59,24 @@ fuentes ni que AdSense vaya a aprobar la cuenta.
 - Consumo reportado por la herramienta: 1.540 tokens de entrada y 144 de
   salida.
 - Fecha: 20 de septiembre de 2026.
+
+## Reevaluación post-despliegue — 20/09/2026
+
+Después del despliegue de `2cbd2d8` y de la comprobación pública de homepage,
+artículo, `robots.txt` y sitemap, se volvió a consultar Jev con el estado
+actualizado. Esta consulta usó una escala ordinal propia de cuatro niveles
+(`0`–`3`), por lo que sus valores no deben compararse como una variación
+numérica directa respecto de la tabla anterior (`0`–`4`).
+
+| Área | Score Jev | Confianza | Lectura que se conserva |
+| --- | ---: | ---: | --- |
+| SEO técnico | 2,38/3 | 0,53 | Controles principales presentes; aún falta evidencia externa/campo repetible |
+| Diseño, navegación y móvil | 1,99/3 | 0,99 | Dirección sólida y controles locales; falta validación de campo |
+| Indexación | 2,00/3 | 1,00 | Sitemap, render y rutas controlados; falta Search Console reciente |
+| AdSense técnico | 1,00/3 | 1,00 | Base inicial; CMP, pagos, aprobación y slots reales siguen siendo gates externos |
+| E‑E‑A‑T | 1,00/3 | 1,00 | Buenas bases documentales, pero 31 artículos esperan revisión humana |
+
+La elección de prioridad fue nuevamente **cerrar la revisión humana E‑E‑A‑T**
+(probabilidad reportada: 1,00). La herramienta devolvió `advisory_only: true`:
+es una segunda opinión sobre el resumen proporcionado, no una comprobación de
+Google, Cloudflare, Search Console o AdSense.
