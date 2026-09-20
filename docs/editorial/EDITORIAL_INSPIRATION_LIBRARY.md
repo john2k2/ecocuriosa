@@ -1098,7 +1098,7 @@ humana ni autoriza copiar texto, figuras o imágenes.
 | `ec-iucn-giant-pangolin-assessment-2019` | [IUCN: evaluación del pangolín](https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T12762A123584478.en) | Estado de conservación y versión de evaluación | DOI no accesible durante la ronda; abrir manualmente |
 | `ec-pubmed-flc-cis-memory-25955967` | [PubMed: memoria FLC en cis](https://pubmed.ncbi.nlm.nih.gov/25955967/) | Contrastar memoria epigenética en cis | Registro vacío en la ronda; no citar aún |
 
-El catálogo actualizado pasa de 605 a **634 entradas** después de este lote.
+El catálogo actualizado pasa de 634 a **661 entradas** después de este lote.
 El auditor debe confirmar IDs, URLs HTTPS y ausencia de duplicados antes de
 utilizar una fuente en un artículo. Para cada brief, Luna debe devolver una
 afirmación concreta, su alcance, la limitación y el plan de imagen; el editor
