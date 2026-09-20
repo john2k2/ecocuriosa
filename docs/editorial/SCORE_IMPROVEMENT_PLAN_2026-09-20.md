@@ -15,16 +15,13 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
 | E‑E‑A‑T | 794 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta global más reciente de Jev, después de ampliar el banco con 14
-fuentes canónicas, dio **1,98/4** para preparación verificable (confianza 0,97)
-y probabilidad **1,00** a cerrar la revisión humana (confianza 1,00). La
-consulta anterior, con 31 paquetes asistidos, dio 1,61/4 y la específica
-después de reforzar *Architeuthis dux* había dado 1,98/4; las escalas y estados
-enviados no son idénticos. Las rondas
-anteriores dieron 2,00/4, 2,01/4, 2,08/4 y 2,62/4. La variación es una
-reponderación del estado —ahora se explicita que solo 1/32 artículos tiene firma
-humana—, no una regresión medida del código: las auditorías y el build siguen
-pasando. La decisión se conserva como señal consultiva en
+La **última ronda vigente** de Jev (20/09/2026), después de añadir `speakable`,
+targets táctiles de 48 px, títulos más concisos, YAML parseable y 17 fuentes
+oficiales, dio **1,91/4** (confianza 0,92) y mantuvo `human_review` como
+prioridad (0,75; confianza 0,68). Las rondas anteriores —incluida la de
+**1,98/4** con otra escala y otro estado enviado— se conservan como histórico;
+la variación es una reponderación del estado, no una regresión medida del
+código. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
 externa.
 

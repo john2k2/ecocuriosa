@@ -35,6 +35,11 @@ Cloudflare devuelve una configuración Web Analytics activa para
 `lite`. La configuración prueba que el beacon está instalado, pero no aporta
 por sí sola una cifra de visitantes, sesiones, retención o Core Web Vitals.
 
+La comprobación autenticada del 20/09 volvió a listar la entrada de la zona
+`ecocuriosa.com` con `enabled: true` y, por separado, una entrada histórica de
+host-regex que no se usa como sustituto de la configuración de la zona. No se
+creó una segunda instalación ni se modificó ningún token.
+
 No se conservaron identificadores de sitio ni tokens en este documento.
 
 ## Disponibilidad de métricas

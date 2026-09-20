@@ -25,17 +25,14 @@ categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
 La evaluación independiente de Jev conserva una lectura ordinal separada de las
-métricas oficiales. Después de ampliar el banco con 14 fuentes canónicas y
-añadir después 14 controles técnicos, la
-consulta global más reciente dio **1,98/4** para preparación verificable
-(confianza 0,97) y eligió cerrar revisiones humanas con probabilidad **1,00**
-(confianza 1,00). La consulta global anterior, con toda la cola asistida, dio
-1,61/4 y la consulta
-específica de *Architeuthis dux* había dado 1,98/4; las escalas y estados
-enviados no son idénticos, por lo que no se interpreta como regresión del código.
-Jev es
-advisory-only: no comprueba Google, Cloudflare, Search Console ni AdSense y no
-autoriza publicación. El recibo completo y sus límites están en
+métricas oficiales. La **última ronda vigente** (20/09/2026), posterior a
+añadir `speakable`, targets táctiles de 48 px, títulos más concisos, YAML
+parseable y 17 fuentes oficiales, dio **1,91/4** (confianza 0,92) y eligió
+`human_review` como siguiente acción (0,75; confianza 0,68). Las rondas
+anteriores —incluida la de **1,98/4** con otra escala y otro estado enviado— se
+conservan como histórico, no como una serie temporal ni como una regresión del
+código. Jev es advisory-only: no comprueba Google, Cloudflare, Search Console
+ni AdSense y no autoriza publicación. El recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
 La pasada de control final usó una rúbrica más conservadora y separó readiness
