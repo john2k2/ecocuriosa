@@ -815,3 +815,44 @@ alcance real.
    que la pregunta no está resuelta.
 4. Mantener `humanApproval: pending`, `publish: false`, fuentes candidatas y
    procedencia de imagen hasta la revisión humana.
+
+### Fuentes nuevas para elevar puntuación técnica, móvil y transparencia — 20 de septiembre de 2026
+
+Luna Max comparó estas URLs con el catálogo y no encontró duplicados en su
+forma canónica. Se incorporan como material de inspiración y preflight; una
+entrada no se convierte automáticamente en una cita de artículo.
+
+| Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
+| --- | --- | --- | --- |
+| LCP responsive | [Preload de imágenes responsive](https://web.dev/articles/preload-responsive-images) | Probar `imagesrcset`, `imagesizes` y `fetchpriority` solo para imágenes LCP difíciles de descubrir; guardar waterfall, bytes y LCP | No demuestra CWV de campo ni autoriza precargar todas las imágenes |
+| Fondos móviles | [Fondos CSS según viewport](https://web.dev/articles/optimize-css-background-images-with-media-queries) | Auditar 480/768/1440 px y convertir a `img/srcset` cuando el fondo sea contenido principal | El porcentaje del tutorial pertenece a su demo, no a nuestro sitio |
+| Baseline de laboratorio | [Lighthouse de Chrome DevTools](https://developer.chrome.com/docs/devtools/lighthouse/) | Guardar un JSON por release para portada, categoría, artículo y legal con el mismo perfil móvil | Máquina y red influyen; no es P75 de campo |
+| Accesibilidad | [Puntuación de accesibilidad Lighthouse](https://developer.chrome.com/docs/lighthouse/accessibility/scoring/) | Priorizar nombres, ARIA, alt, labels y contraste; complementar con teclado y lector de pantalla | No es certificación WCAG |
+| Contraste | [WCAG 2.2 — contraste mínimo](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) | Revisar tokens, texto sobre imágenes y foco con 4,5:1/3:1 sin redondear ratios | El criterio tiene excepciones y no cubre toda la accesibilidad |
+| Redirects | [Redirects y Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects) | Inventariar 301/308, eliminar cadenas y separar 404/410 de cambios permanentes | Redirect es una señal, no garantía de indexación |
+| `<head>` | [Meta tags compatibles](https://developers.google.com/search/docs/crawling-indexing/special-tags) | Escanear robots, viewport, descripción, nosnippet y X-Robots-Tag en HTML final | `keywords`, `lang` y meta inyectada no sustituyen contenido/indexación |
+| JSON-LD | [Datos estructurados generados con JavaScript](https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript) | Probar URLs renderizadas en Rich Results Test y verificar coincidencia con contenido visible | Elegibilidad no garantiza rich result |
+| AdSense | [Guía de ads.txt](https://support.google.com/adsense/answer/12171612) | Preflight de raíz, HTTP 200, formato y propagación; conservar publisher ID solo en el canal autorizado | No prueba aprobación, inventario ni ingresos |
+| IA editorial | [Orientación de Google sobre contenido generado por IA](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) | Mantener valor original, autoría, revisión, fuentes, límites y divulgación cuando el lector la necesite | No es factor de ranking ni permiso para escalar volumen |
+| Transparencia | [Fuentes detrás de Google News](https://developers.google.com/search/blog/2021/06/google-news-sources) | Auditar byline/bio, fechas, misión, personal, contacto y propiedad/financiación | No implica elegibilidad para News |
+| Search y AI | [Checklist para experiencias de IA en Search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search) | Crear un preflight común: 200, indexable, contenido único, JSON-LD coherente, imagen útil y experiencia móvil | Las experiencias cambian y no garantizan citación o tráfico |
+
+#### Tres briefs derivados
+
+1. **La imagen hero que hace lenta una página móvil:** comparar imagen
+   descubrible, fondo CSS y preload responsive con waterfall, bytes y LCP de
+   laboratorio; separar siempre la medición de campo.
+2. **De una URL Astro a Google:** explicar redirects, `robots`, meta tags y
+   JSON-LD renderizado con una matriz reproducible de HTML, URL Inspection y
+   Rich Results Test.
+3. **Quién, cómo y por qué en una explicación asistida por IA:** aplicar
+   byline, bio, metodología, fuentes primarias, límites, revisión humana y
+   correcciones visibles a una ficha existente, sin presentar Luna como autora.
+
+#### Contrato de automatización
+
+Luna puede investigar, proponer el brief y generar un borrador local. No puede
+marcar revisión humana, inventar credenciales, publicar citas sin abrir la
+fuente, copiar imágenes protegidas ni convertir una métrica de laboratorio en
+una afirmación de audiencia. Se mantienen `humanApproval: pending` y
+`publish: false` hasta que una persona revise y publique.

@@ -1,8 +1,8 @@
 # Catálogo de fuentes candidatas para investigación editorial.
-# Revisado: 2026-09-14. Una entrada aquí no equivale a una cita verificada:
+# Revisado: 2026-09-20. Una entrada aquí no equivale a una cita verificada:
 # el editor debe abrir la página y registrar la fuente concreta en el artículo.
 version: 1
-checkedDate: '2026-09-14'
+checkedDate: '2026-09-20'
 entries:
   - id: google-helpful-content
     authority: Google Search Central
@@ -3296,3 +3296,75 @@ entries:
     evidenceType: official-technical-report
     url: https://espis.boem.gov/final%20reports/BOEM_2023-068.pdf
     use: documentar encuestas aéreas y marcaje acústico regional de mantas del sureste de EE. UU.; no inferir población mundial, migración universal o inteligencia
+  - id: webdev-preload-responsive-images
+    authority: web.dev / Chrome
+    domain: performance-mobile
+    evidenceType: official-guidance
+    url: https://web.dev/articles/preload-responsive-images
+    use: probar imagesrcset, imagesizes y fetchpriority solo cuando una imagen LCP sea difícil de descubrir; registrar bytes y tiempos antes/después
+  - id: webdev-css-background-images-media-queries
+    authority: web.dev / Chrome
+    domain: performance-mobile
+    evidenceType: official-guidance
+    url: https://web.dev/articles/optimize-css-background-images-with-media-queries
+    use: comparar fondos CSS por viewport y decidir si el hero debe pasar a img/srcset; no trasladar el porcentaje de la demo como resultado propio
+  - id: chrome-devtools-lighthouse
+    authority: Chrome DevTools
+    domain: performance-mobile
+    evidenceType: official-documentation
+    url: https://developer.chrome.com/docs/devtools/lighthouse/
+    use: fijar un perfil reproducible de Lighthouse para portada, categoría, artículo y legal; guardar JSON por release sin llamarlo CWV de campo
+  - id: chrome-lighthouse-accessibility-scoring
+    authority: Chrome DevTools
+    domain: accessibility
+    evidenceType: official-documentation
+    url: https://developer.chrome.com/docs/lighthouse/accessibility/scoring/
+    use: priorizar auditorías binarias de nombres, ARIA, alt, labels y contraste; reportar auditorías pasadas, no certificación WCAG
+  - id: w3c-wcag-contrast-minimum
+    authority: W3C WAI
+    domain: accessibility
+    evidenceType: standard-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+    use: comprobar ratio 4.5:1 para texto normal y 3:1 para texto grande en tokens, imágenes y estados de foco; conservar excepciones del criterio
+  - id: google-redirects-search
+    authority: Google Search Central
+    domain: indexation
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/crawling-indexing/301-redirects
+    use: inventariar redirects 301/308, quitar cadenas y separar 404/410 de cambios permanentes; no asumir que un redirect garantiza indexación
+  - id: google-supported-meta-tags-attributes
+    authority: Google Search Central
+    domain: indexation
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/crawling-indexing/special-tags
+    use: auditar robots, viewport, description, nosnippet y X-Robots-Tag en HTML final; no usar keywords o meta inyectada como señal de ranking
+  - id: google-structured-data-javascript
+    authority: Google Search Central
+    domain: structured-data
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript
+    use: comprobar JSON-LD renderizado y coherente con el contenido visible usando URLs reales y Rich Results Test; elegibilidad no garantiza rich result
+  - id: adsense-ads-txt-guide
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/12171612
+    use: hacer preflight de ads.txt en raíz, HTTP 200 y formato del publisher ID; no confundir accesibilidad del archivo con aprobación o ingresos
+  - id: google-ai-generated-content-guidance
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2023/02/google-search-and-ai-content
+    use: exigir valor original, byline y revisión cuando corresponda en contenido asistido; no crear volumen para manipular Search ni presentar Luna como autora
+  - id: google-news-sources-transparency
+    authority: Google Search Central
+    domain: editorial-quality
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2021/06/google-news-sources
+    use: auditar byline enlazada, fecha, misión, personal, contacto y propiedad/financiación antes de buscar distribución; no implica elegibilidad para News
+  - id: google-ai-search-success-checklist
+    authority: Google Search Central
+    domain: seo-geo
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search
+    use: convertir contenido único, 200/indexable, experiencia de página, JSON-LD coherente e imagen útil en un preflight común para Search y AI
