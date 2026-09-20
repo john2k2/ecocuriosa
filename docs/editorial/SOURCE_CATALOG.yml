@@ -4342,3 +4342,93 @@ entries:
     evidenceType: institutional-news
     url: https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html
     use: candidato para el censo de ajolote en Xochimilco y el contexto de conservación; usar como comunicado institucional y no como sustituto del informe técnico
+  - id: ec-coral-symbiont-starvation-2022
+    authority: Frontiers in Marine Science
+    domain: coral-symbiosis
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.979563/full
+    use: candidato para explicar cómo la disponibilidad de nutrientes y la asociación coral-Symbiodiniaceae modulan la estabilidad de la simbiosis; dos asociaciones y laboratorio
+  - id: ec-coral-nitrogen-assimilation-2022
+    authority: mBio
+    domain: coral-symbiosis
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1128/mbio.01601-22
+    use: candidato para rastrear con isótopos la asimilación heterótrofa de nitrógeno por simbiontes; no universalizar entre especies ni arrecifes
+  - id: ec-coral-colorful-bleaching-2020
+    authority: Current Biology
+    domain: coral-bleaching
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.cub.2020.04.055
+    use: candidato para fluorescencia durante estrés térmico temprano; verificar licencia exacta y no presentarla como garantía de recuperación
+  - id: ec-manta-red-sea-connectivity-2022
+    authority: Aquatic Conservation
+    domain: manta-connectivity
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://onlinelibrary.wiley.com/doi/full/10.1002/aqc.3883
+    use: candidato para conectividad multinacional de mantas oceánicas mediante fotoidentificación colaborativa; esfuerzo oportunista y no censo global
+  - id: ec-manta-deep-diving-2025
+    authority: Frontiers in Marine Science
+    domain: manta-diving
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.3389/fmars.2025.1630451
+    use: candidato para inmersiones profundas de mantas oceánicas registradas con etiquetas; función ecológica inferida, no cognición observada
+  - id: ec-manta-aotearoa-foraging-2025
+    authority: Royal Society Open Science
+    domain: manta-foraging
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1098/rsos.250838
+    use: candidato para movimientos y forrajeo de Mobula birostris en aguas costeras de Aotearoa/Nueva Zelanda; estudio regional
+  - id: ec-giant-pangolin-habitat-2023
+    authority: Global Ecology and Conservation
+    domain: pangolin-conservation
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.gecco.2023.e02395
+    use: candidato para modelar hábitat potencial del pangolín gigante en una zona protegida de Camerún; madrigueras y MaxEnt no equivalen a abundancia
+  - id: ec-pangolin-scales-immunity-2024
+    authority: BMC Biology
+    domain: pangolin-scales
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11472485/
+    use: candidato para actividad antimicrobiana y posible función inmunitaria de escamas; evidencia bioquímica/in vitro y licencia CC BY-NC-ND
+  - id: ec-pangolin-armor-properties-2016
+    authority: Acta Biomaterialia
+    domain: pangolin-scales
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.actbio.2016.05.028
+    use: candidato para solapamiento, láminas y propiedades mecánicas de escamas; especies estudiadas distintas de Smutsia gigantea y acceso completo por confirmar
+  - id: ec-tardigrade-anhydrobiosis-ecology-2024
+    authority: Journal of Animal Ecology
+    domain: tardigrade-anhydrobiosis
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1111/1365-2656.14031
+    use: candidato para variación filogenética y ecológica del rendimiento anhidrobiótico; proxies ambientales no prueban causalidad directa
+  - id: ec-tardigrade-dna-degradation-2009
+    authority: Journal of Experimental Biology
+    domain: tardigrade-anhydrobiosis
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1242/jeb.033266
+    use: candidato para supervivencia, recuperación y daño de ADN en Paramacrobiotus richtersi bajo humedad y temperatura controladas; una especie y duración concreta
+  - id: ec-tardigrade-feeding-apparatus-2013
+    authority: Journal of Limnology
+    domain: tardigrade-anatomy
+    evidenceType: peer-reviewed-comparative-candidate
+    url: https://doi.org/10.4081/jlimnol.2013.s1.e4
+    use: candidato para comparar estiletes, faringe y aparato perforador en ocho especies; anatomía no define todas las dietas
+  - id: ec-axolotl-multi-species-atlas-2023
+    authority: Nature Communications
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41467-023-41944-w
+    use: candidato para atlas unicelular/espacial de desarrollo y regeneración de extremidad; no extrapolar a humanos ni confundir programas celulares
+  - id: ec-axolotl-lineage-tracing-2017
+    authority: eLife
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://elifesciences.org/articles/25726
+    use: candidato para rastreo de alelos y fidelidad de linajes durante la regeneración; edición mosaico, 19 animales y loci concretos
+  - id: ec-axolotl-blastema-bmp2-2015
+    authority: PLOS ONE
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1371/journal.pone.0123186
+    use: candidato para señales nerviosas y BMP2 en proliferación de blastema en cultivo organotípico; evidencia ex vivo y no terapia humana

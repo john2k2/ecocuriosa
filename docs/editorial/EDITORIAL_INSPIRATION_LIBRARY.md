@@ -1213,3 +1213,23 @@ Los nueve registros tienen IDs únicos en [`SOURCE_CATALOG.yml`](./SOURCE_CATALO
 y elevan el catálogo a **718 candidatas**. Luna puede usarlos para generar
 briefs, pero debe conservar `humanApproval: pending` y `publish: false`; ninguna
 fuente nueva marca `reviewedDate` o `reviewedBy`.
+
+### Búsqueda de Luna Max — segunda capa de fuentes para los mismos cinco clústeres — 20 de septiembre de 2026
+
+Luna Max hizo un segundo cruce exacto contra el catálogo y entregó quince
+candidatas no duplicadas. Se incorporan para ampliar los futuros briefs, pero
+no sustituyen la lectura humana ni autorizan reutilizar figuras o fotografías.
+
+| Clúster | Fuentes candidatas | Ángulo editorial posible | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| Coral | [Symbiont starvation and symbiosis stability](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.979563/full); [heterotrophic nitrogen assimilation](https://doi.org/10.1128/mbio.01601-22); [colorful coral bleaching](https://doi.org/10.1016/j.cub.2020.04.055) | Explicar nutrientes, simbiosis, nitrógeno y fluorescencia como mecanismos distintos | Experimentos de laboratorio y asociaciones concretas; fluorescencia no equivale a recuperación y no generalizar a todos los corales |
+| Manta raya | [Conectividad en el mar Rojo](https://onlinelibrary.wiley.com/doi/full/10.1002/aqc.3883); [inmersiones profundas](https://doi.org/10.3389/fmars.2025.1630451); [movimiento y forrajeo en Aotearoa](https://doi.org/10.1098/rsos.250838) | Separar fotoidentificación, telemetría y conducta de forrajeo antes de hablar de inteligencia | Datos oportunistas o regionales; la función de una inmersión puede ser inferida y no demuestra cognición |
+| Pangolín gigante | [Modelado de hábitat en Camerún](https://doi.org/10.1016/j.gecco.2023.e02395); [escamas y actividad antimicrobiana](https://pmc.ncbi.nlm.nih.gov/articles/PMC11472485/); [armadura y propiedades mecánicas](https://doi.org/10.1016/j.actbio.2016.05.028) | Conectar madrigueras, hábitat y arquitectura de escamas sin convertirlo en un mito medicinal | Región, especie y ensayo concretos; evidencia in vitro no es eficacia clínica; algunas licencias requieren verificación |
+| Tardígrado | [Ecología de la anhidrobiosis](https://doi.org/10.1111/1365-2656.14031); [supervivencia y daño de ADN](https://doi.org/10.1242/jeb.033266); [aparato alimentario comparado](https://doi.org/10.4081/jlimnol.2013.s1.e4) | Sustituir “sobrevive a todo” por una matriz especie × estado × estrés y una anatomía alimentaria comparada | Taxones, humedades, temperaturas y duraciones específicas; proxies ambientales no prueban causalidad universal |
+| Axolote | [Atlas multi-especie de desarrollo/regeneración](https://doi.org/10.1038/s41467-023-41944-w); [rastreo de linajes](https://elifesciences.org/articles/25726); [blastema, nervios y BMP2](https://doi.org/10.1371/journal.pone.0123186) | Mostrar que la regeneración combina linajes, señales nerviosas y contexto tisular, no una masa universal de células madre | Transcriptómica, edición mosaico y cultivos ex vivo tienen alcances distintos; no implican regeneración humana |
+
+El catálogo queda en **733 candidatas**. Las 15 nuevas conservan `pending` y
+solo pueden pasar a un artículo después de comprobar DOI/PMID, texto completo,
+método, muestra, licencia, afirmación respaldada y límite. La herramienta de
+Luna no puede cerrar `reviewedDate`, `reviewedBy`, `humanApproval` ni
+`publish`.
