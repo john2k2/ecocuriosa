@@ -381,3 +381,22 @@ devolvió `model: jev-1.13.0` y `advisory_only: true`; es una segunda opinión
 acotada, no una comprobación de Google, AdSense, Search Console o Cloudflare.
 El resultado no autoriza publicación ni convierte el contraste asistido en una
 firma editorial humana.
+
+## Reevaluación global tras ampliar el banco de inspiración — 20/09/2026
+
+Se consultó Jev de nuevo después de incorporar 14 URLs no duplicadas de GBIF,
+IUCN, CONANP, NASA, NOAA, USGS, Schema.org, AdSense y OpenAI, con límites y
+controles de uso en la biblioteca editorial. El catálogo queda en 763
+candidatas; las 146 fuentes citadas siguen visibles y enlazadas; los 31
+paquetes asistidos continúan `pending` y solo 1/32 artículos tiene revisión
+humana cerrada.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial y de monetización verificable | **1,98/4** | 0,97 | La base técnica y el banco de investigación son sólidos, pero no sustituyen la revisión humana ni los gates externos de AdSense. |
+| Próxima acción | **human_review** (1,00) | 1,00 | Cerrar los 31 artículos con fuentes, límites y procedencia visual antes de añadir volumen o publicar automáticamente. |
+
+La distribución fue 0: 0 %, 1: 2 %, 2: 97 %, 3: 1 % y 4: 0 %. La herramienta
+devolvió `model: jev-1.13.0`, `advisory_only: true` y 677 tokens de entrada/54
+de salida. El resultado es una segunda opinión contextual; no prueba ranking,
+tráfico, CPM, ingresos, aprobación de AdSense ni revisión humana.

@@ -13,19 +13,47 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 749 fuentes candidatas en catálogo; 4 briefs Luna válidos y 31 paquetes de contraste asistido con publicación bloqueada; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 763 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y 14 nuevas fuentes de datasets/conservación/seguridad | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta global más reciente de Jev, después de cubrir la cola con 31 paquetes
-asistidos, dio **1,61/4** para preparación verificable (confianza 0,52) y
-probabilidad **0,98** a cerrar la revisión humana (confianza 0,97). La consulta
-global anterior dio 1,43/4 y la específica después de reforzar *Architeuthis
-dux* había dado 1,98/4; las escalas y estados enviados no son idénticos. Las rondas
+La consulta global más reciente de Jev, después de ampliar el banco con 14
+fuentes canónicas, dio **1,98/4** para preparación verificable (confianza 0,97)
+y probabilidad **1,00** a cerrar la revisión humana (confianza 1,00). La
+consulta anterior, con 31 paquetes asistidos, dio 1,61/4 y la específica
+después de reforzar *Architeuthis dux* había dado 1,98/4; las escalas y estados
+enviados no son idénticos. Las rondas
 anteriores dieron 2,00/4, 2,01/4, 2,08/4 y 2,62/4. La variación es una
 reponderación del estado —ahora se explicita que solo 1/32 artículos tiene firma
 humana—, no una regresión medida del código: las auditorías y el build siguen
 pasando. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
 externa.
+
+## Orden ejecutivo para subir la puntuación
+
+El catálogo ampliado mejora la capacidad de investigar, pero no suma puntos por
+sí solo. El orden de trabajo queda fijado por riesgo y evidencia:
+
+1. **E‑E‑A‑T primero:** revisar ocho artículos por semana; pasar un artículo a
+   `reviewed` solo cuando una persona haya abierto sus fuentes, comprobado los
+   límites y confirmado la imagen. Si una fuente o licencia no abre, mantener
+   `pending` y sustituirla por una equivalente accesible.
+2. **Indexación después de cada lote:** inspeccionar las URLs actualizadas en
+   Search Console, registrar estado canónico/descubierta/rastreada/indexada y
+   no crear variantes para consultas casi idénticas. Umbral: 0 exclusiones P0
+   sin explicación y 100% de artículos revisados con canonical y sitemap.
+3. **Diseño y móvil:** repetir la matriz 320/375/768/1440 px en portada,
+   categorías, artículos y legales; bloquear la activación de anuncios si el
+   CLS o el foco empeoran. Umbral: 0 overflow, 0 foco perdido y contraste AA.
+4. **SEO técnico:** conservar las auditorías verdes y medir tres ejecuciones por
+   plantilla; declarar “sin datos de campo” si no existe P75 real, en lugar de
+   usar Lighthouse como sustituto de audiencia.
+5. **AdSense al final:** completar CMP, pagos y aprobación en la cuenta; solo
+   después probar dos slots reales durante 14 días con viewability, RPM, CTR
+   válido y CLS. No activar anuncios para intentar subir una puntuación
+   editorial.
+
+La puerta de cada etapa es reversible: si falla, se corrige o se mantiene
+pendiente; nunca se rellena una señal humana para avanzar de nivel.
 
 ## Objetivos de salida
 

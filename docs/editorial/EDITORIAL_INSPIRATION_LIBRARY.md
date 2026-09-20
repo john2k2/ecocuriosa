@@ -1265,3 +1265,67 @@ El ángulo editorial resultante separa encuentros oportunistas, longitud del
 manto, longitud total y máximos confirmados. No convierte una filmación o una
 tabla alométrica en una conducta universal; el paquete de revisión mantiene
 ocho afirmaciones `pending` y `publish: false`.
+
+### Banco ampliado de Luna Max — datasets, conservación y automatización segura — 20 de septiembre de 2026
+
+Luna Max realizó una búsqueda dirigida y separó las fuentes que pueden sostener
+afirmaciones publicables (`P0`) de las que sirven como contexto o control
+operativo (`P1`). Las URLs se incorporaron también a [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml)
+con alcance y límites explícitos. Siguen siendo candidatas: antes de citarlas,
+una persona debe abrir la ficha, comprobar versión, fecha, método, licencia y la
+frase exacta que respalda.
+
+| Prioridad | Fuente | Editorial que habilita | Límite obligatorio |
+| --- | --- | --- | --- |
+| P0 | [GBIF — *Ambystoma mexicanum*](https://www.gbif.org/species/217108868) | Taxonomía, sinónimos y ocurrencias registradas para una ficha de especie | No es censo ni evaluación de amenaza; cada dataset tiene su propia licencia y atribución |
+| P0 | [IUCN Red List — *Ambystoma mexicanum*](https://www.iucnredlist.org/species/1095/53947343) | Estatus formal de conservación, distribución histórica y amenazas | La evaluación es de 2019/2020; conservar fecha y no presentarla como abundancia actual de 2026; puede requerir apertura manual |
+| P1 | [Revista Digital Universitaria — conservación del ajolote](https://www.revista.unam.mx/2019v20n1/el-mitico-monstruo-del-lago-la-conservacion-del-ajolote-de-xochimilco/) | Neotenia, endemismo y estrategias de conservación en contexto universitario | Divulgación institucional, no evaluación poblacional ni estudio primario de regeneración |
+| P0 | [CONANP — PACE *Ambystoma*](https://www.gob.mx/conanp/documentos/programa-de-accion-para-la-conservacion-de-especies-pace-ambystoma-ambystoma-spp) | Acciones públicas de conservación y marco institucional mexicano | Alcance de género; no convertirlo en una cifra de *A. mexicanum* |
+| P0 | [NASA Earth Observatory — temperatura global de 2024](https://earthobservatory.nasa.gov/images/153806/2024-was-the-warmest-year-on-reco) | Explicar qué significa un récord global y comparar conjuntos de datos | Análisis global, no medición local; revisar créditos de imágenes |
+| P0 | [NASA Earth Science Data](https://science.nasa.gov/earth/data/) | Encontrar el dataset original detrás de una visualización de clima, agua, hielo u océanos | Citar colección, versión y fecha; no usar solo la página de entrada como evidencia numérica |
+| P0 | [NOAA — indicadores de acidificación oceánica](https://oceanacidification.noaa.gov/oa-indicators-explained/) | Separar pCO₂, pH y saturación de aragonita en un artículo marino | Indicadores y rutas de observación no describen automáticamente todos los hábitats |
+| P0 | [NOAA/NCEI — indicadores superficiales de acidificación](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/synthesis/surface-oa-indicators.html) | Comparar observación, modelo, escenario y proyección mediante datos documentados | Es superficie y depende de versión/escenario; no mezclar con una observación local |
+| P0 | [USGS ShakeMap](https://earthquake.usgs.gov/data/shakemap/) | Crear explicaciones de intensidad sísmica estimada y de lectura de mapas | Es una estimación de movimiento, no una fotografía de daños ni una magnitud por sí sola |
+| P1 | [NASA — ciencia del eclipse total de 2024](https://science.nasa.gov/eclipses/future-eclipses/eclipse-2024/eclipse-2024-science/) | Convertir experimentos de eclipses y ciencia ciudadana en una editorial visual | Para eventos futuros hay que consultar efemérides actualizadas y comprobar créditos |
+| P0 | [Políticas del programa AdSense](https://support.google.com/adsense/answer/48182?hl=en) | Checklist de tráfico válido, clics, diseño de anuncios y responsabilidad del editor | Es política viva, no aprobación; revisar la cuenta y versión vigente antes de actuar |
+| P1 | [Schema.org — `Article`](https://schema.org/Article) | Diseñar entidades de autor, imagen, fechas, sección y licencia | Es vocabulario; para Google prevalece Search Central y el marcado debe representar lo visible |
+| P0 | [OpenAI — controles de datos por endpoint](https://platform.openai.com/docs/models/default-usage-policies-by-endpoint) | Decidir qué texto, fuentes y métricas puede recibir Luna Max y con qué controles | Retención y elegibilidad dependen del endpoint y la organización; no enviar secretos ni datos personales |
+| P0 | [OpenAI — gestión segura de claves API](https://help.openai.com/en/articles/5008148) | Diseñar claves por proyecto, límites de gasto, rotación y trazabilidad | Complementar con gestor de secretos, permisos mínimos y revisión de logs |
+
+#### Plan de uso con Luna Max
+
+1. **Descubrimiento semanal:** tomar como máximo cinco oportunidades de Search
+   Console y cruzarlas con el catálogo; priorizar actualizar páginas con
+   impresiones antes de abrir URLs nuevas.
+2. **Brief verificable:** Luna entrega `briefId`, pregunta, 2–6 fuentes, tipo
+   (`primary`, `institutional` o `documentation`), fecha de acceso, alcance,
+   límites, idea visual y consulta observada. La salida queda local con
+   `publish: false` y `humanApproval: pending`.
+3. **Preflight automático:** comprobar HTTPS, IDs únicos, coincidencia URL ↔
+   catálogo, fuente primaria/institucional pertinente, licencia/procedencia
+   visual y ausencia de datos bancarios, claves o PII.
+4. **Revisión humana:** abrir el texto completo, verificar afirmación → pasaje,
+   especie/lugar/muestra/fecha, corregir el borrador y aprobar o descartar.
+   Solo esta etapa puede añadir `reviewedDate` y `reviewedBy`.
+5. **Publicación y aprendizaje:** después de `astro check`, build, enlaces,
+   metadatos, imagen y móvil, publicar como máximo una pieza aprobada por
+   semana. Medir 28 días de CTR, clics, impresiones, sesiones y CWV sin
+   atribuir causalidad a una sola fuente.
+
+#### Criterios de detención
+
+- Pausar si una fuente devuelve 403, tiene una licencia ambigua, contradice el
+  claim o solo ofrece un resumen sin método verificable.
+- Pausar si Luna propone un autor, fecha, cifra, experiencia, licencia,
+  `reviewedBy` o resultado de Search Console que no esté en una fuente o en una
+  cuenta autenticada.
+- Pausar si la imagen es de terceros sin creador, licencia y página de licencia;
+  preferir SVG/WebP original de EcoCuriosa cuando el argumento no necesita una
+  fotografía documental.
+- Pausar la monetización si el CMP, el perfil de pagos, `ads.txt` o la cuenta
+  de AdSense no coinciden con la configuración real. Las fuentes de Google son
+  controles de cumplimiento, no una predicción de aprobación.
+
+El lote añade 14 URLs no duplicadas al catálogo. No modifica artículos
+publicados ni marca revisiones humanas; su valor es mejorar la selección de
+temas, el control de evidencia y la seguridad de la futura automatización.

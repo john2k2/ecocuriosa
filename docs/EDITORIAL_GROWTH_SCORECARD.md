@@ -25,10 +25,11 @@ categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
 La evaluación independiente de Jev conserva una lectura ordinal separada de las
-métricas oficiales. Después de cubrir toda la cola con paquetes asistidos, la
-consulta global más reciente dio **1,61/4** para preparación verificable
-(confianza 0,52) y eligió cerrar revisiones humanas con probabilidad **0,98**
-(confianza 0,97). La consulta global anterior dio 1,43/4 y la consulta
+métricas oficiales. Después de ampliar el banco con 14 fuentes canónicas, la
+consulta global más reciente dio **1,98/4** para preparación verificable
+(confianza 0,97) y eligió cerrar revisiones humanas con probabilidad **1,00**
+(confianza 1,00). La consulta global anterior, con toda la cola asistida, dio
+1,61/4 y la consulta
 específica de *Architeuthis dux* había dado 1,98/4; las escalas y estados
 enviados no son idénticos, por lo que no se interpreta como regresión del código.
 Jev es
@@ -39,7 +40,7 @@ autoriza publicación. El recibo completo y sus límites están en
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **749 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **763 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -299,17 +300,24 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 El conteo verificable del catálogo en la revisión anterior era **592 entradas**;
 la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entradas**.
-El lote amplio posterior de Luna añade 29 URLs no duplicadas y deja el estado
-actual en **661 entradas**. Las referencias históricas de este párrafo
-conservan el estado que tenían cuando se escribieron.
+El lote amplio posterior de Luna añadió 29 URLs no duplicadas y dejó el estado
+histórico en **661 entradas**. Después, la búsqueda dirigida de datasets,
+conservación y automatización añadió 14 URLs no duplicadas; el estado verificable
+actual es **763 entradas**. Las cifras históricas se conservan para no confundir
+una instantánea con una medición retroactiva.
 
-El catálogo actual contiene **661 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, las búsquedas de Luna añadieron fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko, coral, calamar gigante, ventilas hidrotermales, géiseres, clima, astronomía, vernalización, comportamiento animal, Catatumbo y fisiología comparada. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene **763 entradas** y la biblioteca conserva oportunidades
+para briefs. Todas siguen siendo candidatas hasta la comprobación humana. Las
+familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.
 - Integridad bibliográfica: [`REFERENCE_INTEGRITY_LOG_TEMPLATE.md`](editorial/REFERENCE_INTEGRITY_LOG_TEMPLATE.md) para DOI/PMID, Crossref, PubMed, correcciones, COI y decisiones por fuente.
 - NOAA, NASA, USGS, IUCN, GBIF, Smithsonian, CITES, TRAFFIC, PubMed Central y revistas científicas para nuevas investigaciones.
 - Creative Commons, NASA, NOAA, USGS, IPTC, C2PA, NISO CRediT y COPE para derechos, procedencia y transparencia.
+- Datasets canónicos para taxonomía, conservación, clima, acidificación,
+  sismos y gobernanza de claves: GBIF, IUCN, CONANP, NASA, NOAA, USGS,
+  Schema.org y documentación oficial de OpenAI.
 
 Cada entrada sigue siendo una pista de investigación, no una cita aprobada. La URL exacta, su alcance y la fecha de comprobación deben quedar en el artículo cuando una persona la haya verificado.
 

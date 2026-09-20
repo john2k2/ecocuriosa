@@ -4528,3 +4528,87 @@ entries:
     evidenceType: peer-reviewed-primary-candidate
     url: https://doi.org/10.1029/2019JD031054
     use: candidato para límites, anomalías y eficiencia del producto GLM en Maracaibo; periodo y sensor concretos, no constante climatológica universal
+  - id: gbif-ambystoma-mexicanum-217108868
+    authority: Global Biodiversity Information Facility
+    domain: biodiversity-data
+    evidenceType: biodiversity-database
+    url: https://www.gbif.org/species/217108868
+    use: taxonomía aceptada, clasificación y ocurrencias registradas de Ambystoma mexicanum; no usar como censo actual ni evaluación de amenaza
+  - id: iucn-ambystoma-mexicanum-2019
+    authority: IUCN SSC Amphibian Specialist Group
+    domain: conservation-status
+    evidenceType: conservation-assessment
+    url: https://www.iucnredlist.org/species/1095/53947343
+    use: categoría de riesgo, distribución histórica y amenazas de Ambystoma mexicanum; conservar fecha de evaluación y no presentarlo como censo 2026
+  - id: unam-revista-axolote-conservation-2019
+    authority: Revista Digital Universitaria / UNAM
+    domain: axolotl-conservation
+    evidenceType: institutional-review
+    url: https://www.revista.unam.mx/2019v20n1/el-mitico-monstruo-del-lago-la-conservacion-del-ajolote-de-xochimilco/
+    use: contexto universitario sobre neotenia, endemismo y estrategias de conservación; no sustituye una evaluación poblacional ni una fuente primaria de regeneración
+  - id: conanp-pace-ambystoma-2019
+    authority: CONANP / Gobierno de México
+    domain: conservation-policy
+    evidenceType: institutional-program
+    url: https://www.gob.mx/conanp/documentos/programa-de-accion-para-la-conservacion-de-especies-pace-ambystoma-ambystoma-spp
+    use: acciones oficiales de conservación para el género Ambystoma; el alcance es de género y no equivale a un resultado de abundancia de A. mexicanum
+  - id: nasa-earth-warmest-2024
+    authority: NASA Earth Observatory / GISS
+    domain: climate-data
+    evidenceType: institutional-analysis
+    url: https://earthobservatory.nasa.gov/images/153806/2024-was-the-warmest-year-on-reco
+    use: análisis de temperatura global 1880–2024 y comparación entre conjuntos; distinguir récord global de medición local y revisar créditos de imágenes
+  - id: nasa-earth-data-portal
+    authority: NASA Earth Science Data Systems
+    domain: earth-observation-data
+    evidenceType: institutional-data-portal
+    url: https://science.nasa.gov/earth/data/
+    use: localizar datasets originales de clima, incendios, agua, hielo, océanos y vida terrestre; citar colección, versión y fecha, no solo la visualización
+  - id: noaa-ocean-acidification-indicators
+    authority: NOAA Ocean Acidification Program
+    domain: ocean-acidification
+    evidenceType: institutional-explainer
+    url: https://oceanacidification.noaa.gov/oa-indicators-explained/
+    use: explicar pCO2, pH y saturación de aragonita y qué mide cada indicador; no generalizar mediciones de superficie a todos los hábitats
+  - id: noaa-ncei-surface-oa-indicators
+    authority: NOAA National Centers for Environmental Information
+    domain: ocean-acidification
+    evidenceType: institutional-dataset
+    url: https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/synthesis/surface-oa-indicators.html
+    use: datos y documentación de indicadores de acidificación superficial observados/modelados; conservar escenario, periodo y versión del archivo
+  - id: usgs-shakemap
+    authority: U.S. Geological Survey Earthquake Hazards Program
+    domain: earthquake-hazards
+    evidenceType: institutional-data-product
+    url: https://earthquake.usgs.gov/data/shakemap/
+    use: mapas y datos de intensidad sísmica estimada para explicar ShakeMap; no presentarlo como fotografía de daños ni como magnitud por sí sola
+  - id: nasa-eclipse-2024-science
+    authority: NASA
+    domain: solar-eclipses
+    evidenceType: institutional-science-brief
+    url: https://science.nasa.gov/eclipses/future-eclipses/eclipse-2024/eclipse-2024-science/
+    use: experimentos y observaciones del eclipse total de 2024; usar efemérides actualizadas para eventos futuros y comprobar créditos de imágenes
+  - id: google-adsense-program-policies
+    authority: Google AdSense
+    domain: monetization-compliance
+    evidenceType: platform-policy
+    url: https://support.google.com/adsense/answer/48182?hl=en
+    use: políticas sobre clics, tráfico inválido, diseño engañoso y responsabilidad del editor; no constituye aprobación ni sustituye la cuenta vigente
+  - id: schema-article-vocabulary
+    authority: Schema.org Community Group
+    domain: structured-data
+    evidenceType: vocabulary-documentation
+    url: https://schema.org/Article
+    use: vocabulario Article para autoría, imagen, fechas, sección y licencia; Search Central prevalece sobre cualquier expectativa de rich result
+  - id: openai-platform-data-controls
+    authority: OpenAI Platform
+    domain: automation-governance
+    evidenceType: platform-documentation
+    url: https://platform.openai.com/docs/models/default-usage-policies-by-endpoint
+    use: revisar retención, logs, controles de datos y elegibilidad antes de enviar material editorial a una automatización; no enviar secretos ni datos personales
+  - id: openai-api-key-safety
+    authority: OpenAI Help Center
+    domain: automation-security
+    evidenceType: security-guidance
+    url: https://help.openai.com/en/articles/5008148
+    use: claves por proyecto, límites de gasto, rotación y trazabilidad para automatizaciones; complementar con gestor de secretos y revisión de logs
