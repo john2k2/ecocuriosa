@@ -134,6 +134,16 @@ El auditor `content:luna-audit` recorre ahora todos los JSON de
 `docs/editorial/drafts/`, además del control adversarial GBIF, para evitar que
 un brief nuevo quede fuera de las puertas de publicación.
 
+### Verificación del pipeline — 20 de septiembre de 2026
+
+La ejecución reproducible de `pnpm content:luna-audit` encontró **4 briefs
+válidos en 4 archivos JSON**. También rechazó correctamente seis mutaciones
+adversariales: `catalogId` inexistente, URL duplicada, URL distinta de la
+canónica del catálogo, ilustración sin etiqueta, enlace externo en
+`internalLinks` y ausencia de `uniqueContribution`. El resultado solo prueba
+el contrato local; no prueba la exactitud de las fuentes, la licencia de una
+imagen, la autoría ni la aprobación para publicar.
+
 La ronda E‑E‑A‑T añadió controles de autoría, método, correcciones, conflictos y
 gobernanza basados en CSIC, ICMJE y COPE. Se guardan en el catálogo como fuentes
 candidatas: Luna puede proponer una matriz de responsabilidades, pero una persona

@@ -323,3 +323,25 @@ preparación editorial verificable quedó en **1,98/4** (confianza **0,95**), co
 que la trazabilidad mejoró, pero la deuda de 31 revisiones humanas sigue
 impidiendo pasar al nivel alto. La respuesta sigue siendo `advisory_only: true`;
 no es aprobación de Google ni una autorización de publicación.
+
+## Reevaluación global con el estado completo — 20/09/2026
+
+Se hizo una consulta nueva y acotada al MCP de Jev con el estado global actual,
+incluyendo las 145 fuentes visibles con metadatos, las métricas de Search
+Console y Cloudflare, el laboratorio móvil, el estado de AdSense y la deuda de
+31/32 revisiones humanas. La pregunta usó una escala de 0 a 4 distinta de las
+consultas post-despliegue; por eso no debe leerse como una variación lineal de
+1,98/4.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación verificable para monetización editorial | **1,43/4** | 0,54 | La base técnica existe, pero la revisión humana sigue siendo un bloqueo material. |
+| Siguiente puerta de mayor impacto | **human-review** (0,97) | 0,96 | Abrir fuentes y texto, comprobar imágenes y registrar autoría real; no seguir aumentando volumen todavía. |
+
+La distribución del score fue 0: 6 %, 1: 53 %, 2: 34 %, 3: 7 % y 4: 0 %.
+La herramienta devolvió `model: jev-1.13.0` y `advisory_only: true`; es una
+segunda opinión del resumen enviado, no una medición de Google, Cloudflare,
+Search Console o AdSense, ni una predicción de aprobación, CPM, tráfico o
+ingresos. El auditor de Luna pasó con **4 briefs válidos en 4 archivos** y
+rechazos adversariales correctos; eso no convierte ningún brief en contenido
+publicable.
