@@ -9,8 +9,13 @@
   despliegue Cloudflare Pages `cbb495a1-87b2-4fad-85ad-197c34fc0951`, rama
   `main`, estado `success`, commit exacto
   `e9147a1db5802e43ca24d1dff2377927ad3b9640`.
+- Actualización documental más reciente: commit `58941be` (`Record final Jev
+  scoring pass`), despliegue Cloudflare Pages
+  `726c6594-2dcc-477f-8df9-b9e7dd8c77c8`, rama `main`, estado `success`, commit
+  exacto `58941be3dcd60a386f801e6b94e3b10f19ed5948`.
 - Comprobación pública de ambos estados realizada el 20/09/2026; la última
-  comprobación se hizo después de que el despliegue final terminara.
+  comprobación se hizo después de que el despliegue documental más reciente
+  terminara.
 
 ## Rutas públicas
 
