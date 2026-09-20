@@ -13,6 +13,10 @@
   scoring pass`), despliegue Cloudflare Pages
   `726c6594-2dcc-477f-8df9-b9e7dd8c77c8`, rama `main`, estado `success`, commit
   exacto `58941be3dcd60a386f801e6b94e3b10f19ed5948`.
+- Estado público posterior a la iteración de diseño: commit `ab259ba`
+  (`Polish editorial navigation and accessibility`), despliegue Cloudflare
+  Pages `c57c3771-df8b-407a-8f42-ee8d517c5fcf`, rama `main`, estado `success`,
+  commit exacto `ab259ba19a13d11f61423d0915aab20f9bf1def9`.
 - Comprobación pública de ambos estados realizada el 20/09/2026; la última
   comprobación se hizo después de que el despliegue documental más reciente
   terminara.

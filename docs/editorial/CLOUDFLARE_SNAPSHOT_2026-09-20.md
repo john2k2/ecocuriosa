@@ -9,8 +9,9 @@
 - Proyecto Pages: `ecocuriosa`.
 - Rama de producción: `main`.
 - Último despliegue observado: entorno `production`, creado el 20/09/2026,
-  asociado al commit `73a1126` (`Refresh SEO metrics and editorial growth
-  evidence`); las etapas de build y deploy terminaron correctamente.
+  asociado al commit `ab259ba` (`Polish editorial navigation and accessibility`);
+  las etapas de build y deploy terminaron correctamente (deployment
+  `c57c3771-df8b-407a-8f42-ee8d517c5fcf`).
 - La portada, `robots.txt`, `sitemap.xml` y las rutas de artículos modificadas
   respondieron HTTP 200 después del despliegue.
 
