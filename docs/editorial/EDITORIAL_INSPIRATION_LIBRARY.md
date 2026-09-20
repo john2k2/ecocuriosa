@@ -921,3 +921,62 @@ AdSense esté aprobado.
 La automatización puede preparar estos briefs y validar metadatos, pero solo una
 persona puede abrir la fuente, comprobar la afirmación, autorizar su identidad
 y marcar `reviewedDate`/`reviewedBy`.
+
+### Fuentes nuevas para la puntuación máxima de indexación, CMP, campo y accesibilidad — 20 de septiembre de 2026
+
+La segunda búsqueda de Luna Max comparó el catálogo histórico de 569 URLs y
+excluyó las fuentes ya presentes. Estas doce entradas son candidatas de proceso: se
+incorporan para inspirar controles y nuevas editoriales, no como citas
+automáticas ni como prueba de aprobación de AdSense.
+
+El catálogo verificable al cierre de esta ronda contiene **581 entradas**; el
+número anterior se conserva como contexto histórico de esa búsqueda.
+
+| Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
+| --- | --- | --- | --- |
+| HTML renderizado | [Corregir problemas de JavaScript para Search](https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript) | Crear una matriz de 10 rutas con HTML renderizado, DOM, recursos, consola y paridad de título/cuerpo/enlaces/schema | Un resultado correcto de la herramienta no garantiza indexación, ranking ni otros crawlers |
+| Inventario URL | [Crawl Budget Management](https://developers.google.com/crawling/docs/crawl-budget) | Auditar semanalmente sitemap, URLs canónicas/no canónicas, soft-404, 404/410, cadenas de redirect y `lastmod` | La guía está pensada sobre todo para sitios grandes y cambiantes; no atribuir ranking a “crawl budget” |
+| CMP | [About Privacy & messaging](https://support.google.com/adsense/answer/10924669) | Especificar regiones, finalidades, proveedores, opt-out, revocación, enlaces de privacidad y eventos medibles antes de activar anuncios | Herramienta de cuenta; no demuestra cumplimiento legal local ni aprobación |
+| CMP / TCF | [Troubleshooting IAB EU TCF v2.3](https://support.google.com/adsense/answer/9999955) | Probar TC string, CMP ID/GVL, Google como vendor, reconsentimiento y bloqueo previo de tags en EEE, Reino Unido y Suiza | No sustituye asesoría legal ni debe aplicarse fuera de las regiones relevantes sin validar el caso |
+| Cobertura del mensaje | [Maximize message coverage](https://support.google.com/adsense/answer/18189118) | Registrar si la función aparece en la cuenta y medir cobertura/errores de mensajes estándar o limitados | Función gradual; más cobertura no equivale a aprobación ni ingresos |
+| Lab vs. campo | [Why lab and field data can be different](https://web.dev/articles/lab-and-field-data-differences) | Separar Lighthouse, CrUX y RUM en cada snapshot con periodo, dispositivo, red, muestra y versión | Ninguno sustituye al otro; sin volumen suficiente no hay CWV de campo |
+| RUM | [Best practices for measuring Web Vitals in the field](https://web.dev/articles/vitals-field-measurement-best-practices) | Preparar un tablero p75 de LCP/INP/CLS por ruta, dispositivo, país y despliegue; cargar beacons de forma asíncrona y respetuosa con privacidad | La instrumentación puede alterar rendimiento y requiere consentimiento/muestra |
+| Umbrales CWV | [How Core Web Vitals thresholds were defined](https://web.dev/articles/defining-core-web-vitals-thresholds) | Usar LCP ≤2,5 s, INP ≤200 ms y CLS ≤0,1 como criterios internos de p75, siempre separados de ranking | Son criterios de experiencia, no garantía de posicionamiento ni sustituto de campo |
+| Toques accidentales | [WCAG 2.5.2 Pointer Cancellation](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation) | Probar botones, menú y overlays con activación cancelable, reversión o undo en móvil | Guía explicativa; no es certificación WCAG completa |
+| Arrastre | [WCAG 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html) | Si se añade un carrusel, mapa o widget de arrastre, ofrecer alternativa de un solo puntero | Solo aplica a interacciones que EcoCuriosa implemente |
+| Autoría | [Trustworthiness of an ORCID record](https://info.orcid.org/interpreting-the-trustworthiness-of-an-orcid-record/) | Medir autoría autenticada y procedencia de obras, no solo presencia de un ORCID; enlazarlo únicamente con autorización real | ORCID desambigua identidad; no demuestra expertise ni revisión humana |
+| Correcciones bibliográficas | [Errata, retractions and linked citations in PubMed](https://www.nlm.nih.gov/bsd/policy/errata.html) | Comprobar estado de cada PMID/DOI y registrar errata, retractación o expresión de preocupación en el ledger de fuentes | PubMed no respalda ni evalúa la calidad de cada artículo |
+
+#### Artefactos de puntuación derivados
+
+1. **Matriz de renderizado:** `rendered_content_parity = rutas cuyo DOM
+   contiene título, cuerpo, enlaces y datos estructurados esenciales / rutas
+   auditadas`; objetivo inicial 100 % en la muestra de diez rutas.
+2. **Matriz de CMP:** `consent_signal_success = pruebas con señal válida,
+   revocación y bloqueo previo de tags / pruebas ejecutadas`; conservar logs
+   antes/después sin guardar datos personales en el repositorio.
+3. **Matriz de campo:** guardar p75, tamaño de muestra, periodo, ruta,
+   dispositivo y commit para LCP/INP/CLS; Lighthouse permanece como diagnóstico
+   de laboratorio.
+4. **Matriz táctil:** porcentaje de controles cancelables y porcentaje de
+   widgets con alternativa sin arrastre, probado en Safari iOS, Chrome Android
+   y teclado.
+5. **Matriz bibliográfica:** porcentaje de fuentes con PMID/DOI resuelto,
+   coincidencia de título/autoría/fecha y estado de corrección comprobado.
+
+#### Tres briefs adicionales para Luna Max
+
+1. **De Astro al DOM que ve Google:** comparar HTML estático, DOM renderizado,
+   consola y datos estructurados en portada, categoría, artículo, metodología y
+   legal; conservar capturas de la fecha y no afirmar indexación por una prueba.
+2. **Consentimiento verificable antes del primer anuncio:** preparar pruebas
+   regionales con consentimiento, rechazo, gestión y revocación; no cargar tags
+   reales hasta que AdSense/CMP estén autorizados y el titular apruebe la prueba.
+3. **¿La fuente fue corregida o retirada?:** consultar PMID/DOI, registrar el
+   estado bibliográfico y producir una nota de actualización sin reescribir la
+   conclusión si la evidencia no cambió.
+
+La automatización puede preparar estas matrices, pero no puede inventar un
+TC-string, autor, ORCID, estado bibliográfico, métrica de campo ni aprobación de
+AdSense. `humanApproval: pending` y `publish: false` se mantienen hasta la
+revisión y decisión de una persona.

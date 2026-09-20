@@ -16,11 +16,13 @@ sources:
   - title: "Extreme bradycardia and tachycardia in the world’s largest animal"
     publisher: "Proceedings of the National Academy of Sciences / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6911174/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Registro ECG-profundidad de un macho libre en la bahía de Monterey; 8,5 horas de datos y 60 inmersiones analizables"
   - title: "Why whales are big but not bigger"
     publisher: "Science / NOAA Repository"
     url: "https://repository.library.noaa.gov/view/noaa/53258"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Contexto comparativo sobre tamaño corporal y límites fisiológicos de los cetáceos"
 featured: false

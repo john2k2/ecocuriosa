@@ -3446,3 +3446,75 @@ entries:
     evidenceType: official-policy
     url: https://pubmed.ncbi.nlm.nih.gov/disclaimer/
     use: recordar que indexación en PubMed no equivale a respaldo ni calidad; mostrar tipo de publicación, PMID/DOI, retractaciones y límites verificables
+  - id: google-fix-search-javascript
+    authority: Google Search Central
+    domain: indexation
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript
+    use: comprobar paridad entre HTML renderizado, DOM, recursos y contenido esencial en rutas representativas; una prueba verde no garantiza indexación ni ranking
+  - id: google-crawl-budget-management
+    authority: Google Crawling Infrastructure
+    domain: indexation
+    evidenceType: official-guidance
+    url: https://developers.google.com/crawling/docs/crawl-budget
+    use: inventariar URLs canónicas, duplicados, 404/410, soft-404, redirecciones y lastmod; guía principalmente orientada a sitios grandes y cambiantes
+  - id: adsense-privacy-messaging-about
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/10924669
+    use: especificar regiones, mensajes, opt-out, consentimiento, revocación y medición de interacción en Privacy & messaging sin afirmar que la cuenta está aprobada
+  - id: adsense-tcf-v23-troubleshooting
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/9999955
+    use: probar TC string, CMP ID/GVL, Google como vendor, reconsentimiento y errores TCF para EEE, Reino Unido y Suiza; no sustituye revisión legal
+  - id: adsense-consent-message-coverage
+    authority: Google AdSense
+    domain: monetization
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/18189118
+    use: revisar cobertura de mensajes y diferenciar mensajes estándar/limitados cuando la función esté disponible en la cuenta; no confundir cobertura con aprobación o ingresos
+  - id: webdev-lab-field-data-differences
+    authority: web.dev / Chrome
+    domain: performance-mobile
+    evidenceType: official-guidance
+    url: https://web.dev/articles/lab-and-field-data-differences
+    use: separar Lighthouse de CrUX/RUM y guardar origen, periodo, dispositivo, red, muestra y tipo de medición en cada informe
+  - id: webdev-field-web-vitals-best-practices
+    authority: web.dev / Chrome
+    domain: performance-mobile
+    evidenceType: official-guidance
+    url: https://web.dev/articles/vitals-field-measurement-best-practices
+    use: medir distribuciones y p75 de LCP/INP/CLS por ruta, dispositivo, país y versión sin bloquear LCP; requiere privacidad y muestra suficiente
+  - id: webdev-core-vitals-thresholds
+    authority: web.dev / Chrome
+    domain: performance-mobile
+    evidenceType: official-guidance
+    url: https://web.dev/articles/defining-core-web-vitals-thresholds
+    use: usar como aceptación operativa p75 LCP <=2.5 s, INP <=200 ms y CLS <=0.1, separado de ranking y sin declarar campo sin muestra real
+  - id: w3c-wcag-pointer-cancellation
+    authority: W3C WAI / AG WG
+    domain: accessibility
+    evidenceType: standard-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation
+    use: probar activación cancelable, reversión o undo en controles táctiles para reducir toques accidentales; no es una certificación WCAG completa
+  - id: w3c-wcag-dragging-movements
+    authority: W3C WAI / AG WG
+    domain: accessibility
+    evidenceType: standard-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
+    use: exigir alternativa de un solo puntero para widgets basados en arrastre; solo aplica si EcoCuriosa incorpora ese tipo de interacción
+  - id: orcid-trustworthiness-record
+    authority: ORCID
+    domain: authorship
+    evidenceType: official-guidance
+    url: https://info.orcid.org/interpreting-the-trustworthiness-of-an-orcid-record/
+    use: distinguir datos autoafirmados de afirmaciones autenticadas y procedencia de obras; medir autoría autenticada sin tratar ORCID como prueba de experiencia
+  - id: pubmed-errata-retractions-linked-citations
+    authority: NCBI / National Library of Medicine
+    domain: corrections
+    evidenceType: official-policy
+    url: https://www.nlm.nih.gov/bsd/policy/errata.html
+    use: comprobar erratas, retractaciones, expresiones de preocupación y versiones corregidas enlazadas desde PubMed antes de cerrar una fuente

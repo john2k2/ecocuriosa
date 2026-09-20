@@ -20,9 +20,15 @@ cubrió las cuatro anchuras entre esas rutas y deja pendiente repetirlas en una
 categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
+La segunda evaluación independiente de Jev del 20/09 conserva una lectura
+ordinal separada de las métricas oficiales: SEO 2,32/4, diseño móvil 2,59/4,
+indexación 2,62/4, AdSense 1,12/4 y E‑E‑A‑T 0,80/4. Su prioridad elegida fue
+cerrar revisiones humanas E‑E‑A‑T (probabilidad 0,98); el recibo completo y sus
+límites están en [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
+
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
-lectura humana y 16/31 cuentan con fechas de acceso completas para sus fuentes.
+lectura humana y 17/31 cuentan con fechas de acceso completas para sus fuentes.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
@@ -134,7 +140,7 @@ Las siete páginas prioritarias también tienen ahora dos enlaces contextuales d
 
 El prechequeo [`CONTENT_REVIEW_PRECHECK_2026-09-12.md`](editorial/CONTENT_REVIEW_PRECHECK_2026-09-12.md), regenerable con `pnpm content:review-precheck -- --write`, ordena las 31 revisiones pendientes por riesgo y muestra fuentes, citas dentro del cuerpo, enlaces propios, señales de cifras/salud/conservación y procedencia visual. El control es estático y no marca revisiones: la cola solo se cierra con comprobación humana.
 
-Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 16/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes.
+Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 17/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes. El paquete de contraste de ballena azul quedó preparado, pero sigue pendiente de confirmación editorial pública.
 
 ## Secuencia de 30 días
 
@@ -251,7 +257,11 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 569 entradas y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El conteo verificable del catálogo en esta revisión es **581 entradas**; las
+referencias históricas de este párrafo conservan el estado que tenían cuando se
+escribieron.
+
+El catálogo actual contiene **581 entradas** y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

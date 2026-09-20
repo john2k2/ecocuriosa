@@ -9,7 +9,7 @@ El primer lote operativo está en
 [`CONTENT_REVIEW_BATCH_P0_2026-09-13.md`](./CONTENT_REVIEW_BATCH_P0_2026-09-13.md):
 agrupa nueve artículos P0 y uno P1 con las cifras, límites, fuentes y puentes
 de enlazado que una persona debe comprobar primero. Ninguna fila se marca por
-anticipado.
+anticipado. El [paquete de contraste de ballena azul](./reviews/ballena-azul-2026-09-20.md) reúne evidencia de las dos fuentes y conserva la decisión `pending` hasta la confirmación editorial pública.
 
 ## Instrucciones de uso
 

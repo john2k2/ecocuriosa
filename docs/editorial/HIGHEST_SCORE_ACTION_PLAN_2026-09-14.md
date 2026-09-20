@@ -57,7 +57,7 @@
 
 La auditoría actual no permite cerrar esta área todavía: `content:review-precheck`
 encuentra 31 fichas pendientes de 32, 22/31 con señales que requieren lectura
-humana y solo 16/31 con fechas de acceso completas para sus fuentes. El control
+humana y solo 17/31 con fechas de acceso completas para sus fuentes. El control
 estricto falla por la deuda de revisión, no por un problema de compilación. No se
 deben convertir estos pendientes en fechas o responsables ficticios.
 
