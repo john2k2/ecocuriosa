@@ -3836,3 +3836,167 @@ entries:
     evidenceType: peer-reviewed-candidate
     url: https://pubmed.ncbi.nlm.nih.gov/25955967/
     use: candidato para memoria epigenética de FLC en cis; el abstract requiere reapertura manual antes de catalogar una afirmación
+  # Lote de Luna Max: fuentes primarias y conjuntos de datos para cerrar
+  # brechas P0/P1. Son candidatas de brief; no son revisiones humanas.
+  - id: ec-manta-acoustic-occupancy-2023
+    authority: Springer / Marine Biology
+    domain: manta-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://link.springer.com/article/10.1007/s00227-023-04278-1
+    use: candidato para ocupación acústica de 66 mantas en Bahía de Banderas; no usar como prueba de autoconciencia ni extrapolar a toda la especie
+  - id: ec-manta-cleaning-stations-2024
+    authority: Frontiers in Fish Science
+    domain: manta-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.frontiersin.org/journals/fish-science/articles/10.3389/frish.2024.1432244/full
+    use: candidato para telemetría y uso de estaciones de limpieza; conservar región, periodo y muestra
+  - id: ec-manta-population-genomics-2023
+    authority: Molecular Ecology / PubMed Central
+    domain: manta-population-genomics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11789554/
+    use: candidato para conectividad y estructura poblacional de mobúlidos; la genómica no prueba conducta ni inteligencia
+  - id: ec-pangolin-dja-camera-traps-2018
+    authority: SAGE / Tropical Conservation Science
+    domain: pangolin-conservation
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://journals.sagepub.com/doi/10.1177/1940082917749224
+    use: candidato para explicar qué demuestra una cámara-trampa en Dja; no convertir una detección localizada en abundancia global
+  - id: ec-pangolin-senegal-rediscovery-2024
+    authority: Wiley / African Journal of Ecology
+    domain: pangolin-conservation
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1111/aje.13279
+    use: candidato para distinguir redescubrimiento fotográfico y tendencia poblacional; verificar abstract y alcance antes de citar
+  - id: ec-coral-gbr-paleoclimate-2024
+    authority: Nature
+    domain: coral-climate
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41586-024-07672-x
+    use: candidato para reconstrucción térmica de la Gran Barrera durante siglos; no confundir cronología regional con mortalidad universal
+  - id: ec-coral-one-tree-bleaching-2025
+    authority: Limnology and Oceanography Letters
+    domain: coral-bleaching
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10456
+    use: candidato para seguimiento de 462 colonias durante un evento de blanqueamiento; separar blanqueamiento, mortalidad y recuperación
+  - id: ec-coral-lizard-island-drone-2025
+    authority: James Cook University / Coral Reefs
+    domain: coral-restoration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://researchonline.jcu.edu.au/88636/
+    use: candidato para ortomosaicos de dron y restauración en Lizard Island; no extrapolar transectos locales a todos los arrecifes
+  - id: ec-axolotl-vegf-2025
+    authority: Developmental Biology / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/40480306/
+    use: candidato para VEGF y blastema en regeneración de extremidades; no presentarlo como terapia humana
+  - id: ec-axolotl-senescence-wnt-2023
+    authority: Developmental Cell / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/37879337/
+    use: candidato para senescencia transitoria, Wnt y nicho proliferativo; conservar modelo y tejido estudiado
+  - id: ec-axolotl-mtor-2023
+    authority: Nature / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/37495694/
+    use: candidato para mTOR y remodelado del translatoma durante regeneración; no extrapolar a humanos
+  - id: ec-whale-accelerometer-bcg-2022
+    authority: Journal of Experimental Biology / PubMed
+    domain: blue-whale-physiology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/35502794/
+    use: candidato para diferenciar balistocardiograma por acelerómetro y ECG; no convertir una señal indirecta en frecuencia poblacional
+  - id: ec-whale-heart-rate-review-2021
+    authority: Journal of Experimental Biology / PubMed
+    domain: blue-whale-physiology
+    evidenceType: review-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/34413792/
+    use: candidato para contexto comparativo de frecuencia cardiaca en ballena azul; conserva límites de la revisión
+  - id: ec-narwhal-tusk-structure-2026
+    authority: PubMed
+    domain: narwhal-tusk
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/42613332/
+    use: candidato para estructura helicoidal y fibrillas mineralizadas del colmillo; no demuestra función sensorial
+  - id: ec-narwhal-annual-review-2024
+    authority: Annual Review of Animal Biosciences
+    domain: narwhal-ecology
+    evidenceType: review-candidate
+    url: https://www.annualreviews.org/content/journals/10.1146/annurev-animal-021122-112307
+    use: candidato para biología, cultura y adaptación ártica; no usar como único soporte causal
+  - id: ec-narwhal-tusk-use-1980
+    authority: Nature
+    domain: narwhal-behavior
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.nature.com/articles/284057a0
+    use: candidato para observación histórica de uso del colmillo; conservar año, contexto y alcance limitado
+  - id: ec-tardigrade-thermal-tolerance-2024
+    authority: Biology Open / PubMed
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39229830/
+    use: candidato para comparar tolerancia térmica en seis especies hidratadas y desecadas; no universalizar umbrales
+  - id: ec-tardigrade-hypoxia-2023
+    authority: PubMed
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/37731547/
+    use: candidato para respuesta a hipoxia en dos especies; conservar especie, estado y duración
+  - id: ec-tardigrade-anhydrobiosis-2023
+    authority: PLOS ONE / PubMed
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/36630322/
+    use: candidato para comparar patrones de anhidrobiosis en cuatro especies; no afirmar supervivencia indefinida
+  - id: ec-owl-bubo-feather-noise-2012
+    authority: Journal of Bionic Engineering / ScienceDirect
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.sciencedirect.com/science/article/pii/S1672652911601091
+    use: candidato para morfología de plumas de Bubo bubo y supresión acústica; verificar abstract y licencia
+  - id: ec-owl-phylogeny-flight-2022
+    authority: Biological Journal of the Linnean Society
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://academic.oup.com/biolinnean/article/135/1/84/6446340
+    use: candidato para morfología comparativa de 147 especies; no equivale a mediciones acústicas de cada especie
+  - id: ec-owl-noise-landing-2018
+    authority: Behavioral Processes / PubMed
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/29933056/
+    use: candidato para ruido en aterrizaje y despegue de lechuzas; separar fase de vuelo y especie
+  - id: ec-nasa-lis-search
+    authority: NASA Earthdata
+    domain: catatumbo-lightning
+    evidenceType: dataset-candidate
+    url: https://www.earthdata.nasa.gov/data/tools/lis-space-time-domain-search
+    use: candidato para consultar observaciones ópticas LIS desde 1998; requiere consulta reproducible y no da causalidad local por sí solo
+  - id: ec-noaa-goes-glm
+    authority: NOAA NCEI
+    domain: catatumbo-lightning
+    evidenceType: dataset-candidate
+    url: https://www.ncei.noaa.gov/products/goes-terrestrial-weather-abi-glm
+    use: candidato para eventos, grupos y flashes del GLM; conservar resolución y cobertura
+  - id: ec-noaa-glm-metadata
+    authority: NOAA NCEI
+    domain: catatumbo-lightning
+    evidenceType: dataset-metadata-candidate
+    url: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc%3AC01527
+    use: candidato para jerarquía evento/grupo/flash, energía radiante y control de calidad; no mezclar unidades con LIS
+  - id: ec-geodynamo-epp-2025
+    authority: Earth and Planetary Physics
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.26464/epp2025034
+    use: candidato para inferir flujo del núcleo con Macau Science Satellite-1 y Swarm; separar campo medido de modelo inverso
+  - id: ec-geodynamo-gji-2025
+    authority: Geophysical Journal International
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1093/gji/ggaf063
+    use: candidato para simulaciones numéricas de dínamos de la Tierra temprana; no describir como medición directa actual

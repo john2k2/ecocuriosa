@@ -281,10 +281,10 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 El conteo verificable del catálogo en la revisión anterior era **592 entradas**;
 la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entradas**.
 El lote amplio posterior de Luna añade 29 URLs no duplicadas y deja el estado
-actual en **634 entradas**. Las referencias históricas de este párrafo
+actual en **661 entradas**. Las referencias históricas de este párrafo
 conservan el estado que tenían cuando se escribieron.
 
-El catálogo actual contiene **634 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, las búsquedas de Luna añadieron fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko, coral, calamar gigante, ventilas hidrotermales, géiseres, clima, astronomía, vernalización y comportamiento animal. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene **661 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, las búsquedas de Luna añadieron fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko, coral, calamar gigante, ventilas hidrotermales, géiseres, clima, astronomía, vernalización, comportamiento animal, Catatumbo y fisiología comparada. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

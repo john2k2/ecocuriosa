@@ -13,7 +13,7 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | 44 URLs públicas en sitemap; rutas y canonicals controlados; muestras anteriores indexadas | Search Console todavía no prueba cobertura completa de las 44 URLs |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 634 fuentes en catálogo; 4 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 661 fuentes en catálogo; 4 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
 La consulta independiente más reciente de Jev dio **1,78/4** para preparación
 global (la ronda anterior había dado 1,92/4) y eligió cerrar primero las

@@ -1103,3 +1103,25 @@ El auditor debe confirmar IDs, URLs HTTPS y ausencia de duplicados antes de
 utilizar una fuente en un artículo. Para cada brief, Luna debe devolver una
 afirmación concreta, su alcance, la limitación y el plan de imagen; el editor
 debe abrir la fuente y conservar `humanApproval: pending` hasta aprobarla.
+
+### Búsqueda dirigida de Luna Max — cierre de brechas P0/P1 — 20 de septiembre de 2026
+
+Una segunda búsqueda amplia priorizó artículos que ya existen pero todavía
+necesitan separar mejor conducta, muestra, escala temporal y causalidad. Se
+incorporaron **27 candidatas no duplicadas** al catálogo (`SOURCE_CATALOG.yml`),
+como insumos de briefs y no como citas verificadas. Las cinco líneas de mayor
+impacto son:
+
+| Prioridad | Línea editorial | Fuentes candidatas | Brief original posible | Límite que debe quedar visible |
+| --- | --- | --- | --- | --- |
+| P0 | Manta gigante | [Marine Biology, ocupación acústica](https://link.springer.com/article/10.1007/s00227-023-04278-1), [Frontiers, estaciones de limpieza](https://www.frontiersin.org/journals/fish-science/articles/10.3389/frish.2024.1432244/full), [genómica poblacional en PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11789554/) | Qué pueden demostrar los transmisores sobre residencia, conectividad y uso estacional | Regiones y muestras concretas; genómica no demuestra autoconciencia |
+| P0 | Pangolín gigante | [cámaras en Dja](https://journals.sagepub.com/doi/10.1177/1940082917749224), [redescubrimiento en Senegal](https://onlinelibrary.wiley.com/doi/abs/10.1111/aje.13279) | Redescubrir no es contar: qué puede y qué no puede inferir una cámara-trampa | Detecciones localizadas; no densidad ni tendencia mundial |
+| P0 | Coral y blanqueamiento | [reconstrucción térmica de Nature](https://doi.org/10.1038/s41586-024-07672-x), [462 colonias en One Tree Reef](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10456), [ortomosaicos de JCU](https://researchonline.jcu.edu.au/88636/) | Blanqueamiento, mortalidad y recuperación como estados distintos medidos a escalas distintas | Gran Barrera, One Tree y Lizard Island no representan todos los arrecifes |
+| P1 | Axolote y regeneración | [VEGF](https://pubmed.ncbi.nlm.nih.gov/40480306/), [senescencia/Wnt](https://pubmed.ncbi.nlm.nih.gov/37879337/), [mTOR](https://pubmed.ncbi.nlm.nih.gov/37495694/) | Tres mecanismos experimentales, no una cura ni una promesa humana | Modelo de axolote y tejidos concretos; no extrapolar a medicina |
+| P1 | Tardígrados | [tolerancia térmica](https://pubmed.ncbi.nlm.nih.gov/39229830/), [hipoxia](https://pubmed.ncbi.nlm.nih.gov/37731547/), [anhidrobiosis](https://pubmed.ncbi.nlm.nih.gov/36630322/) | Matriz especie × estado × estrés para sustituir “sobrevive a todo” | Laboratorio, pocas especies y duraciones concretas |
+
+También quedan catalogadas fuentes para ballena azul, narval, búhos, Catatumbo y
+geodinamo. La tabla completa conserva el alcance, la limitación y el tipo de
+evidencia en el catálogo. Los registros de acceso parcial, abstracts o datasets
+requieren apertura manual antes de citar; el lote no modifica artículos ni
+marca `reviewedDate`/`reviewedBy`.
