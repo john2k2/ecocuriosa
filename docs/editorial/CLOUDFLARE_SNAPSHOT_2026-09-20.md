@@ -15,6 +15,11 @@
 - La portada, `robots.txt`, `sitemap.xml` y las rutas de artículos modificadas
   respondieron HTTP 200 después del despliegue.
 
+**Seguimiento técnico posterior:** el commit `ae569cc` se publicó mediante el
+deployment directo `238a14a4.ecocuriosa.pages.dev`; las sondas de portada,
+categoría, artículo, `llms.txt`, `ads.txt` y sitemap devolvieron HTTP 200. El
+deployment incluye el resumen `speakable` y los targets táctiles de 48 px.
+
 **Seguimiento posterior:** el commit `85a3e93` (`Correct axolotl source scope
 and review evidence`) se desplegó automáticamente en producción mediante
 GitHub push. Cloudflare Pages reportó las etapas `build` y `deploy` como

@@ -21,6 +21,16 @@
   comprobación se hizo después de que el despliegue documental más reciente
   terminara.
 
+## Seguimiento técnico posterior — 20/09/2026
+
+El commit `ae569cc` (`Raise GEO controls and editorial source coverage`) se
+publicó mediante Cloudflare Pages deployment `238a14a4.ecocuriosa.pages.dev`.
+La sonda pública posterior devolvió HTTP 200 para portada, categoría, artículo,
+`llms.txt`, `ads.txt` y `sitemap-index.xml`. El artículo de muestra contiene
+`Article.speakable` alineado con `#article-summary`; la portada entrega los
+targets táctiles de 48 px. La verificación prueba entrega del artefacto, no
+indexación, aprobación de AdSense ni Core Web Vitals de campo.
+
 ## Rutas públicas
 
 El sitemap de contenido `/sitemap-0.xml` declara **44 URL** y una comprobación
