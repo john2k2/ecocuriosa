@@ -13,6 +13,13 @@
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
 | E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
 
+La revisión visual de producción del 20/09 está documentada en el [snapshot de
+diseño y móvil](editorial/DESIGN_MOBILE_SNAPSHOT_2026-09-20.md). Confirma la
+jerarquía de portada y artículo, el menú accesible y la lectura responsive; ya
+cubrió las cuatro anchuras entre esas rutas y deja pendiente repetirlas en una
+categoría y en las páginas legales, además de la prueba de CLS después de
+activar anuncios.
+
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y 16/31 cuentan con fechas de acceso completas para sus fuentes.
