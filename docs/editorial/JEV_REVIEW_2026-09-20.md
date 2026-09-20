@@ -118,3 +118,19 @@ Jev devolvió `model: jev-1.13.0` y `advisory_only: true`. Esta cifra no es una
 predicción de aprobación, CPM, ingresos ni tráfico; coincide con la evidencia
 local de 31/32 artículos pendientes y se conserva como segunda opinión, no como
 criterio único de publicación.
+
+## Reevaluación con catálogo ampliado y auditorías actuales — 20/09/2026
+
+Se hizo una consulta final, acotada y sin credenciales, después de ampliar el
+catálogo a 634 fuentes y repetir las auditorías locales. La escala volvió a ser
+`0`–`4`; es ordinal y no es una métrica de Google.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación global para revisión de AdSense | **1,78/4** | 0,65 | Sitio funcional con bloqueos materiales: deuda editorial humana y gates externos. |
+| Prioridad: cerrar revisión humana | **0,98** | 0,98 | Revisar afirmaciones, límites, fuentes e imágenes antes de escalar volumen. |
+
+La distribución de score fue 0: 0%, 1: 31%, 2: 59%, 3: 10%, 4: 0%. Jev mantuvo
+`advisory_only: true`; el resultado no demuestra aprobación, tráfico, CPM,
+ingresos ni indexación. El estado de decisión permanece en manos del editor y
+se conserva `pending` hasta completar cada revisión humana.
