@@ -74,6 +74,30 @@ siguiente optimización, si se busca superar esta lectura, debe probar el
 renderizado del hero y el CSS crítico, no eliminar imágenes ni desactivar
 protecciones de Cloudflare.
 
+## Repetición independiente posterior — 20/09/2026
+
+Se volvió a ejecutar Lighthouse CLI `13.5.0` contra la portada pública con
+emulación móvil después del despliegue que contiene los paquetes de contraste.
+La ejecución terminó sin cambios de código del sitio respecto de la plantilla;
+su finalidad es medir variabilidad, no declarar una regresión.
+
+| Señal | Lectura | Interpretación |
+| --- | ---: | --- |
+| Performance | **93/100** | Variación de laboratorio frente a 97; no usar una sola corrida como tendencia |
+| Accessibility | **100/100** | Sin auditorías fallidas en la portada |
+| SEO | **100/100** | Sin auditorías fallidas en la portada |
+| FCP | 1,2 s | Laboratorio |
+| LCP | 2,6 s | Repetir en categoría y artículo; confirmar con P75 de campo |
+| TBT | 160 ms | Proxy de laboratorio, no INP real |
+| CLS | 0 | Sin desplazamiento detectado |
+| Speed Index | 4,1 s | Sensible a red/CPU del runner |
+| Respuesta inicial | 60 ms | Lectura de laboratorio |
+
+La diferencia 97→93 con Accessibility y SEO estables refuerza la decisión de
+no aplicar un parche especulativo de CSS crítico. La puerta sigue siendo la
+mediana de varias ejecuciones por plantilla y, cuando sea elegible, el P75 de
+usuarios reales.
+
 ## Fuentes metodológicas
 
 - [Web Vitals de web.dev](https://web.dev/articles/vitals)

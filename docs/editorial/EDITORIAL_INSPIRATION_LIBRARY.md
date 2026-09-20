@@ -1053,3 +1053,53 @@ Con esta tanda, el catálogo verificable queda en **605 entradas**. Antes de
 convertir cualquiera en fuente de publicación hay que abrir el texto completo,
 registrar DOI/PMID o identificador, fecha de consulta, licencia, muestra,
 ubicación y una frase explícita de lo que no debe afirmarse.
+
+### Búsqueda amplia de Luna Max — lote de inspiración científica — 20 de septiembre de 2026
+
+Luna comparó las URLs contra el catálogo vigente y devolvió veintidós fuentes
+verificadas para lectura/abstract y siete candidatas que requieren apertura
+manual. Se incorporan como insumos para briefs; ninguna marca una revisión
+humana ni autoriza copiar texto, figuras o imágenes.
+
+| ID | Tema y fuente | Qué permite investigar | Límite obligatorio |
+| --- | --- | --- | --- |
+| `ec-smithsonian-giant-squid-overview` | [Smithsonian: giant squid](https://ocean.si.edu/ocean-life/invertebrates/giant-squid) | Anatomía, ojos, brazos, tentáculos y evidencia por varamientos | Síntesis divulgativa; máximos no equivalen a un animal vivo observado |
+| `ec-pubmed-giant-squid-eyes-22425154` | [PubMed: ojos del calamar](https://pubmed.ncbi.nlm.nih.gov/22425154/) | Modelo óptico de detección de cachalotes a profundidad | Hipótesis modelada, no conducta evasiva observada |
+| `ec-pubmed-giant-squid-optic-lobe-28791156` | [PubMed: lóbulo óptico](https://pubmed.ncbi.nlm.nih.gov/28791156/) | MRI y relación ojo-cerebro en un macho | Un ejemplar; no generalizar inteligencia |
+| `ec-pubmed-axolotl-mandible-39206627` | [PubMed: mandíbula de axolote](https://pubmed.ncbi.nlm.nih.gov/39206627/) | Regeneración mandibular experimental y fases moleculares | Modelo animal; no terapia humana |
+| `ec-nasa-great-blue-hole-147158` | [NASA: Great Blue Hole](https://science.nasa.gov/earth/earth-observatory/lighthouse-reef-and-the-great-blue-hole-147158/) | Geología, dimensiones y formación sumergida | Observación orbital y síntesis; no datación directa presentada |
+| `ec-usgs-yellowstone-hydrothermal-2018` | [USGS/YVO: sistema hidrotermal](https://www.usgs.gov/observatories/yvo/news/yellowstones-active-hydrothermal-system-whats-hot-water) | Recarga, reservorio, ebullición y conductos de géiseres | Yellowstone; no mecanismo universal idéntico |
+| `ec-nasa-exoplanet-characterization` | [NASA: caracterizar exoplanetas](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/) | Velocidad radial, tránsitos, microlente y espectroscopía | Detectar moléculas no demuestra vida |
+| `ec-noaa-hydrothermal-vents-factsheet` | [NOAA: ventilas hidrotermales](https://oceanexplorer.noaa.gov/fact-sheet/hydrothermal-vents-fact-sheet/) | Presión, fluidos calientes, chimeneas y quimiosíntesis | Rangos educativos; no toda ventila comparte valores |
+| `ec-noaa-seeps-vs-vents` | [NOAA: filtraciones y ventilas](https://oceanexplorer.noaa.gov/ocean-fact/seeps-vents/) | Contrastar filtraciones frías y ventilas volcánicas | Resumen institucional; no estudio de una comunidad específica |
+| `ec-wmo-global-climate-2025` | [WMO: clima global 2025](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025) | Indicadores globales, incertidumbre y contexto anual | No atribuye por sí solo un evento local |
+| `ec-pubmed-cat-purring-37794583` | [PubMed: ronroneo](https://pubmed.ncbi.nlm.nih.gov/37794583/) | Oscilaciones de ocho laringes de gatos extirpadas | No prueba que todo gato vivo ronronee igual |
+| `ec-pubmed-gecko-electrostatic-25008078` | [PubMed: adhesión electrostática del gecko](https://pubmed.ncbi.nlm.nih.gov/25008078/) | Contrastar electrificación por contacto con Van der Waals/capilaridad | Materiales y protocolo concretos |
+| `ec-pubmed-yawn-bonobo-25165630` | [PubMed: bostezo y vínculo social](https://pubmed.ncbi.nlm.nih.gov/25165630/) | Comparar humanos y bonobos sin convertir una medida en empatía | Diseño naturalista y conductual |
+| `ec-pubmed-interspecific-yawn-35892558` | [PubMed: bostezo interespecífico](https://pubmed.ncbi.nlm.nih.gov/35892558/) | Estímulos de peces, anfibios, reptiles, aves y mamíferos | Muestra online y autoinforme |
+| `ec-pubmed-maternal-flc-32958896` | [PubMed: FLC materno](https://pubmed.ncbi.nlm.nih.gov/32958896/) | Transmisión epigenética de vernalización en *Arabidopsis* | Una especie y un locus |
+| `ec-pubmed-heat-devernalization-25648822` | [PubMed: calor y FLC](https://pubmed.ncbi.nlm.nih.gov/25648822/) | Cómo temperatura y fase estabilizadora alteran H3K27me3 | Protocolo y genotipo específicos |
+| `ec-nasa-crepuscular-rays-150090` | [NASA: rayos crepusculares](https://science.nasa.gov/earth/earth-observatory/crepuscular-rays-and-light-scattering-150090/) | Dispersión de Rayleigh, aerosoles y perspectiva | Revisar la discrepancia de fechas de la página |
+| `ec-noaa-deep-ocean` | [NOAA: océano profundo](https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/) | Luz, profundidad y temperatura aproximada | Umbrales dependientes de claridad y región |
+| `ec-noaa-escanaba-hydrothermal-2022` | [NOAA: Escanaba Trough](https://oceanexplorer.noaa.gov/expedition-feature/22escanaba-features-hydrothermal-systems/) | Circulación y precipitación mineral en un sitio real | No extrapolar a todas las ventilas |
+| `ec-usgs-hydrothermal-features-diagram` | [USGS: diagrama hidrotermal](https://www.usgs.gov/media/images/hydrothermal-features) | Inspirar un diagrama propio de reservorio y conducto | Aunque declara dominio público, no reutilizar automáticamente el activo |
+| `ec-pubmed-flc-temperature-network-30503646` | [PubMed: red térmica FLC](https://pubmed.ncbi.nlm.nih.gov/30503646/) | Integración temporal de temperatura y datos de campo | Modelo, especies y sitios concretos |
+| `ec-nasa-moon-water-ices` | [NASA: agua e hielo lunar](https://science.nasa.gov/moon/moon-water-and-ices/) | Separar hielo en sombra permanente de moléculas superficiales | No implica agua líquida ni origen resuelto |
+
+#### Candidatas que exigen apertura manual
+
+| ID | Fuente | Uso posible | Motivo para mantener `pending` |
+| --- | --- | --- | --- |
+| `ec-usgs-geysers-gip` | [USGS: géiseres](https://pubs.usgs.gov/gip/volc/geysers.html) | Infiltración, calentamiento y erupción | Acceso restringido y página antigua |
+| `ec-gbif-giant-pangolin-taxonomy` | [GBIF: pangolín gigante](https://www.gbif.org/taxon/DTCTY) | Nombre aceptado y sinónimo | Registro agregado; no dieta ni conducta |
+| `ec-gbif-giant-manta-taxonomy` | [GBIF: manta gigante](https://www.gbif.org/taxon/73N5T) | *Mobula birostris* y sinónimos | No sustituye datos poblacionales o legales |
+| `ec-gbif-noctiluca-taxonomy` | [GBIF: *Noctiluca*](https://www.gbif.org/species/8063862) | Clasificación y sinónimos | No abundancia, toxicidad ni floración |
+| `ec-gbif-giant-squid-taxonomy` | [GBIF: *Architeuthis*](https://www.gbif.org/taxon/G9SK) | Nombres taxonómicos | No tamaño ni comportamiento |
+| `ec-iucn-giant-pangolin-assessment-2019` | [IUCN: evaluación del pangolín](https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T12762A123584478.en) | Estado de conservación y versión de evaluación | DOI no accesible durante la ronda; abrir manualmente |
+| `ec-pubmed-flc-cis-memory-25955967` | [PubMed: memoria FLC en cis](https://pubmed.ncbi.nlm.nih.gov/25955967/) | Contrastar memoria epigenética en cis | Registro vacío en la ronda; no citar aún |
+
+El catálogo actualizado pasa de 605 a **634 entradas** después de este lote.
+El auditor debe confirmar IDs, URLs HTTPS y ausencia de duplicados antes de
+utilizar una fuente en un artículo. Para cada brief, Luna debe devolver una
+afirmación concreta, su alcance, la limitación y el plan de imagen; el editor
+debe abrir la fuente y conservar `humanApproval: pending` hasta aprobarla.

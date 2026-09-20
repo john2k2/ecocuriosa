@@ -3662,3 +3662,177 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12322247/
     use: analizar restauración de Acropora cervicornis y potencial de acreción en transectos de los Cayos de Florida; no convertir efectos locales en éxito global ni eliminar el riesgo climático
+  - id: ec-smithsonian-giant-squid-overview
+    authority: Smithsonian Ocean
+    domain: giant-squid
+    evidenceType: institutional
+    url: https://ocean.si.edu/ocean-life/invertebrates/giant-squid
+    use: contextualizar anatomía, ojos, brazos, tentáculos y límites de los registros de calamar gigante; no convertir máximos de varamientos en observaciones vivas
+  - id: ec-pubmed-giant-squid-eyes-22425154
+    authority: NLM / PubMed
+    domain: giant-squid
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/22425154/
+    use: explicar el modelo óptico que propone detección de cachalotes por ojos gigantes; separar modelado, documentación y conducta observada
+  - id: ec-pubmed-giant-squid-optic-lobe-28791156
+    authority: NLM / PubMed
+    domain: giant-squid-neuroanatomy
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/28791156/
+    use: describir MRI y lóbulo óptico de un macho de Architeuthis dux; no inferir inteligencia universal a partir de un ejemplar
+  - id: ec-pubmed-axolotl-mandible-39206627
+    authority: NLM / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/39206627/
+    use: investigar regeneración mandibular experimental del axolote y sus fases moleculares; no extrapolar a terapia humana
+  - id: ec-nasa-great-blue-hole-147158
+    authority: NASA Earth Observatory
+    domain: blue-holes
+    evidenceType: institutional
+    url: https://science.nasa.gov/earth/earth-observatory/lighthouse-reef-and-the-great-blue-hole-147158/
+    use: explicar dimensiones, origen geológico e imágenes orbitales del Great Blue Hole; conservar que es una síntesis de observación y contexto
+  - id: ec-usgs-yellowstone-hydrothermal-2018
+    authority: USGS / Yellowstone Volcano Observatory
+    domain: geysers-hydrothermal
+    evidenceType: institutional
+    url: https://www.usgs.gov/observatories/yvo/news/yellowstones-active-hydrothermal-system-whats-hot-water
+    use: describir recarga, circulación, calentamiento, reservorio y constricción que permiten un géiser en Yellowstone; no universalizar el sistema
+  - id: ec-nasa-exoplanet-characterization
+    authority: NASA Science
+    domain: exoplanets
+    evidenceType: institutional
+    url: https://science.nasa.gov/exoplanets/how-we-find-and-characterize/
+    use: comparar velocidad radial, tránsitos, microlente y espectroscopía; detectar moléculas no equivale a demostrar vida
+  - id: ec-noaa-hydrothermal-vents-factsheet
+    authority: NOAA Ocean Exploration
+    domain: hydrothermal-vents
+    evidenceType: institutional
+    url: https://oceanexplorer.noaa.gov/fact-sheet/hydrothermal-vents-fact-sheet/
+    use: explicar presión, fluidos de más de 400 grados Celsius, chimeneas minerales y quimiosíntesis; conservar el contexto de ventila
+  - id: ec-noaa-seeps-vs-vents
+    authority: NOAA Ocean Exploration
+    domain: hydrothermal-vents
+    evidenceType: institutional
+    url: https://oceanexplorer.noaa.gov/ocean-fact/seeps-vents/
+    use: distinguir filtraciones frías de ventilas hidrotermales y sus comunidades quimiosintéticas; no sustituir estudios de una comunidad concreta
+  - id: ec-wmo-global-climate-2025
+    authority: World Meteorological Organization
+    domain: climate-indicators
+    evidenceType: institutional-report
+    url: https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025
+    use: contextualizar temperatura global 2015-2025 y la incertidumbre de la posición de 2025; no atribuir un evento local por esta cifra
+  - id: ec-pubmed-cat-purring-37794583
+    authority: NLM / PubMed
+    domain: cat-purring
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/37794583/
+    use: analizar oscilaciones laríngeas de ocho laringes de gatos extirpadas; no concluir que todo ronroneo vivo tenga el mismo mecanismo
+  - id: ec-pubmed-gecko-electrostatic-25008078
+    authority: NLM / PubMed
+    domain: gecko-adhesion
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/25008078/
+    use: contrastar electrificación por contacto con explicaciones de Van der Waals y capilaridad en adhesión de gecko; conservar superficies y protocolo
+  - id: ec-pubmed-yawn-bonobo-25165630
+    authority: NLM / PubMed
+    domain: yawn-contagion
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/25165630/
+    use: comparar vínculo social y respuesta al bostezo en humanos y bonobos; no convertir una medida conductual en prueba de empatía
+  - id: ec-pubmed-interspecific-yawn-35892558
+    authority: NLM / PubMed
+    domain: yawn-contagion
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/35892558/
+    use: estudiar contagio de bostezo ante estímulos de múltiples grupos animales; conservar muestra online y límites del autoinforme
+  - id: ec-pubmed-maternal-flc-32958896
+    authority: NLM / PubMed
+    domain: plant-vernalization
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/32958896/
+    use: describir transmisión materna de estado epigenético de FLC en Arabidopsis; no afirmar que todas las plantas transmiten memoria igual
+  - id: ec-pubmed-heat-devernalization-25648822
+    authority: NLM / PubMed
+    domain: plant-vernalization
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/25648822/
+    use: estudiar cómo 30 grados Celsius y una fase estabilizadora alteran la marca H3K27me3 en FLC; no convertir el protocolo en regla agrícola universal
+  - id: ec-nasa-crepuscular-rays-150090
+    authority: NASA Earth Observatory
+    domain: sky-optics
+    evidenceType: institutional
+    url: https://science.nasa.gov/earth/earth-observatory/crepuscular-rays-and-light-scattering-150090/
+    use: explicar dispersión de Rayleigh, aerosoles y apariencia convergente de rayos crepusculares; comprobar fechas de la página antes de citar un evento
+  - id: ec-noaa-deep-ocean
+    authority: NOAA Ocean Exploration
+    domain: deep-ocean
+    evidenceType: institutional
+    url: https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/
+    use: contextualizar zona profunda, pérdida de fotosíntesis y temperatura aproximada; conservar que los umbrales dependen de condiciones locales
+  - id: ec-noaa-escanaba-hydrothermal-2022
+    authority: NOAA Ocean Exploration
+    domain: hydrothermal-vents
+    evidenceType: institutional
+    url: https://oceanexplorer.noaa.gov/expedition-feature/22escanaba-features-hydrothermal-systems/
+    use: explicar circulación de agua y precipitación mineral en Escanaba Trough; no extrapolar sus temperaturas a todas las ventilas
+  - id: ec-usgs-hydrothermal-features-diagram
+    authority: USGS
+    domain: geysers-hydrothermal
+    evidenceType: institutional-media
+    url: https://www.usgs.gov/media/images/hydrothermal-features
+    use: inspirar un diagrama propio de reservorio, conducto, presión y recarga; el recurso visual declara dominio público, pero no se reutiliza automáticamente
+  - id: ec-pubmed-flc-temperature-network-30503646
+    authority: NLM / PubMed
+    domain: plant-vernalization
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/30503646/
+    use: estudiar integración temporal de temperatura y expresión de FLC con modelo y datos de campo; conservar especies, sitios y modelo
+  - id: ec-nasa-moon-water-ices
+    authority: NASA Science
+    domain: lunar-water
+    evidenceType: institutional
+    url: https://science.nasa.gov/moon/moon-water-and-ices/
+    use: separar hielo en regiones permanentemente sombreadas de moléculas de agua superficiales; no afirmar agua líquida ni origen resuelto
+  - id: ec-usgs-geysers-gip
+    authority: USGS
+    domain: geysers-hydrothermal
+    evidenceType: institutional-candidate
+    url: https://pubs.usgs.gov/gip/volc/geysers.html
+    use: candidato para infiltración, calentamiento y erupción de géiseres; requiere apertura manual por acceso restringido y revisión de antigüedad
+  - id: ec-gbif-giant-pangolin-taxonomy
+    authority: GBIF / Catalogue of Life
+    domain: pangolin-taxonomy
+    evidenceType: taxonomy-candidate
+    url: https://www.gbif.org/taxon/DTCTY
+    use: candidato para nombre aceptado y sinónimo de Smutsia gigantea; no respalda dieta, conducta ni amenazas
+  - id: ec-gbif-giant-manta-taxonomy
+    authority: GBIF / Catalogue of Life
+    domain: manta-ray-taxonomy
+    evidenceType: taxonomy-candidate
+    url: https://www.gbif.org/taxon/73N5T
+    use: candidato para Mobula birostris y sinónimos históricos; no sustituye una ficha poblacional, legal o ecológica
+  - id: ec-gbif-noctiluca-taxonomy
+    authority: GBIF Backbone Taxonomy
+    domain: noctiluca-taxonomy
+    evidenceType: taxonomy-candidate
+    url: https://www.gbif.org/species/8063862
+    use: candidato para clasificación y sinónimos de Noctiluca scintillans; no respalda abundancia, toxicidad ni floración regional
+  - id: ec-gbif-giant-squid-taxonomy
+    authority: GBIF / Catalogue of Life
+    domain: giant-squid-taxonomy
+    evidenceType: taxonomy-candidate
+    url: https://www.gbif.org/taxon/G9SK
+    use: candidato para nombre aceptado y sinónimos de Architeuthis dux; no prueba tamaño, longevidad o comportamiento
+  - id: ec-iucn-giant-pangolin-assessment-2019
+    authority: IUCN Red List
+    domain: pangolin-conservation
+    evidenceType: conservation-candidate
+    url: https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T12762A123584478.en
+    use: candidato para estado de conservación del pangolín gigante; abrir la evaluación y conservar versión, fecha y alcance
+  - id: ec-pubmed-flc-cis-memory-25955967
+    authority: NLM / PubMed
+    domain: plant-vernalization
+    evidenceType: peer-reviewed-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/25955967/
+    use: candidato para memoria epigenética de FLC en cis; el abstract requiere reapertura manual antes de catalogar una afirmación

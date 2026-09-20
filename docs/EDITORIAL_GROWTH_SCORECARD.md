@@ -3,6 +3,10 @@
 **Versión:** 20 de septiembre de 2026
 **Propósito:** convertir la auditoría GEO/SEO, la biblioteca de fuentes y el protocolo de Luna Max en un plan medible. Las metas son criterios internos de salida; no son promesas de posiciones, tráfico ni aprobación de AdSense.
 
+El plan ejecutable de puntuación, con puertas por área, calendario de 30 días y
+criterios de detención, está en
+[`SCORE_IMPROVEMENT_PLAN_2026-09-20.md`](editorial/SCORE_IMPROVEMENT_PLAN_2026-09-20.md).
+
 ## Estado actual y definición de éxito
 
 | Área | Línea base observada | Meta operativa | Evidencia necesaria para marcarla como lograda |
@@ -274,11 +278,12 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 ## Fuentes de trabajo incorporadas
 
 El conteo verificable del catálogo en la revisión anterior era **592 entradas**;
-la ampliación temática del 20/09 lo deja en **605 entradas**. Las
-referencias históricas de este párrafo conservan el estado que tenían cuando se
-escribieron.
+la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entradas**.
+El lote amplio posterior de Luna añade 29 URLs no duplicadas y deja el estado
+actual en **634 entradas**. Las referencias históricas de este párrafo
+conservan el estado que tenían cuando se escribieron.
 
-El catálogo actual contiene **605 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, la última búsqueda de Luna añadió diez fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko y coral; esta ampliación añadió tres fuentes para cebras, narval y axolote. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene **634 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, las búsquedas de Luna añadieron fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko, coral, calamar gigante, ventilas hidrotermales, géiseres, clima, astronomía, vernalización y comportamiento animal. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.
