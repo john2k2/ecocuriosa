@@ -61,7 +61,7 @@ const currentPath = Astro.url.pathname;
         <a
           href="/buscar/"
           aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined}
-          class={`min-h-[44px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
+          class={`min-h-[48px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
             currentPath.startsWith('/buscar')
               ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
               : 'text-[#141715] hover:text-[#063b1e] hover:bg-[#efece3]'
@@ -72,7 +72,7 @@ const currentPath = Astro.url.pathname;
         <a
           href="/metodologia-editorial/"
           aria-current={currentPath.startsWith('/metodologia-editorial/') ? 'page' : undefined}
-          class={`min-h-[44px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
+          class={`min-h-[48px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
             currentPath.startsWith('/metodologia-editorial/')
               ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
               : 'text-[#141715] hover:text-[#063b1e] hover:bg-[#efece3]'
@@ -86,7 +86,7 @@ const currentPath = Astro.url.pathname;
         <button
           type="button"
           id="mobile-menu-button"
-          class="p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-md text-[#141715] hover:bg-[#efece3] focus:outline-none focus:ring-2 focus:ring-[#063b1e]"
+          class="p-2 min-w-[48px] min-h-[48px] flex items-center justify-center rounded-md text-[#141715] hover:bg-[#efece3] focus:outline-none focus:ring-2 focus:ring-[#063b1e]"
           aria-label="Abrir navegación"
           aria-expanded="false"
           aria-controls="mobile-menu"
