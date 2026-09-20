@@ -83,6 +83,9 @@ Acciones:
    si no existe volumen, declarar `sin datos de campo`.
 4. No eliminar protección de Cloudflare ni añadir scripts de medición que no
    tengan consentimiento y un propósito documentado.
+5. Mantener la CSP ampliada en `Report-Only` durante la preparación de CMP y
+   AdSense; revisar sus orígenes en navegador y pasar a enforcement solo cuando
+   las etiquetas reales estén inventariadas y probadas.
 
 Puerta de salida:
 
@@ -178,6 +181,12 @@ Acciones:
    etiquetadas como ilustraciones y nunca como observaciones documentales.
 6. Mantener el historial de correcciones y el estado editorial visible para que
    el lector distinga actualización de revisión humana.
+7. Aplicar las reglas ACT de W3C al inventario visual: nombre accesible,
+   descripción suficiente, contraste de elementos no textuales y resultado
+   fechado (`pass`, `fail` o `inapplicable`). Un resultado automático no cierra
+   la revisión humana del significado científico.
+8. Auditar la representación del editor y los titulares/CTA con las políticas
+   de representación engañosa de Google antes de monetizar.
 
 Puerta de salida:
 
@@ -191,7 +200,7 @@ Puerta de salida:
 
 | Días | Trabajo | Evidencia que debe quedar |
 | --- | --- | --- |
-| 1–3 | Confirmar estado de AdSense/CMP sin modificar datos legales; actualizar ledger de Search Console y Cloudflare | Capturas/exportaciones fechadas, sin datos personales en Git |
+| 1–3 | Confirmar estado de AdSense/CMP sin modificar datos legales; actualizar ledger de Search Console y Cloudflare; observar CSP y probar nombres accesibles | Capturas/exportaciones fechadas, sin datos personales en Git; resultados ACT fechados |
 | 4–10 | Revisar ocho artículos P0 y cerrar coral, manta, pangolín y ballena si el responsable confirma fuentes e imágenes | Fichas de revisión, cambios de texto y auditorías verdes |
 | 11–17 | Revisar ocho artículos adicionales; corregir claims pendientes y completar procedencia visual | 16/32 revisados o cola explícitamente actualizada |
 | 18–21 | Repetir matriz visual y Lighthouse en categoría/legal; inspeccionar URLs prioritarias | Snapshot de móvil, HTML, canonical e indexación |
@@ -236,6 +245,11 @@ Indicador principal de E‑E‑A‑T para el próximo ciclo: pasar de **1/32** a
 **9/32** artículos revisados humanamente, luego 16/32, 24/32 y finalmente
 32/32. Jev puede ayudar a priorizar, pero solo el registro humano y las pruebas
 del artefacto pueden mover un artículo al nivel `reviewed`.
+
+La tercera ronda de Luna añadió diez fuentes de proceso (Google Publisher
+Policies, W3C ACT/WCAG, COPE) y de contexto comparativo del pangolín. Se usan
+para mejorar el contrato y los briefs, no para subir artificialmente la cifra
+de artículos revisados ni para afirmar conformidad WCAG o aprobación de AdSense.
 
 ## Automatización segura con Luna Max
 
