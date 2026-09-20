@@ -1,0 +1,98 @@
+{
+  "briefs": [
+    {
+      "slug": "coral-recovery-trajectories",
+      "status": "research",
+      "sourceQuery": "recuperacion de corales despues de olas de calor",
+      "workingTitle": "Un coral blanqueado no cuenta una sola historia: cómo se mide la recuperación",
+      "readerQuestion": "¿Qué significa que un arrecife se recupere y por qué la especie, el sitio y el tiempo cambian la respuesta?",
+      "searchIntent": "informational",
+      "description": "Cómo comparar blanqueamiento, mortalidad y recuperación coralina sin convertir un estudio local en una predicción mundial.",
+      "category": "especies-marinas",
+      "pubDate": "2026-09-20",
+      "author": "PENDIENTE DE AUTORÍA REAL",
+      "image": "/images/articles/coral-recovery-trajectories.svg",
+      "imageAlt": "Diagrama editorial de tres trayectorias de un coral después de una ola de calor: recuperación, mortalidad parcial y pérdida persistente",
+      "tags": ["corales", "olas-de-calor", "ecologia", "conservacion"],
+      "sourceCandidates": [
+        {
+          "catalogId": "ec-coral-heatcrd-2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/",
+          "evidenceType": "dataset",
+          "supports": "La base HeatCRD reúne registros de recuperación coralina después de olas de calor y otras perturbaciones en miles de sitios.",
+          "scope": "12.266 sitios, 83 países, 1977–2020; datos compilados de monitoreos y literatura.",
+          "limitation": "Es una base de datos heterogénea; no sustituye la lectura del estudio original ni produce una tasa universal de recuperación.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "ec-coral-decade-heatwaves-2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/",
+          "evidenceType": "primary",
+          "supports": "Una serie de casi una década documentó trayectorias divergentes de blanqueamiento, recuperación fisiológica y mortalidad en dos especies de Hawái.",
+          "scope": "Montipora capitata y Porites compressa, Hawái; seguimiento de 2015 a 2023 con tres olas de calor.",
+          "limitation": "Dos especies y un sistema; no representa todos los arrecifes ni prueba una respuesta única al calentamiento.",
+          "checkedBy": null,
+          "checkedDate": null
+        },
+        {
+          "catalogId": "ec-coral-heatwave-memory-2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/",
+          "evidenceType": "primary",
+          "supports": "El historial térmico previo puede modificar respuestas genotípicas y fisiológicas durante una ola de calor posterior.",
+          "scope": "Corales constructores de arrecife y exposición térmica sucesiva; conservar las especies y el diseño del experimento al resumir.",
+          "limitation": "Memoria ecológica no equivale a inmunidad: puede coexistir con estrés, mortalidad y recuperación incompleta.",
+          "checkedBy": null,
+          "checkedDate": null
+        }
+      ],
+      "claims": [
+        {
+          "text": "La recuperación coralina se mide con series temporales y puede variar por sitio, profundidad, especie y severidad de la ola de calor.",
+          "certainty": "fact",
+          "sourceIds": ["ec-coral-heatcrd-2024"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Dos especies de Hawái siguieron trayectorias fisiológicas distintas tras exposiciones térmicas repetidas.",
+          "certainty": "fact",
+          "sourceIds": ["ec-coral-decade-heatwaves-2024"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "El historial térmico previo puede influir en la respuesta posterior, pero no elimina el riesgo de mortalidad ni garantiza recuperación.",
+          "certainty": "inference",
+          "sourceIds": ["ec-coral-heatwave-memory-2024", "ec-coral-decade-heatwaves-2024"],
+          "humanCheck": "pending"
+        },
+        {
+          "text": "Una comparación visual de trayectorias podría ayudar a lectores a distinguir blanqueamiento, mortalidad y recuperación sin confundir escalas.",
+          "certainty": "hypothesis",
+          "sourceIds": ["ec-coral-heatcrd-2024", "ec-coral-decade-heatwaves-2024"],
+          "humanCheck": "pending"
+        }
+      ],
+      "draftBody": "Un coral que pierde color no tiene un único desenlace. Algunas colonias recuperan pigmentos y simbiontes cuando baja el estrés; otras sufren mortalidad parcial o quedan debilitadas durante años. La diferencia solo se entiende si se conserva la especie, el sitio, la profundidad y la duración del seguimiento.\n\nEl brief propone poner tres trayectorias en paralelo: recuperación, recuperación incompleta y pérdida persistente. La base HeatCRD permite explicar por qué una serie temporal amplia ayuda a comparar, mientras el estudio de Hawái muestra que dos especies pueden responder de forma distinta a olas de calor repetidas.\n\nLa historia térmica previa puede modificar la respuesta, pero no convierte al coral en resistente de manera universal. La imagen debe ser un diagrama original y no una fotografía documental; cada afirmación seguirá pendiente hasta que una persona abra las fuentes y compruebe el método.",
+      "originalContribution": "Diagrama editorial original con tres líneas temporales y etiquetas de especie, sitio, profundidad, estrés y recuperación; separar cada tramo como hecho, inferencia o hipótesis.",
+      "uniqueContribution": "Enseñar la diferencia entre blanqueamiento, mortalidad y recuperación como estados medidos en escalas distintas, en lugar de repetir que un arrecife simplemente vive o muere.",
+      "firstHandEvidence": "not-applicable: divulgación basada en bases de datos y estudios de campo publicados",
+      "notCommodity": "Compara trayectorias y límites de medición, no una explicación genérica del blanqueamiento coralino.",
+      "authorRoles": "pending",
+      "reportingGuideline": "not-applicable",
+      "referenceIntegrityLog": "pending",
+      "imagePlan": "original-illustration",
+      "imageRights": "pending",
+      "internalLinks": [
+        "/especies-marinas/arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento/",
+        "/fenomenos-naturales/mar-de-ardora-bioluminiscencia-noctiluca-scintillans/"
+      ],
+      "humanApproval": "pending",
+      "publish": false
+    }
+  ],
+  "observations": [
+    "Las tres fuentes son candidatas del catálogo y todavía requieren apertura y comprobación humana.",
+    "El brief conserva límites por especie, región y escala temporal; no convierte la base en una predicción global.",
+    "No se incluyen reviewedDate ni reviewedBy; el brief permanece sin aprobación y con publish=false."
+  ]
+}

@@ -196,3 +196,20 @@ humanApproval: pending y publish: false.
 ## Evidencia de éxito del ciclo
 
 Un ciclo solo se considera útil cuando existe un brief fechado, sus fuentes están en el catálogo o se proponen como candidatas explícitas, las consultas se pueden rastrear a Search Console, el activo tiene un plan de derechos y las auditorías pasan. El crecimiento se evalúa después con una nueva instantánea; no se atribuye una subida a Luna con una sola métrica ni se promete aprobación o ingresos de AdSense.
+
+### Última prueba controlada — 20 de septiembre de 2026
+
+Se añadió el brief local
+[`coral-recovery-trajectories.json`](./drafts/coral-recovery-trajectories.json)
+con tres candidatas del nuevo lote (`ec-coral-heatcrd-2024`,
+`ec-coral-decade-heatwaves-2024` y `ec-coral-heatwave-memory-2024`). El brief
+propone una visualización original de trayectorias y mantiene cuatro claims
+separados como hecho, inferencia o hipótesis. El auditor encontró **4 briefs
+válidos en 4 archivos JSON**, rechazó correctamente los casos adversariales y
+confirmó que todos conservan `humanApproval: pending` y `publish: false`.
+
+Esta prueba demuestra que el pipeline puede transformar una fuente candidata en
+un artefacto revisable, no que el artículo esté listo para publicar. La persona
+responsable todavía debe abrir las tres fuentes, confirmar alcance y licencia,
+revisar el texto y decidir si el brief aporta algo que no resuelva ya la
+monografía de coral existente.

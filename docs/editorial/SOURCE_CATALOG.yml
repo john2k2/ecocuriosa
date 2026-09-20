@@ -4288,3 +4288,57 @@ entries:
     evidenceType: peer-reviewed-review-candidate
     url: https://doi.org/10.3389/fnana.2020.565109
     use: candidato para comparar cerebro, nicho y depredación en cefalópodos; no es observación conductual directa del calamar gigante
+  - id: ec-coral-heatcrd-2024
+    authority: Scientific Data / Nature
+    domain: coral-recovery
+    evidenceType: dataset-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/
+    use: candidato para comparar trayectorias de recuperación coralina tras olas de calor en 12.266 sitios; conservar país, profundidad, periodo y definición de recuperación
+  - id: ec-coral-decade-heatwaves-2024
+    authority: Proceedings of the National Academy of Sciences
+    domain: coral-bleaching
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/
+    use: candidato para estudiar trayectorias divergentes de blanqueamiento y recuperación tras tres olas de calor en dos especies de Hawái; no generalizar a todos los arrecifes
+  - id: ec-coral-heatwave-memory-2024
+    authority: Molecular Ecology
+    domain: coral-bleaching
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/
+    use: candidato para memoria ecológica y respuesta genotípica/fisiológica a estrés térmico sucesivo; conservar especies, sitio y diseño experimental
+  - id: ec-manta-raja-ampat-connectivity-2024
+    authority: Ecology and Evolution
+    domain: manta-connectivity
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11004681/
+    use: candidato para conectividad espacial de Mobula alfredi con 34 receptores, 72 individuos y 1.094 movimientos en Raja Ampat; no extrapolar a todas las mantas
+  - id: ec-pangolin-camera-trap-placement-2023
+    authority: Ecology and Evolution
+    domain: pangolin-monitoring
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10172612/
+    use: candidato para explicar cómo el comportamiento semiarborícola cambia la detectabilidad del pangolín de vientre blanco; no equivale a densidad mundial ni a Smutsia gigantea
+  - id: ec-pangolin-temminck-thermoregulation-2023
+    authority: Journal of Thermal Biology / PubMed Central
+    domain: pangolin-physiology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10465008/
+    use: candidato para termorregulación flexible del pangolín de Temminck bajo escasez de recursos; especie y ambiente distintos del pangolín gigante
+  - id: ec-axolotl-allometry-2024
+    authority: Developmental Dynamics / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39344771/
+    use: candidato para escalamiento de blastema, Shh y Fgf8 durante regeneración de extremidades; no permite promesas de regeneración humana
+  - id: ec-axolotl-mtor-regeneration-2023
+    authority: Nature Communications / PubMed
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/37495694/
+    use: candidato para activación de traducción y mTORC1 en respuesta a lesión; modelo de axolote y tejidos concretos, no tratamiento clínico
+  - id: ec-unam-axolotl-census-2024
+    authority: Universidad Nacional Autónoma de México
+    domain: axolotl-conservation
+    evidenceType: institutional-news
+    url: https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html
+    use: candidato para el censo de ajolote en Xochimilco y el contexto de conservación; usar como comunicado institucional y no como sustituto del informe técnico

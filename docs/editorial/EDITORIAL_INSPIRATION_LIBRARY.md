@@ -1189,3 +1189,27 @@ Estas acciones son mejoras de claridad y alineación, no manipulación de
 consultas. Cualquier redacción nueva debe pasar la revisión humana y el control
 de fuentes antes de publicarse. La evidencia numérica y sus límites están en
 [`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](./SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md).
+
+### Búsqueda web primaria — lote de brechas E‑E‑A‑T — 20 de septiembre de 2026
+
+Se incorporaron nueve candidatas nuevas después de cruzar las URLs contra el
+catálogo vigente. Son materiales para briefs y contraste editorial, no citas
+aprobadas: antes de usarlas hay que abrir el texto completo, comprobar método,
+muestra, fecha, licencia y la frase concreta que respaldan.
+
+| Clúster | Fuente | Inspiración posible | Límite que debe permanecer visible |
+| --- | --- | --- | --- |
+| Coral | [Heatwaves and Coral-Recovery Database](https://pmc.ncbi.nlm.nih.gov/articles/PMC11009248/) | Comparar recuperación después de olas de calor en 12.266 sitios y explicar por qué “recuperación” depende de escala, profundidad y serie temporal | Base compilada con 29.205 registros; no es un pronóstico universal ni una observación nueva en cada arrecife |
+| Coral | [Divergent bleaching and recovery trajectories](https://pmc.ncbi.nlm.nih.gov/articles/PMC10756270/) | Narrar cómo dos especies de Hawái siguieron trayectorias distintas tras tres olas de calor | Dos especies, un sistema y una serie de nueve años; no representa todos los corales |
+| Coral | [Genotypic and physiological responses to subsequent heat stress](https://pmc.ncbi.nlm.nih.gov/articles/PMC10719612/) | Explicar memoria ecológica y resistencia sin confundirla con inmunidad al calor | La respuesta depende del genotipo, especie y protocolo; no elimina mortalidad ni extrapola a todos los arrecifes |
+| Manta raya | [Spatial connectivity of reef manta rays in Raja Ampat](https://pmc.ncbi.nlm.nih.gov/articles/PMC11004681/) | Crear un diagrama de nodos, receptores y corredores de movimiento a partir de telemetría acústica | 72 individuos, 34 receptores y una región concreta; no demuestra conectividad mundial ni inteligencia |
+| Pangolín | [Camera-trap placement and white-bellied pangolin detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC10172612/) | Mostrar que el diseño de muestreo cambia la probabilidad de detectar una especie semiarborícola | Es *Phataginus tricuspis*, no pangolín gigante; detectabilidad no equivale a abundancia |
+| Pangolín | [Temminck’s pangolins and body-temperature regulation](https://pmc.ncbi.nlm.nih.gov/articles/PMC10465008/) | Comparar termorregulación, alimento y ambiente sin convertir una adaptación en regla de todas las especies | Especie y entorno semiárido específicos; no sustituye una fuente de *Smutsia gigantea* |
+| Axolote | [Allometry in limb regeneration](https://pubmed.ncbi.nlm.nih.gov/39344771/) | Visualizar cómo escala el blastema y cómo se relacionan Shh y Fgf8 durante la regeneración | Modelo experimental; no demuestra regeneración humana ni una receta clínica |
+| Axolote | [Evolutionarily divergent mTOR remodels the translatome](https://pubmed.ncbi.nlm.nih.gov/37495694/) | Explicar traducción rápida y mTORC1 como mecanismo experimental de respuesta a lesión | Tejido, especie y manipulación concretos; no equivale a tratamiento humano |
+| Axolote | [Censo de ajolote en Xochimilco — UNAM](https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html) | Vincular regeneración con conservación de hábitat y métodos de censo actuales | Es un comunicado institucional; las cifras deben contrastarse con el informe técnico y su fecha |
+
+Los nueve registros tienen IDs únicos en [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml)
+y elevan el catálogo a **718 candidatas**. Luna puede usarlos para generar
+briefs, pero debe conservar `humanApproval: pending` y `publish: false`; ninguna
+fuente nueva marca `reviewedDate` o `reviewedBy`.
