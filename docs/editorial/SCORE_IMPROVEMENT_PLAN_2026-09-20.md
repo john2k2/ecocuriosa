@@ -13,7 +13,7 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 819 fuentes candidatas en catálogo; 7 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP, accesibilidad y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 829 fuentes candidatas en catálogo; 7 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP, accesibilidad y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
 La **última ronda vigente** de Jev (20/09/2026), después de acortar cuatro
 títulos, añadir dos enlaces internos al artículo con más impresiones e

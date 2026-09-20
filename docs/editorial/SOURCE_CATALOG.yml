@@ -4948,3 +4948,63 @@ entries:
     evidenceType: primary
     url: https://doi.org/10.1002/ar.25624
     use: explicar variación morfológica y ontogenética de escamas de pangolines; no respalda comportamiento, inmunidad ni ecología del pangolín gigante
+  - id: blue-whale-rorqual-cardiac-dynamics-2026
+    authority: PNAS / National Academy of Sciences
+    domain: blue-whale-physiology
+    evidenceType: primary
+    url: https://doi.org/10.1073/pnas.2613082123
+    use: actualizar dinámicas cardíacas y cinemática de rorcuales durante alimentación y buceo; conservar individuos, muestra y duración de cada despliegue
+  - id: blue-whale-feeding-allometry-2025
+    authority: Science Advances / AAAS
+    domain: blue-whale-physiology
+    evidenceType: primary
+    url: https://doi.org/10.1126/sciadv.adw2232
+    use: contextualizar coste metabólico relativo del forrajeo en rorcuales grandes; no convertir modelos multiespecie en una frecuencia cardíaca o consumo universal de ballena azul
+  - id: manta-birostris-movement-connectivity-mexico-2025
+    authority: Environmental Biology of Fishes / Springer
+    domain: manta-connectivity
+    evidenceType: primary
+    url: https://doi.org/10.1007/s10641-024-01622-2
+    use: añadir conectividad y fidelidad espacial regional de Mobula birostris; no usarlo como evidencia de autoconciencia, inteligencia o población mundial
+  - id: elephant-individual-name-like-calls-2024
+    authority: Nature Ecology & Evolution / Springer Nature
+    domain: elephant-communication
+    evidenceType: primary
+    url: https://doi.org/10.1038/s41559-024-02420-w
+    use: precisar llamadas dirigidas a individuos y comunicación social compleja en elefantes de sabana de Kenia; no inferir memoria autobiográfica ni lenguaje humano
+  - id: pangolin-scales-innate-immunity-2024
+    authority: BMC Biology / Springer Nature
+    domain: pangolin-scales
+    evidenceType: primary
+    url: https://doi.org/10.1186/s12915-024-02034-5
+    use: presentar como hipótesis comparativa la porosidad, proteínas y microbioma de escamas en pangolines malayos; no atribuir inmunidad clínica ni transferir directamente a Smutsia gigantea
+  - id: coral-short-term-thermal-metaproteome-2026
+    authority: Ecology and Evolution / Wiley
+    domain: coral-thermal-stress
+    evidenceType: primary
+    url: https://doi.org/10.1002/ece3.73275
+    use: comparar respuestas proteómicas y metabólicas divergentes de tres corales simpátricos ante calor; experimento corto de laboratorio, no porcentaje global de mortalidad
+  - id: arctic-ssw-tropopause-reanalysis-2025
+    authority: "Journal of Geophysical Research: Atmospheres / AGU-Wiley"
+    domain: sudden-stratospheric-warming
+    evidenceType: primary
+    url: https://doi.org/10.1029/2025JD044493
+    use: separar mediciones GNSS/reanálisis de impactos probables de SSW en tropopausa y superficie; no convertir cada SSW en una ola de frío local
+  - id: barn-owl-serrations-turbulence-2024
+    authority: Bioinspiration & Biomimetics / IOP
+    domain: owl-flight-aeroacoustics
+    evidenceType: primary
+    url: https://doi.org/10.1088/1748-3190/ad3a4f
+    use: explicar con PIV cómo serraciones modeladas de Tyto alba alteran fluctuaciones y flujo turbulento; no transferir decibelios ni resultados a Bubo bubo
+  - id: tardigrade-mars-regolith-2025
+    authority: International Journal of Astrobiology / Cambridge University Press
+    domain: tardigrade-extremes
+    evidenceType: primary
+    url: https://doi.org/10.1017/S1473550425100220
+    use: distinguir exposición corta a simulantes de regolito marciano de exposición espacial real y de habitabilidad; dos taxones y simulante terrestre
+  - id: lanternfish-southwest-atlantic-distribution-2025
+    authority: Deep-Sea Research Part I / Elsevier
+    domain: lanternfish-ecology
+    evidenceType: primary
+    url: https://doi.org/10.1016/j.dsr.2025.104518
+    use: aportar distribución regional de 34 especies de peces linterna y su relación con profundidad y masas de agua; no medir directamente brillo o función de fotóforos

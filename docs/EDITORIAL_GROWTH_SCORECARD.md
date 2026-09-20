@@ -57,7 +57,7 @@ apertura humana de las fuentes.
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **819 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **829 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -78,6 +78,12 @@ acción única (probabilidad **1,00**, confianza 0,99) y dio **0,85/4** (confian
 la capacidad de generar briefs no se contabiliza como revisión editorial. El
 resultado actual refuerza el orden de trabajo: revisar, comprobar y aprobar
 antes de añadir volumen o activar monetización.
+
+Con las diez fuentes P0 añadidas al catálogo (829 entradas), un control Jev
+adicional dio **0,81/4** (confianza 0,80) y volvió a elegir `human_review` con
+probabilidad **1,00** (confianza 1,00). Es otra instantánea consultiva, no una
+serie temporal de calidad; la variación no cambia el gate operativo ni convierte
+las fuentes nuevas en revisiones humanas.
 
 La nueva auditoría `pnpm content:rendered-parity` comprueba diez rutas
 representativas del HTML generado y exige título, H1, cuerpo, enlaces,
@@ -339,7 +345,7 @@ conservación y automatización añadió 14 URLs no duplicadas; el estado verifi
 verificable de esa ronda fue **794 entradas**. Las cifras históricas se conservan para no confundir
 una instantánea con una medición retroactiva.
 
-El catálogo actual contiene **819 entradas** y la biblioteca conserva oportunidades
+El catálogo actual contiene **829 entradas** y la biblioteca conserva oportunidades
 para briefs. Todas siguen siendo candidatas hasta la comprobación humana. Las
 familias nuevas más útiles son:
 

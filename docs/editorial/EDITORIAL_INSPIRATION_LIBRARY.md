@@ -1509,3 +1509,30 @@ publicados, no altera el catálogo de citas del contenido actual y no cambia el
 conteo de revisiones humanas. Antes de utilizar cualquiera de los briefs, una
 persona debe abrir cada fuente, verificar el método, revisar la imagen y decidir
 si la actualización aporta algo que la pieza existente no resuelva.
+
+### Búsqueda dirigida de Luna Max para el lote P0 — 20 de septiembre de 2026
+
+Luna contrastó los nueve artículos de mayor riesgo contra el catálogo vigente y
+descartó duplicados. Se incorporaron **10 fuentes nuevas** (dos para ballena
+azul); cada una es una pista de actualización, no una cita aprobada ni una
+revisión humana.
+
+| Artículo | Fuente nueva | Oportunidad de actualización | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| Ballena azul | [PNAS: dinámica cardíaca de rorcuales](https://doi.org/10.1073/pnas.2613082123) y [Science Advances: alometría del forrajeo](https://doi.org/10.1126/sciadv.adw2232) | Ampliar el bloque cardiovascular con biologging, cinemática y coste metabólico relativo | Son muestras y modelos de varias especies/individuos; no reemplazan el ECG previo de un macho ni producen una cifra universal |
+| Manta raya gigante | [Conectividad de *Mobula birostris*](https://doi.org/10.1007/s10641-024-01622-2) | Separar conectividad regional y fidelidad espacial de la discusión sobre inteligencia | Estudio regional; no demuestra autoconciencia, memoria ni población mundial |
+| Elefante africano | [Llamadas dirigidas a individuos](https://doi.org/10.1038/s41559-024-02420-w) | Añadir comunicación social compleja sin llamarla memoria perfecta o lenguaje humano | Elefantes de sabana de Kenia; no mide memoria autobiográfica |
+| Pangolín gigante | [Escamas y defensa innata](https://doi.org/10.1186/s12915-024-02034-5) | Presentar una hipótesis comparativa sobre porosidad, proteínas y microbioma | Principalmente pangolín malayo; no demostrar inmunidad clínica ni transferir el mecanismo a *Smutsia gigantea* |
+| Arrecifes de coral | [Respuesta térmica metaproteómica](https://doi.org/10.1002/ece3.73275) | Comparar respuestas divergentes de tres corales ante estrés térmico | Experimento corto de laboratorio; no sustituye mortalidad de campo ni permite generalizar a todos los arrecifes |
+| Vórtice polar | [SSW, tropopausa y reanálisis](https://doi.org/10.1029/2025JD044493) | Actualizar el lenguaje probabilístico sobre impactos estratosféricos | GNSS/reanálisis y eventos mayores; no cada SSW causa una ola de frío local |
+| Vuelo de búhos | [Serraciones y turbulencia](https://doi.org/10.1088/1748-3190/ad3a4f) | Explicar con PIV cómo un modelo de *Tyto alba* altera el flujo | Modelo de lechuza común; no transferir dB ni resultados a *Bubo bubo* |
+| Tardígrados | [Simulante de regolito marciano](https://doi.org/10.1017/S1473550425100220) | Separar exposición espacial, simulante marciano y habitabilidad | Exposición corta, simulante terrestre y dos taxones; no es una misión a Marte |
+| Peces linterna | [Distribución en el Atlántico sudoccidental](https://doi.org/10.1016/j.dsr.2025.104518) | Añadir contexto regional de 34 especies, profundidad y masas de agua | No mide brillo, luciferina/luciferasa ni conducta individual; no extrapolar a toda la familia |
+
+La búsqueda confirmó que las referencias anteriores del lote —ECG de ballena,
+NOAA sobre manta, matriarcas y cerebro de elefantes, escamas mecánicas de
+pangolín, NOAA/USGS sobre coral, revisión de SSW, estudios PMC de búhos,
+experimento espacial clásico de tardígrados y estudios de fotóforos— ya estaban
+registradas. El catálogo pasa a **829 entradas válidas**. Las nuevas fuentes se
+usarán para actualizar las páginas existentes antes de considerar una URL nueva;
+el plan conserva `humanApproval: pending` y no permite publicación automática.

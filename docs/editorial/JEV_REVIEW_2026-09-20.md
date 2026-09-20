@@ -529,3 +529,27 @@ compararse numéricamente con 1,03/4: cambió la pregunta, la escala operativa y
 la penalización explícita por briefs no revisados. La consulta usó el modelo
 `jev-1.13.0`, `advisory_only: true`, 738 tokens de entrada y 67 de salida. No
 demuestra aprobación de AdSense, ranking, tráfico, ingresos ni CWV de campo.
+
+## Fuentes P0 añadidas después de la última consulta — 20/09/2026
+
+Luna añadió diez URLs nuevas y deduplicadas para los nueve artículos de mayor
+riesgo, por lo que el catálogo vigente pasa de 819 a **829 entradas válidas**.
+La ampliación mejora las opciones de contraste, pero todavía no es una nueva
+puntuación Jev: la última consulta de readiness sigue siendo la de **0,85/4**
+con `human_review` como acción. No se debe interpretar una fuente nueva como
+revisión humana, aprobación de AdSense ni cambio de audiencia.
+
+## Control Jev con catálogo P0 actualizado — 20/09/2026
+
+Con el catálogo ya en 829 entradas, se repitió la misma decisión acotada para
+comprobar el efecto de las diez fuentes P0. Jev devolvió una preparación de
+**0,81/4** (confianza **0,80**) y mantuvo `human_review` con probabilidad
+**1,00** (confianza **1,00**). La distribución fue 0: 20 %, 1: 80 %, 2: 0 % y
+3: 0 % (índices de API para una leyenda 1–4).
+
+La diferencia frente a 0,85/4 no es una regresión medida: es una evaluación
+consultiva con una pequeña variación de estado/modelo y la misma deuda de
+31/32 revisiones humanas. La lectura que debe guiar el plan es la decisión
+estable: no añadir más volumen, activar anuncios ni solicitar indexación masiva
+antes de cerrar el lote P0. Recibo: `jev-1.13.0`, `advisory_only: true`, 724
+tokens de entrada y 67 de salida.
