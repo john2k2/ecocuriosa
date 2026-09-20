@@ -17,11 +17,13 @@ sources:
   - title: "Raindrops and the aerosolization of soil"
     publisher: "Nature Communications"
     url: "https://doi.org/10.1038/ncomms7083"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Aerosoles generados por el impacto de gotas sobre superficies porosas"
   - title: "Geosmin biosynthesis"
     publisher: "Nature Chemical Biology / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Biosíntesis de geosmina por microorganismos"
   - title: "The human odorant receptor OR11A1 detects geosmin"

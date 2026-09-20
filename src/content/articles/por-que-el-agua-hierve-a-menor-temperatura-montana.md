@@ -17,11 +17,13 @@ sources:
   - title: "Water: thermochemical data"
     publisher: "NIST Chemistry WebBook"
     url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=224"
+    accessedDate: 2026-09-20
     evidenceType: "dataset"
     scope: "Propiedades termodinámicas del agua y presión de vapor"
   - title: "U.S. Standard Atmosphere, 1976"
     publisher: "NASA Technical Reports Server"
     url: "https://ntrs.nasa.gov/api/citations/19930090991/downloads/19930090991.pdf"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Relación de presión atmosférica y altitud en una atmósfera estándar"
   - title: "Water Purification"

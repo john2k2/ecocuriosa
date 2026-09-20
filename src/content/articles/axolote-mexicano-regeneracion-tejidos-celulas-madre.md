@@ -16,16 +16,19 @@ sources:
   - title: "The axolotl genome and the evolution of key tissue formation regulators"
     publisher: "Nature"
     url: "https://www.nature.com/articles/nature25458"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Genoma del axolote y reguladores asociados con el desarrollo de tejidos"
   - title: "The axolotl limb blastema"
     publisher: "Regeneration / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Evidencia experimental sobre el blastema y la regeneración de extremidades"
   - title: "Axolotl conservation and population context"
     publisher: "Peer-reviewed literature / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Contexto de conservación y amenazas de la población silvestre"
 featured: false
