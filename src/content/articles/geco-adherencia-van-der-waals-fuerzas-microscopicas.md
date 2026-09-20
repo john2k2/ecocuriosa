@@ -31,6 +31,18 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "primary"
     scope: "Ensayos de adhesión en atmósferas y vacío; no mide todas las superficies"
+  - title: "Evidence for self-cleaning in gecko setae"
+    publisher: "Proceedings of the National Academy of Sciences / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC544316/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Ensayos de autolimpieza de setas de gecko tokay contaminadas; no es una propiedad perfecta de toda especie o pisada"
+  - title: "Adhesive interactions of geckos with wet and dry fluoropolymer substrates"
+    publisher: "Journal of the Royal Society Interface / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528608/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Seis gecos tokay y sustratos fluorados FEP/ETFE/PET en aire y agua; conservar especie, superficie y protocolo"
 featured: false
 ---
 
@@ -38,7 +50,7 @@ featured: false
 
 ---
 
-## 1. La Física Cuántica de Superficies a Escala Submicrónica
+## 1. Física de superficies y fuerzas intermoleculares a escala submicrónica
 
 A escala macroscópica, una lámina de vidrio pulido parece completamente lisa. Sin embargo, a nivel molecular cualquier superficie presenta una orografía escarpada de picos y valles microscópicos donde los materiales rígidos solo hacen contacto real en una fracción mínima de su área superficial. Durante siglos, los naturalistas especularon que los gecos utilizaban ventosas neumáticas, secreciones adhesivas mucosas o microgarras mecánicas.
 
@@ -71,7 +83,7 @@ Los [experimentos con microscopía de fuerza atómica](https://pubmed.ncbi.nlm.n
   * **Matiz:** Los ensayos clásicos describen adhesión seca y no requieren una secreción pegajosa. El polvo, los aceites y la humedad pueden cambiar el contacto; el efecto no es idéntico en todos los vidrios.
 
 * **Mito 2:** Se asume que las patas del geco acumulan polvo y pierden adherencia con el paso del tiempo.
-  * **Matiz:** La fricción y el movimiento pueden ayudar a retirar partículas, y se ha estudiado una autolimpieza parcial. Su eficacia depende del tamaño de la partícula, la superficie y el estado de la almohadilla; no ocurre de forma perfecta con cada pisada.
+  * **Matiz:** Un estudio de setas de gecko tokay contaminadas encontró evidencia de [autolimpieza estructural](https://pmc.ncbi.nlm.nih.gov/articles/PMC544316/). La fricción y el movimiento pueden ayudar a retirar partículas, pero su eficacia depende del tamaño de la partícula, la superficie y el estado de la almohadilla; no ocurre de forma perfecta con cada pisada.
 
 ---
 
@@ -83,11 +95,11 @@ Algunos ensayos observaron [adhesión en vacío y en helio](https://doi.org/10.1
 
 ### ¿Por qué el geco resbala sobre superficies de teflón (PTFE)?
 
-El PTFE puede reducir la adhesión por su baja energía superficial y por cómo interactúa con las espátulas. El resultado depende de la limpieza, la rugosidad y la carga; no es una ley absoluta para todas las formulaciones.
+El PTFE puede reducir la adhesión por su baja energía superficial y por cómo interactúa con las espátulas. En un estudio con seis gecos tokay, los sustratos fluorados mostraron una adhesión dependiente del material y del medio; el resultado no es una ley absoluta para todas las formulaciones, rugosidades o cargas ([estudio de fluoropolímeros](https://pmc.ncbi.nlm.nih.gov/articles/PMC4528608/)).
 
-### ¿Cómo ha inspirado el geco a la robótica espacial y médica?
+### ¿Cómo ha inspirado el geco a la robótica?
 
-Se han construido prototipos robóticos inspirados en gecos para manipulación en seco y en microgravedad. Esos prototipos no equivalen a que toda aplicación espacial o médica esté validada para uso clínico.
+Se han construido prototipos robóticos inspirados en gecos para manipulación en seco y en microgravedad. La biomímesis no equivale a que una aplicación espacial o médica esté validada para uso clínico; cualquier afirmación de rendimiento debe citar el prototipo y su ensayo concreto.
 
 ---
 
@@ -99,3 +111,5 @@ Las setas y espátulas del geco permiten un contacto íntimo con las superficies
 - [Adhesive force of a single gecko foot-hair](https://pubmed.ncbi.nlm.nih.gov/10864324/) — estudio primario; fuerza medida en una sola seta.
 - [Adhesion and friction in gecko toe attachment and detachment](https://pubmed.ncbi.nlm.nih.gov/17148600/) — estudio biomecánico sobre adhesión y desprendimiento.
 - [Gecko adhesion is unaffected by atmosphere](https://doi.org/10.1073/pnas.192252799) — *PNAS*; condiciones atmosféricas ensayadas.
+- [Evidence for self-cleaning in gecko setae](https://pmc.ncbi.nlm.nih.gov/articles/PMC544316/) — *PNAS* / PMC; autolimpieza estructural en setas de gecko tokay.
+- [Adhesive interactions of geckos with wet and dry fluoropolymer substrates](https://pmc.ncbi.nlm.nih.gov/articles/PMC4528608/) — *Journal of the Royal Society Interface* / PMC; adhesión de seis gecos en sustratos fluorados y agua/aire.

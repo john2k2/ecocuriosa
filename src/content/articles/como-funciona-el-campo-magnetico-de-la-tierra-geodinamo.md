@@ -17,6 +17,7 @@ sources:
   - title: "Introduction to Geomagnetism"
     publisher: "U.S. Geological Survey"
     url: "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Origen, variación y medición del campo geomagnético"
   - title: "Do any mass extinctions correlate with magnetic reversals?"
@@ -28,6 +29,7 @@ sources:
   - title: "Earth's Magnetosphere"
     publisher: "NASA Science"
     url: "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Interacción de la magnetosfera con el viento solar y partículas energéticas"
   - title: "Satellite magnetic data reveal interannual waves in Earth's core"

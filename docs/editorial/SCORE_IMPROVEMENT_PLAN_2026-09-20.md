@@ -13,11 +13,11 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | 44 URLs públicas en sitemap; rutas y canonicals controlados; muestras anteriores indexadas | Search Console todavía no prueba cobertura completa de las 44 URLs |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 680 fuentes en catálogo; 9 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 709 fuentes candidatas en catálogo; 18 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta independiente más reciente de Jev dio **1,79/4** para preparación
-global (las rondas previas dieron 1,69/4 y 1,93/4) y eligió cerrar primero las
-revisiones humanas P0. La variación es una reponderación del estado —ahora se
+La consulta independiente más reciente de Jev dio **1,93/4** para preparación
+global (las rondas previas dieron 1,79/4 y 1,69/4) y eligió cerrar primero las
+revisiones humanas. La variación es una reponderación del estado —ahora se
 explicita que solo 1/32 artículos tiene firma humana—, no una regresión medida
 del código: las auditorías y el build siguen pasando. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
@@ -150,6 +150,41 @@ Puerta de salida:
 No se escala a más de un artículo aprobado por semana mientras la deuda humana
 sea mayor que cero. Si una fuente queda bloqueada, se marca `pending` y se busca
 una fuente equivalente accesible; no se inventa una lectura.
+
+## Escala de evidencia y gates de puntuación
+
+Para que una mejora de puntuación sea reproducible, cada artículo debe avanzar
+por estados explícitos. El número de fuentes del catálogo no suma puntos por sí
+mismo: una candidata no abierta sigue siendo una pista, no evidencia editorial.
+
+| Nivel | Estado | Evidencia mínima | Qué permite hacer |
+| --- | --- | --- | --- |
+| 0 | `candidate` | URL HTTPS, autoridad identificada y tema pertinente | Inspirar una pregunta; no citar ni publicar |
+| 1 | `opened` | Texto o registro abierto, DOI/PMID/identificador, fecha real de acceso y licencia comprobada | Redactar un brief con alcance y limitaciones |
+| 2 | `mapped` | Cada afirmación importante enlazada a un pasaje/resultado, muestra, especie, fecha, lugar y método | Preparar borrador local `publish: false` |
+| 3 | `reviewed` | Persona responsable abre las fuentes, revisa el texto y la imagen, corrige o elimina claims débiles | Registrar `reviewedDate`/`reviewedBy` y pasar auditoría estricta |
+| 4 | `published` | Build, móvil, enlaces, metadatos, procedencia visual y publicación fechada verificados | Medir Search Console/Cloudflare sin atribuir causalidad prematura |
+
+Reglas de calidad para subir de nivel:
+
+1. Un brief debe tener entre 2 y 6 candidatas, pero debe conservar al menos una
+   fuente primaria o institucional pertinente; dos páginas que repiten la misma
+   nota no cuentan como corroboración independiente.
+2. Una afirmación cuantitativa necesita unidad, población o muestra, fecha,
+   método y límite. Si falta uno, se mantiene `pending` o se elimina el número.
+3. Una fuente bloqueada por paywall, CAPTCHA o error no se presenta como leída:
+   se registra como candidata y se busca una copia abierta o una fuente
+   equivalente antes de cerrar el artículo.
+4. La imagen tiene su propio gate: creador, licencia, URL de licencia, fecha y
+   cambios para terceros; etiqueta de ilustración y proceso para activos
+   originales o generados. El derecho de uso no demuestra exactitud científica.
+5. La publicación automática está prohibida mientras exista cualquier claim
+   `pending`, licencia no comprobada o revisión humana ausente.
+
+Indicador principal de E‑E‑A‑T para el próximo ciclo: pasar de **1/32** a
+**9/32** artículos revisados humanamente, luego 16/32, 24/32 y finalmente
+32/32. Jev puede ayudar a priorizar, pero solo el registro humano y las pruebas
+del artefacto pueden mover un artículo al nivel `reviewed`.
 
 ## Automatización segura con Luna Max
 

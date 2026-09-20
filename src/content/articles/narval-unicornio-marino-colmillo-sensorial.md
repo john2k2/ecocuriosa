@@ -16,13 +16,21 @@ sources:
   - title: "Narwhal"
     publisher: "NOAA Fisheries"
     url: "https://www.fisheries.noaa.gov/species/narwhal"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Biología, distribución y conservación del narval"
   - title: "Sensory ability in the narwhal tooth organ system"
     publisher: "Smithsonian Profiles"
     url: "https://profiles.si.edu/display/sro_119183"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Estructura sensorial propuesta para el órgano dentario del narval"
+  - title: "Sensory ability in the narwhal tooth organ system — PubMed record"
+    publisher: "Anatomical Record / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/24639076/"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Registro y resumen del mismo estudio anatómico-fisiológico; conservar que la evidencia sensorial es experimental y no una medición universal del océano"
 featured: false
 ---
 
@@ -34,7 +42,7 @@ featured: false
 
 Los dientes de mamíferos tienen pulpa, dentina y, normalmente, esmalte. El colmillo del narval es inusual por su dentina expuesta y su patrón helicoidal; describirlo no requiere asumir que todos sus rasgos tengan una función conocida.
 
-Estudios anatómicos, como el trabajo descrito por [Smithsonian sobre el órgano dentario sensorial](https://profiles.si.edu/display/sro_119183), describen túbulos dentinarios y exploran una posible función sensorial. La evidencia disponible procede de muestras limitadas y no justifica cifras universales de terminaciones nerviosas, proporción de hembras con colmillo o una dirección de espiral presentada como absoluta.
+Estudios anatómicos, como el trabajo descrito por [Smithsonian sobre el órgano dentario sensorial](https://profiles.si.edu/display/sro_119183) y su [registro en PubMed](https://pubmed.ncbi.nlm.nih.gov/24639076/), describen túbulos dentinarios y exploran una posible función sensorial. La evidencia disponible procede de muestras limitadas y no justifica cifras universales de terminaciones nerviosas, proporción de hembras con colmillo o una dirección de espiral presentada como absoluta.
 
 ---
 
@@ -90,3 +98,4 @@ El colmillo del narval es un diente con una estructura extraordinaria y funcione
 ### Referencias y Literatura Científica Consultada
 - [Narwhal](https://www.fisheries.noaa.gov/species/narwhal) — NOAA Fisheries; biología, distribución y conservación.
 - [Sensory ability in the narwhal tooth organ system](https://profiles.si.edu/display/sro_119183) — Smithsonian Profiles; estructura sensorial propuesta.
+- [Sensory ability in the narwhal tooth organ system — PubMed](https://pubmed.ncbi.nlm.nih.gov/24639076/) — registro y resumen del estudio anatómico-fisiológico.

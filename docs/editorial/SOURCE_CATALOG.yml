@@ -301,12 +301,24 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028472
     use: association between familiarity and contagious yawning, with sample limits
-  - id: zebra-individual-patterns
-    authority: PubMed Central
-    domain: zoology
+  - id: pmc-zebra-painted-cows-6776349
+    authority: PLOS ONE / PubMed Central
+    domain: animal-behavior
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6776349/
-    use: individual pattern variation and identification limits
+    use: zebra-like striping on cows and biting-fly landings; do not use as evidence for individual stripe identification
+  - id: zebra-stripes-questions-2025
+    authority: Biological Reviews / Wiley
+    domain: evolutionary-biology
+    evidenceType: peer-reviewed-review
+    url: https://onlinelibrary.wiley.com/doi/10.1111/brv.70063
+    use: review of the three living zebra species and competing stripe hypotheses; preserve unresolved gaps and do not claim a single function
+  - id: zebra-stripe-morphometrics-2021
+    authority: Zoological Journal of the Linnean Society / Oxford Academic
+    domain: zoology
+    evidenceType: peer-reviewed-primary
+    url: https://academic.oup.com/zoolinnean/article-abstract/191/2/612/5848128
+    use: geometric morphometrics of 56 Cape mountain zebras for population-level traceability; do not universalize its uniqueness percentage
   - id: catatumbo-lightning-record
     authority: NOAA Central Library
     domain: atmospheric-science
@@ -1025,8 +1037,8 @@ entries:
     authority: PubMed
     domain: animal-behavior
     evidenceType: peer-reviewed-primary
-    url: https://pubmed.ncbi.nlm.nih.gov/39808933/
-    use: context-dependent care-soliciting behavior; do not universalize across cats
+    url: https://pubmed.ncbi.nlm.nih.gov/19602409/
+    use: solicitation purrs in domestic cats; keep the sample and context explicit and do not universalize across cats
   - id: nps-racetrack-playa
     authority: National Park Service
     domain: geoscience
@@ -1309,6 +1321,18 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://pubmed.ncbi.nlm.nih.gov/17148600/
     use: gecko toe attachment and detachment; distinguish measured adhesion from simplified popular explanations
+  - id: pmc-gecko-self-cleaning-544316
+    authority: Proceedings of the National Academy of Sciences / PubMed Central
+    domain: animal-physics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC544316/
+    use: structural self-cleaning in contaminated gecko setae; keep tokay-gecko sample and particle conditions explicit
+  - id: pmc-gecko-fluoropolymer-4528608
+    authority: Journal of the Royal Society Interface / PubMed Central
+    domain: animal-physics
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4528608/
+    use: wet/dry adhesion of six Gekko gecko on FEP, ETFE and PET; do not generalize PTFE results to every gecko or surface
   - id: snow-leopard-trust-behaviour
     authority: Snow Leopard Trust
     domain: conservation
@@ -1327,12 +1351,18 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://doi.org/10.1007/s10164-016-0462-z
     use: contingency checking and self-directed behaviours in giant manta rays; observations do not prove human-like intelligence
-  - id: pmc-noctiluca-ecology-7351363
-    authority: PubMed Central
+  - id: pmc-noctiluca-regional-bioluminescence-7351363
+    authority: Limnology and Oceanography / PubMed Central
     domain: marine-microbiology
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/
-    use: Noctiluca scintillans ecology and bioluminescence; keep region and bloom conditions explicit
+    use: molecular, cellular and biochemical basis of lost bioluminescence in regional Noctiluca scintillans strains; keep west-coast USA/Gulf comparison explicit and do not treat it as a general ecology review
+  - id: frontiers-mechanically-stimulated-bioluminescence-2023
+    authority: Frontiers in Marine Science
+    domain: marine-bioluminescence
+    evidenceType: peer-reviewed-review
+    url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1299602/full
+    use: review of mechanically stimulated bioluminescence in marine plankton, species-specific thresholds and measurement limits; use for mechanism and methods, not a local bloom forecast
   - id: pubmed-elephant-matriarchs-11313492
     authority: Science / PubMed
     domain: animal-behaviour
@@ -4114,3 +4144,147 @@ entries:
     evidenceType: peer-reviewed-primary-candidate
     url: https://pubmed.ncbi.nlm.nih.gov/38434295/
     use: candidato para recuperación de Paramacrobiotus experimentalis en 1.200 individuos y hasta 48 h; conservar especie y cultura
+  - id: ec-blue-hole-sansha-metagenomics-2020
+    authority: Scientific Reports
+    domain: marine-geology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41598-020-62411-2
+    use: candidato para estratificación vertical y potencial metabólico en Sansha Yongle; un sitio y rutas inferidas, no todos los agujeros azules
+  - id: ec-blue-hole-sansha-hydrochemistry-2019
+    authority: Science of the Total Environment
+    domain: marine-geochemistry
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.scitotenv.2018.08.333
+    use: candidato para termoclina, quimioclina y zonas anóxicas en Sansha Yongle; conservar sensor, profundidad y fecha
+  - id: ec-blue-hole-maldives-mags-2024
+    authority: Environmental Microbiology Reports
+    domain: marine-microbiology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1111/1758-2229.13315
+    use: candidato para metagenómica reconstruida en un agujero azul de Maldivas; rutas inferidas no equivalen a metabolismo medido
+  - id: ec-geodynamo-swarm-core-field-2025
+    authority: Physics of the Earth and Planetary Interiors
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.pepi.2025.107447
+    use: candidato para cambios modelados del campo con once años de Swarm; el flujo profundo es inferido, no observado directamente
+  - id: ec-geodynamo-gyres-jets-waves-2023
+    authority: Nature Reviews Earth and Environment
+    domain: geomagnetism
+    evidenceType: peer-reviewed-review-candidate
+    url: https://www.nature.com/articles/s43017-023-00425-w
+    use: candidato para síntesis de giros, chorros y ondas del núcleo; conservar dependencia de observaciones y simulaciones
+  - id: ec-geodynamo-3d-core-flows-2025
+    authority: Physics of the Earth and Planetary Interiors
+    domain: geomagnetism
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.sciencedirect.com/science/article/pii/S0031920125001529
+    use: candidato para reconstrucción inversa tridimensional con Swarm y MSS-1; no presentarlo como observación directa del hierro líquido
+  - id: ec-gecko-phospholipids-2012
+    authority: Journal of the Royal Society Interface
+    domain: gecko-adhesion
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1098/rsif.2011.0370
+    use: candidato para fosfolípidos en huellas e interfaz seta-superficie; conservar Tokay y condiciones de laboratorio
+  - id: ec-gecko-acid-base-adhesion-2021
+    authority: Science Advances
+    domain: gecko-adhesion
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1126/sciadv.abd9410
+    use: candidato para interacciones ácido-base además de Van der Waals; conservar sustrato de zafiro y límites experimentales
+  - id: ec-gecko-ankle-structure-2021
+    authority: Journal of Anatomy
+    domain: gecko-adhesion
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1111/joa.13511
+    use: candidato para anatomía del tobillo y despliegue del sistema adhesivo; evidencia morfológica, no fuerza universal
+  - id: ec-narwhal-tusk-ecology-2021
+    authority: Current Biology
+    domain: narwhal-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.cub.2021.02.018
+    use: candidato para capas anuales, dieta y mercurio en diez colmillos de machos de Groenlandia; proxies y muestra regional
+  - id: ec-narwhal-age-tusk-2019
+    authority: Marine Mammal Science
+    domain: narwhal-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1111/mms.12623
+    use: candidato para estimación de edad mediante capas del colmillo y racemización; validación y rango limitados
+  - id: ec-narwhal-sexual-selection-2020
+    authority: Biology Letters
+    domain: narwhal-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1098/rsbl.2019.0950
+    use: candidato para alometría de 245 machos compatible con selección sexual; evidencia indirecta y no exclusiva
+  - id: ec-catatumbo-glm-initial-2019
+    authority: Geophysical Research Letters
+    domain: catatumbo-lightning
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1029/2018GL081052
+    use: candidato para concentración nocturna observada por GLM durante los primeros meses; no demuestra actividad todas las noches
+  - id: ec-catatumbo-humboldt-2019
+    authority: Revista de la Academia Colombiana de Ciencias
+    domain: catatumbo-lightning
+    evidenceType: peer-reviewed-review-candidate
+    url: https://doi.org/10.18257/raccefyn.980
+    use: candidato para contexto histórico y geográfico; síntesis regional, no registro instrumental nuevo
+  - id: ec-zebra-thermal-perception-flies-2022
+    authority: Scientific Reports
+    domain: zebra-stripes
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41598-022-14619-7
+    use: candidato para percepción térmica de tábanos en objetivos artificiales bajo sol; no demuestra termorregulación global
+  - id: ec-cat-purr-context-2019
+    authority: Animals
+    domain: feline-behavior
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.3390/ani9110878
+    use: candidato para vocalizaciones en 74 gatos y dependencia del contexto; no prueba un estado emocional único ni terapia
+  - id: ec-feline-vocal-communication-2020
+    authority: Journal of Veterinary Science
+    domain: feline-behavior
+    evidenceType: peer-reviewed-review-candidate
+    url: https://doi.org/10.4142/jvs.2020.21.e18
+    use: candidato para revisión del repertorio vocal felino; no demuestra que una frecuencia cure huesos o personas
+  - id: ec-noctiluca-chennai-bloom-2022
+    authority: Oceanologia
+    domain: noctiluca-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.oceano.2022.06.005
+    use: candidato para un bloom costero de 2019 y sus asociaciones ambientales; un evento y no un umbral universal
+  - id: ec-noctiluca-flash-kinetics-2020
+    authority: Optics Express
+    domain: noctiluca-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1364/OE.400257
+    use: candidato para proxy óptico de abundancia mediante cinética de flashes; calibración regional y especie-forma concretas
+  - id: ec-noctiluca-coral-mortality-2020
+    authority: Scientific Reports
+    domain: noctiluca-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41598-020-79152-x
+    use: candidato para oxígeno bajo y mortalidad de coral durante un bloom concreto; no excluir otros factores ni universalizar
+  - id: ec-giant-squid-bioproject-534469
+    authority: NCBI BioProject
+    domain: giant-squid-genomics
+    evidenceType: dataset-candidate
+    url: https://www.ncbi.nlm.nih.gov/bioproject/534469
+    use: candidato para dataset público del genoma de Architeuthis dux; no demuestra conducta, tamaño máximo o bioluminiscencia
+  - id: ec-giant-squid-genome-2020
+    authority: GigaScience
+    domain: giant-squid-genomics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1093/gigascience/giz152
+    use: candidato para ensamblaje genómico y adaptación a profundidad; un individuo y anotación comparativa
+  - id: ec-cephalopod-genome-evolution-2022
+    authority: Nature Communications
+    domain: cephalopod-genomics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41467-022-29748-w
+    use: candidato para contexto comparativo de familias génicas de cefalópodos; no atribuir un mecanismo directo a Architeuthis
+  - id: ec-cephalopod-brain-niche-2021
+    authority: Frontiers in Neuroanatomy
+    domain: cephalopod-neuroanatomy
+    evidenceType: peer-reviewed-review-candidate
+    url: https://doi.org/10.3389/fnana.2020.565109
+    use: candidato para comparar cerebro, nicho y depredación en cefalópodos; no es observación conductual directa del calamar gigante

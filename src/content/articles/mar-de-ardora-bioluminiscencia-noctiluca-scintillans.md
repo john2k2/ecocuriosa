@@ -19,11 +19,17 @@ sources:
     evidenceType: "institutional"
     scope: "mecanismo general de bioluminiscencia marina"
     accessedDate: 2026-09-12
-  - title: "Noctiluca scintillans and the ecology of bioluminescence"
-    publisher: "PubMed Central"
-    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/"
+  - title: "A review of mechanically stimulated bioluminescence of marine plankton and its applications"
+    publisher: "Frontiers in Marine Science"
+    url: "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1299602/full"
     evidenceType: "review"
-    scope: "ecología y mecanismos descritos para Noctiluca"
+    scope: "revisión de mecanismos, umbrales específicos de especie y límites de medición de la bioluminiscencia mecánicamente estimulada"
+    accessedDate: 2026-09-20
+  - title: "Molecular and biochemical basis for the loss of bioluminescence in the dinoflagellate Noctiluca scintillans along the west coast of the USA"
+    publisher: "Limnology and Oceanography / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/"
+    evidenceType: "primary"
+    scope: "análisis molecular, celular y bioquímico de cepas regionales no bioluminiscentes frente a una cepa del Golfo de México; no es una revisión ecológica general"
     accessedDate: 2026-09-12
   - title: "Harmful marine dinoflagellate taxa: Noctiluca"
     publisher: "Smithsonian National Museum of Natural History"
@@ -48,7 +54,7 @@ featured: false
 
 El [Smithsonian describe *Noctiluca*](https://naturalhistory.si.edu/research/botany/research/dinoflagellates/harmful-marine-dinoflagellate-taxa) como un dinoflagelado heterótrofo que puede formar floraciones y mostrar bioluminiscencia en algunas regiones. No es correcto tratarlo como un alga fotosintética universal ni usar el nombre de una especie para identificar cualquier “marea roja”. El color de una floración puede cambiar con la especie, los simbiontes y el entorno.
 
-La temperatura, los nutrientes, las corrientes y la estabilidad de la columna de agua influyen en las floraciones, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/). El [análisis satelital de NOAA](https://repository.library.noaa.gov/view/noaa/59779) documenta un caso regional del Mar de China Oriental; no define una temperatura, concentración o temporada válida para todas las costas.
+La temperatura, los nutrientes, las corrientes y la estabilidad de la columna de agua influyen en las floraciones; la [revisión sobre bioluminiscencia mecánicamente estimulada](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1299602/full) resume el mecanismo y sus límites de medición. El estudio de [PMC sobre cepas regionales de *Noctiluca*](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/) responde una pregunta más concreta: por qué algunas poblaciones de la costa oeste de EE. UU. perdieron la bioluminiscencia. El [análisis satelital de NOAA](https://repository.library.noaa.gov/view/noaa/59779) documenta un caso regional del Mar de China Oriental; ninguna de estas fuentes define una temperatura, concentración o temporada válida para todas las costas.
 
 ---
 
@@ -95,4 +101,5 @@ El mar de ardora surge de organismos bioluminiscentes y condiciones ambientales 
 - [NOAA Ocean Exploration: Bioluminescence](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/)
 - [Smithsonian NMNH: dinoflagelados marinos](https://naturalhistory.si.edu/research/botany/research/dinoflagellates/harmful-marine-dinoflagellate-taxa)
 - [NOAA Repository: floraciones de *Noctiluca*](https://repository.library.noaa.gov/view/noaa/59779)
-- [Revisión en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/)
+- [Estudio molecular regional en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351363/)
+- [Frontiers in Marine Science: bioluminiscencia mecánicamente estimulada](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1299602/full)

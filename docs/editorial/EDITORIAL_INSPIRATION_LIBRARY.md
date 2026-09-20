@@ -1144,3 +1144,28 @@ La licencia de una página abierta no autoriza reutilizar sus figuras. Luna solo
 puede generar un brief con `publish: false` y `humanApproval: pending`; la
 persona revisora debe abrir el texto completo, confirmar DOI/PMID, método,
 alcance y licencia del activo antes de citar o producir una imagen.
+
+### Búsqueda dirigida de Luna Max — segunda tanda de artículos — 20 de septiembre de 2026
+
+Esta ronda añade **24 candidatas no duplicadas** al catálogo, que pasa a 709
+entradas. Se eligieron para corregir afirmaciones absolutas y completar los
+nueve artículos de la tanda de cifras y alcance. Son insumos de investigación,
+no aprobación editorial ni permiso para reutilizar figuras.
+
+| Clúster | Fuentes candidatas incorporadas | Brief que puede inspirar | Límite obligatorio |
+| --- | --- | --- | --- |
+| Agujeros azules | [metagenómica de Sansha Yongle](https://doi.org/10.1038/s41598-020-62411-2), [hidroquímica y quimioclina](https://doi.org/10.1016/j.scitotenv.2018.08.333), [MAGs de Maldivas](https://doi.org/10.1111/1758-2229.13315) | “No todos los agujeros azules tienen la misma química” | Sitio, profundidad, sensor y fecha; zonas anóxicas solo cuando la campaña las midió. |
+| Geodinamo | [once años de Swarm](https://doi.org/10.1016/j.pepi.2025.107447), [giros, chorros y ondas](https://www.nature.com/articles/s43017-023-00425-w), [flujos 3D](https://www.sciencedirect.com/science/article/pii/S0031920125001529) | “Los satélites miden el campo; el flujo profundo se infiere” | Inversión/modelo no equivale a observar el hierro líquido ni a predecir un colapso. |
+| Geco | [fosfolípidos en huellas](https://doi.org/10.1098/rsif.2011.0370), [interacciones ácido-base](https://doi.org/10.1126/sciadv.abd9410), [anatomía del tobillo](https://doi.org/10.1111/joa.13511) | “Van der Waals es parte de un sistema adhesivo más complejo” | Especie, superficie y protocolo; no universalizar a toda almohadilla o aplicación médica. |
+| Narval | [ecología del colmillo](https://doi.org/10.1016/j.cub.2021.02.018), [edad por capas](https://doi.org/10.1111/mms.12623), [selección sexual](https://doi.org/10.1098/rsbl.2019.0950) | “Un colmillo, varias hipótesis y proxies medibles” | Diez colmillos o 245 machos no representan todos los narvales ni resuelven una función única. |
+| Catatumbo | [observaciones GLM](https://doi.org/10.1029/2018GL081052), [contexto histórico regional](https://doi.org/10.18257/raccefyn.980) | “Hotspot persistente no significa tormenta eterna” | Sensor, período, definición de flash y ubicación; evitar noches o cifras fijas universales. |
+| Cebras | [percepción térmica de tábanos](https://doi.org/10.1038/s41598-022-14619-7) y la [revisión de las tres especies](https://doi.org/10.1111/brv.70063) | “La disuasión de moscas tiene apoyo, pero no explica todo el patrón” | Objetivos artificiales y revisión no prueban termorregulación global ni una causa única. |
+| Ronroneo | [vocalizaciones en 74 gatos](https://doi.org/10.3390/ani9110878), [revisión de comunicación vocal](https://doi.org/10.4142/jvs.2020.21.e18) | “El ronroneo depende del contexto” | No convertir frecuencia en felicidad universal, diagnóstico o terapia ósea. |
+| *Noctiluca* | [bloom costero de Chennai](https://doi.org/10.1016/j.oceano.2022.06.005), [cinética óptica](https://doi.org/10.1364/OE.400257), [oxígeno y coral](https://doi.org/10.1038/s41598-020-79152-x) | “Brillo, abundancia y riesgo ecológico son variables distintas” | Evento y calibración regional; no identificar especie solo por una fotografía o color. |
+| Calamar gigante | [BioProject del genoma](https://www.ncbi.nlm.nih.gov/bioproject/534469), [genoma draft](https://doi.org/10.1093/gigascience/giz152), [evolución genómica de cefalópodos](https://doi.org/10.1038/s41467-022-29748-w), [cerebro y nicho](https://doi.org/10.3389/fnana.2020.565109) | “Lo genómico no sustituye observar conducta en el océano profundo” | Ensamblajes y comparaciones no demuestran bioluminiscencia, tamaño máximo ni conducta. |
+
+Cada candidato conserva alcance, limitación y tipo de evidencia en
+[`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml). El siguiente paso es abrir las
+fuentes durante la revisión humana y convertir solo las afirmaciones aprobadas
+en citas de artículo. Los briefs de Luna deben conservar `publish: false` y
+`humanApproval: pending`.

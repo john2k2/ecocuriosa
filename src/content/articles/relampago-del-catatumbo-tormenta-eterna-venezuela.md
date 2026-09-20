@@ -16,13 +16,21 @@ sources:
   - title: "Lightning activity over Lake Maracaibo"
     publisher: "Journal of Atmospheric and Solar-Terrestrial Physics"
     url: "https://doi.org/10.1016/j.jastp.2012.01.013"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Actividad eléctrica y variabilidad de tormentas sobre el lago de Maracaibo"
   - title: "Recent analysis of lightning activity in the Lake Maracaibo region"
     publisher: "Journal of Geophysical Research: Atmospheres"
     url: "https://doi.org/10.1029/2025JD044030"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Análisis reciente de la actividad de rayos en la región del lago"
+  - title: "Seasonal prediction of lightning activity in the Lake Maracaibo region"
+    publisher: "Atmospheric Research / ScienceDirect"
+    url: "https://doi.org/10.1016/j.atmosres.2015.12.018"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Correlaciones estacionales de actividad LIS-TRMM/OTD y factores locales o regionales; conservar el diseño correlacional y los límites del sensor"
 featured: false
 ---
 
@@ -79,7 +87,7 @@ No hay base para atribuirle una cifra global como “10 %”. Los rayos intervie
 
 ### ¿En qué época del año es más intenso el fenómeno?
 
-Su pico máximo ocurre en los meses de septiembre y octubre (temporada de lluvias y mayor evaporación térmica), mientras que desciende a su mínimo relativo en enero y febrero durante la época seca, según el [análisis reciente de actividad eléctrica regional](https://doi.org/10.1029/2025JD044030). El período y el sensor importan al comparar temporadas.
+El ciclo estacional no tiene una cifra única independiente del método: un estudio basado en productos LIS-TRMM/OTD encontró correlaciones entre la actividad y los impulsores locales o regionales, mientras que el [análisis reciente de actividad eléctrica regional](https://doi.org/10.1029/2025JD044030) cubre otro período y conjunto de variables. Por eso septiembre–octubre y enero–febrero deben presentarse como patrones relativos de una ventana y métrica concretas, no como un calendario universal. El período y el sensor importan al comparar temporadas.
 
 ---
 
@@ -92,3 +100,4 @@ El Catatumbo destaca por su combinación de geografía y convección, no por un 
 ### Referencias y Literatura Científica Consultada
 - [Lightning activity over Lake Maracaibo](https://doi.org/10.1016/j.jastp.2012.01.013) — *Journal of Atmospheric and Solar-Terrestrial Physics*; actividad eléctrica observada en la región.
 - [Recent analysis of lightning activity in the Lake Maracaibo region](https://doi.org/10.1029/2025JD044030) — *Journal of Geophysical Research: Atmospheres*; análisis reciente con alcance temporal y regional.
+- [Seasonal prediction of lightning activity in the Lake Maracaibo region](https://doi.org/10.1016/j.atmosres.2015.12.018) — *Atmospheric Research*; correlaciones estacionales y límites del producto satelital.

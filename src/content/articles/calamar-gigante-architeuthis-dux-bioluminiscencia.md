@@ -50,6 +50,12 @@ sources:
     evidenceType: "primary"
     scope: "registro bibliográfico y resumen del estudio de 2025; conserva el tamaño muestral de dos machos y el carácter hipotético de la transferencia"
     accessedDate: 2026-09-14
+  - title: "Giant squid eyes and the detection of sperm whales"
+    publisher: "Proceedings of the Royal Society B / PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/22425154/"
+    evidenceType: "primary"
+    scope: "modelo óptico sobre detección de cachalotes por ojos gigantes; es modelado, no conducta evasiva observada"
+    accessedDate: 2026-09-20
 featured: false
 ---
 
@@ -59,7 +65,7 @@ featured: false
 
 ## 1. Lo observado sobre sus ojos y su entorno
 
-El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian documenta](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares conocidos; esa cifra no debe convertirse en una medida fija para toda la especie.
+El océano profundo ofrece poca luz y mucha presión, pero las fuentes citadas no miden todos los parámetros ambientales de cada calamar gigante. El [Smithsonian documenta](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid) ojos de hasta unas 10 pulgadas (aprox. 25 cm) en ejemplares conocidos; un [modelo óptico](https://pubmed.ncbi.nlm.nih.gov/22425154/) propuso que un ojo grande podría detectar siluetas de cachalotes, pero eso no es una observación de conducta. La cifra no debe convertirse en una medida fija para toda la especie.
 
 Los cefalópodos presentan rasgos fisiológicos especializados, pero esta ficha no usa esos rasgos para afirmar una tasa metabólica, una tolerancia a la superficie o una ventaja energética que no esté documentada por la fuente concreta.
 
@@ -134,3 +140,4 @@ Cada observación de *Architeuthis dux* reemplaza parte del imaginario del monst
 - [NOAA Ocean Exploration: vídeo de un calamar gigante](https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/)
 - [microPublication Biology: evidencia sobre la transferencia de espermatóforos](https://www.micropublication.org/journals/biology/micropub-biology-001476/)
 - [PubMed: registro bibliográfico del estudio de 2025](https://pubmed.ncbi.nlm.nih.gov/40255250/)
+- [PubMed: modelo óptico de los ojos del calamar gigante](https://pubmed.ncbi.nlm.nih.gov/22425154/)

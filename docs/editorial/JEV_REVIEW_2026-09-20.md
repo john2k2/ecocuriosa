@@ -182,3 +182,24 @@ build verdes, pero solo 1/32 artículos firmado por una persona.
 
 La respuesta sigue siendo `model: jev-1.13.0`, `advisory_only: true`; el score
 no autoriza aprobación de AdSense ni publicación automática.
+
+## Reevaluación actual con segunda tanda de fuentes — 20/09/2026
+
+Se consultó Jev otra vez, con un estado mínimo y actualizado después de añadir
+24 candidatas de Luna Max, corregir dos desajustes semánticos (ronroneo felino
+y *Noctiluca*), elevar el catálogo a 709 entradas y dejar 18 paquetes de
+contraste asistido. Las auditorías locales de catálogo, referencias,
+metadatos y paquetes pasan; 1/32 artículos tiene revisión humana cerrada y
+31/32 siguen pendientes.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación E‑E‑A‑T para revisión de AdSense | **1,93/4** | 0,94 | La base técnica y de fuentes es útil, pero la deuda editorial humana y los gates externos siguen impidiendo llamarla lista. |
+| Prioridad siguiente | **cerrar revisión humana** | 0,92 | Revisar afirmaciones, límites, fuentes e imágenes antes de sumar más volumen o automatizar publicación. |
+
+La herramienta devolvió `model: jev-1.13.0` y `advisory_only: true`. La
+distribución de la puntuación fue 0: 0%, 1: 6%, 2: 94%, 3: 0% y 4: 0%; la
+elección de prioridad fue revisión humana (94%) frente a métricas externas
+(6%). Es una segunda opinión sobre el resumen enviado, no una medición de
+Google, Cloudflare, Search Console o AdSense, ni una predicción de aprobación,
+CPM, ingresos o tráfico.

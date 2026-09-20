@@ -37,9 +37,9 @@ sources:
     evidenceType: "primary"
     scope: "frecuencia media y muestras de gato doméstico, puma y guepardo"
     accessedDate: 2026-09-12
-  - title: "The cry embedded within the purr"
+  - title: "The cry embedded within the purr: solicitation purrs from domestic cats"
     publisher: "Current Biology / PubMed"
-    url: "https://pubmed.ncbi.nlm.nih.gov/39808933/"
+    url: "https://pubmed.ncbi.nlm.nih.gov/19602409/"
     evidenceType: "primary"
     scope: "conducta de solicitud y contexto del ronroneo; resultados de muestra"
     accessedDate: 2026-09-12
@@ -90,7 +90,7 @@ No se debe presentar como tratamiento. La convivencia con animales puede asociar
 
 ### ¿Qué es el ronroneo de solicitud?
 
-Es una vocalización descrita en algunos contextos de interacción con personas, en la que un componente de frecuencia más alta puede acompañar al ronroneo. El estudio sobre [el “ronroneo de solicitud”](https://pubmed.ncbi.nlm.nih.gov/39808933/) aporta evidencia conductual de una muestra concreta; no demuestra que todos los gatos la usen ni que sea “irresistible”.
+Es una vocalización descrita en algunos contextos de interacción con personas, en la que un componente de frecuencia más alta puede acompañar al ronroneo. El estudio sobre [el “ronroneo de solicitud”](https://pubmed.ncbi.nlm.nih.gov/19602409/) aporta evidencia conductual de una muestra concreta; no demuestra que todos los gatos la usen ni que sea “irresistible”.
 
 ### ¿A qué edad comienzan a ronronear los gatitos?
 
@@ -108,4 +108,4 @@ La evidencia reciente sitúa una parte importante del ronroneo en las propiedade
 - [Current Biology: cómo ronronean los gatos](https://doi.org/10.1016/j.cub.2023.10.033)
 - [PubMed: mecanismos neurales y mecánicos](https://pubmed.ncbi.nlm.nih.gov/4644061/)
 - [Wiley: comparación entre félidos](https://doi.org/10.1111/j.1469-7998.1991.tb04749.x)
-- [PubMed: conducta de solicitud](https://pubmed.ncbi.nlm.nih.gov/39808933/)
+- [PubMed: conducta de solicitud](https://pubmed.ncbi.nlm.nih.gov/19602409/)

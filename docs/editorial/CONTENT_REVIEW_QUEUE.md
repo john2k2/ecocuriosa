@@ -24,6 +24,17 @@ paquetes: [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
 explícitamente qué fuentes o afirmaciones aún requieren reapertura y
 confirmación directa.
 
+La segunda tanda también tiene paquetes asistidos, todavía pendientes: [agujeros
+azules](./reviews/agujeros-azules-2026-09-20.md), [geodinamo
+terrestre](./reviews/geodinamo-terrestre-2026-09-20.md), [adherencia del
+geco](./reviews/adherencia-geco-2026-09-20.md), [narval](./reviews/narval-colmillo-2026-09-20.md),
+[relámpago del Catatumbo](./reviews/relampago-catatumbo-2026-09-20.md), [rayas
+de cebra](./reviews/rayas-cebra-2026-09-20.md), [ronroneo de gatos](./reviews/ronroneo-gatos-2026-09-20.md),
+[mar de ardora](./reviews/mar-ardora-2026-09-20.md) y [calamar
+gigante](./reviews/calamar-gigante-2026-09-20.md). El auditor confirma 18
+paquetes, todos con decisión `pending`; ningún paquete sustituye la aprobación
+humana.
+
 Los paquetes de contraste asistido se comprueban con
 `pnpm content:assisted-review-audit`: deben incluir matriz de afirmaciones,
 fuentes abiertas, límites y decisión `pending`, y el auditor rechaza que
