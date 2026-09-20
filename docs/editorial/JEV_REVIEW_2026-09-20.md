@@ -302,3 +302,13 @@ consulta volvió a ponderar explícitamente que ninguna fuente candidata sustitu
 una firma humana. Jev devolvió `model: jev-1.13.0` y `advisory_only: true`; no
 es una comprobación de Google, Search Console, Cloudflare o AdSense ni una
 predicción de aprobación, CPM o ingresos.
+
+## Priorización de la siguiente acción — 20/09/2026
+
+Se hizo una consulta acotada posterior para elegir entre cerrar revisiones
+humanas P0, inspeccionar la URL rastreada sin indexar, repetir optimización de
+laboratorio móvil o buscar otra tanda de fuentes. Con el estado de auditorías
+actualizado, Jev eligió `human_review` con probabilidad **1,00** y confianza
+**1,00**. Esta respuesta confirma la dirección de la reevaluación anterior,
+pero sigue siendo una opinión advisory-only, no una autorización para marcar
+revisiones ni publicar automáticamente.
