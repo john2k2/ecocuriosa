@@ -23,6 +23,14 @@
 
 ## Seguimiento técnico posterior — 20/09/2026
 
+El despliegue más reciente, commit `aea57ad` (`Add accessible image and
+correction transparency checks`), se publicó mediante
+`233cb012.ecocuriosa.pages.dev`. La página pública de correcciones muestra los
+cinco estados editoriales y sus evidencias mínimas; la comprobación de rutas
+principales y el header `CSP-Report-Only` devolvieron HTTP 200. El control local
+de imágenes y una muestra pública no encontraron `alt` vacíos. Esto acredita
+entrega y estructura, no conformidad WCAG completa ni aprobación de AdSense.
+
 La iteración de endurecimiento, commit `622e803` (`Harden CSP and expand
 E-E-A-T source controls`), se publicó mediante el deployment directo
 `298cfa06.ecocuriosa.pages.dev`. Las rutas públicas de portada, contacto,

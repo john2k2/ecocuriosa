@@ -44,6 +44,13 @@ metodología y perfil público también responden 200. La política está en mod
 observación: permite inventariar orígenes antes de activar CMP/AdSense sin
 romper el tráfico actual.
 
+**Control de accesibilidad y correcciones:** el commit `aea57ad` (`Add
+accessible image and correction transparency checks`) se publicó en
+`233cb012.ecocuriosa.pages.dev`. La ruta `/correcciones/` responde 200 y expone
+los estados `Recibida`, `En evaluación`, `Corregida o aclarada`, `Sin cambio` y
+`Retirada`; el auditor local comprobó 74 imágenes HTML con nombre accesible no
+vacío y 0 incidencias. Esta prueba no equivale a una declaración WCAG completa.
+
 ## Web Analytics / RUM
 
 Cloudflare devuelve una configuración Web Analytics activa para
