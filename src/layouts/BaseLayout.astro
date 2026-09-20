@@ -75,9 +75,11 @@ const {
          el runtime de anuncios mientras todavía no haya slots aprobados. -->
     {ADSENSE_CLIENT_ID && <meta name="google-adsense-account" content={ADSENSE_CLIENT_ID} />}
 
-    <!-- El titular visible usa Literata; adelantar solo esta fuente evita una
-         cadena de descubrimiento sin precargar tipografías no críticas. -->
+    <!-- Adelantamos las dos familias que usa el primer bloque visible. El
+         navegador puede reutilizarlas desde la caché y evita una cadena CSS →
+         fuente que retrase el texto que Lighthouse identifica como LCP. -->
     <link rel="preload" href="/fonts/literata-latin-v2.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/albert-sans-latin-v2.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Metaetiquetas SEO y Schema.org -->
     <SEO
