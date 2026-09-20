@@ -3,10 +3,14 @@
 ## Alcance
 
 - Dominio canónico: `https://ecocuriosa.com/`
-- Commit publicado: `2bfe112` (`Update giant squid evidence and edge metrics`)
-- Despliegue de Cloudflare Pages: `99c0c44a-d2c4-4b68-83e1-9737084b647c`
-- Despliegue completo: estado `success`, rama `main`, commit exacto `2bfe112c1c15742150d07f8dee8e98de6bd01758`.
-- Comprobación pública realizada el 20/09/2026.
+- Snapshot inicial: commit `2bfe112` (`Update giant squid evidence and edge metrics`),
+  despliegue `99c0c44a-d2c4-4b68-83e1-9737084b647c`.
+- Seguimiento final: commit `e9147a1` (`Record post-deploy Jev reevaluation`),
+  despliegue Cloudflare Pages `cbb495a1-87b2-4fad-85ad-197c34fc0951`, rama
+  `main`, estado `success`, commit exacto
+  `e9147a1db5802e43ca24d1dff2377927ad3b9640`.
+- Comprobación pública de ambos estados realizada el 20/09/2026; la última
+  comprobación se hizo después de que el despliegue final terminara.
 
 ## Rutas públicas
 
