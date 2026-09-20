@@ -1446,3 +1446,45 @@ persona abra el texto y compruebe el alcance exacto.
 Con esta ronda el catálogo queda en **809 entradas válidas** (794 anteriores +
 15 nuevas). No se añadieron citas automáticamente a artículos publicados, no se
 marcó ninguna ficha como revisada y no se creó ninguna URL nueva.
+
+### Tercera búsqueda dirigida de Luna Max — E‑E‑A‑T, accesibilidad y correcciones — 20 de septiembre de 2026
+
+La tercera pasada se centró en las brechas que siguen limitando la puntuación
+editorial: identidad y propósito del editor, controles de accesibilidad que se
+puedan repetir, transparencia ante críticas posteriores a publicar y dos
+fuentes comparativas para el artículo del pangolín. Se añadieron **10 URLs
+nuevas** al catálogo. No son citas aprobadas de los artículos actuales y no
+marcan revisiones humanas.
+
+| Área | Fuente nueva | Aplicación concreta | Límite obligatorio |
+| --- | --- | --- | --- |
+| Identidad | [Google Publisher Policies: misleading representation](https://support.google.com/publisherpolicies/answer/11185754) | Revisar quién publica, el propósito de cada página, autoría, afiliaciones y declaraciones del perfil | Es política de monetización; no garantiza ranking, E‑E‑A‑T ni aprobación |
+| Titulares y CTA | [Google Publisher Policies: deceptive practices](https://support.google.com/publisherpolicies/answer/11185755) | Auditar promesas, titulares, llamadas a la acción y cualquier elemento que pueda atraer bajo un pretexto falso | No sustituye la comprobación científica ni una política editorial completa |
+| Pruebas accesibles | [W3C ACT Overview](https://www.w3.org/WAI/standards-guidelines/act/) | Guardar resultado `pass`, `fail`, `inapplicable` y fecha para cada control automatizado o manual | Pasar una regla no equivale a conformidad WCAG completa |
+| Nombre accesible | [ACT 23a2a8](https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/) | Comprobar que cada imagen tenga nombre accesible o esté correctamente marcada como decorativa | No valida que el texto sea exacto o suficiente |
+| Alt descriptivo | [ACT qt1vmo](https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/) | Revisar la función que comunica el `alt`, no solo que el atributo exista | La evaluación semántica requiere juicio editorial |
+| Contraste visual | [WCAG 2.2 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast) | Medir iconos, controles, mapas y gráficos necesarios para comprender o usar la página | Es una guía explicativa; aplicar el criterio normativo completo |
+| Texto en imágenes | [WCAG 2.2 Images of Text](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception) | Preferir texto HTML y aportar transcripción si una imagen con texto es esencial | Es criterio AAA, no una prohibición universal de imágenes con letras |
+| Correcciones | [COPE: post-publication critiques](https://doi.org/10.24318/o1VgCAih) | Ampliar `/correcciones/` con recepción, respuesta, estado, decisión y enlace desde la pieza original | Marco académico; adaptar roles y plazos al sitio |
+| Pangolines | [Genómica poblacional del pangolín malayo](https://doi.org/10.1093/molbev/msag016) | Explicar que las especies asiáticas no forman una única unidad biológica | No permite inferir tamaño o conservación del pangolín gigante |
+| Pangolines | [Morfología de escamas](https://doi.org/10.1002/ar.25624) | Añadir un recuadro comparativo sobre variación de escamas entre especies/edades | No respalda comportamiento, inmunidad ni ecología de *Smutsia gigantea* |
+
+#### Cómo se incorpora sin inflar la puntuación
+
+1. Añadir las tres reglas ACT al checklist de activos, conservando el resultado
+   y la fecha, sin presentar un `pass` automático como revisión humana.
+2. Ampliar la página de correcciones con estados explícitos: `recibida`,
+   `en evaluación`, `corregida`, `aclarada`, `retirada` o `sin cambio`, siempre
+   con la evidencia que justifique la decisión.
+3. Hacer que el brief de Luna incluya un campo de identidad y propósito: quién
+   lo prepara, cómo se investigó y por qué el texto aporta valor propio.
+4. Actualizar el artículo del pangolín solo con una comparación marcada por
+   especie, método y alcance; no convertir estudios del pangolín malayo en
+   evidencia del pangolín gigante.
+5. Mantener el límite de `humanApproval: pending` y `publish: false` hasta que
+   una persona abra las fuentes, compruebe la imagen y apruebe el cambio.
+
+Con esta ronda el catálogo queda en **819 entradas válidas** (809 anteriores +
+10 nuevas). El banco sirve para mejorar el proceso y crear briefs de
+actualización, no para fabricar credenciales, revisiones, conformidad WCAG o
+aprobación de AdSense.

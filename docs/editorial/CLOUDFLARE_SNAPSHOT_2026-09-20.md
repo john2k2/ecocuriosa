@@ -69,7 +69,8 @@ No se conservaron identificadores de sitio ni tokens en este documento.
 ## Señales HTTP observadas
 
 La portada respondió HTTP 200 con Cloudflare activo, HSTS, `nosniff`,
-`referrer-policy`, una CSP base, `permissions-policy` restrictiva y
+`referrer-policy`, una CSP base y una política adicional `CSP-Report-Only` para
+inventariar orígenes antes de CMP/AdSense, `permissions-policy` restrictiva y
 `cf-cache-status: DYNAMIC`. El HTML dinámico de Pages no se debe convertir en
 una conclusión de tráfico: las métricas de audiencia requieren el panel de
 Web Analytics o una consulta GraphQL autenticada compatible.

@@ -4888,3 +4888,63 @@ entries:
     evidenceType: metadata-guidance
     url: https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/contributors
     use: inspirar roles de autor, editor, revisor, afiliación y ORCID cuando existan datos reales; no inventar revisores ni tratarlo como requisito de Google
+  - id: google-publisher-misleading-representation-2026
+    authority: Google Publisher Policies
+    domain: editorial-transparency
+    evidenceType: policy
+    url: https://support.google.com/publisherpolicies/answer/11185754
+    use: comprobar identidad del editor, propósito de la página, autoría y afiliaciones declaradas; no es garantía de E-E-A-T, ranking ni aprobación de AdSense
+  - id: google-publisher-deceptive-practices-2026
+    authority: Google Publisher Policies
+    domain: editorial-transparency
+    evidenceType: policy
+    url: https://support.google.com/publisherpolicies/answer/11185755
+    use: revisar titulares, claims y llamadas a la acción para evitar prácticas engañosas en contenido monetizado; no sustituye la revisión científica
+  - id: w3c-act-overview-2026
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-testing
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/standards-guidelines/act/
+    use: definir controles reproducibles con resultado pass, fail o inapplicable y fecha; pasar una regla no equivale a conformidad WCAG completa
+  - id: w3c-act-image-accessible-name-23a2a8
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-images
+    evidenceType: accessibility-check
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/
+    use: comprobar que cada imagen tenga un nombre accesible no vacío o esté correctamente marcada como decorativa; no valida la exactitud del alt
+  - id: w3c-act-image-descriptive-name-qt1vmo
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-images
+    evidenceType: accessibility-check
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/
+    use: revisar que el nombre accesible describa la función informativa de la imagen; el juicio semántico sigue siendo humano
+  - id: w3c-wcag22-non-text-contrast-2026
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-visual
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast
+    use: medir contraste de iconos, controles, mapas y gráficos necesarios para comprender o usar la página; la guía no declara conformidad completa
+  - id: w3c-wcag22-images-of-text-aaa
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-visual
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception
+    use: evitar texto incrustado en infografías cuando HTML equivalente sea viable y exigir transcripción cuando sea esencial; es criterio AAA
+  - id: cope-post-publication-critiques-2021
+    authority: Committee on Publication Ethics
+    domain: editorial-corrections
+    evidenceType: editorial-guidance
+    url: https://doi.org/10.24318/o1VgCAih
+    use: inspirar un flujo de crítica posterior, respuesta, aclaración, corrección, preocupación o retirada con enlace visible; adaptar roles académicos al sitio
+  - id: malayan-pangolin-population-genomics-2026
+    authority: Molecular Biology and Evolution / Oxford Academic
+    domain: editorial-pangolin-comparative
+    evidenceType: primary
+    url: https://doi.org/10.1093/molbev/msag016
+    use: comparar diferenciación genética del pangolín malayo sin inferir tamaño, distribución o conservación del pangolín gigante
+  - id: pangolin-scale-morphology-2025
+    authority: The Anatomical Record / Wiley
+    domain: editorial-pangolin-anatomy
+    evidenceType: primary
+    url: https://doi.org/10.1002/ar.25624
+    use: explicar variación morfológica y ontogenética de escamas de pangolines; no respalda comportamiento, inmunidad ni ecología del pangolín gigante

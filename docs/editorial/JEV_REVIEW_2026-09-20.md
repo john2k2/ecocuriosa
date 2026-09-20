@@ -475,3 +475,16 @@ tokens de entrada y 78 de salida). La variación respecto de 1,91/4 no es una
 regresión medida: cambió el estado suministrado y se incluyeron nuevas fuentes y
 enlaces, pero siguen presentes 31/32 revisiones humanas pendientes. Jev no
 comprueba Search Console, Cloudflare, fuentes, licencias ni la cuenta de AdSense.
+
+## Estado documental posterior — 20/09/2026
+
+Después de esa evaluación se añadieron diez candidatas nuevas al catálogo
+(`google-publisher-misleading-representation-2026`,
+`google-publisher-deceptive-practices-2026`, las reglas ACT/WCAG de W3C, COPE
+post-publicación y dos estudios comparativos de pangolines), por lo que el
+catálogo vigente queda en **819 entradas**. Estas fuentes mejoran el plan y los
+controles, pero no cambian por sí solas la puntuación de preparación ni
+convierten ninguna de las 31 fichas pendientes en revisada. El último resultado
+Jev exitoso sigue siendo **1,73/4** sobre el estado de 809 candidatas; la nueva
+ronda debe interpretarse como ampliación del catálogo, no como una medición Jev
+nueva.

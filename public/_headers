@@ -1,5 +1,7 @@
 # Defensa base para todas las páginas. La CSP limita únicamente vectores que
 # no interfieren con AdSense, fuentes externas ni Cloudflare Insights.
+# La política report-only siguiente sirve para inventariar orígenes antes de
+# activar CMP/AdSense; no bloquea el tráfico actual.
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Content-Type-Options: nosniff
@@ -7,6 +9,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   Content-Security-Policy: base-uri 'self'; object-src 'none'; frame-ancestors 'self'; upgrade-insecure-requests
+  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://*.cloudflareinsights.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com; frame-src 'self' https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com; manifest-src 'self'; media-src 'self'; upgrade-insecure-requests
 
 # Assets con hash de contenido generados por Astro: nunca cambian, caché de 1 año
 /_astro/*
