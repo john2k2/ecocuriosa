@@ -929,7 +929,7 @@ excluyó las fuentes ya presentes. Estas doce entradas son candidatas de proceso
 incorporan para inspirar controles y nuevas editoriales, no como citas
 automáticas ni como prueba de aprobación de AdSense.
 
-El catálogo verificable al cierre de esta ronda contiene **581 entradas**; el
+El catálogo verificable al cierre de esta ronda contiene **592 entradas**; el
 número anterior se conserva como contexto histórico de esa búsqueda.
 
 | Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
@@ -946,6 +946,9 @@ número anterior se conserva como contexto histórico de esa búsqueda.
 | Arrastre | [WCAG 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html) | Si se añade un carrusel, mapa o widget de arrastre, ofrecer alternativa de un solo puntero | Solo aplica a interacciones que EcoCuriosa implemente |
 | Autoría | [Trustworthiness of an ORCID record](https://info.orcid.org/interpreting-the-trustworthiness-of-an-orcid-record/) | Medir autoría autenticada y procedencia de obras, no solo presencia de un ORCID; enlazarlo únicamente con autorización real | ORCID desambigua identidad; no demuestra expertise ni revisión humana |
 | Correcciones bibliográficas | [Errata, retractions and linked citations in PubMed](https://www.nlm.nih.gov/bsd/policy/errata.html) | Comprobar estado de cada PMID/DOI y registrar errata, retractación o expresión de preocupación en el ledger de fuentes | PubMed no respalda ni evalúa la calidad de cada artículo |
+| Estado de la investigación | [Crossmark](https://www.crossref.org/pdfs/about-crossmark.pdf) | Registrar si una fuente DOI tiene corrección, retractación, actualización, licencia u otra señal de contexto editorial antes de usarla como respaldo | Crossmark depende de que el editor de la fuente participe y mantenga sus metadatos; no es una certificación de calidad |
+| Metadatos de fuentes | [How to manage your metadata with Crossref](https://www.crossref.org/pdfs/how-to-manage-your-metadata-with-crossref-sep2-2020.pdf) | Comparar título, autores, fecha, DOI, ORCID, licencia y referencias entre la ficha EcoCuriosa y el registro Crossref | Una coincidencia de metadatos no prueba que la conclusión científica sea correcta |
+| Correcciones PubMed | [XML Help for PubMed Data Providers](https://www.ncbi.nlm.nih.gov/books/NBK3828/pdf/Bookshelf_NBK3828.pdf) | Resolver relaciones `erratum`, `retraction`, `update` y `ExpressionOfConcernFor` cuando una fuente use PMID o DOI | Es documentación técnica de proveedores; no sustituye leer el artículo ni sus avisos editoriales |
 
 #### Artefactos de puntuación derivados
 
@@ -980,3 +983,33 @@ La automatización puede preparar estas matrices, pero no puede inventar un
 TC-string, autor, ORCID, estado bibliográfico, métrica de campo ni aprobación de
 AdSense. `humanApproval: pending` y `publish: false` se mantienen hasta la
 revisión y decisión de una persona.
+
+### Fuentes nuevas de Luna Max para autoría, versiones y aporte original — 20 de septiembre de 2026
+
+La ronda siguiente comparó el catálogo vigente antes de esta ampliación y no
+repitió las URLs anteriores. Se incorporan como patrones de control editorial;
+no convierten a EcoCuriosa en una revista indexada ni autorizan a inventar
+autores, roles, ORCID, guías de reporte o DOI.
+
+| Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
+| --- | --- | --- | --- |
+| IA y aporte original | [A new resource for optimizing for generative AI in Google Search](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing) | Añadir al brief `uniqueContribution`, `firstHandEvidence` y `notCommodity`, con una prueba de valor que no sea una reescritura | Es una actualización oficial fechada, no un factor de ranking independiente ni garantía de AI Overviews |
+| Autoría autenticada | [ORCID Integration Best Practices](https://info.orcid.org/documentation/integration-best-practices/) | Usar ORCID solo mediante autenticación y conservar consentimiento, fecha de verificación y enlace público si existe una persona real | ORCID identifica y conecta obras; no demuestra experiencia, revisión por pares ni independencia |
+| Roles editoriales | [Contributor Roles — CRediT](https://credit.niso.org/contributor-roles/) | Registrar roles de investigación, redacción, visualización y revisión solo cuando cada persona pueda confirmarlos | Taxonomía voluntaria; no decide quién es autor ni prueba una revisión científica externa |
+| Reporte transparente | [EQUATOR Reporting Guidelines](https://www.equator-network.org/reporting-guidelines/) | En artículos que resuman investigación aplicable, guardar `reportingGuideline` o `not-applicable` y los ítems comprobados | Se orienta principalmente a investigación biomédica; completar una checklist no demuestra veracidad |
+| Datos FAIR | [The FAIR Guiding Principles](https://www.gofair.foundation/fair-principles) | Para datasets, registrar identificador persistente, `retrieved_at`, licencia, formato, procedencia y relaciones | FAIR describe encontrabilidad y reutilización, no autoridad ni exactitud |
+| Versiones | [DataCite Related Identifiers](https://support.datacite.org/docs/connecting-versions-with-related-identifiers) | En correcciones y actualizaciones, enlazar `IsNewVersionOf`, `Obsoletes` u otra relación explícita, sin crear DOI propios | Describe metadatos DOI; no obliga a acuñar DOI ni crea señal de Google |
+| Política editorial | [Journal Selection for MEDLINE](https://www.nlm.nih.gov/medline/medline_journal_selection.html) | Tomar como inspiración un registro público de políticas, conflictos, financiación, revisión y reproducibilidad | Son criterios de selección de MEDLINE, no una aprobación ni un baremo para EcoCuriosa |
+| Integridad bibliográfica | [PubMed User Guide](https://pubmed.ncbi.nlm.nih.gov/help/) | Crear un `reference integrity log` con PMID/DOI, fecha, estado de corrección/retractación/COI y acción tomada | PubMed solo muestra lo que recibe del editor/PMC; ausencia de una marca no demuestra ausencia de conflicto |
+
+#### Campos adicionales para los briefs de Luna Max
+
+- `uniqueContribution`: qué explicación, comparación, diagrama o dato propio añade el artículo.
+- `firstHandEvidence`: evidencia de primera mano o `not-applicable` cuando sea divulgación basada en fuentes.
+- `notCommodity`: por qué no es una página intercambiable o una variación de palabras clave.
+- `authorRoles`: roles CRediT/ORCID únicamente con identidad y consentimiento verificables.
+- `reportingGuideline`: ID de guía EQUATOR o `not-applicable`, nunca una lista inventada.
+- `referenceIntegrityLog`: estado PMID/DOI, fecha de consulta, correcciones y decisión del editor.
+
+Estos campos deben bloquear el borrador si están vacíos en una pieza de alto
+riesgo, pero no deben marcar una revisión ni publicar por sí solos.

@@ -8,6 +8,7 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 - [Biblioteca de inspiración y briefs](./editorial/EDITORIAL_INSPIRATION_LIBRARY.md)
 - [Plantilla de brief](./editorial/ARTICLE_BRIEF_TEMPLATE.md)
 - [Estándar de evidencia](./editorial/SOURCE_QUALITY_STANDARD.md)
+- [Plantilla de integridad bibliográfica](./editorial/REFERENCE_INTEGRITY_LOG_TEMPLATE.md)
 - [Protocolo de Luna Max](./editorial/LUNA_MAX_PROTOCOL.md)
 - [Cola de revisión editorial](./editorial/CONTENT_REVIEW_QUEUE.md)
 - [Triage de afirmaciones 2026-09-12](./editorial/CLAIM_TRIAGE_2026-09-12.md)
@@ -49,10 +50,10 @@ Los documentos operativos que convierten este principio en una puerta de calidad
 ## Implementación gradual
 
 1. Exportar o conectar los datos de Search Console y Cloudflare en modo lectura; conservarlos fuera del repositorio si contienen datos de cuenta.
-2. Crear una tarea semanal de Luna Max que produzca solo briefs en `docs/editorial/drafts/` (la carpeta que inspecciona `content:luna-audit`).
+2. Crear una tarea semanal de Luna Max que produzca solo briefs en `docs/editorial/drafts/` (la carpeta que inspecciona `content:luna-audit`). Cada brief debe declarar `uniqueContribution`, `firstHandEvidence`, `notCommodity` y el estado de autoría/estado bibliográfico antes de pasar a revisión.
 3. Crear una tarea por brief que abra un artefacto local con estado `draft`; el generador conserva `sourceCandidates`, `humanApproval: pending` y `publish: false`, y la publicación continúa siendo una aprobación humana.
 4. Mantener los generadores históricos en modo borrador: nunca apuntarlos a `src/content/articles` ni `public/images/articles`; sus salidas deben conservar `humanApproval: pending` y `publish: false`.
-5. Añadir una revisión editorial de fuentes, derechos de imagen, enlaces internos, `pnpm content:audit`, `pnpm build`, `pnpm content:source-metadata-audit`, `pnpm content:source-render-audit`, `pnpm content:reference-audit`, `pnpm content:responsive-image-audit` y `pnpm astro check` como puerta de salida. Las variantes 400/800 px se regeneran con `pnpm content:responsive-images` cuando se incorpora una nueva ilustración SVG; el original de 1200 px se conserva para el sitemap y la vista grande. El modo `pnpm content:audit -- --strict` solo pasa cuando cada artículo tenga fuentes y revisión; hoy sirve para medir la deuda, no para ocultarla. La aprobación debe registrarse en la plantilla de brief antes de publicar.
+5. Añadir una revisión editorial de fuentes, derechos de imagen, enlaces internos, `pnpm content:audit`, `pnpm build`, `pnpm content:source-metadata-audit`, `pnpm content:source-render-audit`, `pnpm content:reference-audit`, `pnpm content:rendered-parity`, `pnpm content:responsive-image-audit` y `pnpm astro check` como puerta de salida. Las variantes 400/800 px se regeneran con `pnpm content:responsive-images` cuando se incorpora una nueva ilustración SVG; el original de 1200 px se conserva para el sitemap y la vista grande. El modo `pnpm content:audit -- --strict` solo pasa cuando cada artículo tenga fuentes y revisión; hoy sirve para medir la deuda, no para ocultarla. La aprobación debe registrarse en la plantilla de brief antes de publicar.
 6. Tras cuatro semanas, medir clics orgánicos, impresiones, CTR, páginas por sesión y RPM por país antes de aumentar la frecuencia.
 
 No se debe programar una creación masiva diaria: con el inventario actual, mejorar y citar las monografías existentes tiene más valor que ampliar el volumen.

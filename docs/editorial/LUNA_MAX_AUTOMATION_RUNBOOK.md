@@ -1,6 +1,6 @@
 # Runbook de automatización editorial con Luna Max
 
-**Versión:** 14 de septiembre de 2026
+**Versión:** 20 de septiembre de 2026
 **Estado:** diseño listo para revisión; no crea publicaciones ni modifica la cuenta de AdSense.
 
 Este runbook complementa [`LUNA_MAX_PROTOCOL.md`](./LUNA_MAX_PROTOCOL.md), el [scorecard de crecimiento](../EDITORIAL_GROWTH_SCORECARD.md) y la [biblioteca de inspiración](./EDITORIAL_INSPIRATION_LIBRARY.md). Su objetivo es convertir señales reales de búsqueda en investigación y borradores revisables, manteniendo la decisión editorial y la publicación en manos de una persona. Los estados `203` y `403` de una comprobación automática se interpretan según el [snapshot de acceso a fuentes](./SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y requieren apertura manual, no descarte automático.
@@ -13,6 +13,8 @@ Luna Max recibe métricas agregadas y devuelve como máximo cinco oportunidades 
 - dos a seis fuentes candidatas del catálogo, con URL exacta, tipo de evidencia, alcance, fecha y limitación;
 - tabla de afirmaciones separando hecho, inferencia e hipótesis;
 - propuesta de aportación propia y enlaces internos, sin canibalizar artículos existentes;
+- `uniqueContribution`, `firstHandEvidence` y `notCommodity`, con una explicación de por qué la pieza no es una reescritura ni una variante de palabras clave;
+- `authorRoles`, `reportingGuideline` y `referenceIntegrityLog` solo cuando haya identidad, guía y estado bibliográfico comprobables; en caso contrario, `not-applicable` o `pending`;
 - plan de imagen (`original-illustration`, `licensed-photo` o `commissioned-photo`), procedencia pendiente y texto alternativo;
 - `humanApproval: pending` y `publish: false`.
 
@@ -165,6 +167,7 @@ El ciclo se detiene y solicita intervención si ocurre cualquiera de estas condi
 - una frase depende de una cifra, récord, promesa médica o categoría de conservación sin alcance;
 - aparecen fuentes duplicadas, texto replicado o una conclusión genérica;
 - falta autor, licencia, alt, crédito, fecha real de revisión o enlace interno;
+- falta `uniqueContribution`, `notCommodity` o el registro de integridad de referencias en una pieza de alto riesgo;
 - `pnpm content:audit`, `pnpm content:source-audit`, `pnpm content:source-metadata-audit`, `pnpm content:llms-audit`, `pnpm astro check`, `pnpm build`, `pnpm content:generated-metadata-audit`, `pnpm content:source-render-audit`, `pnpm content:reference-audit` o `pnpm content:link-audit` falla;
 - el borrador intenta publicar, crear un commit automáticamente o escribir en AdSense;
 - una tanda propone páginas casi equivalentes cuyo valor principal sea capturar variaciones de palabras clave;

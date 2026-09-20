@@ -3518,3 +3518,69 @@ entries:
     evidenceType: official-policy
     url: https://www.nlm.nih.gov/bsd/policy/errata.html
     use: comprobar erratas, retractaciones, expresiones de preocupación y versiones corregidas enlazadas desde PubMed antes de cerrar una fuente
+  - id: crossref-crossmark-status
+    authority: Crossref
+    domain: corrections
+    evidenceType: official-guidance
+    url: https://www.crossref.org/pdfs/about-crossmark.pdf
+    use: comprobar si una fuente DOI declara correcciones, retractaciones, actualizaciones, licencia u otros metadatos de contexto mediante Crossmark; la participación del editor no demuestra calidad científica
+  - id: crossref-metadata-stewardship
+    authority: Crossref
+    domain: source-verification
+    evidenceType: official-guidance
+    url: https://www.crossref.org/pdfs/how-to-manage-your-metadata-with-crossref-sep2-2020.pdf
+    use: comparar título, autores, fecha, DOI, ORCID, licencia y referencias con el registro Crossref; una coincidencia bibliográfica no prueba la conclusión del estudio
+  - id: ncbi-pubmed-xml-related-citations
+    authority: NCBI / National Library of Medicine
+    domain: corrections
+    evidenceType: official-guidance
+    url: https://www.ncbi.nlm.nih.gov/books/NBK3828/pdf/Bookshelf_NBK3828.pdf
+    use: resolver relaciones PubMed de erratum, retraction, update y ExpressionOfConcernFor cuando una fuente use PMID o DOI; documentación técnica, no evaluación de calidad
+  - id: google-ai-optimization-resource-2026
+    authority: Google Search Central
+    domain: content-quality
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing
+    use: exigir aporte original, contenido no genérico y valor para personas en los briefs de IA; no es factor de ranking independiente ni garantía de AI Overviews
+  - id: orcid-integration-best-practices
+    authority: ORCID
+    domain: authorship
+    evidenceType: official-guidance
+    url: https://info.orcid.org/documentation/integration-best-practices/
+    use: usar ORCID mediante autenticación, conservar consentimiento y mantener afirmaciones verificadas; no introducir identificadores manuales ni tratarlo como prueba de experiencia
+  - id: credit-contributor-roles
+    authority: CRediT / NISO
+    domain: authorship
+    evidenceType: standard-guidance
+    url: https://credit.niso.org/contributor-roles/
+    use: registrar roles de investigación, redacción, visualización y revisión solo cuando cada persona pueda confirmarlos; taxonomía voluntaria
+  - id: equator-reporting-guidelines-library
+    authority: EQUATOR Network
+    domain: source-verification
+    evidenceType: institutional
+    url: https://www.equator-network.org/reporting-guidelines/
+    use: seleccionar una guía de reporte aplicable para resúmenes de investigación o declarar not-applicable; completar una checklist no prueba veracidad
+  - id: gofair-guiding-principles
+    authority: GO FAIR Foundation
+    domain: data-provenance
+    evidenceType: institutional
+    url: https://www.gofair.foundation/fair-principles
+    use: registrar identificador persistente, fecha de recuperación, licencia, formato, procedencia y relaciones de datasets; FAIR no certifica exactitud
+  - id: datacite-related-identifiers-versions
+    authority: DataCite
+    domain: corrections
+    evidenceType: official-guidance
+    url: https://support.datacite.org/docs/connecting-versions-with-related-identifiers
+    use: enlazar versiones y correcciones con tipos RelatedIdentifier como IsNewVersionOf, Obsoletes o IsObsoletedBy sin crear DOI propios
+  - id: nlm-medline-journal-selection
+    authority: National Library of Medicine
+    domain: authorship
+    evidenceType: official-policy
+    url: https://www.nlm.nih.gov/medline/medline_journal_selection.html
+    use: inspirar un registro público de políticas, conflictos, financiación, revisión, reproducibilidad y referencias; no simular indexación MEDLINE
+  - id: pubmed-user-guide-integrity
+    authority: NCBI / National Library of Medicine
+    domain: corrections
+    evidenceType: official-guidance
+    url: https://pubmed.ncbi.nlm.nih.gov/help/
+    use: registrar PMID/DOI, fecha de consulta, corrección/retractación/expresión de preocupación, COI y AUID cuando aparezcan; ausencia de marca no prueba ausencia de conflicto

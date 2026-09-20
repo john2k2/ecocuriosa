@@ -80,6 +80,12 @@ def main() -> None:
         catalog_entries,
         lambda candidate: candidate.update(internalLinks=['https://example.com']),
     )
+    expect_rejected(
+        'aporte original ausente',
+        raw,
+        catalog_entries,
+        lambda candidate: candidate.pop('uniqueContribution', None),
+    )
     print(f'Briefs válidos: {len(loaded)} en {len(brief_paths)} archivos JSON')
     print(f'Brief de control: {brief["slug"]}; fuentes candidatas: {len(brief["sourceCandidates"])}')
     print('Puertas de publicación y rechazos adversariales: correctos')

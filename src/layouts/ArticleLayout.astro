@@ -185,9 +185,8 @@ const imageWebpResponsive = isSvgImage
         {reviewedDate
           ? 'revisión registrada; las fuentes y límites están descritos en esta ficha.'
           : 'fuentes enlazadas; revisión humana pendiente. Consulta la metodología para conocer el proceso.'}
-        {!reviewedDate && (
-          <> <a href="/metodologia-editorial/" class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm">Ver metodología</a></>
-        )}
+        {' '}<a href="/metodologia-editorial/" class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm">Cómo se prepara</a>
+        {' · '}<a href="/correcciones/" class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm">Correcciones</a>
       </p>
     </header>
 

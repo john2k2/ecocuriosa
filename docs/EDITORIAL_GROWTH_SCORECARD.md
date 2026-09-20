@@ -32,6 +32,12 @@ lectura humana y 17/31 cuentan con fechas de acceso completas para sus fuentes.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
+La nueva auditoría `pnpm content:rendered-parity` comprueba diez rutas
+representativas del HTML generado y exige título, H1, cuerpo, enlaces,
+canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
+10/10 sin incidencias; sigue siendo una prueba del artefacto estático, no de
+indexación ni de experiencia de campo.
+
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 107 URLs y los enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
 El control de metadatos también exige ahora una `accessedDate` por cada fuente de una ficha que ya declara `reviewedDate` y `reviewedBy`. En la lectura del 14/09/2026 hay fechas de acceso en 72/107 fuentes; las 35 restantes pertenecen a fichas pendientes y se completarán durante su revisión humana. La única ficha revisada (leopardo de las nieves) conserva fechas para sus 2/2 fuentes. Esta puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de acceso en prueba de exactitud ni marca revisiones por sí sola.
@@ -218,6 +224,12 @@ claims:
     sourceIds: []
     humanCheck: pending
 originalContribution: "diagrama, comparación, cálculo reproducible o experiencia atribuida"
+uniqueContribution: "qué valor propio añade más allá de resumir fuentes"
+firstHandEvidence: "observación propia o not-applicable"
+notCommodity: "por qué no es una variante de palabras clave ni una reescritura"
+authorRoles: "pending o roles confirmados con identidad real"
+reportingGuideline: "ID EQUATOR o not-applicable"
+referenceIntegrityLog: "pending o ruta del registro PMID/DOI"
 imagePlan: "original-illustration|licensed-photo|commissioned-photo"
 imageRights: pending
 internalLinks: []
@@ -257,14 +269,15 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El conteo verificable del catálogo en esta revisión es **581 entradas**; las
+El conteo verificable del catálogo en esta revisión es **592 entradas**; las
 referencias históricas de este párrafo conservan el estado que tenían cuando se
 escribieron.
 
-El catálogo actual contiene **581 entradas** y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene **592 entradas** y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.
+- Integridad bibliográfica: [`REFERENCE_INTEGRITY_LOG_TEMPLATE.md`](editorial/REFERENCE_INTEGRITY_LOG_TEMPLATE.md) para DOI/PMID, Crossref, PubMed, correcciones, COI y decisiones por fuente.
 - NOAA, NASA, USGS, IUCN, GBIF, Smithsonian, CITES, TRAFFIC, PubMed Central y revistas científicas para nuevas investigaciones.
 - Creative Commons, NASA, NOAA, USGS, IPTC, C2PA, NISO CRediT y COPE para derechos, procedencia y transparencia.
 

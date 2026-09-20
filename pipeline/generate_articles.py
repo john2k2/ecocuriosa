@@ -186,6 +186,12 @@ def validate_brief(raw: object, catalog_ids: set[str] | dict[str, str]) -> dict:
         'sourceCandidates': source_candidates,
         'claims': claims,
         'originalContribution': _require_text(raw.get('originalContribution'), f'{slug}.originalContribution'),
+        'uniqueContribution': _require_text(raw.get('uniqueContribution'), f'{slug}.uniqueContribution'),
+        'firstHandEvidence': _require_text(raw.get('firstHandEvidence', 'not-applicable'), f'{slug}.firstHandEvidence'),
+        'notCommodity': _require_text(raw.get('notCommodity'), f'{slug}.notCommodity'),
+        'authorRoles': _require_text(raw.get('authorRoles', 'pending'), f'{slug}.authorRoles'),
+        'reportingGuideline': _require_text(raw.get('reportingGuideline', 'not-applicable'), f'{slug}.reportingGuideline'),
+        'referenceIntegrityLog': _require_text(raw.get('referenceIntegrityLog', 'pending'), f'{slug}.referenceIntegrityLog'),
         'imagePlan': image_plan,
         'internalLinks': internal_links,
     }
@@ -261,6 +267,15 @@ sourceCandidates: []
 ## Aportación propia propuesta
 
 {brief['originalContribution']}
+
+## Controles de aporte y procedencia
+
+- `uniqueContribution`: {brief['uniqueContribution']}
+- `firstHandEvidence`: {brief['firstHandEvidence']}
+- `notCommodity`: {brief['notCommodity']}
+- `authorRoles`: {brief['authorRoles']}
+- `reportingGuideline`: {brief['reportingGuideline']}
+- `referenceIntegrityLog`: {brief['referenceIntegrityLog']}
 
 ## Plan de imagen
 

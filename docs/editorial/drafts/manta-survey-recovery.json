@@ -64,6 +64,12 @@
       ],
       "draftBody": "Una observación aérea no equivale automáticamente a un censo. La guía de NOAA está pensada para que los observadores distingan visualmente mantas gigantes y otras rayas grandes dentro de estudios aéreos, con un propósito y unas regiones concretas.\n\nEl informe de recuperación de 2024 reúne la evidencia disponible para informar la gestión de Mobula birostris. También deja claro que no existen estimaciones globales actuales o históricas de abundancia y que los datos regionales pueden estar sujetos a sesgos.\n\nLa aportación del artículo sería mostrar el recorrido observación → identificación → registro con alcance → decisión de seguimiento. Estandarizar una observación puede hacerla más comparable, pero no convierte por sí sola una detección en abundancia global ni en una decisión de recuperación.",
       "originalContribution": "Diagrama editorial original del circuito observación aérea → identificación visual → registro con alcance → decisión de seguimiento, con advertencia visible de que presencia observada no equivale a abundancia global.",
+      "uniqueContribution": "Mostrar el recorrido observación → identificación → registro con alcance → seguimiento, conservando la diferencia entre presencia observada y abundancia.",
+      "firstHandEvidence": "not-applicable: divulgación basada en guías institucionales e informes de recuperación",
+      "notCommodity": "Aporta una lectura de método para interpretar censos aéreos, no otra ficha general sobre mantas raya.",
+      "authorRoles": "pending",
+      "reportingGuideline": "not-applicable",
+      "referenceIntegrityLog": "pending",
       "imagePlan": "original-illustration",
       "imageRights": "pending",
       "internalLinks": [

@@ -11,9 +11,20 @@
 - **Impresiones/clics/CTR/posición y país/dispositivo:**
 - **Intención:** informativa / comparativa / actualización / explicación práctica.
 - **Por qué EcoCuriosa puede aportar algo propio:** explicación, comparación, diagrama, ejemplo, datos o experiencia concreta que no sea una reescritura.
+- **`uniqueContribution`:** qué parte del artículo aporta análisis, comparación, visualización o evidencia propia más allá de resumir fuentes.
+- **`firstHandEvidence`:** observación o experiencia de primera mano; escribir `not-applicable` si se trata de divulgación basada en fuentes.
+- **`notCommodity`:** por qué la pregunta merece una pieza propia y no una variante de palabras clave o una página intercambiable.
 - **Artículo pilar y enlaces internos previstos:**
 - **Riesgo de salud, seguridad, conservación o actualidad:** bajo / medio / alto.
 - **Fuente de inspiración del catálogo:** `SOURCE_CATALOG.yml` → [id]
+
+## Autoría, contribuciones y estado bibliográfico
+
+- **Autor/revisor real:** [nombre público o Equipo Editorial EcoCuriosa]
+- **Roles de contribución:** [investigación / redacción / edición / visualización / revisión; usar CRediT solo si cada persona confirma su rol]
+- **ORCID autenticado:** [URL o `not-applicable`; nunca introducir un identificador manualmente]
+- **Guía EQUATOR:** [ID/URL o `not-applicable` para divulgación general]
+- **Registro de integridad de referencias:** [ruta local según [`REFERENCE_INTEGRITY_LOG_TEMPLATE.md`](./REFERENCE_INTEGRITY_LOG_TEMPLATE.md)]
 
 ## Evidencia antes de redactar
 
@@ -47,7 +58,10 @@ Cuando exista una licencia reutilizable, conservarla en frontmatter con `imageCr
 - [ ] La fuente de inspiración se convirtió en una pregunta propia; no se reescribió su artículo.
 - [ ] Se eliminaron frases absolutas no demostrables y conclusiones reutilizadas.
 - [ ] Existe una contribución editorial diferenciada.
+- [ ] `uniqueContribution`, `firstHandEvidence` y `notCommodity` están escritos y comprobables.
 - [ ] Hechos, inferencias, hipótesis y límites están separados.
+- [ ] Los roles, ORCID y guía de reporte están confirmados o marcados `not-applicable`; no se inventó autoría.
+- [ ] Se revisó el estado bibliográfico de cada PMID/DOI y se registró cualquier corrección, retractación o conflicto visible.
 - [ ] El autor/revisor mostrado es real y su fecha de revisión es real.
 - [ ] Se verificaron licencia, crédito y procedencia de cada imagen; las imágenes sintéticas están identificadas.
 - [ ] Se ejecutaron `pnpm content:audit -- --strict`, `pnpm build` y `pnpm astro check`.
