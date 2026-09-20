@@ -17,6 +17,7 @@
     "content:llms-audit": "node scripts/audit-llms.mjs",
     "content:luna-audit": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/audit-luna-pipeline.py",
     "content:review-precheck": "node scripts/audit-review-queue.mjs",
+    "content:review-packets": "node scripts/generate-assisted-review-packets.mjs",
     "content:generated-metadata-audit": "node scripts/audit-generated-metadata.mjs",
     "content:rendered-parity": "node scripts/audit-rendered-content-parity.mjs",
     "content:assisted-review-audit": "node scripts/audit-assisted-review-packets.mjs",

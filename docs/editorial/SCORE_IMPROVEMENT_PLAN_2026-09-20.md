@@ -13,12 +13,13 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 748 fuentes candidatas en catálogo; 4 briefs Luna válidos y 21 paquetes de contraste asistido con publicación bloqueada; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 748 fuentes candidatas en catálogo; 4 briefs Luna válidos y 31 paquetes de contraste asistido con publicación bloqueada; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta global más reciente de Jev dio **1,43/4** para preparación
-verificable (confianza 0,54) y probabilidad **0,97** a cerrar la revisión humana
-(confianza 0,96). La consulta específica después de reforzar *Architeuthis dux*
-había dado 1,98/4; las escalas y estados enviados no son idénticos. Las rondas
+La consulta global más reciente de Jev, después de cubrir la cola con 31 paquetes
+asistidos, dio **1,61/4** para preparación verificable (confianza 0,52) y
+probabilidad **0,98** a cerrar la revisión humana (confianza 0,97). La consulta
+global anterior dio 1,43/4 y la específica después de reforzar *Architeuthis
+dux* había dado 1,98/4; las escalas y estados enviados no son idénticos. Las rondas
 anteriores dieron 2,00/4, 2,01/4, 2,08/4 y 2,62/4. La variación es una
 reponderación del estado —ahora se explicita que solo 1/32 artículos tiene firma
 humana—, no una regresión medida del código: las auditorías y el build siguen

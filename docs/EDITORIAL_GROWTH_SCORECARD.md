@@ -25,11 +25,13 @@ categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
 La evaluación independiente de Jev conserva una lectura ordinal separada de las
-métricas oficiales. La consulta global más reciente dio **1,43/4** para
-preparación verificable (confianza 0,54) y eligió cerrar revisiones humanas con
-probabilidad **0,97** (confianza 0,96). La consulta específica del artículo
-*Architeuthis dux* había dado 1,98/4; las escalas y estados enviados no son
-idénticos, por lo que no se interpreta como regresión del código. Jev es
+métricas oficiales. Después de cubrir toda la cola con paquetes asistidos, la
+consulta global más reciente dio **1,61/4** para preparación verificable
+(confianza 0,52) y eligió cerrar revisiones humanas con probabilidad **0,98**
+(confianza 0,97). La consulta global anterior dio 1,43/4 y la consulta
+específica de *Architeuthis dux* había dado 1,98/4; las escalas y estados
+enviados no son idénticos, por lo que no se interpreta como regresión del código.
+Jev es
 advisory-only: no comprueba Google, Cloudflare, Search Console ni AdSense y no
 autoriza publicación. El recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
@@ -38,7 +40,8 @@ La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
 completas para sus fuentes. El catálogo contiene **748 candidatas** y existen
-**21 paquetes de contraste asistido**; ninguno equivale a una firma humana.
+**31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
+equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 

@@ -345,3 +345,17 @@ Search Console o AdSense, ni una predicción de aprobación, CPM, tráfico o
 ingresos. El auditor de Luna pasó con **4 briefs válidos en 4 archivos** y
 rechazos adversariales correctos; eso no convierte ningún brief en contenido
 publicable.
+
+## Reevaluación tras cubrir toda la cola con paquetes asistidos — 20/09/2026
+
+Después de generar un paquete `pending` para cada uno de los 31 artículos aún
+sin revisión humana, se volvió a consultar Jev con el mismo marco 0–4. La
+preparación subió a **1,61/4** (confianza **0,52**) y la prioridad siguió siendo
+`human-review` con probabilidad **0,98** (confianza **0,97**). El cambio refleja
+mejor preparación operativa —la persona ya tiene una matriz por artículo—, no
+una firma humana ni una comprobación de las fuentes.
+
+La distribución fue 0: 5 %, 1: 39 %, 2: 47 %, 3: 8 % y 4: 1 %. Jev devolvió
+`model: jev-1.13.0`, `advisory_only: true` y 671 tokens de entrada/69 de salida.
+La recomendación no autoriza publicar, rellenar `reviewedDate`/`reviewedBy` ni
+activar anuncios.

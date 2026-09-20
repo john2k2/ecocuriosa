@@ -144,6 +144,14 @@ canónica del catálogo, ilustración sin etiqueta, enlace externo en
 el contrato local; no prueba la exactitud de las fuentes, la licencia de una
 imagen, la autoría ni la aprobación para publicar.
 
+La cola de revisión asistida también quedó cubierta: `pnpm
+content:assisted-review-audit` comprueba **31 paquetes**, uno por cada artículo
+que sigue pendiente, todos con `decision: pending` y sin `reviewedDate` ni
+`reviewedBy`. El generador `pnpm content:review-packets` es idempotente,
+omite artículos ya revisados o con paquete existente y escribe únicamente en
+`docs/editorial/reviews/`; sus filas siguen pendientes hasta que una persona
+abra la fuente, examine la imagen y confirme el artículo.
+
 La ronda E‑E‑A‑T añadió controles de autoría, método, correcciones, conflictos y
 gobernanza basados en CSIC, ICMJE y COPE. Se guardan en el catálogo como fuentes
 candidatas: Luna puede proponer una matriz de responsabilidades, pero una persona

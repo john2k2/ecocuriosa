@@ -37,9 +37,18 @@ geco](./reviews/adherencia-geco-2026-09-20.md), [narval](./reviews/narval-colmil
 [relámpago del Catatumbo](./reviews/relampago-catatumbo-2026-09-20.md), [rayas
 de cebra](./reviews/rayas-cebra-2026-09-20.md), [ronroneo de gatos](./reviews/ronroneo-gatos-2026-09-20.md),
 [mar de ardora](./reviews/mar-ardora-2026-09-20.md) y [calamar
-gigante](./reviews/calamar-gigante-2026-09-20.md). Con los tres paquetes nuevos
-hay **21 paquetes asistidos**, todos con decisión `pending`; ninguno sustituye
-la aprobación humana.
+gigante](./reviews/calamar-gigante-2026-09-20.md). En ese corte había **21
+paquetes asistidos**, todos con decisión `pending`; ninguno sustituía la
+aprobación humana.
+
+La cobertura se completó el 20/09/2026 con diez paquetes adicionales para
+auroras, camaleón, vernalización, géiseres, nubes *mammatus*, piedras rodantes,
+ebullición en montaña, cielo azul, bostezo contagioso y axolote. El directorio
+contiene ahora **31 paquetes**, exactamente uno por cada artículo pendiente. Los
+paquetes generados desde el artículo local conservan todas las filas en
+`pending`; no implican que las fuentes hayan sido abiertas ni que exista
+aprobación humana. Para regenerar solo fichas que aún no tengan paquete:
+`REVIEW_PACKET_DATE=AAAA-MM-DD pnpm content:review-packets`.
 
 Los paquetes de contraste asistido se comprueban con
 `pnpm content:assisted-review-audit`: deben incluir matriz de afirmaciones,
