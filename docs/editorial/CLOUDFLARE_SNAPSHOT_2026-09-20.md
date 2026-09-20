@@ -15,6 +15,14 @@
 - La portada, `robots.txt`, `sitemap.xml` y las rutas de artículos modificadas
   respondieron HTTP 200 después del despliegue.
 
+**Seguimiento posterior:** el commit `85a3e93` (`Correct axolotl source scope
+and review evidence`) se desplegó automáticamente en producción mediante
+GitHub push. Cloudflare Pages reportó las etapas `build` y `deploy` como
+`success` en el deployment `3b07e2ef-a274-4318-bf07-2293ffb8add6`; la ruta del
+ajolote ya sirve el título corregido de PMC6669047 y el enlace institucional de
+Gaceta UNAM. La comprobación pública posterior devolvió HTTP 200 y
+`cf-cache-status: DYNAMIC`.
+
 ## Web Analytics / RUM
 
 Cloudflare devuelve una configuración Web Analytics activa para

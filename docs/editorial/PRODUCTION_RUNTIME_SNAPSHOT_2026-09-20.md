@@ -58,6 +58,16 @@ La WebP del artículo del calamar respondió `200`, `content-type: image/webp`,
 `Cache-Control: public, max-age=2592000` y `cf-cache-status: HIT`. HTML,
 consentimiento y anuncios siguen fuera de la regla específica de caché del RSS.
 
+## Seguimiento de despliegue editorial — 20/09/2026
+
+El commit `85a3e93` (`Correct axolotl source scope and review evidence`) se
+desplegó en Cloudflare Pages en producción con el deployment
+`3b07e2ef-a274-4318-bf07-2293ffb8add6`; las etapas de build y deploy terminaron
+en `success`. La ruta del ajolote respondió HTTP 200 y el HTML público contiene
+la ficha corregida de PMC6669047 y el enlace de Gaceta UNAM. Esta comprobación
+valida entrega del artefacto, no revisión humana, indexación ni aprobación de
+AdSense.
+
 ## Límites de la medición
 
 Esta es una fotografía puntual del runtime. No sustituye el P75 de CrUX/RUM,
