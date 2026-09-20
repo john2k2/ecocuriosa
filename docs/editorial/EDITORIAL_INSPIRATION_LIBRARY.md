@@ -1169,3 +1169,23 @@ Cada candidato conserva alcance, limitación y tipo de evidencia en
 fuentes durante la revisión humana y convertir solo las afirmaciones aprobadas
 en citas de artículo. Los briefs de Luna deben conservar `publish: false` y
 `humanApproval: pending`.
+
+### Oportunidades observadas en Search Console — 20 de septiembre de 2026
+
+El snapshot autenticado de Search Console registra **635 impresiones, 3 clics,
+CTR de 0,5 % y posición media 13,4** en los últimos tres meses visibles. Las
+consultas con más impresiones no se convierten automáticamente en audiencia ni
+en una orden de publicar; sirven para formular briefs que respondan mejor a la
+intención real:
+
+| Señal | Artículo o línea a priorizar | Acción editorial segura | Métrica a revisar |
+| --- | --- | --- | --- |
+| `architeuthis dux` — 71 impresiones | [Calamar gigante](../../src/content/articles/calamar-gigante-architeuthis-dux-bioluminiscencia.md) | Reforzar título, resumen inicial y un recuadro que separe observación, genoma e inferencia; conservar límites de tamaño y bioluminiscencia | Impresiones, CTR y posición de la URL en 28 días |
+| `geodinamo` — 44 impresiones y 1 clic | [Geodinamo terrestre](../../src/content/articles/como-funciona-el-campo-magnetico-de-la-tierra-geodinamo.md) | Añadir una respuesta breve sobre qué mide un satélite y qué se infiere mediante modelos, enlazando la fuente institucional ya catalogada | CTR de la consulta y consultas relacionadas |
+| `pulpo mimo` — 15 impresiones | [Pulpo mimo](../../src/content/articles/pulpo-mimo-thaumoctopus-mimetismo-15-especies.md) | Hacer visible en el primer bloque que el repertorio observado no prueba intención humana; mantener la muestra del estudio original | Impresiones, CTR y consultas de cola larga |
+| `geosmina y petricor` — 4 impresiones | [Petricor y geosmina](../../src/content/articles/por-que-el-olor-a-tierra-mojada-petricor-geosmina.md) | Separar con claridad geosmina, aerosoles de lluvia y evidencia de laboratorio; no ampliar una fuente de una especie a la experiencia humana completa | Impresiones y posición por intención informativa |
+
+Estas acciones son mejoras de claridad y alineación, no manipulación de
+consultas. Cualquier redacción nueva debe pasar la revisión humana y el control
+de fuentes antes de publicarse. La evidencia numérica y sus límites están en
+[`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](./SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md).

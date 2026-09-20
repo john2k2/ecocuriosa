@@ -72,7 +72,7 @@ No se encontró un bloqueo crítico confirmado. El sitio devuelve HTTP 200 en la
 2. **Completar la configuración de privacidad de AdSense.** En AdSense hay que confirmar Privacy & messaging, seleccionar la CMP de Google de tres opciones, enlazar `/politica-de-privacidad/` y `/politica-de-cookies/` y probar el flujo desde una ubicación EEE/Reino Unido/Suiza. El código de anuncios ya no se carga en las páginas de política.
 3. **Completar el perfil de pagos solo con datos reales del titular.** El nombre legal, país, dirección postal, información fiscal y beneficiario deben coincidir con la cuenta y poder verificarse. Esta operación es manual y no debe pasar por el repositorio ni por Luna; consultar [perfil de pagos](https://support.google.com/adsense/answer/7363450?hl=es), [dirección válida](https://support.google.com/adsense/answer/13863682?hl=es) y [PIN](https://support.google.com/adsense/answer/157667?hl=es). Completarlo no garantiza aprobación editorial ni ingresos.
 4. **Configurar los bloques publicitarios después de la aprobación.** Los cinco `PUBLIC_ADSENSE_SLOT_*` están vacíos; por eso hoy se renderizan placeholders ocultos y no unidades de anuncio. El publisher ID se conserva en `ads.txt` y en el meta de verificación, mientras el runtime pesado de AdSense no se descarga sin un slot real. No inventar IDs: copiarlos desde AdSense y redeplegar.
-5. **Usar la medición sin sobreinterpretarla.** Search Console ya está conectado y la lectura autenticada más reciente (14/09, selector de 3 meses, datos visibles del 5–12/09) muestra 340 impresiones, 2 clics, CTR 0,6 % y posición media 12; el volumen es todavía demasiado pequeño para prometer crecimiento. Cloudflare aporta señales de entrega y experiencia, pero no sustituye Search Console, Analytics ni RPM. El detalle reproducible está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md`](docs/editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md).
+5. **Usar la medición sin sobreinterpretarla.** Search Console ya está conectado y la lectura autenticada más reciente (20/09, selector de 3 meses, datos visibles del 5–18/09) muestra 635 impresiones, 3 clics, CTR 0,5 % y posición media 13,4; el volumen es todavía demasiado pequeño para prometer crecimiento. Cloudflare aporta señales de entrega y experiencia, pero no sustituye Search Console, Analytics ni RPM. El detalle reproducible está en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](docs/editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md).
 6. **Reducir ruido de escaneo sin tocar contenido.** En la misma ventana aparecieron 337 solicitudes a `/wp-admin/install.php` y numerosos `wp-includes`, `xmlrpc.php` y `/.env.live`, todos inexistentes en este sitio Astro. El 12/09/2026 se validó en modo seco y se creó en el ruleset WAF personalizado de zona `1ca747d3ba174ff6b0208f21dc3df446` una regla de bloqueo estándar para cinco rutas exactas (`/wp-admin/install.php`, `/wp-login.php`, `/xmlrpc.php`, `/.env` y `/.env.live`). No afecta artículos, categorías, recursos ni imágenes; las cinco rutas responden 403 en producción. El ruleset administrado gratuito sigue activo.
 7. **Revisar JavaScript Detections de Cloudflare antes de cerrar el rendimiento.** La zona gratuita tiene `enable_js: true` y `fight_mode: false`; el script invisible de detección aparece en el laboratorio y añade latencia. Desactivarlo podría mejorar el primer render, pero es un cambio de seguridad que requiere decisión explícita y una nueva medición antes/después.
 
@@ -117,11 +117,26 @@ mayor exposición son `architeuthis dux` (26), `pulpo mimo` (15) y `geodinamo`
 las páginas observadas y los 44 recursos descubiertos en los dos sitemaps, está
 en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md`](docs/editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-14.md).
 
+**Refresco autenticado actual — 20 de septiembre de 2026.** Search Console
+ahora muestra 635 impresiones, 3 clics, CTR medio de 0,5 % y posición media
+13,4 en la ventana de tres meses. La cobertura agregada muestra 57 páginas
+indexadas y 28 sin indexar; de estas últimas, 25 son redirecciones, 2 son
+`noindex` intencionales y 1 está rastreada pero todavía sin indexar. Los dos
+sitemaps figuran como **Correcto**, con 44 páginas descubiertas cada uno. No
+hay datos de Core Web Vitals de campo. La lectura completa y sus límites están
+en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](docs/editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md).
+
 La inspección individual de `/correcciones/` devolvió «La URL no está en Google» y «Google no reconoce esta URL», sin rastreo ni sitemap de referencia. Se solicitó la indexación una sola vez y Search Console confirmó que la añadió a una cola de rastreo prioritaria; esta acción no garantiza inclusión ni posición.
 
 **Muestreo autenticado de inspección de URL — 13 de septiembre de 2026.** Se inspeccionaron la portada y cinco artículos prioritarios (`geodinamo`, `pulpo mimo`, relámpago del Catatumbo, tiburón de Groenlandia y leopardo de las nieves): **6/6** devolvieron «La URL está en Google» y «La página está indexada». Es una muestra representativa, no un reemplazo del informe de cobertura agregado, que todavía figura como «Se están procesando los datos».
 
-La configuración RUM asociada a Pages comenzó el 7 de septiembre y es la única que coincide con los tres hosts de producción. Se observan además tres configuraciones antiguas de auto-instalación; no se borraron porque la producción entrega un solo beacon y eliminarlas sería una acción destructiva sin beneficio demostrado. Conviene revisarlas en el panel cuando haya tiempo, manteniendo una sola configuración canónica.
+La configuración RUM asociada a Pages es la activa para la zona y mantiene el
+beacon de producción habilitado. La API actual no ofrece una serie numérica
+usable mediante el endpoint REST histórico: devuelve que Zone Analytics fue
+retirado en favor de GraphQL, y Speed API no tiene pruebas guardadas para esta
+zona. No se borraron configuraciones antiguas porque sería una acción
+destructiva sin beneficio demostrado. El detalle de esta lectura está en
+[`CLOUDFLARE_SNAPSHOT_2026-09-20.md`](docs/editorial/CLOUDFLARE_SNAPSHOT_2026-09-20.md).
 
 ## Prioridad media
 
@@ -306,7 +321,7 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - La medición Lighthouse pública más reciente (14/09/2026, emulación móvil) dio 93/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 1,7 s, LCP 2,8 s, CLS 0 y TBT 140 ms. Marcó como oportunidades sintéticas la entrega de imágenes de 1200 px en tarjetas de unos 378 px, la hoja CSS render-blocking, la caché de scripts gestionados y tres APIs obsoletas de JavaScript Detections. No se borraron imágenes ni se desactivó protección de Cloudflare; esta lectura no sustituye P75 de campo.
 - El seguimiento tras publicar variantes responsive (14/09/2026, una ejecución móvil) dio 99/100 en rendimiento, 100 en accesibilidad, 81 en buenas prácticas y 100 en SEO; FCP 1,0 s, LCP 1,7 s, CLS 0 y TBT 100 ms. Lighthouse descargó WebP de 800 px para las tarjetas visibles y no marcó bytes de imagen desperdiciados. Es una comparación sintética, no un P75 de campo; los originales siguen intactos.
 - La lectura pública posterior al preload de `albert-sans-latin-v2.woff2` (20/09/2026, una ejecución móvil) dio 93/100 en rendimiento, 100 en accesibilidad y 100 en SEO; FCP 1,4 s, LCP 2,7 s, CLS 0 y TBT 130 ms. La estimación de render-blocking bajó a 500 ms. La mejora se registra como evidencia de laboratorio y no como P75 de campo; el detalle está en [`Lighthouse_RUNTIME_SNAPSHOT_2026-09-20.md`](docs/editorial/Lighthouse_RUNTIME_SNAPSHOT_2026-09-20.md).
-- Pendiente de conexión externa: estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Search Console ya tiene una primera instantánea, pero la cobertura de indexación está procesándose y no hay datos de Core Web Vitals. Cloudflare tiene una instantánea API agregada; la cuenta conserva tres configuraciones RUM antiguas que requieren revisión manual antes de cualquier limpieza. La regla WAF de rutas exactas quedó activa y verificada en producción sin interferir con las rutas válidas.
+- Pendiente de conexión externa: estado final de CMP en AdSense, aprobación de cuenta y creación de slots. Search Console ya tiene una lectura autenticada actualizada: 635 impresiones, 3 clics, 57 páginas indexadas, 28 no indexadas y 44 URLs descubiertas por sitemap; todavía no hay datos de Core Web Vitals. Cloudflare mantiene RUM activo, pero la API REST histórica de Zone Analytics está retirada y no hay pruebas Speed API guardadas; el detalle está en [`CLOUDFLARE_SNAPSHOT_2026-09-20.md`](docs/editorial/CLOUDFLARE_SNAPSHOT_2026-09-20.md). La regla WAF de rutas exactas quedó activa y verificada en producción sin interferir con las rutas válidas.
 
 ## Apéndice: rutas representativas
 

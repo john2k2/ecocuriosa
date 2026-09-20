@@ -13,7 +13,7 @@ criterios de detención, está en
 | --- | ---: | ---: | --- |
 | SEO técnico / infraestructura | 87/100 → 92/100 | 92/100 sostenido | Sitemap y feed RSS enviados/revisados cuando corresponda, cero enlaces internos rotos, canonical consistente, datos estructurados válidos y P75 de Core Web Vitals comprobado con usuarios reales |
 | Diseño, navegación y móvil | Bueno | Excelente medible | Pruebas en móvil y escritorio de las rutas principales, teclado completo, contraste revisado y CLS estable antes/después de activar anuncios |
-| Indexación | Sitemap correcto; cobertura aún procesándose | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
+| Indexación | Sitemap correcto con 44 URLs descubiertas; 57 páginas indexadas y 28 sin indexar en la lectura del 20/09 | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
 | E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
 
@@ -27,13 +27,15 @@ activar anuncios.
 La evaluación independiente de Jev del 20/09 conserva una lectura ordinal
 separada de las métricas oficiales: la ronda por áreas dio SEO 2,32/4, diseño
 móvil 2,59/4, indexación 2,62/4, AdSense 1,12/4 y E‑E‑A‑T 0,80/4; la consulta
-global más reciente dio 1,78/4. Su prioridad elegida fue cerrar revisiones
-humanas E‑E‑A‑T (probabilidad 0,98); el recibo completo y sus límites están en
+actual específica de E‑E‑A‑T dio 1,93/4. Su prioridad elegida fue cerrar
+revisiones humanas E‑E‑A‑T (probabilidad 0,94); el recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
-lectura humana y 17/31 cuentan con fechas de acceso completas para sus fuentes.
+lectura humana y 28/31 cuentan con fechas de acceso completas para sus fuentes.
+El catálogo contiene 709 candidatas y existen 18 paquetes de contraste asistido;
+ninguno equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
@@ -43,9 +45,9 @@ canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
 10/10 sin incidencias; sigue siendo una prueba del artefacto estático, no de
 indexación ni de experiencia de campo.
 
-Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 107 URLs y los enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
+Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 115 URLs y los enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
-El control de metadatos también exige ahora una `accessedDate` por cada fuente de una ficha que ya declara `reviewedDate` y `reviewedBy`. En la lectura del 14/09/2026 hay fechas de acceso en 72/107 fuentes; las 35 restantes pertenecen a fichas pendientes y se completarán durante su revisión humana. La única ficha revisada (leopardo de las nieves) conserva fechas para sus 2/2 fuentes. Esta puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de acceso en prueba de exactitud ni marca revisiones por sí sola.
+El control de metadatos también exige ahora una `accessedDate` por cada fuente de una ficha que ya declara `reviewedDate` y `reviewedBy`. En la lectura actual hay fechas de acceso en 108/115 fuentes; las 7 restantes pertenecen a fichas pendientes y se completarán durante su revisión humana. La única ficha revisada (leopardo de las nieves) conserva fechas para sus 2/2 fuentes. Esta puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de acceso en prueba de exactitud ni marca revisiones por sí sola.
 
 El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. Las 32 WebP activas se sirven a un ancho mínimo de 1200 px desde las ilustraciones SVG originales, y el control `content:image-sitemap-audit` comprueba tanto la resolución como la alineación entre imagen declarada y URL cuando se agregue una ficha nueva.
 
@@ -101,9 +103,16 @@ estable en AI Overviews/AI Mode ni como tráfico o ingreso.
 
 **Reenvío autenticado (14/09/2026):** después de publicar `/correcciones/`, se reenvió `https://ecocuriosa.com/sitemap-index.xml`; Search Console lo muestra enviado y leído el 14/09, con estado **Correcto** y 44 URL descubiertas. El XML público contiene 44 URL; el conteo de descubiertas coincide, pero no se presenta como 44 indexadas hasta observar la cobertura agregada.
 
-**Muestreo de inspección de URL (13/09/2026):** portada y cinco artículos prioritarios inspeccionados en Search Console; 6/6 aparecen «en Google» y «la página está indexada». La cobertura agregada continúa procesándose, por lo que esta muestra no se extrapola a las 43 URL descubiertas. Core Web Vitals de campo sigue sin datos suficientes en móvil y escritorio.
+**Muestreo de inspección de URL (13/09/2026):** portada y cinco artículos prioritarios inspeccionados en Search Console; 6/6 aparecen «en Google» y «la página está indexada». La cobertura agregada ya muestra una lectura posterior: 57 páginas indexadas y 28 sin indexar, con 25 redirecciones, 2 `noindex` y 1 rastreada sin indexar. Core Web Vitals de campo sigue sin datos suficientes en móvil y escritorio.
 
-La lectura autenticada más reciente (13/09/2026) muestra como consultas con mayor exposición `architeuthis dux` (16 impresiones), `geodinamo` (14), `pulpo mimo` (13), `neuronas espejo bostezo` (3), `geodinamo terrestre` (2), `pez luciernaga` (2) y `relampago de catatumbo` (2). Por página, lideran la URL de geodinamo (27 impresiones), el calamar gigante (18), la guía de ebullición en altura (22 sumando sus variantes con y sin barra), el pulpo mimo (15) y el leopardo de las nieves (8). Las variantes sin barra devuelven 308 hacia la URL canónica; no se deben crear duplicados para ellas. El corte completo está fechado en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md).
+**Refresco autenticado de Search Console (20/09/2026):** la ventana nominal de
+tres meses muestra 635 impresiones, 3 clics, CTR 0,5 % y posición media 13,4.
+Los sitemaps siguen correctos con 44 páginas descubiertas y las consultas con
+más exposición son `architeuthis dux`, `geodinamo`, `pulpo mimo`, `architeuthis`,
+`leopardo de las nieves` y `geosmina y petricor`. La instantánea completa está
+en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md).
+
+La lectura autenticada histórica del 13/09/2026 muestra como consultas con mayor exposición `architeuthis dux` (16 impresiones), `geodinamo` (14), `pulpo mimo` (13), `neuronas espejo bostezo` (3), `geodinamo terrestre` (2), `pez luciernaga` (2) y `relampago de catatumbo` (2). Por página, lideran la URL de geodinamo (27 impresiones), el calamar gigante (18), la guía de ebullición en altura (22 sumando sus variantes con y sin barra), el pulpo mimo (15) y el leopardo de las nieves (8). Las variantes sin barra devuelven 308 hacia la URL canónica; no se deben crear duplicados para ellas. El corte completo está fechado en [`SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md`](editorial/SEARCH_CONSOLE_SNAPSHOT_2026-09-13.md).
 
 **Rendimiento de laboratorio (12/09/2026):** Lighthouse móvil contra producción pasó de 41/100 (FCP 4,4 s, LCP 7,8 s, TBT 670 ms) a una mediana actualizada de 98/100 en tres ejecuciones (92, 98 y 99; FCP mediano 1,1 s, LCP 1,9 s, CLS 0, TBT 130 ms), al evitar el runtime de AdSense cuando no hay slots, alojar las tipografías localmente y versionar sus nombres para invalidar la caché. SEO y accesibilidad quedaron en 100/100; Best Practices en 81/100 por tres avisos de APIs obsoletas emitidos por JavaScript Detections de Cloudflare. El control local alcanzó una mediana de 99/100 (FCP 1,5 s, LCP 2,1 s, CLS 0, TBT 0 ms). Son mediciones de laboratorio; el criterio de salida sigue siendo P75 de usuarios reales y no se desactivó ninguna protección de Cloudflare.
 
@@ -145,7 +154,7 @@ borradores Markdown locales (`elephant-social-knowledge` y
 `humanApproval: pending` y `publish: false`; no son artículos publicados ni
 cuentan como revisiones humanas.
 
-**Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 2 clics y una muestra de 340 impresiones, no es válido prometer crecimiento ni inferir RPM.
+**Decisión de contenido:** mejorar primero esas páginas con una respuesta de 40–80 palabras, una fuente primaria visible y un siguiente enlace interno. Los títulos largos ya fueron ajustados; los extractos se cambiarán solo con una hipótesis basada en datos. Solo abrir una URL nueva si, después de la revisión y una nueva lectura de Search Console, la pregunta sigue sin respuesta. Con 3 clics y una muestra de 635 impresiones, no es válido prometer crecimiento ni inferir RPM.
 
 Las siete páginas prioritarias también tienen ahora dos enlaces contextuales dentro del cuerpo, además de las tarjetas relacionadas; los 31 artículos pendientes acercan al menos un enlace directo a una afirmación concreta. El enlazado interno adicional se añadirá solo cuando el editor confirme que el destino aporta contexto y no canibaliza la consulta.
 
@@ -155,7 +164,7 @@ Los paquetes de contraste asistido se validan con
 `pnpm content:assisted-review-audit`; el control exige `decision: pending` y
 rechaza fechas o responsables humanos introducidos por automatización.
 
-Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 17/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes. El paquete de contraste de ballena azul quedó preparado, pero sigue pendiente de confirmación editorial pública.
+Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 28/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes. El paquete de contraste de ballena azul quedó preparado, pero sigue pendiente de confirmación editorial pública.
 
 ## Secuencia de 30 días
 

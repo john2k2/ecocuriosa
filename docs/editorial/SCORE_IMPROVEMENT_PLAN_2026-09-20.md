@@ -11,7 +11,7 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | --- | --- | --- |
 | SEO técnico / infraestructura | Build de 46 páginas; 0 enlaces internos rotos; 32/32 artículos en sitemap; Lighthouse de laboratorio alto | Falta P75 de campo y una comparación estable con usuarios reales |
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
-| Indexación | 44 URLs públicas en sitemap; rutas y canonicals controlados; muestras anteriores indexadas | Search Console todavía no prueba cobertura completa de las 44 URLs |
+| Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
 | E‑E‑A‑T | 709 fuentes candidatas en catálogo; 18 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
@@ -86,7 +86,12 @@ Puerta de salida:
 - todas las URLs P0 tienen canonical y sitemap correctos;
 - no se crean páginas para variantes ortográficas o consultas casi idénticas;
 - los cambios de título se evalúan con una ventana comparable, no con una sola
-   impresión.
+  impresión.
+
+La lectura autenticada del 20/09 está documentada en
+[`SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md`](./SEARCH_CONSOLE_SNAPSHOT_2026-09-20.md)
+y la lectura de infraestructura en
+[`CLOUDFLARE_SNAPSHOT_2026-09-20.md`](./CLOUDFLARE_SNAPSHOT_2026-09-20.md).
 
 ### 4. AdSense y monetización — objetivo interno: listo después de aprobación
 
