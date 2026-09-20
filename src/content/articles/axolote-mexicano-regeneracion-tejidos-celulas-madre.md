@@ -26,25 +26,31 @@ sources:
     accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Evidencia experimental sobre el blastema y la regeneración de extremidades"
-  - title: "Axolotl conservation and population context"
-    publisher: "Peer-reviewed literature / PubMed Central"
+  - title: "Single-cell transcriptomics uncovers molecular funneling of cell identities during axolotl limb regeneration"
+    publisher: "Science / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/"
     accessedDate: 2026-09-20
-    evidenceType: "review"
-    scope: "Contexto de conservación y amenazas de la población silvestre"
-  - title: "Allometric scaling of axolotl limb regeneration"
-    publisher: "Developmental Dynamics / PubMed"
+    evidenceType: "primary"
+    scope: "Rastreo de linajes y estados celulares durante la formación del blastema; no es una fuente de abundancia ni conservación"
+  - title: "Levantan nuevo censo del axolote en Xochimilco"
+    publisher: "Gaceta UNAM"
+    url: "https://www.gaceta.unam.mx/levantan-nuevo-censo-del-axolote-en-xochimilco/"
+    accessedDate: 2026-09-20
+    evidenceType: "institutional"
+    scope: "Contexto del censo 2024, amenazas y carácter preliminar de sus resultados; no sustituye el informe técnico ni una cifra actual permanente"
+  - title: "Allometry in limb regeneration and scale-invariant patterning as the basis of normal morphogenesis from different sizes of blastemas"
+    publisher: "Development / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/39344771/"
     accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Escalamiento del blastema y señales Shh/Fgf8 durante la regeneración de extremidades; no permite promesas de regeneración humana"
-  - title: "mTORC1 and translational remodeling after axolotl injury"
-    publisher: "Nature Communications / PubMed"
+  - title: "Evolutionarily divergent mTOR remodels translatome for tissue regeneration"
+    publisher: "Nature / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/37495694/"
     accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Activación de traducción y mTORC1 en respuesta a lesión en el modelo de axolote; no es tratamiento clínico"
-  - title: "Single-cell and spatial atlas of axolotl limb regeneration"
+  - title: "Multi-species atlas resolves an axolotl limb development and regeneration paradox"
     publisher: "Nature Communications"
     url: "https://doi.org/10.1038/s41467-023-41944-w"
     accessedDate: 2026-09-20
@@ -116,7 +122,7 @@ El genoma del axolote, de gran tamaño, es una herramienta para estudiar genes y
 
 ### ¿Cuál es la situación actual del axolote en su hábitat natural?
 
-Críticamente amenazado. La [literatura de conservación disponible](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/) documenta amenazas como la contaminación del agua en Xochimilco, la desecación de canales y la introducción de peces exóticos depredadores como la carpa y la tilapia. Las densidades publicadas dependen del año, la zona muestreada y el método, así que cualquier cifra debe llevar fecha y fuente en lugar de presentarse como un valor actual único.
+La población silvestre enfrenta una situación crítica. El [reportaje de Gaceta UNAM sobre el censo de Xochimilco](https://www.gaceta.unam.mx/levantan-nuevo-censo-del-axolote-en-xochimilco/) documenta amenazas como la calidad del agua, la urbanización y la introducción de tilapias y carpas, pero también deja claro que el muestreo de 2024 era una fase de un censo y que sus resultados todavía debían analizarse. Las densidades publicadas dependen del año, la zona muestreada y el método, así que cualquier cifra debe llevar fecha y fuente en lugar de presentarse como un valor actual único.
 
 Un comunicado de la [UNAM sobre un censo en Xochimilco](https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html) ayuda a documentar el contexto local, pero debe leerse como comunicación institucional: el método, la incertidumbre y el año importan, y no reemplaza un informe técnico de monitoreo.
 
@@ -129,8 +135,9 @@ El axolote es un modelo excepcional para estudiar regeneración en tetrápodos, 
 ### Referencias y Literatura Científica Consultada
 - [The axolotl genome and the evolution of key tissue formation regulators](https://www.nature.com/articles/nature25458) — *Nature*; genoma y reguladores de desarrollo.
 - [The axolotl limb blastema](https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/) — *Regeneration* / PubMed Central; evidencia experimental del blastema.
-- [Axolotl conservation and population context](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/) — literatura revisada por pares / PubMed Central; conservación y amenazas.
-- [Allometric scaling of axolotl limb regeneration](https://pubmed.ncbi.nlm.nih.gov/39344771/) — *Developmental Dynamics* / PubMed; escalamiento del blastema y señales de desarrollo.
-- [mTORC1 and translational remodeling after axolotl injury](https://pubmed.ncbi.nlm.nih.gov/37495694/) — *Nature Communications* / PubMed; respuesta molecular a lesión.
-- [Single-cell and spatial atlas of axolotl limb regeneration](https://doi.org/10.1038/s41467-023-41944-w) — *Nature Communications*; atlas celular y espacial.
+- [Single-cell transcriptomics uncovers molecular funneling of cell identities during axolotl limb regeneration](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/) — *Science* / PubMed Central; rastreo de linajes y estados celulares del blastema, no conservación.
+- [Levantan nuevo censo del axolote en Xochimilco](https://www.gaceta.unam.mx/levantan-nuevo-censo-del-axolote-en-xochimilco/) — *Gaceta UNAM*; amenazas y contexto preliminar del monitoreo silvestre.
+- [Allometry in limb regeneration and scale-invariant patterning as the basis of normal morphogenesis from different sizes of blastemas](https://pubmed.ncbi.nlm.nih.gov/39344771/) — *Development* / PubMed; escalamiento del blastema y señales de desarrollo.
+- [Evolutionarily divergent mTOR remodels translatome for tissue regeneration](https://pubmed.ncbi.nlm.nih.gov/37495694/) — *Nature* / PubMed; respuesta molecular a lesión.
+- [Multi-species atlas resolves an axolotl limb development and regeneration paradox](https://doi.org/10.1038/s41467-023-41944-w) — *Nature Communications*; atlas celular y espacial.
 - [Censo de ajolote en Xochimilco](https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html) — UNAM; comunicado institucional y contexto de monitoreo.

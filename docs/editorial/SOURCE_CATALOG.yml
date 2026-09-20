@@ -333,10 +333,10 @@ entries:
     use: narwhal tooth variation and the limits of frequency claims
   - id: axolotl-population-context
     authority: PubMed Central
-    domain: conservation
+    domain: axolotl-regeneration
     evidenceType: peer-reviewed-primary
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/
-    use: dated population and habitat context for wild axolotl claims
+    use: single-cell lineage tracing and blastema cell-state transitions; do not use for abundance, habitat or conservation claims
   - id: web-vitals-thresholds
     authority: web.dev
     domain: performance
@@ -4342,6 +4342,12 @@ entries:
     evidenceType: institutional-news
     url: https://www.dgcs.unam.mx/boletin/bdboletin/2024_847.html
     use: candidato para el censo de ajolote en Xochimilco y el contexto de conservación; usar como comunicado institucional y no como sustituto del informe técnico
+  - id: ec-unam-gaceta-axolotl-census-2024
+    authority: Gaceta UNAM
+    domain: axolotl-conservation
+    evidenceType: institutional-news
+    url: https://www.gaceta.unam.mx/levantan-nuevo-censo-del-axolote-en-xochimilco/
+    use: contexto del censo 2024, amenazas y carácter preliminar de sus resultados; no convertirlo en una cifra actual permanente
   - id: ec-coral-symbiont-starvation-2022
     authority: Frontiers in Marine Science
     domain: coral-symbiosis

@@ -359,3 +359,25 @@ La distribución fue 0: 5 %, 1: 39 %, 2: 47 %, 3: 8 % y 4: 1 %. Jev devolvió
 `model: jev-1.13.0`, `advisory_only: true` y 671 tokens de entrada/69 de salida.
 La recomendación no autoriza publicar, rellenar `reviewedDate`/`reviewedBy` ni
 activar anuncios.
+
+## Reevaluación específica del ajolote tras corregir el alcance de las fuentes — 20/09/2026
+
+Se volvió a consultar Jev únicamente para el artículo del ajolote después de
+corregir un desajuste material: PMC6669047 es un estudio primario de *Science*
+sobre linajes celulares del blastema, no una fuente de conservación. Se añadió
+un reportaje de Gaceta UNAM para el censo de Xochimilco y se conservaron las
+advertencias de alcance, incertidumbre y no extrapolación clínica. Las
+auditorías quedaron verdes: 749 entradas de catálogo; 146/146 fuentes visibles
+y enlazadas en el HTML; metadatos y enlaces sin incidencias; `astro check` sin
+errores; build de 46 páginas.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial del artículo del ajolote | **1,98/4** | 0,98 | Alineación técnica fuerte después de la corrección, pero todavía falta abrir y revisar humanamente las afirmaciones y la procedencia/licencia de la imagen. |
+| Siguiente puerta | **human** (1,00) | 1,00 | Hacer revisión humana final; no publicar ni cambiar `pending` por la sola evaluación de Jev. |
+
+La distribución del score fue 0: 0 %, 1: 2 %, 2: 98 %, 3: 0 % y 4: 0 %. Jev
+devolvió `model: jev-1.13.0` y `advisory_only: true`; es una segunda opinión
+acotada, no una comprobación de Google, AdSense, Search Console o Cloudflare.
+El resultado no autoriza publicación ni convierte el contraste asistido en una
+firma editorial humana.
