@@ -488,3 +488,24 @@ convierten ninguna de las 31 fichas pendientes en revisada. El último resultado
 Jev exitoso sigue siendo **1,73/4** sobre el estado de 809 candidatas; la nueva
 ronda debe interpretarse como ampliación del catálogo, no como una medición Jev
 nueva.
+
+## Consulta acotada del estado vigente — 20/09/2026
+
+Se hizo una nueva consulta MCP con el estado verificable vigente (819 entradas
+de catálogo, 32 artículos, 31 pendientes de revisión humana, auditorías
+técnicas en verde, 74 imágenes con nombre accesible y la instantánea de Search
+Console disponible). Esta consulta no intenta comparar una escala distinta con
+las anteriores ni atribuirle a Jev acceso a Google, Cloudflare o AdSense.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial y de confianza para solicitar revisión de AdSense | **1,03/4** | 0,70 | La base técnica existe, pero la evidencia editorial humana pendiente sigue siendo el bloqueo principal. |
+| Próxima acción | **human_review** (0,98) | 0,98 | Completar las revisiones humanas, empezando por los 9 artículos de mayor riesgo, y ejecutar la auditoría estricta. |
+
+La distribución de la pregunta de preparación fue 1: 70 %, 2: 16 %, 0: 14 %
+y 3: 0 % (la API devolvió las categorías como índices 0–3 de una escala
+etiquetada 1–4). Para la decisión de siguiente acción, `human_review` recibió
+0,98; `indexation`, 0,02; `adsense_code` y `volume`, 0. El resultado es
+`advisory_only`, modelo `jev-1.13.0`, con 1.093 tokens de entrada y 69 de
+salida. No demuestra aprobación de AdSense, ranking, tráfico, ingresos ni CWV
+de campo. Las 819 fuentes son candidatas de investigación y no firmas humanas.

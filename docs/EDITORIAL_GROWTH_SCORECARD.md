@@ -63,6 +63,15 @@ equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
+La consulta Jev acotada al estado vigente del mismo día dio **1,03/4** (confianza
+0,70) para preparación editorial y de confianza, y eligió `human_review` como
+siguiente acción con probabilidad **0,98** (confianza 0,98). Es una pregunta y
+una escala distintas de las rondas históricas, por lo que no se presenta como
+una caída o mejora temporal. La recomendación coincide con la evidencia local:
+cerrar la revisión humana antes de escalar volumen, perseguir monetización o
+automatizar publicaciones. Jev es consultivo y no sustituye la verificación en
+Search Console, Cloudflare, AdSense ni la lectura humana de las fuentes.
+
 La nueva auditoría `pnpm content:rendered-parity` comprueba diez rutas
 representativas del HTML generado y exige título, H1, cuerpo, enlaces,
 canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
