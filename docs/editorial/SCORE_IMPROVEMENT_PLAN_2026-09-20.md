@@ -13,13 +13,14 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 733 fuentes candidatas en catálogo; 18 paquetes de contraste asistido; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 733 fuentes candidatas en catálogo; 4 briefs Luna válidos con publicación bloqueada; 1/32 revisiones humanas cerradas | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
-La consulta independiente más reciente de Jev dio **1,93/4** para preparación
-global (las rondas previas dieron 1,79/4 y 1,69/4) y eligió cerrar primero las
-revisiones humanas. La variación es una reponderación del estado —ahora se
-explicita que solo 1/32 artículos tiene firma humana—, no una regresión medida
-del código: las auditorías y el build siguen pasando. La decisión se conserva como señal consultiva en
+La consulta independiente más reciente de Jev dio **2,01/4** para preparación
+editorial verificable y eligió cerrar primero las revisiones humanas (96 % de
+probabilidad). Las rondas previas dieron 2,08/4 y 2,62/4; la variación es una
+reponderación del estado —ahora se explicita que solo 1/32 artículos tiene firma
+humana—, no una regresión medida del código: las auditorías y el build siguen
+pasando. La decisión se conserva como señal consultiva en
 [`JEV_REVIEW_2026-09-20.md`](./JEV_REVIEW_2026-09-20.md), no como una medición
 externa.
 
