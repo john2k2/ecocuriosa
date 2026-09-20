@@ -1,12 +1,12 @@
 # Prechequeo de la cola editorial
 
-Generado desde el repositorio el 2026-09-14. Hay **31 revisiones pendientes** de 32 artículos; este documento ordena señales estáticas y acciones sugeridas, pero no registra una aprobación humana.
+Generado desde el repositorio el 2026-09-20. Hay **31 revisiones pendientes** de 32 artículos; este documento ordena señales estáticas y acciones sugeridas, pero no registra una aprobación humana.
 
 ## Resumen
 
 - Revisiones registradas: 1/32.
 - Evidencia enlazada dentro del cuerpo: 31/31 pendientes.
-- Fechas de acceso completas: 16/31 pendientes.
+- Fechas de acceso completas: 17/31 pendientes.
 - Derechos de imagen completos o declarados originales: 31/31 pendientes.
 - Artículos con señales de riesgo que requieren lectura humana: 22/31.
 - Orden de trabajo: 9 de alto riesgo, 9 de cifras/alcance, 9 de método/contexto y 4 de cierre.
@@ -20,8 +20,8 @@ Generado desde el repositorio el 2026-09-14. Hay **31 revisiones pendientes** de
 
 | Prioridad | Artículo | Fuentes | Acceso | Citas en cuerpo | Enlaces propios | Señales | Imagen/derechos | Acción inmediata |
 | ---: | --- | ---: | ---: | ---: | ---: | --- | --- | --- |
-| 1 · alto riesgo | [`arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento`](../../src/content/articles/arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento.md) | 3 | 0/3 | 5 | 0 | conservación o amenaza | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
-| 1 · alto riesgo | [`ballena-azul-fisiologia-gigante-cardiovascular`](../../src/content/articles/ballena-azul-fisiologia-gigante-cardiovascular.md) | 2 | 0/2 | 3 | 0 | cifras/medidas, absolutos o récords | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
+| 1 · alto riesgo | [`arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento`](../../src/content/articles/arrecifes-de-coral-simbiosis-zooxantelas-blanqueamiento.md) | 5 | 2/5 | 5 | 0 | cifras/medidas, conservación o amenaza | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
+| 1 · alto riesgo | [`ballena-azul-fisiologia-gigante-cardiovascular`](../../src/content/articles/ballena-azul-fisiologia-gigante-cardiovascular.md) | 2 | 2/2 | 3 | 0 | cifras/medidas, absolutos o récords | completa/original | Revisar cada número o superlativo con alcance, muestra, fecha y una cautela visible. |
 | 1 · alto riesgo | [`calentamiento-estratosferico-repentino-vortice-polar`](../../src/content/articles/calentamiento-estratosferico-repentino-vortice-polar.md) | 2 | 0/2 | 4 | 0 | — | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
 | 1 · alto riesgo | [`manta-raya-gigante-inteligencia-cerebro-peces`](../../src/content/articles/manta-raya-gigante-inteligencia-cerebro-peces.md) | 3 | 1/3 | 4 | 2 | cifras/medidas, conservación o amenaza | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
 | 1 · alto riesgo | [`memoria-elefante-africano-estructura-cerebral`](../../src/content/articles/memoria-elefante-africano-estructura-cerebral.md) | 5 | 1/5 | 2 | 0 | cifras/medidas, conservación o amenaza | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
@@ -30,7 +30,7 @@ Generado desde el repositorio el 2026-09-14. Hay **31 revisiones pendientes** de
 | 1 · alto riesgo | [`pez-abrecaminos-bioluminiscencia-pez-linterna`](../../src/content/articles/pez-abrecaminos-bioluminiscencia-pez-linterna.md) | 5 | 5/5 | 5 | 0 | — | completa/original | Comprobar si hay una relación editorial útil para enlazar a otra página propia, sin forzar enlaces. |
 | 1 · alto riesgo | [`vuelo-silencioso-buho-real-aerodinamica`](../../src/content/articles/vuelo-silencioso-buho-real-aerodinamica.md) | 3 | 2/3 | 3 | 0 | — | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
 | 2 · cifras y alcance | [`agujeros-azules-oceano-sinkholes-formacion-geologica`](../../src/content/articles/agujeros-azules-oceano-sinkholes-formacion-geologica.md) | 4 | 4/4 | 10 | 0 | absolutos o récords | completa/original | Revisar cada número o superlativo con alcance, muestra, fecha y una cautela visible. |
-| 2 · cifras y alcance | [`calamar-gigante-architeuthis-dux-bioluminiscencia`](../../src/content/articles/calamar-gigante-architeuthis-dux-bioluminiscencia.md) | 4 | 4/4 | 6 | 0 | cifras/medidas, absolutos o récords, conservación o amenaza | completa/original | Revisar cada número o superlativo con alcance, muestra, fecha y una cautela visible. |
+| 2 · cifras y alcance | [`calamar-gigante-architeuthis-dux-bioluminiscencia`](../../src/content/articles/calamar-gigante-architeuthis-dux-bioluminiscencia.md) | 6 | 6/6 | 10 | 0 | cifras/medidas, absolutos o récords, conservación o amenaza | completa/original | Revisar cada número o superlativo con alcance, muestra, fecha y una cautela visible. |
 | 2 · cifras y alcance | [`como-funciona-el-campo-magnetico-de-la-tierra-geodinamo`](../../src/content/articles/como-funciona-el-campo-magnetico-de-la-tierra-geodinamo.md) | 5 | 3/5 | 7 | 2 | cifras/medidas | completa/original | Registrar la fecha real de acceso de cada fuente durante la revisión. |
 | 2 · cifras y alcance | [`geco-adherencia-van-der-waals-fuerzas-microscopicas`](../../src/content/articles/geco-adherencia-van-der-waals-fuerzas-microscopicas.md) | 3 | 3/3 | 2 | 0 | salud o sanación | completa/original | Eliminar promesas de salud o convertirlas en una descripción limitada de la evidencia. |
 | 2 · cifras y alcance | [`mar-de-ardora-bioluminiscencia-noctiluca-scintillans`](../../src/content/articles/mar-de-ardora-bioluminiscencia-noctiluca-scintillans.md) | 4 | 4/4 | 8 | 0 | conservación o amenaza | completa/original | Separar estado de conservación, población y amenazas por lugar, especie y fecha. |
