@@ -1,6 +1,6 @@
 # Biblioteca de inspiración editorial y fuentes primarias
 
-**Versión:** 14 de septiembre de 2026
+**Versión:** 20 de septiembre de 2026
 **Propósito:** convertir investigación pública y confiable en briefs originales para EcoCuriosa, sin copiar artículos ni publicar automáticamente.
 
 Esta biblioteca no es una cola de publicaciones ni una bibliografía universal. Cada ficha es una **oportunidad de investigación**: antes de redactar, el editor debe abrir la fuente, comprobar su fecha y alcance, localizar el estudio o conjunto de datos que respalda cada afirmación y registrar las URLs concretas en el frontmatter del artículo.
@@ -929,8 +929,8 @@ excluyó las fuentes ya presentes. Estas doce entradas son candidatas de proceso
 incorporan para inspirar controles y nuevas editoriales, no como citas
 automáticas ni como prueba de aprobación de AdSense.
 
-El catálogo verificable al cierre de esta ronda contiene **592 entradas**; el
-número anterior se conserva como contexto histórico de esa búsqueda.
+El snapshot histórico de esa ronda contenía **592 entradas**; el catálogo
+actual, después de las ampliaciones temáticas, contiene **605 entradas**.
 
 | Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
 | --- | --- | --- | --- |
@@ -1013,3 +1013,43 @@ autores, roles, ORCID, guías de reporte o DOI.
 
 Estos campos deben bloquear el borrador si están vacíos en una pieza de alto
 riesgo, pero no deben marcar una revisión ni publicar por sí solos.
+
+### Fuentes primarias temáticas adicionales — 20 de septiembre de 2026
+
+Se añadieron tres registros no duplicados para reforzar artículos que todavía
+requieren revisión humana. Son pistas de investigación y no citas automáticas:
+
+| Clúster | Fuente | Uso editorial posible | Límite que debe conservarse |
+| --- | --- | --- | --- |
+| Rayas de cebras | [Zebras of all stripes repel biting flies at close range](https://pmc.ncbi.nlm.nih.gov/articles/PMC9633588/) | Comparar pelajes de cebra e impala en experimentos de campo y explicar que el efecto observado fue de repulsión a corta distancia | El experimento no resuelve toda la evolución del patrón ni prueba termorregulación; conservar especies, pelajes y distancia del ensayo |
+| Narval | [Sensory ability in the narwhal tooth organ system](https://pubmed.ncbi.nlm.nih.gov/24639076/) | Describir la evidencia anatómica de sensibilidad del colmillo mediante túbulos dentinarios y conexión nerviosa | Evidencia anatómica no equivale a demostrar una función ecológica universal ni una “antena” consciente |
+| Axolote | [A tissue-mapped axolotl de novo transcriptome enables identification of limb regeneration factors](https://pmc.ncbi.nlm.nih.gov/articles/PMC5419050/) | Presentar el transcriptoma y genes enriquecidos en blastema como recurso para estudiar regeneración | Un recurso molecular no explica por sí solo todo el mecanismo ni autoriza promesas de regeneración humana |
+
+La primera ampliación temática intermedia dejó el catálogo en **595 entradas**;
+la tanda de Luna que sigue lo lleva a 605. Antes de usar una
+de estas fuentes, abrir el registro, comprobar autores, fecha, muestra, licencia
+o estado bibliográfico y registrar la afirmación exacta que respalda.
+
+### Búsqueda temática de Luna Max — diez candidatas primarias adicionales
+
+La búsqueda enfocada comparó las URLs contra el catálogo vigente y devolvió diez
+fuentes no duplicadas. Se agregan como inspiración para briefs, no como
+validación editorial ni permiso de publicación:
+
+| Clúster | Fuente | Brief o afirmación posible | Acceso/licencia | Límite de evidencia |
+| --- | --- | --- | --- | --- |
+| Axolote | [Nature Communications — retinoic acid breakdown](https://www.nature.com/articles/s41467-025-59497-5) | Papel experimental de CYP26B1 en identidad proximodistal durante regeneración | Open Access; revisar licencia de figuras | Modelo de axolote; no regeneración humana |
+| Leopardo de las nieves | [PLOS ONE — spatial variation in population density](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250900) | Densidad espacial, hábitat y presión humana en Spiti | CC BY; datos Dryad enlazados | Paisaje y periodo concretos; no extrapolar a toda la especie |
+| Pangolín | [IUCN — reporting gaps](https://iucn.org/press-release/202508/lack-data-and-reporting-gaps-hamper-global-efforts-protect-pangolins) | Vacíos de datos poblacionales y reporte de las ocho especies | Página pública institucional; enlazar sin copiar materiales | Resumen oficial, no censo ni evaluación taxonómica específica |
+| Manta de arrecife | [PLOS ONE — movement and residency](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344615) | Residencia y plasticidad conductual de diez mantas con seguimiento satelital | CC BY; datos en artículo/suplemento | Samarai Islands y dos periodos monzónicos |
+| Narval | [Frontiers — hunting by the stroke](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.596469/full) | Inmersiones profundas y señales acústicas de forrajeo en 13 individuos | CC BY | Región y muestra etiquetada; buzz no equivale a captura observada |
+| *Noctiluca* | [Frontiers — sexual reproduction in dinoflagellates](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.704398/full) | Relación experimental entre disponibilidad de presas y reproducción sexual | CC BY | Cultivo de laboratorio; no explicar todas las floraciones naturales |
+| Geodinamo | [AGU — scaling of strong-field spherical dynamos](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL118078) | Simulaciones y balances de fuerzas en dínamos esféricos | Open Access; confirmar licencia del artículo | Parámetros idealizados, no medición directa del núcleo |
+| Geosmina | [Water Research — cyanotoxins and taste/odor compounds](https://doi.org/10.1016/j.watres.2024.121357) | Factores ambientales de geosmina en algas bentónicas y ríos alterados | Acceso abierto según metadatos; comprobar PDF | Ríos y algas concretos, no explicación total del petricor |
+| Gecko | [Scientific Reports — surface chemistry of toe pads](https://pmc.ncbi.nlm.nih.gov/articles/PMC4200409/) | Efecto de química superficial y humectación en adhesión | PMC; revisar CC BY-NC-ND antes de reutilizar | Mudas y superficies de laboratorio; no todos los geckos |
+| Coral | [Scientific Reports — coral restoration and reef accretion](https://pmc.ncbi.nlm.nih.gov/articles/PMC12322247/) | Restauración de *Acropora cervicornis* y acreción en Florida | CC BY; datos USGS enlazados | Transectos locales; no éxito global de restauración |
+
+Con esta tanda, el catálogo verificable queda en **605 entradas**. Antes de
+convertir cualquiera en fuente de publicación hay que abrir el texto completo,
+registrar DOI/PMID o identificador, fecha de consulta, licencia, muestra,
+ubicación y una frase explícita de lo que no debe afirmarse.

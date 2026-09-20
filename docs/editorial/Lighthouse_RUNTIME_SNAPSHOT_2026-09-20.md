@@ -21,6 +21,44 @@ CrUX, RUM o Search Console.
 | Cumulative Layout Shift | 0 | 0 | Sin desplazamiento detectable |
 | Speed Index | 4,1 s | 4,7 s | Mejora moderada |
 
+## Repetición contra el despliegue actual
+
+Se repitió Lighthouse CLI `13.5.0` contra `https://ecocuriosa.com/` después
+del despliegue Cloudflare Pages `63c93bd4-6403-45dc-aa82-e8040afefb3e`, generado
+desde el commit `1d1ada6`. Esta ejecución es una comprobación de laboratorio
+independiente; no reemplaza el P75 de CrUX/RUM ni una medición de Search
+Console.
+
+| Señal | Lectura actual | Interpretación |
+| --- | ---: | --- |
+| Performance | **97/100** | Laboratorio fuerte; repetir en rutas y condiciones distintas antes de llamarlo tendencia |
+| Accessibility | **100/100** | Sin auditorías Lighthouse fallidas en la portada |
+| SEO | **100/100** | Sin auditorías Lighthouse fallidas en la portada |
+| First Contentful Paint | 1,0 s | Buena lectura de laboratorio |
+| Largest Contentful Paint | 2,2 s | Dentro del umbral de laboratorio recomendado; confirmar en campo |
+| Total Blocking Time | 140 ms | Por debajo del umbral de laboratorio usado como proxy de interactividad |
+| Cumulative Layout Shift | 0 | Sin desplazamiento detectado |
+| Speed Index | 1,0 s | Buena lectura de laboratorio |
+| Respuesta inicial | 45 ms | Sin latencia de servidor relevante en esta ejecución |
+
+### Hallazgos que sí justifican seguimiento
+
+- La hoja CSS principal (`7,8 KiB` transferidos) quedó como recurso
+  render-blocking, con un ahorro estimado de aproximadamente `140 ms`. No se
+  convierte todavía en cambio: hay que comparar una variante con CSS crítico
+  inline contra la versión actual y conservar la que no introduzca FOUC ni una
+  regresión visual.
+- La cadena más larga observada fue documento → CSS → fuente cursiva, de unos
+  `224 ms`. Las fuentes principales ya tienen preload; la siguiente prueba debe
+  medir si la variante cursiva realmente aparece en el primer viewport antes de
+  añadir otra pista de precarga.
+- El trace observó trabajo de scripts de Cloudflare (`challenge-platform`) y
+  del beacon de Web Analytics. Son dependencias externas: no se deben eliminar
+  sin comprobar la política de seguridad, bot protection y consentimiento.
+- La entrega de imágenes no mostró ahorro estimado en esta ejecución. Las
+  variantes WebP siguen cacheadas y no hay justificación para eliminar activos
+  originales.
+
 ## Cambio validado
 
 Se añadió un `preload` para `albert-sans-latin-v2.woff2`, además del preload

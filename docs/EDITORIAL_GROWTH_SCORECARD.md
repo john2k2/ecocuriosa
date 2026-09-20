@@ -269,11 +269,12 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El conteo verificable del catálogo en esta revisión es **592 entradas**; las
+El conteo verificable del catálogo en la revisión anterior era **592 entradas**;
+la ampliación temática del 20/09 lo deja en **605 entradas**. Las
 referencias históricas de este párrafo conservan el estado que tenían cuando se
 escribieron.
 
-El catálogo actual contiene **592 entradas** y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene **605 entradas** y la biblioteca 130 briefs u oportunidades candidatas. Además de las rondas anteriores de controles técnicos y autoridad, la última búsqueda de Luna añadió diez fuentes primarias no duplicadas para axolote, leopardo de las nieves, pangolín, mantas, narval, *Noctiluca*, geodinamo, geosmina, gecko y coral; esta ampliación añadió tres fuentes para cebras, narval y axolote. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

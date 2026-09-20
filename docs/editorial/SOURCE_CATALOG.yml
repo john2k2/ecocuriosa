@@ -3584,3 +3584,81 @@ entries:
     evidenceType: official-guidance
     url: https://pubmed.ncbi.nlm.nih.gov/help/
     use: registrar PMID/DOI, fecha de consulta, corrección/retractación/expresión de preocupación, COI y AUID cuando aparezcan; ausencia de marca no prueba ausencia de conflicto
+  - id: pmc-zebra-stripes-close-range-flies-9633588
+    authority: Proceedings of the Royal Society B / PubMed Central
+    domain: zebra-stripes
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9633588/
+    use: comparar pelajes de cebra e impala en experimentos de campo y mantener que la repulsión de moscas se observó a corta distancia; no convertir el resultado en una explicación única de toda la evolución del patrón
+  - id: pubmed-narwhal-tusk-sensory-24639076
+    authority: The Anatomical Record / PubMed
+    domain: narwhal-sensory-biology
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/24639076/
+    use: respaldar la hipótesis de sensibilidad del colmillo de narval mediante túbulos dentinarios y conexión nerviosa descrita en el estudio; separar evidencia anatómica de función ecológica general
+  - id: pmc-axolotl-transcriptome-5419050
+    authority: Cell Reports / PubMed Central
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5419050/
+    use: contextualizar el transcriptoma de novo y genes enriquecidos en blastema; conservar que es un recurso molecular y no una explicación completa ni una promesa de regeneración humana
+  - id: nature-axolotl-retinoic-acid-breakdown-59497-5
+    authority: Nature Communications / Springer Nature
+    domain: axolotl-regeneration
+    evidenceType: peer-reviewed-primary
+    url: https://www.nature.com/articles/s41467-025-59497-5
+    use: examinar el papel experimental de CYP26B1 y la degradación de ácido retinoico en la identidad proximodistal durante la regeneración del axolote; no extrapolar a regeneración humana ni reutilizar figuras sin comprobar la licencia
+  - id: plos-snow-leopard-density-spiti-0250900
+    authority: PLOS ONE
+    domain: snow-leopard-conservation
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250900
+    use: estudiar variación espacial de densidad y relación entre hábitat, uso humano y conservación en Spiti; conservar paisaje, periodo y datos Dryad, sin extrapolar a toda la cordillera
+  - id: iucn-pangolin-reporting-gaps-2025
+    authority: IUCN
+    domain: pangolin-conservation
+    evidenceType: official-research-summary
+    url: https://iucn.org/press-release/202508/lack-data-and-reporting-gaps-hamper-global-efforts-protect-pangolins
+    use: contextualizar vacíos de estimaciones poblacionales y reporte de las ocho especies reconocidas; enlazar y resumir sin copiar texto o fotografías sin licencia
+  - id: plos-reef-manta-movement-0344615
+    authority: PLOS ONE
+    domain: manta-ray-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344615
+    use: analizar seguimiento satelital de diez mantas de arrecife en Samarai Islands, residencia y desplazamientos; no convertir dos periodos monzónicos en regla global
+  - id: frontiers-narwhal-foraging-strokes-596469
+    authority: Frontiers in Marine Science
+    domain: narwhal-ecology
+    evidenceType: peer-reviewed-primary
+    url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.596469/full
+    use: contextualizar inmersiones superiores a 800 m y señales acústicas de forrajeo en 13 narvales de Groenlandia Oriental; los buzzes son indicadores, no cada captura
+  - id: frontiers-noctiluca-sexual-reproduction-704398
+    authority: Frontiers in Marine Science
+    domain: noctiluca-bioluminescence
+    evidenceType: peer-reviewed-primary
+    url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.704398/full
+    use: describir el experimento de cultivo sobre reproducción sexual de dinoflagelados cuando disminuyen las presas; separar protocolo de laboratorio de floraciones naturales
+  - id: agu-strong-field-spherical-dynamos-2025gl118078
+    authority: Geophysical Research Letters / AGU
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary
+    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL118078
+    use: explicar simulaciones de dínamos esféricos y balances de fuerzas; no presentar parámetros idealizados como mediciones del núcleo terrestre
+  - id: water-research-cyanotoxin-geosmin-121357
+    authority: Water Research
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-primary
+    url: https://doi.org/10.1016/j.watres.2024.121357
+    use: estudiar geosmina y compuestos de olor en algas bentónicas y factores ambientales de ríos alterados; no usarlo como explicación completa de todo el petricor
+  - id: pmc-gecko-surface-chemistry-4200409
+    authority: Scientific Reports / PubMed Central
+    domain: gecko-adhesion
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4200409/
+    use: comparar química superficial, humectación y adhesión seca/húmeda en almohadillas de gecko tokay; conservar superficies y condiciones de laboratorio y comprobar la licencia CC BY-NC-ND
+  - id: pmc-coral-restoration-accretion-12322247
+    authority: Scientific Reports / USGS / PubMed Central
+    domain: coral-restoration
+    evidenceType: peer-reviewed-primary
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12322247/
+    use: analizar restauración de Acropora cervicornis y potencial de acreción en transectos de los Cayos de Florida; no convertir efectos locales en éxito global ni eliminar el riesgo climático
