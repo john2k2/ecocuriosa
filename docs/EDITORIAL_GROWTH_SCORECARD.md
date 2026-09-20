@@ -38,6 +38,12 @@ La instantánea de runtime del mismo corte confirma 44/44 URLs públicas del
 sitemap con HTTP 200, cinco rutas de escaneo en 403 y encabezados de seguridad y
 caché presentes ([detalle](editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-20.md)).
 
+La medición Lighthouse pública del 20/09/2026, posterior a precargar la fuente
+de texto, dio 93/100 en rendimiento, 100/100 en accesibilidad y 100/100 en SEO;
+FCP 1,4 s, LCP 2,7 s, CLS 0 y TBT 130 ms. La estimación de render-blocking bajó
+a 500 ms. Es evidencia de laboratorio de una ejecución, no un P75 de usuarios
+reales ([detalle](editorial/Lighthouse_RUNTIME_SNAPSHOT_2026-09-20.md)).
+
 La auditoría de navegación se amplió a las 46 páginas HTML generadas; verifica el menú principal y móvil, foco, estado ARIA e IDs únicos en cada plantilla.
 
 La página pública «Sobre nosotros» declara además un `ProfilePage` enlazado a la misma entidad `Organization` del sitio. No se añaden personas, credenciales ni perfiles externos que no estén verificados.

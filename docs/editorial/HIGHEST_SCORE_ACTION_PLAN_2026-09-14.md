@@ -1,6 +1,6 @@
 # EcoCuriosa — plan operativo para elevar la puntuación
 
-**Corte:** 14 de septiembre de 2026  
+**Corte:** 20 de septiembre de 2026  
 **Propósito:** llevar cada área a su mejor estado demostrable sin convertir una auditoría técnica en una promesa de posiciones, aprobación o ingresos.
 
 ## Estado y puerta de salida
@@ -20,7 +20,7 @@
 2. **Autoría:** publicar nombres, experiencia y perfiles únicamente con autorización expresa. Mientras tanto, conservar la firma colectiva y no crear `Person`/`sameAs` ficticios.
 3. **AdSense y privacidad:** el titular completa CMP, perfil de pagos y datos fiscales con información real y verificable; el repositorio no guarda documentos, banco, PIN ni contraseñas. AdSense solo permite servir anuncios tras revisión y estado **Ready** ([preparar el sitio](https://support.google.com/adsense/answer/7299563?hl=en), [configurar la cuenta](https://support.google.com/adsense/answer/7402256?hl=en)).
 4. **Fuentes:** completar las 35 fechas de acceso que faltan durante la revisión, sin inventar fechas retroactivas. El catálogo es una lista de candidatos, no una aprobación de citas.
-5. **Rendimiento de imágenes:** conservar las variantes WebP 400/800/1200 px y ejecutar `pnpm content:responsive-image-audit` cuando se incorpore una ilustración; la medición pública posterior pasó de LCP 2,8 s a 1,7 s en laboratorio.
+5. **Rendimiento de imágenes y tipografías:** conservar las variantes WebP 400/800/1200 px y ejecutar `pnpm content:responsive-image-audit` cuando se incorpore una ilustración. El preload de Albert Sans ya está desplegado; la última lectura pública dio LCP 2,7 s, FCP 1,4 s, CLS 0 y 93/100 de rendimiento en laboratorio. El siguiente experimento debe centrarse en CSS crítico/hero y repetirse antes de atribuir una tendencia.
 
 ## Plan de 30 días
 
