@@ -38,6 +38,18 @@ sources:
     evidenceType: "institutional"
     scope: "vídeo educativo de un ejemplar observado con un señuelo"
     accessedDate: 2026-09-12
+  - title: "Evidence for direct use of terminal organ for spermatophore transfer in giant squid, Architeuthis dux"
+    publisher: "microPublication Biology / Echizen-Matsushima Aquarium"
+    url: "https://www.micropublication.org/journals/biology/micropub-biology-001476/"
+    evidenceType: "primary"
+    scope: "observaciones de dos machos moribundos en aguas someras y evidencia compatible con transferencia directa de espermatóforos; no es una observación de cópula normal"
+    accessedDate: 2026-09-14
+  - title: "Evidence for direct use of terminal organ for spermatophore transfer in giant squid, Architeuthis dux"
+    publisher: "PubMed / National Library of Medicine"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40255250/"
+    evidenceType: "primary"
+    scope: "registro bibliográfico y resumen del estudio de 2025; conserva el tamaño muestral de dos machos y el carácter hipotético de la transferencia"
+    accessedDate: 2026-09-14
 featured: false
 ---
 
@@ -70,7 +82,21 @@ La función exacta de los ojos grandes y la bioluminiscencia de las presas sigue
 
 ---
 
-## 3. Desmintiendo Mitos Comunes
+## 3. Una pista reciente sobre su reproducción
+
+Un estudio publicado en 2025 por *microPublication Biology* aporta una pista sobre una pregunta que durante décadas se había respondido sobre todo con anatomía comparada. Los autores describieron **dos machos de *Architeuthis dux*** encontrados en condición moribunda en aguas someras del mar de Japón. En ambos observaron el órgano terminal pasando por sus propios embudos (o sifones) y con capacidad de movimiento. El trabajo interpreta esa configuración como evidencia compatible con la hipótesis de que el órgano terminal puede transferir directamente los espermatóforos, en lugar de depender solo de un brazo hectocótilo.
+
+La evidencia tiene límites importantes: el tamaño muestral es de dos individuos, los animales estaban moribundos y fueron hallados fuera de su entorno profundo habitual. El estudio no observó una cópula completa, una hembra receptora ni la fecundación. Por eso es más preciso hablar de **apoyo anatómico y conductual a una hipótesis** que de una conducta reproductiva ya descrita para toda la especie. La [ficha de PubMed](https://pubmed.ncbi.nlm.nih.gov/40255250/) y el [artículo de acceso abierto en microPublication](https://www.micropublication.org/journals/biology/micropub-biology-001476/) permiten consultar el resumen, las figuras y los límites del estudio.
+
+| Observación del estudio | Qué permite decir | Qué no permite decir |
+| :--- | :--- | :--- |
+| Dos machos moribundos en aguas someras | El órgano terminal podía pasar por el embudo y moverse | No describe el comportamiento normal de una población |
+| Espermatóforos y órganos reproductivos documentados | La transferencia directa es una hipótesis plausible | No demuestra una cópula completa ni fecundación |
+| Estudio de 2025, n=2 | Actualiza lo que se sabe sobre la anatomía reproductiva | No fija una regla universal ni resuelve toda la reproducción del calamar gigante |
+
+---
+
+## 4. Desmintiendo Mitos Comunes
 
 * **Mito 1:** Los relatos del Kraken describen una conducta observada del calamar gigante.
   * **Realidad:** Las fuentes citadas documentan observaciones puntuales y especímenes, no ataques a barcos. El mito no puede usarse como evidencia de comportamiento.
@@ -80,7 +106,7 @@ La función exacta de los ojos grandes y la bioluminiscencia de las presas sigue
 
 ---
 
-## 4. Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Qué se sabe de su bioluminiscencia?
 
@@ -92,7 +118,7 @@ El Smithsonian resume registros cercanos a 13 metros de longitud total. Es una c
 
 ### ¿Se conoce bien su reproducción?
 
-La reproducción se estudia sobre todo a partir de ejemplares y anatomía comparada. Esta ficha no atribuye una secuencia reproductiva concreta sin una fuente anatómica específica para *Architeuthis dux*.
+La reproducción se sigue estudiando a partir de ejemplares, anatomía comparada y observaciones muy escasas. Un estudio de 2025 encontró dos machos moribundos con una configuración del órgano terminal compatible con transferencia directa de espermatóforos, pero no observó una cópula completa ni fecundación. Es una pista importante, no una descripción completa de la conducta de toda la especie.
 
 ---
 
@@ -106,3 +132,5 @@ Cada observación de *Architeuthis dux* reemplaza parte del imaginario del monst
 - [Smithsonian NMNH: The Giant Squid](https://naturalhistory.si.edu/explore/giant-squid)
 - [Smithsonian Ocean: el ojo más grande del mundo](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid)
 - [NOAA Ocean Exploration: vídeo de un calamar gigante](https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/)
+- [microPublication Biology: evidencia sobre la transferencia de espermatóforos](https://www.micropublication.org/journals/biology/micropub-biology-001476/)
+- [PubMed: registro bibliográfico del estudio de 2025](https://pubmed.ncbi.nlm.nih.gov/40255250/)

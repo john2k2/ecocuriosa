@@ -3236,6 +3236,18 @@ entries:
     evidenceType: peer-reviewed-primary
     url: https://doi.org/10.17912/micropub.biology.001476
     use: describir observaciones reproductivas en dos machos varados de Architeuthis; no presentar varamiento ni transferencia espermatofórica como conducta reproductiva general
+  - id: micropub-giant-squid-reproduction-open-2025
+    authority: microPublication Biology / Echizen-Matsushima Aquarium
+    domain: giant-squid
+    evidenceType: peer-reviewed-primary
+    url: https://www.micropublication.org/journals/biology/micropub-biology-001476/
+    use: ofrecer el artículo de acceso abierto, figuras y límites del estudio de dos machos moribundos; no presentarlo como observación de cópula normal
+  - id: pubmed-giant-squid-reproduction-2025
+    authority: PubMed / National Library of Medicine
+    domain: giant-squid
+    evidenceType: peer-reviewed-primary
+    url: https://pubmed.ncbi.nlm.nih.gov/40255250/
+    use: conservar el registro bibliográfico y el resumen sobre transferencia directa de espermatóforos; mantener n=2 y el carácter hipotético de la interpretación
   - id: aps-geodynamo-buoyancy-regimes-2025
     authority: American Physical Society / Physical Review Fluids
     domain: geodynamo

@@ -16,10 +16,10 @@ visitas orgánicas, ingresos ni RPM.
 | 11/09 | 794 | 10.183.869 | 31 | 1.571.454 |
 | 12/09 | 3.052 | 71.492.771 | 1.615 | 39.544.214 |
 | 13/09 | 1.320 | 17.185.761 | 164 | 4.037.034 |
-| 14/09* | 292 | 3.695.101 | 13 | 51.673 |
-| **Total observado** | **11.626** | **165.859.122** | **1.998 (17,2 %)** | **53.334.804 (32,2 %)** |
+| 14/09* | 1.691 | 19.302.495 | 98 | 1.921.434 |
+| **Total observado** | **13.025** | **181.466.516** | **2.083 (16,0 %)** | **55.204.565 (30,4 %)** |
 
-\* Día en curso/incompleto.
+\* Día en curso/incompleto al momento de la consulta autenticada. La lectura se refrescó después de la primera captura del día; no debe compararse como cierre definitivo hasta que transcurran las 24 horas.
 
 ## Lectura y decisión
 
