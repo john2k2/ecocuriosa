@@ -154,3 +154,19 @@ devolvió `model: jev-1.13.0` y `advisory_only: true`; el resultado no
 demuestra aprobación, CPM, ingresos, tráfico ni datos recientes de Search
 Console o Cloudflare. Las mejoras de metadatos reducen trabajo pendiente, pero
 no convierten un contraste asistido en una firma humana.
+
+## Reevaluación tras ampliar paquetes P0/P1 — 20/09/2026
+
+Después de preparar nueve paquetes de contraste asistido y elevar a 24/31 las
+fichas pendientes con fechas de acceso completas, se volvió a consultar Jev con
+el mismo marco `0`–`4`. El resultado bajó a **1,69/4** (confianza 0,67), con
+probabilidad 0,99 para mantener la prioridad de revisión humana. Esta bajada no
+es una regresión medida del sitio: el código y las auditorías siguen pasando y
+Jev ponderó explícitamente que 1/32 artículos tiene firma humana, que AdSense y
+Search Console son puertas externas y que los paquetes asistidos no sustituyen
+una revisión real. La cifra debe leerse como señal de deuda de evidencia, no
+como una comparación científica exacta con 1,93/4.
+
+La consulta devolvió `model: jev-1.13.0` y `advisory_only: true`; la decisión
+operativa permanece: cerrar revisiones humanas P0/P1 antes de escalar
+automatización o volumen.

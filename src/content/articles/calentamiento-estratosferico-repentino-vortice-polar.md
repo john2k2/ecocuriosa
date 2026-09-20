@@ -16,11 +16,13 @@ sources:
   - title: "Understanding the Arctic Polar Vortex"
     publisher: "NOAA Climate"
     url: "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/understanding-arctic-polar-vortex"
+    accessedDate: 2026-09-20
     evidenceType: "institutional"
     scope: "Explicación de NOAA sobre vórtice, corriente en chorro y vínculos inciertos con el tiempo de superficie"
   - title: "Sudden stratospheric warmings"
     publisher: "Reviews of Geophysics"
     url: "https://doi.org/10.1029/2020RG000708"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Revisión de la dinámica y definición de los calentamientos estratosféricos repentinos"
 featured: false

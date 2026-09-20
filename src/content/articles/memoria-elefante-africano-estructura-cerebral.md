@@ -17,21 +17,25 @@ sources:
   - title: "Matriarchs as repositories of social knowledge in African elephants"
     publisher: "Science / PubMed"
     url: "https://pubmed.ncbi.nlm.nih.gov/11313492/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Experimentos de reproducción de llamadas para evaluar el conocimiento social de matriarcas"
   - title: "Extreme expansion of the olfactory receptor gene repertoire in African elephants"
     publisher: "Genome Research / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4158756/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Comparación genómica del repertorio de receptores olfativos"
   - title: "The elephant brain in numbers"
     publisher: "Frontiers in Neuroanatomy / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053853/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Estimación de neuronas totales y distribución cerebelosa en un cerebro de elefante africano"
   - title: "Aging: What We Can Learn From Elephants"
     publisher: "Frontiers in Aging Neuroscience / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261397/"
+    accessedDate: 2026-09-20
     evidenceType: "review"
     scope: "Síntesis sobre vínculos sociales, memoria y conocimiento ecológico en elefantes"
   - title: "Building an Elephant Brain Database"

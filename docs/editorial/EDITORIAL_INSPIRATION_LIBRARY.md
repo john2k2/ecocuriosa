@@ -1125,3 +1125,22 @@ geodinamo. La tabla completa conserva el alcance, la limitación y el tipo de
 evidencia en el catálogo. Los registros de acceso parcial, abstracts o datasets
 requieren apertura manual antes de citar; el lote no modifica artículos ni
 marca `reviewedDate`/`reviewedBy`.
+
+### Búsqueda dirigida de Luna Max — memoria, SSW, linternas, búhos y tardígrados — 20 de septiembre de 2026
+
+Esta ronda añade **19 candidatas no duplicadas** a `SOURCE_CATALOG.yml` (680
+entradas). Se conservan como material para briefs y nuevas editoriales; no se
+han convertido automáticamente en citas publicadas.
+
+| Clúster | Fuentes candidatas | Brief original sugerido | Límite que debe quedar visible |
+| --- | --- | --- | --- |
+| Memoria del elefante | [memoria de cuidadores](https://pubmed.ncbi.nlm.nih.gov/39373273/), [memoria olfativa](https://pubmed.ncbi.nlm.nih.gov/36830466/), [olor e identidad grupal](https://www.nature.com/articles/s41598-022-20920-2), [revisión crítica](https://pubmed.ncbi.nlm.nih.gov/39438402/) | “Memoria observable frente al mito de que el elefante nunca olvida” | Experimentos pequeños o cautivos; interés y respuesta no demuestran memoria episódica. |
+| Calentamiento estratosférico | [Aeolus/MLS/ERA5](https://wcd.copernicus.org/articles/2/1283/2021/), [42 inviernos de ERA5](https://acp.copernicus.org/articles/23/1259/2023/acp-23-1259-2023.html), [impacto superficial limitado](https://www.nature.com/articles/s41467-022-28836-1), [SSW de 2023](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL109682) | “Un SSW se mide arriba; el tiempo de superficie no es automático” | Un episodio o modelo no equivale a un pronóstico local; confirmar licencia CC BY en gráficos. |
+| Peces linterna | [variación de fotóforos](https://pubmed.ncbi.nlm.nih.gov/39536017/), [reflector de guanina](https://pubmed.ncbi.nlm.nih.gov/31706576/), [luciferasas candidatas](https://pubmed.ncbi.nlm.nih.gov/36197650/), [BioProject RNA-seq](https://www.ncbi.nlm.nih.gov/bioproject/887952) | “La luz del pez linterna no es un código universal” | Anatomía o candidatos bioquímicos no prueban función ecológica para todos los mictófidos. |
+| Vuelo de búhos | [terciopelo dorsal](https://pubmed.ncbi.nlm.nih.gov/32525524/), [flujo de *Ninox boobook*](https://pubmed.ncbi.nlm.nih.gov/33793685/), [desgaste de serraciones](https://pubmed.ncbi.nlm.nih.gov/34029885/) | “Vuelo silencioso: fricción, turbulencia y desgaste de plumas” | No transferir *Tyto* o *Ninox* a *Bubo bubo*; no afirmar silencio literal. |
+| Tardígrados | [sHSP](https://www.nature.com/articles/s42003-023-04512-y), [estados por imagen](https://www.nature.com/articles/s41598-024-61374-y), [multi-ómica de radiación](https://pubmed.ncbi.nlm.nih.gov/39446960/), [recuperación](https://pubmed.ncbi.nlm.nih.gov/38434295/) | “La resistencia depende de especie, estado y duración del estrés” | Modelos y cultivos concretos; no existe una coraza universal ni aplicación clínica lista. |
+
+La licencia de una página abierta no autoriza reutilizar sus figuras. Luna solo
+puede generar un brief con `publish: false` y `humanApproval: pending`; la
+persona revisora debe abrir el texto completo, confirmar DOI/PMID, método,
+alcance y licencia del activo antes de citar o producir una imagen.

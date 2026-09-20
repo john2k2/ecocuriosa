@@ -17,6 +17,7 @@ sources:
   - title: "Tardigrades survive exposure to space in low Earth orbit"
     publisher: "Current Biology"
     url: "https://doi.org/10.1016/j.cub.2008.06.048"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Dos especies desecadas expuestas durante 10 días en órbita baja a vacío y rangos de radiación UV"
   - title: "The tardigrade damage suppressor protein binds to nucleosomes"

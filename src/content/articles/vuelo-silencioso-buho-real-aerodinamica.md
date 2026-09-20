@@ -17,6 +17,7 @@ sources:
   - title: "The three-dimensional shape of serrations at barn owl wings"
     publisher: "Journal of Anatomy / PubMed Central"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3162239/"
+    accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Morfología tridimensional de las serraciones en alas de lechuza común (Tyto alba)"
   - title: "Features of owl wings that reduce aerodynamic noise"

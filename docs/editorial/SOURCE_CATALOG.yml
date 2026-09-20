@@ -4000,3 +4000,117 @@ entries:
     evidenceType: peer-reviewed-primary-candidate
     url: https://doi.org/10.1093/gji/ggaf063
     use: candidato para simulaciones numéricas de dínamos de la Tierra temprana; no describir como medición directa actual
+  - id: ec-elephant-keeper-memory-2024
+    authority: Zoo Biology / PubMed
+    domain: elephant-memory
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39373273/
+    use: candidato para memoria social de dos elefantas cautivas ante cuidadores ausentes durante 13 años; no extrapolar n pequeño
+  - id: ec-elephant-olfactory-memory-2023
+    authority: Animals / PubMed
+    domain: elephant-memory
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/36830466/
+    use: candidato para memoria olfativa en dos parejas madre-hija separadas hasta 12 años; no confundir respuesta con memoria episódica
+  - id: ec-elephant-odour-identity-2022
+    authority: Scientific Reports
+    domain: elephant-memory
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.nature.com/articles/s41598-022-20920-2
+    use: candidato para perfiles de olor, identidad y pertenencia grupal en 113 elefantes silvestres de Malawi; no demuestra causalidad de memoria
+  - id: ec-elephant-memory-review-2024
+    authority: Memory & Cognition / PubMed
+    domain: elephant-memory
+    evidenceType: review-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39438402/
+    use: candidato para separar el mito de “nunca olvida” de la evidencia empírica limitada; revisar texto completo y alcance crítico
+  - id: ec-ssw-aeolus-2021
+    authority: Weather and Climate Dynamics / Copernicus
+    domain: sudden-stratospheric-warming
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://wcd.copernicus.org/articles/2/1283/2021/
+    use: candidato para el evento SSW de enero de 2021 con Aeolus, MLS y ERA5; no convertirlo en pronóstico local
+  - id: ec-ssw-climate-era5-2023
+    authority: Atmospheric Chemistry and Physics / Copernicus
+    domain: sudden-stratospheric-warming
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://acp.copernicus.org/articles/23/1259/2023/acp-23-1259-2023.html
+    use: candidato para métricas de 42 inviernos de ERA5 desde 1980; página declara CC BY 4.0, confirmar cada figura
+  - id: ec-ssw-surface-impact-2022
+    authority: Nature Communications
+    domain: sudden-stratospheric-warming
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.nature.com/articles/s41467-022-28836-1
+    use: candidato para impactos superficiales limitados del SSW de enero de 2021; separar simulación de observación
+  - id: ec-ssw-february-2023-structure
+    authority: Geophysical Research Letters / AGU
+    domain: sudden-stratospheric-warming
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL109682
+    use: candidato para estructura global del SSW de febrero de 2023; no usar como predicción regional automática
+  - id: ec-lanternfish-photophore-2024
+    authority: PLOS ONE / PubMed
+    domain: lanternfish-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39536017/
+    use: candidato para variación histológica de fotóforos en géneros de Myctophidae; no atribuir una arquitectura a todo el grupo
+  - id: ec-lanternfish-reflector-2020
+    authority: Biochemical and Biophysical Research Communications / PubMed
+    domain: lanternfish-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/31706576/
+    use: candidato para reflector de cristales de guanina en Diaphus watasei; no generalizar la función a todos los peces linterna
+  - id: ec-lanternfish-luciferase-candidates-2023
+    authority: Photochemical & Photobiological Sciences / PubMed
+    domain: lanternfish-bioluminescence
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/36197650/
+    use: candidato para proteínas 14-3-3 como luciferasas candidatas; actividad baja y licencia editorial por comprobar
+  - id: ec-lanternfish-bioproject-887952
+    authority: NCBI BioProject
+    domain: lanternfish-bioluminescence
+    evidenceType: dataset-candidate
+    url: https://www.ncbi.nlm.nih.gov/bioproject/887952
+    use: candidato para RNA-seq de Diaphus watasei con 14 experimentos SRA; no sustituye una interpretación funcional
+  - id: ec-owl-velvet-2020
+    authority: Integrative and Comparative Biology / PubMed
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/32525524/
+    use: candidato para terciopelo dorsal y sonidos de fricción en 13 Tyto alba; no transferir directamente a Bubo bubo
+  - id: ec-owl-boobook-flow-2021
+    authority: PubMed
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/33793685/
+    use: candidato para flujo cercano a la estela en tres Ninox boobook a 8 m/s; separar PIV de ruido audible
+  - id: ec-owl-feather-damage-2021
+    authority: Zoology / PubMed
+    domain: owl-aeroacoustics
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/34029885/
+    use: candidato para desgaste y daño de serraciones en 198 alas; no demuestra silencio ni reducción acústica por sí solo
+  - id: ec-tardigrade-shsp-2023
+    authority: Communications Biology / Nature
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.nature.com/articles/s42003-023-04512-y
+    use: candidato para sHSP de Hypsibius exemplaris en ensayos in vitro y E. coli; no es proteína universal ni terapia
+  - id: ec-tardigrade-state-imaging-2024
+    authority: Scientific Reports / Nature
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://www.nature.com/articles/s41598-024-61374-y
+    use: candidato para distinguir estados inducidos por sacarosa y CaCl2 mediante imagen; conservar especie y protocolo
+  - id: ec-tardigrade-radiation-omics-2024
+    authority: Science / PubMed
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/39446960/
+    use: candidato para mecanismo propuesto de radiotolerancia en Hypsibius henanensis; no universalizar a todos los tardígrados
+  - id: ec-tardigrade-recovery-2024
+    authority: PubMed
+    domain: tardigrade-stress
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://pubmed.ncbi.nlm.nih.gov/38434295/
+    use: candidato para recuperación de Paramacrobiotus experimentalis en 1.200 individuos y hasta 48 h; conservar especie y cultura

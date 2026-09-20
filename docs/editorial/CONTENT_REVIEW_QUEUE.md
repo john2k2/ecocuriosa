@@ -11,11 +11,17 @@ agrupa nueve artículos P0 y uno P1 con las cifras, límites, fuentes y puentes
 de enlazado que una persona debe comprobar primero. Ninguna fila se marca por
 anticipado. El [paquete de contraste de ballena azul](./reviews/ballena-azul-2026-09-20.md) reúne evidencia de las dos fuentes y conserva la decisión `pending` hasta la confirmación editorial pública.
 
-También están preparados, en modo asistido y sin aprobación humana, los
-paquetes de [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
-[manta raya gigante](./reviews/manta-raya-gigante-2026-09-20.md) y
-[pangolín gigante](./reviews/pangolin-gigante-2026-09-20.md). Sus matrices
-señalan explícitamente qué fuentes o afirmaciones aún requieren reapertura y
+También están preparados, en modo asistido y sin aprobación humana, nueve
+paquetes: [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
+[ballena azul](./reviews/ballena-azul-2026-09-20.md),
+[manta raya gigante](./reviews/manta-raya-gigante-2026-09-20.md),
+[pangolín gigante](./reviews/pangolin-gigante-2026-09-20.md),
+[elefante](./reviews/memoria-elefante-2026-09-20.md),
+[pez linterna](./reviews/pez-linterna-2026-09-20.md),
+[tardígrados](./reviews/tardigrados-2026-09-20.md),
+[vórtice polar](./reviews/vortice-polar-2026-09-20.md) y
+[búhos](./reviews/vuelo-buho-2026-09-20.md). Sus matrices señalan
+explícitamente qué fuentes o afirmaciones aún requieren reapertura y
 confirmación directa.
 
 Los paquetes de contraste asistido se comprueban con
