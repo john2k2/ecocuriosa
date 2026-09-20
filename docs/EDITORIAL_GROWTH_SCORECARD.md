@@ -24,11 +24,12 @@ cubrió las cuatro anchuras entre esas rutas y deja pendiente repetirlas en una
 categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
-La segunda evaluación independiente de Jev del 20/09 conserva una lectura
-ordinal separada de las métricas oficiales: SEO 2,32/4, diseño móvil 2,59/4,
-indexación 2,62/4, AdSense 1,12/4 y E‑E‑A‑T 0,80/4. Su prioridad elegida fue
-cerrar revisiones humanas E‑E‑A‑T (probabilidad 0,98); el recibo completo y sus
-límites están en [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
+La evaluación independiente de Jev del 20/09 conserva una lectura ordinal
+separada de las métricas oficiales: la ronda por áreas dio SEO 2,32/4, diseño
+móvil 2,59/4, indexación 2,62/4, AdSense 1,12/4 y E‑E‑A‑T 0,80/4; la consulta
+global más reciente dio 1,78/4. Su prioridad elegida fue cerrar revisiones
+humanas E‑E‑A‑T (probabilidad 0,98); el recibo completo y sus límites están en
+[`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren

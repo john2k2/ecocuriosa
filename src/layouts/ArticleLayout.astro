@@ -103,6 +103,16 @@ const imageWebp = isSvgImage ? image.replace(/\.svg$/i, '.webp') : image;
 const imageWebpResponsive = isSvgImage
   ? `${imageWebp.replace(/\.webp$/i, '-400.webp')} 400w, ${imageWebp.replace(/\.webp$/i, '-800.webp')} 800w, ${imageWebp} 1200w`
   : undefined;
+const imageCreditKind = imageCredit?.match(/\b(?:original|propia|generada\s+para)\b/i)
+  ? 'illustration'
+  : imageLicense
+    ? 'licensed'
+    : 'image';
+const imageCaptionLabel = imageCreditKind === 'illustration'
+  ? 'Ilustración editorial'
+  : imageCreditKind === 'licensed'
+    ? 'Imagen con licencia'
+    : 'Imagen';
 ---
 
 <BaseLayout
@@ -232,7 +242,7 @@ const imageWebpResponsive = isSvgImage
       </picture>
       {imageAlt && (
         <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
-          <span class="font-semibold text-[#063b1e]">Lámina de Observación:</span> {imageAlt}
+          <span class="font-semibold text-[#063b1e]">{imageCaptionLabel}:</span> {imageAlt}
           {imageCredit && <span class="block mt-1 text-[#738a7d]">Crédito: {imageCredit}</span>}
           {imageLicense && (
             <a class="block mt-1 text-[#738a7d] underline underline-offset-2 hover:text-[#063b1e]" href={imageLicense} rel="noopener noreferrer" target="_blank">

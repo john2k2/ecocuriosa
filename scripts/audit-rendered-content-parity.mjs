@@ -62,6 +62,8 @@ for (const route of routes) {
     if (!has(html, /<article\b/i)) addIssue(route, 'falta elemento article');
     if (!has(html, /Fuentes (?:para consultar|y revisión)/i)) addIssue(route, 'falta bloque visible de fuentes');
     if (!has(html, /Estado editorial/i)) addIssue(route, 'falta estado editorial visible');
+    if (!has(html, /<figcaption\b[\s\S]*?Ilustración editorial:/i)) addIssue(route, 'falta distinguir la ilustración editorial en el pie de imagen');
+    if (has(html, /Lámina de Observación:/i)) addIssue(route, 'el pie de imagen conserva una etiqueta ambigua de observación');
   }
   if (route.kind === 'category' && !has(html, /Monografías|Documentos|Explorar/i)) {
     addIssue(route, 'falta contenido de categoría');
