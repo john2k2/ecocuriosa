@@ -212,7 +212,7 @@ const imageCaptionLabel = imageCreditKind === 'illustration'
               <a class="font-semibold text-[#063b1e] underline decoration-[#c59b27] underline-offset-4 hover:text-[#785405] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#063b1e] rounded-sm" href={source.url} rel="noopener noreferrer" target="_blank">
                 {source.title}
               </a>
-              {source.publisher && <span class="block mt-1 text-xs text-[#738a7d]">{source.publisher}</span>}
+              {source.publisher && <span class="block mt-1 text-xs text-[#53685b]">{source.publisher}</span>}
               {(source.evidenceType || source.scope) && (
                 <span class="block mt-1 text-xs leading-relaxed text-[#5a605c]">
                   {source.evidenceType && <span class="font-semibold">{evidenceTypeLabels[source.evidenceType] || source.evidenceType}</span>}
@@ -243,9 +243,9 @@ const imageCaptionLabel = imageCreditKind === 'illustration'
       {imageAlt && (
         <figcaption class="p-4 text-center text-xs text-[#5a605c] bg-[#f7f5ed] border-t border-[#e6e2d8]">
           <span class="font-semibold text-[#063b1e]">{imageCaptionLabel}:</span> {imageAlt}
-          {imageCredit && <span class="block mt-1 text-[#738a7d]">Crédito: {imageCredit}</span>}
+          {imageCredit && <span class="block mt-1 text-[#53685b]">Crédito: {imageCredit}</span>}
           {imageLicense && (
-            <a class="block mt-1 text-[#738a7d] underline underline-offset-2 hover:text-[#063b1e]" href={imageLicense} rel="noopener noreferrer" target="_blank">
+            <a class="block mt-1 text-[#53685b] underline underline-offset-2 hover:text-[#063b1e]" href={imageLicense} rel="noopener noreferrer" target="_blank">
               Ver licencia de la imagen
             </a>
           )}
@@ -292,7 +292,7 @@ const imageCaptionLabel = imageCreditKind === 'illustration'
               </a>
               {source.publisher && <span class="text-[#5a605c]"> · {source.publisher}</span>}
               {(source.evidenceType || source.scope || source.accessedDate) && (
-                <span class="block mt-1 text-xs text-[#738a7d]">
+                <span class="block mt-1 text-xs text-[#53685b]">
                   {source.evidenceType && <span>Tipo: {evidenceTypeLabels[source.evidenceType] || source.evidenceType}</span>}
                   {source.scope && <span>{source.evidenceType ? ' · ' : ''}{source.scope}</span>}
                   {source.accessedDate && (
