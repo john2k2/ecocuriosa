@@ -19,6 +19,7 @@
     "content:review-precheck": "node scripts/audit-review-queue.mjs",
     "content:generated-metadata-audit": "node scripts/audit-generated-metadata.mjs",
     "content:rendered-parity": "node scripts/audit-rendered-content-parity.mjs",
+    "content:assisted-review-audit": "node scripts/audit-assisted-review-packets.mjs",
     "content:indexation-audit": "node scripts/audit-indexation.mjs",
     "content:rss-audit": "node scripts/audit-rss.mjs",
     "content:image-sitemap-audit": "node scripts/audit-image-sitemap.mjs",

@@ -100,3 +100,21 @@ La prioridad única volvió a ser **cerrar las 31 revisiones humanas E‑E‑A�
 (probabilidad reportada: `1,00`). La herramienta devolvió `advisory_only: true` y
 su propia advertencia exige verificar los hechos y conservar el juicio final
 independiente.
+
+## Reevaluación independiente actual — 20/09/2026
+
+Se hizo una consulta adicional con estado mínimo, después de añadir el auditor
+de paquetes asistidos y preparar los contrastes P0. La pregunta pidió una sola
+puntuación global de preparación para AdSense (0–4) y una prioridad de siguiente
+acción; no se enviaron credenciales, datos personales ni el contenido completo
+de la conversación.
+
+| Pregunta | Resultado | Confianza | Interpretación operativa |
+| --- | ---: | ---: | --- |
+| Preparación global para una revisión de AdSense | **1,92/4** | 0,92 | Base técnica fuerte, pero la deuda editorial humana y los gates externos impiden llamarla lista. |
+| Prioridad: cerrar revisiones humanas P0 | **0,99** | 0,98 | Primero revisar afirmaciones, fuentes, imágenes y límites; después automatizar más volumen. |
+
+Jev devolvió `model: jev-1.13.0` y `advisory_only: true`. Esta cifra no es una
+predicción de aprobación, CPM, ingresos ni tráfico; coincide con la evidencia
+local de 31/32 artículos pendientes y se conserva como segunda opinión, no como
+criterio único de publicación.

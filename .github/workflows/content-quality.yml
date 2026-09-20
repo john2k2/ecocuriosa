@@ -31,6 +31,7 @@ jobs:
       - run: pnpm astro check
       - run: pnpm build
       - run: pnpm content:rendered-parity
+      - run: pnpm content:assisted-review-audit
       - run: pnpm content:generated-metadata-audit
       - run: pnpm content:indexation-audit
       - run: pnpm content:navigation-audit

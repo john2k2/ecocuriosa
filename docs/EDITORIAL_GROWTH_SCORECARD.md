@@ -146,6 +146,10 @@ Las siete páginas prioritarias también tienen ahora dos enlaces contextuales d
 
 El prechequeo [`CONTENT_REVIEW_PRECHECK_2026-09-12.md`](editorial/CONTENT_REVIEW_PRECHECK_2026-09-12.md), regenerable con `pnpm content:review-precheck -- --write`, ordena las 31 revisiones pendientes por riesgo y muestra fuentes, citas dentro del cuerpo, enlaces propios, señales de cifras/salud/conservación y procedencia visual. El control es estático y no marca revisiones: la cola solo se cierra con comprobación humana.
 
+Los paquetes de contraste asistido se validan con
+`pnpm content:assisted-review-audit`; el control exige `decision: pending` y
+rechaza fechas o responsables humanos introducidos por automatización.
+
 Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 17/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes. El paquete de contraste de ballena azul quedó preparado, pero sigue pendiente de confirmación editorial pública.
 
 ## Secuencia de 30 días

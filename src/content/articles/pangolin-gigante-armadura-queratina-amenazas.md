@@ -30,7 +30,7 @@ sources:
     scope: "Análisis de decomisos y rutas internacionales durante 2010–2015"
   - title: "Listing of pangolins in the Appendices"
     publisher: "CITES Animals Committee"
-    url: "https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf"
+    url: "https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-038.pdf"
     evidenceType: "institutional"
     scope: "Contexto de nomenclatura y listado CITES de las ocho especies reconocidas"
 featured: false
@@ -81,7 +81,7 @@ El [estudio mecánico citado](https://pubmed.ncbi.nlm.nih.gov/26703230/) analiz�
 
 ### ¿Por qué se habla de un tráfico tan grave?
 
-La [revisión de TRAFFIC](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) documentó decomisos internacionales y rutas de comercio durante 2010–2015 y describe a los pangolines como los mamíferos más traficados. Es una afirmación sobre el comercio registrado en ese análisis, no un censo perfecto de todos los animales extraídos. Las ocho especies reconocidas están incluidas en el marco de protección de [CITES](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf); consulta la ficha legal vigente antes de resumir una categoría.
+La [revisión de TRAFFIC](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) documentó decomisos internacionales y rutas de comercio durante 2010–2015 y describe a los pangolines como los mamíferos más traficados. Es una afirmación sobre el comercio registrado en ese análisis, no un censo perfecto de todos los animales extraídos. Las ocho especies reconocidas están incluidas en el marco de protección de [CITES](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-038.pdf); consulta la ficha legal vigente antes de resumir una categoría.
 
 ### ¿La armadura lo protege de la captura humana?
 
@@ -97,4 +97,4 @@ Las escamas de queratina del pangolín son una adaptación mecánica notable, pe
 - [Structure and mechanical behaviors of protective armored pangolin scales](https://pubmed.ncbi.nlm.nih.gov/26703230/) — *Journal of the Mechanical Behavior of Biomedical Materials* / PubMed; ensayos mecánicos de escamas.
 - [Giant Pangolin (*Smutsia gigantea*)](https://www.mammaldiversity.org/taxon/1005800/) — American Society of Mammalogists; taxonomía e historia natural.
 - [The global trafficking of Pangolins: Seizures and Trafficking Routes from 2010–2015](https://www.traffic.org/publications/reports/the-global-trafficking-of-pangolins/) — TRAFFIC / IUCN SSC; decomisos y rutas en ese periodo.
-- [Listing of pangolins in the Appendices](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-38.pdf) — CITES Animals Committee; contexto de listado y nomenclatura.
+- [Listing of pangolins in the Appendices](https://cites.org/sites/default/files/eng/com/ac/31/Docs/E-AC31-038.pdf) — CITES Animals Committee; contexto de listado y nomenclatura.

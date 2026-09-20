@@ -11,6 +11,18 @@ agrupa nueve artículos P0 y uno P1 con las cifras, límites, fuentes y puentes
 de enlazado que una persona debe comprobar primero. Ninguna fila se marca por
 anticipado. El [paquete de contraste de ballena azul](./reviews/ballena-azul-2026-09-20.md) reúne evidencia de las dos fuentes y conserva la decisión `pending` hasta la confirmación editorial pública.
 
+También están preparados, en modo asistido y sin aprobación humana, los
+paquetes de [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
+[manta raya gigante](./reviews/manta-raya-gigante-2026-09-20.md) y
+[pangolín gigante](./reviews/pangolin-gigante-2026-09-20.md). Sus matrices
+señalan explícitamente qué fuentes o afirmaciones aún requieren reapertura y
+confirmación directa.
+
+Los paquetes de contraste asistido se comprueban con
+`pnpm content:assisted-review-audit`: deben incluir matriz de afirmaciones,
+fuentes abiertas, límites y decisión `pending`, y el auditor rechaza que
+introduzcan `reviewedDate` o `reviewedBy` como si fueran una aprobación humana.
+
 ## Instrucciones de uso
 
 - Para cada artículo, copiar [`ARTICLE_REVIEW_TEMPLATE.md`](./ARTICLE_REVIEW_TEMPLATE.md) y conservar la ficha fuera de los datos sensibles del repositorio o enlazarla desde el cambio de revisión.
