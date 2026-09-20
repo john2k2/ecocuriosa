@@ -17,6 +17,9 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 3. [Earth's Magnetosphere](https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/) — NASA Science; interacción con viento solar y partículas energéticas.
 4. [Satellite magnetic data reveal interannual waves in Earth's core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *PNAS* / PMC; inferencias de ondas magneto-Coriolis.
 5. [Swarm unveils magnetic waves deep down](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) — ESA; contexto de la señal observada por la misión Swarm.
+6. [Forecasting yearly geomagnetic variation through sequential estimation of core flow and magnetic diffusion](https://doi.org/10.1186/s40623-020-01193-3) — *Earth, Planets and Space*; inferencia de flujo y difusión magnética.
+7. [State and evolution of the geodynamo from numerical models](https://doi.org/10.1093/gji/ggad229) — *Geophysical Journal International*; asimilación y simulaciones físicas.
+8. [Combined dynamical and morphological characterisation of geodynamo simulations](https://doi.org/10.1016/j.epsl.2022.117752) — *Earth and Planetary Science Letters*; comparación de 67 simulaciones.
 
 ## Matriz de afirmaciones
 
@@ -28,6 +31,9 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 | C4 | Las variaciones medidas por satélites y observatorios permiten inferir cambios en el flujo del núcleo. | El trabajo de PNAS combina datos y modelos para estudiar ondas magneto-Coriolis. | Inferencia dependiente del modelo y del periodo; no observación directa del metal líquido. | pending |
 | C5 | La misión Swarm describe una señal que se desplaza hacia el oeste con un periodo aproximado de varios años. | ESA resume la señal y su contexto observacional. | No usarla para anunciar una inversión de polaridad ni como predicción global. | pending |
 | C6 | Las inversiones geomagnéticas no tienen una asociación simple con extinciones masivas. | USGS resume el registro paleomagnético y la cautela causal. | Mantener separadas inversión, intensidad, duración, geometría y efectos biológicos. | pending |
+| C7 | La variación secular superficial puede usarse para inferir un flujo candidato en el límite núcleo-manto. | El método de estimación secuencial combina variación geomagnética y difusión magnética. | Es una inferencia dependiente del modelo, no una observación directa del hierro líquido. | pending |
+| C8 | La asimilación de modelos y simulaciones físicas permite comparar estados posibles del geodinamo. | El estudio de *Geophysical Journal International* combina modelos geomagnéticos y simulaciones. | Potencia, ondas y velocidades dependen de supuestos y no son mediciones directas. | pending |
+| C9 | Una morfología de campo parecida a la terrestre no identifica por sí sola una única fuerza interna. | El conjunto de 67 simulaciones compara dinámica y morfología bajo distintos regímenes. | No autoriza a anunciar una inversión inminente ni a extrapolar una simulación al núcleo real. | pending |
 
 ## Imagen, enlaces y políticas
 

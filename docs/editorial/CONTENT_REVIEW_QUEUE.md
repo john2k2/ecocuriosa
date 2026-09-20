@@ -24,6 +24,12 @@ paquetes: [arrecifes de coral](./reviews/arrecifes-coral-2026-09-20.md),
 explícitamente qué fuentes o afirmaciones aún requieren reapertura y
 confirmación directa.
 
+Después del lote de fuentes de Search Console se añadieron tres paquetes
+asistidos más: [geosmina y petricor](./reviews/geosmina-petricor-2026-09-20.md),
+[tiburón de Groenlandia](./reviews/tiburon-groenlandia-2026-09-20.md) y
+[pulpo mimo](./reviews/pulpo-mimo-2026-09-20.md). Incorporan las nuevas fuentes
+sin marcar ninguna afirmación como verificada.
+
 La segunda tanda también tiene paquetes asistidos, todavía pendientes: [agujeros
 azules](./reviews/agujeros-azules-2026-09-20.md), [geodinamo
 terrestre](./reviews/geodinamo-terrestre-2026-09-20.md), [adherencia del
@@ -31,9 +37,9 @@ geco](./reviews/adherencia-geco-2026-09-20.md), [narval](./reviews/narval-colmil
 [relámpago del Catatumbo](./reviews/relampago-catatumbo-2026-09-20.md), [rayas
 de cebra](./reviews/rayas-cebra-2026-09-20.md), [ronroneo de gatos](./reviews/ronroneo-gatos-2026-09-20.md),
 [mar de ardora](./reviews/mar-ardora-2026-09-20.md) y [calamar
-gigante](./reviews/calamar-gigante-2026-09-20.md). El auditor confirma 18
-paquetes, todos con decisión `pending`; ningún paquete sustituye la aprobación
-humana.
+gigante](./reviews/calamar-gigante-2026-09-20.md). Con los tres paquetes nuevos
+hay **21 paquetes asistidos**, todos con decisión `pending`; ninguno sustituye
+la aprobación humana.
 
 Los paquetes de contraste asistido se comprueban con
 `pnpm content:assisted-review-audit`: deben incluir matriz de afirmaciones,

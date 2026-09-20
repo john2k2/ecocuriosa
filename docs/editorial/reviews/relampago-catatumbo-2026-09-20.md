@@ -15,6 +15,8 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 1. [Lightning activity over Lake Maracaibo](https://doi.org/10.1016/j.jastp.2012.01.013) — *Journal of Atmospheric and Solar-Terrestrial Physics*; actividad eléctrica y variabilidad regional.
 2. [Recent analysis of lightning activity in the Lake Maracaibo region](https://doi.org/10.1029/2025JD044030) — *Journal of Geophysical Research: Atmospheres*; análisis reciente con periodo y variables regionales.
 3. [Seasonal prediction of lightning activity in the Lake Maracaibo region](https://doi.org/10.1016/j.atmosres.2015.12.018) — *Atmospheric Research*; correlaciones estacionales y límites de productos LIS-TRMM/OTD.
+4. [A Global LIS/OTD Climatology of Lightning Flash Extent Density](https://doi.org/10.1029/2020JD033885) — *Journal of Geophysical Research: Atmospheres*; climatología orbital y métrica FED.
+5. [Research Applications for the Geostationary Lightning Mapper Operational Lightning Flash Data Product](https://doi.org/10.1029/2019JD031054) — *Journal of Geophysical Research: Atmospheres*; límites y correcciones del producto GLM.
 
 ## Matriz de afirmaciones
 
@@ -26,6 +28,8 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 | C4 | La frecuencia observada depende de la plataforma de detección y del intervalo analizado. | El trabajo estacional usa productos satelitales LIS-TRMM/OTD y el reciente usa otro conjunto de variables. | No mezclar sensores, temporadas o definiciones como si fueran una serie única. | pending |
 | C5 | El apodo “Faro de Maracaibo” es histórico y no demuestra visibilidad continua ni una tasa fija. | El artículo separa relatos de navegación de registros instrumentales. | Mantenerlo como contexto cultural, no como medición meteorológica. | pending |
 | C6 | No hay base en estas fuentes para atribuir al Catatumbo una fracción global fija del ozono. | La ficha distingue química local de una afirmación planetaria no demostrada. | No usar “10 %” ni otra cifra mundial sin estudio específico y método explícito. | pending |
+| C7 | Una climatología LIS/OTD puede clasificar a Maracaibo como hotspot bajo una métrica satelital de extensión de flashes. | La climatología global calcula densidad de extensión con productos orbitales. | No equivale a descargas físicas contadas desde tierra ni a actividad idéntica cada noche. | pending |
+| C8 | El producto GLM requiere interpretar eficiencia de detección y anomalías ópticas antes de comparar cifras. | El estudio del producto operacional documenta límites y correcciones del sensor. | Un año, sensor y resolución concretos no forman una constante climatológica universal. | pending |
 
 ## Imagen, enlaces y políticas
 
