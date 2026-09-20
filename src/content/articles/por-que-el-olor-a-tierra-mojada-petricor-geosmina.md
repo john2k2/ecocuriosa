@@ -3,7 +3,7 @@ title: "Geosmina y petricor: por qué huele la tierra mojada"
 description: "Cómo la geosmina, los aceites vegetales y los aerosoles del suelo contribuyen al olor a tierra mojada, sin reducir el petricor a una sola molécula."
 category: "ciencia-curiosa"
 pubDate: 2026-09-04
-updatedDate: 2026-09-12
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/petricor-gotas-lluvia-tierra.svg"
 imageAlt: "Ilustración editorial de una gota de lluvia sobre tierra seca y microaerosoles"
@@ -38,6 +38,18 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "primary"
     scope: "Métodos y comparación de receptores entre especies"
+  - title: "Distribution, abundance and activity of geosmin- and 2-MIB-producing Streptomyces"
+    publisher: "Water Research / PubMed"
+    url: "https://doi.org/10.1016/j.watres.2018.08.014"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Dos reservorios australianos y qPCR de microorganismos productores de compuestos de olor; no explica todo el petricor"
+  - title: "A detailed view on geosmin biosynthesis"
+    publisher: "ChemBioChem"
+    url: "https://doi.org/10.1002/cbic.202300101"
+    accessedDate: 2026-09-20
+    evidenceType: "review"
+    scope: "Ruta enzimática de biosíntesis de geosmina y presencia en varios grupos microbianos; no mide la mezcla completa del petricor"
 featured: false
 ---
 
@@ -52,6 +64,8 @@ El término 'petricor' fue acuñado formalmente en 1964 por dos químicos austra
 A estos aceites botánicos se suma la geosmina ($C_{12}H_{22}O$), una molécula sintetizada de forma natural por microorganismos del suelo, especialmente actinobacterias del género *Streptomyces*, como resume la [revisión disponible en PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/). La cantidad y la forma en que llega al aire dependen del suelo y de la lluvia.
 
 Un [estudio de 2024](https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515) probó 616 variantes de receptores olfativos humanos y encontró que OR11A1 respondía a la geosmina en las concentraciones fisiológicamente relevantes del ensayo. Es una evidencia de laboratorio sobre un receptor concreto, no una explicación completa de todos los olores del petricor ni una medida universal del umbral de cada persona.
+
+La fuente microbiana tampoco es única ni idéntica en todos los suelos. En dos reservorios australianos, un estudio de [Streptomyces productores de geosmina y 2-MIB](https://doi.org/10.1016/j.watres.2018.08.014) encontró señales en suelos, sedimentos, restos vegetales y agua, pero el diseño no permite atribuirle todo el olor posterior a una lluvia. Una revisión de [biosíntesis de geosmina](https://doi.org/10.1002/cbic.202300101) describe la ruta enzimática y otros grupos microbianos; esa ruta química no equivale a la composición completa del petricor que llega a una nariz humana.
 
 ---
 
@@ -110,3 +124,5 @@ El petricor combina compuestos y aerosoles liberados cuando llueve sobre un suel
 - [Geosmin biosynthesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC3013058/) — revisión en PubMed Central; producción microbiana de geosmina.
 - [The human odorant receptor OR11A1 detects geosmin](https://pubs.acs.org/doi/10.1021/acs.jafc.4c01515) — *Journal of Agricultural and Food Chemistry*; receptor estudiado en laboratorio.
 - [The human odorant receptor OR11A1 detects geosmin (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11261619/) — texto disponible en PubMed Central.
+- [Distribution, abundance and activity of geosmin- and 2-MIB-producing *Streptomyces*](https://doi.org/10.1016/j.watres.2018.08.014) — *Water Research*; reservorios australianos y límites del muestreo.
+- [A detailed view on geosmin biosynthesis](https://doi.org/10.1002/cbic.202300101) — *ChemBioChem*; ruta bioquímica y grupos microbianos.

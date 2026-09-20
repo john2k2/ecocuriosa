@@ -3,6 +3,7 @@ title: "Relámpago del Catatumbo: actividad eléctrica en Maracaibo"
 description: "Qué se conoce sobre la convección, el relieve y la actividad de rayos en la región del Catatumbo, Venezuela."
 category: "fenomenos-naturales"
 pubDate: 2026-08-22
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/relampago-del-catatumbo.svg"
 imageAlt: "Ilustración editorial sobre las tormentas eléctricas del relámpago del Catatumbo"
@@ -31,6 +32,18 @@ sources:
     accessedDate: 2026-09-20
     evidenceType: "primary"
     scope: "Correlaciones estacionales de actividad LIS-TRMM/OTD y factores locales o regionales; conservar el diseño correlacional y los límites del sensor"
+  - title: "A Global LIS/OTD Climatology of Lightning Flash Extent Density"
+    publisher: "Journal of Geophysical Research: Atmospheres"
+    url: "https://doi.org/10.1029/2020JD033885"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Climatología satelital LIS/OTD y densidad de extensión de flashes en Maracaibo; métrica orbital, no conteo terrestre"
+  - title: "Research Applications for the Geostationary Lightning Mapper Operational Lightning Flash Data Product"
+    publisher: "Journal of Geophysical Research: Atmospheres"
+    url: "https://doi.org/10.1029/2019JD031054"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Límites, anomalías y eficiencia del producto GLM en 2018; un sensor y periodo concretos, no constante universal"
 featured: false
 ---
 
@@ -43,6 +56,8 @@ featured: false
 La cuenca del lago de Maracaibo combina una fuente importante de humedad con una topografía compleja. El [análisis reciente de la actividad de rayos en la región](https://doi.org/10.1029/2025JD044030) estudia cómo varían la temperatura, las brisas y la estabilidad atmosférica. Esos ingredientes pueden alimentar convección profunda, la clase de nube que permite la separación de cargas y los rayos.
 
 El relieve de la cordillera de Mérida y de la serranía del Perijá puede canalizar y elevar aire húmedo. La investigación atmosférica estudia esa combinación de orografía, circulación local y condiciones de gran escala, en lugar de atribuir el fenómeno a un único ingrediente o a un proceso ininterrumpido.
+
+La cifra cambia cuando cambia el sensor. Una climatología [LIS/OTD de densidad de extensión de flashes](https://doi.org/10.1029/2020JD033885) mantiene a Maracaibo entre los hotspots globales bajo esa métrica, pero no equivale a contar descargas desde tierra ni a decir que cada noche tiene la misma actividad. El producto [GLM operacional](https://doi.org/10.1029/2019JD031054) también exige corregir eficiencia de detección y anomalías ópticas; por eso un valor anual debe llevar sensor, periodo, resolución y definición de flash.
 
 ---
 
@@ -101,3 +116,5 @@ El Catatumbo destaca por su combinación de geografía y convección, no por un 
 - [Lightning activity over Lake Maracaibo](https://doi.org/10.1016/j.jastp.2012.01.013) — *Journal of Atmospheric and Solar-Terrestrial Physics*; actividad eléctrica observada en la región.
 - [Recent analysis of lightning activity in the Lake Maracaibo region](https://doi.org/10.1029/2025JD044030) — *Journal of Geophysical Research: Atmospheres*; análisis reciente con alcance temporal y regional.
 - [Seasonal prediction of lightning activity in the Lake Maracaibo region](https://doi.org/10.1016/j.atmosres.2015.12.018) — *Atmospheric Research*; correlaciones estacionales y límites del producto satelital.
+- [A Global LIS/OTD Climatology of Lightning Flash Extent Density](https://doi.org/10.1029/2020JD033885) — *Journal of Geophysical Research: Atmospheres*; climatología orbital y métrica FED.
+- [Research Applications for the Geostationary Lightning Mapper Operational Lightning Flash Data Product](https://doi.org/10.1029/2019JD031054) — *Journal of Geophysical Research: Atmospheres*; correcciones y límites del producto GLM.

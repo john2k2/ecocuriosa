@@ -3,7 +3,7 @@ title: "El tiburón de Groenlandia: longevidad estimada de siglos"
 description: "Qué reveló la datación por radiocarbono sobre Somniosus microcephalus y qué incertidumbres persisten sobre su biología."
 category: "especies-marinas"
 pubDate: 2026-08-14
-updatedDate: 2026-09-12
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/tiburon-de-groenlandia.svg"
 imageAlt: "Ilustración editorial sobre la longevidad y el metabolismo del tiburón de Groenlandia"
@@ -38,6 +38,24 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "institutional"
     scope: "Método de radiocarbono e intervalo de edad; contexto divulgativo"
+  - title: "A first look at the metabolic rate of Greenland sharks in the Canadian Arctic"
+    publisher: "Scientific Reports"
+    url: "https://doi.org/10.1038/s41598-020-76371-0"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Respirometría de campo en cuatro tiburones; tasas bajas compatibles con relaciones alométricas y térmicas, no explicación única de longevidad"
+  - title: "The Greenland shark Somniosus microcephalus: hemoglobins and ligand-binding properties"
+    publisher: "PLOS ONE"
+    url: "https://doi.org/10.1371/journal.pone.0186181"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Caracterización bioquímica de tres hemoglobinas y unión de oxígeno; no demuestra una causa genética de longevidad"
+  - title: "The visual system of the longest-living vertebrate, the Greenland shark"
+    publisher: "Nature Communications"
+    url: "https://doi.org/10.1038/s41467-025-67429-6"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Genoma y transcriptoma retinal de ejemplares examinados; asociación molecular y muestra limitada, no mecanismo antienvejecimiento probado"
 featured: false
 ---
 
@@ -61,6 +79,8 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 
 3. **Reproducción incierta:** La madurez, gestación y fecundidad siguen teniendo incertidumbres importantes. Esa falta de datos hace especialmente relevante evitar cifras cerradas al describir la vulnerabilidad de la especie.
 
+La fisiología medida no resuelve por sí sola el récord de edad. Una [respirometría de cuatro tiburones del Ártico canadiense](https://doi.org/10.1038/s41598-020-76371-0) encontró tasas metabólicas de reposo bajas, pero compatibles con relaciones alométricas y térmicas observadas en otros tiburones; no es una explicación suficiente de la longevidad. La caracterización de [tres hemoglobinas](https://doi.org/10.1371/journal.pone.0186181) aporta contexto sobre transporte de oxígeno, no una causa sistémica demostrada.
+
 ### Parámetros Demográficos y Fisiológicos de Somniosus microcephalus
 
 | Variable Biológica | Valor Cuantificado | Implicación Ecológica |
@@ -75,6 +95,8 @@ El núcleo del cristalino se forma temprano en el desarrollo y permite aplicar d
 ## 3. Qué aporta el genoma y qué no puede demostrar
 
 El primer genoma del tiburón de Groenlandia a escala cromosómica ofrece un mapa para estudiar reparación del ADN, inmunidad y estabilidad celular. Esas rutas son candidatas de investigación: encontrar un gen o una variante asociada no demuestra que cause la longevidad ni que pueda convertirse en un tratamiento humano. La [ficha de NOAA](https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412) recuerda además que la datación por radiocarbono produce intervalos amplios, no una edad exacta para cada ejemplar.
+
+Un estudio del [sistema visual](https://doi.org/10.1038/s41467-025-67429-6) describe genes y expresión retinal compatibles con visión escotópica y reparación celular en los ejemplares analizados. Es una asociación molecular con una muestra concreta: no demuestra que esos genes expliquen la edad ni que exista un mecanismo antienvejecimiento transferible a humanos.
 
 ---
 
@@ -115,3 +137,6 @@ La datación del cristalino situó al tiburón de Groenlandia entre los vertebra
 - [Assessing the reproductive biology of the Greenland shark](https://pmc.ncbi.nlm.nih.gov/articles/PMC7540863/) — *Journal of Fish Biology* / PubMed Central; reproducción y vacíos de conocimiento.
 - [The Greenland shark genome](https://doi.org/10.1073/pnas.2601272123) — *PNAS*; genoma y rutas celulares candidatas.
 - [How long do Greenland sharks live?](https://oceanservice.noaa.gov/facts/greenland-shark.html?pubDate=20250412) — NOAA Ocean Service; contexto divulgativo del método.
+- [A first look at the metabolic rate of Greenland sharks in the Canadian Arctic](https://doi.org/10.1038/s41598-020-76371-0) — *Scientific Reports*; respirometría de cuatro ejemplares.
+- [The Greenland shark: hemoglobins and ligand-binding properties](https://doi.org/10.1371/journal.pone.0186181) — *PLOS ONE*; bioquímica del transporte de oxígeno.
+- [The visual system of the longest-living vertebrate, the Greenland shark](https://doi.org/10.1038/s41467-025-67429-6) — *Nature Communications*; sistema visual y límites de la asociación molecular.

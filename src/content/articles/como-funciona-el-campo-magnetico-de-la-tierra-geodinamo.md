@@ -3,7 +3,7 @@ title: "Geodinamo terrestre: cómo genera el campo magnético"
 description: "Qué es la geodinamo terrestre, cómo se mueve el metal líquido del núcleo externo y por qué el campo magnético cambia sin ser un escudo absoluto."
 category: "ciencia-curiosa"
 pubDate: 2026-09-02
-updatedDate: 2026-09-14
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/campo-magnetico-geodinamo.svg"
 imageAlt: "Ilustración editorial del campo magnético terrestre desviando partículas cargadas del viento solar"
@@ -44,6 +44,24 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "institutional"
     scope: "Contexto de una onda magnética hacia el oeste y su periodo aproximado"
+  - title: "Forecasting yearly geomagnetic variation through sequential estimation of core flow and magnetic diffusion"
+    publisher: "Earth, Planets and Space"
+    url: "https://doi.org/10.1186/s40623-020-01193-3"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Inferencia de flujo en el límite núcleo-manto a partir de variación secular; hindcast y modelo candidato, no observación directa"
+  - title: "State and evolution of the geodynamo from numerical models"
+    publisher: "Geophysical Journal International"
+    url: "https://doi.org/10.1093/gji/ggad229"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Asimilación de modelos geomagnéticos y simulaciones físicas; potencia y ondas dependen de supuestos"
+  - title: "Combined dynamical and morphological characterisation of geodynamo simulations"
+    publisher: "Earth and Planetary Science Letters"
+    url: "https://doi.org/10.1016/j.epsl.2022.117752"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Comparación de 67 simulaciones para separar morfología de fuerzas internas; no predice una inversión inminente"
 featured: false
 ---
 
@@ -87,6 +105,8 @@ Los satélites no observan directamente el metal del núcleo externo. Registran 
 
 Estas señales muestran que la geodinamo cambia con el tiempo, pero no permiten anunciar una inversión de polaridad ni convertir un cambio regional en una predicción global. La inferencia depende del modelo, del periodo observado y de la separación entre señales del núcleo, la corteza, los océanos y la ionosfera.
 
+La cadena de evidencia puede hacerse más explícita. Un método de [estimación secuencial del flujo del núcleo](https://doi.org/10.1186/s40623-020-01193-3) usa la variación secular superficial y la difusión magnética para construir un modelo candidato; no observa el hierro líquido. Las simulaciones que asimilan observaciones y condiciones físicas [comparan estados posibles del geodinamo](https://doi.org/10.1093/gji/ggad229), mientras que un conjunto de [67 simulaciones](https://doi.org/10.1016/j.epsl.2022.117752) muestra que una morfología parecida al campo terrestre no identifica una única fuerza interna.
+
 ---
 
 ## 4. Desmintiendo Mitos Comunes
@@ -127,3 +147,6 @@ El geodinamo del núcleo externo crea un campo cambiante que interactúa con el 
 - [Satellite magnetic data reveal interannual waves in Earth’s core](https://pmc.ncbi.nlm.nih.gov/articles/PMC9060525/) — *Proceedings of the National Academy of Sciences* / PubMed Central; inferencias a partir de datos satelitales.
 - [Swarm unveils magnetic waves deep down](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Swarm_unveils_magnetic_waves_deep_down) — ESA; explicación de la misión y sus mediciones.
 - [Do any mass extinctions correlate with magnetic reversals?](https://www.usgs.gov/faqs/do-any-mass-extinctions-correlate-magnetic-reversals) — USGS; contexto sobre inversiones y extinciones.
+- [Forecasting yearly geomagnetic variation through sequential estimation of core flow and magnetic diffusion](https://doi.org/10.1186/s40623-020-01193-3) — *Earth, Planets and Space*; inferencia de flujo y límites de predicción.
+- [State and evolution of the geodynamo from numerical models](https://doi.org/10.1093/gji/ggad229) — *Geophysical Journal International*; asimilación y simulaciones.
+- [Combined dynamical and morphological characterisation of geodynamo simulations](https://doi.org/10.1016/j.epsl.2022.117752) — *Earth and Planetary Science Letters*; comparación de 67 simulaciones.

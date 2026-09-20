@@ -281,3 +281,24 @@ de `human_review` tuvo probabilidad 0,96. Jev devolvió `model: jev-1.13.0` y
 comprobación de Google, Search Console, Cloudflare o AdSense, ni una predicción
 de aprobación, CPM, ingresos o tráfico. La integración de fuentes mejora la
 trazabilidad; no cuenta como firma humana ni autoriza publicación automática.
+
+## Reevaluación tras el lote de oportunidades de Search Console — 20/09/2026
+
+Luna Max entregó quince candidatas nuevas para geosmina/petricor, tiburón de
+Groenlandia, geodinamo, pulpo mimo, leopardo de las nieves y Catatumbo. Se
+incorporaron al catálogo, y doce se integraron con alcance y límites en cinco
+artículos existentes. El catálogo queda en 748 entradas y los artículos pasan a
+143 fuentes enlazadas y renderizadas; los briefs siguen bloqueados con
+`humanApproval: pending` y `publish: false`.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación editorial verificable para revisión humana | **2,00/4** | 0,95 | La trazabilidad documental mejoró, pero la deuda de revisión humana sigue siendo grande. |
+| Próxima puerta | **cerrar revisiones humanas P0** | 0,99 | Revisar y registrar realmente los 31 artículos pendientes; no seguir acumulando fuentes antes de ese paso. |
+
+La distribución fue 0: 0%, 1: 3%, 2: 94%, 3: 3% y 4: 0%. La variación de
+2,01/4 a 2,00/4 no es una regresión del código ni una métrica de tráfico: la
+consulta volvió a ponderar explícitamente que ninguna fuente candidata sustituye
+una firma humana. Jev devolvió `model: jev-1.13.0` y `advisory_only: true`; no
+es una comprobación de Google, Search Console, Cloudflare o AdSense ni una
+predicción de aprobación, CPM o ingresos.

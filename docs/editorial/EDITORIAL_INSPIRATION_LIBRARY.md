@@ -1228,8 +1228,29 @@ no sustituyen la lectura humana ni autorizan reutilizar figuras o fotografías.
 | Tardígrado | [Ecología de la anhidrobiosis](https://doi.org/10.1111/1365-2656.14031); [supervivencia y daño de ADN](https://doi.org/10.1242/jeb.033266); [aparato alimentario comparado](https://doi.org/10.4081/jlimnol.2013.s1.e4) | Sustituir “sobrevive a todo” por una matriz especie × estado × estrés y una anatomía alimentaria comparada | Taxones, humedades, temperaturas y duraciones específicas; proxies ambientales no prueban causalidad universal |
 | Axolote | [Atlas multi-especie de desarrollo/regeneración](https://doi.org/10.1038/s41467-023-41944-w); [rastreo de linajes](https://elifesciences.org/articles/25726); [blastema, nervios y BMP2](https://doi.org/10.1371/journal.pone.0123186) | Mostrar que la regeneración combina linajes, señales nerviosas y contexto tisular, no una masa universal de células madre | Transcriptómica, edición mosaico y cultivos ex vivo tienen alcances distintos; no implican regeneración humana |
 
-El catálogo queda en **733 candidatas**. Las 15 nuevas conservan `pending` y
+En esa ronda, el catálogo quedó en **733 candidatas**. Las 15 nuevas conservan `pending` y
 solo pueden pasar a un artículo después de comprobar DOI/PMID, texto completo,
 método, muestra, licencia, afirmación respaldada y límite. La herramienta de
 Luna no puede cerrar `reviewedDate`, `reviewedBy`, `humanApproval` ni
 `publish`.
+
+### Búsqueda dirigida de Luna Max — oportunidades con impresiones — 20 de septiembre de 2026
+
+Esta ronda añade quince candidatas nuevas para seis URLs que ya reciben señales
+de Search Console. El objetivo es mejorar las piezas existentes antes de abrir
+otra URL; son fuentes de inspiración y contraste, no revisiones humanas cerradas.
+
+| Tema | Fuentes candidatas | Editorial que pueden inspirar | Límite obligatorio |
+| --- | --- | --- | --- |
+| Geosmina/petricor | [Streptomyces en reservorios](https://doi.org/10.1016/j.watres.2018.08.014); [biosíntesis detallada](https://doi.org/10.1002/cbic.202300101) | Recorrido suelo → microorganismo → compuesto volátil → aerosol, separando geosmina de la mezcla del petricor | Dos reservorios y ruta bioquímica; no es una explicación de toda lluvia ni de la percepción humana |
+| Tiburón de Groenlandia | [Tasa metabólica](https://doi.org/10.1038/s41598-020-76371-0); [hemoglobinas](https://doi.org/10.1371/journal.pone.0186181); [sistema visual](https://doi.org/10.1038/s41467-025-67429-6) | Recuadro “qué aporta el metabolismo, la sangre y la visión al récord de edad” | Cuatro tiburones, bioquímica y ejemplares/tejidos limitados; genes o tasas bajas no prueban antienvejecimiento |
+| Geodinamo | [Pronóstico de variación secular](https://doi.org/10.1186/s40623-020-01193-3); [modelos físicos](https://doi.org/10.1093/gji/ggad229); [67 simulaciones](https://doi.org/10.1016/j.epsl.2022.117752) | Diagrama medición → inversión → simulación → predicción, con incertidumbre visible | El núcleo no se observa directamente; una simulación no predice una inversión inminente |
+| Pulpo mimo | [Avistamientos en Mozambique](https://doi.org/10.1017/S175526721200125X); [background matching en otros pulpos](https://doi.org/10.1371/journal.pone.0037579) | Separar rango observado, postura, color y comparación entre cefalópodos | Dos avistamientos y otra especie experimental no prueban intención ni un repertorio universal de 15 modelos |
+| Leopardo de las nieves | [Telemetría GPS en Kangchenjunga](https://doi.org/10.1002/inc3.70008); [dieta por metabarcoding](https://doi.org/10.3389/fevo.2021.783546); [evolución de alta montaña](https://doi.org/10.1126/sciadv.adp5243) | Mapa de movimiento y dieta que conecte pendientes, presas y conflicto ganadero | n=4 para GPS, región concreta para dieta y modelos/fósiles para evolución; no generalizar a toda la especie |
+| Catatumbo | [Climatología LIS/OTD](https://doi.org/10.1029/2020JD033885); [producto GLM](https://doi.org/10.1029/2019JD031054) | Comparar récord, densidad y frecuencia indicando sensor, unidad, periodo y resolución | Una métrica satelital no es conteo terrestre; evitar “tormenta eterna” y valores fijos sin ventana temporal |
+
+La línea de trabajo recomendada es actualizar primero estas seis páginas, medir
+CTR y posición durante 28 días y solo después decidir si hace falta una pieza
+nueva. Cada candidato conserva sus limitaciones en [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml);
+los briefs derivados deben seguir con `humanApproval: pending` y
+`publish: false`.

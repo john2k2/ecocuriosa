@@ -3,7 +3,7 @@ title: "El pulpo mimo: camuflaje dinámico y modelos que puede imitar"
 description: "Qué observaron los estudios sobre Thaumoctopus mimicus y por qué las listas populares de imitaciones requieren cautela."
 category: "especies-marinas"
 pubDate: 2026-08-15
-updatedDate: 2026-09-14
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/pulpo-mimo-camuflaje.svg"
 imageAlt: "Ilustración editorial de un pulpo mimo cambiando la forma de sus tentáculos"
@@ -50,6 +50,18 @@ sources:
     accessedDate: 2026-09-12
     evidenceType: "primary"
     scope: "Coloración pigmentaria y estructural en condiciones experimentales"
+  - title: "First sightings of mimic octopus Thaumoctopus mimicus from the Southwest Indian Ocean"
+    publisher: "Journal of the Marine Biological Association of the United Kingdom"
+    url: "https://doi.org/10.1017/S175526721200125X"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Dos avistamientos en Mozambique y extensión regional de rango; no prueba frecuencia de mimetismos, intención ni repertorio fijo"
+  - title: "Camouflaging in a complex environment: octopuses use specific features of their surroundings"
+    publisher: "PLOS ONE"
+    url: "https://doi.org/10.1371/journal.pone.0037579"
+    accessedDate: 2026-09-20
+    evidenceType: "primary"
+    scope: "Mecanismo comparativo de ajuste de fondo en Octopus cyanea y O. vulgaris; no evidencia directa de Thaumoctopus mimicus"
 featured: false
 ---
 
@@ -62,6 +74,8 @@ featured: false
 El camuflaje clásico en cefalópodos como el pulpo común (*Octopus vulgaris*) o la sepia se basa en el cripticismo: igualar el color del sustrato rocoso, la textura de las algas o el contraste de la arena para volverse invisible a la vista. Sin embargo, el estudio de campo describió fondos de arena o limo cerca de desembocaduras en Sulawesi y Bali. Ese hábitat expuesto pudo favorecer el mimetismo dinámico; su clasificación como Batesiano o Mülleriano sigue sin resolverse.
 
 Observado por primera vez en 1998 y [descrito formalmente en 2005](https://www.mapress.com/mrs/article/view/mr.25.2.1), *Thaumoctopus mimicus* puede adoptar posturas que recuerdan a otros animales, como documenta el [estudio de mimetismo dinámico](https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/). La interpretación más prudente es que algunas formas podrían reducir el riesgo de depredación; las observaciones no prueban una intención idéntica en cada encuentro. Su cuerpo flexible permite cambios rápidos de postura y patrón.
+
+El rango observado también debe separarse del repertorio conductual. Dos [avistamientos en Mozambique](https://doi.org/10.1017/S175526721200125X) documentan la presencia de la especie en una región del océano Índico, pero no miden cuántas posturas usa ni con qué frecuencia. Como comparación de mecanismo, experimentos en *Octopus cyanea* y *O. vulgaris* muestran que el [ajuste de fondo usa rasgos concretos del entorno](https://doi.org/10.1371/journal.pone.0037579); esa evidencia no convierte a otras especies en una prueba directa de *T. mimicus*.
 
 ---
 
@@ -129,3 +143,5 @@ El pulpo mimo demuestra una flexibilidad corporal extraordinaria, respaldada por
 - [Neural control of cephalopod camouflage](https://doi.org/10.1016/j.cub.2023.08.095) — *Current Biology*; control neural de camuflaje en cefalópodos.
 - [Dynamic skin behaviors in cephalopods](https://www.sciencedirect.com/science/article/pii/S0959438824000382) — revisión comparativa; límites taxonómicos.
 - [Dynamic pigmentary and structural coloration within cephalopod chromatophore organs](https://pmc.ncbi.nlm.nih.gov/articles/PMC6397165/) — *Journal of Morphology* / PubMed Central; pigmentos y coloración.
+- [First sightings of mimic octopus *Thaumoctopus mimicus* from the Southwest Indian Ocean](https://doi.org/10.1017/S175526721200125X) — *JMBA*; dos avistamientos regionales.
+- [Camouflaging in a complex environment](https://doi.org/10.1371/journal.pone.0037579) — *PLOS ONE*; ajuste de fondo en otras especies de pulpo.

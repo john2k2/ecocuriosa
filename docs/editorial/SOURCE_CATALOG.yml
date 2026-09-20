@@ -4432,3 +4432,93 @@ entries:
     evidenceType: peer-reviewed-primary-candidate
     url: https://doi.org/10.1371/journal.pone.0123186
     use: candidato para señales nerviosas y BMP2 en proliferación de blastema en cultivo organotípico; evidencia ex vivo y no terapia humana
+  - id: ec-geosmin-streptomyces-reservoirs-2018
+    authority: Water Research / PubMed
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.watres.2018.08.014
+    use: candidato para distribución de Streptomyces productores de geosmina y 2-MIB en dos reservorios; no explica todo el petricor ni todos los olores tras la lluvia
+  - id: ec-geosmin-biosynthesis-2023
+    authority: ChemBioChem
+    domain: geosmin-petrichor
+    evidenceType: peer-reviewed-review-candidate
+    url: https://doi.org/10.1002/cbic.202300101
+    use: candidato para describir la biosíntesis enzimática de geosmina y su presencia en varios grupos microbianos; no mide percepción humana ni el petricor completo
+  - id: ec-greenland-shark-metabolic-rate-2020
+    authority: Scientific Reports
+    domain: greenland-shark-longevity
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41598-020-76371-0
+    use: candidato para tasas metabólicas de reposo en cuatro tiburones del Ártico canadiense; muestra pequeña y no explica por sí sola la longevidad
+  - id: ec-greenland-shark-hemoglobin-2017
+    authority: PLOS ONE
+    domain: greenland-shark-physiology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1371/journal.pone.0186181
+    use: candidato para propiedades de unión de oxígeno de hemoglobinas; evidencia bioquímica que no demuestra una causa genética de longevidad
+  - id: ec-greenland-shark-visual-system-2026
+    authority: Nature Communications
+    domain: greenland-shark-vision
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1038/s41467-025-67429-6
+    use: candidato para sistema visual escotópico y expresión de genes de reparación en ejemplares examinados; asociación molecular y muestra limitada, no mecanismo antienvejecimiento demostrado
+  - id: ec-geodynamo-secular-forecast-2020
+    authority: Earth, Planets and Space
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1186/s40623-020-01193-3
+    use: candidato para explicar cómo la variación secular se usa para inferir flujo en el límite núcleo-manto; hindcast/modelo, no observación directa
+  - id: ec-geodynamo-numerical-models-2023
+    authority: Geophysical Journal International
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1093/gji/ggad229
+    use: candidato para asimilación de modelos geomagnéticos y simulaciones físicas del geodinamo; potencia y ondas dependen de supuestos
+  - id: ec-geodynamo-simulation-morphology-2022
+    authority: Earth and Planetary Science Letters
+    domain: geodynamo
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1016/j.epsl.2022.117752
+    use: candidato para comparar 67 simulaciones y separar morfología del campo de fuerzas internas; simulación no predice una inversión inminente
+  - id: ec-mimic-octopus-range-2024
+    authority: Journal of the Marine Biological Association of the United Kingdom
+    domain: mimic-octopus
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1017/S175526721200125X
+    use: candidato para dos avistamientos de Thaumoctopus mimicus en Mozambique y extensión regional de rango; no prueba repertorio o intención
+  - id: ec-octopus-background-matching-2012
+    authority: PLOS ONE
+    domain: cephalopod-camouflage
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1371/journal.pone.0037579
+    use: candidato comparativo para mostrar que Octopus cyanea y O. vulgaris usan rasgos concretos del entorno; no es evidencia directa de T. mimicus
+  - id: ec-snow-leopard-gps-kangchenjunga-2025
+    authority: Integrative Conservation
+    domain: snow-leopard-conservation
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1002/inc3.70008
+    use: candidato para telemetría GPS de cuatro individuos y conectividad transfronteriza en Kangchenjunga; no generalizar áreas de campeo
+  - id: ec-snow-leopard-diet-metabarcoding-2021
+    authority: Frontiers in Ecology and Evolution
+    domain: snow-leopard-ecology
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.3389/fevo.2021.783546
+    use: candidato para dieta mediante ADN fecal en 351 muestras y relación entre biomasa ganadera y depredación; región concreta y proxy dietario
+  - id: ec-snow-leopard-evolution-high-altitude-2025
+    authority: Science Advances
+    domain: snow-leopard-evolution
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1126/sciadv.adp5243
+    use: candidato para integrar fósiles, morfometría y modelos de distribución; no reducir toda adaptación a frío/altitud ni afirmar fisiología directa
+  - id: ec-catatumbo-lis-otd-climatology-2021
+    authority: Journal of Geophysical Research: Atmospheres
+    domain: catatumbo-lightning
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1029/2020JD033885
+    use: candidato para climatología LIS/OTD y densidad de extensión de flashes en Maracaibo; métrica satelital no equivale a descargas desde tierra
+  - id: ec-catatumbo-glm-product-2019
+    authority: Journal of Geophysical Research: Atmospheres / PubMed Central
+    domain: catatumbo-lightning
+    evidenceType: peer-reviewed-primary-candidate
+    url: https://doi.org/10.1029/2019JD031054
+    use: candidato para límites, anomalías y eficiencia del producto GLM en Maracaibo; periodo y sensor concretos, no constante climatológica universal
