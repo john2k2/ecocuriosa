@@ -4612,3 +4612,87 @@ entries:
     evidenceType: security-guidance
     url: https://help.openai.com/en/articles/5008148
     use: claves por proyecto, límites de gasto, rotación y trazabilidad para automatizaciones; complementar con gestor de secretos y revisión de logs
+  - id: google-web-vitals-ttfb
+    authority: Google web.dev
+    domain: web-performance
+    evidenceType: performance-guidance
+    url: https://web.dev/articles/optimize-ttfb
+    use: medir TTFB como métrica diagnóstica previa a FCP/LCP y separar laboratorio de campo; 0,8 s es una guía, no un Core Web Vital ni una garantía de ranking
+  - id: google-responsive-images
+    authority: Google web.dev
+    domain: responsive-images
+    evidenceType: performance-guidance
+    url: https://web.dev/articles/responsive-images
+    use: decidir srcset, sizes, picture, alt y formatos por dispositivo; revisar costes de memoria/decodificación y no eliminar originales sin respaldo
+  - id: w3c-wcag22-keyboard
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-keyboard
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+    use: comprobar que menú, enlaces, formularios y controles dinámicos sean operables con teclado; la guía no sustituye una evaluación de conformidad
+  - id: w3c-wcag22-non-text-content
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-images
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+    use: exigir texto alternativo equivalente y ocultar decorativos; gráficos complejos y CAPTCHA requieren análisis adicional
+  - id: w3c-wcag22-language-page
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-language
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/language-of-page
+    use: verificar lang=es y cambios de idioma en partes de la página; cubre nivel A y no todos los problemas multilingües
+  - id: w3c-wcag22-headings-labels
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility-headings
+    evidenceType: accessibility-guidance
+    url: https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
+    use: revisar que encabezados, labels y CTAs describan el propósito real; no sustituye una prueba de semántica HTML y ARIA
+  - id: google-search-console-cwv-report
+    authority: Google Search Console Help
+    domain: field-performance
+    evidenceType: platform-documentation
+    url: https://support.google.com/webmasters/answer/9205520?hl=en
+    use: leer LCP, INP y CLS de usuarios reales por grupos de URLs y dispositivo; solo muestra páginas indexadas con volumen suficiente
+  - id: google-search-console-url-inspection
+    authority: Google Search Console Help
+    domain: indexation-debugging
+    evidenceType: platform-documentation
+    url: https://support.google.com/webmasters/answer/12482179?hl=en
+    use: comprobar rastreo, canonical, noindex, HTTPS, usabilidad y datos estructurados antes de solicitar rastreo; URL en Google no garantiza ranking
+  - id: cloudflare-cache-analytics
+    authority: Cloudflare
+    domain: cache-observability
+    evidenceType: platform-documentation
+    url: https://developers.cloudflare.com/cache/performance-review/cache-analytics/
+    use: separar HIT, MISS, origen y expiración para decidir qué rutas optimizar; la disponibilidad y retención dependen del plan y no mide audiencia humana
+  - id: cloudflare-cache-rules
+    authority: Cloudflare
+    domain: cache-control
+    evidenceType: platform-documentation
+    url: https://developers.cloudflare.com/cache/how-to/cache-rules/
+    use: definir elegibilidad y TTL por host/path/query y probar con Trace; no aplicar cache everything a HTML personalizado, cookies o consentimiento
+  - id: chrome-lighthouse-overview
+    authority: Chrome for Developers
+    domain: lab-performance
+    evidenceType: performance-guidance
+    url: https://developer.chrome.com/docs/lighthouse/overview/
+    use: ejecutar auditorías reproducibles de rendimiento, accesibilidad, SEO y buenas prácticas en CI o CLI; es laboratorio y no reemplaza CrUX/RUM
+  - id: openai-api-reference-overview
+    authority: OpenAI Developers
+    domain: automation-security
+    evidenceType: platform-documentation
+    url: https://developers.openai.com/api/reference/overview
+    use: mantener autenticación en servidor/secret manager, usar claves de proyecto y registrar request IDs; nunca exponer credenciales en el navegador
+  - id: openai-moderation-guide
+    authority: OpenAI Developers
+    domain: automation-safety
+    evidenceType: platform-documentation
+    url: https://developers.openai.com/api/docs/guides/moderation
+    use: filtrar entradas y borradores potencialmente dañinos y enrutar flags a revisión; moderación no verifica exactitud científica ni sustituye editor
+  - id: openai-evals-guide
+    authority: OpenAI Developers
+    domain: automation-evaluation
+    evidenceType: platform-documentation
+    url: https://developers.openai.com/api/docs/guides/evals
+    use: construir casos de regresión para tono, estructura, claims y citas antes de cambiar prompts/modelos; no sustituye fuentes actuales ni aprobación humana

@@ -53,12 +53,17 @@ const allArticles = await getCollection('articles', (entry) => {
 const sortedArticles = allArticles.sort(
   (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
 );
+const collectionItems = sortedArticles.map((article) => ({
+  name: article.data.title,
+  url: `/${article.data.category}/${article.id}/`,
+}));
 ---
 
 <BaseLayout
   title={`${cat.name} - Cuaderno de Campo`}
   description={cat.description}
   pageType="collection"
+  collectionItems={collectionItems}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-18">
     

@@ -25,7 +25,8 @@ categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
 La evaluación independiente de Jev conserva una lectura ordinal separada de las
-métricas oficiales. Después de ampliar el banco con 14 fuentes canónicas, la
+métricas oficiales. Después de ampliar el banco con 14 fuentes canónicas y
+añadir después 14 controles técnicos, la
 consulta global más reciente dio **1,98/4** para preparación verificable
 (confianza 0,97) y eligió cerrar revisiones humanas con probabilidad **1,00**
 (confianza 1,00). La consulta global anterior, con toda la cola asistida, dio
@@ -43,10 +44,16 @@ elegir `human_review` (0,96; confianza 0,95). No es una caída medida del sitio:
 es otra pregunta y otra ponderación; se conserva junto con 1,98/4 para evitar
 comparar escalas distintas como si fueran una serie temporal.
 
+La consulta posterior a los controles técnicos y al catálogo de **777
+candidatas**, con una penalización explícita por ausencia de CWV de campo, dio
+**1,26/4** (confianza 0,65) y mantuvo `human_review` como siguiente acción
+(0,87; confianza 0,83). Se registra como otra rúbrica consultiva, no como
+regresión del código ni como métrica de Google.
+
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **763 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **777 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -309,10 +316,10 @@ la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entrada
 El lote amplio posterior de Luna añadió 29 URLs no duplicadas y dejó el estado
 histórico en **661 entradas**. Después, la búsqueda dirigida de datasets,
 conservación y automatización añadió 14 URLs no duplicadas; el estado verificable
-actual es **763 entradas**. Las cifras históricas se conservan para no confundir
+actual es **777 entradas**. Las cifras históricas se conservan para no confundir
 una instantánea con una medición retroactiva.
 
-El catálogo actual contiene **763 entradas** y la biblioteca conserva oportunidades
+El catálogo actual contiene **777 entradas** y la biblioteca conserva oportunidades
 para briefs. Todas siguen siendo candidatas hasta la comprobación humana. Las
 familias nuevas más útiles son:
 
@@ -324,6 +331,9 @@ familias nuevas más útiles son:
 - Datasets canónicos para taxonomía, conservación, clima, acidificación,
   sismos y gobernanza de claves: GBIF, IUCN, CONANP, NASA, NOAA, USGS,
   Schema.org y documentación oficial de OpenAI.
+- Rendimiento, accesibilidad y medición: web.dev, W3C WCAG 2.2, Search Console,
+  Cloudflare Cache Analytics/Rules y Lighthouse; se mantienen separados los
+  datos de laboratorio, campo y entrega edge.
 
 Cada entrada sigue siendo una pista de investigación, no una cita aprobada. La URL exacta, su alcance y la fecha de comprobación deben quedar en el artículo cuando una persona la haya verificado.
 

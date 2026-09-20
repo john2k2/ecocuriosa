@@ -35,6 +35,10 @@ interface Props {
   imageCreator?: string;
   imageLicensePage?: string;
   pageType?: 'website' | 'collection' | 'about';
+  collectionItems?: {
+    name: string;
+    url: string;
+  }[];
   noindex?: boolean;
   adsEnabled?: boolean;
 }
@@ -59,6 +63,7 @@ const {
   imageCreator,
   imageLicensePage,
   pageType = 'website',
+  collectionItems,
   noindex = false,
   adsEnabled = true,
 } = Astro.props;
@@ -106,6 +111,7 @@ const {
       imageCreator={imageCreator}
       imageLicensePage={imageLicensePage}
       pageType={pageType}
+      collectionItems={collectionItems}
       noindex={noindex}
     />
 

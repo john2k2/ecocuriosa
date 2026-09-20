@@ -20,6 +20,17 @@ URLs del sitemap devolvieron HTTP 200, las cinco rutas de escaneo permanecieron
 en 403 y los encabezados de seguridad/caché esperados estuvieron presentes. La
 evidencia reproducible está en la [instantánea de runtime](docs/editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-20.md).
 
+## Estado vigente de auditoría — 20 de septiembre de 2026
+
+La foto operativa más reciente tiene **32 artículos, 47 HTML generados, 44
+páginas indexables, 146 fuentes citadas visibles y 777 candidatas en el
+catálogo**. Las auditorías actuales muestran 0 enlaces internos rotos, 0
+metadatos generados problemáticos, 0 fuentes omitidas del HTML, 32/32 imágenes
+en el sitemap y 31 paquetes asistidos en estado `pending`. Solo 1/32 artículos
+tiene revisión humana registrada; esa es la principal deuda que limita E‑E‑A‑T,
+AdSense y la publicación automatizada. Las cifras históricas más abajo se
+conservan como snapshots de medición y no sustituyen este estado vigente.
+
 ## Resumen ejecutivo
 
 EcoCuriosa tiene una base técnica sólida: HTML generado en servidor, navegación clara, canonicales, sitemap, `robots.txt`, `llms.txt`, JSON-LD y HTTPS funcionan en producción. El principal riesgo no es la plantilla sino la confianza editorial: 32 artículos registran al menos dos referencias HTTPS en el frontmatter, pero solo 1 de 32 tiene una revisión humana registrada. Tras la corrección textual preliminar, el auditor no detecta advertencias heurísticas; esa señal no sustituye abrir cada fuente y comprobar su correspondencia con la afirmación.
@@ -166,7 +177,7 @@ La entidad EcoCuriosa está definida en `Organization` y tiene una misión clara
 
 ### Contenido y E-E-A-T — 56/100
 
-Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Cada ficha muestra ahora hasta dos fuentes clave junto a la respuesta inicial y la lista completa al final; los 31 artículos pendientes también acercan al menos un enlace de evidencia a una afirmación específica. La página «Sobre nosotros» explica las responsabilidades de investigación, redacción, visualización y revisión sin inventar credenciales. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada; el prechequeo del 20/09 deja 31 pendientes, 22 con señales de riesgo para lectura humana y 28/31 con fechas de acceso completas. Ya hay 18 paquetes de contraste asistido para artículos P0/P1 y segunda tanda, pero ninguno marca una revisión humana por sí solo. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
+Hay 32 artículos, 32 imágenes referenciadas, 32 fichas con al menos dos entradas de fuente y cierres no repetidos. Cada ficha muestra ahora hasta dos fuentes clave junto a la respuesta inicial y la lista completa al final; los 31 artículos pendientes también acercan al menos un enlace de evidencia a una afirmación específica. La página «Sobre nosotros» explica las responsabilidades de investigación, redacción, visualización y revisión sin inventar credenciales. Estas son referencias registradas, no verificaciones editoriales automáticas. La deuda es la revisión humana: 1/32 está registrada; el prechequeo del 20/09 deja 31 pendientes, 22 con señales de riesgo para lectura humana y **31/31 con fechas de acceso completas**. Hay **31 paquetes** de contraste asistido, pero ninguno marca una revisión humana por sí solo. El auditor local detecta 0 advertencias heurísticas tras la corrección preliminar, pero la cola editorial sigue siendo la puerta de salida antes de automatizar más contenido.
 
 La comprobación de acceso del 12/09/2026 encontró 70 respuestas `200`, 10
 `203` y 17 `403` entre las 97 URLs declaradas entonces. Después se incorporaron
@@ -177,9 +188,10 @@ como aprobación editorial; el detalle y el procedimiento de comprobación
 manual están en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md).
 
 Ese snapshot es histórico. La auditoría vigente del repositorio ya contabiliza
-115 URLs de fuente en los artículos y mantiene las siete sin `accessedDate`
-como trabajo pendiente de revisión humana, no como fuentes verificadas por
-automatización.
+**146 URLs de fuente** en los artículos y **146/146 con `accessedDate`**. La
+fecha de acceso documenta cuándo se consultó el enlace; no convierte por sí sola
+la referencia en una revisión humana ni garantiza que el contenido externo no
+haya cambiado.
 
 ### GEO técnico — 92/100
 
@@ -218,6 +230,14 @@ decisión de seguridad pendiente y no se hizo automáticamente.
 ### Schema y datos estructurados — 82/100
 
 Se emiten `Organization`, `WebSite` con `SearchAction`, `WebPage`/`CollectionPage`, `Article` y `BreadcrumbList`. El artículo incluye fechas, autor, publisher, imagen y citas. `FAQPage` se genera desde la FAQ visible únicamente en la ficha con `reviewedDate` y `reviewedBy` registrados; las 31 fichas pendientes no exponen sus respuestas como datos estructurados. No se añadieron `sameAs` ni `Person` porque faltan datos públicos autorizados. Google no garantiza un resultado enriquecido de FAQ para un publisher general, por lo que la puntuación se mantiene conservadora.
+
+La plantilla ahora añade un `ItemList` a cada página de categoría a partir de las
+tarjetas visibles, con URLs absolutas, posiciones y `numberOfItems`; la auditoría
+de metadata verifica que no haya URLs duplicadas ni artículos fuera de la
+categoría. También se declaran dimensiones Open Graph 1200×750 y la URL del
+perfil editorial como `article:author`. Son señales de interpretación y
+compartición, no garantías de rich results ni de ranking; la puntuación se
+mantiene en 82/100 hasta validar el efecto en producción y Search Console.
 
 ### Optimización por plataforma — 25/100
 
@@ -293,11 +313,11 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm astro check`: 0 errores, 0 avisos, 0 sugerencias.
 - `pnpm build`: 46 páginas estáticas generadas correctamente.
 - `pnpm content:link-audit`: 47 documentos HTML y 177 enlaces/recursos internos comprobados (incluye los `srcset` responsive, el preload de la fuente crítica y el enlace RSS); 0 rutas faltantes, 0 rutas HTML sin barra final y 0 páginas indexables huérfanas. `pnpm content:responsive-image-audit` confirma 32/32 artículos con variantes 400/800/1200 px. Ambos controles quedaron integrados en `.github/workflows/content-quality.yml`.
-- `pnpm content:source-render-audit`: las 32 fichas construidas exponen las 115 URLs de fuente del frontmatter como enlaces visibles en el HTML; 0 rutas de artículo ausentes y 0 fuentes omitidas. El control quedó integrado en `.github/workflows/content-quality.yml`.
+- `pnpm content:source-render-audit`: las 32 fichas construidas exponen las 146 URLs de fuente del frontmatter como enlaces visibles en el HTML; 0 rutas de artículo ausentes y 0 fuentes omitidas. El control quedó integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:rendered-parity`: diez rutas representativas —home, categoría, artículo, metodología, perfil editorial, contacto y políticas— muestran título, H1, `main`, texto, enlaces internos, canonical, JSON-LD y, para el artículo, estado editorial y fuentes en el HTML generado: **10/10 sin incidencias**. Es una prueba de paridad del artefacto, no una garantía de indexación.
-- `pnpm content:source-metadata-audit`: las 115 fuentes del archivo tienen editor, URL, tipo de evidencia y alcance declarado (115/115), y 108/115 incluyen `accessedDate`. La auditoría falla si una ficha con `reviewedDate` y `reviewedBy` deja una fuente sin fecha de acceso; las siete fechas pendientes se completan durante la revisión humana. El control quedó integrado en `.github/workflows/content-quality.yml` para evitar que una nueva ficha pierda contexto editorial o trazabilidad.
-- `pnpm content:review-precheck -- --write`: la cola de 31 pendientes muestra ahora el número de fechas de acceso por artículo; 28/31 fichas tienen cobertura completa y el resto recibe una acción explícita para completarla durante la revisión humana. El prechequeo no marca fichas como revisadas.
-- `pnpm content:reference-audit`: las 115 fuentes del frontmatter también aparecen como enlaces exactos en el cuerpo de sus artículos (115/115); el control evita bibliografías genéricas o fuentes registradas que el lector no pueda rastrear.
+- `pnpm content:source-metadata-audit`: las 146 fuentes del archivo tienen editor, URL, tipo de evidencia, alcance declarado y `accessedDate` (146/146). La fecha de acceso no equivale a aprobación humana. El control quedó integrado en `.github/workflows/content-quality.yml` para evitar que una nueva ficha pierda contexto editorial o trazabilidad.
+- `pnpm content:review-precheck -- --write`: la cola de 31 pendientes muestra 31/31 fichas con fechas de acceso completas, 22 con señales que requieren lectura humana y un orden de nueve artículos de alto riesgo, nueve de cifras/alcance y nueve de método/contexto. El prechequeo no marca fichas como revisadas.
+- `pnpm content:reference-audit`: las 146 fuentes del frontmatter también aparecen como enlaces exactos en el cuerpo de sus artículos (146/146); el control evita bibliografías genéricas o fuentes registradas que el lector no pueda rastrear.
 - `pnpm content:llms-audit`: 32/32 artículos sincronizados con `public/llms.txt`, 0 entradas faltantes/desactualizadas, 0 URLs no canónicas y 0 duplicadas; el control quedó integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:rss-audit`: 32/32 artículos presentes en `dist/rss.xml`, con enlace canónico del feed, idioma y descripción; el control quedó integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:image-sitemap-audit`: 32/32 páginas de artículo tienen una entrada `image:image` con la variante WebP, título, pie contextual y un activo de al menos 1200 px de ancho; 0 imágenes faltantes, ilegibles o por debajo del umbral. El control quedó integrado en `.github/workflows/content-quality.yml`.
@@ -308,8 +328,8 @@ La salida de Luna debe separar hecho, inferencia e hipótesis; incluir URL exact
 - `pnpm content:luna-audit`: el brief de control carga solo IDs existentes del catálogo, exige que cada URL coincida con su registro canónico, conserva las puertas `publish: false`/`humanApproval: pending` y rechaza IDs inexistentes, fuentes duplicadas, ilustraciones sin etiqueta y enlaces externos en `internalLinks`; queda integrado en `.github/workflows/content-quality.yml`.
 - `pnpm content:assisted-review-audit`: comprueba que cada paquete de contraste conserve `decision: pending`, matriz de afirmaciones, fuentes abiertas y límites, y que no introduzca `reviewedDate`/`reviewedBy`; queda integrado en `.github/workflows/content-quality.yml`.
 - `public/llms.txt`: enumera las 32 URLs de artículos con título y descripción acotada, además de las páginas de categoría y metodología, para facilitar descubrimiento por sistemas de IA sin sustituir la revisión editorial.
-- `SOURCE_CATALOG.yml`: YAML válido con **709 entradas** y cobertura de las 115 URLs citadas por los artículos. La ronda de Luna Max de esta iteración añadió 24 candidatas no duplicadas para nueve clústeres; todas permanecen candidatas hasta la comprobación editorial de la fuente concreta. El detalle está en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y en la sección de fuentes abiertas de la [biblioteca de inspiración](docs/editorial/EDITORIAL_INSPIRATION_LIBRARY.md).
-- Conteo actualizado tras la ronda más reciente: `SOURCE_CATALOG.yml` contiene **709 entradas**. Se conservan los controles para HTML renderizado, inventario de crawl, CMP/TCF, cobertura de mensajes, separación laboratorio/campo, RUM, interacción táctil, ORCID, estados bibliográficos de PubMed, Crossmark, metadatos Crossref, aporte original, roles CRediT, guías EQUATOR, principios FAIR, versiones DataCite, política editorial MEDLINE e integridad de referencias PubMed; siguen siendo candidatas hasta la comprobación editorial.
+- `SOURCE_CATALOG.yml`: YAML válido con **777 entradas** y cobertura de las 146 URLs citadas por los artículos. Las fuentes nuevas de Luna Max permanecen candidatas hasta la comprobación editorial de la fuente concreta. El detalle está en el [snapshot de acceso a fuentes](docs/editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) y en la sección de fuentes abiertas de la [biblioteca de inspiración](docs/editorial/EDITORIAL_INSPIRATION_LIBRARY.md).
+- Conteo vigente tras las rondas de investigación: `SOURCE_CATALOG.yml` contiene **777 entradas**. Se conservan los controles para HTML renderizado, inventario de crawl, CMP/TCF, cobertura de mensajes, separación laboratorio/campo, RUM, interacción táctil, ORCID, estados bibliográficos de PubMed, Crossmark, metadatos Crossref, aporte original, roles CRediT, guías EQUATOR, principios FAIR, versiones DataCite, política editorial MEDLINE e integridad de referencias PubMed; siguen siendo candidatas hasta la comprobación editorial.
 - La segunda búsqueda enfocada de Luna Max añadió 25 fuentes no duplicadas y una priorización de siete oportunidades ligadas a consultas observadas (`geosmina`, tiburón de Groenlandia, geodinamo, pulpo mimo, leopardo de las nieves, pangolín gigante y Catatumbo). La tanda siguiente añadió diez fuentes no duplicadas para axolote, cebras, tardígrados, ballena azul, narval y corales; la búsqueda del 12/09 añadió doce para mantas, elefantes, pangolines, peces linterna, géiseres, nubes mammatus, auroras y calamar gigante; esta revisión añadió catorce para ajolote, ballena azul, corales, tiburón de Groenlandia, pangolines, búho real, tardígrados y peces linterna; la verificación oficial añadió cinco controles de Google sobre IA, imágenes, snippets, títulos y preparación de AdSense; la ronda técnica añadió doce controles sobre SEO, accesibilidad, responsive, compresión, redirects, snippets, ads.txt y transparencia editorial; la segunda ronda añadió diez sobre ORCID, metadatos Crossref, procedencia PROV-O, anotaciones, correcciones, glosario, ClaimReview, límites de anuncios, HTML válido y errores de rastreo; y la nueva ronda añadió diez sobre AI features, fuentes preferidas, Discover, medición generativa, sistemas de ranking, integridad de investigación, citación de datos/software, DataCite, ROR y responsabilidad de autores. La ronda de clústeres añadió doce fuentes primarias/institucionales para actualizar esas siete URLs antes de considerar una página nueva. La búsqueda de brechas añadió veinte referencias oficiales (quince ya catalogadas y cinco URLs nuevas) y ocho oportunidades medibles para indexación, Discover, autoría, actualización, móvil y monetización. Se conservan como candidatos con alcance y límites; no se añadieron citas automáticas a artículos publicados.
 - El pipeline histórico quedó aislado: se retiraron los seeds heredados con copy y autoría no verificados; `pipeline/generate_articles.py` ahora exige un brief JSON estructurado de Luna Max y solo genera borradores en `docs/editorial/drafts/`, mientras `pipeline/generate_images.py` deriva su manifiesto del frontmatter curado y solo genera activos fuera de `public/`. Ambos rechazan destinos publicados y colisiones.
 - El contrato de briefs de Luna ahora exige `uniqueContribution`, `firstHandEvidence`, `notCommodity`, estado de roles/autenticación, guía de reporte y `referenceIntegrityLog`; el auditor adversarial rechaza un brief sin aporte original y mantiene `humanApproval: pending`/`publish: false`.

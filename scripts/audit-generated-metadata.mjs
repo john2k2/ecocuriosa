@@ -22,6 +22,12 @@ const canonicalOwners = new Map();
 const titleOwners = new Map();
 const descriptionOwners = new Map();
 let indexableCount = 0;
+const categorySlugs = new Set([
+  'fauna-fascinante',
+  'especies-marinas',
+  'fenomenos-naturales',
+  'ciencia-curiosa',
+]);
 
 function meta(html, name) {
   const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -97,6 +103,28 @@ for (const file of files) {
         || !question.acceptedAnswer.text
       ))) issue('FAQPage sin preguntas/respuestas válidas');
       if (/revisión humana pendiente/i.test(html)) issue('FAQPage expone una ficha pendiente de revisión humana');
+    }
+
+    // Collection pages render a visible article index. Keep its ItemList in
+    // lockstep with those cards so structured data cannot advertise a stale
+    // or invented set of URLs.
+    const categoryMatch = relative.match(/^([^/]+)\/index\.html$/);
+    if (categoryMatch && categorySlugs.has(categoryMatch[1])) {
+      const itemList = jsonLd.find((node) => node?.['@type'] === 'ItemList');
+      const articleLinks = [...html.matchAll(/href=["'](\/[^"']+\/[^"']+\/)["']/gi)]
+        .map((match) => match[1])
+        .filter((url) => url.startsWith(`/${categoryMatch[1]}/`) && url !== `/${categoryMatch[1]}/`);
+      const uniqueArticleLinks = [...new Set(articleLinks)];
+      const listItems = Array.isArray(itemList?.itemListElement) ? itemList.itemListElement : [];
+      if (!itemList) issue('página de categoría sin ItemList');
+      else if (listItems.length !== uniqueArticleLinks.length) {
+        issue(`ItemList no coincide con tarjetas visibles (${listItems.length} frente a ${uniqueArticleLinks.length})`);
+      }
+      const listUrls = listItems.map((item) => item?.url).filter(Boolean);
+      if (new Set(listUrls).size !== listUrls.length) issue('ItemList contiene URLs duplicadas');
+      if (listUrls.some((url) => !String(url).startsWith(`${siteOrigin}/${categoryMatch[1]}/`))) {
+        issue('ItemList contiene una URL fuera de su categoría');
+      }
     }
     if (canonical) {
       const owner = canonicalOwners.get(canonical);

@@ -416,3 +416,21 @@ La distribución conservadora fue 0: 6 %, 1: 56 %, 2: 37 %, 3: 1 % y 4: 0 %.
 La recomendación operativa se mantiene: no ampliar la automatización ni abrir
 variantes de contenido hasta cerrar la revisión humana trazable de los 31
 paquetes pendientes.
+
+## Reevaluación tras controles técnicos y banco ampliado — 20/09/2026
+
+Con 777 candidatas en el catálogo, el `ItemList` de categorías alineado con sus
+tarjetas visibles y las auditorías verdes de build, enlaces, metadata y fuentes,
+se hizo una última consulta Jev con una rúbrica que penaliza explícitamente la
+ausencia de Core Web Vitals de campo y las 31 revisiones humanas pendientes.
+Jev devolvió **1,26/4** (confianza **0,65**) y eligió `human_review` con
+probabilidad **0,87** (confianza **0,83**). La distribución fue 0: 8 %, 1: 59 %,
+2: 33 %, 3: 0 % y 4: 0 %.
+
+La bajada respecto de 1,34/4 no representa una regresión del código: cambió el
+estado enviado (se hizo explícita la falta de CWV de campo y el carácter
+consultivo de las 777 candidatas). El resultado confirma que más fuentes o más
+schema no compensan la deuda editorial; el siguiente paso sigue siendo cerrar
+revisiones humanas, y después obtener medición de campo. La respuesta fue
+`model: jev-1.13.0`, `advisory_only: true`, con 822 tokens de entrada y 67 de
+salida.

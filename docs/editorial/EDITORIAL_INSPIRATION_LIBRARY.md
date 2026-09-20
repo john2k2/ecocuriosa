@@ -1329,3 +1329,50 @@ frase exacta que respalda.
 El lote añade 14 URLs no duplicadas al catálogo. No modifica artículos
 publicados ni marca revisiones humanas; su valor es mejorar la selección de
 temas, el control de evidencia y la seguridad de la futura automatización.
+
+### Banco técnico de Luna Max — campo, móvil, accesibilidad y automatización — 20 de septiembre de 2026
+
+La segunda búsqueda dirigida de Luna excluyó documentos ya presentes o
+equivalentes en el catálogo y añadió **14 URLs nuevas**. Este lote sirve para
+subir las áreas de SEO técnico, experiencia móvil, accesibilidad, medición y
+seguridad del pipeline. No convierte una auditoría de laboratorio en datos de
+usuarios reales y no autoriza publicación automática.
+
+| Prioridad | Fuente | Decisión que habilita | Límite obligatorio |
+| --- | --- | --- | --- |
+| P0 | [TTFB de Google/web.dev](https://web.dev/articles/optimize-ttfb) | Medir el tiempo hasta el primer byte como diagnóstico previo a FCP/LCP | 0,8 s es una guía; no es Core Web Vital ni garantía de ranking |
+| P0 | [Responsive images](https://web.dev/articles/responsive-images) | Mantener `srcset`, `sizes`, `picture`, `alt` y formatos adaptados al viewport | Hay costes de memoria y decodificación; conservar originales y verificar la imagen entregada |
+| P0 | [WCAG 2.2 — teclado](https://www.w3.org/WAI/WCAG22/Understanding/keyboard) | Probar menú, enlaces, formularios y controles dinámicos sin ratón | Es guía de comprensión; no basta para declarar conformidad WCAG completa |
+| P0 | [WCAG 2.2 — contenido no textual](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) | Exigir `alt` equivalente y ocultar imágenes decorativas | Gráficos complejos y CAPTCHA necesitan revisión específica |
+| P0 | [WCAG 2.2 — idioma de la página](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) | Mantener `lang="es"` y marcar cambios de idioma | Cubre nivel A, no todos los problemas multilingües |
+| P1 | [WCAG 2.2 — encabezados y etiquetas](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels) | Revisar headings, labels y CTA descriptivos para lectores y citabilidad | No sustituye la prueba de semántica HTML/ARIA |
+| P0 | [Informe Core Web Vitals de Search Console](https://support.google.com/webmasters/answer/9205520?hl=en) | Priorizar LCP, INP y CLS por grupos de URLs con datos de campo | Solo hay datos para URLs indexadas con volumen suficiente |
+| P0 | [Inspección de URL de Search Console](https://support.google.com/webmasters/answer/12482179?hl=en) | Comprobar rastreo, canonical, noindex, HTTPS y schema antes de solicitar rastreo | «Está en Google» no garantiza ranking ni aparición para una consulta |
+| P0 | [Cloudflare Cache Analytics](https://developers.cloudflare.com/cache/performance-review/cache-analytics/) | Separar HIT, MISS, origen y expiración antes de ampliar caché | Disponibilidad y retención dependen del plan; requests no equivalen a audiencia |
+| P0 | [Cloudflare Cache Rules](https://developers.cloudflare.com/cache/how-to/cache-rules/) | Definir TTL por host/path/query y probar con Trace | No aplicar `cache everything` a HTML personalizado, cookies o consentimiento |
+| P1 | [Introducción a Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) | Ejecutar regresiones reproducibles de rendimiento, accesibilidad y SEO | Es laboratorio; no reemplaza CrUX, RUM ni revisión humana |
+| P0 | [OpenAI API overview](https://developers.openai.com/api/reference/overview) | Mantener claves en servidor/secret manager y registrar request IDs | Nunca enviar claves al navegador ni a prompts de Luna |
+| P1 | [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) | Enrutar borradores potencialmente dañinos a revisión y bloquear publicación automática | Moderación no verifica exactitud científica ni licencia de imágenes |
+| P1 | [OpenAI Evals](https://developers.openai.com/api/docs/guides/evals) | Crear casos de regresión para tono, claims, estructura y citas | Los evals no sustituyen fuentes actuales ni aprobación humana; verificar la vigencia del servicio |
+
+#### Cómo se incorporan al plan de puntuación
+
+1. **Técnico:** ejecutar Lighthouse tres veces por plantilla y registrar
+   mediana; usar Search Console Core Web Vitals o CrUX cuando haya volumen de
+   campo. TTFB se conserva como diagnóstico, no como sustituto de LCP/INP/CLS.
+2. **Móvil y accesibilidad:** repetir 320/375/768/1440 px con teclado, foco,
+   `lang`, headings, labels y alt; bloquear anuncios si aparece overflow, foco
+   perdido o cambio material de CLS.
+3. **Indexación:** inspeccionar una URL de cada categoría, la portada y las
+   páginas legales después de cada lote; registrar canonical, rastreo y
+   exclusión sin confundir URL indexada con posición.
+4. **Cloudflare:** mantener la regla RSS específica y medir HIT/MISS antes de
+   crear otra regla; no cachear HTML con consentimiento o anuncios de forma
+   indiscriminada.
+5. **Luna Max:** añadir moderación y casos de regresión al preflight, pero
+   conservar `publish: false`, `humanApproval: pending` y la revisión claim →
+   fuente → límite.
+
+El catálogo queda en **777 entradas válidas** (763 anteriores + 14 nuevas).
+Ningún artículo publicado fue modificado por esta búsqueda y ninguna ficha se
+marcó como revisada.
