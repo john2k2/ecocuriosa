@@ -53,6 +53,39 @@
 - [ ] Activar primero una unidad superior y otra dentro de artículos largos, reservando altura y etiquetando anuncios.
 - [ ] Medir 14 días: cobertura, viewability, RPM, CTR, CLS, LCP, INP, páginas por sesión y retorno. Cambiar una variable por vez.
 
+## Protocolo E‑E‑A‑T para la puntuación máxima demostrable
+
+La auditoría actual no permite cerrar esta área todavía: `content:review-precheck`
+encuentra 31 fichas pendientes de 32, 22/31 con señales que requieren lectura
+humana y solo 16/31 con fechas de acceso completas para sus fuentes. El control
+estricto falla por la deuda de revisión, no por un problema de compilación. No se
+deben convertir estos pendientes en fechas o responsables ficticios.
+
+El protocolo sigue las preguntas de Google sobre contenido people-first,
+fuentes claras, autoría y experiencia demostrable ([guía de contenido útil y
+fiable](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)),
+y usa `ProfilePage` únicamente para la organización real mientras no exista una
+persona autorizada con perfil público ([documentación de ProfilePage](https://developers.google.com/search/docs/appearance/structured-data/profile-page)).
+
+| Señal | Implementación actual | Condición para subir de nivel | Evidencia de cierre |
+| --- | --- | --- | --- |
+| **Quién** | Firma colectiva, página Sobre Nosotros y byline enlazada | Nombre, rol y experiencia solo cuando el responsable los autorice y pueda sostenerlos | Byline, página de perfil y JSON-LD coinciden; no se inventan `Person`/`sameAs` |
+| **Cómo** | Metodología, fuentes visibles, límites e imágenes acreditadas | Añadir una matriz de afirmaciones a cada revisión y conservar qué cambió | Ficha de revisión con fuente exacta, alcance, muestra, fecha, método y límite |
+| **Qué se sabe** | 107 fuentes estructuradas; 107 enlaces corporales exactos | Abrir cada fuente del lote, corregir o matizar y registrar fecha real de acceso | 32/32 revisiones humanas; `content:audit -- --strict` pasa |
+| **Qué no se sabe** | Artículos pendientes muestran estado editorial pendiente | Mantener incertidumbre visible y retirar cifras/causalidad sin respaldo | Cero afirmaciones pendientes en fichas aprobadas; hipótesis etiquetadas |
+| **Responsabilidad** | Página de correcciones y contacto público | Registrar avisos, decisiones, cambios y versión sin borrar el historial | Corrección reproducible con fecha, motivo, fuente y responsable |
+| **Visual** | 32/32 imágenes con alt y procedencia declarada | Abrir cada activo y comprobar que no representa otra especie, lugar o conducta | Crédito/licencia/creador verificables o ilustración claramente marcada |
+
+Cadencia de trabajo: revisar nueve fichas de alto riesgo en la primera semana,
+nueve de cifras y alcance en la segunda, nueve de método en la tercera y cuatro
+de cierre en la cuarta. Si una fuente no se puede abrir o no cubre la afirmación,
+la decisión permanece `pending`; el volumen de publicación se detiene hasta
+resolverla.
+
+El nuevo campo `editor` del JSON-LD solo aparece cuando existen `reviewedDate` y
+`reviewedBy` reales, de modo que el marcado estructurado no presenta una
+revisión que todavía no ocurrió.
+
 ## Contrato de Luna Max
 
 Luna puede investigar fuentes candidatas, comparar alcance, proponer esquemas, generar borradores locales y producir ilustraciones didácticas. Cada ejecución debe conservar:

@@ -1,6 +1,6 @@
 # Scorecard de crecimiento, confianza y monetización — EcoCuriosa
 
-**Versión:** 14 de septiembre de 2026
+**Versión:** 20 de septiembre de 2026
 **Propósito:** convertir la auditoría GEO/SEO, la biblioteca de fuentes y el protocolo de Luna Max en un plan medible. Las metas son criterios internos de salida; no son promesas de posiciones, tráfico ni aprobación de AdSense.
 
 ## Estado actual y definición de éxito
@@ -12,6 +12,12 @@
 | Indexación | Sitemap correcto; cobertura aún procesándose | Cobertura controlada | Inspección de URL para portada, categorías, artículos y páginas legales; exclusiones explicadas y sin errores críticos |
 | AdSense técnico | Preparado | Listo para monetizar tras aprobación | CMP publicada y probada, políticas enlazadas, `ads.txt` correcto, slots reales cargados desde AdSense y anuncios separados de la navegación |
 | E-E-A-T / calidad editorial | 56/100 (44 inicial) | 75/100 antes de escalar | 32 revisiones humanas registradas, autoría verificable, relación afirmación → fuente visible, imágenes con procedencia y correcciones trazables |
+
+La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
+31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
+lectura humana y 16/31 cuentan con fechas de acceso completas para sus fuentes.
+La auditoría estricta falla por estas revisiones pendientes; no se deben
+rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
 Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 107 URLs y los enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
@@ -238,7 +244,7 @@ Guardar fuera del repositorio los datos de cuenta y exportaciones que puedan ide
 
 ## Fuentes de trabajo incorporadas
 
-El catálogo actual contiene 556 entradas y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió doce candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial y experiencias de IA en Search. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
+El catálogo actual contiene 569 entradas y la biblioteca 130 briefs u oportunidades candidatas. La ronda del 20/09 añadió trece candidatas oficiales para imágenes responsive/LCP, Lighthouse, accesibilidad, redirects, meta tags, JSON-LD, ads.txt, contenido asistido por IA, transparencia editorial, experiencias de IA en Search e identidad pública verificable, más doce fuentes nuevas de Luna para autoridad temática, validación de DOI/PMID, correcciones, autoría autenticada, metadatos DataCite y calidad/reproducibilidad de GBIF. La segunda búsqueda enfocada de Luna añadió 25 fuentes no duplicadas y priorizó siete oportunidades conectadas a las consultas observadas; las tandas siguientes ampliaron clústeres de revisión y la verificación en navegador del 12/09 añadió tres registros abiertos para geodinamo, pulpo mimo y geosmina, además de controles oficiales de Google sobre IA, imágenes, títulos/snippets, spam de contenido escalado, inspección de URL, CrUX, favicon, nombres de sitio, `ImageObject`, SEO técnico, accesibilidad, compresión, redirects, autoría, procedencia, correcciones, preparación de AdSense, fuentes preferidas, informes de Search generative AI, integridad de investigación, citación de datasets, afiliaciones y responsabilidad de autores. Todas siguen siendo candidatas hasta la comprobación humana. Las familias nuevas más útiles son:
 
 - Google Search Central: contenido útil, datos estructurados, Discover, News y guía de evaluadores.
 - Google AdSense: CMP europea, perfil de pagos, dirección/PIN, retenciones y exportaciones de Search Console.

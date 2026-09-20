@@ -12,6 +12,8 @@ interface Props {
   type?: 'website' | 'article';
   pubDate?: Date;
   modifiedDate?: Date;
+  reviewedDate?: Date;
+  reviewedBy?: string;
   author?: string;
   category?: string;
   tags?: string[];
@@ -44,6 +46,8 @@ const {
   type = 'website',
   pubDate,
   modifiedDate,
+  reviewedDate,
+  reviewedBy,
   author = 'Equipo Editorial EcoCuriosa',
   category,
   tags = [],
@@ -84,6 +88,11 @@ const categoryNames: Record<string, string> = {
   'ciencia-curiosa': 'Ciencia Curiosa',
 };
 const isEditorialTeam = author === 'Equipo Editorial EcoCuriosa';
+const editor = reviewedDate && reviewedBy ? {
+  "@type": reviewedBy === 'Equipo Editorial EcoCuriosa' ? 'Organization' : 'Person',
+  "name": reviewedBy,
+  ...(reviewedBy === 'Equipo Editorial EcoCuriosa' ? { "url": editorialProfileURL } : {})
+} : undefined;
 
 const organization = {
   "@type": "Organization",
@@ -160,6 +169,7 @@ const article = type === 'article' ? {
   "author": isEditorialTeam
     ? { "@type": "Organization", "name": author, "url": editorialProfileURL }
     : { "@type": "Person", "name": author },
+  ...(editor ? { "editor": editor } : {}),
   "publisher": { "@id": organizationId },
   "mainEntityOfPage": { "@id": canonicalURL },
   ...(faqs.length ? { "subjectOf": { "@id": `${canonicalURL}#faq` } } : {}),

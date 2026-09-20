@@ -3368,3 +3368,81 @@ entries:
     evidenceType: official-guidance
     url: https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search
     use: convertir contenido único, 200/indexable, experiencia de página, JSON-LD coherente e imagen útil en un preflight común para Search y AI
+  - id: google-search-profile-badge
+    authority: Google Search Central
+    domain: brand-authority
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/docs/appearance/search-profiles
+    use: evaluar un perfil público de búsqueda y un enlace/badge solo después de reclamar una identidad real; no inventar handles, seguidores ni autoridad
+  - id: google-news-topic-authority
+    authority: Google Search Central
+    domain: topical-authority
+    evidenceType: official-guidance
+    url: https://developers.google.com/search/blog/2023/05/understanding-news-topic-authority
+    use: separar especialización temática, cobertura original, citas externas e historial de calidad en un plan de autoridad; no tratarlo como fórmula de ranking
+  - id: crossref-metadata-best-practices
+    authority: Crossref
+    domain: source-integrity
+    evidenceType: official-guidance
+    url: https://www.crossref.org/documentation/principles-practices/best-practices
+    use: modelar metadatos ricos de fuentes con autoría, fechas, licencias, referencias, versiones, datasets y relaciones sin fingir que EcoCuriosa publica DOIs
+  - id: crossref-rest-api
+    authority: Crossref
+    domain: source-integrity
+    evidenceType: official-documentation
+    url: https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+    use: validar DOI, título, autores, año, ORCID, ROR, financiación, licencia y actualizaciones antes de citar; resolver el endpoint actual en ejecución
+  - id: crossref-maintaining-metadata
+    authority: Crossref
+    domain: corrections
+    evidenceType: official-guidance
+    url: https://www.crossref.org/documentation/register-maintain-records/maintaining-your-metadata/
+    use: inspirar un registro de correcciones y versiones, enlaces persistentes y comprobación de retiros/retractaciones de fuentes
+  - id: crossref-participation-reports
+    authority: Crossref
+    domain: source-integrity
+    evidenceType: official-documentation
+    url: https://www.crossref.org/documentation/reports/participation-reports
+    use: convertir cobertura de referencias, ORCID, afiliaciones, ROR, financiación, licencias y Crossmark en un scorecard interno no comparable con Crossref
+  - id: cope-retraction-guidelines-2019
+    authority: Committee on Publication Ethics
+    domain: editorial-governance
+    evidenceType: policy
+    url: https://publicationethics.org/sites/default/files/retraction-guidelines-cope.pdf
+    use: distinguir corrección, expresión de preocupación y retiro, enlazar el registro original y conservar motivo, fecha y alcance; no presentarse como revista
+  - id: orcid-collect-share-ids
+    authority: ORCID
+    domain: authorship
+    evidenceType: official-documentation
+    url: https://info.orcid.org/documentation/collecting-and-sharing-orcid-ids/
+    use: aceptar ORCID solo mediante autenticación y autorización de una persona real; no crear IDs ni inferir experiencia desde el identificador
+  - id: datacite-metadata-support
+    authority: DataCite
+    domain: research-metadata
+    evidenceType: official-documentation
+    url: https://support.datacite.org/docs/metadata-1
+    use: registrar creators, contributors, ORCID, afiliaciones, financiación, tipo de recurso, idioma, versión y licencia en manifiestos de datasets
+  - id: datacite-commons-works
+    authority: DataCite
+    domain: reproducibility
+    evidenceType: official-documentation
+    url: https://support.datacite.org/docs/works-in-datacite-commons
+    use: conservar exportación reproducible y relaciones de un DOI de dataset en JSON/XML/RIS cuando una fuente de datos sustente una afirmación
+  - id: gbif-data-quality-recommendations
+    authority: GBIF Technical Documentation
+    domain: biodiversity-data
+    evidenceType: official-guidance
+    url: https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations
+    use: documentar identificadores, taxonomía, ubicación, completitud y problemas de calidad del dataset antes de usar ocurrencias en un artículo
+  - id: gbif-fit-for-purpose-data
+    authority: GBIF Secretariat
+    domain: biodiversity-data
+    evidenceType: official-guidance
+    url: https://docs.gbif.org/course-data-use/en/fit-for-purpose-data.html
+    use: separar exactitud, precisión, sesgo y adecuación para la pregunta; no convertir conteos de ocurrencias en abundancia o tendencia poblacional
+  - id: pubmed-disclaimer
+    authority: NCBI / National Library of Medicine
+    domain: source-integrity
+    evidenceType: official-policy
+    url: https://pubmed.ncbi.nlm.nih.gov/disclaimer/
+    use: recordar que indexación en PubMed no equivale a respaldo ni calidad; mostrar tipo de publicación, PMID/DOI, retractaciones y límites verificables

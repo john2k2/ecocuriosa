@@ -13,6 +13,8 @@ interface Props {
   type?: 'website' | 'article';
   pubDate?: Date;
   modifiedDate?: Date;
+  reviewedDate?: Date;
+  reviewedBy?: string;
   author?: string;
   category?: string;
   tags?: string[];
@@ -45,6 +47,8 @@ const {
   type = 'website',
   pubDate,
   modifiedDate,
+  reviewedDate,
+  reviewedBy,
   author,
   category,
   tags,
@@ -90,6 +94,8 @@ const {
       type={type}
       pubDate={pubDate}
       modifiedDate={modifiedDate}
+      reviewedDate={reviewedDate}
+      reviewedBy={reviewedBy}
       author={author}
       category={category}
       tags={tags}

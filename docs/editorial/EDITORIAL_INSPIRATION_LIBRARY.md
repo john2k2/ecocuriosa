@@ -836,6 +836,7 @@ entrada no se convierte automáticamente en una cita de artículo.
 | IA editorial | [Orientación de Google sobre contenido generado por IA](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) | Mantener valor original, autoría, revisión, fuentes, límites y divulgación cuando el lector la necesite | No es factor de ranking ni permiso para escalar volumen |
 | Transparencia | [Fuentes detrás de Google News](https://developers.google.com/search/blog/2021/06/google-news-sources) | Auditar byline/bio, fechas, misión, personal, contacto y propiedad/financiación | No implica elegibilidad para News |
 | Search y AI | [Checklist para experiencias de IA en Search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search) | Crear un preflight común: 200, indexable, contenido único, JSON-LD coherente, imagen útil y experiencia móvil | Las experiencias cambian y no garantizan citación o tráfico |
+| Identidad pública | [Search profiles y badge](https://developers.google.com/search/docs/appearance/search-profiles) | Evaluar una identidad pública verificable y un enlace de perfil solo si el titular reclama realmente la cuenta y autoriza el handle | No crear perfiles, seguidores o señales de autoridad ficticias; el badge no garantiza Discover ni ranking |
 
 #### Tres briefs derivados
 
@@ -856,3 +857,67 @@ marcar revisión humana, inventar credenciales, publicar citas sin abrir la
 fuente, copiar imágenes protegidas ni convertir una métrica de laboratorio en
 una afirmación de audiencia. Se mantienen `humanApproval: pending` y
 `publish: false` hasta que una persona revise y publique.
+
+### Fuentes nuevas para E‑E‑A‑T, reproducibilidad y responsabilidad — 20 de septiembre de 2026
+
+La búsqueda de Luna Max comparó el catálogo vigente y excluyó URLs que ya
+estaban cubiertas. Estas doce fuentes nuevas se incorporan como material de
+investigación y controles internos; no son citas automáticas ni suben la
+puntuación por sí solas.
+
+| Área | Fuente | Aplicación concreta en EcoCuriosa | Límite |
+| --- | --- | --- | --- |
+| Autoridad temática | [News topic authority](https://developers.google.com/search/blog/2023/05/understanding-news-topic-authority) | Elegir dos o tres áreas estrechas, medir piezas originales, fuentes primarias y enlaces internos por área | Explicación de un sistema para consultas noticiosas; no es fórmula de ranking |
+| Metadatos de fuentes | [Crossref metadata best practices](https://www.crossref.org/documentation/principles-practices/best-practices) | Registrar autores, fechas, licencias, referencias, versiones y relaciones en la ficha interna de cada fuente | Crossref describe registros DOI; no convertir EcoCuriosa en revista ni inventar DOIs |
+| Validación DOI | [Crossref REST API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | Comparar automáticamente DOI, título, autores, año, ORCID/ROR, licencia y actualizaciones antes de citar | Resolver el endpoint actual en ejecución; un DOI válido no prueba la conclusión |
+| Mantenimiento | [Maintaining Crossref metadata](https://www.crossref.org/documentation/register-maintain-records/maintaining-your-metadata/) | Revisar mensualmente enlaces, versiones, retiros y correcciones de fuentes | Orientado a miembros Crossref; aquí es un patrón de trazabilidad |
+| Cobertura | [Crossref Participation Reports](https://www.crossref.org/documentation/reports/participation-reports) | Crear un scorecard propio de referencias, autoría, ORCID, afiliación, financiación, licencia y estado editorial | Las métricas Crossref no son comparables directamente con el sitio |
+| Correcciones | [COPE Retraction Guidelines](https://publicationethics.org/sites/default/files/retraction-guidelines-cope.pdf) | Separar corrección menor, actualización, expresión de preocupación y retiro; enlazar la versión original | Guía para publicaciones científicas; no usar lenguaje de retractación sin motivo real |
+| Autoría | [ORCID: collecting and sharing IDs](https://info.orcid.org/documentation/collecting-and-sharing-orcid-ids/) | Aceptar ORCID solo autenticado y autorizado por una persona real; reflejarlo de forma consistente | ORCID identifica a una persona, no demuestra experiencia o revisión |
+| Datasets | [DataCite metadata](https://support.datacite.org/docs/metadata-1) | Manifestar creators, contributors, ORCID, afiliación, financiación, versión, tipo y licencia de un dataset | DataCite está pensado para objetos con DOI; adaptarlo sin crear uno propio |
+| Reproducibilidad | [DataCite Commons works](https://support.datacite.org/docs/works-in-datacite-commons) | Guardar exportación JSON/XML/RIS y relaciones de cada DOI de datos usado | Relaciones o descargas no validan la calidad científica |
+| Calidad GBIF | [GBIF data quality recommendations](https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations) | Mostrar dataset, identificadores, taxonomía, ubicación, completitud y problemas relevantes | La calidad depende del publicador y de la pregunta concreta |
+| Adecuación GBIF | [GBIF fit-for-purpose data](https://docs.gbif.org/course-data-use/en/fit-for-purpose-data.html) | Separar exactitud, precisión, sesgo y adecuación; explicar qué permite y qué no una consulta | No convertir ocurrencias en abundancia o tendencia poblacional |
+| PubMed | [PubMed disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/) | Mostrar tipo de publicación, PMID/DOI, revisión por pares cuando esté verificada, retractaciones y límites | Estar indexado en PubMed no es un sello de calidad ni consejo médico |
+
+#### Medición antes/después
+
+La rúbrica E‑E‑A‑T (44 inicial; 56 tras los controles de procedencia y
+trazabilidad) es interna, no una puntuación de Google. La línea base actual es
+32 artículos con fuentes, 1/32 con revisión real y 31 pendientes. Para evitar
+subir el número sin subir la calidad, cada revisión debe registrar:
+
+- `review_receipt_coverage`: fichas con evidencia de revisión real / 32;
+- `truthful_author_coverage`: fichas con autoría humana verificable y bio enlazada cuando corresponde;
+- `source_integrity_rate`: DOI/PMID/GBIF que resuelve y coincide en título, autoría y fecha;
+- `claim_traceability`: afirmaciones auditadas con fuente primaria/oficial y límite explícito;
+- `reproducibility_coverage`: artículos de datos con dataset, versión, filtros, fecha, licencia y limitaciones;
+- `correction_sla`: días entre un error confirmado y la actualización visible;
+- `transparency_surface`: páginas de misión, metodología, correcciones, contacto, propiedad/financiación y uso de IA con HTTP 200 y contenido real.
+
+Comparar ventanas de 28 y 56 días en Search Console por artículo, consulta,
+dispositivo y país. Impresiones, clics, CTR y posición son señales observadas,
+no prueba causal de que una política editorial cambió el ranking, ni de que
+AdSense esté aprobado.
+
+#### Cinco briefs editoriales seguros
+
+1. **¿Qué permite afirmar un registro de GBIF sobre una especie local?**
+   Identificar dataset, consulta, filtros, fecha, flags y sesgo de muestreo;
+   no llamar censo a una lista de ocurrencias.
+2. **Reproducir una consulta de biodiversidad desde cero.** Conservar
+   identificador, versión/exportación, parámetros, licencia y pasos para
+   repetirla; separar el resultado de cualquier inferencia poblacional.
+3. **Cómo verificamos una afirmación científica en EcoCuriosa.** Explicar la
+   jerarquía de fuentes, validación DOI/PMID/GBIF, autoría, revisión humana,
+   asistencia de IA y correcciones, usando solo roles reales.
+4. **Qué es un artículo de PubMed y qué no garantiza.** Distinguir índice,
+   estudio, revisión, preprint y retractación; no ofrecer diagnóstico ni
+   consejo médico.
+5. **Cómo corregimos un artículo cuando aparece nueva evidencia.** Basarlo en
+   una corrección real con antes/después, fecha, motivo, fuente y alcance; si
+   aún no existe una corrección, etiquetarlo como guía de proceso.
+
+La automatización puede preparar estos briefs y validar metadatos, pero solo una
+persona puede abrir la fuente, comprobar la afirmación, autorizar su identidad
+y marcar `reviewedDate`/`reviewedBy`.
