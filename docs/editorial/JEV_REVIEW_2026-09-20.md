@@ -80,3 +80,23 @@ La elección de prioridad fue nuevamente **cerrar la revisión humana E‑E‑A�
 (probabilidad reportada: 1,00). La herramienta devolvió `advisory_only: true`:
 es una segunda opinión sobre el resumen proporcionado, no una comprobación de
 Google, Cloudflare, Search Console o AdSense.
+
+## Reevaluación tras ampliar fuentes y medir Lighthouse — 20/09/2026
+
+Se volvió a consultar Jev después de incorporar 13 candidatas temáticas (605
+entradas en el catálogo) y la medición Lighthouse actual de portada. Esta
+consulta volvió a la escala ordinal `0`–`4` para conservar comparabilidad con la
+tabla inicial; las cifras son juicios del modelo, no porcentajes oficiales.
+
+| Área | Score Jev | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| SEO técnico / infraestructura | 2,71/4 | 0,75 | Mejora la evidencia de laboratorio y producción; falta CWV de campo |
+| Diseño, navegación y móvil | 1,97/4 | 0,95 | Accesibilidad y SEO de portada pasan Lighthouse; falta validación real móvil |
+| Indexación | 1,98/4 | 0,96 | Sitemap, HTML y canonicales controlados; falta Search Console actual |
+| AdSense técnico | 1,95/4 | 0,95 | Base técnica/editorial; CMP, cuenta, aprobación y slots siguen fuera del repositorio |
+| E‑E‑A‑T | 1,01/4 | 0,98 | Catálogo y trazabilidad mejoran, pero 31 revisiones humanas siguen pendientes |
+
+La prioridad única volvió a ser **cerrar las 31 revisiones humanas E‑E‑A‑T**
+(probabilidad reportada: `1,00`). La herramienta devolvió `advisory_only: true` y
+su propia advertencia exige verificar los hechos y conservar el juicio final
+independiente.
