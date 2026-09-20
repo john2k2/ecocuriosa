@@ -24,18 +24,19 @@ cubrió las cuatro anchuras entre esas rutas y deja pendiente repetirlas en una
 categoría y en las páginas legales, además de la prueba de CLS después de
 activar anuncios.
 
-La evaluación independiente de Jev del 20/09 conserva una lectura ordinal
-separada de las métricas oficiales: la ronda por áreas dio SEO 2,32/4, diseño
-móvil 2,59/4, indexación 2,62/4, AdSense 1,12/4 y E‑E‑A‑T 0,80/4; la consulta
-actual específica de E‑E‑A‑T dio 1,93/4. Su prioridad elegida fue cerrar
-revisiones humanas E‑E‑A‑T (probabilidad 0,94); el recibo completo y sus límites están en
+La evaluación independiente de Jev conserva una lectura ordinal separada de las
+métricas oficiales. La reevaluación más reciente, después de incorporar el lote
+de fuentes derivado de Search Console, dio **2,00/4** para preparación editorial
+verificable (confianza 0,95) y eligió cerrar revisiones humanas P0 con probabilidad
+0,99. Jev es advisory-only: no comprueba Google, Cloudflare, Search Console ni
+AdSense y no autoriza publicación. El recibo completo y sus límites están en
 [`JEV_REVIEW_2026-09-20.md`](editorial/JEV_REVIEW_2026-09-20.md).
 
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
-lectura humana y 28/31 cuentan con fechas de acceso completas para sus fuentes.
-El catálogo contiene 709 candidatas y existen 18 paquetes de contraste asistido;
-ninguno equivale a una firma humana.
+lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
+completas para sus fuentes. El catálogo contiene **748 candidatas** y existen
+**21 paquetes de contraste asistido**; ninguno equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
 rellenar `reviewedDate`, `reviewedBy` ni fechas de acceso por anticipado.
 
@@ -45,9 +46,13 @@ canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
 10/10 sin incidencias; sigue siendo una prueba del artefacto estático, no de
 indexación ni de experiencia de campo.
 
-Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); la ficha actual declara 115 URLs y los enlaces abiertos añadidos después pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
+Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); el conjunto actual declara 143 fuentes citadas y sus enlaces pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
-El control de metadatos también exige ahora una `accessedDate` por cada fuente de una ficha que ya declara `reviewedDate` y `reviewedBy`. En la lectura actual hay fechas de acceso en 108/115 fuentes; las 7 restantes pertenecen a fichas pendientes y se completarán durante su revisión humana. La única ficha revisada (leopardo de las nieves) conserva fechas para sus 2/2 fuentes. Esta puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de acceso en prueba de exactitud ni marca revisiones por sí sola.
+El control de metadatos exige una `accessedDate` por cada fuente de una ficha
+que ya declara `reviewedDate` y `reviewedBy`. La lectura actual comprueba
+**143/143 fuentes** con alcance, evidencia y fecha de acceso completas. Esta
+puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de
+acceso en prueba de exactitud ni marca revisiones por sí sola.
 
 El sitemap generado incluye ahora una entrada de imagen WebP para cada una de las 32 páginas de artículo, con título y pie derivados del frontmatter. Las 32 WebP activas se sirven a un ancho mínimo de 1200 px desde las ilustraciones SVG originales, y el control `content:image-sitemap-audit` comprueba tanto la resolución como la alineación entre imagen declarada y URL cuando se agregue una ficha nueva.
 
@@ -164,7 +169,7 @@ Los paquetes de contraste asistido se validan con
 `pnpm content:assisted-review-audit`; el control exige `decision: pending` y
 rechaza fechas o responsables humanos introducidos por automatización.
 
-Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, 28/31 fichas pendientes tienen fechas completas; el resto las completará la persona que abra y contraste sus fuentes. El paquete de contraste de ballena azul quedó preparado, pero sigue pendiente de confirmación editorial pública.
+Desde el 14/09/2026 el prechequeo también muestra la cobertura de `accessedDate` por artículo y añade esa fecha como acción explícita cuando falta. En la lectura actual, las 31 fichas pendientes tienen fechas completas; el paquete de contraste de ballena azul y los demás paquetes siguen pendientes de confirmación editorial pública.
 
 ## Secuencia de 30 días
 
