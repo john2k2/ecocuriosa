@@ -39,7 +39,7 @@ autoriza publicación. El recibo completo y sus límites están en
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **748 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **749 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -51,11 +51,11 @@ canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
 10/10 sin incidencias; sigue siendo una prueba del artefacto estático, no de
 indexación ni de experiencia de campo.
 
-Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); el conjunto actual declara **145 fuentes citadas** y sus enlaces pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
+Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); el conjunto actual declara **146 fuentes citadas** y sus enlaces pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
 El control de metadatos exige una `accessedDate` por cada fuente de una ficha
 que ya declara `reviewedDate` y `reviewedBy`. La lectura actual comprueba
-**145/145 fuentes** con alcance, evidencia y fecha de acceso completas. Esta
+**146/146 fuentes** con alcance, evidencia y fecha de acceso completas. Esta
 puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de
 acceso en prueba de exactitud ni marca revisiones por sí sola.
 
