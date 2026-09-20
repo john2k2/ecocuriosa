@@ -23,6 +23,15 @@
 
 ## Seguimiento técnico posterior — 20/09/2026
 
+La iteración de endurecimiento, commit `622e803` (`Harden CSP and expand
+E-E-A-T source controls`), se publicó mediante el deployment directo
+`298cfa06.ecocuriosa.pages.dev`. Las rutas públicas de portada, contacto,
+correcciones, metodología, sobre nosotros, `llms.txt`, `ads.txt` y
+`sitemap-index.xml` devolvieron HTTP 200. La portada entrega ahora
+`Content-Security-Policy-Report-Only` sin bloquear tráfico, y el formulario y
+las CTA informativas usan objetivos de 48 px. Esto prueba entrega y headers del
+artefacto, no la aprobación de AdSense ni Core Web Vitals de campo.
+
 La iteración más reciente, commit `37726f9` (`Improve article snippets links and
 source catalog`), se publicó mediante el deployment directo
 `434afb51.ecocuriosa.pages.dev`. La comprobación posterior devolvió HTTP 200 en

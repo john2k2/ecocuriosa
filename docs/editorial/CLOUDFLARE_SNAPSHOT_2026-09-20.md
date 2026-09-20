@@ -36,6 +36,14 @@ HTTP 200. La portada mantiene el beacon de Web Analytics y 14 controles de
 interacción con objetivo de 48 px. Este dato acredita entrega, no usuarios,
 sesiones ni ingresos.
 
+**Seguimiento de seguridad y accesibilidad:** el commit `622e803` (`Harden CSP
+and expand E-E-A-T source controls`) se publicó en
+`298cfa06.ecocuriosa.pages.dev`. La portada responde HTTP 200 con la cabecera
+`Content-Security-Policy-Report-Only` y las rutas de contacto, correcciones,
+metodología y perfil público también responden 200. La política está en modo de
+observación: permite inventariar orígenes antes de activar CMP/AdSense sin
+romper el tráfico actual.
+
 ## Web Analytics / RUM
 
 Cloudflare devuelve una configuración Web Analytics activa para
