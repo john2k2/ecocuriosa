@@ -1,5 +1,5 @@
 ---
-title: "La Memoria del Elefante Africano: ¿Mito o Prodigio Neurológico?"
+title: "Memoria del elefante africano: ¿mito o prodigio cerebral?"
 description: "Explora la neuroanatomía del elefante y la evidencia sobre cómo la experiencia de las matriarcas puede aportar conocimiento social y ecológico a la manada."
 category: "fauna-fascinante"
 pubDate: 2026-08-09

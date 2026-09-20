@@ -19,7 +19,7 @@ de todas las anchuras móviles.
 | Jerarquía editorial | La portada comunica marca, edición, tema principal y llamada a la acción sin competir con anuncios | Renderizado real de portada; `src/pages/index.astro` y `Navbar.astro` |
 | Artículo | H1, bajada, autoría, fechas, estado de revisión, fuentes, límites, índice, FAQ y enlaces relacionados aparecen en el primer recorrido | Renderizado real de la monografía y árbol accesible |
 | Navegación | La categoría activa se anuncia con `aria-current`; existe salto al contenido; la búsqueda y las páginas legales son alcanzables desde la navegación | `Navbar.astro`, `BaseLayout.astro`, auditoría de navegación |
-| Menú móvil | El botón mide al menos 44×44 px, expone nombre, estado y relación con el menú; Escape devuelve el foco al botón | `Navbar.astro` y auditoría estática |
+| Menú móvil | Los controles principales miden al menos 48×48 px, exponen nombre, estado y relación con el menú; Escape devuelve el foco al botón | `Navbar.astro` y auditoría estática |
 | Lectura | La prosa limita la medida a 68 caracteres aproximados, usa Literata para títulos y deja las tablas desplazables horizontalmente | `src/styles/global.css` |
 | Imágenes | Las tarjetas usan variantes responsive y las imágenes del artículo conservan dimensiones/alt/crédito | auditorías responsive-image, source-render y sitemap de imágenes |
 | Accesibilidad de laboratorio | 100/100 en la última ejecución pública de Lighthouse móvil | `Lighthouse_RUNTIME_SNAPSHOT_2026-09-20.md` |

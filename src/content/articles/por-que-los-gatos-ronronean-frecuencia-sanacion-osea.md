@@ -1,5 +1,5 @@
 ---
-title: "Cómo ronronean los gatos: qué se sabe de su sonido característico"
+title: "Cómo ronronean los gatos: mecanismo de su sonido"
 description: "Qué revelan los estudios recientes sobre la laringe felina, el ronroneo durante la respiración y los límites de lo que aún se conoce."
 category: "ciencia-curiosa"
 pubDate: 2026-09-05

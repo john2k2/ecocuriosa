@@ -1,7 +1,17 @@
 import { readFile, readdir } from 'node:fs/promises';
+import YAML from 'yaml';
 
 const file = 'docs/editorial/SOURCE_CATALOG.yml';
 const source = await readFile(file, 'utf8');
+try {
+  const parsed = YAML.parse(source);
+  if (!parsed || !Array.isArray(parsed.entries)) {
+    throw new Error('el documento debe contener un arreglo entries');
+  }
+} catch (error) {
+  console.error(`SOURCE_CATALOG no es YAML válido: ${error.message}`);
+  process.exit(1);
+}
 const lines = source.split('\n');
 const entries = [];
 let current = null;

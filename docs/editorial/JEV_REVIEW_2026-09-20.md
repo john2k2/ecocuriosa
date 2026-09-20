@@ -434,3 +434,24 @@ schema no compensan la deuda editorial; el siguiente paso sigue siendo cerrar
 revisiones humanas, y después obtener medición de campo. La respuesta fue
 `model: jev-1.13.0`, `advisory_only: true`, con 822 tokens de entrada y 67 de
 salida.
+
+## Reevaluación tras reforzar citabilidad, accesibilidad y gobernanza — 20/09/2026
+
+Se consultó nuevamente el MCP de Jev después de incorporar un selector
+`speakable` alineado con el resumen visible, targets táctiles de 48 px, títulos
+más concisos, validación YAML real del catálogo y 17 fuentes oficiales nuevas
+sobre campo, CMP, AdSense y gobernanza de automatización. El estado verificable
+quedó en 794 candidatas, 146 fuentes visibles y 31/32 artículos pendientes de
+revisión humana.
+
+| Pregunta | Resultado | Confianza | Lectura operativa |
+| --- | ---: | ---: | --- |
+| Preparación verificable para SEO/GEO, E‑E‑A‑T y AdSense | **1,91/4** | 0,92 | La base técnica y los controles mejoraron, pero los bloqueos editoriales humanos y externos siguen siendo materiales. |
+| Próxima acción | **human_review** (0,75) | 0,68 | Cerrar revisiones artículo por artículo antes de escalar volumen o automatizar publicación. |
+
+La distribución fue 0: 0 %, 1: 10 %, 2: 90 %, 3: 0 % y 4: 0 %. La variación
+frente a la pasada conservadora de 1,26/4 no es una serie temporal de calidad:
+cambió el estado y la rúbrica enviados. Jev devolvió `model: jev-1.13.0`,
+`advisory_only: true`, 795 tokens de entrada y 76 de salida. El resultado no
+demuestra aprobación de AdSense, tráfico, ranking, ingresos ni Core Web Vitals
+de campo.

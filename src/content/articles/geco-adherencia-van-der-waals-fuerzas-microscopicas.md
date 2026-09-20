@@ -1,5 +1,5 @@
 ---
-title: "Cómo Caminan los Gecos por el Cristal: La Fuerza de Van der Waals"
+title: "Cómo caminan los gecos: fuerza de Van der Waals"
 description: "Descubre la física microscópica que permite a los gecos adherirse a techos y cristales pulidos sin usar pegamento ni ventosas."
 category: "fauna-fascinante"
 pubDate: 2026-08-11

@@ -50,10 +50,17 @@ candidatas**, con una penalización explícita por ausencia de CWV de campo, dio
 (0,87; confianza 0,83). Se registra como otra rúbrica consultiva, no como
 regresión del código ni como métrica de Google.
 
+La reevaluación posterior a añadir `speakable` sobre el resumen visible,
+targets táctiles de 48 px, títulos más concisos, YAML parseable y 17 fuentes
+oficiales nuevas dio **1,91/4** (confianza 0,92). La prioridad siguió siendo
+`human_review` (0,75; confianza 0,68). Es una nueva rúbrica consultiva y no una
+serie temporal: Jev no sustituye Search Console, Cloudflare, AdSense ni la
+apertura humana de las fuentes.
+
 La lectura de control del 20/09/2026 deja la deuda editorial cuantificada:
 31/32 fichas están pendientes de revisión, 22/31 tienen señales que requieren
 lectura humana y las 31 fichas pendientes cuentan con fechas de acceso
-completas para sus fuentes. El catálogo contiene **777 candidatas** y existen
+completas para sus fuentes. El catálogo contiene **794 candidatas** y existen
 **31 paquetes de contraste asistido**, uno por cada ficha pendiente; ninguno
 equivale a una firma humana.
 La auditoría estricta falla por estas revisiones pendientes; no se deben
@@ -316,10 +323,10 @@ la ampliación temática de la primera ronda del 20/09 lo dejó en **605 entrada
 El lote amplio posterior de Luna añadió 29 URLs no duplicadas y dejó el estado
 histórico en **661 entradas**. Después, la búsqueda dirigida de datasets,
 conservación y automatización añadió 14 URLs no duplicadas; el estado verificable
-actual es **777 entradas**. Las cifras históricas se conservan para no confundir
+actual es **794 entradas**. Las cifras históricas se conservan para no confundir
 una instantánea con una medición retroactiva.
 
-El catálogo actual contiene **777 entradas** y la biblioteca conserva oportunidades
+El catálogo actual contiene **794 entradas** y la biblioteca conserva oportunidades
 para briefs. Todas siguen siendo candidatas hasta la comprobación humana. Las
 familias nuevas más útiles son:
 

@@ -92,8 +92,15 @@ for (const file of files) {
     if (!property(html, 'og:image')) issue('falta og:image');
     if (!/<script\b[^>]*type=["']application\/ld\+json["']/i.test(html)) issue('falta JSON-LD');
     const jsonLd = jsonLdNodes(html);
+    const articleNodes = jsonLd.filter((node) => node?.['@type'] === 'Article');
     const faqPages = jsonLd.filter((node) => node?.['@type'] === 'FAQPage');
     if (jsonLd.some((node) => node?.['@type'] === '__invalid_jsonld__')) issue('JSON-LD inválido');
+    for (const articleNode of articleNodes) {
+      const selectors = articleNode.speakable?.cssSelector;
+      if (!Array.isArray(selectors) || !selectors.includes('#article-summary') || !/id=["']article-summary["']/i.test(html)) {
+        issue('Article sin speakable alineado con el resumen visible');
+      }
+    }
     for (const faqPage of faqPages) {
       const questions = Array.isArray(faqPage.mainEntity) ? faqPage.mainEntity : [];
       if (!questions.length || questions.some((question) => (

@@ -1,5 +1,5 @@
 ---
-title: "Tardígrados y criptobiosis: límites de su resistencia extrema"
+title: "Tardígrados y criptobiosis: límites de su resistencia"
 description: "Qué muestran los estudios sobre anhidrobiosis, radiación y exposición espacial en tardígrados, sin mitos de invulnerabilidad."
 category: "fauna-fascinante"
 pubDate: 2026-08-12

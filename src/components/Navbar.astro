@@ -48,7 +48,7 @@ const currentPath = Astro.url.pathname;
             <a
               href={cat.href}
               aria-current={isActive ? 'page' : undefined}
-              class={`px-4 py-2 rounded-md transition-all ${
+              class={`min-h-[48px] px-4 py-2 rounded-md transition-all inline-flex items-center ${
                 isActive
                   ? 'text-[#063b1e] bg-[#eaf3ec] font-semibold shadow-xs'
                   : 'text-[#141715] hover:text-[#063b1e] hover:bg-[#efece3]'
@@ -105,15 +105,15 @@ const currentPath = Astro.url.pathname;
       <a
         href={cat.href}
         aria-current={currentPath.startsWith(cat.href) ? 'page' : undefined}
-        class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]"
+        class="min-h-[48px] flex items-center px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]"
       >
         {cat.name}
       </a>
     ))}
-    <a href="/buscar/" aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined} class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
+    <a href="/buscar/" aria-current={currentPath.startsWith('/buscar/') ? 'page' : undefined} class="min-h-[48px] flex items-center px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
       Buscar en el archivo
     </a>
-    <a href="/metodologia-editorial/" aria-current={currentPath.startsWith('/metodologia-editorial/') ? 'page' : undefined} class="block px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
+    <a href="/metodologia-editorial/" aria-current={currentPath.startsWith('/metodologia-editorial/') ? 'page' : undefined} class="min-h-[48px] flex items-center px-3 py-2.5 rounded-md text-base font-medium text-[#141715] hover:bg-[#eaf3ec] hover:text-[#063b1e]">
       Metodología editorial
     </a>
   </nav>

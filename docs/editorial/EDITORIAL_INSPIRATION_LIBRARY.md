@@ -1373,6 +1373,34 @@ usuarios reales y no autoriza publicación automática.
    conservar `publish: false`, `humanApproval: pending` y la revisión claim →
    fuente → límite.
 
-El catálogo queda en **777 entradas válidas** (763 anteriores + 14 nuevas).
+### Búsqueda de Luna Max — autoridad, campo, consentimiento y gobernanza — 20 de septiembre de 2026
+
+Esta ronda se centró en las brechas que todavía impiden la puntuación máxima:
+autoría verificable, medición de campo, consentimiento publicitario y control de
+automatización. Se agregaron **17 URLs nuevas** al catálogo; son referencias de
+inspiración y control, no citas automáticas para artículos publicados.
+
+| Área | Fuente oficial | Aplicación concreta | Límite |
+| --- | --- | --- | --- |
+| Citabilidad | [Speakable de Google](https://developers.google.com/search/docs/appearance/structured-data/speakable?hl=en) | Identificar solo el resumen visible y conciso apto para lectura por voz | Función beta y orientada a noticias; no garantiza rich result |
+| Transparencia | [Políticas de Google News](https://support.google.com/news/publisher-center/answer/6204050) | Mantener responsable, fecha, contacto y tipo de pieza cuando sea noticiosa | No es requisito universal para Search |
+| Campo | [Medición de Web Vitals](https://web.dev/articles/vitals-measurement-getting-started) | Separar laboratorio, RUM y segmentos por ruta/dispositivo | Una muestra pequeña no representa a toda la audiencia |
+| Interacción | [INP](https://web.dev/articles/inp) | Medir menú, búsqueda, formularios y controles durante toda la visita | No sustituye pruebas reales con lectores |
+| Accesibilidad | [WCAG en W3C](https://www.w3.org/WAI/standards-guidelines/wcag/) | Mantener WCAG 2.2 como objetivo documentado de percepción, operación, comprensión y robustez | Las auditorías automáticas no declaran conformidad completa |
+| AdSense | [Páginas listas para AdSense](https://support.google.com/adsense/answer/7299563) | Comprobar contenido original, navegación y experiencia antes de anuncios | No garantiza aprobación |
+| Políticas | [Políticas del editor](https://support.google.com/adsense/answer/10008391) | Separar restricciones de inventario de la preparación técnica | La cuenta y las políticas pueden cambiar |
+| CMP | [Requisitos de CMP](https://support.google.com/adsense/answer/13554020) | Usar CMP certificada e integración TCF cuando corresponda | Certificación no equivale a cumplimiento legal total |
+| CMP | [Configuración de CMP](https://support.google.com/adsense/answer/7670013) | Documentar proveedores, cookies y personalización | Requiere probar los estados reales en producción |
+| TCF | [Integración TCF v2.3](https://support.google.com/adsense/answer/9804260) | No cargar etiquetas antes de la señal requerida | Revisar siempre la versión vigente |
+| Autorización | [Ads.txt 1.1](https://iabtechlab.com/wp-content/uploads/2022/04/Ads.txt-1.1.pdf) | Validar DIRECT/RESELLER e identificadores exactos | No equivale a aprobación de AdSense |
+| Revisión | [Conectar el sitio a AdSense](https://support.google.com/adsense/answer/7584263) | Registrar el estado privado `Ready` por separado del build | No puede verificarse desde el repositorio |
+| IA | [Políticas de uso de OpenAI](https://openai.com/policies/usage-policies/) | Conservar supervisión humana, consentimiento y escalamiento de riesgos | No reemplaza la política editorial propia |
+| Moderación | [Moderations API](https://platform.openai.com/docs/api-reference/moderations) | Filtrar entradas/salidas y escalar casos ambiguos | No verifica exactitud científica ni derechos |
+| Procedencia | [Especificación C2PA](https://spec.c2pa.org/specifications/specifications/2.1/index.html) | Guardar origen, herramienta y transformaciones de imágenes | Procedencia no prueba veracidad |
+| Gobernanza | [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) | Inventariar modelos, riesgos, evaluaciones e incidentes | Marco voluntario, no certificación |
+| Ética | [Recomendación UNESCO sobre IA](https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence) | Formalizar transparencia, responsabilidad y supervisión | No es obligación legal automática |
+
+El catálogo queda en **794 entradas válidas** (777 anteriores + 17 nuevas).
 Ningún artículo publicado fue modificado por esta búsqueda y ninguna ficha se
-marcó como revisada.
+marcó como revisada. La ronda se incorpora al plan como controles, no como una
+justificación para producir más volumen.

@@ -3355,7 +3355,7 @@ entries:
     domain: accessibility
     evidenceType: standard-guidance
     url: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
-    use: comprobar ratio 4.5:1 para texto normal y 3:1 para texto grande en tokens, imágenes y estados de foco; conservar excepciones del criterio
+    use: "comprobar ratio 4.5:1 para texto normal y 3:1 para texto grande en tokens, imágenes y estados de foco; conservar excepciones del criterio"
   - id: google-redirects-search
     authority: Google Search Central
     domain: indexation
@@ -4517,13 +4517,13 @@ entries:
     url: https://doi.org/10.1126/sciadv.adp5243
     use: candidato para integrar fósiles, morfometría y modelos de distribución; no reducir toda adaptación a frío/altitud ni afirmar fisiología directa
   - id: ec-catatumbo-lis-otd-climatology-2021
-    authority: Journal of Geophysical Research: Atmospheres
+    authority: "Journal of Geophysical Research: Atmospheres"
     domain: catatumbo-lightning
     evidenceType: peer-reviewed-primary-candidate
     url: https://doi.org/10.1029/2020JD033885
     use: candidato para climatología LIS/OTD y densidad de extensión de flashes en Maracaibo; métrica satelital no equivale a descargas desde tierra
   - id: ec-catatumbo-glm-product-2019
-    authority: Journal of Geophysical Research: Atmospheres / PubMed Central
+    authority: "Journal of Geophysical Research: Atmospheres / PubMed Central"
     domain: catatumbo-lightning
     evidenceType: peer-reviewed-primary-candidate
     url: https://doi.org/10.1029/2019JD031054
@@ -4696,3 +4696,105 @@ entries:
     evidenceType: platform-documentation
     url: https://developers.openai.com/api/docs/guides/evals
     use: construir casos de regresión para tono, estructura, claims y citas antes de cambiar prompts/modelos; no sustituye fuentes actuales ni aprobación humana
+  - id: google-speakable-structured-data
+    authority: Google Search Central
+    domain: ai-citability
+    evidenceType: official-documentation
+    url: https://developers.google.com/search/docs/appearance/structured-data/speakable?hl=en
+    use: marcar únicamente resúmenes visibles y concisos aptos para lectura por voz; es una función beta y no garantiza rich results ni tráfico
+  - id: google-news-transparency-policy-current
+    authority: Google News
+    domain: editorial-transparency
+    evidenceType: official-policy
+    url: https://support.google.com/news/publisher-center/answer/6204050
+    use: inspirar bylines, fechas, responsable, contacto y divulgación para piezas realmente noticiosas; no es un requisito universal de Search
+  - id: webdev-web-vitals-measurement
+    authority: web.dev / Chrome team
+    domain: field-performance
+    evidenceType: official-guidance
+    url: https://web.dev/articles/vitals-measurement-getting-started
+    use: combinar laboratorio y RUM, segmentar por ruta y dispositivo y no tratar una media pequeña como experiencia representativa
+  - id: webdev-inp
+    authority: web.dev / Chrome team
+    domain: field-performance
+    evidenceType: official-guidance
+    url: https://web.dev/articles/inp
+    use: medir la interacción durante toda la vida de la página, especialmente menú, búsqueda, formularios y controles después de anuncios
+  - id: w3c-wcag-overview
+    authority: W3C Web Accessibility Initiative
+    domain: accessibility
+    evidenceType: standard-overview
+    url: https://www.w3.org/WAI/standards-guidelines/wcag/
+    use: mantener WCAG 2.2 como objetivo de percepción, operación, comprensión y robustez; la conformidad exige pruebas humanas además de auditorías
+  - id: google-adsense-pages-ready
+    authority: Google AdSense
+    domain: monetization-readiness
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/7299563
+    use: comprobar contenido original suficiente, navegación clara y experiencia usable antes de solicitar o activar anuncios; no garantiza aprobación
+  - id: google-publisher-policies
+    authority: Google AdSense
+    domain: adsense-policy
+    evidenceType: official-policy
+    url: https://support.google.com/adsense/answer/10008391
+    use: separar políticas del editor y restricciones de inventario de los controles técnicos del repositorio; revisar cambios dinámicos en la cuenta
+  - id: google-cmp-eea-uk-ch
+    authority: Google AdSense
+    domain: privacy-consent
+    evidenceType: official-policy
+    url: https://support.google.com/adsense/answer/13554020
+    use: exigir CMP certificada e integración TCF cuando corresponda en EEE, Reino Unido y Suiza; certificación no equivale a cumplimiento legal integral
+  - id: google-adsense-cmp-setup
+    authority: Google AdSense
+    domain: privacy-consent
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/7670013
+    use: documentar proveedores, cookies, personalización y opciones de anuncios no personalizados antes de cargar etiquetas
+  - id: google-adsense-tcf-v23
+    authority: Google AdSense
+    domain: privacy-consent
+    evidenceType: official-policy
+    url: https://support.google.com/adsense/answer/9804260
+    use: revisar señal TCF v2.3 y no invocar almacenamiento o etiquetas publicitarias antes del consentimiento requerido; verificar la política vigente
+  - id: iab-ads-txt-1-1
+    authority: IAB Tech Lab
+    domain: adsense-authorization
+    evidenceType: specification
+    url: https://iabtechlab.com/wp-content/uploads/2022/04/Ads.txt-1.1.pdf
+    use: validar formato DIRECT o RESELLER e identificadores exactos del vendedor; no copiar IDs de ejemplo ni tratar ads.txt como aprobación
+  - id: google-adsense-site-review
+    authority: Google AdSense
+    domain: monetization-readiness
+    evidenceType: official-guidance
+    url: https://support.google.com/adsense/answer/7584263
+    use: separar revisión de propiedad, estado Ready y revisión de calidad editorial; una auditoría local no puede cambiar el estado privado de la cuenta
+  - id: openai-usage-policies
+    authority: OpenAI
+    domain: automation-governance
+    evidenceType: platform-policy
+    url: https://openai.com/policies/usage-policies/
+    use: mantener supervisión humana, consentimiento y controles de riesgo en contenido y medios generados; no sustituye una política editorial local
+  - id: openai-moderations-api
+    authority: OpenAI Developers
+    domain: automation-safety
+    evidenceType: api-documentation
+    url: https://platform.openai.com/docs/api-reference/moderations
+    use: filtrar entradas y salidas potencialmente dañinas y escalar casos ambiguos; moderación no prueba exactitud científica ni derechos de imagen
+  - id: c2pa-content-provenance
+    authority: Coalition for Content Provenance and Authenticity
+    domain: image-provenance
+    evidenceType: specification
+    url: https://spec.c2pa.org/specifications/specifications/2.1/index.html
+    use: conservar origen, herramienta y transformaciones de una imagen cuando haya Content Credentials; procedencia no equivale a veracidad científica
+  - id: nist-ai-rmf
+    authority: National Institute of Standards and Technology
+    domain: automation-governance
+    evidenceType: voluntary-framework
+    url: https://www.nist.gov/itl/ai-risk-management-framework
+    use: convertir automatización en gobernanza, identificación, medición y gestión de riesgos con inventario de modelos y reevaluaciones
+  - id: unesco-ai-ethics-recommendation
+    authority: UNESCO
+    domain: automation-governance
+    evidenceType: international-recommendation
+    url: https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence
+    use: inspirar transparencia, rendición de cuentas, evaluación de impacto y supervisión humana; no es certificación ni obligación legal automática

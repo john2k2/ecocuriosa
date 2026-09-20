@@ -13,7 +13,7 @@ no son una promesa de ranking, tráfico, aprobación de AdSense ni ingresos.
 | Diseño, navegación y móvil | Jerarquía, foco, menú móvil, alt y proporciones de imagen auditados | Falta repetir la matriz en categoría y legales; aún no hay prueba con anuncios reales |
 | Indexación | Sitemap correcto con 44 URLs descubiertas; Search Console muestra 57 páginas indexadas y 28 no indexadas | Resolver la única URL rastreada pero no indexada y explicar las 25 redirecciones y 2 `noindex` antes de pedir más rastreo |
 | AdSense técnico | El sitio está en revisión; política, contacto y metodología visibles | CMP, pagos, slots reales, `ads.txt` y comportamiento post-aprobación son gates externos |
-| E‑E‑A‑T | 777 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y 28 nuevas fuentes recientes de investigación/técnica | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
+| E‑E‑A‑T | 794 fuentes candidatas en catálogo; 4 briefs Luna válidos, 31 paquetes asistidos y una biblioteca ampliada de fuentes de autoría, campo, CMP y gobernanza | 31/32 artículos siguen `pending`; faltan nombres/roles reales y trazabilidad visual formal en algunos activos |
 
 La consulta global más reciente de Jev, después de ampliar el banco con 14
 fuentes canónicas, dio **1,98/4** para preparación verificable (confianza 0,97)
@@ -38,6 +38,12 @@ La pasada posterior a incorporar los controles técnicos y el catálogo de 777
 candidatas, penalizando la falta de CWV de campo, dio **1,26/4** (confianza
 0,65) y volvió a elegir `human_review` (0,87; confianza 0,83). Esta variación
 es de rúbrica y estado enviado; las auditorías del código siguen verdes.
+
+La reevaluación posterior a añadir `speakable` sobre el resumen visible,
+targets táctiles de 48 px, títulos más concisos, YAML parseable y 17 fuentes
+oficiales nuevas dio **1,91/4** (confianza 0,92) y mantuvo `human_review` como
+prioridad (0,75; confianza 0,68). La variación no es una serie temporal ni una
+predicción de aprobación; el siguiente salto exige cerrar la lectura humana.
 
 ## Orden ejecutivo para subir la puntuación
 

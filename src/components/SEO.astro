@@ -200,6 +200,10 @@ const article = type === 'article' ? {
   ...(editor ? { "editor": editor } : {}),
   "publisher": { "@id": organizationId },
   "mainEntityOfPage": { "@id": canonicalURL },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#article-summary"]
+  },
   ...(faqs.length ? { "subjectOf": { "@id": `${canonicalURL}#faq` } } : {}),
   ...(sources.length ? { "citation": sources.map((source) => source.url) } : {})
 } : undefined;
