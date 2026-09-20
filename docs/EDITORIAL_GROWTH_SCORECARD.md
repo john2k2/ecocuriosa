@@ -36,7 +36,7 @@ Actualización 14/09/2026: el control también comprueba las 12 páginas estáti
 
 La instantánea de runtime del mismo corte confirma 44/44 URLs públicas del
 sitemap con HTTP 200, cinco rutas de escaneo en 403 y encabezados de seguridad y
-caché presentes ([detalle](editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-14.md)).
+caché presentes ([detalle](editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-20.md)).
 
 La auditoría de navegación se amplió a las 46 páginas HTML generadas; verifica el menú principal y móvil, foco, estado ARIA e IDs únicos en cada plantilla.
 

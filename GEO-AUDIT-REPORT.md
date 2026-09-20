@@ -13,7 +13,7 @@ El plan ejecutable con responsables, umbrales, contrato de Luna Max y criterios 
 La disponibilidad pública se comprobó después del último despliegue: las 44
 URLs del sitemap devolvieron HTTP 200, las cinco rutas de escaneo permanecieron
 en 403 y los encabezados de seguridad/caché esperados estuvieron presentes. La
-evidencia reproducible está en la [instantánea de runtime](docs/editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-14.md).
+evidencia reproducible está en la [instantánea de runtime](docs/editorial/PRODUCTION_RUNTIME_SNAPSHOT_2026-09-20.md).
 
 ## Resumen ejecutivo
 
