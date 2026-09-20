@@ -18,6 +18,8 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 4. [Giant squid video](https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/) — NOAA Ocean Exploration; vídeo educativo de un individuo observado con señuelo.
 5. [Evidence for direct use of terminal organ for spermatophore transfer in giant squid, *Architeuthis dux*](https://www.micropublication.org/journals/biology/micropub-biology-001476/) — *microPublication Biology*; dos machos moribundos y evidencia compatible con una hipótesis reproductiva.
 6. [Giant squid eyes and the detection of sperm whales](https://pubmed.ncbi.nlm.nih.gov/22425154/) — *Proceedings of the Royal Society B* / PubMed; modelo óptico, no conducta evasiva observada.
+7. [Studying the swift, smart, and shy: Unobtrusive camera-platforms for observing large deep-sea squid](https://repository.library.noaa.gov/view/noaa/59467) — NOAA Institutional Repository / *Deep Sea Research Part I*; encuentros oportunistas entre 557 y 950 m y estimación de longitud del manto.
+8. [Sizing ocean giants: patterns of intraspecific size variation in marine megafauna](https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/) — *PeerJ* / PubMed Central; variación de tamaño, mediciones confirmadas y límites de los máximos publicados.
 
 ## Matriz de afirmaciones
 
@@ -29,6 +31,8 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 | C4 | La evidencia sobre el órgano terminal reproductivo apoya una hipótesis de transferencia directa de espermatóforos. | *microPublication Biology* describe dos machos moribundos con el órgano móvil y PubMed conserva el registro. | n=2; no hubo cópula completa, hembra receptora ni fecundación observada. | pending |
 | C5 | La función de los ojos grandes y la bioluminiscencia de las presas siguen siendo preguntas abiertas. | Las fuentes separan observaciones, modelos ópticos e hipótesis ecológicas. | No presentar una estrategia de caza o evasión como conducta demostrada. | pending |
 | C6 | Las filmaciones, especímenes y relatos del Kraken no describen por sí solos la conducta poblacional. | Smithsonian y NOAA reúnen registros puntuales; el artículo distingue mito, señuelo y observación. | Mantener separadas evidencia directa, interpretación y folclore. | pending |
+| C7 | Las plataformas de cámara sin perturbación registraron encuentros con *A. dux* en el Caribe occidental entre 557 y 950 m y estimaron un manto cercano a 1,7 m. | El registro NOAA resume el método, las especies observadas y el alcance de la estimación. | Son despliegues oportunistas; la longitud es del manto, no total, y no representa un promedio poblacional. | pending |
+| C8 | Una revisión de gigantes marinos muestra por qué los máximos de tamaño deben separarse de la variación intraespecífica y de las ecuaciones alométricas. | El artículo de PeerJ/PMC declara medidas confirmadas, variación y límites de la medición en animales raros. | No convertir la tabla o una ecuación en un récord universal ni mezclar especies de calamar. | pending |
 
 ## Imagen, enlaces y políticas
 
@@ -36,6 +40,7 @@ reviewMode: "contraste asistido; no sustituye aprobación humana"
 - La revisión debe conservar el tamaño muestral de dos machos y la condición moribunda del estudio reproductivo.
 - No afirmar que la bioluminiscencia, el tamaño ocular o el órgano terminal prueban una conducta universal.
 - Las cifras de ojos, tentáculo y longitud deben atribuirse a ejemplares o estudios concretos.
+- La fuente de NOAA tiene licencia CC BY-NC-ND; no reutilizar sus figuras ni transformarlas sin revisar las restricciones. La revisión de PeerJ es CC BY, pero una licencia abierta de texto no autoriza a reutilizar fotografías de terceros.
 
 ## Pendiente antes de cerrar
 

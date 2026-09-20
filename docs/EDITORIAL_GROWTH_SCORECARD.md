@@ -46,11 +46,11 @@ canonical, JSON-LD y estado/fuentes en artículos. La muestra actual está en
 10/10 sin incidencias; sigue siendo una prueba del artefacto estático, no de
 indexación ni de experiencia de campo.
 
-Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); el conjunto actual declara 143 fuentes citadas y sus enlaces pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
+Una prueba HTTP 200, un build correcto o una referencia en el frontmatter no demuestran por sí solos indexación, exactitud, audiencia humana ni aprobación de AdSense. El [snapshot de acceso a fuentes](editorial/SOURCE_ACCESS_SNAPSHOT_2026-09-12.md) documenta la instantánea histórica de 97 URLs (70 respuestas 200, 10 respuestas 203 y 17 respuestas 403); el conjunto actual declara **145 fuentes citadas** y sus enlaces pasan los controles de catálogo, metadatos, cuerpo y HTML. Los estados restringidos requieren revisión manual.
 
 El control de metadatos exige una `accessedDate` por cada fuente de una ficha
 que ya declara `reviewedDate` y `reviewedBy`. La lectura actual comprueba
-**143/143 fuentes** con alcance, evidencia y fecha de acceso completas. Esta
+**145/145 fuentes** con alcance, evidencia y fecha de acceso completas. Esta
 puerta mejora la reproducibilidad del proceso, pero no convierte una fecha de
 acceso en prueba de exactitud ni marca revisiones por sí sola.
 

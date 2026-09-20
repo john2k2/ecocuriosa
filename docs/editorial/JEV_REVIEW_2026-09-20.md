@@ -312,3 +312,14 @@ actualizado, Jev eligió `human_review` con probabilidad **1,00** y confianza
 **1,00**. Esta respuesta confirma la dirección de la reevaluación anterior,
 pero sigue siendo una opinión advisory-only, no una autorización para marcar
 revisiones ni publicar automáticamente.
+
+## Reevaluación tras reforzar *Architeuthis dux* — 20/09/2026
+
+Se consultó Jev después de añadir dos fuentes primarias al artículo con más
+impresiones visibles (`Architeuthis dux`): el registro NOAA de plataformas de
+cámara sin perturbación y el análisis de variación de tamaño de PeerJ/PMC. La
+preparación editorial verificable quedó en **1,98/4** (confianza **0,95**), con
+95 % de probabilidad en el nivel intermedio. Jev mantuvo la interpretación de
+que la trazabilidad mejoró, pero la deuda de 31 revisiones humanas sigue
+impidiendo pasar al nivel alto. La respuesta sigue siendo `advisory_only: true`;
+no es aprobación de Google ni una autorización de publicación.

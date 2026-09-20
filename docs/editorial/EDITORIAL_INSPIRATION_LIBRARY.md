@@ -1254,3 +1254,14 @@ CTR y posición durante 28 días y solo después decidir si hace falta una pieza
 nueva. Cada candidato conserva sus limitaciones en [`SOURCE_CATALOG.yml`](./SOURCE_CATALOG.yml);
 los briefs derivados deben seguir con `humanApproval: pending` y
 `publish: false`.
+
+### Refuerzo de la oportunidad `architeuthis dux` — 20 de septiembre de 2026
+
+La página del calamar gigante, que concentra la mayor cantidad de impresiones
+del snapshot, recibió dos fuentes primarias ya catalogadas: [las plataformas de
+cámara sin perturbación de NOAA](https://repository.library.noaa.gov/view/noaa/59467)
+y el análisis abierto de [variación de tamaño en gigantes marinos](https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/).
+El ángulo editorial resultante separa encuentros oportunistas, longitud del
+manto, longitud total y máximos confirmados. No convierte una filmación o una
+tabla alométrica en una conducta universal; el paquete de revisión mantiene
+ocho afirmaciones `pending` y `publish: false`.

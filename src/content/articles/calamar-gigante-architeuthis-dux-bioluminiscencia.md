@@ -3,7 +3,7 @@ title: "Architeuthis dux: qué se sabe del calamar gigante"
 description: "Observaciones y estudios sobre el calamar gigante, sus grandes ojos y las incertidumbres de vivir en el océano profundo."
 category: "especies-marinas"
 pubDate: 2026-08-13
-updatedDate: 2026-09-14
+updatedDate: 2026-09-20
 author: "Equipo Editorial EcoCuriosa"
 image: "/images/articles/calamar-gigante-abisal.svg"
 imageAlt: "Ilustración editorial sobre el calamar gigante en la zona batipelágica"
@@ -56,6 +56,18 @@ sources:
     evidenceType: "primary"
     scope: "modelo óptico sobre detección de cachalotes por ojos gigantes; es modelado, no conducta evasiva observada"
     accessedDate: 2026-09-20
+  - title: "Studying the swift, smart, and shy: Unobtrusive camera-platforms for observing large deep-sea squid"
+    publisher: "Deep Sea Research Part I / NOAA Institutional Repository"
+    url: "https://repository.library.noaa.gov/view/noaa/59467"
+    evidenceType: "primary"
+    scope: "despliegues oportunistas de cámaras sin perturbación en el Caribe occidental; encuentros con Architeuthis dux entre 557 y 950 m y estimación aproximada de 1,7 m de longitud del manto"
+    accessedDate: 2026-09-20
+  - title: "Sizing ocean giants: patterns of intraspecific size variation in marine megafauna"
+    publisher: "PeerJ / PubMed Central"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/"
+    evidenceType: "primary"
+    scope: "revisión y análisis de variación de tamaño; para Architeuthis dux separa individuos confirmados, rangos y ecuaciones alométricas"
+    accessedDate: 2026-09-20
 featured: false
 ---
 
@@ -75,6 +87,10 @@ Los cefalópodos presentan rasgos fisiológicos especializados, pero esta ficha 
 
 El [registro primario de Ogasawara](https://pubmed.ncbi.nlm.nih.gov/16321779/) muestra a un ejemplar acercándose a un cebo en 2004; el artículo se publicó en 2005 y permite documentar su aspecto, escala y entorno inmediato. Se recuperó una porción de tentáculo de 5,5 metros y se estimó que el individuo superaba los 8 metros de longitud total. Fue un caso concreto y una conducta inducida por el montaje; no demuestra cómo se alimentan todos los individuos.
 
+Un trabajo de [plataformas de cámara sin perturbación archivado por NOAA](https://repository.library.noaa.gov/view/noaa/59467) registró varios calamares grandes en el Caribe occidental, incluido *Architeuthis dux*, a profundidades de 557–950 metros. Para ese encuentro se estimó una longitud del manto de aproximadamente 1,7 metros. La plataforma y el señuelo luminoso reducen algunas interferencias de los métodos convencionales, pero los encuentros siguen siendo oportunistas y la estimación no es una longitud total ni un promedio de la especie.
+
+Las cifras de tamaño también necesitan contexto estadístico. La revisión [Sizing ocean giants](https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/) reúne medidas de distintos organismos y advierte que la rareza, la distancia y la dificultad de medir animales marinos favorecen errores en los máximos publicados. Para *A. dux* incluye individuos confirmados y ecuaciones alométricas, pero la tabla de un estudio no demuestra un máximo poblacional universal. Por eso conviene distinguir “mayor individuo confirmado en una muestra” de “tamaño máximo posible”.
+
 La función exacta de los ojos grandes y la bioluminiscencia de las presas siguen siendo preguntas de investigación. En los calamares meso- y batipelágicos, el mecanismo general de flotabilidad se relaciona con soluciones de amoníaco; lo incierto es cómo se regula exactamente en cada *A. dux*. Cuando una explicación es una hipótesis ecológica, debe presentarse como tal y no como una escena observada directamente.
 
 ### Datos documentados y límites de interpretación
@@ -83,8 +99,9 @@ La función exacta de los ojos grandes y la bioluminiscencia de las presas sigue
 | :--- | :--- | :--- |
 | Ojos | Hasta unas 10 pulgadas en la descripción del Smithsonian | Medida de ejemplares conocidos, no promedio poblacional |
 | Observación viva | Un individuo registrado a unos 900 m frente a Ogasawara | Caso de 2004, publicado en 2005, atraído por cebo |
+| Encuentros con cámaras sin perturbación | *A. dux* registrado en el Caribe occidental entre 557 y 950 m; manto estimado en ~1,7 m | Despliegues oportunistas; la estimación es longitud del manto, no longitud total ni promedio poblacional |
 | Tentáculo recuperado | Porción de 5,5 m en ese registro primario | El individuo completo se estimó en más de 8 m; no es longitud universal del tentáculo |
-| Tamaño histórico | El Smithsonian resume registros cercanos a 13 m | Récord de ejemplares documentados, no máximo poblacional probado |
+| Tamaño histórico | El Smithsonian resume registros cercanos a 13 m; una revisión estadística separa medidas y estimaciones | Récord de ejemplares documentados, no máximo poblacional probado |
 
 ---
 
@@ -138,6 +155,8 @@ Cada observación de *Architeuthis dux* reemplaza parte del imaginario del monst
 - [Smithsonian NMNH: The Giant Squid](https://naturalhistory.si.edu/explore/giant-squid)
 - [Smithsonian Ocean: el ojo más grande del mundo](https://ocean.si.edu/ocean-life/invertebrates/largest-eye-world-giant-squid)
 - [NOAA Ocean Exploration: vídeo de un calamar gigante](https://oceanexplorer.noaa.gov/multimedia/edu-themes-bioluminescence-media-multimedia-giant-squid/)
+- [NOAA Institutional Repository: plataformas de cámara sin perturbación](https://repository.library.noaa.gov/view/noaa/59467)
+- [PeerJ/PMC: variación de tamaño en gigantes marinos](https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/)
 - [microPublication Biology: evidencia sobre la transferencia de espermatóforos](https://www.micropublication.org/journals/biology/micropub-biology-001476/)
 - [PubMed: registro bibliográfico del estudio de 2025](https://pubmed.ncbi.nlm.nih.gov/40255250/)
 - [PubMed: modelo óptico de los ojos del calamar gigante](https://pubmed.ncbi.nlm.nih.gov/22425154/)
