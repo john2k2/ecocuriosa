@@ -37,6 +37,7 @@ jobs:
       - run: pnpm content:navigation-audit
       - run: pnpm content:rss-audit
       - run: pnpm content:image-sitemap-audit
+      - run: pnpm content:image-accessibility-audit
       - run: pnpm content:responsive-image-audit
       - run: pnpm content:source-render-audit
       - run: pnpm content:reference-audit

@@ -47,6 +47,52 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         Una <strong>corrección</strong> arregla un error localizado. Una <strong>actualización</strong> incorpora evidencia nueva o cambia el contexto de una explicación y debe indicar qué se modificó. Si una afirmación central no puede sostenerse, podemos retirarla o dejar la página fuera de publicación mientras se investiga; no ocultamos el motivo ni presentamos una retractación como una simple mejora de estilo.
       </p>
 
+      <h2>Estados de un aviso</h2>
+      <p>
+        Para no confundir una observación recibida con un cambio confirmado, cada
+        aviso se clasifica durante su evaluación. El estado solo cambia cuando
+        existe una decisión editorial documentada.
+      </p>
+      <div class="not-prose overflow-x-auto rounded-lg border border-[#e6e2d8]">
+        <table class="w-full min-w-[38rem] text-left text-sm">
+          <caption class="sr-only">Estados públicos posibles para un aviso editorial</caption>
+          <thead class="bg-[#f4efe4] text-[#063b1e]">
+            <tr>
+              <th scope="col" class="px-4 py-3 font-semibold">Estado</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Qué significa</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Evidencia mínima</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[#e6e2d8]">
+            <tr>
+              <th scope="row" class="px-4 py-3 font-semibold text-[#141715]">Recibida</th>
+              <td class="px-4 py-3">La observación llegó y todavía no se ha decidido.</td>
+              <td class="px-4 py-3">URL, afirmación y fecha del aviso.</td>
+            </tr>
+            <tr>
+              <th scope="row" class="px-4 py-3 font-semibold text-[#141715]">En evaluación</th>
+              <td class="px-4 py-3">Se están abriendo fuentes y comprobando alcance, método e imagen.</td>
+              <td class="px-4 py-3">Fuentes consultadas y notas de contraste.</td>
+            </tr>
+            <tr>
+              <th scope="row" class="px-4 py-3 font-semibold text-[#141715]">Corregida o aclarada</th>
+              <td class="px-4 py-3">Se modificó o matizó la pieza y se explica el cambio.</td>
+              <td class="px-4 py-3">Versión, fuente, fecha y descripción del cambio.</td>
+            </tr>
+            <tr>
+              <th scope="row" class="px-4 py-3 font-semibold text-[#141715]">Sin cambio</th>
+              <td class="px-4 py-3">La evidencia revisada no justifica modificar la conclusión.</td>
+              <td class="px-4 py-3">Razón documentada y fuentes que se abrieron.</td>
+            </tr>
+            <tr>
+              <th scope="row" class="px-4 py-3 font-semibold text-[#141715]">Retirada</th>
+              <td class="px-4 py-3">La afirmación central no puede sostenerse o requiere investigación adicional.</td>
+              <td class="px-4 py-3">Motivo, fecha y enlace a la explicación disponible.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>Transparencia del historial</h2>
       <p>
         El artículo conserva sus fuentes y sus fechas reales. No cambiamos una fecha para aparentar frescura ni añadimos una persona como autora o revisora sin autorización y evidencia. Las correcciones recibidas se evalúan de buena fe, aunque no todas terminan modificando la página.
